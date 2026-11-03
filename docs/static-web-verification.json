@@ -1,0 +1,154 @@
+{
+  "buildFiles": 11,
+  "buildBytes": 15374503,
+  "forbiddenBackendMarkers": [],
+  "networkRequests": [
+    {
+      "method": "GET",
+      "url": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/index-G-Y54Dl3.css",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/index-Cy8mjcwb.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/favicon.ico",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "url": "/assets/bg/chanh-dien-2.webp",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/Temple3D-Mjedr911.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/di.fbx",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/quy.fbx",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/khan.fbx",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/audio/chill_relax.mp3",
+      "status": 206
+    },
+    {
+      "method": "HEAD",
+      "url": "/",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/assets/bg/chanh-dien-2.webp",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/assets/3d/di.fbx",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/assets/3d/khan.fbx",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/assets/3d/quy.fbx",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/index-G-Y54Dl3.css",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/index-Dl8TRxo1.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/bg/chanh-dien-2.webp",
+      "status": 304
+    },
+    {
+      "method": "GET",
+      "url": "/assets/Temple3D-BhTHIBxE.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/di.fbx",
+      "status": 304
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/khan.fbx",
+      "status": 304
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 304
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/quy.fbx",
+      "status": 304
+    },
+    {
+      "method": "GET",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 304
+    }
+  ],
+  "backendRequests": [],
+  "unexpectedBuildFiles": []
+}

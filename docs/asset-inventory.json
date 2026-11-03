@@ -1,0 +1,80 @@
+[
+  {
+    "Path": "public/assets/3d/di.fbx",
+    "Bytes": 1839568,
+    "SHA256": "E9F4355454554A1D775867EDBAAEAD1E2AEE4B30A093590988E317EE9C262650",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/3d/khan.fbx",
+    "Bytes": 2096816,
+    "SHA256": "F9CCB0223E95B36601D410D9C42DE3EE1802D67CD27494A01038F136B5E869F6",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/3d/nguoi.fbx",
+    "Bytes": 185484,
+    "SHA256": "2822F3C2C5C9D68D20584AC3772564715243524A08A96EB234ABB046D811D280",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/3d/quy.fbx",
+    "Bytes": 2019632,
+    "SHA256": "933E4B8BE290953035D6ED77FA1E166B0862434AC4487FACA00060F75D57ACE0",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/3d/thaphuong.fbx",
+    "Bytes": 2307536,
+    "SHA256": "A42739B55694DC7F0FA4BAC8AFEDABC8651780BCD2573E29677AB3A3DADF546F",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/audio/chill_relax.mp3",
+    "Bytes": 5662136,
+    "SHA256": "53E6A5F4FD638B3D7B185EE3F00ABF9E41B7B0184A0194B454793F99DB5B2ABF",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/bg/chanh-dien-2.webp",
+    "Bytes": 372112,
+    "SHA256": "9E05C191BB6365D34E5E701442FA1A8A0C7A203B3028DBFFA8469491E7BF2880",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "archive/live/public/assets/audio/buddhist_flute.mp3",
+    "Bytes": 3006411,
+    "SHA256": "184633043295E4BB218867224F706316163DA81AFB2680B98C380B2CD815B4A5",
+    "IncludedInWebBuild": false
+  },
+  {
+    "Path": "archive/live/public/assets/audio/khuc_thien_dao.mp3",
+    "Bytes": 3169989,
+    "SHA256": "7F1FD2FF194CBFEEC73CBE22DB8DB8C009CF53E72A429DCDD76330AD62F3D3E8",
+    "IncludedInWebBuild": false
+  },
+  {
+    "Path": "archive/live/public/assets/audio/niem_phat_nam_mo_a_di_da_phat.mp3",
+    "Bytes": 4718593,
+    "SHA256": "ACDF4CC6B74D8DDD8BA24C7FB8EFC860ADAC4DDD785841E959FBF249E14CB25B",
+    "IncludedInWebBuild": false
+  },
+  {
+    "Path": "archive/live/public/assets/bg/chanh-dien-2-4k.webp",
+    "Bytes": 2730034,
+    "SHA256": "20E5256B79E9AC4F77ED9B8733FF636DF49E94FB5ECDD3481C199BAF22725AC5",
+    "IncludedInWebBuild": false
+  },
+  {
+    "Path": "archive/live/public/assets/bg/chanh-dien-2-hd.webp",
+    "Bytes": 1088430,
+    "SHA256": "74517A5ADEC5D248AED5E9EF15156904CE2D9B1BBA380B3C00EDA3AA74F19322",
+    "IncludedInWebBuild": false
+  },
+  {
+    "Path": "archive/live/public/assets/devotees/phattu.png",
+    "Bytes": 33291,
+    "SHA256": "54795FE37648E66464BA7D867EB6CD3C78C7E20ABF0A6437DAF2B4DB2306104B",
+    "IncludedInWebBuild": false
+  }
+]

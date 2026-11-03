@@ -1,0 +1,71 @@
+M	.gitignore
+A	.npmrc
+M	README.md
+R100	.env.example	archive/live/.env.example
+A	archive/live/ARCHIVE.md
+R100	BAT-LIVE.bat	archive/live/BAT-LIVE.bat
+R100	CLAUDE.md	archive/live/CLAUDE.md
+A	archive/live/README.md
+A	archive/live/index.html
+A	archive/live/package-lock.json
+A	archive/live/package.json
+R100	public/assets/audio/buddhist_flute.mp3	archive/live/public/assets/audio/buddhist_flute.mp3
+R100	public/assets/audio/khuc_thien_dao.mp3	archive/live/public/assets/audio/khuc_thien_dao.mp3
+R100	public/assets/audio/niem_phat_nam_mo_a_di_da_phat.mp3	archive/live/public/assets/audio/niem_phat_nam_mo_a_di_da_phat.mp3
+R100	public/assets/bg/chanh-dien-2-4k.webp	archive/live/public/assets/bg/chanh-dien-2-4k.webp
+R100	public/assets/bg/chanh-dien-2-hd.webp	archive/live/public/assets/bg/chanh-dien-2-hd.webp
+R100	public/assets/devotees/phattu.png	archive/live/public/assets/devotees/phattu.png
+R100	server.ts	archive/live/server.ts
+A	archive/live/src/App.tsx
+A	archive/live/src/components/ChanhDienStage.tsx
+R100	src/components/CompactBangCongDuc.tsx	archive/live/src/components/CompactBangCongDuc.tsx
+R100	src/components/CraneFlight.tsx	archive/live/src/components/CraneFlight.tsx
+R100	src/components/DevoteeCrowd.tsx	archive/live/src/components/DevoteeCrowd.tsx
+R100	src/components/FortuneBox.tsx	archive/live/src/components/FortuneBox.tsx
+R100	src/components/FortuneCard.tsx	archive/live/src/components/FortuneCard.tsx
+R100	src/components/GiftNotificationBanner.tsx	archive/live/src/components/GiftNotificationBanner.tsx
+R100	src/components/GoldenLotusBloom.tsx	archive/live/src/components/GoldenLotusBloom.tsx
+R100	src/components/HeaderNav.tsx	archive/live/src/components/HeaderNav.tsx
+R100	src/components/LikeRain.tsx	archive/live/src/components/LikeRain.tsx
+R100	src/components/LiveControlPanel.tsx	archive/live/src/components/LiveControlPanel.tsx
+R100	src/components/OfferingArea.tsx	archive/live/src/components/OfferingArea.tsx
+R100	src/components/Person.tsx	archive/live/src/components/Person.tsx
+R100	src/components/SpotlightCard.tsx	archive/live/src/components/SpotlightCard.tsx
+R100	src/components/StageSettingsPanel.tsx	archive/live/src/components/StageSettingsPanel.tsx
+R100	src/components/StreamerDeck.tsx	archive/live/src/components/StreamerDeck.tsx
+R100	src/components/TempleLightingEffects.tsx	archive/live/src/components/TempleLightingEffects.tsx
+R100	src/data/fortunes.ts	archive/live/src/data/fortunes.ts
+A	archive/live/src/index.css
+A	archive/live/src/main.tsx
+R100	src/services/bannedWords.ts	archive/live/src/services/bannedWords.ts
+R100	src/services/likeRain.ts	archive/live/src/services/likeRain.ts
+R100	src/services/seating.ts	archive/live/src/services/seating.ts
+A	archive/live/src/services/soundEngine.ts
+R100	src/services/wishResponder.ts	archive/live/src/services/wishResponder.ts
+A	archive/live/src/three/Temple3D.tsx
+A	archive/live/src/three/retarget.ts
+A	archive/live/src/three/templeScene.ts
+R100	src/types/temple.ts	archive/live/src/types/temple.ts
+A	archive/live/tsconfig.json
+A	archive/live/vite.config.ts
+A	docs/ASSETS.md
+A	docs/STAGE-0-1.md
+A	docs/asset-inventory.json
+A	docs/baseline-comparison.json
+A	docs/dependency-lifecycle-review.json
+A	docs/stage-1-preview.jpg
+A	docs/static-web-verification.json
+M	index.html
+M	package-lock.json
+M	package.json
+M	src/App.tsx
+M	src/components/ChanhDienStage.tsx
+A	src/components/WelcomePanel.tsx
+A	src/config/templeAssets.ts
+M	src/index.css
+M	src/main.tsx
+M	src/services/soundEngine.ts
+M	src/three/Temple3D.tsx
+M	src/three/templeScene.ts
+M	tsconfig.json
+M	vite.config.ts

@@ -1,0 +1,42 @@
+[
+  {
+    "File": "package.json",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "35DFBD2562A6CDD417C36502630D4391916DAEC0E7FF2808AA6FD5936A70E7BE"
+  },
+  {
+    "File": "package-lock.json",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "0F3604B7B6B5BB327467B14D419DC9470FB2C6A3B6A49300DAF2E3FEC4D797BB"
+  },
+  {
+    "File": "BAT-LIVE.bat",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "5039CE6D632167C657D01A8B201EED775A6A020732C4E4F78BBE7B793E3AC29A"
+  },
+  {
+    "File": "server.ts",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "EEFC7053045D1397C2512A8E19457ACA7F1CBF5DD7B0997E474DA3410840BE92"
+  },
+  {
+    "File": "src/App.tsx",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "95592052B2FD3B5B3E0A37F90CE588D65A6A9A6FC0E0B470C3E27401B1E6E738"
+  },
+  {
+    "File": "src/components/ChanhDienStage.tsx",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "8A52C0B6A295CCF443FFABE200E9BE0035261B84215E344A2ADB12A860CA3CBA"
+  },
+  {
+    "File": "src/services/soundEngine.ts",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "5F5C694DC7A514C956B8B4DE5DCF7D617F7F0B49F0F96CD371EC87F46DA184A9"
+  },
+  {
+    "File": "src/three/templeScene.ts",
+    "MatchesIgnoringLineEndings": true,
+    "LocalSHA256": "FA451525E35FF5D3B9D139A7326357068361D8852297127E3D8B86F7A85D83E6"
+  }
+]

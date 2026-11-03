@@ -8,6 +8,7 @@ import * as THREE from 'three';
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
 import { clone as cloneSkinned } from 'three/examples/jsm/utils/SkeletonUtils.js';
 import { retargetClip, usesMixamoRig } from './retarget';
+import { templeAssets } from '../config/templeAssets';
 
 export type StagePoint = { x: number; y: number }; // % of stage width / height; y is the feet line
 export type ActorSpec = {
@@ -52,7 +53,6 @@ type Clips = {
 };
 export type DevoteeAssets = { model: THREE.Group; clips: Clips };
 
-const BASE = '/assets/3d/';
 const HEIGHT = 0.46; // world units a standing person is scaled to (sized against the hall painting)
 const WALK_SPEED = 1.3; // world units per second
 const AISLE_X = 50;
@@ -81,7 +81,7 @@ export async function loadDevoteeAssets(): Promise<DevoteeAssets> {
   const groups: Record<string, THREE.Group> = {};
   const clip = async (file: string, required: boolean) => {
     try {
-      const g = await loader.loadAsync(BASE + file);
+      const g = await loader.loadAsync(file);
       groups[file] = g;
       return g.animations[0];
     } catch (err) {
@@ -90,23 +90,22 @@ export async function loadDevoteeAssets(): Promise<DevoteeAssets> {
     }
   };
   const [walk, kneel, kneelDown, incense] = await Promise.all([
-    clip('di.fbx', true),
-    clip('khan.fbx', true),
-    clip('quy.fbx', false),
-    clip('thaphuong.fbx', false),
+    clip(templeAssets.models.walk, true),
+    clip(templeAssets.models.kneel, true),
+    clip(templeAssets.models.kneelDown, false),
+    clip(templeAssets.models.incense, false),
   ]);
   if (!walk || !kneel) throw new Error('missing di.fbx or khan.fbx');
   // The character: nhanvat.fbx or nguoi.fbx when present, otherwise the body that came with khan.fbx (Mixamo "With Skin")
   const own = await loader
-    .loadAsync(BASE + 'nhanvat.fbx')
-    .catch(() => loader.loadAsync(BASE + 'nguoi.fbx'))
+    .loadAsync(templeAssets.models.character)
     .catch(() => null);
-  const model: THREE.Group = own ?? groups['khan.fbx'];
+  const model: THREE.Group = own ?? groups[templeAssets.models.kneel];
   model.animations = [];
   let clips: Clips = { walk, kneel, kneelDown, incense };
   if (own && !usesMixamoRig(own)) {
     // Own skeleton (Hips/Spine/Chest/...): rebuild every Mixamo clip for it
-    const source = groups['khan.fbx'];
+    const source = groups[templeAssets.models.kneel];
     const r = (c?: THREE.AnimationClip) => (c ? retargetClip(own, source, c) : undefined);
     clips = { walk: r(walk)!, kneel: r(kneel)!, kneelDown: r(kneelDown), incense: r(incense) };
   }
@@ -436,7 +435,7 @@ export class TempleScene {
   private floor = new THREE.Plane(new THREE.Vector3(0, 1, 0), 0);
   private raycaster = new THREE.Raycaster();
   private actors = new Map<string, Actor>();
-  private clock = new THREE.Clock();
+  private previousFrame = performance.now();
   private frame = 0;
 
   // Spotlight: a gift giver is followed up close while they walk up and offer incense. The 3D view renders only
@@ -534,7 +533,9 @@ export class TempleScene {
     const loop = () => {
       this.frame = requestAnimationFrame(loop);
       if (frames++ % 30 === 0) this.resize();
-      const dt = Math.min(this.clock.getDelta(), 0.1);
+      const now = performance.now();
+      const dt = Math.min((now - this.previousFrame) / 1000, 0.1);
+      this.previousFrame = now;
       for (const a of this.actors.values()) a.update(dt);
       this.updateSpotlight(dt);
       this.renderer.render(this.scene, this.zoom > 1.001 ? this.viewCam : this.camera);

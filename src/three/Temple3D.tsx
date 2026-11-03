@@ -17,6 +17,8 @@ export const Temple3D: React.FC<{
   const labelsRef = useRef<HTMLDivElement>(null);
   const selfRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<TempleScene | null>(null);
+  const readyRef = useRef(onReady);
+  readyRef.current = onReady;
   const specsRef = useRef(specs);
   specsRef.current = specs;
   const litRef = useRef(onIncenseLit);
@@ -30,6 +32,21 @@ export const Temple3D: React.FC<{
 
   useEffect(() => {
     let cancelled = false;
+    const canvas = canvasRef.current;
+    const unavailable = () => {
+      if (cancelled) return;
+      cancelled = true;
+      clearTimeout(timeout);
+      sceneRef.current?.dispose();
+      sceneRef.current = null;
+      readyRef.current(false);
+    };
+    const timeout = window.setTimeout(unavailable, 30000);
+    const onContextLost = (event: Event) => {
+      event.preventDefault();
+      unavailable();
+    };
+    canvas?.addEventListener('webglcontextlost', onContextLost);
     loadDevoteeAssets()
       .then((assets) => {
         if (cancelled || !canvasRef.current) return;
@@ -45,14 +62,17 @@ export const Temple3D: React.FC<{
         sceneRef.current = scene;
         scene.sync(specsRef.current);
         scene.setSpotlight(spotRef.current);
-        onReady(true);
+        clearTimeout(timeout);
+        readyRef.current(true);
       })
       .catch((err) => {
         console.info('3D devotees off (no model in /assets/3d/):', err?.message ?? err);
-        onReady(false);
+        unavailable();
       });
     return () => {
       cancelled = true;
+      clearTimeout(timeout);
+      canvas?.removeEventListener('webglcontextlost', onContextLost);
       sceneRef.current?.dispose();
       sceneRef.current = null;
     };
