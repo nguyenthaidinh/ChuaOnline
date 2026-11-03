@@ -1,0 +1,49 @@
+{
+  "first": {
+    "count": "2",
+    "people": [
+      {
+        "id": "c4f1a1cb-54c1-4928-8901-5bd519eb7c57",
+        "name": "An Nhiên · Bạn",
+        "phase": "moving"
+      },
+      {
+        "id": "61bc86c5-da44-4caf-a5ab-d95c932846b1",
+        "name": "Bình An",
+        "phase": "moving"
+      }
+    ],
+    "self": "c4f1a1cb-54c1-4928-8901-5bd519eb7c57"
+  },
+  "second": {
+    "count": "2",
+    "people": [
+      {
+        "id": "c4f1a1cb-54c1-4928-8901-5bd519eb7c57",
+        "name": "An Nhiên",
+        "phase": "moving"
+      },
+      {
+        "id": "61bc86c5-da44-4caf-a5ab-d95c932846b1",
+        "name": "Bình An · Bạn",
+        "phase": "moving"
+      }
+    ],
+    "self": "61bc86c5-da44-4caf-a5ab-d95c932846b1"
+  },
+  "afterLeave": {
+    "count": "1",
+    "people": 1
+  },
+  "mobile": {
+    "height": 844,
+    "image": "./assets/tanphat/hall.jpg",
+    "roomPeople": 2,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "afterAllLeave": {
+    "count": "0",
+    "people": 0
+  }
+}

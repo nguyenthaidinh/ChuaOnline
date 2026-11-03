@@ -36,6 +36,72 @@
     "IncludedInWebBuild": true
   },
   {
+    "Path": "public/assets/tanphat/anim_granny.png",
+    "Bytes": 354418,
+    "SHA256": "5F4F5AA5DA67A9B9ACB8892AC6CC77AC8A57FF457431CF203E014EF4F01D8F85",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/anim_man.png",
+    "Bytes": 355269,
+    "SHA256": "8FD671689D85FA73A2B966B81E8C1F2444BA140803129D920B7D0F6FBDDBA6DC",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/anim_woman.png",
+    "Bytes": 374079,
+    "SHA256": "C2B8E069D266536E4F1AA97111580DE003835020B633DE6753214E0B6D9D3610",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/c_granny.png",
+    "Bytes": 70203,
+    "SHA256": "852467EC375DF83D9390ED873446E5538BAE74053DE83FDEF57D8CED7601C2E4",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/c_man.png",
+    "Bytes": 64083,
+    "SHA256": "C174C844F5E0B4840A345B0DEB947A3A84C62A89DEA9619DC59938B759222581",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/c_woman.png",
+    "Bytes": 65531,
+    "SHA256": "55385667E2C0F0BE8ED3502CEC62E3330916C476BC529F45162804FA1479652E",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/fx_bell.png",
+    "Bytes": 102797,
+    "SHA256": "E62EFD95FAD6B91CBC5DAB13F868F509B24E551E089F00140EBCF3543C35B4CE",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/fx_incense.png",
+    "Bytes": 36429,
+    "SHA256": "AF9F4BFAF5566161F5B29274A2588878276A6F557866C1A0FFF059C8E19473F2",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/fx_lotus.png",
+    "Bytes": 95494,
+    "SHA256": "DD41ED49745665F065486E033DE5D26FD5CC05FC2E39A3DD702D2DEE1DE97ABD",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/hall-desktop.webp",
+    "Bytes": 312912,
+    "SHA256": "F65AE73B8AC886C29E61CAD612577F4348E01A40F799F1319C32366714807525",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/tanphat/hall.jpg",
+    "Bytes": 349488,
+    "SHA256": "6A38CF1F1F39BBDE9F1668CA404425435CD6C372235CBDB511E75C92CDEBC6F9",
+    "IncludedInWebBuild": true
+  },
+  {
     "Path": "public/assets/web/temple-layout-desktop.svg",
     "Bytes": 5597,
     "SHA256": "870C6C9BF6E78CF3A67B4368924DCE508B6BCE50B14DB305EFFE0E6D229B66B0",

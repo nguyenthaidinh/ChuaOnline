@@ -1,27 +1,26 @@
-# Đi Chùa Online — bản web độc lập
+# Đi Chùa Online — chánh điện chung
 
-Bản làm việc sau Chặng 3: React, TypeScript, Vite và Three.js chạy trong trình duyệt.
-Không cần server Express, TikTok, SSE, API điều khiển hoặc TTS.
-Mỗi tab giữ tên hiển thị và trạng thái nhạc trong bộ nhớ; không đăng nhập,
-không gửi tên lên máy chủ, không lưu vào localStorage.
+Bản hiện tại cho nhiều khách cùng xuất hiện trong một chánh điện. Mỗi người có tên,
+y phục và chỗ ngồi riêng; mọi khách thấy nhân vật và nghi lễ của nhau. Số người là
+khách đang tham gia thật, không có người mẫu hoặc số trực tuyến giả.
 
-## Chạy tại máy
+Giao diện dùng ảnh và nhân vật từ thư mục ChuaTanPhat do người dùng chỉ định.
+Bản ngang được tạo theo ảnh chánh điện đó, không dùng nền SVG tạm trước đây.
 
-Môi trường đã kiểm tra: Windows, Node.js 22.18.0, npm 11.17.0.
-`package.json` khai báo Node `^22.12.0 || >=24.0.0`.
+## Chạy để phát triển
+
+Node.js 22.12 trở lên (đã kiểm tra 22.18.0), npm.
 
 ```powershell
 npm ci --ignore-scripts
 npm run dev
 ```
 
-Mở địa chỉ Local Vite in ra, thường là `http://127.0.0.1:5173/`.
-Bấm **Bắt đầu**, nhập tên tùy chọn; mặc định không phát âm thanh.
-Nhạc chỉ được tải khi bạn chọn bật nhạc. Có chuông tổng hợp và chỉnh âm lượng.
-Chọn **Thắp hương** hoặc **Lễ Phật · 3 lạy** để nhân vật đi lên thực hiện nghi lễ và
-trở về chỗ. Khi nhân vật bận, nút nghi lễ tạm khóa; nhạc, chuông và lời chúc vẫn dùng được.
-Nếu model lỗi, bản web tự chuyển sang nhân vật 2D có cùng luồng nghi lễ.
-Không cần `.env`, không chạy file BAT cũ.
+Mở địa chỉ Vite in ra, thường là http://127.0.0.1:5173/.
+Lệnh dev chạy cả Vite và máy chủ phòng ở 127.0.0.1:8787. Ctrl+C dừng cả hai.
+Vite chuyển tiếp /api/room tới máy chủ phòng; không cần mở thêm terminal.
+
+## Kiểm tra và chạy bản build
 
 ```powershell
 npm run typecheck
@@ -30,50 +29,51 @@ npm run build
 npm run preview
 ```
 
-`dist/` là đầu ra tĩnh. `preview` chỉ để kiểm tra tại máy.
-`npm start` là bí danh chạy Vite ở chế độ phát triển. `.npmrc` tắt lifecycle scripts;
-không tự bật lại nếu chưa rà dependency thay đổi.
-
-## Phạm vi đã làm
-
-- Luồng vào riêng, tên tùy chọn, lựa chọn bật nhạc sau thao tác chủ động.
-- Chánh điện ngang 16:9 trên máy tính, dọc 9:16 trên điện thoại; một nhân vật riêng mỗi phiên.
-- Điểm neo, camera, kích thước nhân vật, hào quang, bồ đoàn dùng chung cấu hình desktop/mobile.
-- Đổi kích thước hoặc xoay màn hình không khởi động lại nghi lễ; thanh thao tác nằm ngoài cảnh.
-- Có toàn màn hình, âm thanh thu gọn trên mobile và bảng lời chúc đóng được bằng nút hoặc Escape.
-- Thắp hương và lễ Phật đủ ba lạy, theo trạng thái di chuyển/thực hiện/trở về/hoàn tất/lỗi.
-- Chặn bấm dồn, không xếp hàng vô hạn; lỗi có thể thử lại, có watchdog 45 giây.
-- Lời chúc soạn sẵn; nghi lễ hoạt động cả ở chế độ dự phòng 2D.
-- Tách UI/sự kiện livestream và TTS khỏi mã frontend đang chạy.
-- Cấu hình đường dẫn ảnh, FBX, nhạc tại `src/config/templeAssets.ts`.
-- Thông báo tải, lỗi 3D, biểu tượng dự phòng và nút thử lại.
-- TypeScript strict cho `src`, cấu hình Vite và tests; 13 bài kiểm tra nghi lễ/phiên/tọa độ.
-
-Nền hiện tại là SVG tạm để căn bố cục. Ảnh hoàn thiện và tối ưu phát hành thuộc
-Chặng 4–5. Ô lời nguyện cá nhân để sau luồng chính.
-Không triển khai công khai trong lượt này.
-
-## Tài liệu và điểm phục hồi
-
-- [Báo cáo Chặng 0–1](docs/STAGE-0-1.md): thay đổi, kiểm tra, giới hạn và công việc tiếp theo.
-- [Báo cáo Chặng 2](docs/STAGE-2.md): thao tác web, kiểm thử và phần chưa xác minh.
-- [Báo cáo Chặng 3](docs/STAGE-3.md): bố cục desktop/mobile, kiểm thử resize và file thay đổi.
-- [Mô tả ảnh cần tạo](docs/SCENE-ART-BRIEF.md): góc nhìn, điểm neo và prompt cho Chặng 4.
-- [Danh mục tài nguyên](docs/ASSETS.md): nguồn khai báo và quyền chưa xác minh.
-- `archive/live/` giữ mã livestream, cấu hình và README gốc; không nằm trong build.
-- Tag `baseline-import-20261103` giữ toàn bộ bản nhập trước khi sửa.
-- Tag `stage-1-static-web` giữ bản hoàn thành Chặng 1.
-- Tag `stage-2-web-actions` giữ bản có thao tác nghi lễ trực tiếp.
-- Tag `stage-3-responsive-web` giữ bản bố cục ngang và mobile.
-
-Tạo thư mục riêng để xem lại bản gốc mà không ghi đè công việc hiện tại:
+Preview phục vụ cả giao diện production và phòng chung ở http://127.0.0.1:4173/.
+Để chạy bình thường bằng cổng 3000:
 
 ```powershell
-git worktree add --detach "../ChuaOnline-baseline" baseline-import-20261103
+npm run build
+npm start
 ```
 
-Không chạy BAT hoặc cài dependency của bản gốc trước khi rà lại lifecycle scripts.
+Nếu cổng bị chiếm, đặt PORT trước khi chạy. Máy chủ mặc định chỉ nhận từ máy này.
+Để thử các thiết bị cùng mạng, có thể đặt HOST=0.0.0.0 và mở địa chỉ IP LAN của máy
+chạy Node; các thiết bị phải cùng truy cập một máy chủ đó.
 
-## Giấy phép
+## Thử phòng chung
 
-Mã nguồn: [MIT](LICENSE). Tài nguyên có điều kiện riêng; xem `docs/ASSETS.md` trước khi xuất bản.
+1. Mở hai tab cùng địa chỉ.
+2. Tab đầu bấm Vào an tọa, nhập tên và chọn y phục.
+3. Tab thứ hai vào với tên khác: cả hai thấy cùng danh sách và hai nhân vật.
+4. Thắp hương hoặc Lễ Phật 3 lạy: khách khác nhìn thấy hành động.
+5. Rời điện: người đó biến mất ở các tab còn lại.
+
+Lệnh nghi lễ do máy chủ nhận và định thời. Bấm dồn không tạo hàng đợi vô hạn.
+Khách vào sau thấy đúng tiến độ đang chạy. Nhạc/chuông là âm thanh riêng trên thiết bị,
+chỉ phát sau thao tác. Tên hiển thị công khai trong phòng và dài tối đa 32 ký tự.
+
+## Vận hành hiện tại
+
+- Một phòng, tối đa 24 khách, bốn vị trí làm lễ đồng thời.
+- Trạng thái nằm trong bộ nhớ một tiến trình Node; khởi động lại máy chủ sẽ đặt lại phòng.
+- Khi đóng tab, trình duyệt gửi yêu cầu rời phòng. Mất kết nối không gửi được yêu cầu:
+  khách được dọn sau khoảng 90 giây không có heartbeat.
+- Chưa có tài khoản, lịch sử lâu dài hoặc đồng bộ giữa nhiều máy chủ.
+- Đã kiểm tra hai tab trình duyệt và giao tiếp HTTP/SSE; chưa thử tải 24 thiết bị thật.
+
+**Bản này cần máy chủ Node để chia sẻ phòng. Chỉ tải dist lên hosting tĩnh sẽ không
+đủ. Chưa triển khai công khai lên Internet.** Người truy cập bản được triển khai chỉ
+cần trình duyệt, không cần cài Node trên thiết bị của họ.
+
+## Tài liệu
+
+- [Báo cáo bản phòng chung và giao diện mới](docs/SHARED-ROOM.md)
+- [Kiểm tra hai tab](docs/shared-room-browser-checks.json)
+- [Nguồn tài nguyên và ảnh mở rộng](docs/SHARED-ASSETS.md)
+
+Mốc Git mới: shared-room-v1. Bản trước còn ở tag stage-3-responsive-web.
+Các báo cáo STAGE-0-1/2/3 là lịch sử phạm vi cũ; quyết định dùng phiên riêng/hosting
+thuần tĩnh trong các báo cáo đó đã được thay bằng yêu cầu phòng chung của người dùng.
+
+Mã: MIT theo LICENSE. Tài nguyên có nguồn và điều kiện riêng, xem tài liệu tài nguyên.

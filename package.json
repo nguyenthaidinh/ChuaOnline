@@ -7,13 +7,13 @@
     "node": "^22.12.0 || >=24.0.0"
   },
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "start": "vite --host 127.0.0.1",
+    "dev": "node scripts/dev.mjs",
+    "start": "node --experimental-strip-types server/index.ts",
     "typecheck": "tsc --noEmit",
     "lint": "npm run typecheck",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1",
-    "test": "node --experimental-strip-types --test tests/ritual.test.ts tests/sceneLayout.test.ts"
+    "preview": "node --experimental-strip-types scripts/preview.mjs",
+    "test": "node --experimental-strip-types --test tests/ritual.test.ts tests/sceneLayout.test.ts tests/room.test.ts"
   },
   "dependencies": {
     "react": "19.3.1",

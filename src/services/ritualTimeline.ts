@@ -36,7 +36,21 @@ export class RitualTimeline {
   advance(delta: number): RitualFrame {
     if (!Number.isFinite(delta) || delta < 0) throw new Error('invalid-frame-time');
     if (!this.cancelled) this.elapsed = Math.min(this.duration, this.elapsed + delta);
-    const t = this.elapsed;
+    const frame = this.sampleAt(this.elapsed);
+    const { phase, completedBows, incenseLit } = frame;
+    const signature = `${phase}:${completedBows}:${incenseLit}`;
+    if (!this.cancelled && signature !== this.emitted) {
+      this.emitted = signature;
+      this.notify(phase === 'complete'
+        ? { type: 'complete', commandId: this.command.id, completedBows, incenseLit }
+        : { type: 'progress', commandId: this.command.id, phase, completedBows, incenseLit });
+    }
+    return frame;
+  }
+
+  // Absolute server time lets late joiners and reconnecting clients see the same pose.
+  sampleAt(seconds: number): RitualFrame {
+    const t = Math.max(0, Math.min(this.duration, seconds));
     const performTime = Math.max(0, Math.min(this.performSeconds, t - this.walkSeconds));
     const phase = t >= this.duration ? 'complete' : t < this.walkSeconds ? 'moving'
       : t < this.walkSeconds + this.performSeconds ? 'performing' : 'returning';
@@ -55,13 +69,6 @@ export class RitualTimeline {
       travel: phase === 'moving' ? t / this.walkSeconds : phase === 'performing' ? 1
         : phase === 'returning' ? 1 - (t - this.walkSeconds - this.performSeconds) / this.walkSeconds : 0,
     };
-    const signature = `${phase}:${completedBows}:${incenseLit}`;
-    if (!this.cancelled && signature !== this.emitted) {
-      this.emitted = signature;
-      this.notify(phase === 'complete'
-        ? { type: 'complete', commandId: this.command.id, completedBows, incenseLit }
-        : { type: 'progress', commandId: this.command.id, phase, completedBows, incenseLit });
-    }
     return frame;
   }
 }
