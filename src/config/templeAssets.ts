@@ -1,8 +1,11 @@
 const asset = (path: string) => `${import.meta.env.BASE_URL}assets/${path}`;
 
-// Temporary portrait scene. Desktop/mobile artwork and anchors belong to stage 3.
+// Layout drafts. Replace the pair with approved artwork matching sceneLayout.ts anchors.
 export const templeAssets = {
-  background: asset('bg/chanh-dien-2.webp'),
+  backgrounds: {
+    desktop: asset('web/temple-layout-desktop.svg'),
+    mobile: asset('web/temple-layout-mobile.svg'),
+  },
   music: asset('audio/chill_relax.mp3'),
   models: {
     walk: asset('3d/di.fbx'),

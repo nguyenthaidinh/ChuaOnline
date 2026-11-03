@@ -13,7 +13,7 @@
     "lint": "npm run typecheck",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --experimental-strip-types --test tests/ritual.test.ts"
+    "test": "node --experimental-strip-types --test tests/ritual.test.ts tests/sceneLayout.test.ts"
   },
   "dependencies": {
     "react": "19.3.1",

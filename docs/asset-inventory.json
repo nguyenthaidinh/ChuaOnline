@@ -36,9 +36,15 @@
     "IncludedInWebBuild": true
   },
   {
-    "Path": "public/assets/bg/chanh-dien-2.webp",
-    "Bytes": 372112,
-    "SHA256": "9E05C191BB6365D34E5E701442FA1A8A0C7A203B3028DBFFA8469491E7BF2880",
+    "Path": "public/assets/web/temple-layout-desktop.svg",
+    "Bytes": 5597,
+    "SHA256": "870C6C9BF6E78CF3A67B4368924DCE508B6BCE50B14DB305EFFE0E6D229B66B0",
+    "IncludedInWebBuild": true
+  },
+  {
+    "Path": "public/assets/web/temple-layout-mobile.svg",
+    "Bytes": 4743,
+    "SHA256": "84834C4FE251150A55D4D42B884E1ECC3F1DEF73849249E4D3CDE5D10BEA2BA5",
     "IncludedInWebBuild": true
   },
   {
@@ -69,6 +75,12 @@
     "Path": "archive/live/public/assets/bg/chanh-dien-2-hd.webp",
     "Bytes": 1088430,
     "SHA256": "74517A5ADEC5D248AED5E9EF15156904CE2D9B1BBA380B3C00EDA3AA74F19322",
+    "IncludedInWebBuild": false
+  },
+  {
+    "Path": "archive/live/public/assets/bg/chanh-dien-2.webp",
+    "Bytes": 372112,
+    "SHA256": "9E05C191BB6365D34E5E701442FA1A8A0C7A203B3028DBFFA8469491E7BF2880",
     "IncludedInWebBuild": false
   },
   {

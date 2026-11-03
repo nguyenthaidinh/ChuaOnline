@@ -1,20 +1,31 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
 import { RitualTimeline } from '../services/ritualTimeline';
-import { RITUAL_POINTS } from '../config/ritual';
+import { actorHeight, ritualPosition, type SceneLayout } from '../config/sceneLayout';
 import type { RitualCommand, RitualEvent } from '../types/experience';
 
-export function TempleFallback({ name, command, onEvent }: {
-  name: string; command: RitualCommand | null; onEvent: (event: RitualEvent) => void;
+export function TempleFallback({ name, command, layout, onEvent }: {
+  name: string; command: RitualCommand | null; layout: SceneLayout; onEvent: (event: RitualEvent) => void;
 }) {
   const person = useRef<HTMLDivElement>(null);
   const upper = useRef<SVGGElement>(null);
   const callback = useRef(onEvent);
   callback.current = onEvent;
+  const layoutRef = useRef(layout);
+  layoutRef.current = layout;
+  const travel = useRef(0);
+  const place = () => {
+    if (!person.current) return;
+    const point = ritualPosition(layoutRef.current, travel.current);
+    person.current.style.left = `${point.x}%`;
+    person.current.style.top = `${point.y}%`;
+    person.current.style.height = `${actorHeight(layoutRef.current, travel.current)}%`;
+  };
+  useLayoutEffect(place, [layout]);
   useEffect(() => {
     const element = person.current;
     if (!element) return;
-    element.style.left = `${RITUAL_POINTS.home.x}%`;
-    element.style.top = `${RITUAL_POINTS.home.y}%`;
+    travel.current = 0;
+    place();
     upper.current?.setAttribute('transform', 'rotate(0 24 42)');
     if (!command) return;
     const timeline = new RitualTimeline(command, event => callback.current(event));
@@ -25,7 +36,8 @@ export function TempleFallback({ name, command, onEvent }: {
         const now = performance.now();
         const frame = timeline.advance(Math.min((now - previous) / 1000, 0.1));
         previous = now;
-        element.style.top = `${RITUAL_POINTS.home.y + (RITUAL_POINTS.altar.y - RITUAL_POINTS.home.y) * frame.travel}%`;
+        travel.current = frame.travel;
+        place();
         upper.current?.setAttribute('transform', `rotate(${-65 * frame.bowWeight} 24 42)`);
         if (frame.phase !== 'complete') frameId = requestAnimationFrame(render);
       } catch {
@@ -35,7 +47,7 @@ export function TempleFallback({ name, command, onEvent }: {
     frameId = requestAnimationFrame(render);
     return () => { cancelAnimationFrame(frameId); timeline.cancel(); };
   }, [command]);
-  return <div ref={person} className="fallback-avatar" style={{ left: `${RITUAL_POINTS.home.x}%`, top: `${RITUAL_POINTS.home.y}%` }}>
+  return <div ref={person} className="fallback-avatar">
     <svg width="42" height="62" viewBox="0 0 48 70" role="img" aria-label="Nhân vật 2D">
       <ellipse cx="24" cy="64" rx="20" ry="4" fill="#000" opacity=".25" />
       <path d="M10 48h28l5 15H5z" fill="#626f71" />

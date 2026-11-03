@@ -3,7 +3,8 @@ import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
 import { clone as cloneSkinned } from 'three/examples/jsm/utils/SkeletonUtils.js';
 import { retargetClip, usesMixamoRig } from './retarget';
 import { templeAssets } from '../config/templeAssets';
-import { RITUAL_POINTS } from '../config/ritual';
+import { actorHeight, ritualPosition, type SceneLayout } from '../config/sceneLayout';
+import { configureCamera, floorPointToWorld, scaleForActorHeight, worldPointToStage } from './sceneProjection';
 import { RitualTimeline, type RitualFrame } from '../services/ritualTimeline';
 import type { RitualCommand, RitualEvent } from '../types/experience';
 
@@ -82,11 +83,11 @@ function makeIncense() {
   const group = new THREE.Group();
   const material = new THREE.MeshBasicMaterial({ color: 0xa8321a });
   const tipMaterial = new THREE.MeshBasicMaterial({ color: 0xffb347 });
-  for (const x of [-0.018, 0, 0.018]) {
-    const stick = new THREE.Mesh(new THREE.CylinderGeometry(0.008, 0.008, 0.65, 6), material);
-    stick.position.set(x, 0.25, 0);
-    const tip = new THREE.Mesh(new THREE.SphereGeometry(0.018, 8, 8), tipMaterial);
-    tip.position.set(x, 0.58, 0);
+  for (const x of [-0.008, 0, 0.008]) {
+    const stick = new THREE.Mesh(new THREE.CylinderGeometry(0.003, 0.003, 0.28, 6), material);
+    stick.position.set(x, 0.11, 0);
+    const tip = new THREE.Mesh(new THREE.SphereGeometry(0.007, 8, 8), tipMaterial);
+    tip.position.set(x, 0.25, 0);
     group.add(stick, tip);
   }
   return group;
@@ -191,8 +192,6 @@ export class TempleScene {
   private renderer: THREE.WebGLRenderer;
   private scene = new THREE.Scene();
   private camera = new THREE.PerspectiveCamera(32, 9 / 16, 0.1, 200);
-  private floor = new THREE.Plane(new THREE.Vector3(0, 1, 0), 0);
-  private raycaster = new THREE.Raycaster();
   private actor: TempleActor;
   private home = new THREE.Vector3();
   private altar = new THREE.Vector3();
@@ -209,18 +208,21 @@ export class TempleScene {
   private onFailure: () => void;
   private label: HTMLElement;
   private resizeObserver: ResizeObserver;
+  private layout: SceneLayout;
+  private travel = 0;
+  private homeScale = 1;
+  private altarScale = 1;
 
   constructor(canvas: HTMLCanvasElement, assets: DevoteeAssets, label: HTMLElement,
-    notify: (event: RitualEvent) => void, onFailure: () => void) {
+    notify: (event: RitualEvent) => void, onFailure: () => void, layout: SceneLayout) {
     this.canvas = canvas;
     this.assets = assets;
     this.notify = notify;
     this.onFailure = onFailure;
     this.label = label;
+    this.layout = layout;
     this.renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
-    this.camera.position.set(0, 9, 13);
-    this.camera.lookAt(0, 0, -6);
     this.scene.add(new THREE.HemisphereLight(0xfff0d6, 0x3a1f0b, 1.4));
     const light = new THREE.DirectionalLight(0xffd9a0, 1.6);
     light.position.set(2, 10, 6);
@@ -235,9 +237,14 @@ export class TempleScene {
     this.frameId = requestAnimationFrame(this.render);
   }
 
-  private toWorld(point: { x: number; y: number }) {
-    this.raycaster.setFromCamera(new THREE.Vector2(point.x / 50 - 1, 1 - point.y / 50), this.camera);
-    return this.raycaster.ray.intersectPlane(this.floor, new THREE.Vector3()) ?? new THREE.Vector3();
+  setLayout(layout: SceneLayout) {
+    this.layout = layout;
+    this.resize();
+  }
+
+  private placeActor() {
+    this.actor.root.position.copy(floorPointToWorld(this.camera, ritualPosition(this.layout, this.travel)));
+    this.actor.root.scale.setScalar(this.homeScale + (this.altarScale - this.homeScale) * this.travel);
   }
 
   private resize() {
@@ -245,11 +252,12 @@ export class TempleScene {
     if (!width || !height || this.disposed) return;
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2, 1080 / width));
     this.renderer.setSize(width, height, false);
-    this.camera.aspect = width / height;
-    this.camera.updateProjectionMatrix();
-    this.home.copy(this.toWorld(RITUAL_POINTS.home));
-    this.altar.copy(this.toWorld(RITUAL_POINTS.altar));
-    if (!this.timeline) this.actor.root.position.copy(this.home);
+    configureCamera(this.camera, this.layout, width / height);
+    this.home.copy(floorPointToWorld(this.camera, this.layout.points.home));
+    this.altar.copy(floorPointToWorld(this.camera, this.layout.points.altar));
+    this.homeScale = scaleForActorHeight(this.camera, this.home, HEIGHT, actorHeight(this.layout, 0));
+    this.altarScale = scaleForActorHeight(this.camera, this.altar, HEIGHT, actorHeight(this.layout, 1));
+    this.placeActor();
   }
 
   setCommand(command: RitualCommand | null) {
@@ -257,9 +265,10 @@ export class TempleScene {
       this.timeline?.cancel();
       this.timeline = null;
       this.command = null;
+      this.travel = 0;
       this.actor.showIncense(false);
       this.actor.pose('kneel');
-      this.actor.root.position.copy(this.home);
+      this.placeActor();
       this.actor.root.rotation.y = Math.PI;
       return;
     }
@@ -278,7 +287,8 @@ export class TempleScene {
       this.previousFrame = now;
       const frame: RitualFrame | null = this.timeline?.advance(delta) ?? null;
       if (frame) {
-        this.actor.root.position.lerpVectors(this.home, this.altar, frame.travel);
+        this.travel = frame.travel;
+        this.placeActor();
         const moving = frame.phase === 'moving' || frame.phase === 'returning';
         this.actor.root.rotation.y = frame.phase === 'returning' ? 0 : Math.PI;
         if (frame.phase !== this.lastPhase) {
@@ -291,11 +301,15 @@ export class TempleScene {
       this.actor.update(delta, frame?.bowWeight ?? 0);
       this.renderer.render(this.scene, this.camera);
       const position = (this.actor.head ?? this.actor.root).getWorldPosition(new THREE.Vector3());
-      position.y += HEIGHT * 0.25;
+      position.y += HEIGHT * this.actor.root.scale.y * 0.12;
       position.project(this.camera);
       this.label.style.left = `${(position.x + 1) * 50}%`;
       this.label.style.top = `${(1 - position.y) * 50}%`;
       this.label.style.visibility = 'visible';
+      const feet = worldPointToStage(this.camera, this.actor.root.position);
+      this.canvas.dataset.feetX = feet.x.toFixed(3);
+      this.canvas.dataset.feetY = feet.y.toFixed(3);
+      this.canvas.dataset.travel = this.travel.toFixed(3);
       this.frameId = requestAnimationFrame(this.render);
     } catch {
       this.onFailure();

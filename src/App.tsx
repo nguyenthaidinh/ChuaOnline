@@ -9,6 +9,7 @@ export default function App() {
   const [musicPending, setMusicPending] = useState(false);
   const [volume, setVolume] = useState(18);
   const [audioError, setAudioError] = useState('');
+  const [soundExpanded, setSoundExpanded] = useState(false);
   const musicBusy = useRef(false);
 
   useEffect(() => () => soundEngine.dispose(), []);
@@ -38,7 +39,7 @@ export default function App() {
   };
 
   return (
-    <div className="app-shell">
+    <div className="app-shell" data-view={name === null ? 'welcome' : 'experience'}>
       <header className="site-header">
         <a className="brand font-temple" href={import.meta.env.BASE_URL}><span className="brand-mark" aria-hidden="true">❋</span> Đi Chùa Online</a>
         <span className="header-note">Một khoảng lặng bình an</span>
@@ -46,12 +47,15 @@ export default function App() {
       <main>
         {name === null ? <WelcomePanel onStart={(displayName, music) => { setName(displayName); if (music) void startMusic(); }} /> : (
           <TempleExperience name={name} onLeave={leave} leaveDisabled={musicPending}>
-            <div className="sound-controls" aria-label="Âm thanh">
+            <section className="sound-panel" data-expanded={soundExpanded} aria-label="Âm thanh">
+            <button className="sound-toggle" type="button" aria-expanded={soundExpanded} aria-controls="sound-options" onClick={() => setSoundExpanded(value => !value)}>Âm thanh <span>{musicPlaying ? '· Nhạc đang bật' : '· Đang yên lặng'}</span> <span aria-hidden="true">{soundExpanded ? '−' : '+'}</span></button>
+            <div id="sound-options" className="sound-controls">
               <button type="button" onClick={() => { setAudioError(''); void soundEngine.ringBell().catch(() => setAudioError('Chưa phát được chuông. Bạn hãy thử bấm lại.')); }}>Thỉnh chuông</button>
               <button type="button" disabled={musicPending} aria-pressed={musicPlaying} onClick={() => { if (musicPlaying) { soundEngine.stopMusic(); setMusicPlaying(false); } else void startMusic(); }}>{musicPending ? 'Đang mở nhạc…' : musicPlaying ? 'Tắt nhạc' : 'Bật nhạc'}</button>
               <label htmlFor="volume">Âm lượng <input id="volume" type="range" min="0" max="100" value={volume} onChange={(event) => { const value = Number(event.target.value); setVolume(value); soundEngine.setVolume(value / 100); }} /><span>{volume}%</span></label>
             </div>
             {audioError && <p className="audio-error" role="alert">{audioError}</p>}
+            </section>
           </TempleExperience>
         )}
       </main>

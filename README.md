@@ -1,6 +1,6 @@
 # Đi Chùa Online — bản web độc lập
 
-Bản làm việc sau Chặng 2: React, TypeScript, Vite và Three.js chạy trong trình duyệt.
+Bản làm việc sau Chặng 3: React, TypeScript, Vite và Three.js chạy trong trình duyệt.
 Không cần server Express, TikTok, SSE, API điều khiển hoặc TTS.
 Mỗi tab giữ tên hiển thị và trạng thái nhạc trong bộ nhớ; không đăng nhập,
 không gửi tên lên máy chủ, không lưu vào localStorage.
@@ -37,28 +37,34 @@ không tự bật lại nếu chưa rà dependency thay đổi.
 ## Phạm vi đã làm
 
 - Luồng vào riêng, tên tùy chọn, lựa chọn bật nhạc sau thao tác chủ động.
-- Cảnh dọc tạm với một nhân vật có ID ổn định trong phiên; không tự lạy khi chờ.
+- Chánh điện ngang 16:9 trên máy tính, dọc 9:16 trên điện thoại; một nhân vật riêng mỗi phiên.
+- Điểm neo, camera, kích thước nhân vật, hào quang, bồ đoàn dùng chung cấu hình desktop/mobile.
+- Đổi kích thước hoặc xoay màn hình không khởi động lại nghi lễ; thanh thao tác nằm ngoài cảnh.
+- Có toàn màn hình, âm thanh thu gọn trên mobile và bảng lời chúc đóng được bằng nút hoặc Escape.
 - Thắp hương và lễ Phật đủ ba lạy, theo trạng thái di chuyển/thực hiện/trở về/hoàn tất/lỗi.
 - Chặn bấm dồn, không xếp hàng vô hạn; lỗi có thể thử lại, có watchdog 45 giây.
 - Lời chúc soạn sẵn; nghi lễ hoạt động cả ở chế độ dự phòng 2D.
 - Tách UI/sự kiện livestream và TTS khỏi mã frontend đang chạy.
 - Cấu hình đường dẫn ảnh, FBX, nhạc tại `src/config/templeAssets.ts`.
 - Thông báo tải, lỗi 3D, biểu tượng dự phòng và nút thử lại.
-- TypeScript strict cho `src`, cấu hình Vite và tests; tám bài kiểm tra logic nghi lễ/phiên.
+- TypeScript strict cho `src`, cấu hình Vite và tests; 13 bài kiểm tra nghi lễ/phiên/tọa độ.
 
-Chưa thực hiện bố cục desktop 16:9 và điểm neo desktop/mobile (Chặng 3),
-ảnh mới và tối ưu phát hành (Chặng 4–5). Ô lời nguyện cá nhân để sau luồng chính.
+Nền hiện tại là SVG tạm để căn bố cục. Ảnh hoàn thiện và tối ưu phát hành thuộc
+Chặng 4–5. Ô lời nguyện cá nhân để sau luồng chính.
 Không triển khai công khai trong lượt này.
 
 ## Tài liệu và điểm phục hồi
 
 - [Báo cáo Chặng 0–1](docs/STAGE-0-1.md): thay đổi, kiểm tra, giới hạn và công việc tiếp theo.
 - [Báo cáo Chặng 2](docs/STAGE-2.md): thao tác web, kiểm thử và phần chưa xác minh.
+- [Báo cáo Chặng 3](docs/STAGE-3.md): bố cục desktop/mobile, kiểm thử resize và file thay đổi.
+- [Mô tả ảnh cần tạo](docs/SCENE-ART-BRIEF.md): góc nhìn, điểm neo và prompt cho Chặng 4.
 - [Danh mục tài nguyên](docs/ASSETS.md): nguồn khai báo và quyền chưa xác minh.
 - `archive/live/` giữ mã livestream, cấu hình và README gốc; không nằm trong build.
 - Tag `baseline-import-20261103` giữ toàn bộ bản nhập trước khi sửa.
 - Tag `stage-1-static-web` giữ bản hoàn thành Chặng 1.
 - Tag `stage-2-web-actions` giữ bản có thao tác nghi lễ trực tiếp.
+- Tag `stage-3-responsive-web` giữ bản bố cục ngang và mobile.
 
 Tạo thư mục riêng để xem lại bản gốc mà không ghi đè công việc hiện tại:
 

@@ -1,0 +1,167 @@
+[
+  {
+    "name": "desktop1366",
+    "controls": {
+      "bottom": 678.1875267028809,
+      "top": 618.5875244140625
+    },
+    "feetY": "89.000",
+    "height": 768,
+    "image": "./assets/web/temple-layout-desktop.svg",
+    "layout": "desktop",
+    "pageHeight": 768,
+    "scrollWidth": 1366,
+    "stage": {
+      "bottom": 590.5875244140625,
+      "height": 455.9875183105469,
+      "width": 810.6625366210938
+    },
+    "width": 1366
+  },
+  {
+    "name": "desktop1920",
+    "canvases": 1,
+    "controls": {
+      "bottom": 994.1875267028807,
+      "top": 930.5875244140624
+    },
+    "height": 1080,
+    "layout": "desktop",
+    "pageHeight": 1080,
+    "scrollWidth": 1920,
+    "stage": {
+      "bottom": 902.5874938964844,
+      "height": 767.9874877929688,
+      "width": 1365.3250732421875
+    },
+    "width": 1920
+  },
+  {
+    "name": "mobile390AfterResize",
+    "completedBows": "3",
+    "controls": {
+      "bottom": 919.25,
+      "top": 783.25
+    },
+    "feetY": "89.000",
+    "height": 844,
+    "image": "./assets/web/temple-layout-mobile.svg",
+    "layout": "mobile",
+    "scrollWidth": 375,
+    "stage": {
+      "bottom": 755.2500457763672,
+      "height": 624.3500366210938,
+      "width": 351.20001220703125
+    },
+    "width": 375
+  },
+  {
+    "name": "landscapeAfterActiveRotation",
+    "completedBows": "3",
+    "height": 390,
+    "layout": "desktop",
+    "phase": "idle",
+    "scrollWidth": 829,
+    "width": 829
+  },
+  {
+    "name": "mobile360",
+    "requestedWidth": 360,
+    "canvases": 1,
+    "controls": {
+      "bottom": 865.2000122070312,
+      "top": 729.2000122070312
+    },
+    "feetY": "89.000",
+    "height": 800,
+    "layout": "mobile",
+    "scrollWidth": 345,
+    "stage": {
+      "bottom": 701.1999969482422,
+      "height": 570.2999877929688,
+      "width": 320.8000183105469
+    },
+    "width": 345
+  },
+  {
+    "name": "mobile430",
+    "requestedWidth": 430,
+    "canvases": 1,
+    "controls": {
+      "bottom": 990.3624877929688,
+      "top": 854.3624877929688
+    },
+    "feetY": "89.000",
+    "height": 932,
+    "layout": "mobile",
+    "scrollWidth": 415,
+    "stage": {
+      "bottom": 826.3625335693359,
+      "height": 695.4625244140625,
+      "width": 391.2000122070313
+    },
+    "width": 415
+  },
+  {
+    "name": "fallbackActiveResize",
+    "before": "d61521c3-892a-4d5f-bff9-d474c691a607",
+    "avatarTop": "left: 50%; top: 75%; height: 14.76%;",
+    "canvases": 0,
+    "command": "d61521c3-892a-4d5f-bff9-d474c691a607",
+    "layout": "desktop",
+    "phase": "performing"
+  },
+  {
+    "name": "finalCameraActiveResize",
+    "before": "d6353c22-b384-4e35-bb42-884837336488",
+    "canvases": 1,
+    "command": "d6353c22-b384-4e35-bb42-884837336488",
+    "feetY": "75.000",
+    "height": 932,
+    "layout": "mobile",
+    "phase": "performing",
+    "width": 415
+  },
+  {
+    "name": "finalMobile360",
+    "requestedWidth": 360,
+    "completedBows": "3",
+    "controls": {
+      "bottom": 865.2000122070312,
+      "top": 729.2000122070312
+    },
+    "feetY": "89.000",
+    "height": 800,
+    "layout": "mobile",
+    "scrollWidth": 345,
+    "stage": {
+      "bottom": 701.1999969482422,
+      "height": 570.2999877929688,
+      "width": 320.8000183105469
+    },
+    "width": 345
+  },
+  {
+    "name": "finalMobile430",
+    "requestedWidth": 430,
+    "completedBows": "3",
+    "controls": {
+      "bottom": 990.3624877929688,
+      "top": 854.3624877929688
+    },
+    "feetY": "89.000",
+    "height": 932,
+    "layout": "mobile",
+    "scrollWidth": 415,
+    "stage": {
+      "bottom": 826.3625335693359,
+      "height": 695.4625244140625,
+      "width": 391.2000122070313
+    },
+    "width": 415
+  },
+  {
+    "name": "fullscreen",
+    "buttonPressed": "true"
+  }
+]

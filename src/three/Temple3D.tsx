@@ -1,10 +1,12 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
 import { TempleScene, loadDevoteeAssets, type DevoteeAssets } from './templeScene';
 import type { RitualCommand, RitualEvent } from '../types/experience';
+import type { SceneLayout } from '../config/sceneLayout';
 
-export function Temple3D({ name, command, onReady, onEvent }: {
+export function Temple3D({ name, command, layout, onReady, onEvent }: {
   name: string;
   command: RitualCommand | null;
+  layout: SceneLayout;
   onReady: (ready: boolean) => void;
   onEvent: (event: RitualEvent) => void;
 }) {
@@ -15,6 +17,8 @@ export function Temple3D({ name, command, onReady, onEvent }: {
   callbacks.current = { onReady, onEvent };
   const commandRef = useRef(command);
   commandRef.current = command;
+  const layoutRef = useRef(layout);
+  layoutRef.current = layout;
 
   useEffect(() => {
     let cancelled = false;
@@ -40,7 +44,7 @@ export function Temple3D({ name, command, onReady, onEvent }: {
       if (cancelled || !canvas || !labelRef.current) { assets.dispose(); return; }
       ownedAssets = assets;
       const scene = new TempleScene(canvas, assets, labelRef.current,
-        event => callbacks.current.onEvent(event), unavailable);
+        event => callbacks.current.onEvent(event), unavailable, layoutRef.current);
       sceneRef.current = scene;
       scene.setCommand(commandRef.current);
       clearTimeout(timeout);
@@ -58,6 +62,11 @@ export function Temple3D({ name, command, onReady, onEvent }: {
     try { sceneRef.current?.setCommand(command); }
     catch { callbacks.current.onReady(false); }
   }, [command]);
+
+  useLayoutEffect(() => {
+    try { sceneRef.current?.setLayout(layout); }
+    catch { callbacks.current.onReady(false); }
+  }, [layout]);
 
   return <div className="scene-characters" aria-label="Nhân vật trong chánh điện">
     <canvas ref={canvasRef} aria-label="Nhân vật 3D" />
