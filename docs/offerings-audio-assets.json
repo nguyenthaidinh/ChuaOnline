@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "public/assets/tanphat/fx_petal.png",
+    "Source": "F:\\Dự Án Chung\\ChuaTanPhat\\assets\\fx_petal.png",
+    "Bytes": 71380,
+    "SHA256": "D6FF96D706772C5E8A7D4C0EF365F3DF8C4340DAE57DD8A8D0353BF9BC7795E3",
+    "MatchesSource": true
+  },
+  {
+    "Path": "public/assets/tanphat/fx_halo.png",
+    "Source": "F:\\Dự Án Chung\\ChuaTanPhat\\assets\\fx_halo.png",
+    "Bytes": 82326,
+    "SHA256": "83E7FCAD29ACAC67B7AFB6D41DC6E1F1D9898021E16C4395CFDCE68A6DB28827",
+    "MatchesSource": true
+  },
+  {
+    "Path": "public/assets/tanphat/music/music1.mp3",
+    "Source": "F:\\Dự Án Chung\\ChuaTanPhat\\assets\\music\\music1.mp3",
+    "Bytes": 1562815,
+    "SHA256": "E8D18CF32BFA987518340897F0E622D5FCEC9C73129EADDFA05E88D386C72746",
+    "MatchesSource": true
+  },
+  {
+    "Path": "public/assets/tanphat/music/music2.mp3",
+    "Source": "F:\\Dự Án Chung\\ChuaTanPhat\\assets\\music\\music2.mp3",
+    "Bytes": 1381629,
+    "SHA256": "8315FA976A449ADD5E219F8168ADE6A0B4B3907448DC68BF1D5154FCD7BB9ABB",
+    "MatchesSource": true
+  }
+]

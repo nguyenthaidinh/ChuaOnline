@@ -20,4 +20,5 @@ export const roomAssets = {
   sprite: (appearance: string) => `${import.meta.env.BASE_URL}assets/tanphat/c_${appearance}.png`,
   walk: (appearance: string) => `${import.meta.env.BASE_URL}assets/tanphat/anim_${appearance}.png`,
   incense: `${import.meta.env.BASE_URL}assets/tanphat/fx_incense.png`,
+  effect: (kind: string) => `${import.meta.env.BASE_URL}assets/tanphat/fx_${kind}.png`,
 };

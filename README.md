@@ -46,12 +46,21 @@ chạy Node; các thiết bị phải cùng truy cập một máy chủ đó.
 1. Mở hai tab cùng địa chỉ.
 2. Tab đầu bấm Vào an tọa, nhập tên và chọn y phục.
 3. Tab thứ hai vào với tên khác: cả hai thấy cùng danh sách và hai nhân vật.
-4. Thắp hương hoặc Lễ Phật 3 lạy: khách khác nhìn thấy hành động.
+4. Thắp hương, Lễ Phật 3 lạy hoặc Dâng lễ: khách khác nhìn thấy hành động và lễ vật.
 5. Rời điện: người đó biến mất ở các tab còn lại.
 
 Lệnh nghi lễ do máy chủ nhận và định thời. Bấm dồn không tạo hàng đợi vô hạn.
 Khách vào sau thấy đúng tiến độ đang chạy. Nhạc/chuông là âm thanh riêng trên thiết bị,
 chỉ phát sau thao tác. Tên hiển thị công khai trong phòng và dài tối đa 32 ký tự.
+
+Nhân vật đi vào và ngồi xuống; khi làm lễ sẽ đứng dậy, đi lên, thực hiện nghi lễ,
+trở về rồi ngồi lại. Dâng lễ có bốn lựa chọn miễn phí: hương, hoa sen, cánh sen và
+thỉnh chuông. Hoạt ảnh dùng tám khung hình đi/ngồi của Tân Phát; cúi lạy mô phỏng
+bằng biến đổi sprite 2D.
+
+Trong Âm thanh, chọn **Trăng trên rừng trúc**, **Hơi thở ban mai** hoặc **Nhạc thư giãn**.
+Có bật/tắt, bài tiếp theo, chỉnh âm lượng, chuông và mõ. Nhạc chỉ tải khi bấm bật;
+đổi bài dùng lại một bộ phát. Âm lượng 0 tắt cả nhạc và tiếng chuông/mõ.
 
 ## Vận hành hiện tại
 
@@ -71,8 +80,10 @@ cần trình duyệt, không cần cài Node trên thiết bị của họ.
 - [Báo cáo bản phòng chung và giao diện mới](docs/SHARED-ROOM.md)
 - [Kiểm tra hai tab](docs/shared-room-browser-checks.json)
 - [Nguồn tài nguyên và ảnh mở rộng](docs/SHARED-ASSETS.md)
+- [Hoạt ảnh, lễ vật và âm thanh](docs/OFFERINGS-AUDIO.md)
 
-Mốc Git mới: shared-room-v1. Bản trước còn ở tag stage-3-responsive-web.
+Mốc Git mới: shared-offerings-audio-v1. Bản phòng chung trước còn ở shared-room-v1;
+bản trước phòng chung còn ở stage-3-responsive-web.
 Các báo cáo STAGE-0-1/2/3 là lịch sử phạm vi cũ; quyết định dùng phiên riêng/hosting
 thuần tĩnh trong các báo cáo đó đã được thay bằng yêu cầu phòng chung của người dùng.
 

@@ -1,6 +1,6 @@
 import { randomBytes, randomUUID } from 'node:crypto';
-import { RitualTimeline } from '../src/services/ritualTimeline.ts';
-import { ROOM_CAPACITY, WALK_SECONDS, INCENSE_SECONDS, PRESENCE_TIMEOUT_MS, type Appearance, type RoomMember, type RoomSnapshot } from '../src/room/protocol.ts';
+import { ROOM_CAPACITY, PRESENCE_TIMEOUT_MS, isOfferingKind, type Appearance, type RoomMember, type RoomSnapshot } from '../src/room/protocol.ts';
+import { ENTRY_DURATION_MS, sharedRitualDurationMs } from '../src/room/ritual.ts';
 import type { RitualCommand } from '../src/types/experience.ts';
 
 export class RoomError extends Error {
@@ -45,16 +45,17 @@ export class TempleRoom {
   action(token: string, kind: unknown, requestId: unknown) {
     this.sweep();
     const guest = this.guest(token);
-    if (kind !== 'bow' && kind !== 'incense') throw new RoomError(400, 'Nghi lễ chưa hợp lệ.');
+    if (kind !== 'bow' && !isOfferingKind(kind)) throw new RoomError(400, 'Nghi lễ chưa hợp lệ.');
     if (typeof requestId !== 'string' || !/^[a-zA-Z0-9-]{8,80}$/.test(requestId)) throw new RoomError(400, 'Mã thao tác chưa hợp lệ.');
     if (guest.requests.has(requestId)) return this.snapshot();
     if (guest.person.action) throw new RoomError(409, 'Bạn đang thực hiện nghi lễ. Vui lòng đợi nhân vật trở về chỗ.');
     const occupied = new Set([...this.guests.values()].flatMap(item => item.person.action ? [item.person.action.slot] : []));
     const slot = [0, 1, 2, 3].find(index => !occupied.has(index));
     if (slot === undefined) throw new RoomError(409, 'Khu vực làm lễ đang có người. Mời bạn thử lại sau một chút.');
-    const command: RitualCommand = { id: randomUUID(), actorId: guest.person.id, kind, bowCount: 3 };
-    const duration = new RitualTimeline(command, () => {}, WALK_SECONDS, INCENSE_SECONDS).duration * 1000;
-    guest.person.action = { ...command, startedAt: this.now(), endsAt: this.now() + duration, slot };
+    const command: RitualCommand = { id: randomUUID(), actorId: guest.person.id, kind: kind === 'bow' ? 'bow' : 'incense', bowCount: 3 };
+    const startedAt = Math.max(this.now(), guest.person.joinedAt + ENTRY_DURATION_MS);
+    guest.person.action = { ...command, startedAt, endsAt: startedAt + sharedRitualDurationMs(command.kind), slot,
+      ...(kind === 'bow' ? {} : { offering: kind }) };
     guest.requests.add(requestId);
     if (guest.requests.size > 100) guest.requests.delete(guest.requests.values().next().value!);
     guest.seenAt = this.now();
@@ -67,7 +68,7 @@ export class TempleRoom {
     for (const [token, guest] of this.guests) {
       if (this.now() - guest.seenAt >= PRESENCE_TIMEOUT_MS) { this.guests.delete(token); changed = true; continue; }
       if (guest.person.action && guest.person.action.endsAt <= this.now()) {
-        guest.person.completed = { kind: guest.person.action.kind, at: guest.person.action.endsAt };
+        guest.person.completed = { kind: guest.person.action.kind, at: guest.person.action.endsAt, offering: guest.person.action.offering };
         guest.person.action = null;
         changed = true;
       }

@@ -1,4 +1,4 @@
-import type { Appearance, JoinResult, RoomSnapshot } from './protocol';
+import type { Appearance, JoinResult, RoomSnapshot, RoomActionKind } from './protocol';
 export interface RoomView {
   room: RoomSnapshot; selfId: string | null; status: 'connecting' | 'online' | 'offline';
   pending: boolean; message: string; offset: number;
@@ -69,11 +69,11 @@ export class RoomClient {
     } catch (error) { this.update({ message: error instanceof Error ? error.message : 'Chưa vào được chánh điện.' }); return false; }
     finally { this.update({ pending: false }); }
   };
-  action = async (kind: 'bow' | 'incense') => {
-    if (!this.token || this.state.pending || this.state.status !== 'online') return;
+  action = async (kind: RoomActionKind) => {
+    if (!this.token || this.state.pending || this.state.status !== 'online') return false;
     this.update({ pending: true, message: '' });
-    try { this.accept(await this.request('action', { kind, requestId: crypto.randomUUID() }) as RoomSnapshot); }
-    catch (error) { this.update({ message: error instanceof Error ? error.message : 'Chưa thực hiện được nghi lễ.' }); }
+    try { this.accept(await this.request('action', { kind, requestId: crypto.randomUUID() }) as RoomSnapshot); return true; }
+    catch (error) { this.update({ message: error instanceof Error ? error.message : 'Chưa thực hiện được nghi lễ.' }); return false; }
     finally { this.update({ pending: false }); }
   };
   leave = async () => {

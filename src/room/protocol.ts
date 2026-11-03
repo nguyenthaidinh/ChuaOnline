@@ -1,10 +1,18 @@
 import type { RitualCommand } from '../types/experience.ts';
 export type Appearance = 'man' | 'woman' | 'granny';
-export interface SharedAction extends RitualCommand { startedAt: number; endsAt: number; slot: number }
+export type OfferingKind = 'incense' | 'lotus' | 'petal' | 'bell';
+export type RoomActionKind = 'bow' | OfferingKind;
+export function isOfferingKind(value: unknown): value is OfferingKind {
+  return value === 'incense' || value === 'lotus' || value === 'petal' || value === 'bell';
+}
+export const OFFERING_LABELS: Record<OfferingKind, string> = {
+  incense: 'Dâng hương', lotus: 'Dâng hoa sen', petal: 'Rải cánh sen', bell: 'Thỉnh chuông',
+};
+export interface SharedAction extends RitualCommand { startedAt: number; endsAt: number; slot: number; offering?: OfferingKind }
 export interface RoomMember {
   id: string; name: string; appearance: Appearance; seat: number; joinedAt: number;
   action: SharedAction | null;
-  completed: { kind: 'incense' | 'bow'; at: number } | null;
+  completed: { kind: 'incense' | 'bow'; at: number; offering?: OfferingKind } | null;
 }
 export interface RoomSnapshot { revision: number; now: number; capacity: number; people: RoomMember[] }
 export interface JoinResult { token: string; selfId: string; room: RoomSnapshot }

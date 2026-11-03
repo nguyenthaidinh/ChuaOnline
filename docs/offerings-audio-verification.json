@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-03",
+  "scope": "Local production build; two independent browser tabs",
+  "checks": {
+    "typecheck": "passed",
+    "tests": {
+      "passed": 27,
+      "failed": 0
+    },
+    "build": "passed",
+    "sharedOfferingObserved": [
+      "lotus",
+      "petal",
+      "bell"
+    ],
+    "entryObserved": "entering with disabled ritual buttons",
+    "bowCompletionObserved": {
+      "phase": "idle",
+      "completedBows": 3,
+      "hint": "Đã lễ Phật đủ 3 lạy. Nguyện thân tâm an lạc."
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "layout": "mobile",
+      "reflowDuringBow": true,
+      "offeringDialogFits": true,
+      "audioDialogFits": true
+    },
+    "audio": {
+      "autoplayOnLoad": false,
+      "startResolved": true,
+      "trackSwitchWhilePlaying": [
+        "bamboo",
+        "morning"
+      ],
+      "nextTrack": "relax",
+      "volumeAfterHome": 0,
+      "stop": true,
+      "bellAndMokButtons": true
+    },
+    "console": {
+      "desktop": [],
+      "mobile": []
+    },
+    "peopleAfterLeaving": 0
+  },
+  "screenshots": [
+    "offerings-desktop.png",
+    "offerings-mobile.png",
+    "offerings-mobile-menu.png",
+    "audio-mobile.png"
+  ],
+  "limits": [
+    "2D sprite and procedural bow; no articulated 3D rig",
+    "Emulated mobile viewport; no physical phone or speaker listening test",
+    "Not publicly deployed; no 24-device load test"
+  ]
+}

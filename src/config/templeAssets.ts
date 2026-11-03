@@ -1,4 +1,11 @@
-const asset = (path: string) => `${import.meta.env.BASE_URL}assets/${path}`;
+const asset = (path: string) => `${import.meta.env?.BASE_URL ?? '/'}assets/${path}`;
+
+export const MUSIC_TRACKS = [
+  { id: 'bamboo', name: 'Trăng trên rừng trúc', url: asset('tanphat/music/music1.mp3') },
+  { id: 'morning', name: 'Hơi thở ban mai', url: asset('tanphat/music/music2.mp3') },
+  { id: 'relax', name: 'Nhạc thư giãn', url: asset('audio/chill_relax.mp3') },
+] as const;
+export type MusicTrackId = typeof MUSIC_TRACKS[number]['id'];
 
 // Layout drafts. Replace the pair with approved artwork matching sceneLayout.ts anchors.
 export const templeAssets = {

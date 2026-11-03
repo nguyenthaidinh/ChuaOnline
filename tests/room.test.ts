@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { once } from 'node:events';
 import { TempleRoom, RoomError } from '../server/room.ts';
 import { createTempleServer } from '../server/index.ts';
-import { RitualTimeline } from '../src/services/ritualTimeline.ts';
-import { INCENSE_SECONDS, WALK_SECONDS, type JoinResult, type RoomSnapshot } from '../src/room/protocol.ts';
+import { sampleSharedRitual } from '../src/room/ritual.ts';
+import { type JoinResult, type RoomSnapshot } from '../src/room/protocol.ts';
 
 test('one shared room has real members only, unique seats and private credentials', () => {
   const room = new TempleRoom();
@@ -38,8 +38,8 @@ test('late joiners sample the same three-bow sequence and server completes it on
   now += 7000;
   const b = room.join('B', 'woman');
   const remote = b.room.people.find(person => person.id === a.selfId)!.action!;
-  const one = new RitualTimeline(remote, () => {}, WALK_SECONDS, INCENSE_SECONDS).sampleAt((now - remote.startedAt) / 1000);
-  const two = new RitualTimeline(remote, () => {}, WALK_SECONDS, INCENSE_SECONDS).sampleAt((now - remote.startedAt) / 1000);
+  const one = sampleSharedRitual(remote, now);
+  const two = sampleSharedRitual(remote, now);
   assert.deepEqual(one, two);
   assert.equal(one.phase, 'performing');
   now = remote.endsAt + 1;

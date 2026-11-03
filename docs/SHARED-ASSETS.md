@@ -1,7 +1,7 @@
 # Nguồn ảnh cho giao diện phòng chung
 
 Nguồn người dùng chỉ định: `F:\Dự Án Chung\ChuaTanPhat\assets`.
-Thư mục nguồn không bị sửa. Chỉ lấy các file ảnh để dùng trong giao diện React mới;
+Thư mục nguồn không bị sửa. Lấy các file ảnh và nhạc để dùng trong giao diện React mới;
 không sao chép JS/CSS, API tặng quà hoặc 12 nhân vật demo của dự án tham chiếu.
 
 ## File dùng trong dự án
@@ -11,7 +11,10 @@ không sao chép JS/CSS, API tặng quà hoặc 12 nhân vật demo của dự �
 - `anim_man.png`, `anim_woman.png`, `anim_granny.png`: tám khung hình đi/ngồi,
   nguyên bản, được hiển thị bằng background-position trong ứng dụng mới.
 - `fx_incense.png`: ảnh hương cho lúc thực hiện nghi lễ.
-- `fx_lotus.png`, `fx_bell.png`: giữ bản chép từ bộ tham chiếu để dùng hiệu ứng sau.
+- `fx_lotus.png`, `fx_bell.png`: hiệu ứng dâng sen và thỉnh chuông.
+- `fx_petal.png`, `fx_halo.png`: cánh sen và quầng sáng khi dâng lễ.
+- `music/music1.mp3`, `music/music2.mp3`: chép nguyên file từ thư mục tham chiếu;
+  tên hiển thị lấy từ hall.js: Trăng trên rừng trúc và Hơi thở ban mai.
 - `public/assets/tanphat/hall-desktop.webp`: nền ngang mở rộng theo hall.jpg bằng
   **công cụ image_gen tích hợp**, sau đó đổi định dạng sang WebP cùng số pixel;
   dung lượng khoảng 313 KB. Không cắt ảnh dọc để thay cho nền ngang.
@@ -49,5 +52,8 @@ no text, logo, watermark or UI. This is a background image, not a screenshot or 
 gốc, vốn đã có bồ đoàn và khói vẽ trong ảnh; ứng dụng không đặt thêm khói lư hương
 hoặc bồ đoàn trùng lớp trên nền đó. Nhân vật tĩnh có bồ đoàn trong chính sprite.
 
-Nhạc hiện vẫn là chill_relax.mp3 của bản dự án trước, chỉ tải khi bật nhạc.
-Không chép hoặc tự phát hai bản nhạc của thư mục tham chiếu.
+Giữ thêm chill_relax.mp3 của bản dự án trước làm lựa chọn Nhạc thư giãn.
+Cả ba bài chỉ tải khi người dùng bật nhạc. Chuông/mõ được tổng hợp bằng Web Audio,
+không lấy JS hoặc hệ thống tiền/quà của dự án tham chiếu.
+
+Hash và dung lượng các tài nguyên mới: `offerings-audio-assets.json`.
