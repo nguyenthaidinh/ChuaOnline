@@ -1,0 +1,285 @@
+{
+  "stage": 2,
+  "date": "2026-11-03",
+  "typecheck": "passed",
+  "tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": "npm test"
+  },
+  "build": {
+    "files": 11,
+    "bytes": 15375171,
+    "forbidden": []
+  },
+  "browser": {
+    "threeBowsCompleted": true,
+    "incenseCompleted": true,
+    "doubleClickDidNotDuplicate": true,
+    "oneCanvasPer3DSession": true,
+    "independentTabs": true,
+    "audioAndBlessingWhileBusy": true,
+    "leavingMidActionThenReentering": true,
+    "model503Fallback": true,
+    "fallbackBowsCompleted": true,
+    "fallbackIncenseCompleted": true,
+    "retry3DRecovered": true,
+    "normalConsoleWarningsAndErrors": 0
+  },
+  "backendRequests": [],
+  "unexpectedErrors": [],
+  "requests": [
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/",
+      "status": 200
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/index-DpH5zPKy.css",
+      "status": 200
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/index-DDEENpJX.js",
+      "status": 200
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/bg/chanh-dien-2.webp",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/Temple3D-C6C6g0W0.js",
+      "status": 200
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/khan.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/di.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/quy.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/index-DDEENpJX.js",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/index-DpH5zPKy.css",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/Temple3D-C6C6g0W0.js",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/bg/chanh-dien-2.webp",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/di.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/quy.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/khan.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 304
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/index-DpH5zPKy.css",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/index-DDEENpJX.js",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/bg/chanh-dien-2.webp",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/Temple3D-C6C6g0W0.js",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/di.fbx",
+      "status": 503
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/quy.fbx",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/khan.fbx",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 200
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/khan.fbx",
+      "status": 304
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 304
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 304
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/quy.fbx",
+      "status": 304
+    },
+    {
+      "port": 4175,
+      "method": "GET",
+      "url": "/assets/3d/di.fbx",
+      "status": 200
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/khan.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/di.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/quy.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/thaphuong.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/3d/nguoi.fbx",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/audio/chill_relax.mp3",
+      "status": 304
+    },
+    {
+      "port": 4174,
+      "method": "GET",
+      "url": "/assets/audio/chill_relax.mp3",
+      "status": 206
+    }
+  ]
+}

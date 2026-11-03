@@ -1,96 +1,66 @@
-import React, { useEffect, useRef } from 'react';
-import { ActorSpec, TempleScene, loadDevoteeAssets } from './templeScene';
+import { useEffect, useRef } from 'react';
+import { TempleScene, loadDevoteeAssets, type DevoteeAssets } from './templeScene';
+import type { RitualCommand, RitualEvent } from '../types/experience';
 
-// Transparent canvas with the 3D devotees. Reports whether the 3D files loaded, so the stage
-// can fall back to the 2D sprites when public/assets/3d/ is empty.
-export const Temple3D: React.FC<{
-  specs: ActorSpec[];
-  onReady: (ok: boolean) => void;
-  onIncenseLit?: () => void;
-  onAway?: (key: string, away: boolean) => void;
-  // Gift giver to follow up close, the stage layers that zoom along with it, and the callback when it's over
-  spotlightKey?: string | null;
-  zoomTargets?: () => HTMLElement[];
-  onSpotlightEnd?: () => void;
-}> = ({ specs, onReady, onIncenseLit, onAway, spotlightKey = null, zoomTargets, onSpotlightEnd }) => {
+export function Temple3D({ name, command, onReady, onEvent }: {
+  name: string;
+  command: RitualCommand | null;
+  onReady: (ready: boolean) => void;
+  onEvent: (event: RitualEvent) => void;
+}) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const labelsRef = useRef<HTMLDivElement>(null);
-  const selfRef = useRef<HTMLDivElement>(null);
+  const labelRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<TempleScene | null>(null);
-  const readyRef = useRef(onReady);
-  readyRef.current = onReady;
-  const specsRef = useRef(specs);
-  specsRef.current = specs;
-  const litRef = useRef(onIncenseLit);
-  litRef.current = onIncenseLit;
-  const awayRef = useRef(onAway);
-  awayRef.current = onAway;
-  const spotEndRef = useRef(onSpotlightEnd);
-  const spotRef = useRef(spotlightKey);
-  spotRef.current = spotlightKey;
-  spotEndRef.current = onSpotlightEnd;
+  const callbacks = useRef({ onReady, onEvent });
+  callbacks.current = { onReady, onEvent };
+  const commandRef = useRef(command);
+  commandRef.current = command;
 
   useEffect(() => {
     let cancelled = false;
+    let ownedAssets: DevoteeAssets | null = null;
     const canvas = canvasRef.current;
+    const release = () => {
+      sceneRef.current?.dispose();
+      sceneRef.current = null;
+      ownedAssets?.dispose();
+      ownedAssets = null;
+    };
     const unavailable = () => {
       if (cancelled) return;
       cancelled = true;
       clearTimeout(timeout);
-      sceneRef.current?.dispose();
-      sceneRef.current = null;
-      readyRef.current(false);
+      release();
+      callbacks.current.onReady(false);
     };
     const timeout = window.setTimeout(unavailable, 30000);
-    const onContextLost = (event: Event) => {
-      event.preventDefault();
-      unavailable();
-    };
-    canvas?.addEventListener('webglcontextlost', onContextLost);
-    loadDevoteeAssets()
-      .then((assets) => {
-        if (cancelled || !canvasRef.current) return;
-        const scene = new TempleScene(
-          canvasRef.current,
-          assets,
-          () => litRef.current?.(),
-          labelsRef.current ?? undefined,
-          (key, away) => awayRef.current?.(key, away)
-        );
-        scene.onSpotlightEnd = () => spotEndRef.current?.();
-        if (selfRef.current) scene.setZoomTargets(zoomTargets?.() ?? [], selfRef.current);
-        sceneRef.current = scene;
-        scene.sync(specsRef.current);
-        scene.setSpotlight(spotRef.current);
-        clearTimeout(timeout);
-        readyRef.current(true);
-      })
-      .catch((err) => {
-        console.info('3D devotees off (no model in /assets/3d/):', err?.message ?? err);
-        unavailable();
-      });
+    const lost = (event: Event) => { event.preventDefault(); unavailable(); };
+    canvas?.addEventListener('webglcontextlost', lost);
+    void loadDevoteeAssets().then(assets => {
+      if (cancelled || !canvas || !labelRef.current) { assets.dispose(); return; }
+      ownedAssets = assets;
+      const scene = new TempleScene(canvas, assets, labelRef.current,
+        event => callbacks.current.onEvent(event), unavailable);
+      sceneRef.current = scene;
+      scene.setCommand(commandRef.current);
+      clearTimeout(timeout);
+      callbacks.current.onReady(true);
+    }).catch(unavailable);
     return () => {
       cancelled = true;
       clearTimeout(timeout);
-      canvas?.removeEventListener('webglcontextlost', onContextLost);
-      sceneRef.current?.dispose();
-      sceneRef.current = null;
+      canvas?.removeEventListener('webglcontextlost', lost);
+      release();
     };
   }, []);
 
   useEffect(() => {
-    sceneRef.current?.sync(specs);
-  }, [specs]);
+    try { sceneRef.current?.setCommand(command); }
+    catch { callbacks.current.onReady(false); }
+  }, [command]);
 
-  useEffect(() => {
-    sceneRef.current?.setSpotlight(spotlightKey);
-  }, [spotlightKey]);
-
-  return (
-    <div ref={selfRef} className="absolute inset-0 pointer-events-none">
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full pointer-events-none" />
-      {/* Name plates that follow people walking up to offer incense (positioned by TempleScene) */}
-      <div ref={labelsRef} className="absolute inset-0 pointer-events-none" />
-    </div>
-  );
-};
+  return <div className="scene-characters" aria-label="Nhân vật trong chánh điện">
+    <canvas ref={canvasRef} aria-label="Nhân vật 3D" />
+    <div ref={labelRef} className="actor-label" style={{ visibility: 'hidden' }}>{name}</div>
+  </div>;
+}
