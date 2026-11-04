@@ -2,11 +2,15 @@ import type { Appearance } from './protocol.ts';
 import { LAM_GEOMETRY } from './visualGeometry.ts';
 import { VARIANT_GEOMETRY } from './variantGeometry.ts';
 import { SEATED_REAR_POSES } from './seatedRearGeometry.ts';
-import { CLIP_MS, CONTACT_MS, type ClipId } from '../shared/ritualSchedule.ts';
+import { ritualSchedule, type ClipId, type RitualTimelineVersion } from '../shared/ritualSchedule.ts';
 export type { ClipId } from '../shared/ritualSchedule.ts';
 export type Facing = 'rear' | 'front';
 export interface HandAnchor { x:number; y:number }
-export interface FrameSpec { cell:number; durationMs:number; hand?:HandAnchor; propLayer?:'behind-hand'|'in-front'; pose?:'seatedRear' }
+export interface FrameSpec {
+  cell:number; durationMs:number; hand?:HandAnchor; propLayer?:'behind-hand'|'in-front'; pose?:'seatedRear';
+  rootOffset?:HandAnchor; handMask?:HandAnchor[]; holdsIncense?:boolean;
+  modernKind?:'incense'|'movement'; sourceId?:string;
+}
 export interface AnimationClip { frames:FrameSpec[]; loop:boolean; facing:Facing; markers?:Record<string,number>; stride?:number }
 export interface CharacterManifest {
   image:string; frameWidth:number; frameHeight:number; columns:number; rows:number; frameCount:number;
@@ -58,10 +62,11 @@ export function sampleClip(manifest:CharacterManifest,id:ClipId,timeMs:number,di
 }
 
 /** Fit visual frames to the public schedule, preserving the contact marker on both sides. */
-export function sampleScheduledClip(manifest:CharacterManifest,id:ClipId,timeMs:number,distance?:number) {
+export function sampleScheduledClip(manifest:CharacterManifest,id:ClipId,timeMs:number,distance?:number,version:RitualTimelineVersion=1) {
+  const {clips,contacts}=ritualSchedule(version);
   const clip=manifest.clips[id];
-  const visualDuration=clipDuration(clip),scheduledDuration=CLIP_MS[id];
-  const scheduledContact=id==='offerPlace'?CONTACT_MS.incense:id==='petalRelease'?CONTACT_MS.petal:id==='bellStrike'?CONTACT_MS.bell:undefined;
+  const visualDuration=clipDuration(clip),scheduledDuration=clips[id];
+  const scheduledContact=id==='offerPlace'?contacts.incense:id==='petalRelease'?contacts.petal:id==='bellStrike'?contacts.bell:undefined;
   const visualContact=clip.markers?.[id==='offerPlace'?'place':id==='petalRelease'?'release':'strike'];
   let visualTime=timeMs/scheduledDuration*visualDuration;
   if(scheduledContact!==undefined&&visualContact!==undefined) {

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "00-neutral",
+    "objects": 1,
+    "owner": "source",
+    "timeMs": 0
+  },
+  {
+    "id": "01-reach",
+    "objects": 1,
+    "owner": "source",
+    "timeMs": 100
+  },
+  {
+    "id": "02-grasp",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 240
+  },
+  {
+    "id": "19-pickup-lift",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 380
+  },
+  {
+    "id": "03-chest",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 520
+  },
+  {
+    "id": "20-mid-lift",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 690
+  },
+  {
+    "id": "04-lift",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 900
+  },
+  {
+    "id": "05-forehead",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 1080
+  },
+  {
+    "id": "06-bow-start",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 1350
+  },
+  {
+    "id": "07-bow-hold",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 1600
+  },
+  {
+    "id": "08-bow-return",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 2200
+  },
+  {
+    "id": "10-extend",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 2450
+  },
+  {
+    "id": "09-lower",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 2680
+  },
+  {
+    "id": "11-near-burner",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 2910
+  },
+  {
+    "id": "12-contact-closed",
+    "objects": 1,
+    "owner": "hand",
+    "timeMs": 3180
+  },
+  {
+    "id": "13-release",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 3450
+  },
+  {
+    "id": "14-open",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 3570
+  },
+  {
+    "id": "15-withdraw",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 3710
+  },
+  {
+    "id": "16-return",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 3850
+  },
+  {
+    "id": "17-palms",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 4050
+  },
+  {
+    "id": "21-prayer-lower",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 4300
+  },
+  {
+    "id": "18-rest",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 4480
+  },
+  {
+    "id": "22-arms-lower",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 4660
+  },
+  {
+    "id": "00-neutral",
+    "objects": 1,
+    "owner": "urn",
+    "timeMs": 4830
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "01-reach",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Gently reach both empty hands toward the incense source at waist-to-lower-chest height in front-right. Right fingers open to grasp an upright thin bundle, left hand supports below. Grip region around x820,y520. Arms halfway between relaxed image1 and the chest hold image2, torso remains grounded.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/03-chest.png"
+      ],
+      "output": "01-reach.png"
+    },
+    {
+      "id": "02-grasp",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Close both hands gently around an INVISIBLE upright bundle low in front of the chest, before lifting it toward chest reference image2. Hands at approximately x810,y440, wrists natural, right gripping fingers above supporting left hand. Keep feet absolutely as image1.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/03-chest.png"
+      ],
+      "output": "02-grasp.png"
+    },
+    {
+      "id": "03-chest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening. CHEST HOLD: both hands gently joined at sternum height on the screen-right/front side of the chest, elbows relaxed down. Right fingers wrap a narrow invisible upright bundle, left fingers support below the right hand. Grip midpoint approximately x800,y500. Calm upright body and head, same planted legs as reference.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "03-chest.png"
+    },
+    {
+      "id": "04-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Intermediate lift from chest image2 to forehead image3: grip about x785,y260, both elbows halfway raised. Preserve same bundle axis and gently curved wrist path; chin stays calm, not thrown upward.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/03-chest.png",
+        "artwork/animation-v3/incense-v1/05-forehead.png"
+      ],
+      "output": "04-lift.png"
+    },
+    {
+      "id": "05-forehead",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening. FOREHEAD HOLD: raise both joined hands to forehead level on the visible screen-right side, not intersecting face. Grip midpoint approximately x810,y245. Right hand gently wraps the invisible upright bundle, left supports the lower grip. Elbows follow naturally, shoulders lowered, head inclines slightly toward the invisible incense. Same body scale and planted feet.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "05-forehead.png"
+    },
+    {
+      "id": "06-bow-start",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Keep both joined hands at the same near-forehead grip as image2, and begin inclining the head a few degrees forward in respect. Upper back softens subtly, heels stay planted. Do not lower the whole body or move hands through face.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/05-forehead.png"
+      ],
+      "output": "06-bow-start.png"
+    },
+    {
+      "id": "07-bow-hold",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Respectful pause with both hands holding the invisible bundle near forehead as image2. Incline head slightly more, about15 degrees, shoulders relaxed. No deep bend, no full bow or kneeling. Hands and feet remain stable.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/05-forehead.png"
+      ],
+      "output": "07-bow-hold.png"
+    },
+    {
+      "id": "08-bow-return",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. End the respectful pause: head returns gently toward upright, joined gripping hands start lowering just a little from image2 before the forward extension in image3. Grip near x805,y220.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/05-forehead.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png"
+      ],
+      "output": "08-bow-return.png"
+    },
+    {
+      "id": "09-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Lower the joined gripping hands from forehead image2 toward the burner reach in image3, grip around x815,y255, elbows starting to extend. Torso inclines very slightly, feet fixed.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/05-forehead.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png"
+      ],
+      "output": "09-lower.png"
+    },
+    {
+      "id": "10-extend",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Extend the joined gripping hands halfway toward the final contact of image3, starting from forehead image2. Grip around x860,y295. Right elbow half extended; left hand still supports lower part of grip. A restrained forward lean, no feet movement.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/05-forehead.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png"
+      ],
+      "output": "10-extend.png"
+    },
+    {
+      "id": "11-near-burner",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Just before contact pose image2: grip around x910,y315, elbows nearly extended. Both hands still firmly hold the invisible upright bundle, wrists in line, fingertips closed. Keep same root/head/feet as image1 and image2.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png"
+      ],
+      "output": "11-near-burner.png"
+    },
+    {
+      "id": "12-contact-closed",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening. FINAL INSERTION, FINGERS STILL CLOSED: lean forward very slightly from hips, extend both forearms toward a chest-height burner off screen to the upper-right. Right hand still grips an invisible upright thin incense bundle, left hand supports immediately below. The joined grip is clearly visible beyond the right torso edge, centered approximately x950,y390 on the 1254 canvas. Both heels planted, knees soft; standing head scale and height consistent, no whole-body translation. The prop base will be below the grip, ready to insert in a burner. Do not draw any actual prop or burner.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "12-contact-closed.png"
+    },
+    {
+      "id": "13-release",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. At EXACT same hand/grip position, arm extension, body posture and planted feet as image2 final contact. Open right thumb and gripping fingers slightly to RELEASE the invisible bundle, while supporting left hand loosens. Finger change only, do not retract hands yet or shift head/body. No actual object.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png"
+      ],
+      "output": "13-release.png"
+    },
+    {
+      "id": "14-open",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Immediately after releasing at the exact location in image2: right fingers clearly open and empty, move just1-2cm back from the bundle axis, supporting left palm opens and begins to withdraw. Preserve forearm position and fixed body/feet. No invisible gripping fist remains.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png"
+      ],
+      "output": "14-open.png"
+    },
+    {
+      "id": "15-withdraw",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Withdraw BOTH EMPTY hands a short distance back toward chest from extended contact image2. Right hand now open and relaxed, fingers naturally curved, left hand follows. Hands around x885,y330, elbows begin bending. Body starts settling upright, feet fixed.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png",
+        "artwork/animation-v3/incense-v1/03-chest.png"
+      ],
+      "output": "15-withdraw.png"
+    },
+    {
+      "id": "16-return",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Bring EMPTY hands back halfway toward chest from contact image2 toward image3. Hands around x815,y350, relaxed open fingers, elbows bend close to ribs. Torso upright again; no object-holding fist.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/12-contact-closed.png",
+        "artwork/animation-v3/incense-v1/03-chest.png"
+      ],
+      "output": "16-return.png"
+    },
+    {
+      "id": "17-palms",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. After placing incense, join EMPTY palms in a calm prayer at chest height, same hand height/scale as image2 but palms pressed flat, no gripping hole or clenched fist. Fingers together pointing up, wrists aligned, shoulders relaxed. Feet fixed and body upright.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/03-chest.png"
+      ],
+      "output": "17-palms.png"
+    },
+    {
+      "id": "18-rest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the exact same Vietnamese man in the reference. Preserve identity, short dark hair, blue-grey ao lam tunic and trousers, bare feet, natural adult anatomy, matte fabric, warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, exact same 1254-square framing, standing head top around y30 and width150px, feet/root near x615,y1210. DO NOT zoom, recenter, crop, change head size or camera. Both feet remain planted in precisely the same positions as reference, no step. Full head, hands,feet in canvas. No floor,shadow,cushion,table,burner,incense,prop,text,other person,motion blur,ghost limbs. The hands hold an INVISIBLE thin upright incense bundle; actual incense will be a separate layer. Make both hands readable beyond the screen-right outline of the torso, plausible fingers/wrists with a small grip opening.  Use image 1 for identity, camera and fixed feet. The other references define neighboring arm poses only. Preserve the exact head and body scale, no baked incense. Finish the prayer, lower both EMPTY hands from chest image2 toward relaxed standing image1. Forearms halfway down, palms gently separating near waist, hands relaxed, head facing altar. No closed grip, no object.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/03-chest.png"
+      ],
+      "output": "18-rest.png"
+    }
+  ]
+}

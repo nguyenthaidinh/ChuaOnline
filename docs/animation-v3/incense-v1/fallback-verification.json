@@ -1,0 +1,33 @@
+{
+  "missingAsset": {
+    "path": "/assets/animation-v3/incense-2e23dfe33319.webp",
+    "httpStatus": 404,
+    "isolatedOrigin": "http://127.0.0.1:4181"
+  },
+  "start": {
+    "action": "4aefd8b4-b282-4d27-8dd7-0875b6214977",
+    "artwork": "legacy",
+    "modern": "fallback",
+    "phase": "standing",
+    "version": "2"
+  },
+  "performing": {
+    "artwork": "legacy",
+    "held": "true",
+    "phase": "performing",
+    "version": "2"
+  },
+  "end": {
+    "action": "",
+    "held": "false",
+    "modern": "fallback",
+    "phase": "idle",
+    "placed": [
+      {
+        "action": "4aefd8b4-b282-4d27-8dd7-0875b6214977",
+        "id": "4aefd8b4-b282-4d27-8dd7-0875b6214977:placed"
+      }
+    ]
+  },
+  "buttonEnabled": true
+}

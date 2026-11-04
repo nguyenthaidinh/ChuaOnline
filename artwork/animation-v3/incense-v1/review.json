@@ -1,0 +1,1022 @@
+{
+  "status": "compiled",
+  "qaReport": "docs/animation-v3/incense-v1/README.md",
+  "image": "incense-atlas.webp",
+  "imageHash": "334072747ec3991c36f9344109d20a9dc30cd53e881942023f57473e24f0c2de",
+  "width": 384,
+  "height": 512,
+  "columns": 4,
+  "rows": 6,
+  "durationMs": 5000,
+  "groundPivot": [
+    192,
+    468
+  ],
+  "frames": [
+    {
+      "id": "00-neutral",
+      "phase": "Đứng vững",
+      "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        70,
+        254,
+        461
+      ],
+      "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "top": 70,
+      "holdsIncense": false
+    },
+    {
+      "id": "01-reach",
+      "phase": "Đưa tay nhận hương",
+      "source": "artwork/animation-v3/incense-v1/01-reach-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        150,
+        70,
+        271,
+        461
+      ],
+      "sha256": "8444e0f2f774528ce78e65db3a001ac8db844dca54806719420cb84121ea7f8c",
+      "top": 70,
+      "holdsIncense": false,
+      "grip": {
+        "x": 254.474,
+        "y": 216.632
+      },
+      "leftHand": {
+        "x": 256.158,
+        "y": 218.316
+      },
+      "rightHand": {
+        "x": 251.105,
+        "y": 201.474
+      }
+    },
+    {
+      "id": "02-grasp",
+      "phase": "Nắm và nhấc hương",
+      "source": "artwork/animation-v3/incense-v1/02-grasp-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        150,
+        70,
+        257,
+        461
+      ],
+      "sha256": "e729c30785331ecf88f8ec23ef74502db6e8be39285d9cb204023aa77117e6a6",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 251.105,
+        "y": 221.684
+      },
+      "leftHand": {
+        "x": 250.432,
+        "y": 216.632
+      },
+      "rightHand": {
+        "x": 249.421,
+        "y": 196.421
+      },
+      "handMask": [
+        {
+          "x": 232.579,
+          "y": 186.653
+        },
+        {
+          "x": 263.568,
+          "y": 186.653
+        },
+        {
+          "x": 263.568,
+          "y": 229.768
+        },
+        {
+          "x": 232.579,
+          "y": 229.768
+        }
+      ]
+    },
+    {
+      "id": "03-chest",
+      "phase": "Chắp hương trước ngực",
+      "source": "artwork/animation-v3/incense-v1/03-chest.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        150,
+        70,
+        256,
+        461
+      ],
+      "sha256": "79ecb805f22b6bc261a32d1810ea15d72382f6b513fe82cdb80a84fc928aa833",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 251.105,
+        "y": 194.737
+      },
+      "leftHand": {
+        "x": 249.084,
+        "y": 191.368
+      },
+      "rightHand": {
+        "x": 249.084,
+        "y": 172.842
+      },
+      "handMask": [
+        {
+          "x": 230.221,
+          "y": 161.053
+        },
+        {
+          "x": 261.884,
+          "y": 161.053
+        },
+        {
+          "x": 261.884,
+          "y": 202.821
+        },
+        {
+          "x": 230.221,
+          "y": 202.821
+        }
+      ]
+    },
+    {
+      "id": "04-lift",
+      "phase": "Nâng hương gần trán",
+      "source": "artwork/animation-v3/incense-v1/04-lift.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        149,
+        70,
+        272,
+        461
+      ],
+      "sha256": "d36271f2ccdab9b740030ed7c92774a0875996ddb96455eb4fa936e840f03996",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 266.937,
+        "y": 147.579
+      },
+      "leftHand": {
+        "x": 264.916,
+        "y": 142.189
+      },
+      "rightHand": {
+        "x": 259.526,
+        "y": 121.979
+      },
+      "handMask": [
+        {
+          "x": 238.979,
+          "y": 109.516
+        },
+        {
+          "x": 277.379,
+          "y": 109.516
+        },
+        {
+          "x": 277.379,
+          "y": 159.705
+        },
+        {
+          "x": 238.979,
+          "y": 159.705
+        }
+      ]
+    },
+    {
+      "id": "05-forehead",
+      "phase": "Giữ hương ngang trán",
+      "source": "artwork/animation-v3/incense-v1/05-forehead.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        148,
+        71,
+        262,
+        461
+      ],
+      "sha256": "138dcdef18437dc7d0bae55d560f20681c8acabb93a780e9254e2d3b29ddd6fc",
+      "top": 71,
+      "holdsIncense": true,
+      "grip": {
+        "x": 253.8,
+        "y": 137.474
+      },
+      "leftHand": {
+        "x": 251.779,
+        "y": 133.095
+      },
+      "rightHand": {
+        "x": 250.095,
+        "y": 109.853
+      },
+      "handMask": [
+        {
+          "x": 229.884,
+          "y": 97.726
+        },
+        {
+          "x": 265.589,
+          "y": 97.726
+        },
+        {
+          "x": 265.589,
+          "y": 147.242
+        },
+        {
+          "x": 229.884,
+          "y": 147.242
+        }
+      ]
+    },
+    {
+      "id": "06-bow-start",
+      "phase": "Cúi đầu nhẹ",
+      "source": "artwork/animation-v3/incense-v1/06-bow-start.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        146,
+        72,
+        262,
+        462
+      ],
+      "sha256": "8e1d3932fb761fdf763763ad8b707aa490507e837a43847ed8534dfceacab3d4",
+      "top": 72,
+      "holdsIncense": true,
+      "grip": {
+        "x": 253.8,
+        "y": 138.484
+      },
+      "leftHand": {
+        "x": 252.789,
+        "y": 134.105
+      },
+      "rightHand": {
+        "x": 250.095,
+        "y": 110.526
+      },
+      "handMask": [
+        {
+          "x": 230.895,
+          "y": 99.411
+        },
+        {
+          "x": 265.589,
+          "y": 99.411
+        },
+        {
+          "x": 265.589,
+          "y": 147.579
+        },
+        {
+          "x": 230.895,
+          "y": 147.579
+        }
+      ]
+    },
+    {
+      "id": "07-bow-hold",
+      "phase": "Khoảng dừng kính lễ",
+      "source": "artwork/animation-v3/incense-v1/07-bow-hold.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        143,
+        73,
+        262,
+        461
+      ],
+      "sha256": "3cfbdb934cd4d9e46e6d58a04f0704fb75f3649a47b138c735eb0dc3aaac36c1",
+      "top": 73,
+      "holdsIncense": true,
+      "grip": {
+        "x": 249.421,
+        "y": 140.505
+      },
+      "leftHand": {
+        "x": 248.074,
+        "y": 136.463
+      },
+      "rightHand": {
+        "x": 245.379,
+        "y": 112.211
+      },
+      "handMask": [
+        {
+          "x": 227.526,
+          "y": 100.758
+        },
+        {
+          "x": 260.2,
+          "y": 100.758
+        },
+        {
+          "x": 260.2,
+          "y": 148.589
+        },
+        {
+          "x": 227.526,
+          "y": 148.589
+        }
+      ]
+    },
+    {
+      "id": "08-bow-return",
+      "phase": "Ngẩng đầu, bắt đầu hạ tay",
+      "source": "artwork/animation-v3/incense-v1/08-bow-return.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        147,
+        69,
+        283,
+        462
+      ],
+      "sha256": "1b4a3270bed783e7fcc817a88b33673bb48d8189915423f1a558ac70e89ec038",
+      "top": 69,
+      "holdsIncense": true,
+      "grip": {
+        "x": 276.705,
+        "y": 154.316
+      },
+      "leftHand": {
+        "x": 275.021,
+        "y": 150.274
+      },
+      "rightHand": {
+        "x": 271.989,
+        "y": 131.411
+      },
+      "handMask": [
+        {
+          "x": 255.821,
+          "y": 122.989
+        },
+        {
+          "x": 286.137,
+          "y": 122.989
+        },
+        {
+          "x": 286.137,
+          "y": 162.4
+        },
+        {
+          "x": 255.821,
+          "y": 162.4
+        }
+      ]
+    },
+    {
+      "id": "09-lower",
+      "phase": "Hạ về miệng lư",
+      "source": "artwork/animation-v3/incense-v1/09-lower.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        70,
+        308,
+        462
+      ],
+      "sha256": "15c91b62b863853ea9ad8efd5e90fe4402278a9c15acd0f40a8fea31c4b35bd6",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 307.358,
+        "y": 182.611
+      },
+      "leftHand": {
+        "x": 303.989,
+        "y": 178.232
+      },
+      "rightHand": {
+        "x": 302.642,
+        "y": 156.674
+      },
+      "handMask": [
+        {
+          "x": 283.105,
+          "y": 148.926
+        },
+        {
+          "x": 315.442,
+          "y": 148.926
+        },
+        {
+          "x": 315.442,
+          "y": 189.684
+        },
+        {
+          "x": 283.105,
+          "y": 189.684
+        }
+      ]
+    },
+    {
+      "id": "10-extend",
+      "phase": "Đưa hai tay tới lư",
+      "source": "artwork/animation-v3/incense-v1/10-extend.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        136,
+        70,
+        305,
+        461
+      ],
+      "sha256": "774b39b95ef5603e278f74c5e95433a38ea539224da55a85b1cf0e06e9c3d863",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 299.274,
+        "y": 153.642
+      },
+      "leftHand": {
+        "x": 296.579,
+        "y": 149.263
+      },
+      "rightHand": {
+        "x": 293.547,
+        "y": 128.716
+      },
+      "handMask": [
+        {
+          "x": 276.705,
+          "y": 120.632
+        },
+        {
+          "x": 311.063,
+          "y": 120.632
+        },
+        {
+          "x": 311.063,
+          "y": 159.705
+        },
+        {
+          "x": 276.705,
+          "y": 159.705
+        }
+      ]
+    },
+    {
+      "id": "11-near-burner",
+      "phase": "Sát điểm nhận",
+      "source": "artwork/animation-v3/incense-v1/11-near-burner.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        137,
+        69,
+        311,
+        461
+      ],
+      "sha256": "b27abc53fead08d066737329e89f922465407b4ad869e7c831ae5e2bd8decdc0",
+      "top": 69,
+      "holdsIncense": true,
+      "grip": {
+        "x": 312.747,
+        "y": 185.642
+      },
+      "leftHand": {
+        "x": 308.368,
+        "y": 181.263
+      },
+      "rightHand": {
+        "x": 307.358,
+        "y": 160.716
+      },
+      "handMask": [
+        {
+          "x": 288.832,
+          "y": 151.958
+        },
+        {
+          "x": 320.158,
+          "y": 151.958
+        },
+        {
+          "x": 320.158,
+          "y": 191.368
+        },
+        {
+          "x": 288.832,
+          "y": 191.368
+        }
+      ]
+    },
+    {
+      "id": "12-contact-closed",
+      "phase": "Đặt vào lư, ngón tay còn giữ",
+      "source": "artwork/animation-v3/incense-v1/12-contact-closed.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        138,
+        70,
+        310,
+        461
+      ],
+      "sha256": "c951014a606d8aa2f9c576f4fe9de720467bbd464e2591f502033d5076e0d78b",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 305.0,
+        "y": 183.284
+      },
+      "leftHand": {
+        "x": 303.316,
+        "y": 179.242
+      },
+      "rightHand": {
+        "x": 302.642,
+        "y": 159.368
+      },
+      "handMask": [
+        {
+          "x": 282.432,
+          "y": 150.611
+        },
+        {
+          "x": 314.432,
+          "y": 150.611
+        },
+        {
+          "x": 314.432,
+          "y": 191.032
+        },
+        {
+          "x": 282.432,
+          "y": 191.032
+        }
+      ]
+    },
+    {
+      "id": "13-release",
+      "phase": "Buông hương",
+      "source": "artwork/animation-v3/incense-v1/13-release.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        137,
+        70,
+        318,
+        461
+      ],
+      "sha256": "0a20bfb47d2f4d859c2b97feecfd98c832497466b78ff20c4eeabfa178a0db9d",
+      "top": 70,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 310.053,
+        "y": 179.579
+      },
+      "rightHand": {
+        "x": 308.368,
+        "y": 159.368
+      }
+    },
+    {
+      "id": "14-open",
+      "phase": "Mở ngón, rời khỏi hương",
+      "source": "artwork/animation-v3/incense-v1/14-open.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        136,
+        70,
+        317,
+        462
+      ],
+      "sha256": "13c6f51cc96ddf9297a161bccd93b5ee0d05454479f7a759227643c988769fcb",
+      "top": 70,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 305.0,
+        "y": 177.895
+      },
+      "rightHand": {
+        "x": 299.947,
+        "y": 159.368
+      }
+    },
+    {
+      "id": "15-withdraw",
+      "phase": "Rút hai tay",
+      "source": "artwork/animation-v3/incense-v1/15-withdraw.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        149,
+        70,
+        285,
+        461
+      ],
+      "sha256": "2792930be428b34e6e737160ef6b6969adf8c10937e09d22c3fc6066f2bf3932",
+      "top": 70,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 276.368,
+        "y": 186.316
+      },
+      "rightHand": {
+        "x": 266.263,
+        "y": 166.105
+      }
+    },
+    {
+      "id": "16-return",
+      "phase": "Thu tay về ngực",
+      "source": "artwork/animation-v3/incense-v1/16-return.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        148,
+        70,
+        267,
+        461
+      ],
+      "sha256": "1910ca0b43b6d0c9d994870fd5a4216d1b0ae29807388c8e4dd34dfbc881bdbd",
+      "top": 70,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 254.474,
+        "y": 189.684
+      },
+      "rightHand": {
+        "x": 251.105,
+        "y": 172.842
+      }
+    },
+    {
+      "id": "17-palms",
+      "phase": "Chắp tay kính lễ",
+      "source": "artwork/animation-v3/incense-v1/17-palms.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        149,
+        70,
+        248,
+        462
+      ],
+      "sha256": "a037aa0930545b2f10dca31794ed738202af3b285717f8e2bf986bc49a1fe31d",
+      "top": 70,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 234.263,
+        "y": 157.684
+      },
+      "rightHand": {
+        "x": 237.632,
+        "y": 156.0
+      }
+    },
+    {
+      "id": "18-rest",
+      "phase": "Hạ tay, thả lỏng",
+      "source": "artwork/animation-v3/incense-v1/18-rest.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        150,
+        70,
+        280,
+        461
+      ],
+      "sha256": "c48d7a5675a2129c2b33b31386dd8e81be20610064a4e591e598293db0e4c830",
+      "top": 70,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 271.316,
+        "y": 245.263
+      },
+      "rightHand": {
+        "x": 259.526,
+        "y": 226.737
+      }
+    },
+    {
+      "id": "19-pickup-lift",
+      "phase": "Nâng khỏi khay",
+      "source": "artwork/animation-v3/incense-v1/19-pickup-lift.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        149,
+        70,
+        262,
+        461
+      ],
+      "sha256": "7f5cbe191a9d189c6db7053ac6ddfab0785678e264d3506e151078db0812a842",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 254.474,
+        "y": 197.768
+      },
+      "leftHand": {
+        "x": 252.789,
+        "y": 194.737
+      },
+      "rightHand": {
+        "x": 251.105,
+        "y": 177.895
+      },
+      "handMask": [
+        {
+          "x": 232.579,
+          "y": 167.453
+        },
+        {
+          "x": 264.916,
+          "y": 167.453
+        },
+        {
+          "x": 264.916,
+          "y": 205.516
+        },
+        {
+          "x": 232.579,
+          "y": 205.516
+        }
+      ]
+    },
+    {
+      "id": "20-mid-lift",
+      "phase": "Nâng từ ngực lên trán",
+      "source": "artwork/animation-v3/incense-v1/20-mid-lift.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        148,
+        70,
+        268,
+        461
+      ],
+      "sha256": "52bdeb760c4b1255db869ccc92eba3ded2e3a2711f1db0669949d49c385c6c87",
+      "top": 70,
+      "holdsIncense": true,
+      "grip": {
+        "x": 259.526,
+        "y": 158.021
+      },
+      "leftHand": {
+        "x": 256.158,
+        "y": 153.979
+      },
+      "rightHand": {
+        "x": 254.474,
+        "y": 137.474
+      },
+      "handMask": [
+        {
+          "x": 236.958,
+          "y": 127.032
+        },
+        {
+          "x": 267.947,
+          "y": 127.032
+        },
+        {
+          "x": 267.947,
+          "y": 169.137
+        },
+        {
+          "x": 236.958,
+          "y": 169.137
+        }
+      ]
+    },
+    {
+      "id": "21-prayer-lower",
+      "phase": "Hạ hai bàn tay sau kính lễ",
+      "source": "artwork/animation-v3/incense-v1/21-prayer-lower.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        146,
+        69,
+        267,
+        462
+      ],
+      "sha256": "ba64a7af0a5fe14c9ab42268de21612a4f41e1735e5c7f381b783c4bf5744ff7",
+      "top": 69,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 254.137,
+        "y": 204.842
+      },
+      "rightHand": {
+        "x": 241.0,
+        "y": 194.737
+      }
+    },
+    {
+      "id": "22-arms-lower",
+      "phase": "Thả lỏng hai tay",
+      "source": "artwork/animation-v3/incense-v1/22-arms-lower.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        135,
+        70,
+        252,
+        461
+      ],
+      "sha256": "b631602b5589f56bb9e8462a47fbce3167db0738182630270c93b8408a24c42d",
+      "top": 70,
+      "holdsIncense": false,
+      "leftHand": {
+        "x": 190.474,
+        "y": 292.421
+      },
+      "rightHand": {
+        "x": 244.368,
+        "y": 289.053
+      }
+    }
+  ],
+  "production": {
+    "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+    "sha256": "2e23dfe33319ddf2080f49cf0a97ca521bba809ce231195c90030560ad32303e",
+    "width": 768,
+    "height": 1536,
+    "columns": 4,
+    "rows": 6,
+    "cellWidth": 192,
+    "cellHeight": 256
+  }
+}

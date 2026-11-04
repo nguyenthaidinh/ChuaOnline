@@ -3,6 +3,8 @@ import { logicalAltar, logicalSeat, type FloorPoint } from './motion.ts';
 import { LAM_MANIFEST, sampleClip,characterManifest } from './animationManifest.ts';
 import type {Appearance,OfferingKind} from './protocol.ts';
 import {LAM_GEOMETRY} from './visualGeometry.ts';
+import { incenseReceiver, incenseSource } from './incenseAnimation.ts';
+import { INCENSE_PROP } from './incenseGeometry.ts';
 export interface RoomPoint {x:number;y:number}
 export function projectFloor(point:FloorPoint,layout:SceneLayoutId):RoomPoint {
   const mobile=layout==='mobile';
@@ -19,9 +21,19 @@ export function stationAnchor(slot:number,layout:SceneLayoutId,kind:OfferingKind
   const point=logicalAltar(slot),floor=projectFloor(point,layout),size=actorMetrics(point,layout);
   const frame=sampleClip(LAM_MANIFEST,'offerPlace',600);
   const hand=kind==='petal'||kind==='bell'?LAM_GEOMETRY[13].hand!:frame.hand!;
-  const grip=kind==='bell'?{x:hand.x+16,y:hand.y-40}:hand;
+  const grip=kind==='incense'?incenseReceiver():kind==='bell'?{x:hand.x+16,y:hand.y-40}:hand;
   return {x:floor.x+(grip.x-LAM_MANIFEST.groundPivot.x)/LAM_MANIFEST.frameWidth*size.canvasWidth,
     y:floor.y+(grip.y-LAM_MANIFEST.groundPivot.y)/LAM_MANIFEST.frameHeight*size.canvasHeight,floorY:floor.y};
+}
+export function incenseSourceAnchor(slot:number,layout:SceneLayoutId) {
+  const point=logicalAltar(slot),floor=projectFloor(point,layout),size=actorMetrics(point,layout),source=incenseSource();
+  return {x:floor.x+(source.x-192)/384*size.canvasWidth,y:floor.y+(source.y-468)/512*size.canvasHeight};
+}
+export function incenseWorldSize(slot:number,layout:SceneLayoutId) {
+  const size=actorMetrics(logicalAltar(slot),layout);
+  return {height:INCENSE_PROP.height/512*size.canvasHeight,insertion:INCENSE_PROP.insertionDepth/512*size.canvasHeight,
+    urnOffsetX:INCENSE_PROP.urnOffsetX/384*size.canvasWidth,
+    cupWidth:INCENSE_PROP.sourceCupWidth/384*size.canvasWidth,cupHeight:INCENSE_PROP.sourceCupHeight/512*size.canvasHeight};
 }
 const base=()=>import.meta.env?.BASE_URL??'/';
 export const roomAssets={

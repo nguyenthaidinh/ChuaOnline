@@ -3,7 +3,8 @@ import { parseStudyAtlas, studyImageUrl, type StudyAtlas } from './studyAtlas';
 
 export const WALK_STUDY_ROOT = '/artwork/animation-v3/walk-v1/';
 export const TRANSITION_STUDY_ROOT = '/artwork/animation-v3/transitions-v2/';
-type StudyRoot = typeof WALK_STUDY_ROOT | typeof TRANSITION_STUDY_ROOT;
+export const INCENSE_STUDY_ROOT = '/artwork/animation-v3/incense-v1/';
+type StudyRoot = typeof WALK_STUDY_ROOT | typeof TRANSITION_STUDY_ROOT | typeof INCENSE_STUDY_ROOT;
 
 /** Authoring assets stay outside public/. Late loads cannot overwrite a new attempt. */
 export function useStudyAtlas(root: StudyRoot) {

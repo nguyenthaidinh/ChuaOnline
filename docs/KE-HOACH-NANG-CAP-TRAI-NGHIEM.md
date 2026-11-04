@@ -2,6 +2,11 @@
 
 Ngày 04/11/2026. Mốc nguồn: `628098d`. Đây là kế hoạch triển khai, chưa phải báo cáo hoàn thành. Bộ prompt đi kèm: [PROMPT-HOAT-ANH.md](PROMPT-HOAT-ANH.md).
 
+Tiến độ gần nhất: đã tích hợp phần cốt lõi dâng hương nam áo lam của chặng 2 vào web chính,
+kèm lịch v2, 23 tư thế và chuyển hương từ tay vào lư. Chặng 1–2 vẫn mở ở các hướng đi,
+điểm nối và kiểm mobile; chưa đánh dấu toàn bộ kế hoạch hoàn thành.
+[Bảng tiến độ](animation-v3/README.md) và [bằng chứng đợt mới](animation-v3/incense-v1/README.md).
+
 ## 1. Kết quả hướng tới
 
 Một chánh điện trên trình duyệt có không khí trang nghiêm, nhân vật hòa với nền, đi đứng có trọng lượng và dâng lễ có tiếp xúc rõ ràng. Khách thấy nhau trong cùng phòng, nghi lễ chạy đúng thời gian, nhạc dễ sử dụng. Tính năng mới tạo khoảng lặng và sự gắn kết, thay vì làm người dùng phải thao tác nhiều.

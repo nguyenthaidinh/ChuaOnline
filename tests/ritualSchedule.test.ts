@@ -28,15 +28,39 @@ test('changing visual frame duration cannot move a shared contact or completion 
   }
 });
 
-test('new actions identify schedule v1 and remain compatible with legacy snapshots', () => {
+test('unchanged rituals identify schedule v1 and remain compatible with legacy snapshots', () => {
   const room = new TempleRoom(() => 1000);
   const guest = room.join('Schedule QA', 'man');
-  room.action(guest.token, 'incense', 'schedule-version-test');
+  room.action(guest.token, 'lotus', 'schedule-version-test');
   const action = room.snapshot().people[0].action!;
   assert.equal(action.timelineVersion, 1);
   const legacy = { ...action, timelineVersion: undefined };
   assert.deepEqual(sampleSharedRitual(action, 5000), sampleSharedRitual(legacy, 5000));
-  assert.throws(() => assertTimelineVersion(2), /Unsupported ritual timeline/);
+  assert.throws(() => assertTimelineVersion(3), /Unsupported ritual timeline/);
+});
+
+test('new male incense actions use v2 while in-flight v1 actions retain their contact and duration', () => {
+  let now = 1000;
+  const room = new TempleRoom(() => now);
+  const man = room.join('Incense v2', 'man');
+  const woman = room.join('Incense v1', 'woman');
+  room.action(man.token, 'incense', 'incense-version-two');
+  room.action(woman.token, 'incense', 'incense-version-one');
+  const [modern, legacy] = room.snapshot().people.map(person => person.action!);
+  assert.equal(modern.timelineVersion, 2);
+  assert.equal(legacy.timelineVersion, 1);
+  assert.equal(modern.endsAt, modern.startedAt + sharedRitualDurationMs('incense', modern.movement, 'incense', 2));
+  const before = structuredClone(legacy);
+  const marker = interactionTime(modern)!;
+  assert.equal(sampleSharedRitual(modern, marker - 1).propInHand, true);
+  assert.equal(sampleSharedRitual(modern, marker).propInHand, false);
+  assert.equal(sampleSharedRitual(modern, modern.endsAt).phase, 'complete');
+  now = marker;
+  room.sweep();
+  const placed = room.snapshot().offerings.find(item => item.actionId === modern.id)!;
+  assert.equal(placed.placedAt, marker);
+  assert.deepEqual(legacy, before);
+  assert.equal(interactionTime(legacy), interactionTime({ ...legacy, timelineVersion: undefined }));
 });
 
 test('new artwork with a different duration still reaches its release pose at server contact', () => {

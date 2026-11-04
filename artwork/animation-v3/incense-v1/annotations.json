@@ -1,0 +1,553 @@
+{
+  "coordinateSpace": "actual 1254x1254 source pixels; measured on hand calibration review, transformed without recentering",
+  "prop": {
+    "height": 110,
+    "gripFraction": 0.86,
+    "insertionDepth": 3,
+    "urnOffsetX": 30,
+    "sourceCupHeight": 17,
+    "sourceCupWidth": 22,
+    "urnFrontClip": "polygon(0% 4.6875%,16.80672268907563% 4.6875%,21.008403361344538% 6.25%,29.411764705882355% 7.291666666666667%,37.81512605042017% 7.8125%,50.42016806722689% 8.072916666666668%,63.02521008403361% 7.8125%,73.52941176470588% 6.770833333333333%,81.9327731092437% 5.208333333333334%,88.23529411764706% 4.6875%,100% 4.6875%,100% 100%,0% 100%)"
+  },
+  "sourceOverrides": {
+    "01-reach": "01-reach-v2.png",
+    "02-grasp": "02-grasp-v2.png"
+  },
+  "frames": {
+    "00-neutral": {
+      "phase": "Đứng vững"
+    },
+    "03-chest": {
+      "phase": "Chắp hương trước ngực",
+      "grip": [
+        790,
+        400
+      ],
+      "rightHand": [
+        784,
+        335
+      ],
+      "leftHand": [
+        784,
+        390
+      ],
+      "handMask": [
+        [
+          728,
+          300
+        ],
+        [
+          822,
+          300
+        ],
+        [
+          822,
+          424
+        ],
+        [
+          728,
+          424
+        ]
+      ]
+    },
+    "04-lift": {
+      "phase": "Nâng hương gần trán",
+      "grip": [
+        837,
+        260
+      ],
+      "rightHand": [
+        815,
+        184
+      ],
+      "leftHand": [
+        831,
+        244
+      ],
+      "handMask": [
+        [
+          754,
+          147
+        ],
+        [
+          868,
+          147
+        ],
+        [
+          868,
+          296
+        ],
+        [
+          754,
+          296
+        ]
+      ]
+    },
+    "05-forehead": {
+      "phase": "Giữ hương ngang trán",
+      "grip": [
+        798,
+        230
+      ],
+      "rightHand": [
+        787,
+        148
+      ],
+      "leftHand": [
+        792,
+        217
+      ],
+      "handMask": [
+        [
+          727,
+          112
+        ],
+        [
+          833,
+          112
+        ],
+        [
+          833,
+          259
+        ],
+        [
+          727,
+          259
+        ]
+      ]
+    },
+    "06-bow-start": {
+      "phase": "Cúi đầu nhẹ",
+      "grip": [
+        798,
+        233
+      ],
+      "rightHand": [
+        787,
+        150
+      ],
+      "leftHand": [
+        795,
+        220
+      ],
+      "handMask": [
+        [
+          730,
+          117
+        ],
+        [
+          833,
+          117
+        ],
+        [
+          833,
+          260
+        ],
+        [
+          730,
+          260
+        ]
+      ]
+    },
+    "07-bow-hold": {
+      "phase": "Khoảng dừng kính lễ",
+      "grip": [
+        785,
+        239
+      ],
+      "rightHand": [
+        773,
+        155
+      ],
+      "leftHand": [
+        781,
+        227
+      ],
+      "handMask": [
+        [
+          720,
+          121
+        ],
+        [
+          817,
+          121
+        ],
+        [
+          817,
+          263
+        ],
+        [
+          720,
+          263
+        ]
+      ]
+    },
+    "08-bow-return": {
+      "phase": "Ngẩng đầu, bắt đầu hạ tay",
+      "grip": [
+        866,
+        280
+      ],
+      "rightHand": [
+        852,
+        212
+      ],
+      "leftHand": [
+        861,
+        268
+      ],
+      "handMask": [
+        [
+          804,
+          187
+        ],
+        [
+          894,
+          187
+        ],
+        [
+          894,
+          304
+        ],
+        [
+          804,
+          304
+        ]
+      ]
+    },
+    "09-lower": {
+      "phase": "Hạ về miệng lư",
+      "grip": [
+        957,
+        364
+      ],
+      "rightHand": [
+        943,
+        287
+      ],
+      "leftHand": [
+        947,
+        351
+      ],
+      "handMask": [
+        [
+          885,
+          264
+        ],
+        [
+          981,
+          264
+        ],
+        [
+          981,
+          385
+        ],
+        [
+          885,
+          385
+        ]
+      ]
+    },
+    "10-extend": {
+      "phase": "Đưa hai tay tới lư",
+      "grip": [
+        933,
+        278
+      ],
+      "rightHand": [
+        916,
+        204
+      ],
+      "leftHand": [
+        925,
+        265
+      ],
+      "handMask": [
+        [
+          866,
+          180
+        ],
+        [
+          968,
+          180
+        ],
+        [
+          968,
+          296
+        ],
+        [
+          866,
+          296
+        ]
+      ]
+    },
+    "11-near-burner": {
+      "phase": "Sát điểm nhận",
+      "grip": [
+        973,
+        373
+      ],
+      "rightHand": [
+        957,
+        299
+      ],
+      "leftHand": [
+        960,
+        360
+      ],
+      "handMask": [
+        [
+          902,
+          273
+        ],
+        [
+          995,
+          273
+        ],
+        [
+          995,
+          390
+        ],
+        [
+          902,
+          390
+        ]
+      ]
+    },
+    "12-contact-closed": {
+      "phase": "Đặt vào lư, ngón tay còn giữ",
+      "grip": [
+        950,
+        366
+      ],
+      "rightHand": [
+        943,
+        295
+      ],
+      "leftHand": [
+        945,
+        354
+      ],
+      "handMask": [
+        [
+          883,
+          269
+        ],
+        [
+          978,
+          269
+        ],
+        [
+          978,
+          389
+        ],
+        [
+          883,
+          389
+        ]
+      ]
+    },
+    "13-release": {
+      "phase": "Buông hương",
+      "rightHand": [
+        960,
+        295
+      ],
+      "leftHand": [
+        965,
+        355
+      ]
+    },
+    "14-open": {
+      "phase": "Mở ngón, rời khỏi hương",
+      "rightHand": [
+        935,
+        295
+      ],
+      "leftHand": [
+        950,
+        350
+      ]
+    },
+    "15-withdraw": {
+      "phase": "Rút hai tay",
+      "rightHand": [
+        835,
+        315
+      ],
+      "leftHand": [
+        865,
+        375
+      ]
+    },
+    "16-return": {
+      "phase": "Thu tay về ngực",
+      "rightHand": [
+        790,
+        335
+      ],
+      "leftHand": [
+        800,
+        385
+      ]
+    },
+    "17-palms": {
+      "phase": "Chắp tay kính lễ",
+      "rightHand": [
+        750,
+        285
+      ],
+      "leftHand": [
+        740,
+        290
+      ]
+    },
+    "18-rest": {
+      "phase": "Hạ tay, thả lỏng",
+      "rightHand": [
+        815,
+        495
+      ],
+      "leftHand": [
+        850,
+        550
+      ]
+    },
+    "01-reach": {
+      "phase": "Đưa tay nhận hương",
+      "grip": [
+        800,
+        465
+      ],
+      "rightHand": [
+        790,
+        420
+      ],
+      "leftHand": [
+        805,
+        470
+      ]
+    },
+    "02-grasp": {
+      "phase": "Nắm và nhấc hương",
+      "grip": [
+        790,
+        480
+      ],
+      "rightHand": [
+        785,
+        405
+      ],
+      "leftHand": [
+        788,
+        465
+      ],
+      "handMask": [
+        [
+          735,
+          376
+        ],
+        [
+          827,
+          376
+        ],
+        [
+          827,
+          504
+        ],
+        [
+          735,
+          504
+        ]
+      ]
+    },
+    "19-pickup-lift": {
+      "phase": "Nâng khỏi khay",
+      "grip": [
+        800,
+        409
+      ],
+      "rightHand": [
+        790,
+        350
+      ],
+      "leftHand": [
+        795,
+        400
+      ],
+      "handMask": [
+        [
+          735,
+          319
+        ],
+        [
+          831,
+          319
+        ],
+        [
+          831,
+          432
+        ],
+        [
+          735,
+          432
+        ]
+      ]
+    },
+    "20-mid-lift": {
+      "phase": "Nâng từ ngực lên trán",
+      "grip": [
+        815,
+        291
+      ],
+      "rightHand": [
+        800,
+        230
+      ],
+      "leftHand": [
+        805,
+        279
+      ],
+      "handMask": [
+        [
+          748,
+          199
+        ],
+        [
+          840,
+          199
+        ],
+        [
+          840,
+          324
+        ],
+        [
+          748,
+          324
+        ]
+      ]
+    },
+    "21-prayer-lower": {
+      "phase": "Hạ hai bàn tay sau kính lễ",
+      "rightHand": [
+        760,
+        400
+      ],
+      "leftHand": [
+        799,
+        430
+      ]
+    },
+    "22-arms-lower": {
+      "phase": "Thả lỏng hai tay",
+      "rightHand": [
+        770,
+        680
+      ],
+      "leftHand": [
+        610,
+        690
+      ]
+    }
+  }
+}

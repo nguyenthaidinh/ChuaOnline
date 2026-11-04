@@ -3,7 +3,9 @@ import './index.css';
 
 const root = createRoot(document.getElementById('root')!);
 if (import.meta.env.DEV && new URLSearchParams(location.search).has('animation-lab')) {
-  if (new URLSearchParams(location.search).get('animation-lab') === 'transitions') {
+  if (new URLSearchParams(location.search).get('animation-lab') === 'incense') {
+    void import('./dev/IncenseLab').then(({ default: IncenseLab }) => root.render(<IncenseLab />));
+  } else if (new URLSearchParams(location.search).get('animation-lab') === 'transitions') {
     void import('./dev/TransitionLab').then(({ default: TransitionLab }) => root.render(<TransitionLab />));
   } else {
     void import('./dev/AnimationLab').then(({ default: AnimationLab }) => root.render(<AnimationLab />));

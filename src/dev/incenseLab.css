@@ -1,0 +1,11 @@
+.incense-detail{position:relative;width:100%;aspect-ratio:480/512;background:#e8e2d7;border:1px solid #b2935a33;border-radius:12px;overflow:hidden}
+.incense-coordinate-plane{position:absolute;inset:0 auto 0 0;width:80%;height:100%}
+.incense-frame-body,.incense-frame-hand{position:absolute;inset:0;background-repeat:no-repeat;pointer-events:none}
+.incense-frame-body{z-index:1}.incense-frame-hand{z-index:3}
+.incense-frame-prop,.incense-detail-object{position:absolute;width:auto;pointer-events:none;z-index:2}
+.incense-detail-object{z-index:3}.incense-detail-urn{position:absolute;width:auto;pointer-events:none}
+.incense-detail-urn.back{z-index:0}.incense-detail-urn.front{z-index:4;clip-path:inset(10% 0 0 0)}
+.incense-coordinate-plane .lab-hand,.incense-coordinate-plane .lab-pivot{z-index:5}
+.incense-readout{font-size:11px;color:#baac95;min-height:2em;margin-top:10px}
+.incense-marker-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.study-visible{display:block}

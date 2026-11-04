@@ -27,7 +27,7 @@ def main():
     sequence.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     output.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-f', 'concat', '-safe', '0',
-                    '-i', str(sequence), '-fps_mode', 'vfr', '-c:v', 'libx264', '-preset', 'fast',
+                    '-i', str(sequence), '-vf', 'pad=ceil(iw/2)*2:ceil(ih/2)*2', '-fps_mode', 'vfr', '-c:v', 'libx264', '-preset', 'fast',
                     '-crf', '20', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', str(output)], check=True)
     probe = json.loads(subprocess.check_output(['ffprobe', '-v', 'quiet', '-show_entries',
                       'format=duration,size:stream=width,height,codec_name', '-of', 'json', str(output)],

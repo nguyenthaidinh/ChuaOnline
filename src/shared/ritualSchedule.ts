@@ -1,6 +1,7 @@
 /** Public choreography contract. Never derive server time from artwork metadata. */
 export const RITUAL_TIMELINE_VERSION = 1 as const;
-export type RitualTimelineVersion = typeof RITUAL_TIMELINE_VERSION;
+export const INCENSE_TIMELINE_VERSION = 2 as const;
+export type RitualTimelineVersion = typeof RITUAL_TIMELINE_VERSION | typeof INCENSE_TIMELINE_VERSION;
 
 export const CLIP_MS = {
   stand: 400,
@@ -29,10 +30,24 @@ export type OfferingSequenceKind = 'incense' | 'lotus' | 'petal' | 'bell';
 
 export const CONTACT_MS = { incense: 500, lotus: 500, petal: 350, bell: 300 } as const;
 
+/** Version 2 is issued only for the new male incense action; existing actions keep v1. */
+const INCENSE_CLIP_MS = {
+  ...CLIP_MS, standUp: 1160, sitDown: 1500,
+  offerRaise: 1350, offerHold: 1100, offerPlace: 1400, offerRelease: 1150,
+} as const;
+const INCENSE_CONTACT_MS = { ...CONTACT_MS, incense: 1000 } as const;
+
 export function assertTimelineVersion(version: number = RITUAL_TIMELINE_VERSION): void {
-  if (version !== RITUAL_TIMELINE_VERSION) {
+  if (version !== RITUAL_TIMELINE_VERSION && version !== INCENSE_TIMELINE_VERSION) {
     throw new Error(`Unsupported ritual timeline version: ${version}`);
   }
+}
+
+export function ritualSchedule(version: number = RITUAL_TIMELINE_VERSION) {
+  assertTimelineVersion(version);
+  return version === INCENSE_TIMELINE_VERSION
+    ? { clips: INCENSE_CLIP_MS, contacts: INCENSE_CONTACT_MS }
+    : { clips: CLIP_MS, contacts: CONTACT_MS };
 }
 
 export function offeringClips(kind: OfferingSequenceKind): readonly ClipId[] {
@@ -42,6 +57,7 @@ export function offeringClips(kind: OfferingSequenceKind): readonly ClipId[] {
 
 export const BOW_CYCLE_MS = CLIP_MS.bowDown + CLIP_MS.bowHold + CLIP_MS.bowUp;
 
-export function performanceDuration(kind: 'bow' | 'incense', offering: OfferingSequenceKind = 'incense') {
-  return kind === 'bow' ? BOW_CYCLE_MS * 3 : offeringClips(offering).reduce((sum, id) => sum + CLIP_MS[id], 0);
+export function performanceDuration(kind: 'bow' | 'incense', offering: OfferingSequenceKind = 'incense', version: number = RITUAL_TIMELINE_VERSION) {
+  const schedule = ritualSchedule(version);
+  return kind === 'bow' ? BOW_CYCLE_MS * 3 : offeringClips(offering).reduce((sum, id) => sum + schedule.clips[id], 0);
 }

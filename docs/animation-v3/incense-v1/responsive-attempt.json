@@ -1,0 +1,14 @@
+{
+  "status": "not-verified",
+  "reason": "Browser viewport override did not take effect.",
+  "requestedViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "actualViewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "layout": "desktop",
+  "note": "Screenshot has default desktop viewport and is not mobile evidence."
+}

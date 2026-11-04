@@ -8,17 +8,23 @@ Ngày 04/11/2026. Nhánh `codex/animation-v3`, bản chuẩn trước nâng cấ
 | --- | --- |
 | 0 | Đã khóa bản chuẩn, dựng công cụ xem chậm, ghi video nguồn hiện tại và lập danh sách lỗi |
 | 1 | Có bộ đi lưng chéo 12 khung và bộ chuyển tiếp v2 gồm 24 tư thế: quay 7 mốc, đứng dậy 14 mốc, giữ điểm chân trụ trong đoạn nâng thân. Đã kiểm ba độ sâu ở desktop/mobile; chưa hoàn tất hướng/y phục và chân trụ khi đi bộ mọi đường. Xem [chu kỳ đi](walk-study/README.md) và [tinh chỉnh chuyển tiếp](transition-refinement/README.md) |
-| 2 | Đã làm phần nền tảng lịch nghi lễ độc lập với hình; chưa thay chuỗi dâng hương |
-| 3–6 | Chưa triển khai trong đợt này; tiếp tục sau khi mẫu chuyển động đạt điều kiện chặng 1 |
+| 2 | Đã đưa chuỗi dâng hương nam áo lam vào phòng chung: 23 tư thế, hai tay, nguồn hương, lớp che và chuyển vật vào lư. Lịch v2 giữ tương thích v1. Đã kiểm hai client, vào giữa lễ, ảnh lỗi và giảm chuyển động; chưa nghiệm thu toàn chặng vì còn hướng đi/chuyển hướng và video mobile. [Báo cáo dâng hương](incense-v1/README.md) |
+| 3–6 | Chưa triển khai phần nâng cấp mới; hoàn thiện phạm vi còn mở của chặng 1–2 trước khi nhân rộng |
 
-Không coi bộ kiểm tra code đạt là đã hoàn tất nâng cấp hình ảnh. Hiện chánh điện vẫn dùng bộ ảnh đã kiểm trước đó; rig thử và ảnh reference mới chưa tham gia render sản phẩm.
+Không coi bộ kiểm tra code đạt là đã hoàn tất nâng cấp hình ảnh. Chánh điện đã dùng nguồn mới
+cho dâng hương nam áo lam, đứng/ngồi và hướng đi lưng chéo đủ điều kiện. Góc trước/ngang,
+hai y phục còn lại và các nghi lễ khác vẫn dùng nguồn cũ. Rig thử không tham gia render sản phẩm.
 
-Đợt tinh chỉnh mới có sáu clip thử, chuỗi ghép 54 mốc vẫn dài 5,48 giây, giữ nguyên vị trí/tư thế cuối khi chạy hết.
-Typecheck, 48 test, build và audit lịch nghi lễ đạt. Ảnh desktop/mobile, video ghi trình duyệt và phép đo điểm chân
-nằm trong [báo cáo tinh chỉnh](transition-refinement/README.md); [bản 17 tư thế](transitions/README.md)
-và các bằng chứng phía dưới ghi lại những đợt trước đó.
+Đợt mới nhất có 24 mốc dâng hương trong 5 giây, texture web tổng thêm khoảng 487 KiB nén,
+11,25 MiB RGBA theo kích thước pixel. Typecheck, 55 test, build và audit v1 đạt.
+Xem [báo cáo dâng hương](incense-v1/README.md) để biết phạm vi đã kiểm và giới hạn responsive.
+[Báo cáo tinh chỉnh chuyển tiếp](transition-refinement/README.md), [bản 17 tư thế](transitions/README.md)
+và các bằng chứng phía dưới là lịch sử những đợt trước.
 
-## Code đã thay đổi
+## Nền tảng đã làm ở đợt đầu
+
+Phần này và bằng chứng đợt đầu bên dưới là lịch sử trước khi tích hợp v2.
+Quy tắc cấp phiên bản mới nhất nằm trong [báo cáo dâng hương](incense-v1/README.md).
 
 - `src/shared/ritualSchedule.ts`: lịch nghi lễ v1, thời lượng clip và mốc tương tác;
   server không còn lấy thời gian từ manifest artwork.
@@ -54,6 +60,7 @@ node node_modules/vite/bin/vite.js --host 127.0.0.1 --port 5180 --strictPort
 
 Sau đó mở `http://127.0.0.1:5180/?animation-lab`.
 Để xem chuỗi nối mới, mở `http://127.0.0.1:5180/?animation-lab=transitions`.
+Để xem tay–lư và tua mốc đặt hương, mở `http://127.0.0.1:5180/?animation-lab=incense`.
 Xưởng chỉ có ở dev; thêm query này vào bản production vẫn mở chánh điện bình thường.
 
 ## Kết quả kiểm hình và chuyển động
@@ -90,7 +97,7 @@ Không đánh dấu key pose đơn là clip đạt.
 - Atlas rig bị loại: `artwork/animation-v3/pilot/rig-walk-rejected.png`.
 - Kích thước và SHA-256: [pilot-assets.json](pilot-assets.json).
 
-## Kiểm thử và bằng chứng
+## Bằng chứng đợt nền tảng
 
 - `npm run typecheck`, `npm test` (39/39) và `npm run build` đạt.
 - `npm run audit:animation`: 480 action, 207.765 mẫu pose/marker/thời điểm kết thúc khớp hoàn toàn
@@ -116,9 +123,8 @@ Không đánh dấu key pose đơn là clip đạt.
 
 ## Công việc tiếp theo đã xác định
 
-Chặng 1 còn mở: hoàn thiện nguồn nam áo lam có chân trụ, tay và trang phục đúng trước khi
-nhân bản hướng/y phục. Có thể dùng rig được sửa hoặc chuỗi key pose nhất quán theo bộ prompt;
-mỗi nguồn phải qua kiểm vòng lặp ở tốc độ thật, 0,25× và kích thước mobile.
-Chưa chuyển sang thêm tính năng hoặc sản xuất hàng loạt ảnh khi mẫu cơ thể còn lỗi.
+Hoàn thiện các hướng đi/quay về và điểm nối dừng–dâng–trở về; kiểm video mobile của chuỗi mới.
+Giữ nam áo lam làm mẫu trước khi nhân bản nữ/áo nâu hoặc thêm nghi lễ mới.
+Chạy lại phòng 24 khách/4 nghi lễ với texture mới và đo trên thiết bị thật trước khi phát hành.
 
 Đợt này lưu local. Không đẩy GitHub hoặc triển khai hosting.

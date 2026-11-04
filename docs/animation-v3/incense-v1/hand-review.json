@@ -1,0 +1,52 @@
+{
+  "captureMethod": "Actual CUA browser screenshots at 0.25x authoring playback; VFR timestamps, no audio",
+  "capturedFrames": 58,
+  "capturedMs": 21429,
+  "observedPoses": [
+    "00-neutral",
+    "01-reach",
+    "02-grasp",
+    "03-chest",
+    "04-lift",
+    "05-forehead",
+    "06-bow-start",
+    "07-bow-hold",
+    "08-bow-return",
+    "09-lower",
+    "10-extend",
+    "11-near-burner",
+    "12-contact-closed",
+    "13-release",
+    "16-return",
+    "17-palms",
+    "18-rest",
+    "19-pickup-lift",
+    "20-mid-lift",
+    "21-prayer-lower",
+    "22-arms-lower"
+  ],
+  "last": {
+    "file": "frame-057.png",
+    "at": 1793790214331,
+    "done": true,
+    "owner": "urn",
+    "pose": "00-neutral",
+    "time": "5.000 / 5.000 s"
+  },
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 456,
+        "height": 374
+      }
+    ],
+    "format": {
+      "duration": "21.520000",
+      "size": "179563"
+    }
+  },
+  "limit": "Screenshot sampling is not continuous video and may omit brief poses; all timeline steps are checked separately."
+}

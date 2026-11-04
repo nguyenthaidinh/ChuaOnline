@@ -1,0 +1,205 @@
+{
+  "durationMs": 5000,
+  "frames": [
+    {
+      "timeMs": 0,
+      "clip": "offerRaise",
+      "id": "00-neutral",
+      "holds": false
+    },
+    {
+      "timeMs": 100,
+      "clip": "offerRaise",
+      "id": "01-reach",
+      "hand": {
+        "x": 254.474,
+        "y": 216.632
+      },
+      "holds": false
+    },
+    {
+      "timeMs": 240,
+      "clip": "offerRaise",
+      "id": "02-grasp",
+      "hand": {
+        "x": 251.105,
+        "y": 221.684
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 380,
+      "clip": "offerRaise",
+      "id": "19-pickup-lift",
+      "hand": {
+        "x": 254.474,
+        "y": 197.768
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 520,
+      "clip": "offerRaise",
+      "id": "03-chest",
+      "hand": {
+        "x": 251.105,
+        "y": 194.737
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 690,
+      "clip": "offerRaise",
+      "id": "20-mid-lift",
+      "hand": {
+        "x": 259.526,
+        "y": 158.021
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 900,
+      "clip": "offerRaise",
+      "id": "04-lift",
+      "hand": {
+        "x": 266.937,
+        "y": 147.579
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 1080,
+      "clip": "offerRaise",
+      "id": "05-forehead",
+      "hand": {
+        "x": 253.8,
+        "y": 137.474
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 1350,
+      "clip": "offerHold",
+      "id": "06-bow-start",
+      "hand": {
+        "x": 253.8,
+        "y": 138.484
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 1600,
+      "clip": "offerHold",
+      "id": "07-bow-hold",
+      "hand": {
+        "x": 249.421,
+        "y": 140.505
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 2200,
+      "clip": "offerHold",
+      "id": "08-bow-return",
+      "hand": {
+        "x": 276.705,
+        "y": 154.316
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 2450,
+      "clip": "offerPlace",
+      "id": "10-extend",
+      "hand": {
+        "x": 299.274,
+        "y": 153.642
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 2680,
+      "clip": "offerPlace",
+      "id": "09-lower",
+      "hand": {
+        "x": 307.358,
+        "y": 182.611
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 2910,
+      "clip": "offerPlace",
+      "id": "11-near-burner",
+      "hand": {
+        "x": 312.747,
+        "y": 185.642
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 3180,
+      "clip": "offerPlace",
+      "id": "12-contact-closed",
+      "hand": {
+        "x": 305,
+        "y": 183.284
+      },
+      "holds": true
+    },
+    {
+      "timeMs": 3450,
+      "clip": "offerPlace",
+      "id": "13-release",
+      "holds": false
+    },
+    {
+      "timeMs": 3570,
+      "clip": "offerPlace",
+      "id": "14-open",
+      "holds": false
+    },
+    {
+      "timeMs": 3710,
+      "clip": "offerPlace",
+      "id": "15-withdraw",
+      "holds": false
+    },
+    {
+      "timeMs": 3850,
+      "clip": "offerRelease",
+      "id": "16-return",
+      "holds": false
+    },
+    {
+      "timeMs": 4050,
+      "clip": "offerRelease",
+      "id": "17-palms",
+      "holds": false
+    },
+    {
+      "timeMs": 4300,
+      "clip": "offerRelease",
+      "id": "21-prayer-lower",
+      "holds": false
+    },
+    {
+      "timeMs": 4480,
+      "clip": "offerRelease",
+      "id": "18-rest",
+      "holds": false
+    },
+    {
+      "timeMs": 4660,
+      "clip": "offerRelease",
+      "id": "22-arms-lower",
+      "holds": false
+    },
+    {
+      "timeMs": 4830,
+      "clip": "offerRelease",
+      "id": "00-neutral",
+      "holds": false
+    }
+  ]
+}

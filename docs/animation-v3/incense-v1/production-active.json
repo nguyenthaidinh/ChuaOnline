@@ -1,0 +1,8 @@
+{
+  "artwork": "incense",
+  "handMask": "display: block; background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%); clip-path: polygon(59.2516% 19.6793%, 67.7604% 19.6793%, 67.7604% 29.0213%, 59.2516% 29.0213%);",
+  "held": "true",
+  "phase": "performing",
+  "source": "07-bow-hold",
+  "version": "2"
+}

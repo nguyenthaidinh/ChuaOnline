@@ -1,0 +1,39 @@
+[
+  {
+    "case": "start",
+    "action": "cbf94f4c-8fd7-47fb-b9c3-7227c05a5f43",
+    "id": "00474688-f8e4-4313-add5-8ecc9163227d",
+    "phase": "standing",
+    "source": "14-rise-support",
+    "version": "2"
+  },
+  {
+    "case": "late-client",
+    "action": "cbf94f4c-8fd7-47fb-b9c3-7227c05a5f43",
+    "held": "true",
+    "id": "00474688-f8e4-4313-add5-8ecc9163227d",
+    "phase": "performing",
+    "source": "04-lift",
+    "version": "2"
+  },
+  {
+    "case": "actor-placed",
+    "action": "",
+    "held": "false",
+    "phase": "idle",
+    "placed": [
+      "cbf94f4c-8fd7-47fb-b9c3-7227c05a5f43:placed"
+    ],
+    "source": "10-seated-rear"
+  },
+  {
+    "case": "observer-placed",
+    "action": "",
+    "held": "false",
+    "phase": "idle",
+    "placed": [
+      "cbf94f4c-8fd7-47fb-b9c3-7227c05a5f43:placed"
+    ],
+    "source": "10-seated-rear"
+  }
+]

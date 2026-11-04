@@ -1,0 +1,24 @@
+{
+  "holding": {
+    "action": "87f7b24f-a47e-4e11-acb9-18a98b75c69b",
+    "handMask": "display: block; background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%); clip-path: polygon(60.1289% 19.4162%, 69.1638% 19.4162%, 69.1638% 28.824%, 60.1289% 28.824%);",
+    "held": "true",
+    "phase": "performing",
+    "source": "06-bow-start"
+  },
+  "end": {
+    "held": "false",
+    "phase": "idle",
+    "placed": [
+      {
+        "action": "87f7b24f-a47e-4e11-acb9-18a98b75c69b",
+        "id": "87f7b24f-a47e-4e11-acb9-18a98b75c69b:placed"
+      }
+    ],
+    "reduced": "true",
+    "smokeDisplays": [
+      "none"
+    ]
+  },
+  "buttonEnabled": true
+}

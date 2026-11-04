@@ -1,0 +1,65 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "01-reach-v2",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the same Vietnamese male visitor. Preserve exact identity, short dark hair, blue-grey ao lam tunic/trousers, bare feet, adult proportions, matte fabric and warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, 1254-square framing, standing head top around y30,width150px, feet/root near x615,y1210. Do not zoom/recenter/crop/change camera, head size or feet. Full body and hands in canvas. No floor/shadow/cushion/table/burner/incense/props/text/second person/blur/ghost limbs. Fingers grip an INVISIBLE thin upright bundle only when stated; actual incense is a separate layer. Keep hands at the specified height; reference poses are neighboring endpoints, not the target height. Both EMPTY hands near LOWER CHEST/UPPER ABDOMEN, below sternum. Reach only slightly front-right with elbows bent DOWN. Open fingers approach an invisible upright bundle centered x790,y490; top fingers around y460-490 and lower supporting hand around y510. Do not extend hands toward x900 and do not retain the higher chest hold.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/02-grasp.png"
+      ],
+      "output": "01-reach-v2.png"
+    },
+    {
+      "id": "02-grasp-v2",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the same Vietnamese male visitor. Preserve exact identity, short dark hair, blue-grey ao lam tunic/trousers, bare feet, adult proportions, matte fabric and warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, 1254-square framing, standing head top around y30,width150px, feet/root near x615,y1210. Do not zoom/recenter/crop/change camera, head size or feet. Full body and hands in canvas. No floor/shadow/cushion/table/burner/incense/props/text/second person/blur/ghost limbs. Fingers grip an INVISIBLE thin upright bundle only when stated; actual incense is a separate layer. Keep hands at the specified height; reference poses are neighboring endpoints, not the target height. Grasp the invisible upright bundle near LOWER CHEST/UPPER ABDOMEN centered x790,y490. Top gripping fingers y460-490, lower supporting hand y510-530. Elbows DOWN by sides, forearms modestly forward, hands clearly BELOW sternum. Keep root,head and planted feet exactly as standing reference.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/02-grasp.png"
+      ],
+      "output": "02-grasp-v2.png"
+    },
+    {
+      "id": "19-pickup-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the same Vietnamese male visitor. Preserve exact identity, short dark hair, blue-grey ao lam tunic/trousers, bare feet, adult proportions, matte fabric and warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, 1254-square framing, standing head top around y30,width150px, feet/root near x615,y1210. Do not zoom/recenter/crop/change camera, head size or feet. Full body and hands in canvas. No floor/shadow/cushion/table/burner/incense/props/text/second person/blur/ghost limbs. Fingers grip an INVISIBLE thin upright bundle only when stated; actual incense is a separate layer. Keep hands at the specified height; reference poses are neighboring endpoints, not the target height. Lift invisible bundle halfway from upper-abdomen pickup toward sternum. Grip x790,y425, top gripping hand y400-425, lower support y450. Elbows low but beginning to bend up. LOWER than chest-hold reference at y350 and HIGHER than waist.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/03-chest.png"
+      ],
+      "output": "19-pickup-lift.png"
+    },
+    {
+      "id": "20-mid-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the same Vietnamese male visitor. Preserve exact identity, short dark hair, blue-grey ao lam tunic/trousers, bare feet, adult proportions, matte fabric and warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, 1254-square framing, standing head top around y30,width150px, feet/root near x615,y1210. Do not zoom/recenter/crop/change camera, head size or feet. Full body and hands in canvas. No floor/shadow/cushion/table/burner/incense/props/text/second person/blur/ghost limbs. Fingers grip an INVISIBLE thin upright bundle only when stated; actual incense is a separate layer. Keep hands at the specified height; reference poses are neighboring endpoints, not the target height. Raise joined gripping hands halfway between chest image2 (grip y350) and forehead image3 (grip y160). Grip x800,y270; wrists aligned, elbows intermediate. Do not raise directly to forehead.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/03-chest.png",
+        "artwork/animation-v3/incense-v1/05-forehead.png"
+      ],
+      "output": "20-mid-lift.png"
+    },
+    {
+      "id": "21-prayer-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the same Vietnamese male visitor. Preserve exact identity, short dark hair, blue-grey ao lam tunic/trousers, bare feet, adult proportions, matte fabric and warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, 1254-square framing, standing head top around y30,width150px, feet/root near x615,y1210. Do not zoom/recenter/crop/change camera, head size or feet. Full body and hands in canvas. No floor/shadow/cushion/table/burner/incense/props/text/second person/blur/ghost limbs. Fingers grip an INVISIBLE thin upright bundle only when stated; actual incense is a separate layer. Keep hands at the specified height; reference poses are neighboring endpoints, not the target height. After EMPTY palms-together prayer image2, lower palms halfway toward relaxed waist hands image3. Palms x765,y405, lower than sternum and above waist. Fingers gently up, palms beginning to separate. No gripping fist.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/17-palms.png",
+        "artwork/animation-v3/incense-v1/18-rest.png"
+      ],
+      "output": "21-prayer-lower.png"
+    },
+    {
+      "id": "22-arms-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body animation key pose on true transparent RGBA, not a sheet. Edit the same Vietnamese male visitor. Preserve exact identity, short dark hair, blue-grey ao lam tunic/trousers, bare feet, adult proportions, matte fabric and warm upper-left light. Fixed elevated rear-three-quarter camera facing upper-right, 1254-square framing, standing head top around y30,width150px, feet/root near x615,y1210. Do not zoom/recenter/crop/change camera, head size or feet. Full body and hands in canvas. No floor/shadow/cushion/table/burner/incense/props/text/second person/blur/ghost limbs. Fingers grip an INVISIBLE thin upright bundle only when stated; actual incense is a separate layer. Keep hands at the specified height; reference poses are neighboring endpoints, not the target height. Late arm lowering between EMPTY waist pose image2 and neutral arms-down image1. Hands near upper thighs y610-640, elbows almost straight, relaxed empty fingers. Do not keep hands at waist.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/incense-v1/18-rest.png"
+      ],
+      "output": "22-arms-lower.png"
+    }
+  ],
+  "superseded": [
+    "01-reach.png",
+    "02-grasp.png"
+  ]
+}

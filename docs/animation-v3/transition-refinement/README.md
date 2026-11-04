@@ -3,6 +3,10 @@
 Ngày 04/11/2026, nhánh `codex/animation-v3`. Tiếp tục mẫu nam áo lam của chặng 1.
 Đã xử lý thêm đoạn đổi hướng và nâng thân; chưa nghiệm thu toàn bộ hoạt ảnh hay đưa nguồn thử vào phòng chung.
 
+Cập nhật sau đợt này: nguồn đứng/ngồi và đi lưng chéo đã được xuất texture nhỏ, dùng có chọn lọc
+trong phòng chung ở [đợt dâng hương v2](../incense-v1/README.md). Các số liệu bên dưới
+ghi lại đúng phạm vi của lần kiểm chuyển tiếp trước khi tích hợp đó.
+
 ## Những thay đổi xem được
 
 - Tạo bảy tư thế trung gian mới: bốn tư thế quay và ba tư thế nâng thân.

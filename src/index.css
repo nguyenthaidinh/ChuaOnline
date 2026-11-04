@@ -27,6 +27,12 @@
 .motion-preference{display:flex!important;align-items:center;gap:9px;margin:20px 0 5px!important}.motion-preference input{appearance:auto;width:16px!important;min-height:16px!important;height:16px;padding:0!important;accent-color:#d4b87c}.motion-description{color:#a69679;font-size:10px;line-height:1.6}
 
 .actor-sprite{z-index:1}.actor-shadow{z-index:-1}.actor-label{z-index:3}
+.actor-hand-occlusion{z-index:3;display:none}.room-actor .actor-label{z-index:4}
+.incense-source{position:absolute;width:auto;transform:translate(-50%,-100%);pointer-events:none;display:none}
+.placed-incense{transform:translate(-50%,-100%)}
+.placed-incense .placed-object{transform-origin:50% 100%;rotate:var(--incense-turn,0deg)}
+.incense-source-cup{position:absolute;transform:translateX(-50%);border-radius:5% 5% 30% 30%;background:linear-gradient(90deg,#514027,#ad8b4c 28%,#806035 62%,#43301b);box-shadow:inset 0 -1px 1px #2a190a80;pointer-events:none}
+.incense-source-cup>i{position:absolute;left:0;right:0;top:-10%;height:28%;border-radius:50%;background:radial-gradient(ellipse,#6d604a 40%,#b69a67 56%,#5c4528 73%);border:1px solid #a68a55}
 
 .another-blessing{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:42px;margin:24px auto 0;padding:10px 17px;border:1px solid #bea16b55;border-radius:24px;background:#85602b20;color:#dfc99f;font-size:12px}.another-blessing:hover{background:#85602b40;border-color:#d8b977}.join-music{margin-bottom:20px!important;color:#ddc9a7}
 /* Shared, short-lived offering effects at the Buddha's lotus base. */
