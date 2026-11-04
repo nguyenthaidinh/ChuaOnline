@@ -10,6 +10,9 @@ ba y phục, bồ đoàn và vật phẩm tách rời. Bộ tham chiếu ChuaTan
 
 ## Chạy để phát triển
 
+Đang nâng cấp trên nhánh `codex/animation-v3`. Có xưởng xem chậm hoạt ảnh tại
+`/?animation-lab` khi chạy dev. [Kết quả kiểm mẫu và hướng dẫn](docs/animation-v3/README.md).
+
 Node.js 22.12 trở lên (đã kiểm tra 22.18.0), npm.
 
 ```powershell

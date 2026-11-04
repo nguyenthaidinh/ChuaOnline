@@ -1,0 +1,17 @@
+{
+  "frames": 36,
+  "captureDurationMs": 3368,
+  "spriteFrames": [
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21"
+  ],
+  "speed": 0.25,
+  "source": "actual CUA browser screenshots",
+  "framesFile": ".local-qa/animation-v3/recording.json"
+}

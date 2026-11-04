@@ -1,0 +1,22 @@
+[
+  {
+    "file": "artwork/animation-v3/pilot/rig-walk-rejected.png",
+    "dimensions": [
+      1536,
+      1536
+    ],
+    "mode": "RGBA",
+    "bytes": 455371,
+    "sha256": "46d5e560dbc0d320c8f28a9e7c9aec0b79ffad4631ddefb22788e4add0959e96"
+  },
+  {
+    "file": "artwork/animation-v3/pilot/walk-contact-reference.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "bytes": 589061,
+    "sha256": "8d8da258c6593928bbb52113cecbf931b34615b413493ce4d7fdec880f128ab6"
+  }
+]

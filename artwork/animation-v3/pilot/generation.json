@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "artwork/visual-v2/characters/lam/reference.png",
+  "output": "artwork/animation-v3/pilot/walk-contact-reference.png",
+  "status": "reference-only; not a production animation clip",
+  "prompt": "Create ONE full-body animation reference key pose for ChuaOnline from the attached approved Vietnamese adult male lay Buddhist visitor. Preserve his exact identity, short dark hair, modest loose blue-grey ao lam tunic, trousers, bare feet, body proportions and elevated rear three-quarter camera. Show a slow respectful walking LEFT FOOT CONTACT pose facing diagonally away toward screen right: anatomical left heel makes contact ahead, weight begins moving to that foot, anatomical right foot finishes push-off behind. Small natural counter-swing arms and relaxed shoulders, head stable; actual adult anatomy. Matte soft cloth, same design but remove purple cast, restrained blue-grey cloth under warm upper-left temple light. Refined semi-realistic game artwork readable at small scale, no glossy skin. Whole character within canvas with generous margins, identical scale to reference. True transparent RGBA background. No ground, shadows, floor, scenery, cushion, incense, flowers, effects, text or additional people. This is one pose, not a spritesheet, no blurred or duplicated limbs. Keep full feet and both hands visible."
+}
