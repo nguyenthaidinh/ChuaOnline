@@ -217,6 +217,70 @@
   margin-bottom:12px;
 }
 
+.lab-stage>.lab-sprite,
+.lab-stage>.lab-rig {
+  position:absolute;
+  top:50%;
+  left:50%;
+  translate:-50% -50%;
+}
+
+.lab-stage>.lab-caption {
+  position:absolute;
+  bottom:76px;
+}
+
+.lab-stage>button {
+  position:absolute;
+  bottom:8px;
+}
+
+.lab-floor-study {
+  margin:24px 0;
+}
+
+.lab-floor-study h2 {
+  font-size:18px;
+}
+
+.lab-floor-study>p {
+  color:#aa9c85;
+  font-size:12px;
+}
+
+.lab-walk-room {
+  position:relative;
+  width:100%;
+  aspect-ratio:16/9;
+  background-size:100% 100%;
+  border:1px solid #b2935a33;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.lab-floor-sprite {
+  position:absolute;
+  aspect-ratio:3/4;
+  transform:translate(-50%,-91.40625%);
+  background-repeat:no-repeat;
+}
+
+.lab-walk-room>p {
+  position:absolute;
+  top:12px;
+  left:12px;
+  margin:0;
+  padding:6px 10px;
+  color:#e3cfaa;
+  background:#1b130ed9;
+  border-radius:20px;
+  font-size:10px;
+}
+
+.lab-walk-room[data-layout=mobile] {
+  aspect-ratio:9/16;
+}
+
 @media(max-width:850px) {
   .animation-lab {
     padding:16px;

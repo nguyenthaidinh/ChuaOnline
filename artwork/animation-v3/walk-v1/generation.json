@@ -1,0 +1,107 @@
+{
+  "tool": "built-in image_gen",
+  "baseline": {
+    "id": "00-contact",
+    "source": "../pilot/walk-contact-reference.png",
+    "generation": "../pilot/generation.json"
+  },
+  "jobs": [
+    {
+      "id": "03-passing",
+      "prompt": "Edit the attached approved animation reference into ONE new full-body walking key pose of the EXACT SAME man, not a new person. Preserve the original canvas size, fixed elevated rear three-quarter view, heading toward upper screen-right, head position and head size, short dark hair, face profile, blue-grey ao lam tunic/trousers, matte cloth, warm upper-left light and transparent RGBA background. Keep overall body scale and the same root position under the pelvis. No floor, shadow, effects, labels, props, extra person or motion blur. Both hands and entire feet stay inside the canvas. Anatomically plausible restrained slow walking. Change ONLY the pose specified. Do not merely copy the reference stride, do not mirror the image. The near leg is the leg currently extended forward toward screen-right in the reference; the far leg is currently extended back toward screen-left. MID-STANCE / PASSING: the near leg now supports the body, its foot planted directly under the pelvis with a gently flexed knee. The far leg swings forward past it, knee bent and toes just clear of the ground. The legs are close together in silhouette, NOT in a wide stride. Weight visibly centered over the near supporting foot. The near arm passes downward beside the torso and the far arm passes beside its torso, minimal counter-swing. Torso stable, eyes toward the direction of travel.",
+      "references": [
+        "../pilot/walk-contact-reference.png"
+      ],
+      "output": "03-passing.png"
+    },
+    {
+      "id": "06-opposite-contact",
+      "prompt": "Edit the attached approved animation reference into ONE new full-body walking key pose of the EXACT SAME man, not a new person. Preserve the original canvas size, fixed elevated rear three-quarter view, heading toward upper screen-right, head position and head size, short dark hair, face profile, blue-grey ao lam tunic/trousers, matte cloth, warm upper-left light and transparent RGBA background. Keep overall body scale and the same root position under the pelvis. No floor, shadow, effects, labels, props, extra person or motion blur. Both hands and entire feet stay inside the canvas. Anatomically plausible restrained slow walking. Change ONLY the pose specified. Do not merely copy the reference stride, do not mirror the image. The near leg is the leg currently extended forward toward screen-right in the reference; the far leg is currently extended back toward screen-left. OPPOSITE HEEL CONTACT: reverse the leg roles compared with the reference WITHOUT mirroring the person. The far leg now reaches forward toward the upper-right, heel arriving at contact, toe slightly raised. The near leg is behind toward lower-left, its heel lifted and toes finishing push-off. Reverse the restrained arm swing accordingly: far leg forward means near arm forward and far arm back. Maintain the same heading, head orientation and lighting. Show an actual opposite step, not a duplicate of the attached stride.",
+      "references": [
+        "../pilot/walk-contact-reference.png"
+      ],
+      "output": "06-opposite-contact.png"
+    },
+    {
+      "id": "01-loading",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: First loading response, only one sixth of the way from contact image 1 to passing image 2. Near leg remains ahead, its whole sole lowering to the floor and knee softly flexing to accept weight. Far leg remains behind but its heel lifts as it starts leaving the floor. Slightly shorten the reference stride; do not jump to passing. Arms move just a little toward their neutral position.",
+      "references": [
+        "00-contact.png",
+        "03-passing.png"
+      ],
+      "output": "01-loading.png"
+    },
+    {
+      "id": "02-support",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: Early near-leg support, two thirds of the way toward the passing pose of image 2. Near supporting foot is now nearly under the pelvis, flat and stable. Far foot leaves the back, far knee bends and approaches the supporting leg from behind; the far knee has NOT passed it yet. Legs have a narrow gap. Arms almost neutral.",
+      "references": [
+        "00-contact.png",
+        "03-passing.png"
+      ],
+      "output": "02-support.png"
+    },
+    {
+      "id": "04-late-passing",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: Just after the passing pose of image 2. Near foot supports under the pelvis and its heel only begins to lift. Far knee moves in front of the near knee, lower far leg beginning to extend forward toward upper-right. Far swing foot is lifted clear of the invisible floor. No crossing the thigh silhouettes impossibly. Near arm begins moving forward, far arm backward.",
+      "references": [
+        "00-contact.png",
+        "03-passing.png"
+      ],
+      "output": "04-late-passing.png"
+    },
+    {
+      "id": "05-reaching",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: Just before opposite heel contact shown in image 2. Far leg is extended forward but the far heel remains slightly above the floor, ready to land. Near leg trails behind, near heel raised on toes. Reach is modestly narrower than the opposite contact pose. Near arm forward and far arm back with small natural swing.",
+      "references": [
+        "00-contact.png",
+        "06-opposite-contact.png"
+      ],
+      "output": "05-reaching.png"
+    },
+    {
+      "id": "07-opposite-loading",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: One phase after the opposite contact in image 2. Far leg ahead receives body weight, its sole lowering and its knee bending softly. Near foot trails behind on its toes, near heel lifted and preparing to leave. Shorten that opposite stride slightly, not the original stride of image 1. Near arm begins returning toward neutral, far arm similarly.",
+      "references": [
+        "00-contact.png",
+        "06-opposite-contact.png"
+      ],
+      "output": "07-opposite-loading.png"
+    },
+    {
+      "id": "08-opposite-support",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: Early FAR-leg support in the second half of the cycle. Far supporting foot is nearly directly under the pelvis and planted. Near leg is leaving the back; near knee bends and approaches the far supporting knee from BEHIND, not yet passing it. Arms nearly neutral. This must be the opposite supporting leg from passing image 2.",
+      "references": [
+        "00-contact.png",
+        "03-passing.png"
+      ],
+      "output": "08-opposite-support.png"
+    },
+    {
+      "id": "09-opposite-passing",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: Opposite MID-STANCE / PASSING. Swap the LEG ROLES of passing image 2 while keeping the person and lighting unmirrored. FAR foot planted directly under the pelvis, bearing body weight. NEAR leg swings forward past it, near knee bent, near toes clear of the floor. Narrow leg silhouette, NOT a wide stride. Arms pass down beside the torso.",
+      "references": [
+        "00-contact.png",
+        "03-passing.png"
+      ],
+      "output": "09-opposite-passing.png"
+    },
+    {
+      "id": "10-opposite-late-passing",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: Late FAR-leg support, after the opposite passing point. Far foot supports below the pelvis with its heel just beginning to rise. Near knee is now ahead and the near lower leg extends toward upper-right, foot lifted. This returns toward the original near-leg-forward stride, but remains a narrower in-between pose. Near arm begins moving backward; far arm forward.",
+      "references": [
+        "00-contact.png",
+        "03-passing.png"
+      ],
+      "output": "10-opposite-late-passing.png"
+    },
+    {
+      "id": "11-opposite-reaching",
+      "prompt": "Edit reference image 1 into exactly ONE intermediate key pose of the SAME man for a slow walking animation. Identity, head orientation, elevated rear-three-quarter camera facing upper-right, head position/size, torso scale, hair, garment design, blue-grey matte cloth, warm upper-left light and transparent RGBA canvas must stay locked to image 1. Never mirror or rotate the person. Full body and all hands/feet inside the same canvas; no floor, shadow, smoke, objects or text. Image 2 is only an adjacent pose for leg trajectory guidance. Anatomically correct weight transfer; restrained arm counter-swing; no wide theatrical gestures. The NEAR leg is the leg extended toward screen-right in image 1. The FAR leg is the leg extended back toward screen-left in image 1. Keep the root under the pelvis fixed, walking in place. Target pose: Just BEFORE the original near-foot heel contact of image 1, completing the cycle. NEAR leg reaches forward toward upper-right, near heel hovering slightly above the floor, toes lifted. FAR leg trails behind toward lower-left on its toes with heel raised. Restore the original restrained arm counter-swing from image 1. Slightly narrower stride than image 1. Do NOT copy the opposite leg assignment of image 2.",
+      "references": [
+        "00-contact.png",
+        "06-opposite-contact.png"
+      ],
+      "output": "11-opposite-reaching.png"
+    }
+  ]
+}

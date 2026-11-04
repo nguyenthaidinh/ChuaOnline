@@ -1,0 +1,19 @@
+{
+  "frames": 32,
+  "durationMs": 6701,
+  "poses": [
+    "00-contact",
+    "01-loading",
+    "02-support",
+    "03-passing",
+    "04-late-passing",
+    "05-reaching",
+    "06-opposite-contact",
+    "07-opposite-loading",
+    "08-opposite-support",
+    "09-opposite-passing",
+    "10-opposite-late-passing",
+    "11-opposite-reaching"
+  ],
+  "capture": "actual CUA screenshots, 0.25x authoring playback"
+}

@@ -7,7 +7,7 @@ Ngày 04/11/2026. Nhánh `codex/animation-v3`, bản chuẩn trước nâng cấ
 | Chặng | Trạng thái thực tế |
 | --- | --- |
 | 0 | Đã khóa bản chuẩn, dựng công cụ xem chậm, ghi video nguồn hiện tại và lập danh sách lỗi |
-| 1 | Đã thử rig FBX, xuất 12 khung và kiểm nguồn; rig hiện có bị loại khỏi phương án đưa thẳng vào web. Có một ảnh key pose mới làm tham chiếu, chưa có chu kỳ đi mới đạt nghiệm thu |
+| 1 | Rig FBX cũ chưa đạt. Đã tạo và kiểm bộ thử đi lưng chéo 12 khung nam áo lam; chưa hoàn tất các hướng và đoạn nối đứng/đi/dừng/ngồi. Xem [đợt tạo chu kỳ đi](walk-study/README.md) |
 | 2 | Đã làm phần nền tảng lịch nghi lễ độc lập với hình; chưa thay chuỗi dâng hương |
 | 3–6 | Chưa triển khai trong đợt này; tiếp tục sau khi mẫu chuyển động đạt điều kiện chặng 1 |
 

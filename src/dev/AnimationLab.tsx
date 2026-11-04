@@ -3,6 +3,7 @@ import { characterManifest, sampleClip } from '../room/animationManifest';
 import { CLIP_MS, type ClipId } from '../shared/ritualSchedule';
 import { roomAssets } from '../room/layout';
 import { RigPreview, type RigClip } from './RigPreview';
+import { CandidatePreview } from './CandidatePreview';
 import type { Appearance } from '../room/protocol';
 import './animationLab.css';
 
@@ -26,6 +27,8 @@ export default function AnimationLab() {
   const [angle, setAngle] = useState(180);
   const [guides, setGuides] = useState(true);
   const [background, setBackground] = useState('temple');
+  const [source, setSource] = useState('keyposes');
+  const previewDurationMs = source === 'keyposes' ? 1200 : CLIP_MS[clip];
   const manifest = characterManifest(appearance);
   const frame = sampleClip(manifest, clip, progress * CLIP_MS[clip]);
   const rigClip = CLIPS.find(item => item[0] === clip)?.[2] ?? 'walk';
@@ -38,12 +41,12 @@ export default function AnimationLab() {
       const elapsed = now - previous;
       previous = now;
       // A hidden tab pauses the authoring clock; production uses server time instead.
-      if (!document.hidden && elapsed < 500) setProgress(value => (value + elapsed * speed / CLIP_MS[clip]) % 1);
+      if (!document.hidden && elapsed < 500) setProgress(value => (value + elapsed * speed / previewDurationMs) % 1);
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
-  }, [playing, speed, clip]);
+  }, [playing, speed, previewDurationMs]);
 
   const step = (delta: number) => {
     setPlaying(false);
@@ -53,11 +56,12 @@ export default function AnimationLab() {
   return <main className="animation-lab">
     <header><div><span className="lab-eyebrow">CHUAONLINE · XƯỞNG HOẠT ẢNH</span><h1>Kiểm chuyển động trước khi đưa vào chánh điện</h1><p>Chỉ có ở bản phát triển. Không kết nối hoặc điều khiển phòng chung.</p></div><a href="./">Về chánh điện ↗</a></header>
     <section className="lab-controls" aria-label="Điều khiển kiểm hoạt ảnh">
-      <label>Động tác<select value={clip} onChange={event => { setClip(event.target.value as ClipId); setProgress(0); }}>{CLIPS.map(([id, label]) => <option key={id} value={id}>{label}</option>)}</select></label>
+      <label>Động tác<select value={clip} onChange={event => { setClip(event.target.value as ClipId); setProgress(0); }}>{(source==='keyposes'?CLIPS.filter(item=>item[0]==='walkRear'):CLIPS).map(([id, label]) => <option key={id} value={id}>{label}</option>)}</select></label>
       <label>Sprite đối chiếu<select value={appearance} onChange={event => setAppearance(event.target.value as Appearance)}><option value="man">Nam áo lam</option><option value="woman">Nữ áo lam</option><option value="granny">Áo nâu</option></select></label>
       <label>Tốc độ<select value={speed} onChange={event => setSpeed(Number(event.target.value))}><option value="0.25">0,25× · xem chậm</option><option value="0.5">0,5×</option><option value="1">1× · tốc độ clip</option></select></label>
-      <label>Góc rig<select value={angle} onChange={event => setAngle(Number(event.target.value))}><option value="180">Lưng thẳng</option><option value="135">Lưng chéo trái</option><option value="225">Lưng chéo phải</option><option value="0">Mặt trước</option><option value="45">Trước chéo trái</option><option value="315">Trước chéo phải</option></select></label>
+      <label>Góc rig<select disabled={source!=='rig'} value={angle} onChange={event => setAngle(Number(event.target.value))}><option value="180">Lưng thẳng</option><option value="135">Lưng chéo trái</option><option value="225">Lưng chéo phải</option><option value="0">Mặt trước</option><option value="45">Trước chéo trái</option><option value="315">Trước chéo phải</option></select></label>
       <label>Nền kiểm<select value={background} onChange={event => setBackground(event.target.value)}><option value="temple">Chánh điện</option><option value="light">Nền sáng</option><option value="dark">Nền tối</option></select></label>
+      <label>Nguồn mới<select value={source} onChange={event => {setSource(event.target.value);setClip('walkRear');setProgress(0);}}><option value="keyposes">Ảnh key pose mới</option><option value="rig">Rig FBX cũ</option></select></label>
       <label className="lab-check"><input type="checkbox" checked={guides} onChange={event => setGuides(event.target.checked)} />Hiện điểm gốc và bộ xương</label>
     </section>
     <section className={`lab-comparison lab-bg-${background}`} aria-label="So sánh nguồn hoạt ảnh">
@@ -66,12 +70,13 @@ export default function AnimationLab() {
           {guides && <><i className="lab-pivot" style={{ left: '50%', top: '91.40625%' }} title="Điểm gốc sàn" />{frame.hand && <i className="lab-hand" style={{ left: `${frame.hand.x / manifest.frameWidth * 100}%`, top: `${frame.hand.y / manifest.frameHeight * 100}%` }} title="Điểm nắm vật" />}</>}
         </div>
       </div><p className="lab-caption">Ô {frame.cell} · khung {frame.index + 1} · {Math.round(progress * CLIP_MS[clip])} / {CLIP_MS[clip]} ms</p></article>
-      <article><h2>Thử rig từ nguồn có sẵn</h2><div className="lab-stage" style={background === 'temple' ? { backgroundImage: `url('${roomAssets.hall.desktop}')` } : undefined}><RigPreview clip={rigClip} progress={progress} angle={angle} guides={guides} /></div></article>
+      <article><h2>{source==='rig'?'Thử rig từ nguồn có sẵn':'Chu kỳ đi từ key pose mới'}</h2><div className="lab-stage" style={background === 'temple' ? { backgroundImage: `url('${roomAssets.hall.desktop}')` } : undefined}>{source==='rig'?<RigPreview clip={rigClip} progress={progress} angle={angle} guides={guides}/>:<CandidatePreview progress={progress} guides={guides}/>}</div></article>
     </section>
+    {source==='keyposes'&&<section className="lab-floor-study"><h2>Đi thử trên sàn ở kích thước thực</h2><p>Đối chiếu sải chân 0,95 m với phép chiếu sàn hiện tại. Đồng hồ xem chậm theo chu kỳ ảnh; không kết nối người truy cập.</p><CandidatePreview progress={progress} guides={false} floorStudy /></section>}
     <section className="lab-transport" aria-label="Tua hoạt ảnh">
       <button onClick={() => step(-1)}>← Lùi một bước</button><button className="lab-play" aria-pressed={playing} onClick={() => setPlaying(value => !value)}>{playing ? 'Tạm dừng' : 'Phát vòng lặp'}</button><button onClick={() => step(1)}>Tiến một bước →</button>
       <label htmlFor="lab-progress">Tiến độ <output>{Math.round(progress * 100)}%</output><input id="lab-progress" type="range" min="0" max="0.999" step="0.001" value={progress} onChange={event => { setPlaying(false); setProgress(Number(event.target.value)); }} /></label>
     </section>
-    <aside><strong>Điểm cần xem:</strong> chân trụ, tỷ lệ đầu/tay, vùng nách/áo khi quỳ, bàn tay nắm hương, điểm nối đầu/cuối. Hai cột dùng cùng phần trăm tiến độ; clip FBX và clip sprite có thời lượng gốc khác nhau. Bản rig chỉ là nguồn thử, chưa được thay vào website.</aside>
+    <aside><strong>Điểm cần xem:</strong> chân trụ, tỷ lệ đầu/tay, vùng nách/áo khi quỳ, bàn tay nắm hương, điểm nối đầu/cuối. Hai cột đối chiếu theo cùng phần trăm tiến độ. Chu kỳ key pose mới dài 1,2 giây, hiện chỉ có nam áo lam ở góc lưng chéo. Các nguồn thử chưa được thay vào chánh điện.</aside>
   </main>;
 }

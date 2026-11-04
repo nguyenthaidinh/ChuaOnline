@@ -1,0 +1,340 @@
+{
+  "status": "complete-unreviewed",
+  "missing": [],
+  "image": "walk-atlas.webp",
+  "width": 384,
+  "height": 512,
+  "columns": 4,
+  "rows": 3,
+  "durationMs": 1200,
+  "groundPivot": [
+    192,
+    468
+  ],
+  "frames": [
+    {
+      "id": "00-contact",
+      "phase": "Tiếp đất bước gần",
+      "source": "artwork/animation-v3/walk-v1/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        71,
+        276,
+        469
+      ],
+      "headInspectionBounds": [
+        51,
+        22,
+        104,
+        80
+      ],
+      "sha256": "8d8da258c6593928bbb52113cecbf931b34615b413493ce4d7fdec880f128ab6"
+    },
+    {
+      "id": "01-loading",
+      "phase": "Nhận trọng lượng",
+      "source": "artwork/animation-v3/walk-v1/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        269,
+        467
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "3a9cfd15d6442c6beff6abb3a31de3de790fd74fbd96e3ff25521a505268fad4"
+    },
+    {
+      "id": "02-support",
+      "phase": "Chân gần chịu lực",
+      "source": "artwork/animation-v3/walk-v1/02-support.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        71,
+        271,
+        452
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "b7c611e63022f412a086ec5f0d3c370f0d3c39eeb85a58534c349749e1911497"
+    },
+    {
+      "id": "03-passing",
+      "phase": "Chân xa đi qua",
+      "source": "artwork/animation-v3/walk-v1/03-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        71,
+        256,
+        460
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "4dcc7b9a0cddf4c3c045d48509352ea6979b43644f2303a5fdc9ce43712d9eb1"
+    },
+    {
+      "id": "04-late-passing",
+      "phase": "Chân xa tiến lên",
+      "source": "artwork/animation-v3/walk-v1/04-late-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        106,
+        70,
+        288,
+        465
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "84d784065a0dcdec678f2d86d03c549d20a2fa1115fd0588583842568d3c3461"
+    },
+    {
+      "id": "05-reaching",
+      "phase": "Chuẩn bị bước xa",
+      "source": "artwork/animation-v3/walk-v1/05-reaching.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        71,
+        288,
+        467
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "a17015c67249c3d0e2f4e746c7dea851f7caa9164c4796783e6a090d5acf03af"
+    },
+    {
+      "id": "06-opposite-contact",
+      "phase": "Tiếp đất bước xa",
+      "source": "artwork/animation-v3/walk-v1/06-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        107,
+        71,
+        289,
+        467
+      ],
+      "headInspectionBounds": [
+        51,
+        22,
+        104,
+        80
+      ],
+      "sha256": "63c0ce743530326184a88d55c7b8c6a9e9a0b5170626be0c3db83d9ec254331b"
+    },
+    {
+      "id": "07-opposite-loading",
+      "phase": "Đổi trọng lượng",
+      "source": "artwork/animation-v3/walk-v1/07-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        112,
+        70,
+        282,
+        467
+      ],
+      "headInspectionBounds": [
+        50,
+        21,
+        104,
+        80
+      ],
+      "sha256": "d0be2660b14a35fdad3b941830455039d8372446802827ab02455acc8eec4a37"
+    },
+    {
+      "id": "08-opposite-support",
+      "phase": "Chân xa chịu lực",
+      "source": "artwork/animation-v3/walk-v1/08-opposite-support.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        71,
+        263,
+        461
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "32e9db7b90038093bfc9e84d1f5be3b643ecbce69ea3057c8033b849c65f3133"
+    },
+    {
+      "id": "09-opposite-passing",
+      "phase": "Chân gần đi qua",
+      "source": "artwork/animation-v3/walk-v1/09-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        71,
+        252,
+        461
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "3aaa7eb7e90075e57630728df1a4afdb68a414c9e2ed84a1dc2fad4d796a3d21"
+    },
+    {
+      "id": "10-opposite-late-passing",
+      "phase": "Chân gần tiến lên",
+      "source": "artwork/animation-v3/walk-v1/10-opposite-late-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        111,
+        70,
+        280,
+        465
+      ],
+      "headInspectionBounds": [
+        50,
+        21,
+        104,
+        80
+      ],
+      "sha256": "7ca4f6d290ed6d01e5712400fd527b163506e30ac16e9d7e4e9e16c05a368f28"
+    },
+    {
+      "id": "11-opposite-reaching",
+      "phase": "Chuẩn bị lặp chu kỳ",
+      "source": "artwork/animation-v3/walk-v1/11-opposite-reaching.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        71,
+        281,
+        469
+      ],
+      "headInspectionBounds": [
+        51,
+        21,
+        104,
+        80
+      ],
+      "sha256": "ba83c38c6ca75e7207c9139dd2197f6a0c4be694f021fcc41c8b957d94df7c5f"
+    }
+  ]
+}
