@@ -1,0 +1,153 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "00-stand-angled",
+      "prompt": "Edit reference image 1 (the approved walking man) into ONE key pose for the SAME Vietnamese male temple visitor. Preserve his identity, hair, blue-grey ao lam tunic and trousers, bare feet, realistic proportions, matte cloth and warm upper-left illumination. Fixed elevated orthographic-style camera, same 1254-square framing and absolute body/head scale. True transparent RGBA, no floor, shadow, cushion, props, text, second person or motion blur. Do not zoom or recenter to fill the canvas. The floor/root origin under the pelvis remains around x615 y1210 on the square canvas, and the fully standing head has the same size and top position as image 1. Both hands and full feet inside canvas. NEUTRAL STANDING at the SAME rear three-quarter heading toward upper-right as image 1. Bring both feet into a relaxed parallel stance under the pelvis; both soles grounded. Relax both arms beside the torso, hands empty, elbows soft. Stable weight over both feet. Do not retain the walking stride. Keep the head, shoulder width and body height exactly matched to image 1.",
+      "references": [
+        "artwork/animation-v3/walk-v1/00-contact.png"
+      ],
+      "output": "00-stand-angled.png"
+    },
+    {
+      "id": "02-stand-rear",
+      "prompt": "Edit reference image 1 (the approved walking man) into ONE key pose for the SAME Vietnamese male temple visitor. Preserve his identity, hair, blue-grey ao lam tunic and trousers, bare feet, realistic proportions, matte cloth and warm upper-left illumination. Fixed elevated orthographic-style camera, same 1254-square framing and absolute body/head scale. True transparent RGBA, no floor, shadow, cushion, props, text, second person or motion blur. Do not zoom or recenter to fill the canvas. The floor/root origin under the pelvis remains around x615 y1210 on the square canvas, and the fully standing head has the same size and top position as image 1. Both hands and full feet inside canvas. NEUTRAL STANDING turned to exact STRAIGHT REAR view, facing away toward the altar. No facial profile visible; balanced shoulders, center of head/spine/pelvis aligned. Feet parallel under pelvis with both soles grounded. Arms relaxed beside torso, hands empty. Preserve absolute head size, standing height, root and camera elevation, only body heading changes.",
+      "references": [
+        "artwork/animation-v3/walk-v1/00-contact.png"
+      ],
+      "output": "02-stand-rear.png"
+    },
+    {
+      "id": "10-seated-rear",
+      "prompt": "Edit reference image 1 (the approved walking man) into ONE key pose for the SAME Vietnamese male temple visitor. Preserve his identity, hair, blue-grey ao lam tunic and trousers, bare feet, realistic proportions, matte cloth and warm upper-left illumination. Fixed elevated orthographic-style camera, same 1254-square framing and absolute body/head scale. True transparent RGBA, no floor, shadow, cushion, props, text, second person or motion blur. Do not zoom or recenter to fill the canvas. The floor/root origin under the pelvis remains around x615 y1210 on the square canvas, and the fully standing head has the same size and top position as image 1. Both hands and full feet inside canvas. SEATED CROSS-LEGGED, exact straight rear view facing the altar. Reference image 2 provides ONLY the seated leg arrangement and centered-back pose; identity, light and absolute head/body scale come from image 1. Put the pelvis/base contact near x615 y1210. The head must remain roughly 150-160 pixels wide, NOT the enlarged head size of image 2. Because sitting lowers the body, leave large transparent space ABOVE the head: top of hair approximately y480-520 pixels, not at the top of the canvas. Shoulders, spine and head centered above the seat origin. Natural cross-legged knees spread to each side, hands resting quietly in the lap, no cushion, no floor. Do not scale the seated man up to fill the frame.",
+      "references": [
+        "artwork/animation-v3/walk-v1/00-contact.png",
+        "artwork/seating-direction/man.png"
+      ],
+      "output": "10-seated-rear.png"
+    },
+    {
+      "id": "01-turn-mid",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. TURN TOWARD ALTAR: standing on both feet, turn the torso, pelvis, head and feet halfway from the rear-three-quarter heading of image 1 toward the straight rear view of image 2. A small step-turn, not a twist at the waist. Almost rear view with only a tiny part of the right ear/cheek visible. Relaxed empty hands. Head top stays around y30.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png"
+      ],
+      "output": "01-turn-mid.png"
+    },
+    {
+      "id": "03-weight-shift",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. BEGIN LOWERING: straight rear view. Slightly flex both knees, shift weight gently over the feet, pelvis lowers a little, head top about y70. Arms move a little forward for balance but stay naturally connected. Keep feet planted at the same origin; no profile face.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "03-weight-shift.png"
+    },
+    {
+      "id": "04-knee-bend",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. DEEPER KNEE FLEXION: exact rear view, knees bend about 45 degrees, hips sink and torso inclines naturally forward for balance. Head top around y210, preserving head size. Arms forward/down for balance, hands visible beside thighs. Heels stay near floor, body centered over the feet. This is a transition to kneeling, not a squat exercise.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "04-knee-bend.png"
+    },
+    {
+      "id": "05-lower-knees",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. LOWERING KNEES: straight rear view. Both knees descend close to the invisible floor, heels lifting as toes support the transition. Torso mildly forward, arms help balance, hips lowered. Head top around y330 without changing head size. Both knees/feet anatomically connected, no duplicated feet. Not yet cross-legged.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "05-lower-knees.png"
+    },
+    {
+      "id": "06-kneeling",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. STABLE UPRIGHT KNEEL: exact straight rear. Both knees resting on invisible floor, shins and feet folded behind, torso upright, hips above heels. Hands relaxed beside thighs, preparing to tuck legs for sitting. Head top around y370. Preserve absolute head size, body dimensions and root contact; large transparent area above.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "06-kneeling.png"
+    },
+    {
+      "id": "07-tuck-legs",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. TUCK LEGS TO SIT: exact rear view. From upright kneeling, lower hips and shift weight gently to one side while arranging lower legs into a cross-legged seat. One hand reaches beside the hip toward invisible floor for support; the other steadies near thigh. Head top around y415. Show the real leg/knee articulation, not an already finished seated silhouette.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "07-tuck-legs.png"
+    },
+    {
+      "id": "08-half-seated",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. HALF-SEATED TRANSITION: exact rear view, hips very close to invisible floor, knees opening sideways toward cross-legged position. One palm supports beside hip, torso inclines slightly forward; legs being folded under the body. Head top about y455. Same size head and clothing; no cushion. Not yet the perfectly symmetrical final sitting pose.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "08-half-seated.png"
+    },
+    {
+      "id": "09-seated-settle",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. SETTLING INTO CROSS-LEGGED SEAT: exact rear view, hips grounded at x615 y1210, both knees spread to sides, final leg arrangement nearly identical to image 2. Torso just slightly inclined before straightening, hands withdrawing from support toward lap. Head top around y475, same 150 pixel head width. Leave upper canvas transparent.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "09-seated-settle.png"
+    },
+    {
+      "id": "11-step-ready",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. BEGIN FIRST STEP: same rear three-quarter heading toward upper-right. Shift weight to the near planted foot, far heel lifting with far toes still close to floor, knees relaxed. Stride is very short, not a wide walking pose. Small arm counter-swing begins; body still nearly standing. Head top stays y30 and same size; root unchanged.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "11-step-ready.png"
+    },
+    {
+      "id": "12-stop-close",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. DECELERATE AND CLOSE THE STEP: rear three-quarter toward upper-right. The supporting foot is planted under the pelvis; the trailing/swing foot lowers beside it with a SHORT gap, soft flexed knees absorb the stopping step. Both arms moving toward rest. No wide stride, no raised high knee, no lean backward. Head/body scale and top position unchanged.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "12-stop-close.png"
+    },
+    {
+      "id": "13-stop-settle",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. FINAL STOP SETTLING: rear three-quarter toward upper-right. Feet now almost parallel under pelvis, both soles grounded, only slight residual knee flex and a tiny weight shift. Arms nearly relaxed beside torso, empty hands. One frame before fully neutral standing in image 1. Keep head top y30 and root fixed.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "13-stop-settle.png"
+    },
+    {
+      "id": "14-rise-support",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. BEGIN RISING from the cross-legged seat of image 1: exact rear view, lean torso forward and place palms beside hips on invisible floor to support lifting. Hips begin rising; knees draw inward and one lower leg starts untucking. Head top near y440, same 150 pixel head size, do not stand upright yet. Visible hand support and plausible balance, no cushion.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png",
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png"
+      ],
+      "output": "14-rise-support.png"
+    },
+    {
+      "id": "15-rise-half-kneel",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. RISING HALF-KNEEL: exact rear view. One knee remains on invisible floor, the other foot planted ahead to push up. One hand presses on the planted-leg thigh for support, other hand balances naturally. Hips lifting, torso slightly forward. Head top around y280. Realistic joint angles and weight bearing; preserve origin/scale; not a full stand or seated pose.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "15-rise-half-kneel.png"
+    },
+    {
+      "id": "16-rise-crouch",
+      "prompt": "Create ONE intermediate key pose by editing the SAME approved man in reference image 1. Exact same short dark hair, blue-grey ao lam tunic/trousers, bare feet, natural adult proportions, warm upper-left lighting and elevated fixed camera. True transparent RGBA square canvas, full hands and feet, no floor/shadow/cushion/text/props/other people/motion blur. Do not crop, zoom, or enlarge a lower posture to fill the canvas. Keep the same absolute head width about 150 pixels and the same floor/root origin near x615,y1210 on a 1254-square canvas. Reference image 2, when present, is a pose endpoint, not a new identity or camera. Keep garment construction consistent; plausible weight-bearing joints and balance. RISING CROUCH: exact rear view. Both feet now planted under pelvis, knees still flexed about 40 degrees while straightening. Hips lifted above the previous kneel, torso inclined slightly forward, hands assisting near thighs before returning to rest. Head top around y140. Same head size, feet contact near fixed root. This is an upward recovery pose, not a reversed falling pose.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png"
+      ],
+      "output": "16-rise-crouch.png"
+    }
+  ]
+}

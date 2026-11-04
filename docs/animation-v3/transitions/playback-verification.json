@@ -1,0 +1,11 @@
+{
+  "riseResult": {
+    "pose": "00-stand-angled",
+    "time": "1.16 / 1.16 s"
+  },
+  "finishedSequence": true,
+  "sequenceResult": {
+    "pose": "10-seated-rear",
+    "time": "5.48 / 5.48 s"
+  }
+}

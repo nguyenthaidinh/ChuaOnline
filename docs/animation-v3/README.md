@@ -7,11 +7,15 @@ Ngày 04/11/2026. Nhánh `codex/animation-v3`, bản chuẩn trước nâng cấ
 | Chặng | Trạng thái thực tế |
 | --- | --- |
 | 0 | Đã khóa bản chuẩn, dựng công cụ xem chậm, ghi video nguồn hiện tại và lập danh sách lỗi |
-| 1 | Rig FBX cũ chưa đạt. Đã tạo và kiểm bộ thử đi lưng chéo 12 khung nam áo lam; chưa hoàn tất các hướng và đoạn nối đứng/đi/dừng/ngồi. Xem [đợt tạo chu kỳ đi](walk-study/README.md) |
+| 1 | Có bộ thử đi lưng chéo 12 khung và 17 tư thế chuyển tiếp nam áo lam. Đã ghép chuỗi đứng dậy–đi–dừng–ngồi 5,48 giây để kiểm nguồn; chưa hoàn tất hướng/y phục, khung quay và khóa chân mọi đường đi. Xem [chu kỳ đi](walk-study/README.md) và [chuỗi chuyển tiếp](transitions/README.md) |
 | 2 | Đã làm phần nền tảng lịch nghi lễ độc lập với hình; chưa thay chuỗi dâng hương |
 | 3–6 | Chưa triển khai trong đợt này; tiếp tục sau khi mẫu chuyển động đạt điều kiện chặng 1 |
 
 Không coi bộ kiểm tra code đạt là đã hoàn tất nâng cấp hình ảnh. Hiện chánh điện vẫn dùng bộ ảnh đã kiểm trước đó; rig thử và ảnh reference mới chưa tham gia render sản phẩm.
+
+Đợt nối chuyển động mới có năm clip thử, tua từng tư thế và giữ nguyên vị trí/tư thế cuối khi chạy hết.
+Typecheck, 46 test, build và audit lịch nghi lễ đạt. Chi tiết, ảnh trình duyệt desktop/mobile và vòng xem nguồn
+nằm trong [báo cáo chuyển tiếp](transitions/README.md); các bằng chứng phía dưới ghi lại đợt nền tảng trước đó.
 
 ## Code đã thay đổi
 
@@ -48,6 +52,7 @@ node node_modules/vite/bin/vite.js --host 127.0.0.1 --port 5180 --strictPort
 ```
 
 Sau đó mở `http://127.0.0.1:5180/?animation-lab`.
+Để xem chuỗi nối mới, mở `http://127.0.0.1:5180/?animation-lab=transitions`.
 Xưởng chỉ có ở dev; thêm query này vào bản production vẫn mở chánh điện bình thường.
 
 ## Kết quả kiểm hình và chuyển động

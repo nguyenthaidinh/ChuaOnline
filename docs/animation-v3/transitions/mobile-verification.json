@@ -1,0 +1,14 @@
+{
+  "layout": "mobile",
+  "pose": "10-seated-rear",
+  "scrollWidth": 375,
+  "sprite": {
+    "height": 455.4624938964844,
+    "ratio": 0.7500068846089291,
+    "width": 341.6000061035156
+  },
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

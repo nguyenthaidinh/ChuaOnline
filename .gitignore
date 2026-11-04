@@ -16,3 +16,4 @@ settings.json
 uploads/
 
 .local-qa/
+__pycache__/

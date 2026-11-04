@@ -1,0 +1,12 @@
+[
+  {
+    "clip": "startWalk",
+    "pose": "06-opposite-contact",
+    "time": "0.72 / 0.72 s"
+  },
+  {
+    "clip": "stopWalk",
+    "pose": "00-stand-angled",
+    "time": "0.90 / 0.90 s"
+  }
+]

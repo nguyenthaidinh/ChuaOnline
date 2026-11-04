@@ -55,7 +55,7 @@ export default function AnimationLab() {
   };
 
   return <main className="animation-lab">
-    <header><div><span className="lab-eyebrow">CHUAONLINE · XƯỞNG HOẠT ẢNH</span><h1>Kiểm chuyển động trước khi đưa vào chánh điện</h1><p>Chỉ có ở bản phát triển. Không kết nối hoặc điều khiển phòng chung.</p></div><a href="./">Về chánh điện ↗</a></header>
+    <header><div><span className="lab-eyebrow">CHUAONLINE · XƯỞNG HOẠT ẢNH</span><h1>Kiểm chuyển động trước khi đưa vào chánh điện</h1><p>Chỉ có ở bản phát triển. Không kết nối hoặc điều khiển phòng chung.</p></div><nav><a href="?animation-lab=transitions">Kiểm chuỗi đứng–đi–ngồi ↗</a><br/><a href="./">Về chánh điện ↗</a></nav></header>
     <section className="lab-controls" aria-label="Điều khiển kiểm hoạt ảnh">
       <label>Động tác<select value={clip} onChange={event => { setClip(event.target.value as ClipId); setProgress(0); }}>{(source==='keyposes'?CLIPS.filter(item=>item[0]==='walkRear'):CLIPS).map(([id, label]) => <option key={id} value={id}>{label}</option>)}</select></label>
       <label>Sprite đối chiếu<select value={appearance} onChange={event => setAppearance(event.target.value as Appearance)}><option value="man">Nam áo lam</option><option value="woman">Nữ áo lam</option><option value="granny">Áo nâu</option></select></label>

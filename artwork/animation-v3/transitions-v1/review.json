@@ -1,0 +1,374 @@
+{
+  "status": "complete-unreviewed",
+  "missing": [],
+  "image": "transition-atlas.webp",
+  "imageHash": "04ec2a98c0332392be928af037f74cfab03451a1a4be037da591241c5cbf346b",
+  "width": 384,
+  "height": 512,
+  "columns": 4,
+  "rows": 5,
+  "durationMs": 1700,
+  "groundPivot": [
+    192,
+    468
+  ],
+  "frames": [
+    {
+      "id": "00-stand-angled",
+      "phase": "Đứng chéo",
+      "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        70,
+        254,
+        461
+      ],
+      "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+    },
+    {
+      "id": "01-turn-mid",
+      "phase": "Quay về bàn thờ",
+      "source": "artwork/animation-v3/transitions-v1/01-turn-mid.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        70,
+        256,
+        462
+      ],
+      "sha256": "2a8b6cc94d09b22412e575b6f0438fb394999197c2f8883ec1802bd486ea21d8"
+    },
+    {
+      "id": "02-stand-rear",
+      "phase": "Đứng lưng thẳng",
+      "source": "artwork/animation-v3/transitions-v1/02-stand-rear.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        70,
+        265,
+        464
+      ],
+      "sha256": "f410aaa8e7b126950b9358282abf59253a133eb2677f1fe01f6e6c2c4bd58c8d"
+    },
+    {
+      "id": "03-weight-shift",
+      "phase": "Chuyển trọng lượng",
+      "source": "artwork/animation-v3/transitions-v1/03-weight-shift.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        81,
+        273,
+        465
+      ],
+      "sha256": "a6a7682ce5458792e28cf57a035360470b8da4308e28cdc09568b293b9eeea09"
+    },
+    {
+      "id": "04-knee-bend",
+      "phase": "Khuỵu gối",
+      "source": "artwork/animation-v3/transitions-v1/04-knee-bend.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        101,
+        119,
+        288,
+        464
+      ],
+      "sha256": "b8c9a1726c09ae68af96aaeba541d3a02a5991504b642210758b465e9bbf74fa"
+    },
+    {
+      "id": "05-lower-knees",
+      "phase": "Hạ gối",
+      "source": "artwork/animation-v3/transitions-v1/05-lower-knees.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        93,
+        163,
+        295,
+        460
+      ],
+      "sha256": "4fa8931ba4e2e5894d869f52c18a38cdf14d0a56967d68cc21816c1c412a566a"
+    },
+    {
+      "id": "06-kneeling",
+      "phase": "Quỳ ổn định",
+      "source": "artwork/animation-v3/transitions-v1/06-kneeling.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        174,
+        268,
+        469
+      ],
+      "sha256": "9f31e55189e6154d46538af4b7f2ad485d2e1f8891d721ed070e5676645ce4f4"
+    },
+    {
+      "id": "07-tuck-legs",
+      "phase": "Thu chân",
+      "source": "artwork/animation-v3/transitions-v1/07-tuck-legs.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        75,
+        219,
+        295,
+        457
+      ],
+      "sha256": "929952a7111af797050a6e4b3b7effb7d37d97cda7e9f6682307959b0ba38ddd"
+    },
+    {
+      "id": "08-half-seated",
+      "phase": "Hạ thân",
+      "source": "artwork/animation-v3/transitions-v1/08-half-seated.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        77,
+        219,
+        298,
+        462
+      ],
+      "sha256": "8f586493c07a680adc183bea724ea6c645d9378ddcc994ad72248e0b3c96c993"
+    },
+    {
+      "id": "09-seated-settle",
+      "phase": "Ổn định khi ngồi",
+      "source": "artwork/animation-v3/transitions-v1/09-seated-settle.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        95,
+        220,
+        297,
+        465
+      ],
+      "sha256": "6719b7746086e45f1fd57007c63a84256758dab895f36ab136cd7c470c34242e"
+    },
+    {
+      "id": "10-seated-rear",
+      "phase": "Ngồi nhìn tượng Phật",
+      "source": "artwork/animation-v3/transitions-v1/10-seated-rear.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        97,
+        219,
+        295,
+        469
+      ],
+      "sha256": "82b9536f9cd5566cbe99eb0bbee9dbc2c519cea7285a7df197e7b432583174ee"
+    },
+    {
+      "id": "11-step-ready",
+      "phase": "Chuẩn bị bước",
+      "source": "artwork/animation-v3/transitions-v1/11-step-ready.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        126,
+        70,
+        270,
+        461
+      ],
+      "sha256": "b585626155285ac19f37161baa9283779f900023a2f63e01ebf7670f62517a41"
+    },
+    {
+      "id": "12-stop-close",
+      "phase": "Thu ngắn bước",
+      "source": "artwork/animation-v3/transitions-v1/12-stop-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        134,
+        71,
+        253,
+        459
+      ],
+      "sha256": "00fce86ceeeb8dabfb21523f12a2bddb02a93bbddd758e94056827aae93909bf"
+    },
+    {
+      "id": "13-stop-settle",
+      "phase": "Ổn định khi dừng",
+      "source": "artwork/animation-v3/transitions-v1/13-stop-settle.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        70,
+        252,
+        460
+      ],
+      "sha256": "aa2ed0e1bd5697697dbc47574aa2c5319640703954f9e632ffada08fe306ee02"
+    },
+    {
+      "id": "14-rise-support",
+      "phase": "Chống tay đứng dậy",
+      "source": "artwork/animation-v3/transitions-v1/14-rise-support.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        68,
+        215,
+        324,
+        464
+      ],
+      "sha256": "76230d04867f3b7d71449673915f76205047852509d55ee54d8e90ae46a110ef"
+    },
+    {
+      "id": "15-rise-half-kneel",
+      "phase": "Đặt chân làm điểm tựa",
+      "source": "artwork/animation-v3/transitions-v1/15-rise-half-kneel.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        99,
+        103,
+        295,
+        472
+      ],
+      "sha256": "7890dcda13fce3dc5d2f948454eb97638eba9a50ceefb4660fc9ab2afabc37fa"
+    },
+    {
+      "id": "16-rise-crouch",
+      "phase": "Đẩy thân đứng lên",
+      "source": "artwork/animation-v3/transitions-v1/16-rise-crouch.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        77,
+        276,
+        467
+      ],
+      "sha256": "d185aef02551be3454473de4af0972ba926438676c677b5ce51ad119cc0c1779"
+    }
+  ]
+}

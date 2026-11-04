@@ -1,0 +1,985 @@
+{
+  "atlases": {
+    "walk": {
+      "status": "complete-unreviewed",
+      "image": "walk-atlas.webp",
+      "imageHash": "7c4e92fda8fa2bca8b2844e5b4e458b6fff8200dee83d520a87bc79dc6bc7381",
+      "width": 384,
+      "height": 512,
+      "columns": 4,
+      "rows": 3,
+      "durationMs": 1200,
+      "frames": [
+        {
+          "id": "00-contact",
+          "phase": "Tiếp đất bước gần"
+        },
+        {
+          "id": "01-loading",
+          "phase": "Nhận trọng lượng"
+        },
+        {
+          "id": "02-support",
+          "phase": "Chân gần chịu lực"
+        },
+        {
+          "id": "03-passing",
+          "phase": "Chân xa đi qua"
+        },
+        {
+          "id": "04-late-passing",
+          "phase": "Chân xa tiến lên"
+        },
+        {
+          "id": "05-reaching",
+          "phase": "Chuẩn bị bước xa"
+        },
+        {
+          "id": "06-opposite-contact",
+          "phase": "Tiếp đất bước xa"
+        },
+        {
+          "id": "07-opposite-loading",
+          "phase": "Đổi trọng lượng"
+        },
+        {
+          "id": "08-opposite-support",
+          "phase": "Chân xa chịu lực"
+        },
+        {
+          "id": "09-opposite-passing",
+          "phase": "Chân gần đi qua"
+        },
+        {
+          "id": "10-opposite-late-passing",
+          "phase": "Chân gần tiến lên"
+        },
+        {
+          "id": "11-opposite-reaching",
+          "phase": "Chuẩn bị lặp chu kỳ"
+        }
+      ]
+    },
+    "transition": {
+      "status": "complete-unreviewed",
+      "image": "transition-atlas.webp",
+      "imageHash": "04ec2a98c0332392be928af037f74cfab03451a1a4be037da591241c5cbf346b",
+      "width": 384,
+      "height": 512,
+      "columns": 4,
+      "rows": 5,
+      "durationMs": 1700,
+      "frames": [
+        {
+          "id": "00-stand-angled",
+          "phase": "Đứng chéo"
+        },
+        {
+          "id": "01-turn-mid",
+          "phase": "Quay về bàn thờ"
+        },
+        {
+          "id": "02-stand-rear",
+          "phase": "Đứng lưng thẳng"
+        },
+        {
+          "id": "03-weight-shift",
+          "phase": "Chuyển trọng lượng"
+        },
+        {
+          "id": "04-knee-bend",
+          "phase": "Khuỵu gối"
+        },
+        {
+          "id": "05-lower-knees",
+          "phase": "Hạ gối"
+        },
+        {
+          "id": "06-kneeling",
+          "phase": "Quỳ ổn định"
+        },
+        {
+          "id": "07-tuck-legs",
+          "phase": "Thu chân"
+        },
+        {
+          "id": "08-half-seated",
+          "phase": "Hạ thân"
+        },
+        {
+          "id": "09-seated-settle",
+          "phase": "Ổn định khi ngồi"
+        },
+        {
+          "id": "10-seated-rear",
+          "phase": "Ngồi nhìn tượng Phật"
+        },
+        {
+          "id": "11-step-ready",
+          "phase": "Chuẩn bị bước"
+        },
+        {
+          "id": "12-stop-close",
+          "phase": "Thu ngắn bước"
+        },
+        {
+          "id": "13-stop-settle",
+          "phase": "Ổn định khi dừng"
+        },
+        {
+          "id": "14-rise-support",
+          "phase": "Chống tay đứng dậy"
+        },
+        {
+          "id": "15-rise-half-kneel",
+          "phase": "Đặt chân làm điểm tựa"
+        },
+        {
+          "id": "16-rise-crouch",
+          "phase": "Đẩy thân đứng lên"
+        }
+      ]
+    }
+  },
+  "clips": {
+    "sequence": {
+      "steps": [
+        {
+          "bank": "transition",
+          "frameId": "10-seated-rear",
+          "durationMs": 200,
+          "phase": "An tọa",
+          "travelEnd": 0,
+          "index": 10,
+          "startMs": 0,
+          "endMs": 200,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "14-rise-support",
+          "durationMs": 180,
+          "phase": "Chống tay chuyển trọng lượng",
+          "travelEnd": 0,
+          "index": 14,
+          "startMs": 200,
+          "endMs": 380,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "15-rise-half-kneel",
+          "durationMs": 180,
+          "phase": "Đặt chân làm điểm tựa",
+          "travelEnd": 0,
+          "index": 15,
+          "startMs": 380,
+          "endMs": 560,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "16-rise-crouch",
+          "durationMs": 160,
+          "phase": "Đẩy thân đứng lên",
+          "travelEnd": 0,
+          "index": 16,
+          "startMs": 560,
+          "endMs": 720,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "02-stand-rear",
+          "durationMs": 160,
+          "phase": "Đứng vững",
+          "travelEnd": 0,
+          "index": 2,
+          "startMs": 720,
+          "endMs": 880,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "01-turn-mid",
+          "durationMs": 120,
+          "phase": "Quay theo hướng đi",
+          "travelEnd": 0,
+          "index": 1,
+          "startMs": 880,
+          "endMs": 1000,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 160,
+          "phase": "Sẵn sàng di chuyển",
+          "travelEnd": 0,
+          "index": 0,
+          "startMs": 1000,
+          "endMs": 1160,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 160,
+          "phase": "Đứng vững",
+          "travelEnd": 0,
+          "index": 0,
+          "startMs": 1160,
+          "endMs": 1320,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "11-step-ready",
+          "durationMs": 140,
+          "phase": "Dồn trọng lượng, nhấc gót",
+          "travelEnd": 0.02,
+          "index": 11,
+          "startMs": 1320,
+          "endMs": 1460,
+          "travelStart": 0
+        },
+        {
+          "bank": "walk",
+          "frameId": "03-passing",
+          "durationMs": 100,
+          "phase": "Bước đầu",
+          "travelEnd": 0.05,
+          "index": 3,
+          "startMs": 1460,
+          "endMs": 1560,
+          "travelStart": 0.02
+        },
+        {
+          "bank": "walk",
+          "frameId": "04-late-passing",
+          "durationMs": 100,
+          "phase": "Đưa chân tới",
+          "travelEnd": 0.1,
+          "index": 4,
+          "startMs": 1560,
+          "endMs": 1660,
+          "travelStart": 0.05
+        },
+        {
+          "bank": "walk",
+          "frameId": "05-reaching",
+          "durationMs": 100,
+          "phase": "Đón bước",
+          "travelEnd": 0.14,
+          "index": 5,
+          "startMs": 1660,
+          "endMs": 1760,
+          "travelStart": 0.1
+        },
+        {
+          "bank": "walk",
+          "frameId": "06-opposite-contact",
+          "durationMs": 120,
+          "phase": "Tiếp đất",
+          "travelEnd": 0.18,
+          "index": 6,
+          "startMs": 1760,
+          "endMs": 1880,
+          "travelStart": 0.14
+        },
+        {
+          "bank": "walk",
+          "frameId": "07-opposite-loading",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.25916666666666666,
+          "index": 7,
+          "startMs": 1880,
+          "endMs": 1980,
+          "travelStart": 0.18
+        },
+        {
+          "bank": "walk",
+          "frameId": "08-opposite-support",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.3383333333333333,
+          "index": 8,
+          "startMs": 1980,
+          "endMs": 2080,
+          "travelStart": 0.25916666666666666
+        },
+        {
+          "bank": "walk",
+          "frameId": "09-opposite-passing",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.4175,
+          "index": 9,
+          "startMs": 2080,
+          "endMs": 2180,
+          "travelStart": 0.3383333333333333
+        },
+        {
+          "bank": "walk",
+          "frameId": "10-opposite-late-passing",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.49666666666666665,
+          "index": 10,
+          "startMs": 2180,
+          "endMs": 2280,
+          "travelStart": 0.4175
+        },
+        {
+          "bank": "walk",
+          "frameId": "11-opposite-reaching",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.5758333333333333,
+          "index": 11,
+          "startMs": 2280,
+          "endMs": 2380,
+          "travelStart": 0.49666666666666665
+        },
+        {
+          "bank": "walk",
+          "frameId": "00-contact",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.6549999999999999,
+          "index": 0,
+          "startMs": 2380,
+          "endMs": 2480,
+          "travelStart": 0.5758333333333333
+        },
+        {
+          "bank": "walk",
+          "frameId": "01-loading",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.7341666666666666,
+          "index": 1,
+          "startMs": 2480,
+          "endMs": 2580,
+          "travelStart": 0.6549999999999999
+        },
+        {
+          "bank": "walk",
+          "frameId": "02-support",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.8133333333333332,
+          "index": 2,
+          "startMs": 2580,
+          "endMs": 2680,
+          "travelStart": 0.7341666666666666
+        },
+        {
+          "bank": "walk",
+          "frameId": "03-passing",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.8924999999999998,
+          "index": 3,
+          "startMs": 2680,
+          "endMs": 2780,
+          "travelStart": 0.8133333333333332
+        },
+        {
+          "bank": "walk",
+          "frameId": "04-late-passing",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 0.9716666666666667,
+          "index": 4,
+          "startMs": 2780,
+          "endMs": 2880,
+          "travelStart": 0.8924999999999998
+        },
+        {
+          "bank": "walk",
+          "frameId": "05-reaching",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 1.0508333333333333,
+          "index": 5,
+          "startMs": 2880,
+          "endMs": 2980,
+          "travelStart": 0.9716666666666667
+        },
+        {
+          "bank": "walk",
+          "frameId": "06-opposite-contact",
+          "durationMs": 100,
+          "phase": "Đi bộ",
+          "travelEnd": 1.13,
+          "index": 6,
+          "startMs": 2980,
+          "endMs": 3080,
+          "travelStart": 1.0508333333333333
+        },
+        {
+          "bank": "walk",
+          "frameId": "06-opposite-contact",
+          "durationMs": 100,
+          "phase": "Chuẩn bị dừng",
+          "travelEnd": 1.13,
+          "index": 6,
+          "startMs": 3080,
+          "endMs": 3180,
+          "travelStart": 1.13
+        },
+        {
+          "bank": "walk",
+          "frameId": "07-opposite-loading",
+          "durationMs": 110,
+          "phase": "Nhận bước",
+          "travelEnd": 1.19,
+          "index": 7,
+          "startMs": 3180,
+          "endMs": 3290,
+          "travelStart": 1.13
+        },
+        {
+          "bank": "walk",
+          "frameId": "08-opposite-support",
+          "durationMs": 110,
+          "phase": "Giảm tốc",
+          "travelEnd": 1.24,
+          "index": 8,
+          "startMs": 3290,
+          "endMs": 3400,
+          "travelStart": 1.19
+        },
+        {
+          "bank": "walk",
+          "frameId": "09-opposite-passing",
+          "durationMs": 120,
+          "phase": "Thu ngắn bước",
+          "travelEnd": 1.275,
+          "index": 9,
+          "startMs": 3400,
+          "endMs": 3520,
+          "travelStart": 1.24
+        },
+        {
+          "bank": "transition",
+          "frameId": "12-stop-close",
+          "durationMs": 120,
+          "phase": "Đặt chân cạnh chân trụ",
+          "travelEnd": 1.2999999999999998,
+          "index": 12,
+          "startMs": 3520,
+          "endMs": 3640,
+          "travelStart": 1.275
+        },
+        {
+          "bank": "transition",
+          "frameId": "13-stop-settle",
+          "durationMs": 140,
+          "phase": "Ổn định trọng lượng",
+          "travelEnd": 1.3099999999999998,
+          "index": 13,
+          "startMs": 3640,
+          "endMs": 3780,
+          "travelStart": 1.2999999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 200,
+          "phase": "Đứng yên",
+          "travelEnd": 1.3099999999999998,
+          "index": 0,
+          "startMs": 3780,
+          "endMs": 3980,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 140,
+          "phase": "Đứng vững",
+          "travelEnd": 1.3099999999999998,
+          "index": 0,
+          "startMs": 3980,
+          "endMs": 4120,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "01-turn-mid",
+          "durationMs": 120,
+          "phase": "Quay về bàn thờ",
+          "travelEnd": 1.3099999999999998,
+          "index": 1,
+          "startMs": 4120,
+          "endMs": 4240,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "02-stand-rear",
+          "durationMs": 120,
+          "phase": "Hướng nhìn tượng Phật",
+          "travelEnd": 1.3099999999999998,
+          "index": 2,
+          "startMs": 4240,
+          "endMs": 4360,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "03-weight-shift",
+          "durationMs": 100,
+          "phase": "Chuyển trọng lượng",
+          "travelEnd": 1.3099999999999998,
+          "index": 3,
+          "startMs": 4360,
+          "endMs": 4460,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "04-knee-bend",
+          "durationMs": 100,
+          "phase": "Khuỵu gối",
+          "travelEnd": 1.3099999999999998,
+          "index": 4,
+          "startMs": 4460,
+          "endMs": 4560,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "05-lower-knees",
+          "durationMs": 100,
+          "phase": "Hạ gối",
+          "travelEnd": 1.3099999999999998,
+          "index": 5,
+          "startMs": 4560,
+          "endMs": 4660,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "06-kneeling",
+          "durationMs": 140,
+          "phase": "Ổn định khi quỳ",
+          "travelEnd": 1.3099999999999998,
+          "index": 6,
+          "startMs": 4660,
+          "endMs": 4800,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "07-tuck-legs",
+          "durationMs": 120,
+          "phase": "Thu chân",
+          "travelEnd": 1.3099999999999998,
+          "index": 7,
+          "startMs": 4800,
+          "endMs": 4920,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "08-half-seated",
+          "durationMs": 120,
+          "phase": "Hạ thân xuống bồ đoàn",
+          "travelEnd": 1.3099999999999998,
+          "index": 8,
+          "startMs": 4920,
+          "endMs": 5040,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "09-seated-settle",
+          "durationMs": 120,
+          "phase": "Ổn định tư thế",
+          "travelEnd": 1.3099999999999998,
+          "index": 9,
+          "startMs": 5040,
+          "endMs": 5160,
+          "travelStart": 1.3099999999999998
+        },
+        {
+          "bank": "transition",
+          "frameId": "10-seated-rear",
+          "durationMs": 320,
+          "phase": "An tọa nhìn tượng Phật",
+          "travelEnd": 1.3099999999999998,
+          "index": 10,
+          "startMs": 5160,
+          "endMs": 5480,
+          "travelStart": 1.3099999999999998
+        }
+      ],
+      "durationMs": 5480
+    },
+    "standUp": {
+      "steps": [
+        {
+          "bank": "transition",
+          "frameId": "10-seated-rear",
+          "durationMs": 200,
+          "phase": "An tọa",
+          "travelEnd": 0,
+          "index": 10,
+          "startMs": 0,
+          "endMs": 200,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "14-rise-support",
+          "durationMs": 180,
+          "phase": "Chống tay chuyển trọng lượng",
+          "travelEnd": 0,
+          "index": 14,
+          "startMs": 200,
+          "endMs": 380,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "15-rise-half-kneel",
+          "durationMs": 180,
+          "phase": "Đặt chân làm điểm tựa",
+          "travelEnd": 0,
+          "index": 15,
+          "startMs": 380,
+          "endMs": 560,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "16-rise-crouch",
+          "durationMs": 160,
+          "phase": "Đẩy thân đứng lên",
+          "travelEnd": 0,
+          "index": 16,
+          "startMs": 560,
+          "endMs": 720,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "02-stand-rear",
+          "durationMs": 160,
+          "phase": "Đứng vững",
+          "travelEnd": 0,
+          "index": 2,
+          "startMs": 720,
+          "endMs": 880,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "01-turn-mid",
+          "durationMs": 120,
+          "phase": "Quay theo hướng đi",
+          "travelEnd": 0,
+          "index": 1,
+          "startMs": 880,
+          "endMs": 1000,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 160,
+          "phase": "Sẵn sàng di chuyển",
+          "travelEnd": 0,
+          "index": 0,
+          "startMs": 1000,
+          "endMs": 1160,
+          "travelStart": 0
+        }
+      ],
+      "durationMs": 1160
+    },
+    "startWalk": {
+      "steps": [
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 160,
+          "phase": "Đứng vững",
+          "travelEnd": 0,
+          "index": 0,
+          "startMs": 0,
+          "endMs": 160,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "11-step-ready",
+          "durationMs": 140,
+          "phase": "Dồn trọng lượng, nhấc gót",
+          "travelEnd": 0.02,
+          "index": 11,
+          "startMs": 160,
+          "endMs": 300,
+          "travelStart": 0
+        },
+        {
+          "bank": "walk",
+          "frameId": "03-passing",
+          "durationMs": 100,
+          "phase": "Bước đầu",
+          "travelEnd": 0.05,
+          "index": 3,
+          "startMs": 300,
+          "endMs": 400,
+          "travelStart": 0.02
+        },
+        {
+          "bank": "walk",
+          "frameId": "04-late-passing",
+          "durationMs": 100,
+          "phase": "Đưa chân tới",
+          "travelEnd": 0.1,
+          "index": 4,
+          "startMs": 400,
+          "endMs": 500,
+          "travelStart": 0.05
+        },
+        {
+          "bank": "walk",
+          "frameId": "05-reaching",
+          "durationMs": 100,
+          "phase": "Đón bước",
+          "travelEnd": 0.14,
+          "index": 5,
+          "startMs": 500,
+          "endMs": 600,
+          "travelStart": 0.1
+        },
+        {
+          "bank": "walk",
+          "frameId": "06-opposite-contact",
+          "durationMs": 120,
+          "phase": "Tiếp đất",
+          "travelEnd": 0.18,
+          "index": 6,
+          "startMs": 600,
+          "endMs": 720,
+          "travelStart": 0.14
+        }
+      ],
+      "durationMs": 720
+    },
+    "stopWalk": {
+      "steps": [
+        {
+          "bank": "walk",
+          "frameId": "06-opposite-contact",
+          "durationMs": 100,
+          "phase": "Chuẩn bị dừng",
+          "travelEnd": 0,
+          "index": 6,
+          "startMs": 0,
+          "endMs": 100,
+          "travelStart": 0
+        },
+        {
+          "bank": "walk",
+          "frameId": "07-opposite-loading",
+          "durationMs": 110,
+          "phase": "Nhận bước",
+          "travelEnd": 0.06,
+          "index": 7,
+          "startMs": 100,
+          "endMs": 210,
+          "travelStart": 0
+        },
+        {
+          "bank": "walk",
+          "frameId": "08-opposite-support",
+          "durationMs": 110,
+          "phase": "Giảm tốc",
+          "travelEnd": 0.11,
+          "index": 8,
+          "startMs": 210,
+          "endMs": 320,
+          "travelStart": 0.06
+        },
+        {
+          "bank": "walk",
+          "frameId": "09-opposite-passing",
+          "durationMs": 120,
+          "phase": "Thu ngắn bước",
+          "travelEnd": 0.145,
+          "index": 9,
+          "startMs": 320,
+          "endMs": 440,
+          "travelStart": 0.11
+        },
+        {
+          "bank": "transition",
+          "frameId": "12-stop-close",
+          "durationMs": 120,
+          "phase": "Đặt chân cạnh chân trụ",
+          "travelEnd": 0.17,
+          "index": 12,
+          "startMs": 440,
+          "endMs": 560,
+          "travelStart": 0.145
+        },
+        {
+          "bank": "transition",
+          "frameId": "13-stop-settle",
+          "durationMs": 140,
+          "phase": "Ổn định trọng lượng",
+          "travelEnd": 0.18,
+          "index": 13,
+          "startMs": 560,
+          "endMs": 700,
+          "travelStart": 0.17
+        },
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 200,
+          "phase": "Đứng yên",
+          "travelEnd": 0.18,
+          "index": 0,
+          "startMs": 700,
+          "endMs": 900,
+          "travelStart": 0.18
+        }
+      ],
+      "durationMs": 900
+    },
+    "sitDown": {
+      "steps": [
+        {
+          "bank": "transition",
+          "frameId": "00-stand-angled",
+          "durationMs": 140,
+          "phase": "Đứng vững",
+          "travelEnd": 0,
+          "index": 0,
+          "startMs": 0,
+          "endMs": 140,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "01-turn-mid",
+          "durationMs": 120,
+          "phase": "Quay về bàn thờ",
+          "travelEnd": 0,
+          "index": 1,
+          "startMs": 140,
+          "endMs": 260,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "02-stand-rear",
+          "durationMs": 120,
+          "phase": "Hướng nhìn tượng Phật",
+          "travelEnd": 0,
+          "index": 2,
+          "startMs": 260,
+          "endMs": 380,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "03-weight-shift",
+          "durationMs": 100,
+          "phase": "Chuyển trọng lượng",
+          "travelEnd": 0,
+          "index": 3,
+          "startMs": 380,
+          "endMs": 480,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "04-knee-bend",
+          "durationMs": 100,
+          "phase": "Khuỵu gối",
+          "travelEnd": 0,
+          "index": 4,
+          "startMs": 480,
+          "endMs": 580,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "05-lower-knees",
+          "durationMs": 100,
+          "phase": "Hạ gối",
+          "travelEnd": 0,
+          "index": 5,
+          "startMs": 580,
+          "endMs": 680,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "06-kneeling",
+          "durationMs": 140,
+          "phase": "Ổn định khi quỳ",
+          "travelEnd": 0,
+          "index": 6,
+          "startMs": 680,
+          "endMs": 820,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "07-tuck-legs",
+          "durationMs": 120,
+          "phase": "Thu chân",
+          "travelEnd": 0,
+          "index": 7,
+          "startMs": 820,
+          "endMs": 940,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "08-half-seated",
+          "durationMs": 120,
+          "phase": "Hạ thân xuống bồ đoàn",
+          "travelEnd": 0,
+          "index": 8,
+          "startMs": 940,
+          "endMs": 1060,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "09-seated-settle",
+          "durationMs": 120,
+          "phase": "Ổn định tư thế",
+          "travelEnd": 0,
+          "index": 9,
+          "startMs": 1060,
+          "endMs": 1180,
+          "travelStart": 0
+        },
+        {
+          "bank": "transition",
+          "frameId": "10-seated-rear",
+          "durationMs": 320,
+          "phase": "An tọa nhìn tượng Phật",
+          "travelEnd": 0,
+          "index": 10,
+          "startMs": 1180,
+          "endMs": 1500,
+          "travelStart": 0
+        }
+      ],
+      "durationMs": 1500
+    }
+  }
+}

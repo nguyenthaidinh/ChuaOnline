@@ -59,7 +59,8 @@ Nút tua bước dùng chỉ số nguyên để không bỏ/lặp khung do tích
 Nguồn mới đã vượt bước một ảnh tham chiếu đơn và có thể kiểm chuyển động theo chu kỳ.
 Tuy nhiên chưa nghiệm thu chuyển động trong toàn bộ tình huống phòng thật:
 
-- Cần nối đứng–bước đầu–đi–giảm tốc–dừng, quay người và ngồi xuống cùng bộ nguồn.
+- Đã có [bản nối thử đứng–đi–dừng–ngồi](../transitions/README.md) cùng bộ nguồn.
+  Cần bổ sung khung quay/đứng dậy và kiểm tiếp xúc trước khi nghiệm thu để dùng trong phòng thật.
 - Cần hoàn thiện các hướng đi còn lại; hiện chưa có góc trước và góc ngang mới.
 - Cần đo lại tiếp xúc chân ở các độ sâu/hướng đường đi và đồng bộ pha bước khi vào/ra clip,
   đặc biệt lúc đổi hướng. Chưa coi đoạn mô phỏng một chu kỳ là đã khóa chân mọi đường đi.
