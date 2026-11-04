@@ -1,5 +1,5 @@
 import { useEffect,useRef } from 'react';
-import { characterManifest,sampleClip,type ClipId } from './animationManifest';
+import { characterManifest,sampleScheduledClip,type ClipId } from './animationManifest';
 import { actorMetrics,projectFloor,roomAssets } from './layout';
 import { logicalSeat,logicalAltar } from './motion';
 import { sampleEntry,sampleSharedRitual } from './ritual';
@@ -28,7 +28,7 @@ export function CharacterSprite({person,self,layout,offset,reduced}:{person:Room
    if(walking)clip=facing==='front'?'standFront':'stand';
    if(pose?.phase==='performing'&&person.action?.kind==='bow')clip='kneeling';
   }
-  const frame=sampleClip(manifest,clip,reduced?0:pose?.clipTime??entry.clipTime,!reduced&&walking?(pose?.distance??entry.distance):undefined);
+  const frame=sampleScheduledClip(manifest,clip,reduced?0:pose?.clipTime??entry.clipTime,!reduced&&walking?(pose?.distance??entry.distance):undefined);
   const projected=projectFloor(point,layout),size=actorMetrics(point,layout);
   Object.assign(root.current.style,{left:`${projected.x}%`,top:`${projected.y}%`,height:`${size.canvasHeight}%`,aspectRatio:`${manifest.frameWidth}/${manifest.frameHeight}`,transform:`translate(-${manifest.groundPivot.x/manifest.frameWidth*100}%,-${manifest.groundPivot.y/manifest.frameHeight*100}%)`,zIndex:String(Math.round(projected.y*100))});
   const columns=frame.columns,rows=frame.rows,cell=frame.atlasCell;

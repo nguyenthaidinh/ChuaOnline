@@ -2,8 +2,9 @@ import type { Appearance } from './protocol.ts';
 import { LAM_GEOMETRY } from './visualGeometry.ts';
 import { VARIANT_GEOMETRY } from './variantGeometry.ts';
 import { SEATED_REAR_POSES } from './seatedRearGeometry.ts';
+import { CLIP_MS, CONTACT_MS, type ClipId } from '../shared/ritualSchedule.ts';
+export type { ClipId } from '../shared/ritualSchedule.ts';
 export type Facing = 'rear' | 'front';
-export type ClipId = 'stand'|'standFront'|'walkRear'|'walkFront'|'sitDown'|'seated'|'standUp'|'kneelDown'|'kneeling'|'bowDown'|'bowHold'|'bowUp'|'rise'|'offerRaise'|'offerHold'|'offerPlace'|'offerRelease'|'petalRelease'|'bellStrike';
 export interface HandAnchor { x:number; y:number }
 export interface FrameSpec { cell:number; durationMs:number; hand?:HandAnchor; propLayer?:'behind-hand'|'in-front'; pose?:'seatedRear' }
 export interface AnimationClip { frames:FrameSpec[]; loop:boolean; facing:Facing; markers?:Record<string,number>; stride?:number }
@@ -54,6 +55,21 @@ export function sampleClip(manifest:CharacterManifest,id:ClipId,timeMs:number,di
   const pose=frame.pose?manifest.poseAssets[frame.pose]:undefined;
   return {...frame,hand:manifest.geometry[frame.cell]?.hand??frame.hand,index,facing:clip.facing,top:pose?.top??manifest.geometry[frame.cell]?.top??70,
     image:pose?.image??manifest.image,columns:pose?1:manifest.columns,rows:pose?1:manifest.rows,atlasCell:pose?0:frame.cell};
+}
+
+/** Fit visual frames to the public schedule, preserving the contact marker on both sides. */
+export function sampleScheduledClip(manifest:CharacterManifest,id:ClipId,timeMs:number,distance?:number) {
+  const clip=manifest.clips[id];
+  const visualDuration=clipDuration(clip),scheduledDuration=CLIP_MS[id];
+  const scheduledContact=id==='offerPlace'?CONTACT_MS.incense:id==='petalRelease'?CONTACT_MS.petal:id==='bellStrike'?CONTACT_MS.bell:undefined;
+  const visualContact=clip.markers?.[id==='offerPlace'?'place':id==='petalRelease'?'release':'strike'];
+  let visualTime=timeMs/scheduledDuration*visualDuration;
+  if(scheduledContact!==undefined&&visualContact!==undefined) {
+    visualTime=timeMs<scheduledContact
+      ?timeMs/scheduledContact*visualContact
+      :visualContact+(timeMs-scheduledContact)/(scheduledDuration-scheduledContact)*(visualDuration-visualContact);
+  }
+  return sampleClip(manifest,id,visualTime,distance);
 }
 function variant(skin:'woman'|'granny'):CharacterManifest {
   const geometry=Object.fromEntries(Object.entries(LAM_GEOMETRY).map(([cell,value])=>[cell,{top:VARIANT_GEOMETRY[skin][Number(cell)].top,...(value.hand?{hand:{x:value.hand.x/2,y:value.hand.y/2}}:{})}]));

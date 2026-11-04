@@ -1,0 +1,8 @@
+{
+  "baseline": "628098d",
+  "expected": "e90ca77813e0d75ec60a7f6c7630555920330a7c4b58d593cba949729d53d9d4",
+  "actual": "e90ca77813e0d75ec60a7f6c7630555920330a7c4b58d593cba949729d53d9d4",
+  "matches": true,
+  "actions": 480,
+  "poses": 207765
+}

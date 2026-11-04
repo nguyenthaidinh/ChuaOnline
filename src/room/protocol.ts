@@ -1,4 +1,5 @@
 import type { RitualCommand } from '../types/experience.ts';
+import type { RitualTimelineVersion } from '../shared/ritualSchedule.ts';
 export type Appearance = 'man' | 'woman' | 'granny';
 export type OfferingKind = 'incense' | 'lotus' | 'petal' | 'bell';
 export type RoomActionKind = 'bow' | OfferingKind;
@@ -9,6 +10,7 @@ export const OFFERING_LABELS: Record<OfferingKind, string> = {
   incense: 'Dâng hương', lotus: 'Dâng hoa sen', petal: 'Rải cánh sen', bell: 'Thỉnh chuông',
 };
 export interface SharedAction extends RitualCommand { startedAt: number; endsAt: number; slot: number; offering?: OfferingKind;
+  timelineVersion?: RitualTimelineVersion;
   movement?: { seat:number; outboundMs:number; returnMs:number; version:2 } }
 export interface PlacedOffering { id:string; actionId:string; kind:OfferingKind; slot:number; placedAt:number; expiresAt:number }
 export interface RoomMember {

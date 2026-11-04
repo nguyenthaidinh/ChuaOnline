@@ -1,8 +1,8 @@
-import { LAM_MANIFEST, clipDuration, type ClipId } from './animationManifest.ts';
+import { CLIP_MS, CONTACT_MS, BOW_CYCLE_MS, offeringClips, performanceDuration, assertTimelineVersion, type ClipId } from '../shared/ritualSchedule.ts';
 import { actionMovement, entryRoute, logicalSeat, routeDurationMs, ritualRoute, sampleRoute, type FloorPoint } from './motion.ts';
 import type { SharedAction, OfferingKind } from './protocol.ts';
 
-const duration=(id:ClipId)=>clipDuration(LAM_MANIFEST.clips[id]);
+const duration=(id:ClipId)=>CLIP_MS[id];
 export const SIT_MS=duration('sitDown');
 export const STAND_MS=duration('standUp');
 export const SETTLE_MS=duration('kneelDown');
@@ -16,19 +16,15 @@ export interface SharedPose {
   interactionAt:number|null; propInHand:boolean;
 }
 type Movement=ReturnType<typeof actionMovement>;
-const BOW_CYCLE=duration('bowDown')+duration('bowHold')+duration('bowUp');
-function offeringClips(kind:OfferingKind):ClipId[] {
-  return ['offerRaise','offerHold',kind==='bell'?'bellStrike':kind==='petal'?'petalRelease':'offerPlace','offerRelease'];
-}
-export const performanceMs=(kind:'bow'|'incense',offering:OfferingKind='incense')=>kind==='bow'?BOW_CYCLE*3:offeringClips(offering).reduce((sum,id)=>sum+duration(id),0);
+const BOW_CYCLE=BOW_CYCLE_MS;
+export const performanceMs=performanceDuration;
 export function sharedRitualDurationMs(kind:'bow'|'incense',movement:Movement=actionMovement(0,0,kind==='bow'),offering:OfferingKind='incense') {
   return STAND_MS+movement.outboundMs+(kind==='bow'?SETTLE_MS:0)+performanceMs(kind,offering)+(kind==='bow'?duration('rise'):160)+movement.returnMs+SIT_MS;
 }
 export function interactionTime(action:Pick<SharedAction,'startedAt'|'kind'|'offering'|'movement'>) {
   if(action.kind==='bow') return null;
   const offering=action.offering??'incense';
-  const clip:ClipId=offering==='bell'?'bellStrike':offering==='petal'?'petalRelease':'offerPlace';
-  return action.startedAt+STAND_MS+(action.movement??actionMovement(0,0)).outboundMs+duration('offerRaise')+duration('offerHold')+(LAM_MANIFEST.clips[clip].markers?.[offering==='bell'?'strike':offering==='petal'?'release':'place']??0);
+  return action.startedAt+STAND_MS+(action.movement??actionMovement(0,0)).outboundMs+duration('offerRaise')+duration('offerHold')+CONTACT_MS[offering];
 }
 export function sampleEntry(joinedAt:number,now:number,seat=0) {
   const route=entryRoute(seat),walkMs=routeDurationMs(route),elapsed=Math.max(0,now-joinedAt);
@@ -37,6 +33,7 @@ export function sampleEntry(joinedAt:number,now:number,seat=0) {
   return {phase:'idle' as const,clip:'seated' as ClipId,clipTime:0,point:logicalSeat(seat),tangent:{x:0,z:-1},distance:0,travel:0};
 }
 export function sampleSharedRitual(action:SharedAction,now:number):SharedPose {
+  assertTimelineVersion(action.timelineVersion);
   const movement=action.movement??actionMovement(0,action.slot,action.kind==='bow'),home=logicalSeat(movement.seat);
   const out=ritualRoute(movement.seat,action.slot,false,action.kind==='bow'),back=ritualRoute(movement.seat,action.slot,true,action.kind==='bow'),altar=out.points.at(-1)!;
   const interactionAt=interactionTime(action);

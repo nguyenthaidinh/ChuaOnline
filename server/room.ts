@@ -3,6 +3,7 @@ import { ROOM_CAPACITY, PRESENCE_TIMEOUT_MS, isOfferingKind, MAX_OFFERINGS, offe
 import { entryDurationMs, interactionTime, sharedRitualDurationMs } from '../src/room/ritual.ts';
 import { actionMovement } from '../src/room/motion.ts';
 import type { RitualCommand } from '../src/types/experience.ts';
+import { RITUAL_TIMELINE_VERSION } from '../src/shared/ritualSchedule.ts';
 
 export class RoomError extends Error {
   status: number;
@@ -60,7 +61,7 @@ export class TempleRoom {
     if(kind!=='bow'&&kind!=='petal')this.offerings=this.offerings.filter(item=>item.slot!==slot||item.kind===kind||item.kind==='petal');
     const startedAt = Math.max(this.now(), guest.person.joinedAt + entryDurationMs(guest.person.seat));
     const movement=actionMovement(guest.person.seat,slot,command.kind==='bow');
-    guest.person.action = { ...command, startedAt, endsAt: startedAt + sharedRitualDurationMs(command.kind,movement,kind==='bow'?'incense':kind), slot, movement,
+    guest.person.action = { ...command, timelineVersion:RITUAL_TIMELINE_VERSION, startedAt, endsAt: startedAt + sharedRitualDurationMs(command.kind,movement,kind==='bow'?'incense':kind), slot, movement,
       ...(kind === 'bow' ? {} : { offering: kind }) };
     guest.requests.add(requestId);
     if (guest.requests.size > 100) guest.requests.delete(guest.requests.values().next().value!);
