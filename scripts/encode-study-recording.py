@@ -9,6 +9,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('captures', type=Path)
     parser.add_argument('output', type=Path)
+    parser.add_argument('--capture-description', default='Actual CUA browser screenshots at 0.25x authoring playback; VFR timestamps, no audio')
     args = parser.parse_args()
     captures = args.captures.resolve()
     output = args.output.resolve()
@@ -33,10 +34,13 @@ def main():
                       'format=duration,size:stream=width,height,codec_name', '-of', 'json', str(output)],
                      text=True, encoding='utf-8'))
     report = {
-        'captureMethod': 'Actual CUA browser screenshots at 0.25x authoring playback; VFR timestamps, no audio',
+        'captureMethod': args.capture_description,
         'capturedFrames': len(rows), 'capturedMs': rows[-1]['at'] - rows[0]['at'],
-        'observedPoses': sorted(set(row['pose'] for row in rows)), 'last': rows[-1], 'video': probe,
-        'limit': 'Screenshot sampling is not continuous video and may omit brief poses; all timeline steps are checked separately.',
+        'observedPoses': sorted({pose for row in rows for pose in
+                                ([row['pose']] if 'pose' in row else
+                                 [actor.get('source','') for actor in row.get('actors',[])])}),
+        'last': rows[-1], 'video': probe,
+        'limit': 'Screenshot sampling is not continuous video and may omit brief poses; see the related review for test scope.',
     }
     output.with_suffix('.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'capturedFrames': len(rows), 'capturedMs': report['capturedMs'], 'video': probe}))

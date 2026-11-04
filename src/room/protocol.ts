@@ -11,10 +11,12 @@ export const OFFERING_LABELS: Record<OfferingKind, string> = {
 };
 export interface SharedAction extends RitualCommand { startedAt: number; endsAt: number; slot: number; offering?: OfferingKind;
   timelineVersion?: RitualTimelineVersion;
-  movement?: { seat:number; outboundMs:number; returnMs:number; version:2 } }
-export interface PlacedOffering { id:string; actionId:string; kind:OfferingKind; slot:number; placedAt:number; expiresAt:number }
+  movement?: { seat:number; outboundMs:number; returnMs:number; version:2|3 } }
+export interface PlacedOffering { id:string; actionId:string; kind:OfferingKind; slot:number; placedAt:number; expiresAt:number;
+  artworkVersion?:3;appearance?:Appearance }
 export interface RoomMember {
   id: string; name: string; appearance: Appearance; seat: number; joinedAt: number;
+  entryVersion?: 3;
   action: SharedAction | null;
   completed: { kind: 'incense' | 'bow'; at: number; offering?: OfferingKind } | null;
 }

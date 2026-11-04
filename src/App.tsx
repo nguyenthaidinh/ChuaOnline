@@ -54,7 +54,7 @@ export default function App() {
     return () => { document.removeEventListener('fullscreenchange', update); soundEngine.dispose(); };
   }, [soundEngine]);
   const now = Math.max(clock, Date.now()) + room.offset;
-  const entering = Boolean(self && sampleEntry(self.joinedAt, now, self.seat).phase !== 'idle');
+  const entering = Boolean(self && sampleEntry(self.joinedAt, now, self.seat, self.entryVersion).phase !== 'idle');
   const frame = self?.action ? sampleSharedRitual(self.action, now) : null;
   const busy = entering || Boolean(frame && frame.phase !== 'complete');
   const finished = frame?.phase === 'complete' ? self?.action : self?.completed;

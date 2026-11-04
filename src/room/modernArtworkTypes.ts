@@ -13,4 +13,5 @@ export interface IncenseGeometry {
 export interface MovementGeometry {
   id:string; index:number; startMs:number; endMs:number;
   rootOffset:HandAnchor; top:number;
+  bank?:'transition'|'walk';
 }

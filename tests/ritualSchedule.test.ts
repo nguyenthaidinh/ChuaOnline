@@ -39,13 +39,13 @@ test('unchanged rituals identify schedule v1 and remain compatible with legacy s
   assert.throws(() => assertTimelineVersion(3), /Unsupported ritual timeline/);
 });
 
-test('new male incense actions use v2 while in-flight v1 actions retain their contact and duration', () => {
+test('new incense actions use v2 while other offerings and in-flight v1 actions retain their clock', () => {
   let now = 1000;
   const room = new TempleRoom(() => now);
   const man = room.join('Incense v2', 'man');
   const woman = room.join('Incense v1', 'woman');
   room.action(man.token, 'incense', 'incense-version-two');
-  room.action(woman.token, 'incense', 'incense-version-one');
+  room.action(woman.token, 'lotus', 'incense-version-one');
   const [modern, legacy] = room.snapshot().people.map(person => person.action!);
   assert.equal(modern.timelineVersion, 2);
   assert.equal(legacy.timelineVersion, 1);

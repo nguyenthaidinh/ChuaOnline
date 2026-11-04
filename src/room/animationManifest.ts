@@ -3,19 +3,21 @@ import { LAM_GEOMETRY } from './visualGeometry.ts';
 import { VARIANT_GEOMETRY } from './variantGeometry.ts';
 import { SEATED_REAR_POSES } from './seatedRearGeometry.ts';
 import { ritualSchedule, type ClipId, type RitualTimelineVersion } from '../shared/ritualSchedule.ts';
+import { ritualContact } from './ritualContacts.ts';
 export type { ClipId } from '../shared/ritualSchedule.ts';
 export type Facing = 'rear' | 'front';
 export interface HandAnchor { x:number; y:number }
 export interface FrameSpec {
   cell:number; durationMs:number; hand?:HandAnchor; propLayer?:'behind-hand'|'in-front'; pose?:'seatedRear';
   rootOffset?:HandAnchor; handMask?:HandAnchor[]; holdsIncense?:boolean;
-  modernKind?:'incense'|'movement'; sourceId?:string;
+  modernKind?:'incense'|'movement'|'ritual'; sourceId?:string; holdsOffering?:boolean;
+  propGeometry?:{height:number;gripFraction:number;rotationDeg:number};
 }
 export interface AnimationClip { frames:FrameSpec[]; loop:boolean; facing:Facing; markers?:Record<string,number>; stride?:number }
 export interface CharacterManifest {
   image:string; frameWidth:number; frameHeight:number; columns:number; rows:number; frameCount:number;
   groundPivot:HandAnchor; standingHeight:number; clips:Record<ClipId,AnimationClip>;
-  geometry:Record<number,{top:number;hand?:HandAnchor}>;
+  geometry:Record<number,{top:number;hand?:HandAnchor;handMask?:HandAnchor[]}>;
   poseAssets:Record<string,{image:string;top:number}>;
 }
 // Cell IDs are produced by scripts/pack-visual-assets.py. Every cell shares one fixed canvas.
@@ -25,7 +27,7 @@ const rearSeated=(durationMs=400):FrameSpec=>({...one(4,durationMs),pose:'seated
 export const LAM_MANIFEST:CharacterManifest={
   image:'assets/visual-v2/lam-atlas.webp',frameWidth:384,frameHeight:512,columns:6,rows:5,frameCount:30,
   groundPivot:{x:192,y:468},standingHeight:390,
-  geometry:LAM_GEOMETRY,
+  geometry:Object.fromEntries(Object.entries(LAM_GEOMETRY).map(([cell,value])=>[cell,{...value,...ritualContact('man',Number(cell))}])),
   poseAssets:{seatedRear:SEATED_REAR_POSES.man},
   clips:{
     stand:clip([one(0)],true),
@@ -57,7 +59,7 @@ export function sampleClip(manifest:CharacterManifest,id:ClipId,timeMs:number,di
   while(index<clip.frames.length-1&&time>=clip.frames[index].durationMs) {time-=clip.frames[index].durationMs;index++;}
   const frame=clip.frames[index];
   const pose=frame.pose?manifest.poseAssets[frame.pose]:undefined;
-  return {...frame,hand:manifest.geometry[frame.cell]?.hand??frame.hand,index,facing:clip.facing,top:pose?.top??manifest.geometry[frame.cell]?.top??70,
+  return {...frame,hand:manifest.geometry[frame.cell]?.hand??frame.hand,handMask:manifest.geometry[frame.cell]?.handMask??frame.handMask,index,facing:clip.facing,top:pose?.top??manifest.geometry[frame.cell]?.top??70,
     image:pose?.image??manifest.image,columns:pose?1:manifest.columns,rows:pose?1:manifest.rows,atlasCell:pose?0:frame.cell};
 }
 
@@ -77,7 +79,7 @@ export function sampleScheduledClip(manifest:CharacterManifest,id:ClipId,timeMs:
   return sampleClip(manifest,id,visualTime,distance);
 }
 function variant(skin:'woman'|'granny'):CharacterManifest {
-  const geometry=Object.fromEntries(Object.entries(LAM_GEOMETRY).map(([cell,value])=>[cell,{top:VARIANT_GEOMETRY[skin][Number(cell)].top,...(value.hand?{hand:{x:value.hand.x/2,y:value.hand.y/2}}:{})}]));
+  const geometry=Object.fromEntries(Object.entries(LAM_GEOMETRY).map(([cell])=>[cell,{top:VARIANT_GEOMETRY[skin][Number(cell)].top,...ritualContact(skin,Number(cell))}]));
   return {...LAM_MANIFEST,image:`assets/visual-v2/${skin}-atlas.webp`,frameWidth:192,frameHeight:256,standingHeight:195,groundPivot:{x:96,y:234},geometry,poseAssets:{seatedRear:SEATED_REAR_POSES[skin]}};
 }
 const CHARACTERS:Record<Appearance,CharacterManifest>={man:LAM_MANIFEST,woman:variant('woman'),granny:variant('granny')};

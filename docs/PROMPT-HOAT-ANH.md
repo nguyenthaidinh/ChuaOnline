@@ -3,7 +3,7 @@
 Đi kèm [kế hoạch triển khai](KE-HOACH-NANG-CAP-TRAI-NGHIEM.md). Các prompt dưới đây là hướng dẫn sản xuất, chưa được chạy trong đợt lập kế hoạch này. Ảnh đẹp riêng lẻ chưa chứng minh được một chuỗi hoạt ảnh tốt.
 
 Các đợt sản xuất sau đó đã lưu prompt thực tế, reference và kết quả riêng.
-Đợt mới nhất: [dâng hương nam áo lam, nguồn ảnh và kiểm thử](animation-v3/incense-v1/README.md).
+Đợt mới nhất: [ba y phục, hướng ngang, hoa/chuông, nguồn ảnh và kiểm thử](animation-v3/movement-variants-v1/README.md).
 
 ## 1. Chuẩn bị tham chiếu và đầu ra
 

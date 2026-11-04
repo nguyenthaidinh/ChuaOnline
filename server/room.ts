@@ -35,7 +35,7 @@ export class TempleRoom {
     while (taken.has(seat)) seat++;
     const token = randomBytes(32).toString('hex');
     const person: RoomMember = { id: randomUUID(), name: nameInput.replace(/[\u0000-\u001f\u007f]/g, '').trim() || 'Khách',
-      appearance: appearanceInput as Appearance, seat, joinedAt: this.now(), action: null, completed: null };
+      appearance: appearanceInput as Appearance, seat, joinedAt: this.now(), entryVersion:3, action: null, completed: null };
     this.guests.set(token, { person, seenAt: this.now(), requests: new Set(), appliedAction:null });
     this.changed();
     return { token, selfId: person.id, room: this.snapshot() };
@@ -60,8 +60,8 @@ export class TempleRoom {
     // Reusing a station for another physical setup clears its previous tray/sticks.
     if(kind!=='bow'&&kind!=='petal')this.offerings=this.offerings.filter(item=>item.slot!==slot||item.kind===kind||item.kind==='petal');
     const startedAt = Math.max(this.now(), guest.person.joinedAt + entryDurationMs(guest.person.seat));
-    const movement=actionMovement(guest.person.seat,slot,command.kind==='bow');
-    const timelineVersion=kind==='incense'&&guest.person.appearance==='man'?INCENSE_TIMELINE_VERSION:RITUAL_TIMELINE_VERSION;
+    const movement=actionMovement(guest.person.seat,slot,command.kind==='bow',3);
+    const timelineVersion=kind==='incense'?INCENSE_TIMELINE_VERSION:RITUAL_TIMELINE_VERSION;
     guest.person.action = { ...command, timelineVersion, startedAt, endsAt: startedAt + sharedRitualDurationMs(command.kind,movement,kind==='bow'?'incense':kind,timelineVersion), slot, movement,
       ...(kind === 'bow' ? {} : { offering: kind }) };
     guest.requests.add(requestId);
@@ -89,7 +89,8 @@ export class TempleRoom {
             const keep=kind==='incense'?2:0;
             const remove=new Set(same.slice(0,Math.max(0,same.length-keep)).map(item=>item.id));
             this.offerings=this.offerings.filter(item=>!remove.has(item.id));
-            this.offerings.push({id:`${action.id}:placed`,actionId:action.id,kind,slot:action.slot,placedAt,expiresAt});this.offerings=this.offerings.slice(-MAX_OFFERINGS);changed=true;
+            this.offerings.push({id:`${action.id}:placed`,actionId:action.id,kind,slot:action.slot,placedAt,expiresAt,
+              ...(action.movement?.version===3?{artworkVersion:3 as const,appearance:guest.person.appearance}:{})});this.offerings=this.offerings.slice(-MAX_OFFERINGS);changed=true;
           }
         }
       }

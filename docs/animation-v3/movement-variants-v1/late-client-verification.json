@@ -1,0 +1,39 @@
+{
+  "local": {
+    "action": "dd771439-b585-453c-be35-a203cd31aa53",
+    "movement": "3",
+    "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+    "phase": "performing",
+    "source": "00-neutral",
+    "timeline": "2"
+  },
+  "remote": [
+    {
+      "action": "dd771439-b585-453c-be35-a203cd31aa53",
+      "artwork": "incense",
+      "movement": "3",
+      "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+      "phase": "performing",
+      "source": "06-bow-start",
+      "timeline": "2"
+    },
+    {
+      "action": "430395a8-f075-46b3-92a3-6399ae295f26",
+      "artwork": "legacy",
+      "movement": "3",
+      "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+      "phase": "moving",
+      "source": "",
+      "timeline": "2"
+    },
+    {
+      "action": "1e600a96-d798-45a5-9a80-be9328598460",
+      "artwork": "legacy",
+      "movement": "3",
+      "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+      "phase": "moving",
+      "source": "",
+      "timeline": "2"
+    }
+  ]
+}

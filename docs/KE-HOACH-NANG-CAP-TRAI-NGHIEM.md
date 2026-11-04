@@ -2,10 +2,10 @@
 
 Ngày 04/11/2026. Mốc nguồn: `628098d`. Đây là kế hoạch triển khai, chưa phải báo cáo hoàn thành. Bộ prompt đi kèm: [PROMPT-HOAT-ANH.md](PROMPT-HOAT-ANH.md).
 
-Tiến độ gần nhất: đã tích hợp phần cốt lõi dâng hương nam áo lam của chặng 2 vào web chính,
-kèm lịch v2, 23 tư thế và chuyển hương từ tay vào lư. Chặng 1–2 vẫn mở ở các hướng đi,
-điểm nối và kiểm mobile; chưa đánh dấu toàn bộ kế hoạch hoàn thành.
-[Bảng tiến độ](animation-v3/README.md) và [bằng chứng đợt mới](animation-v3/incense-v1/README.md).
+Tiến độ gần nhất: cả ba y phục đã có 23 tư thế dâng hương riêng trong web chính; đã thêm hai hướng ngang nam,
+profile tăng/giảm tốc, dáng đỡ hoa và nắm dùi riêng. Chặng1–3 vẫn mở ở các hướng/chuyển tiếp còn thiếu,
+nguồn cánh sen/lạy và kiểm mobile; chưa đánh dấu toàn bộ kế hoạch hoàn thành.
+[Bảng tiến độ](animation-v3/README.md) và [bằng chứng đợt mới](animation-v3/movement-variants-v1/README.md).
 
 ## 1. Kết quả hướng tới
 

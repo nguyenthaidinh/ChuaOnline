@@ -1,0 +1,467 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Separate identity-preserving poses; independent contact review required",
+  "pilotOverride": {"appearance":"woman","id":"03-chest","record":"pilot-generation.json","genericJobBelowWasNotExecuted":true},
+  "jobs": [
+    {
+      "appearance": "woman",
+      "id": "00-neutral",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (00-neutral). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/00-neutral.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "01-reach",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (01-reach). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/01-reach-v2.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/01-reach.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "02-grasp",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (02-grasp). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/02-grasp-v2.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/02-grasp.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "03-chest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (03-chest). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/03-chest.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/03-chest.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "04-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (04-lift). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/04-lift.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/04-lift.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "05-forehead",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (05-forehead). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/05-forehead.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/05-forehead.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "06-bow-start",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (06-bow-start). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/06-bow-start.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/06-bow-start.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "07-bow-hold",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (07-bow-hold). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/07-bow-hold.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/07-bow-hold.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "08-bow-return",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (08-bow-return). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/08-bow-return.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/08-bow-return.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "09-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (09-lower). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/09-lower.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/09-lower.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "10-extend",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (10-extend). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/10-extend.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/10-extend.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "11-near-burner",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (11-near-burner). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/11-near-burner.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/11-near-burner.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "12-contact-closed",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (12-contact-closed). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/12-contact-closed.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/12-contact-closed.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "13-release",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (13-release). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/13-release.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/13-release.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "14-open",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (14-open). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/14-open.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/14-open.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "15-withdraw",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (15-withdraw). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/15-withdraw.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/15-withdraw.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "16-return",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (16-return). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/16-return.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/16-return.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "17-palms",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (17-palms). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/17-palms.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/17-palms.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "18-rest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (18-rest). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/18-rest.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/18-rest.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "19-pickup-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (19-pickup-lift). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/19-pickup-lift.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/19-pickup-lift.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "20-mid-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (20-mid-lift). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/20-mid-lift.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/20-mid-lift.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "21-prayer-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (21-prayer-lower). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/21-prayer-lower.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/21-prayer-lower.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "22-arms-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (22-arms-lower). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the adult Vietnamese female visitor with neat dark low bun and blue-grey ao lam from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/22-arms-lower.png",
+        "artwork/seating-direction/woman.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/woman/22-arms-lower.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "00-neutral",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (00-neutral). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/00-neutral.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "01-reach",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (01-reach). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/01-reach-v2.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/01-reach.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "02-grasp",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (02-grasp). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/02-grasp-v2.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/02-grasp.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "03-chest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (03-chest). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/03-chest.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/03-chest.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "04-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (04-lift). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/04-lift.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/04-lift.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "05-forehead",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (05-forehead). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/05-forehead.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/05-forehead.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "06-bow-start",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (06-bow-start). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/06-bow-start.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/06-bow-start.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "07-bow-hold",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (07-bow-hold). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/07-bow-hold.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/07-bow-hold.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "08-bow-return",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (08-bow-return). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/08-bow-return.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/08-bow-return.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "09-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (09-lower). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/09-lower.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/09-lower.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "10-extend",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (10-extend). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/10-extend.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/10-extend.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "11-near-burner",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (11-near-burner). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/11-near-burner.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/11-near-burner.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "12-contact-closed",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (12-contact-closed). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/12-contact-closed.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/12-contact-closed.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "13-release",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (13-release). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/13-release.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/13-release.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "14-open",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (14-open). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/14-open.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/14-open.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "15-withdraw",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (15-withdraw). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/15-withdraw.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/15-withdraw.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "16-return",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (16-return). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/16-return.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/16-return.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "17-palms",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (17-palms). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/17-palms.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/17-palms.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "18-rest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (18-rest). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/18-rest.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/18-rest.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "19-pickup-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (19-pickup-lift). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/19-pickup-lift.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/19-pickup-lift.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "20-mid-lift",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (20-mid-lift). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/20-mid-lift.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/20-mid-lift.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "21-prayer-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (21-prayer-lower). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/21-prayer-lower.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/21-prayer-lower.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "22-arms-lower",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body ChuaOnline animation key pose on true transparent RGBA, not a sheet. Image1 is exact POSE, CAMERA, hand-position and SCALE target (22-arms-lower). Image2 is IDENTITY/COSTUME reference. Replace the male in image1 with the elderly Vietnamese female visitor with grey hair in a neat low bun, calm mature facial features, modest warm brown ao lam tunic and matching loose trousers from image2. Preserve target arm, finger, leg and head pose, elevated rear-three-quarter camera, planted bare feet, origin, same whole-body height/head size and framing. Match the pose silhouette; change anatomy naturally for the woman while keeping the contact and hand locations. Warm upper-left lighting, matte woven fabric, refined semi-realistic game artwork. EMPTY hands, no incense or props. Stand or bow exactly as target; do NOT become seated like identity reference. Full body in same square canvas, head near top30,feet/root near x615,y1210 in 1254-square coordinates. True transparent background. No floor, cushion, ground shadow, table, urn, held object, text, duplicated limbs, second person or multiple poses. Preserve camera and scale across sequence.",
+      "references": [
+        "artwork/animation-v3/incense-v1/22-arms-lower.png",
+        "artwork/seating-direction/granny.png"
+      ],
+      "output": "artwork/animation-v3/variants-v1/granny/22-arms-lower.png"
+    }
+  ]
+}

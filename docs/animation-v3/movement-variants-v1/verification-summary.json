@@ -1,0 +1,73 @@
+{
+  "baseCommit": "7f9a6b8",
+  "newAssets": [
+    {
+      "name": "directional-walk-7e5dc65f63fd.webp",
+      "bytes": 157036,
+      "size": [
+        768,
+        1024
+      ],
+      "rgbaBytes": 3145728
+    },
+    {
+      "name": "woman-incense-8fea45e46523.webp",
+      "bytes": 182170,
+      "size": [
+        768,
+        1536
+      ],
+      "rgbaBytes": 4718592
+    },
+    {
+      "name": "granny-incense-7d8518c76879.webp",
+      "bytes": 185952,
+      "size": [
+        768,
+        1536
+      ],
+      "rgbaBytes": 4718592
+    },
+    {
+      "name": "man-ritual-ca49b87c3b99.webp",
+      "bytes": 42754,
+      "size": [
+        576,
+        512
+      ],
+      "rgbaBytes": 1179648
+    },
+    {
+      "name": "woman-ritual-c3b3fcf28fda.webp",
+      "bytes": 44008,
+      "size": [
+        576,
+        512
+      ],
+      "rgbaBytes": 1179648
+    },
+    {
+      "name": "granny-ritual-bb6ffb1e27e3.webp",
+      "bytes": 41938,
+      "size": [
+        576,
+        512
+      ],
+      "rgbaBytes": 1179648
+    }
+  ],
+  "newCompressedBytes": 653858,
+  "newRgbaBytes": 16121856,
+  "generatedPngCounts": {
+    "directions-v1": 20,
+    "variants-v1": 46,
+    "rituals-v1": 15
+  },
+  "selectedNewPoses": 77,
+  "tests": {
+    "total": 80,
+    "pass": 80,
+    "fail": 0
+  },
+  "responsiveStatus": "not-verified-override-not-applied"
+}

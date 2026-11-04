@@ -3,6 +3,11 @@ import { essentialAssets } from './layout';
 import type { SceneLayoutId } from '../config/sceneLayout';
 import { INCENSE_ARTWORK } from './incenseGeometry';
 import { MOVEMENT_ARTWORK, WALK_ARTWORK } from './modernMovementGeometry';
+import { INCENSE_VARIANTS } from './variantIncenseGeometry';
+import { DIRECTIONAL_ARTWORK } from './directionalMovementGeometry';
+import { FALLBACK_ARTWORK, type ArtworkAvailability } from './characterAnimation';
+import type { Appearance } from './protocol';
+import { RITUAL_ARTWORK } from './ritualPoseGeometry';
 const decoded=new Map<string,Promise<void>>();
 export function decodeImage(url:string) {
   if(!decoded.has(url)) decoded.set(url,new Promise<void>((resolve,reject)=>{
@@ -25,12 +30,23 @@ export function useSceneAssets(layout:SceneLayoutId) {
 
 /** Optional artwork cannot block entry or leave a shared action busy after a load failure. */
 export function useModernIncenseAssets() {
-  const [ready,setReady]=useState(false);
+  const [ready,setReady]=useState<ArtworkAvailability>(FALLBACK_ARTWORK);
   useEffect(()=>{
     let live=true;
     const base=import.meta.env.BASE_URL;
-    void Promise.all([INCENSE_ARTWORK,MOVEMENT_ARTWORK,WALK_ARTWORK].map(asset=>decodeImage(base+asset.image)))
-      .then(()=>{if(live)setReady(true);}).catch(()=>{if(live)setReady(false);});
+    void Promise.all([MOVEMENT_ARTWORK,WALK_ARTWORK].map(asset=>decodeImage(base+asset.image)))
+      .then(()=>{if(live)setReady(current=>({...current,movement:true}));}).catch(()=>{/* Keep fallback. */});
+    void decodeImage(base+DIRECTIONAL_ARTWORK.image)
+      .then(()=>{if(live)setReady(current=>({...current,directions:true}));}).catch(()=>{/* Independent direction fallback. */});
+    const incense={man:INCENSE_ARTWORK,woman:INCENSE_VARIANTS.woman.asset,granny:INCENSE_VARIANTS.granny.asset};
+    for(const appearance of Object.keys(incense) as Appearance[]){
+      void decodeImage(base+incense[appearance].image).then(()=>{
+        if(live)setReady(current=>({...current,incense:{...current.incense,[appearance]:true}}));
+      }).catch(()=>{/* One failed identity does not disable another identity's artwork. */});
+      void decodeImage(base+RITUAL_ARTWORK[appearance].asset.image).then(()=>{
+        if(live)setReady(current=>({...current,rituals:{man:false,woman:false,granny:false,...current.rituals,[appearance]:true}}));
+      }).catch(()=>{/* Keep the original poses for this identity. */});
+    }
     return()=>{live=false;};
   },[]);
   return ready;

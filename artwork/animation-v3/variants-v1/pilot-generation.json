@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "output": "woman/03-chest.png",
+  "references": [
+    "artwork/animation-v3/incense-v1/03-chest.png",
+    "artwork/seating-direction/woman.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: one full-body ChuaOnline animation pose, transparent RGBA. Input image 1 is the POSE/CAMERA/SCALE target: male visitor holding hands at chest. Input image 2 is the CHARACTER IDENTITY/COSTUME reference: adult Vietnamese female visitor, dark hair in a neat low bun, blue-grey ao lam tunic and trousers, bare feet. Create her in exactly the full-body standing pose, camera and framing of image 1, facing upper-right with back three-quarter visible. Change the man into the woman from image 2: feminine adult proportions, dark bun, same soft blue-grey loose tunic. This is NOT a seated pose. Preserve the pose target's hand locations and planted feet, warm light upper-left, ground origin and full-body height. Empty hands grip an invisible thin upright bundle at chest, no actual incense. One person only, square canvas same camera, head top near y30,feet near x615,y1210 in a 1254-square image. No cushion, floor, shadow, table, prop, background, text, border or multiple poses. Keep true transparent alpha."
+}

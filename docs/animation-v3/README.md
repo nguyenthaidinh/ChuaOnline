@@ -7,17 +7,18 @@ Ngày 04/11/2026. Nhánh `codex/animation-v3`, bản chuẩn trước nâng cấ
 | Chặng | Trạng thái thực tế |
 | --- | --- |
 | 0 | Đã khóa bản chuẩn, dựng công cụ xem chậm, ghi video nguồn hiện tại và lập danh sách lỗi |
-| 1 | Có bộ đi lưng chéo 12 khung và bộ chuyển tiếp v2 gồm 24 tư thế: quay 7 mốc, đứng dậy 14 mốc, giữ điểm chân trụ trong đoạn nâng thân. Đã kiểm ba độ sâu ở desktop/mobile; chưa hoàn tất hướng/y phục và chân trụ khi đi bộ mọi đường. Xem [chu kỳ đi](walk-study/README.md) và [tinh chỉnh chuyển tiếp](transition-refinement/README.md) |
-| 2 | Đã đưa chuỗi dâng hương nam áo lam vào phòng chung: 23 tư thế, hai tay, nguồn hương, lớp che và chuyển vật vào lư. Lịch v2 giữ tương thích v1. Đã kiểm hai client, vào giữa lễ, ảnh lỗi và giảm chuyển động; chưa nghiệm thu toàn chặng vì còn hướng đi/chuyển hướng và video mobile. [Báo cáo dâng hương](incense-v1/README.md) |
-| 3–6 | Chưa triển khai phần nâng cấp mới; hoàn thiện phạm vi còn mở của chặng 1–2 trước khi nhân rộng |
+| 1 | Có đi lưng chéo 12 khung, chuyển tiếp 24 tư thế và hai hướng ngang mới 8 khung/hướng cho nam. Đã nối profile chuyển động 3 tăng/giảm tốc và nhìn trước góc; chưa đủ nguồn mọi hướng/chuyển tiếp nữ-nâu hoặc đo chân trụ mọi đường. [Đợt mở rộng](movement-variants-v1/README.md) |
+| 2 | Cả ba y phục có 23 tư thế dâng hương riêng, lớp tay và mốc vào lư. Đã kiểm3 khách, vào giữa lễ, lỗi riêng ảnh nữ, đủ 24 mốc/identity. Chưa nghiệm thu toàn chặng do hướng/chuyển tiếp và video mobile còn mở. [Báo cáo mới](movement-variants-v1/README.md) |
+| 3 | Đã bắt đầu: mỗi y phục có 3 pose chuông và 2 pose hoa; đo lại tiếp xúc bộ cũ. Cánh sen/lạy còn dùng nguồn trước, chuyển tiếp tay mới và hướng đi còn thiếu. Chưa nghiệm thu toàn chặng |
+| 4–6 | Chưa triển khai phần nâng cấp mới; tiếp tục sau các phạm vi còn mở ở chặng 1–3 |
 
 Không coi bộ kiểm tra code đạt là đã hoàn tất nâng cấp hình ảnh. Chánh điện đã dùng nguồn mới
-cho dâng hương nam áo lam, đứng/ngồi và hướng đi lưng chéo đủ điều kiện. Góc trước/ngang,
-hai y phục còn lại và các nghi lễ khác vẫn dùng nguồn cũ. Rig thử không tham gia render sản phẩm.
+cho dâng hương cả ba y phục, hoa/chuông, đứng/ngồi và hướng đi lưng chéo/ngang nam đủ điều kiện.
+Góc trước/chéo, chuyển tiếp nữ/nâu, cánh sen và lạy vẫn cần nguồn bổ sung. Rig thử không tham gia render sản phẩm.
 
-Đợt mới nhất có 24 mốc dâng hương trong 5 giây, texture web tổng thêm khoảng 487 KiB nén,
-11,25 MiB RGBA theo kích thước pixel. Typecheck, 55 test, build và audit v1 đạt.
-Xem [báo cáo dâng hương](incense-v1/README.md) để biết phạm vi đã kiểm và giới hạn responsive.
+Đợt mới nhất có77 tư thế mới được chọn, thêm 653.858 byte nén/15,375 MiB RGBA theo kích thước pixel.
+Typecheck, 80 test, build và audit v1 đạt. Xem [báo cáo mở rộng](movement-variants-v1/README.md)
+để biết phạm vi đã kiểm và giới hạn responsive. [Báo cáo dâng hương nam](incense-v1/README.md) là mốc trước.
 [Báo cáo tinh chỉnh chuyển tiếp](transition-refinement/README.md), [bản 17 tư thế](transitions/README.md)
 và các bằng chứng phía dưới là lịch sử những đợt trước.
 
@@ -123,8 +124,8 @@ Không đánh dấu key pose đơn là clip đạt.
 
 ## Công việc tiếp theo đã xác định
 
-Hoàn thiện các hướng đi/quay về và điểm nối dừng–dâng–trở về; kiểm video mobile của chuỗi mới.
-Giữ nam áo lam làm mẫu trước khi nhân bản nữ/áo nâu hoặc thêm nghi lễ mới.
+Hoàn thiện góc trước/chéo, quay/dừng các hướng chưa có nguồn và chuyển tiếp đứng/ngồi nữ–áo nâu;
+bổ sung chuyển tiếp tay hoa/chuông, bộ cánh sen/lạy và video mobile.
 Chạy lại phòng 24 khách/4 nghi lễ với texture mới và đo trên thiết bị thật trước khi phát hành.
 
 Đợt này lưu local. Không đẩy GitHub hoặc triển khai hosting.

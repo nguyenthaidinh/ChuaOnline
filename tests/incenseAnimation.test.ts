@@ -5,6 +5,9 @@ import { readFileSync } from 'node:fs';
 import { INCENSE_CLIPS, incenseBase, incenseOwnership, incenseAcquisitionTime, sampleIncenseClip, sampleStaticIncense, incenseKeyTimes, isIncenseClip } from '../src/room/incenseAnimation.ts';
 import { INCENSE_ARTWORK, INCENSE_GEOMETRY } from '../src/room/incenseGeometry.ts';
 import { MOVEMENT_ARTWORK, WALK_ARTWORK } from '../src/room/modernMovementGeometry.ts';
+import { DIRECTIONAL_ARTWORK } from '../src/room/directionalMovementGeometry.ts';
+import { INCENSE_VARIANTS } from '../src/room/variantIncenseGeometry.ts';
+import { RITUAL_ARTWORK } from '../src/room/ritualPoseGeometry.ts';
 import { ritualSchedule } from '../src/shared/ritualSchedule.ts';
 import { actionMovement, logicalAltar } from '../src/room/motion.ts';
 import { actorMetrics, projectFloor, stationAnchor, incenseWorldSize } from '../src/room/layout.ts';
@@ -96,7 +99,8 @@ test('held poses have measured two-hand masks and production textures match immu
     assert.ok(Math.hypot(frame.grip.x-frame.rightHand.x,frame.grip.y-frame.rightHand.y)<40,frame.id);
   }
   let decodedBytes=0;
-  for(const asset of [INCENSE_ARTWORK,MOVEMENT_ARTWORK,WALK_ARTWORK]){
+  for(const asset of [INCENSE_ARTWORK,MOVEMENT_ARTWORK,WALK_ARTWORK,DIRECTIONAL_ARTWORK,
+    ...Object.values(INCENSE_VARIANTS).map(value=>value.asset),...Object.values(RITUAL_ARTWORK).map(value=>value.asset)]){
     const image=readFileSync(new URL('../public/'+asset.image,import.meta.url));
     assert.equal(createHash('sha256').update(image).digest('hex'),asset.sha256);
     assert.equal(image.toString('ascii',12,16),'VP8X');
@@ -105,5 +109,5 @@ test('held poses have measured two-hand masks and production textures match immu
     assert.equal(asset.width/asset.columns,192);assert.equal(asset.height/asset.rows,256);
     decodedBytes+=asset.width*asset.height*4;
   }
-  assert.ok(decodedBytes<=12*1024*1024);
+  assert.ok(decodedBytes<=28*1024*1024);
 });

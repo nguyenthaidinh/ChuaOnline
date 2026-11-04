@@ -1,0 +1,23 @@
+{
+  "pose": {
+    "held": "true",
+    "phase": "performing",
+    "source": "bell-contact"
+  },
+  "stations": [
+    {
+      "bounds": {
+        "bottom": 444.83223724365234,
+        "height": 64.71257781982422,
+        "left": 530.8375854492188,
+        "right": 569.8985252380371,
+        "top": 380.1196594238281,
+        "width": 39.06093978881836,
+        "x": 530.8375854492188,
+        "y": 380.1196594238281
+      },
+      "src": "./assets/visual-v2/bell-station.webp",
+      "style": "left: 40.7073%; top: 60.5916%; height: 11.9116%; transform: translate(-50%, -17%); z-index: 7028; clip-path: inset(0px 0px 73%); rotate: -0.896332deg;"
+    }
+  ]
+}

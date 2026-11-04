@@ -5,7 +5,7 @@ y phục và chỗ ngồi riêng; mọi khách thấy nhân vật và nghi lễ 
 khách đang tham gia thật, không có người mẫu hoặc số trực tuyến giả.
 
 Giao diện dùng nền ngang/dọc, ba y phục, bồ đoàn và vật phẩm tách rời từ `visual-v2`.
-Nam áo lam có chuỗi dâng hương v2 và một phần chuyển động từ `animation-v3`, tạo bằng image_gen.
+Ba y phục có chuỗi dâng hương v2; nam có thêm hai hướng đi ngang và chuyển tiếp từ `animation-v3`, tạo bằng image_gen.
 Bộ tham chiếu ChuaTanPhat còn lưu để
 đối chiếu lịch sử; ảnh và sprite cũ không còn nằm trong đường render chính.
 
@@ -15,9 +15,9 @@ Bộ tham chiếu ChuaTanPhat còn lưu để
 `/?animation-lab` khi chạy dev. [Kết quả kiểm mẫu và hướng dẫn](docs/animation-v3/README.md).
 Chuỗi đứng dậy–bước đi–dừng–ngồi mới có bản thử riêng tại `/?animation-lab=transitions`;
 xem [bản tinh chỉnh, video và kết quả kiểm](docs/animation-v3/transition-refinement/README.md).
-Chuỗi dâng hương mới đã vào phòng chung cho nam áo lam: lấy hương, nâng, cúi lễ,
-cắm vào lư và rút tay; xem [ảnh, video và kết quả kiểm](docs/animation-v3/incense-v1/README.md).
-Xưởng riêng tại `/?animation-lab=incense`. Các hướng đi và y phục còn lại vẫn cần hoàn thiện.
+Chuỗi dâng hương mới đã vào phòng chung cho cả ba y phục; có thêm dáng cầm dùi và đỡ hoa riêng,
+tăng/giảm tốc và hướng đi ngang nam. Xem [ảnh, video và kết quả kiểm đợt mới](docs/animation-v3/movement-variants-v1/README.md).
+Xưởng `/?animation-lab=incense` có chọn y phục. Các hướng chéo, chuyển tiếp nữ/áo nâu và nguồn lạy còn cần hoàn thiện.
 
 Node.js 22.12 trở lên (đã kiểm tra 22.18.0), npm.
 

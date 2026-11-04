@@ -1,0 +1,39 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Correct observed opposite-step arm/leg roles. Rejected originals retained; selection.json identifies compiled sources.",
+  "jobs": [
+    {
+      "direction": "left",
+      "id": "05-opposite-loading-v2",
+      "prompt": "Use case: identity-preserve. Edit image1, the approved OPPOSITE CONTACT frame of this exact man in blue-grey ao lam, into the immediately following weight-loading pose. Image2 is the original identity/camera reference. Keep the side heading toward screen-left, elevated camera, head position and size, full body scale, pelvis/root around x615 and ground liney1210 in the same square1254 canvas. Change ONLY the loading pose: the FAR leg, already extended forward in image1, now rolls its forward foot FLAT and carries the weight as the pelvis advances above it; the NEAR leg remains behind, its heel high and toes about to leave the floor. Retain the OPPOSITE STEP'S ARM COUNTERSWING from image1: near arm remains forward and far arm remains back, both relaxed. Do not reset the arms/leg roles to the initial contact or the reference neutral pose. Modestly narrow the stride, soften the load-bearing knee, maintain balanced calm torso. Same identity, face profile, hair, tunic seams, matte cloth, warm upper-left light, true transparent RGBA. No horizontal mirroring, floor/shadow, props, text, extra person or cropped feet. One pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "left/05-opposite-loading-v2.png"
+    },
+    null,
+    {
+      "direction": "right",
+      "id": "03-swing-v2",
+      "output": "right/03-swing-v2.png",
+      "phase": "The foot extended forward in image1 is now still in the AIR about to land, heel low but not contacting the ground; the front knee is slightly more bent and the stride moderately narrower. The planted back foot supports the pelvis, its heel just beginning to release. This is a pre-contact swing immediately BEFORE the reference contact, not a weight-loading pose.",
+      "prompt": "Use case: identity-preserve. Image1 is the approved corrected OPPOSITE CONTACT frame of the exact man; image2 is his original neutral identity reference. Make ONE adjacent gait key pose of this SAME man. Keep image1's lateral screen-RIGHT heading, elevated camera, face, short hair, head top/size, pelvis/root x615, floor line y1210 and square transparent canvas. The foot extended forward in image1 is now still in the AIR about to land, heel low but not contacting the ground; the front knee is slightly more bent and the stride moderately narrower. The planted back foot supports the pelvis, its heel just beginning to release. This is a pre-contact swing immediately BEFORE the reference contact, not a weight-loading pose. Crucially RETAIN the arm/leg roles of image1: the visible NEAR arm stays swung back toward screen-LEFT behind his hip, the farther arm stays swung toward screen-RIGHT. Do NOT reset arm swing to the initial00-contact; do not mirror anything. Stable torso, calm measured walking, modest blue-grey ao lam tunic/trousers with the same seams and soft matte folds. Exact same warm upper-left light, adult anatomy, bare feet, genuine transparent RGBA and complete full body inside margins. No floor, shadow, props, background, text, grid, motion blur or extra character. One pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/04-opposite-contact-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    },
+    {
+      "direction": "right",
+      "id": "05-opposite-loading-v2",
+      "output": "right/05-opposite-loading-v2.png",
+      "phase": "The foot extended forward in image1 rolls FLAT and accepts body weight, the front knee softens and the pelvis advances over that supporting foot. The trailing foot's heel rises and the trailing toes are about to lift. This is the weight-loading pose immediately AFTER the reference contact. Moderately narrow the stride; do not repeat the wide contact.",
+      "prompt": "Use case: identity-preserve. Image1 is the approved corrected OPPOSITE CONTACT frame of the exact man; image2 is his original neutral identity reference. Make ONE adjacent gait key pose of this SAME man. Keep image1's lateral screen-RIGHT heading, elevated camera, face, short hair, head top/size, pelvis/root x615, floor line y1210 and square transparent canvas. The foot extended forward in image1 rolls FLAT and accepts body weight, the front knee softens and the pelvis advances over that supporting foot. The trailing foot's heel rises and the trailing toes are about to lift. This is the weight-loading pose immediately AFTER the reference contact. Moderately narrow the stride; do not repeat the wide contact. Crucially RETAIN the arm/leg roles of image1: the visible NEAR arm stays swung back toward screen-LEFT behind his hip, the farther arm stays swung toward screen-RIGHT. Do NOT reset arm swing to the initial00-contact; do not mirror anything. Stable torso, calm measured walking, modest blue-grey ao lam tunic/trousers with the same seams and soft matte folds. Exact same warm upper-left light, adult anatomy, bare feet, genuine transparent RGBA and complete full body inside margins. No floor, shadow, props, background, text, grid, motion blur or extra character. One pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/04-opposite-contact-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    }
+  ]
+}

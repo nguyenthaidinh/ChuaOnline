@@ -30,7 +30,7 @@ export type OfferingSequenceKind = 'incense' | 'lotus' | 'petal' | 'bell';
 
 export const CONTACT_MS = { incense: 500, lotus: 500, petal: 350, bell: 300 } as const;
 
-/** Version 2 is issued only for the new male incense action; existing actions keep v1. */
+/** Version 2 is issued for new incense actions; existing actions retain their recorded version. */
 const INCENSE_CLIP_MS = {
   ...CLIP_MS, standUp: 1160, sitDown: 1500,
   offerRaise: 1350, offerHold: 1100, offerPlace: 1400, offerRelease: 1150,

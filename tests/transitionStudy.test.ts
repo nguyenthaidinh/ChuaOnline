@@ -18,6 +18,14 @@ function fixtures(): Record<StudyBank, StudyAtlas> {
   return { walk: atlas('walk'), transition: atlas('transition') };
 }
 
+test('the compiled incense master loads through the actual authoring manifest parser',()=>{
+  const source=JSON.parse(readFileSync(new URL('../artwork/animation-v3/incense-v1/review.json',import.meta.url),'utf8'));
+  const atlas=parseStudyAtlas(source);
+  assert.equal(atlas.status,'compiled');
+  assert.equal(atlas.frames.length,23);
+  assert.equal(atlas.columns*atlas.rows,24);
+});
+
 test('a complete sequence holds the seated endpoint and never teleports back on completion', () => {
   const sequence = compileStudySequence(transitionDefinition('sequence'), fixtures());
   assert.equal(sampleStudySequence(sequence, 0).frameId, '10-seated-rear');

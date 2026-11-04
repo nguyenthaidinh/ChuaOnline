@@ -1,5 +1,8 @@
 # Dâng hương nam áo lam trong phòng chung
 
+Báo cáo lịch sử của đợt `7f9a6b8`. Đợt tiếp theo đã mở rộng sang nữ/áo nâu,
+hoa/chuông và chuyển động3; xem [báo cáo hiện tại](../movement-variants-v1/README.md).
+
 Ngày 04/11/2026, nhánh `codex/animation-v3`, tiếp tục từ `f3b4455`.
 Chuỗi mới đã chạy trong web chính cho **nam áo lam**. Đây là phần cốt lõi của chặng 2;
 chưa nghiệm thu toàn bộ chặng hoặc toàn bộ kế hoạch.

@@ -102,15 +102,16 @@ def main():
     with Image.open(walk_root / walk['image']) as image:
         walk_asset = production_texture(image.convert('RGBA'),'walk-rear',4,3)
     clips = {}
-    for clip in ('standUp','sitDown'):
+    for clip in ('standUp','sitDown','startWalk','stopWalk','turn'):
         clips[clip] = [{ 'id':step['frameId'],'index':step['index'],'startMs':step['startMs'],'endMs':step['endMs'],
-                         'rootOffset':step['rootOffset'],'top':transition['frames'][step['index']]['bounds'][1] }
+                         'bank':step['bank'],'rootOffset':step['rootOffset'],
+                         'top':(walk if step['bank']=='walk' else transition)['frames'][step['index']]['bounds'][1] }
                         for step in sequences[clip]['steps']]
     generated = "// Generated from reviewed transition/walk studies; no dev modules are imported at runtime.\n"
     generated += "import type { MovementGeometry } from './modernArtworkTypes.ts';\n"
     generated += 'export const MOVEMENT_ARTWORK = '+json.dumps(transition_asset)+' as const;\n'
     generated += 'export const WALK_ARTWORK = '+json.dumps(walk_asset)+' as const;\n'
-    generated += 'export const MOVEMENT_CLIPS:Record<\'standUp\'|\'sitDown\',readonly MovementGeometry[]> = '+json.dumps(clips)+';\n'
+    generated += 'export const MOVEMENT_CLIPS:Record<\'standUp\'|\'sitDown\'|\'startWalk\'|\'stopWalk\'|\'turn\',readonly MovementGeometry[]> = '+json.dumps(clips)+';\n'
     idle_index = next(i for i,f in enumerate(transition['frames']) if f['id']=='10-seated-rear')
     generated += 'export const MODERN_IDLE = '+json.dumps({'id':'10-seated-rear','index':idle_index,'top':transition['frames'][idle_index]['bounds'][1]})+' as const;\n'
     generated += 'export const WALK_GEOMETRY = '+json.dumps([{'id':f['id'],'top':f['bounds'][1]} for f in walk['frames']])+' as const;\n'

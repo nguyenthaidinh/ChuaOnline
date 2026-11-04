@@ -1,0 +1,30 @@
+{
+  "samples": 86,
+  "counts": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "clips": [
+    "standUp",
+    "walkFront",
+    "walkRear",
+    "kneelDown",
+    "bowDown",
+    "bowHold",
+    "bowUp",
+    "rise",
+    "sitDown",
+    "seated"
+  ],
+  "last": {
+    "at": 1793796199114,
+    "bows": "3",
+    "clip": "seated",
+    "held": "false",
+    "movement": "3",
+    "phase": "idle"
+  },
+  "saved": true
+}

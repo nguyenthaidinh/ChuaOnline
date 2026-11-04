@@ -1,0 +1,140 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "appearance": "man",
+      "id": "bell-ready",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult male with short dark hair in blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Prepare to strike a small temple bell. Left hand rests relaxed against lower abdomen. Right elbow bent, right forearm raised in front-right, right hand makes a clear natural closed cylindrical fist around an invisible mallet handle, grip centred x850,y410. Thumb wraps around handle, fingers anatomically plausible. Do not join palms. Right wrist neutral, fist tilted slightly toward upper-right. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/man/bell-ready.png"
+    },
+    {
+      "appearance": "man",
+      "id": "bell-contact",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult male with short dark hair in blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. At bell strike contact: left hand relaxed against lower abdomen. Right arm extends forward-right with elbow slightly bent; right hand CLOSED in a plausible cylindrical mallet grip, centred exactly x900,y510. Preserve closed grip with thumb wrapping handle, never an open palm. Wrist aligns a handle pointing diagonally upper-right. Lean only minimally, feet stay planted. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/man/bell-contact.png"
+    },
+    {
+      "appearance": "man",
+      "id": "bell-recoil",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult male with short dark hair in blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. After striking bell, right forearm recoils gently toward body. Left hand rests against abdomen. Right hand still CLOSED around an invisible mallet handle, centred x865,y440. Wrist relaxed, grip clearly retained; no open hand. Both feet planted. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/man/bell-recoil.png"
+    },
+    {
+      "appearance": "man",
+      "id": "lotus-chest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult male with short dark hair in blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Carry a light offering tray before chest: BOTH hands OPEN PALMS UP, forearms forward and elbows low, supporting an invisible shallow oval tray. Palm support centre around x790,y440. Hands side-by-side with a modest gap, fingers gently curled upward, no prayer clasp or closed fist. The tray itself must be absent. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/man/lotus-chest.png"
+    },
+    {
+      "appearance": "man",
+      "id": "lotus-place",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult male with short dark hair in blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Place an invisible shallow offering tray on a table to upper-right: BOTH forearms extend forward at lower-chest height, BOTH palms OPEN AND UP supporting its underside. Midpoint of palm support is exactly x950,y490. Fingers naturally spread slightly, not gripping upright sticks, not prayer palms. Feet and body remain in same fixed stance; no actual tray or table. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/man/lotus-place.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "bell-ready",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult woman with dark hair in a neat low bun, blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Prepare to strike a small temple bell. Left hand rests relaxed against lower abdomen. Right elbow bent, right forearm raised in front-right, right hand makes a clear natural closed cylindrical fist around an invisible mallet handle, grip centred x850,y410. Thumb wraps around handle, fingers anatomically plausible. Do not join palms. Right wrist neutral, fist tilted slightly toward upper-right. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/woman/bell-ready.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "bell-contact",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult woman with dark hair in a neat low bun, blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. At bell strike contact: left hand relaxed against lower abdomen. Right arm extends forward-right with elbow slightly bent; right hand CLOSED in a plausible cylindrical mallet grip, centred exactly x900,y510. Preserve closed grip with thumb wrapping handle, never an open palm. Wrist aligns a handle pointing diagonally upper-right. Lean only minimally, feet stay planted. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/woman/bell-contact.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "bell-recoil",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult woman with dark hair in a neat low bun, blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. After striking bell, right forearm recoils gently toward body. Left hand rests against abdomen. Right hand still CLOSED around an invisible mallet handle, centred x865,y440. Wrist relaxed, grip clearly retained; no open hand. Both feet planted. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/woman/bell-recoil.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "lotus-chest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult woman with dark hair in a neat low bun, blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Carry a light offering tray before chest: BOTH hands OPEN PALMS UP, forearms forward and elbows low, supporting an invisible shallow oval tray. Palm support centre around x790,y440. Hands side-by-side with a modest gap, fingers gently curled upward, no prayer clasp or closed fist. The tray itself must be absent. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/woman/lotus-chest.png"
+    },
+    {
+      "appearance": "woman",
+      "id": "lotus-place",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese adult woman with dark hair in a neat low bun, blue-grey ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Place an invisible shallow offering tray on a table to upper-right: BOTH forearms extend forward at lower-chest height, BOTH palms OPEN AND UP supporting its underside. Midpoint of palm support is exactly x950,y490. Fingers naturally spread slightly, not gripping upright sticks, not prayer palms. Feet and body remain in same fixed stance; no actual tray or table. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/woman/lotus-place.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "bell-ready",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese elderly woman with grey hair in a neat low bun, warm brown ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Prepare to strike a small temple bell. Left hand rests relaxed against lower abdomen. Right elbow bent, right forearm raised in front-right, right hand makes a clear natural closed cylindrical fist around an invisible mallet handle, grip centred x850,y410. Thumb wraps around handle, fingers anatomically plausible. Do not join palms. Right wrist neutral, fist tilted slightly toward upper-right. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/granny/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/granny/bell-ready.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "bell-contact",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese elderly woman with grey hair in a neat low bun, warm brown ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. At bell strike contact: left hand relaxed against lower abdomen. Right arm extends forward-right with elbow slightly bent; right hand CLOSED in a plausible cylindrical mallet grip, centred exactly x900,y510. Preserve closed grip with thumb wrapping handle, never an open palm. Wrist aligns a handle pointing diagonally upper-right. Lean only minimally, feet stay planted. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/granny/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/granny/bell-contact.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "bell-recoil",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese elderly woman with grey hair in a neat low bun, warm brown ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. After striking bell, right forearm recoils gently toward body. Left hand rests against abdomen. Right hand still CLOSED around an invisible mallet handle, centred x865,y440. Wrist relaxed, grip clearly retained; no open hand. Both feet planted. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/granny/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/granny/bell-recoil.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "lotus-chest",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese elderly woman with grey hair in a neat low bun, warm brown ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Carry a light offering tray before chest: BOTH hands OPEN PALMS UP, forearms forward and elbows low, supporting an invisible shallow oval tray. Palm support centre around x790,y440. Hands side-by-side with a modest gap, fingers gently curled upward, no prayer clasp or closed fist. The tray itself must be absent. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/granny/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/granny/lotus-chest.png"
+    },
+    {
+      "appearance": "granny",
+      "id": "lotus-place",
+      "prompt": "Use case: identity-preserve. Asset: ONE full-body game animation key pose, transparent RGBA. Edit only the arm/hand action of the referenced Vietnamese elderly woman with grey hair in a neat low bun, warm brown ao lam. Keep EXACT identity, face, hairstyle, costume, long trousers, bare feet, camera, lighting, full-body scale, root and planted feet. Fixed elevated rear three-quarter facing upper-right, warm upper-left light. Square1254 framing, head top30, ground root nearx615y1210. Place an invisible shallow offering tray on a table to upper-right: BOTH forearms extend forward at lower-chest height, BOTH palms OPEN AND UP supporting its underside. Midpoint of palm support is exactly x950,y490. Fingers naturally spread slightly, not gripping upright sticks, not prayer palms. Feet and body remain in same fixed stance; no actual tray or table. Coordinates are in1254-square reference pixels. Full body visible. EMPTY hands, actual mallet/tray/flowers are rendered separately; do not draw any prop. No floor, shadow, pedestal, cushion, table, bell, incense, flower, background, text, duplicate people, extra limbs or motion blur. Preserve transparent alpha.",
+      "references": [
+        "artwork/animation-v3/variants-v1/granny/00-neutral.png"
+      ],
+      "output": "artwork/animation-v3/rituals-v1/granny/lotus-place.png"
+    }
+  ]
+}

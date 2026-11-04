@@ -1,0 +1,15 @@
+{
+  "requested": {
+    "width": 390,
+    "height": 844
+  },
+  "actual": {
+    "layout": "desktop",
+    "scrollWidth": 1265,
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "status": "not-verified-override-not-applied"
+}

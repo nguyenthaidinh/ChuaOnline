@@ -50,6 +50,6 @@ export function ritualRoute(seat: number,slot: number,returning=false,bow=false)
   return ritualCache.get(key)!;
 }
 export const routeDurationMs=(route: Route)=>Math.round(route.length/WALK_SPEED*1000);
-export function actionMovement(seat: number,slot: number,bow=false) {
-  return {seat,outboundMs:routeDurationMs(ritualRoute(seat,slot,false,bow)),returnMs:routeDurationMs(ritualRoute(seat,slot,true,bow)),version:2 as const};
+export function actionMovement(seat: number,slot: number,bow=false,version:2|3=2) {
+  return {seat,outboundMs:routeDurationMs(ritualRoute(seat,slot,false,bow)),returnMs:routeDurationMs(ritualRoute(seat,slot,true,bow)),version};
 }

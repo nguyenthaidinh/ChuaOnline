@@ -1,0 +1,144 @@
+{
+  "starts": [
+    {
+      "action": "3896294c-ca61-422a-8f41-d4db22d044a0",
+      "movement": "3",
+      "name": "Nam · kiểm chuyển động · Bạn",
+      "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+      "timeline": "2"
+    },
+    {
+      "action": "100538a7-fbfc-47e3-8659-8c31857ea8d4",
+      "movement": "3",
+      "name": "Nữ · kiểm dâng hương",
+      "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+      "timeline": "2"
+    },
+    {
+      "action": "14a0b453-9131-47fa-b645-2a8658eabfea",
+      "movement": "3",
+      "name": "Áo nâu · kiểm nghi lễ",
+      "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+      "timeline": "2"
+    }
+  ],
+  "capturedFrames": 109,
+  "first": {
+    "file": "frame-000.png",
+    "at": 1793795567578,
+    "actors": [
+      {
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+        "phase": "standing",
+        "source": "00-stand-angled",
+        "stage": ""
+      },
+      {
+        "artwork": "legacy",
+        "heading": "rear",
+        "held": "false",
+        "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+        "phase": "standing",
+        "source": "",
+        "stage": ""
+      },
+      {
+        "artwork": "legacy",
+        "heading": "rear",
+        "held": "false",
+        "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+        "phase": "standing",
+        "source": "",
+        "stage": ""
+      }
+    ]
+  },
+  "last": {
+    "file": "frame-108.png",
+    "at": 1793795582897,
+    "actors": [
+      {
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+        "phase": "idle",
+        "source": "10-seated-rear",
+        "stage": ""
+      },
+      {
+        "artwork": "legacy",
+        "heading": "rear",
+        "held": "false",
+        "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+        "phase": "idle",
+        "source": "",
+        "stage": ""
+      },
+      {
+        "artwork": "legacy",
+        "heading": "rear",
+        "held": "false",
+        "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+        "phase": "idle",
+        "source": "",
+        "stage": ""
+      }
+    ]
+  },
+  "poses": [
+    "movement:00-stand-angled",
+    "legacy:",
+    "movement:right-02-passing",
+    "movement:06-opposite-contact",
+    "movement:10-opposite-late-passing",
+    "movement:00-contact",
+    "movement:02-support",
+    "movement:09-opposite-passing",
+    "movement:13-stop-settle",
+    "incense:00-neutral",
+    "incense:02-grasp",
+    "incense:19-pickup-lift",
+    "incense:03-chest",
+    "incense:20-mid-lift",
+    "incense:04-lift",
+    "incense:05-forehead",
+    "incense:06-bow-start",
+    "incense:07-bow-hold",
+    "incense:08-bow-return",
+    "incense:01-reach",
+    "incense:10-extend",
+    "incense:11-near-burner",
+    "incense:12-contact-closed",
+    "incense:13-release",
+    "incense:14-open",
+    "incense:15-withdraw",
+    "incense:16-return",
+    "incense:17-palms",
+    "incense:21-prayer-lower",
+    "incense:18-rest",
+    "incense:22-arms-lower",
+    "incense:09-lower",
+    "movement:left-00-contact",
+    "movement:left-02-passing",
+    "movement:01-turn-mid",
+    "movement:02-stand-rear",
+    "movement:03-weight-shift",
+    "movement:05-lower-knees",
+    "movement:06-kneeling",
+    "movement:07-tuck-legs",
+    "movement:08-half-seated",
+    "movement:09-seated-settle",
+    "movement:10-seated-rear"
+  ],
+  "placed": [
+    "9f9c290b-e2fb-4ab7-8b03-8cf08f2f040a:placed",
+    "de636df4-4cea-40c8-8dde-9f6663ee431f:placed",
+    "3896294c-ca61-422a-8f41-d4db22d044a0:placed",
+    "14a0b453-9131-47fa-b645-2a8658eabfea:placed",
+    "100538a7-fbfc-47e3-8659-8c31857ea8d4:placed"
+  ]
+}

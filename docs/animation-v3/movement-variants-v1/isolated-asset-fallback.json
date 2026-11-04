@@ -1,0 +1,619 @@
+{
+  "missingAsset": {
+    "path": "/assets/animation-v3/woman-incense-8fea45e46523.webp",
+    "httpStatus": 404
+  },
+  "availableMaleAssetStatus": 200,
+  "isolatedOrigin": "http://127.0.0.1:4181",
+  "samples": 155,
+  "performing": [
+    {
+      "at": 1793796362868,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "true",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "false",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "00-neutral",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796362961,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "true",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "false",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "01-reach",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363053,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "true",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "02-grasp",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363115,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "true",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "02-grasp",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363293,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "true",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "19-pickup-lift",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363376,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "03-chest",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363445,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "03-chest",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363509,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "20-mid-lift",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363570,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "20-mid-lift",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363650,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "20-mid-lift",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363749,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "04-lift",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363846,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "05-forehead",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796363935,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "05-forehead",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364022,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "05-forehead",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364097,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "05-forehead",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364186,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "06-bow-start",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364426,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364498,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364565,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364648,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364712,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364773,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "2"
+        }
+      ]
+    },
+    {
+      "at": 1793796364846,
+      "actors": [
+        {
+          "artwork": "legacy",
+          "held": "false",
+          "movement": "3",
+          "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+          "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+          "phase": "performing",
+          "source": "",
+          "timeline": "2"
+        },
+        {
+          "artwork": "incense",
+          "held": "true",
+          "movement": "3",
+          "name": "Nam · ảnh vẫn hoạt động",
+          "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "2"
+        }
+      ]
+    }
+  ],
+  "last": {
+    "at": 1793796373524,
+    "actors": [
+      {
+        "artwork": "legacy",
+        "held": "false",
+        "movement": "3",
+        "name": "Nữ · thiếu ảnh thử nghiệm · Bạn",
+        "person": "d2d05437-8340-42a7-b7ef-7fce9c43ace7",
+        "phase": "idle",
+        "source": "",
+        "timeline": "1"
+      },
+      {
+        "artwork": "movement",
+        "held": "false",
+        "movement": "3",
+        "name": "Nam · ảnh vẫn hoạt động",
+        "person": "c063deb0-be1e-416a-ae59-5fa8881960db",
+        "phase": "idle",
+        "source": "10-seated-rear",
+        "timeline": "1"
+      }
+    ]
+  },
+  "buttonsEnabled": [
+    true,
+    true
+  ],
+  "placed": [
+    "c7f101d7-b482-4ef5-9b11-9b61bc7fb362:placed",
+    "ac0eb7c6-1787-4ff1-adc9-bdba790a6079:placed"
+  ]
+}

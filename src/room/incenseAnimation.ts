@@ -2,7 +2,8 @@ import { ritualSchedule, type RitualTimelineVersion } from '../shared/ritualSche
 import type { ClipId, HandAnchor } from './animationManifest.ts';
 import { INCENSE_ARTWORK, INCENSE_GEOMETRY, INCENSE_PROP } from './incenseGeometry.ts';
 import type { ArtworkFrame } from './modernArtworkTypes.ts';
-import type { SharedAction } from './protocol.ts';
+import type { Appearance, SharedAction } from './protocol.ts';
+import { INCENSE_VARIANTS } from './variantIncenseGeometry.ts';
 import { actionMovement } from './motion.ts';
 import { interactionTime } from './ritual.ts';
 
@@ -24,7 +25,7 @@ export function isIncenseClip(clip:ClipId):clip is IncenseClipId {
 }
 
 /** Fit old and new shared clocks to the same source, preserving the release marker. */
-export function sampleIncenseClip(clip:IncenseClipId, timeMs:number, version:RitualTimelineVersion=2):ArtworkFrame {
+export function sampleIncenseClip(clip:IncenseClipId, timeMs:number, version:RitualTimelineVersion=2,appearance:Appearance='man'):ArtworkFrame {
   const schedule = ritualSchedule(version);
   const keys = INCENSE_CLIPS[clip];
   const visualDuration=clipDuration(keys);
@@ -43,9 +44,11 @@ export function sampleIncenseClip(clip:IncenseClipId, timeMs:number, version:Rit
   }
   const cell = indices.get(keys[index].id);
   if (cell === undefined) throw new Error(`Missing incense pose: ${keys[index].id}`);
-  const frame = INCENSE_GEOMETRY[cell];
+  const geometry=appearance==='man'?INCENSE_GEOMETRY:INCENSE_VARIANTS[appearance].frames;
+  const asset=appearance==='man'?INCENSE_ARTWORK:INCENSE_VARIANTS[appearance].asset;
+  const frame = geometry[cell];
   return { cell,index,durationMs:keys[index].durationMs,sourceId:frame.id,top:frame.top,
-    image:INCENSE_ARTWORK.image,columns:INCENSE_ARTWORK.columns,rows:INCENSE_ARTWORK.rows,atlasCell:cell,
+    image:asset.image,columns:asset.columns,rows:asset.rows,atlasCell:cell,
     facing:'rear',hand:frame.grip,handMask:frame.handMask,holdsIncense:frame.holdsIncense,
     propLayer:'behind-hand',modernKind:'incense' };
 }
@@ -74,10 +77,10 @@ export function incenseKeyTimes(version:RitualTimelineVersion=2) {
   return [...times,start];
 }
 
-export function sampleStaticIncense(owner:'none'|'source'|'hand'|'urn'):ArtworkFrame {
-  if(owner==='hand')return sampleIncenseClip('offerHold',0,2);
-  if(owner==='urn')return sampleIncenseClip('offerRelease',200,2);
-  return sampleIncenseClip('offerRaise',0,2);
+export function sampleStaticIncense(owner:'none'|'source'|'hand'|'urn',appearance:Appearance='man'):ArtworkFrame {
+  if(owner==='hand')return sampleIncenseClip('offerHold',0,2,appearance);
+  if(owner==='urn')return sampleIncenseClip('offerRelease',200,2,appearance);
+  return sampleIncenseClip('offerRaise',0,2,appearance);
 }
 
 export function incenseAcquisitionTime(action:SharedAction) {

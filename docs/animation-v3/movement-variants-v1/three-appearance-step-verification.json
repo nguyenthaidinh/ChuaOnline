@@ -1,0 +1,452 @@
+[
+  {
+    "appearance": "man",
+    "uniquePoses": 23,
+    "steps": [
+      {
+        "id": "00-neutral",
+        "objects": 1,
+        "owner": "source",
+        "time": "0.000"
+      },
+      {
+        "id": "01-reach",
+        "objects": 1,
+        "owner": "source",
+        "time": "100.000"
+      },
+      {
+        "id": "02-grasp",
+        "objects": 1,
+        "owner": "hand",
+        "time": "240.000"
+      },
+      {
+        "id": "19-pickup-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "380.000"
+      },
+      {
+        "id": "03-chest",
+        "objects": 1,
+        "owner": "hand",
+        "time": "520.000"
+      },
+      {
+        "id": "20-mid-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "690.000"
+      },
+      {
+        "id": "04-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "900.000"
+      },
+      {
+        "id": "05-forehead",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1080.000"
+      },
+      {
+        "id": "06-bow-start",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1350.000"
+      },
+      {
+        "id": "07-bow-hold",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1600.000"
+      },
+      {
+        "id": "08-bow-return",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2200.000"
+      },
+      {
+        "id": "10-extend",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2450.000"
+      },
+      {
+        "id": "09-lower",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2680.000"
+      },
+      {
+        "id": "11-near-burner",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2910.000"
+      },
+      {
+        "id": "12-contact-closed",
+        "objects": 1,
+        "owner": "hand",
+        "time": "3180.000"
+      },
+      {
+        "id": "13-release",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3450.000"
+      },
+      {
+        "id": "14-open",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3570.000"
+      },
+      {
+        "id": "15-withdraw",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3710.000"
+      },
+      {
+        "id": "16-return",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3850.000"
+      },
+      {
+        "id": "17-palms",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4050.000"
+      },
+      {
+        "id": "21-prayer-lower",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4300.000"
+      },
+      {
+        "id": "18-rest",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4480.000"
+      },
+      {
+        "id": "22-arms-lower",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4660.000"
+      },
+      {
+        "id": "00-neutral",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4830.000"
+      }
+    ]
+  },
+  {
+    "appearance": "woman",
+    "uniquePoses": 23,
+    "steps": [
+      {
+        "id": "00-neutral",
+        "objects": 1,
+        "owner": "source",
+        "time": "0.000"
+      },
+      {
+        "id": "01-reach",
+        "objects": 1,
+        "owner": "source",
+        "time": "100.000"
+      },
+      {
+        "id": "02-grasp",
+        "objects": 1,
+        "owner": "hand",
+        "time": "240.000"
+      },
+      {
+        "id": "19-pickup-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "380.000"
+      },
+      {
+        "id": "03-chest",
+        "objects": 1,
+        "owner": "hand",
+        "time": "520.000"
+      },
+      {
+        "id": "20-mid-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "690.000"
+      },
+      {
+        "id": "04-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "900.000"
+      },
+      {
+        "id": "05-forehead",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1080.000"
+      },
+      {
+        "id": "06-bow-start",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1350.000"
+      },
+      {
+        "id": "07-bow-hold",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1600.000"
+      },
+      {
+        "id": "08-bow-return",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2200.000"
+      },
+      {
+        "id": "10-extend",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2450.000"
+      },
+      {
+        "id": "09-lower",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2680.000"
+      },
+      {
+        "id": "11-near-burner",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2910.000"
+      },
+      {
+        "id": "12-contact-closed",
+        "objects": 1,
+        "owner": "hand",
+        "time": "3180.000"
+      },
+      {
+        "id": "13-release",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3450.000"
+      },
+      {
+        "id": "14-open",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3570.000"
+      },
+      {
+        "id": "15-withdraw",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3710.000"
+      },
+      {
+        "id": "16-return",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3850.000"
+      },
+      {
+        "id": "17-palms",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4050.000"
+      },
+      {
+        "id": "21-prayer-lower",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4300.000"
+      },
+      {
+        "id": "18-rest",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4480.000"
+      },
+      {
+        "id": "22-arms-lower",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4660.000"
+      },
+      {
+        "id": "00-neutral",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4830.000"
+      }
+    ]
+  },
+  {
+    "appearance": "granny",
+    "uniquePoses": 23,
+    "steps": [
+      {
+        "id": "00-neutral",
+        "objects": 1,
+        "owner": "source",
+        "time": "0.000"
+      },
+      {
+        "id": "01-reach",
+        "objects": 1,
+        "owner": "source",
+        "time": "100.000"
+      },
+      {
+        "id": "02-grasp",
+        "objects": 1,
+        "owner": "hand",
+        "time": "240.000"
+      },
+      {
+        "id": "19-pickup-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "380.000"
+      },
+      {
+        "id": "03-chest",
+        "objects": 1,
+        "owner": "hand",
+        "time": "520.000"
+      },
+      {
+        "id": "20-mid-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "690.000"
+      },
+      {
+        "id": "04-lift",
+        "objects": 1,
+        "owner": "hand",
+        "time": "900.000"
+      },
+      {
+        "id": "05-forehead",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1080.000"
+      },
+      {
+        "id": "06-bow-start",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1350.000"
+      },
+      {
+        "id": "07-bow-hold",
+        "objects": 1,
+        "owner": "hand",
+        "time": "1600.000"
+      },
+      {
+        "id": "08-bow-return",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2200.000"
+      },
+      {
+        "id": "10-extend",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2450.000"
+      },
+      {
+        "id": "09-lower",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2680.000"
+      },
+      {
+        "id": "11-near-burner",
+        "objects": 1,
+        "owner": "hand",
+        "time": "2910.000"
+      },
+      {
+        "id": "12-contact-closed",
+        "objects": 1,
+        "owner": "hand",
+        "time": "3180.000"
+      },
+      {
+        "id": "13-release",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3450.000"
+      },
+      {
+        "id": "14-open",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3570.000"
+      },
+      {
+        "id": "15-withdraw",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3710.000"
+      },
+      {
+        "id": "16-return",
+        "objects": 1,
+        "owner": "urn",
+        "time": "3850.000"
+      },
+      {
+        "id": "17-palms",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4050.000"
+      },
+      {
+        "id": "21-prayer-lower",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4300.000"
+      },
+      {
+        "id": "18-rest",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4480.000"
+      },
+      {
+        "id": "22-arms-lower",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4660.000"
+      },
+      {
+        "id": "00-neutral",
+        "objects": 1,
+        "owner": "urn",
+        "time": "4830.000"
+      }
+    ]
+  }
+]

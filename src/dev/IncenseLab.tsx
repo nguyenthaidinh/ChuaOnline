@@ -1,14 +1,13 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { useSceneLayout } from '../hooks/useSceneLayout';
-import { LAM_MANIFEST, sampleScheduledClip } from '../room/animationManifest';
 import { frameBackground, handClipPath } from '../room/frameStyles';
 import { incenseAcquisitionTime, incenseOwnership, incenseReceiver, incenseSource, isIncenseClip, sampleIncenseClip, incenseKeyTimes } from '../room/incenseAnimation';
 import { INCENSE_PROP } from '../room/incenseGeometry';
 import { actorMetrics, projectFloor, roomAssets, stationAnchor, altarPoint, incenseSourceAnchor, incenseWorldSize } from '../room/layout';
-import { sampleModernMovement } from '../room/modernMovement';
+import { sampleCharacter } from '../room/characterAnimation';
 import type { ArtworkFrame } from '../room/modernArtworkTypes';
 import { actionMovement, logicalSeat } from '../room/motion';
-import type { SharedAction } from '../room/protocol';
+import type { Appearance, SharedAction } from '../room/protocol';
 import { interactionTime, sampleSharedRitual, sharedRitualDurationMs } from '../room/ritual';
 import { ritualSchedule } from '../shared/ritualSchedule';
 import { advanceStudyTime } from './transitionTimeline';
@@ -25,8 +24,8 @@ const propStyle = (x:number,y:number,height=INCENSE_PROP.height,grip=1):CSSPrope
   transform:`translate(-50%,-${grip*100}%)`,
 });
 
-function SpriteLayers({frame,held,masterImage}:{frame:ArtworkFrame;held:boolean;masterImage?:string}) {
-  const background=frameBackground(frame,false,masterImage);
+function SpriteLayers({frame,held,masterImage,flip=false}:{frame:ArtworkFrame;held:boolean;masterImage?:string;flip?:boolean}) {
+  const background=frameBackground(frame,flip,masterImage);
   return <>
     <div className="incense-frame-body" data-study-frame={frame.sourceId??String(frame.cell)} style={background}/>
     {held&&frame.hand&&<img className="incense-frame-prop" data-study-held="true" src={roomAssets.effect('incense')} alt="" style={propStyle(frame.hand.x,frame.hand.y,INCENSE_PROP.height,INCENSE_PROP.gripFraction)}/>}
@@ -56,12 +55,13 @@ export default function IncenseLab() {
   const layout=useSceneLayout();
   const master=useStudyAtlas(INCENSE_STUDY_ROOT);
   const [seat,setSeat]=useState(0),[slot,setSlot]=useState(0);
+  const [appearance,setAppearance]=useState<Appearance>('man');
   const [mode,setMode]=useState<'performance'|'ritual'>('performance');
   const [time,setTime]=useState(0),[playing,setPlaying]=useState(false),[speed,setSpeed]=useState(0.25);
   const [guides,setGuides]=useState(true);
   const clock=useRef(0);clock.current=time;
   const action=useMemo<SharedAction>(()=>{
-    const movement=actionMovement(seat,slot);
+    const movement=actionMovement(seat,slot,false,3);
     return {id:'offline-incense-study',actorId:'offline-study',kind:'incense',offering:'incense',bowCount:3,
       slot,startedAt:0,timelineVersion:2,movement,endsAt:sharedRitualDurationMs('incense',movement,'incense',2)};
   },[seat,slot]);
@@ -70,13 +70,13 @@ export default function IncenseLab() {
   const now=mode==='performance'?start+Math.min(time,4999.999):time;
   const pose=sampleSharedRitual(action,now);
   const detailPose=sampleSharedRitual(action,Math.max(start,Math.min(start+4999.999,now)));
-  const detailFrame=sampleIncenseClip(isIncenseClip(detailPose.clip)?detailPose.clip:'offerRaise',detailPose.clipTime,2);
-  const frame=isIncenseClip(pose.clip)?sampleIncenseClip(pose.clip,pose.clipTime,2)
-    :sampleModernMovement(pose.clip,pose.clipTime,pose.distance,pose.tangent,2)
-      ??sampleScheduledClip(LAM_MANIFEST,pose.clip,pose.clipTime,pose.clip.startsWith('walk')?pose.distance:undefined,2);
+  const detailFrame=sampleIncenseClip(isIncenseClip(detailPose.clip)?detailPose.clip:'offerRaise',detailPose.clipTime,2,appearance);
+  const scene=sampleCharacter({id:'offline-study',name:'Study',appearance,seat,joinedAt:-100000,action,completed:null},now,false,
+    {movement:true,directions:true,incense:{man:true,woman:true,granny:true}});
+  const frame=scene.frame;
   const owner=incenseOwnership(action,now);
-  const held=owner==='hand'&&Boolean(frame.holdsIncense)&&pose.phase==='performing';
-  const projected=projectFloor(pose.point,layout.id),metrics=actorMetrics(pose.point,layout.id);
+  const held=scene.held;
+  const projected=projectFloor(scene.point,layout.id),metrics=actorMetrics(scene.point,layout.id);
   const receiver=stationAnchor(slot,layout.id,'incense'),floor=altarPoint(slot,layout.id);
   const source=incenseSourceAnchor(slot,layout.id),size=incenseWorldSize(slot,layout.id);
   const urnStyle:CSSProperties={left:`${receiver.x+size.urnOffsetX}%`,top:`${receiver.y}%`,height:`${(receiver.floorY-receiver.y)/0.88}%`,transform:'translate(-50%,-10%)'};
@@ -99,11 +99,12 @@ export default function IncenseLab() {
     };
     id=requestAnimationFrame(tick);return()=>cancelAnimationFrame(id);
   },[playing,speed,duration]);
-  const masterImage=master.atlas?studyImageUrl(INCENSE_STUDY_ROOT,master.atlas):undefined;
+  const masterImage=appearance==='man'&&master.atlas?studyImageUrl(INCENSE_STUDY_ROOT,master.atlas):undefined;
   const seatFloor=projectFloor(logicalSeat(seat),layout.id);
   return <main className="animation-lab incense-lab">
     <header><div><span className="lab-eyebrow">CHUAONLINE · DÂNG HƯƠNG</span><h1>Hai tay, một bó hương và mốc đặt</h1><p>Phòng thử ngoại tuyến · cùng lịch v2 và bộ dựng hình với chánh điện · không gọi API phòng.</p></div><a href="?animation-lab=transitions">Xem đứng–đi–ngồi ↗</a></header>
     <section className="lab-controls" aria-label="Điều khiển kiểm dâng hương">
+      <label>Y phục<select value={appearance} onChange={event=>{setAppearance(event.target.value as Appearance);reset();}}><option value="man">Nam áo lam</option><option value="woman">Nữ áo lam</option><option value="granny">Áo nâu</option></select></label>
       <label>Đoạn kiểm<select value={mode} onChange={event=>{setMode(event.target.value as typeof mode);reset();}}><option value="performance">Đoạn tại lư · 5 giây</option><option value="ritual">Đứng dậy → dâng → về chỗ</option></select></label>
       <label>Ghế xuất phát<select value={seat} onChange={event=>{setSeat(Number(event.target.value));reset();}}>{[0,5,12,23].map(id=><option key={id} value={id}>Ghế {id+1}</option>)}</select></label>
       <label>Trạm dâng<select value={slot} onChange={event=>{setSlot(Number(event.target.value));reset();}}>{[0,1,2,3].map(id=><option key={id} value={id}>Trạm {id+1}</option>)}</select></label>
@@ -117,7 +118,7 @@ export default function IncenseLab() {
       <article><h2>Trên sàn chánh điện</h2><div className="lab-walk-room" data-layout={layout.id} style={{backgroundImage:`url('${roomAssets.hall[layout.id]}')`}}>
         <img className="fixed-cushion" src={roomAssets.effect('cushion')} alt="" style={{left:`${seatFloor.x}%`,top:`${seatFloor.y}%`,height:`${actorMetrics(logicalSeat(seat),layout.id).height*0.25}%`}}/>
         <img className="offering-station" src={roomAssets.effect('urn')} alt="" style={{...urnStyle,zIndex:Math.round(floor.y*100)-2}}/>
-        <div className="lab-floor-sprite" data-study-phase={pose.phase} style={{left:`${projected.x}%`,top:`${projected.y}%`,height:`${metrics.canvasHeight}%`,zIndex:Math.round(projected.y*100)}}><SpriteLayers frame={frame} held={held}/></div>
+        <div className="lab-floor-sprite" data-study-phase={pose.phase} style={{left:`${projected.x}%`,top:`${projected.y}%`,height:`${metrics.canvasHeight}%`,zIndex:Math.round(projected.y*100)}}><SpriteLayers frame={frame} held={held} flip={scene.flip}/></div>
         {owner==='source'&&<img className="incense-source study-visible" src={roomAssets.effect('incense')} alt="" style={{left:`${source.x}%`,top:`${source.y}%`,height:`${size.height}%`,zIndex:Math.round(floor.y*100)+3}}/>}
         {owner==='urn'&&<img className="incense-source study-visible" data-study-placed="true" src={roomAssets.effect('incense')} alt="" style={{left:`${receiver.x}%`,top:`${receiver.y+size.insertion}%`,height:`${size.height}%`,zIndex:Math.round(floor.y*100)+3}}/>}
         <IncenseSourceCup style={{left:`${source.x}%`,top:`${source.y-size.insertion}%`,width:`${size.cupWidth}%`,height:`${size.cupHeight}%`,zIndex:Math.round(floor.y*100)+4}}/>
@@ -131,6 +132,6 @@ export default function IncenseLab() {
       <label htmlFor="incense-time">Thời gian <output>{(time/1000).toFixed(3)} / {(duration/1000).toFixed(3)} s</output><input id="incense-time" type="range" min="0" max={duration} step="1" value={time} onChange={event=>seek(Number(event.target.value))}/></label>
     </section>
     <div className="incense-marker-buttons"><button onClick={()=>seek(marker-1)}>Trước đặt 1 ms</button><button onClick={()=>seek(marker)}>Đúng mốc đặt</button><button onClick={()=>seek(marker+1)}>Sau đặt 1 ms</button></div>
-    <aside>Lớp ngón tay dùng đúng pixel của ảnh thân, che trên bó hương; miệng và thân lư có lớp trước/sau. Vật chuyển từ tay vào lư tại mốc server, khói trong phòng thật chỉ chạy sau mốc đó. Góc đi trước/ngang mới và các y phục khác vẫn cần hoàn thiện riêng.</aside>
+    <aside>Lớp ngón tay dùng đúng pixel của ảnh thân, che trên bó hương; miệng và thân lư có lớp trước/sau. Ba y phục có nguồn dâng hương riêng. Nam có thêm hai hướng đi ngang; các hướng chéo và chuyển tiếp của nữ/áo nâu vẫn cần hoàn thiện riêng.</aside>
   </main>;
 }

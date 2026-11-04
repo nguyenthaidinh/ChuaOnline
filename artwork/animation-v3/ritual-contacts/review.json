@@ -1,0 +1,140 @@
+{
+  "method": "Manual visual review on each actual web atlas independently, with native-pixel annotations; no anatomy inferred or copied from the male atlas. Foreground contours reuse source image pixels, not generated hand replacements.",
+  "frames": [
+    {
+      "appearance": "man",
+      "cell": 9,
+      "opaqueSamples": {
+        "hand": 253,
+        "leftHand": 253,
+        "rightHand": 253
+      }
+    },
+    {
+      "appearance": "man",
+      "cell": 10,
+      "opaqueSamples": {
+        "hand": 253,
+        "leftHand": 253,
+        "rightHand": 253
+      }
+    },
+    {
+      "appearance": "man",
+      "cell": 11,
+      "opaqueSamples": {
+        "hand": 253,
+        "leftHand": 253,
+        "rightHand": 253
+      }
+    },
+    {
+      "appearance": "man",
+      "cell": 12,
+      "opaqueSamples": {
+        "hand": 254,
+        "leftHand": 201,
+        "rightHand": 253
+      }
+    },
+    {
+      "appearance": "man",
+      "cell": 13,
+      "opaqueSamples": {
+        "hand": 253,
+        "leftHand": 253,
+        "rightHand": 253
+      }
+    },
+    {
+      "appearance": "woman",
+      "cell": 9,
+      "opaqueSamples": {
+        "hand": 254,
+        "leftHand": 251,
+        "rightHand": 254
+      }
+    },
+    {
+      "appearance": "woman",
+      "cell": 10,
+      "opaqueSamples": {
+        "hand": 250,
+        "leftHand": 250,
+        "rightHand": 250
+      }
+    },
+    {
+      "appearance": "woman",
+      "cell": 11,
+      "opaqueSamples": {
+        "hand": 255,
+        "leftHand": 255,
+        "rightHand": 248
+      }
+    },
+    {
+      "appearance": "woman",
+      "cell": 12,
+      "opaqueSamples": {
+        "hand": 248,
+        "leftHand": 253,
+        "rightHand": 248
+      }
+    },
+    {
+      "appearance": "woman",
+      "cell": 13,
+      "opaqueSamples": {
+        "hand": 248,
+        "leftHand": 255,
+        "rightHand": 248
+      }
+    },
+    {
+      "appearance": "granny",
+      "cell": 9,
+      "opaqueSamples": {
+        "hand": 249,
+        "leftHand": 255,
+        "rightHand": 249
+      }
+    },
+    {
+      "appearance": "granny",
+      "cell": 10,
+      "opaqueSamples": {
+        "hand": 252,
+        "leftHand": 252,
+        "rightHand": 255
+      }
+    },
+    {
+      "appearance": "granny",
+      "cell": 11,
+      "opaqueSamples": {
+        "hand": 253,
+        "leftHand": 255,
+        "rightHand": 253
+      }
+    },
+    {
+      "appearance": "granny",
+      "cell": 12,
+      "opaqueSamples": {
+        "hand": 248,
+        "leftHand": 253,
+        "rightHand": 244
+      }
+    },
+    {
+      "appearance": "granny",
+      "cell": 13,
+      "opaqueSamples": {
+        "hand": 245,
+        "leftHand": 253,
+        "rightHand": 246
+      }
+    }
+  ]
+}

@@ -60,7 +60,7 @@ test('four offering commands reserve distinct stations and share authoritative m
   assert.ok(action.startedAt>=now+entryDurationMs(index));
   const mark=interactionTime(action)!;
   assert.equal(sampleSharedRitual(action,mark-1).propInHand,true);
-  assert.equal(sampleSharedRitual(action,mark).propInHand,false);
+  assert.equal(sampleSharedRitual(action,mark).propInHand,kind==='bell');
   assert.ok(mark>action.startedAt&&mark<action.endsAt);
  }
  const overflow=room.join('Wait','woman');assert.throws(()=>room.action(overflow.token,'lotus','overflow-action'),(e:unknown)=>e instanceof RoomError&&e.status===409);

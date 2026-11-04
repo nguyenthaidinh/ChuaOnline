@@ -1,0 +1,77 @@
+{
+  "captureMethod": "Actual CUA browser screenshots of bell, lotus and petal in production at 1x; VFR timestamps, no audio; captured before the final non-self-label visibility adjustment",
+  "capturedFrames": 77,
+  "capturedMs": 12291,
+  "observedPoses": [
+    "",
+    "00-neutral",
+    "00-stand-angled",
+    "01-loading",
+    "04-knee-bend",
+    "06-opposite-contact",
+    "08-opposite-support",
+    "10-opposite-late-passing",
+    "10-seated-rear",
+    "13-stop-settle",
+    "16-return",
+    "17-palms",
+    "18-rest",
+    "18-turn-second",
+    "21-prayer-lower",
+    "22-arms-lower",
+    "bell-contact",
+    "bell-ready",
+    "bell-recoil",
+    "left-00-contact",
+    "left-02-passing",
+    "lotus-chest",
+    "lotus-place",
+    "right-03-swing"
+  ],
+  "last": {
+    "file": "frame-076.png",
+    "at": 1793795686705,
+    "actors": [
+      {
+        "action": "",
+        "artwork": "movement",
+        "held": "false",
+        "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+        "phase": "idle",
+        "source": "10-seated-rear"
+      },
+      {
+        "action": "",
+        "artwork": "legacy",
+        "held": "false",
+        "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+        "phase": "idle",
+        "source": ""
+      },
+      {
+        "action": "",
+        "artwork": "legacy",
+        "held": "false",
+        "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+        "phase": "idle",
+        "source": ""
+      }
+    ]
+  },
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "format": {
+      "duration": "12.520000",
+      "size": "461835"
+    }
+  },
+  "limit": "Screenshot sampling is not continuous video and may omit brief poses; see the related review for test scope."
+}

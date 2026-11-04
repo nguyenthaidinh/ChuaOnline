@@ -1,0 +1,99 @@
+{
+  "captureMethod": "Actual CUA browser screenshots of three visitors in production at 1x; VFR timestamps, no audio; captured before the final non-self-label visibility adjustment",
+  "capturedFrames": 109,
+  "capturedMs": 15319,
+  "observedPoses": [
+    "",
+    "00-contact",
+    "00-neutral",
+    "00-stand-angled",
+    "01-reach",
+    "01-turn-mid",
+    "02-grasp",
+    "02-stand-rear",
+    "02-support",
+    "03-chest",
+    "03-weight-shift",
+    "04-lift",
+    "05-forehead",
+    "05-lower-knees",
+    "06-bow-start",
+    "06-kneeling",
+    "06-opposite-contact",
+    "07-bow-hold",
+    "07-tuck-legs",
+    "08-bow-return",
+    "08-half-seated",
+    "09-lower",
+    "09-opposite-passing",
+    "09-seated-settle",
+    "10-extend",
+    "10-opposite-late-passing",
+    "10-seated-rear",
+    "11-near-burner",
+    "12-contact-closed",
+    "13-release",
+    "13-stop-settle",
+    "14-open",
+    "15-withdraw",
+    "16-return",
+    "17-palms",
+    "18-rest",
+    "19-pickup-lift",
+    "20-mid-lift",
+    "21-prayer-lower",
+    "22-arms-lower",
+    "left-00-contact",
+    "left-02-passing",
+    "right-02-passing"
+  ],
+  "last": {
+    "file": "frame-108.png",
+    "at": 1793795582897,
+    "actors": [
+      {
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+        "phase": "idle",
+        "source": "10-seated-rear",
+        "stage": ""
+      },
+      {
+        "artwork": "legacy",
+        "heading": "rear",
+        "held": "false",
+        "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+        "phase": "idle",
+        "source": "",
+        "stage": ""
+      },
+      {
+        "artwork": "legacy",
+        "heading": "rear",
+        "held": "false",
+        "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+        "phase": "idle",
+        "source": "",
+        "stage": ""
+      }
+    ]
+  },
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "format": {
+      "duration": "15.480000",
+      "size": "509345"
+    }
+  },
+  "limit": "Screenshot sampling is not continuous video and may omit brief poses; see the related review for test scope."
+}

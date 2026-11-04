@@ -1,17 +1,17 @@
 import {useEffect,useRef} from 'react';
-import type {RoomSnapshot,PlacedOffering,OfferingKind,SharedAction} from './protocol';
+import type {Appearance,RoomSnapshot,PlacedOffering,OfferingKind,SharedAction} from './protocol';
 import type {SceneLayoutId} from '../config/sceneLayout';
-import {roomAssets,stationAnchor,altarPoint,incenseSourceAnchor,incenseWorldSize} from './layout';
+import {roomAssets,stationAnchor,altarPoint,incenseSourceAnchor,incenseWorldSize,offeringWorldHeight} from './layout';
 import {interactionTime} from './ritual';
 import {subscribeSceneAnimation} from './sceneAnimation';
 import {offeringCandidates,visibleOfferings} from './placedOfferings';
 import {incenseAcquisitionTime} from './incenseAnimation';
 import {IncenseSourceCup} from './IncenseSourceCup';
 import {INCENSE_PROP} from './incenseGeometry';
-function Station({slot,kind,action,layout,offset,reduced,modernReady}:{slot:number;kind:OfferingKind;action?:SharedAction;layout:SceneLayoutId;offset:number;reduced:boolean;modernReady:boolean}) {
+function Station({slot,kind,action,layout,offset,reduced,modernReady,appearance,artworkVersion}:{slot:number;kind:OfferingKind;action?:SharedAction;layout:SceneLayoutId;offset:number;reduced:boolean;modernReady:boolean;appearance:Appearance;artworkVersion?:3}) {
  const bell=useRef<HTMLImageElement>(null);
  const source=useRef<HTMLImageElement>(null);
- const anchor=stationAnchor(slot,layout,kind==='bell'?'bell':'incense'),floor=altarPoint(slot,layout);
+ const anchor=stationAnchor(slot,layout,kind,appearance,artworkVersion),floor=altarPoint(slot,layout);
  const pivot=kind==='lotus'?0.06:kind==='bell'?0.17:0.10;
  const height=(anchor.floorY-anchor.y)/(0.98-pivot);
  const image=kind==='lotus'?'flower-station':kind==='bell'?'bell-station':'urn';
@@ -47,13 +47,14 @@ function ResultVisual({item,candidates,layout,offset,reduced}:{item:PlacedOfferi
  useEffect(()=>subscribeSceneAnimation(localNow=>{
   const{item,candidates,layout,offset,reduced}=current.current;
   if(!root.current||!wisps.current||!petals.current)return false;
-  const now=localNow+offset,age=now-item.placedAt,anchor=stationAnchor(item.slot,layout,item.kind),floor=altarPoint(item.slot,layout);
+  const now=localNow+offset,age=now-item.placedAt,anchor=stationAnchor(item.slot,layout,item.kind,item.appearance,item.artworkVersion),floor=altarPoint(item.slot,layout);
   const visible=visibleOfferings(candidates,now).some(candidate=>candidate.id===item.id);
   root.current.style.display=visible?'block':'none';
   root.current.dataset.placed=String(visible);
   const incense=incenseWorldSize(item.slot,layout);
   root.current.style.left=`${anchor.x}%`;root.current.style.top=`${anchor.y+(item.kind==='incense'?incense.insertion:0)}%`;root.current.style.zIndex=String(Math.round(floor.y*100)+3);
-  root.current.style.height=item.kind==='incense'?`${incense.height}%`:'';
+  root.current.style.height=item.kind==='incense'?`${incense.height}%`:item.kind==='lotus'&&item.artworkVersion===3?`${offeringWorldHeight(item.slot,layout,'lotus')}%`:'';
+  root.current.style.transform=item.kind==='lotus'&&item.artworkVersion===3?'translate(-50%,-100%)':'';
   const pileAngle=(Array.from(item.id).reduce((sum,char)=>sum+char.charCodeAt(0),0)%3-1)*4;
   root.current.style.setProperty('--incense-turn',`${pileAngle*(reduced?1:Math.min(1,Math.max(0,age)/250))}deg`);
   root.current.style.opacity=String(Math.min(1,(item.expiresAt-now)/1200));
@@ -75,8 +76,8 @@ function ResultVisual({item,candidates,layout,offset,reduced}:{item:PlacedOfferi
   <div ref={petals} className="released-petals">{item.kind==='petal'&&Array.from({length:8},(_,i)=><img key={i} src={roomAssets.effect('petal')} alt=""/>)}</div>
  </div>;
 }
-export function OfferingLayer({room,layout,offset,reduced,modernReady=false}:{room:RoomSnapshot;layout:SceneLayoutId;offset:number;reduced:boolean;modernReady?:boolean}) {
+export function OfferingLayer({room,layout,offset,reduced,incenseReady}:{room:RoomSnapshot;layout:SceneLayoutId;offset:number;reduced:boolean;incenseReady:Record<Appearance,boolean>}) {
  const results=offeringCandidates(room);
- return <div className="offering-layer" aria-hidden="true">{[0,1,2,3].map(slot=>{const action=room.people.find(p=>p.action?.slot===slot)?.action??undefined;const previous=room.offerings.filter(item=>item.slot===slot&&item.kind!=='petal').at(-1)?.kind??'incense';const kind=action?.offering&&action.offering!=='petal'?action.offering:previous;return <Station key={slot} slot={slot} kind={kind} action={action} layout={layout} offset={offset} reduced={reduced} modernReady={modernReady}/>;})}
+ return <div className="offering-layer" aria-hidden="true">{[0,1,2,3].map(slot=>{const person=room.people.find(p=>p.action?.slot===slot);const action=person?.action??undefined;const previous=room.offerings.filter(item=>item.slot===slot&&item.kind!=='petal').at(-1);const kind=action?.offering&&action.offering!=='petal'?action.offering:previous?.kind??'incense';const appearance=person?.appearance??previous?.appearance??'man';const artworkVersion=action?.movement?.version===3?3:previous?.artworkVersion;return <Station key={slot} slot={slot} kind={kind} action={action} layout={layout} offset={offset} reduced={reduced} appearance={appearance} artworkVersion={artworkVersion} modernReady={incenseReady[appearance]}/>;})}
  {results.map(item=><ResultVisual key={item.id} item={item} candidates={results} layout={layout} offset={offset} reduced={reduced}/>)}</div>;
 }

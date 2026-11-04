@@ -1,0 +1,102 @@
+{
+  "frames": 77,
+  "capturedMs": 12291,
+  "savedBell": true,
+  "savedLotus": true,
+  "first": {
+    "file": "frame-000.png",
+    "at": 1793795674414,
+    "actors": [
+      {
+        "action": "d731e97d-08c0-4903-ac6c-8cfc8b1441e9",
+        "artwork": "movement",
+        "held": "false",
+        "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+        "phase": "moving",
+        "source": "right-03-swing"
+      },
+      {
+        "action": "a79c5f16-6e1d-4125-b8ff-1bba223b70a9",
+        "artwork": "legacy",
+        "held": "false",
+        "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+        "phase": "moving",
+        "source": ""
+      },
+      {
+        "action": "2e47de08-3bbd-40b8-bdde-d979ae60efdc",
+        "artwork": "legacy",
+        "held": "false",
+        "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+        "phase": "standing",
+        "source": ""
+      }
+    ]
+  },
+  "last": {
+    "file": "frame-076.png",
+    "at": 1793795686705,
+    "actors": [
+      {
+        "action": "",
+        "artwork": "movement",
+        "held": "false",
+        "person": "f18b8b20-0585-4a24-8195-3697837a13e7",
+        "phase": "idle",
+        "source": "10-seated-rear"
+      },
+      {
+        "action": "",
+        "artwork": "legacy",
+        "held": "false",
+        "person": "81196aaa-aec1-4ddd-ace6-70da89b60b60",
+        "phase": "idle",
+        "source": ""
+      },
+      {
+        "action": "",
+        "artwork": "legacy",
+        "held": "false",
+        "person": "6d0f0d2c-dd14-4e4b-94a0-461b12fc80a1",
+        "phase": "idle",
+        "source": ""
+      }
+    ]
+  },
+  "sources": [
+    "right-03-swing",
+    "",
+    "10-opposite-late-passing",
+    "01-loading",
+    "06-opposite-contact",
+    "08-opposite-support",
+    "13-stop-settle",
+    "bell-ready",
+    "bell-contact",
+    "bell-recoil",
+    "lotus-chest",
+    "21-prayer-lower",
+    "18-rest",
+    "22-arms-lower",
+    "00-neutral",
+    "00-stand-angled",
+    "lotus-place",
+    "left-00-contact",
+    "left-02-passing",
+    "16-return",
+    "17-palms",
+    "18-turn-second",
+    "04-knee-bend",
+    "10-seated-rear"
+  ],
+  "placed": [
+    {
+      "id": "2e47de08-3bbd-40b8-bdde-d979ae60efdc:placed",
+      "kind": "petal"
+    },
+    {
+      "id": "a79c5f16-6e1d-4125-b8ff-1bba223b70a9:placed",
+      "kind": "lotus"
+    }
+  ]
+}

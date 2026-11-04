@@ -6,7 +6,8 @@ export function offeringCandidates(room:RoomSnapshot) {
  for(const person of room.people) {
   const action=person.action;if(!action||action.kind==='bow'||action.offering==='bell')continue;
   const placedAt=interactionTime(action)!;const id=`${action.id}:placed`,kind=action.offering??'incense';
-  if(!items.has(id))items.set(id,{id,actionId:action.id,kind,slot:action.slot,placedAt,expiresAt:placedAt+offeringLifetime(kind)});
+  if(!items.has(id))items.set(id,{id,actionId:action.id,kind,slot:action.slot,placedAt,expiresAt:placedAt+offeringLifetime(kind),
+   ...(action.movement?.version===3?{artworkVersion:3 as const,appearance:person.appearance}:{})});
  }
  return [...items.values()].sort((a,b)=>a.placedAt-b.placedAt||a.id.localeCompare(b.id));
 }

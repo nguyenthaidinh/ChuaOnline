@@ -5,7 +5,7 @@ export interface StudyFrame {
 }
 
 export interface StudyAtlas {
-  status: 'draft' | 'complete-unreviewed';
+  status: 'draft' | 'complete-unreviewed' | 'compiled';
   image: string;
   imageHash: string;
   width: number;
@@ -31,7 +31,7 @@ function positiveInteger(value: unknown, name: string) {
 /** All studies use the same 384×512 world canvas and (192,468) floor origin. */
 export function parseStudyAtlas(value: unknown): StudyAtlas {
   const data = record(value);
-  if (data.status !== 'draft' && data.status !== 'complete-unreviewed') throw new Error('Trạng thái bản thử không hợp lệ.');
+  if (data.status !== 'draft' && data.status !== 'complete-unreviewed' && data.status !== 'compiled') throw new Error('Trạng thái bản thử không hợp lệ.');
   if (typeof data.image !== 'string' || !/^[a-z0-9-]+\.webp$/.test(data.image)) throw new Error('Đường dẫn atlas không hợp lệ.');
   if (typeof data.imageHash !== 'string' || !/^[a-f0-9]{64}$/.test(data.imageHash)) throw new Error('Manifest thiếu phiên bản nội dung ảnh.');
   const width = positiveInteger(data.width, 'width');
