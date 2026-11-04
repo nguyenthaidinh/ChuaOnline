@@ -13,7 +13,8 @@ ba y phục, bồ đoàn và vật phẩm tách rời. Bộ tham chiếu ChuaTan
 Đang nâng cấp trên nhánh `codex/animation-v3`. Có xưởng xem chậm hoạt ảnh tại
 `/?animation-lab` khi chạy dev. [Kết quả kiểm mẫu và hướng dẫn](docs/animation-v3/README.md).
 Chuỗi đứng dậy–bước đi–dừng–ngồi mới có bản thử riêng tại `/?animation-lab=transitions`;
-xem [nguồn ảnh và kết quả kiểm](docs/animation-v3/transitions/README.md). Các nguồn này chưa thay nhân vật trong phòng chung.
+xem [bản tinh chỉnh, video và kết quả kiểm](docs/animation-v3/transition-refinement/README.md).
+Các nguồn này chưa thay nhân vật trong phòng chung.
 
 Node.js 22.12 trở lên (đã kiểm tra 22.18.0), npm.
 

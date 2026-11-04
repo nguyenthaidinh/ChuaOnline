@@ -1,0 +1,63 @@
+{
+  "captureMethod": "Actual CUA browser screenshots at 0.25x authoring playback; VFR timestamps, no audio",
+  "capturedFrames": 70,
+  "capturedMs": 21659,
+  "observedPoses": [
+    "00-contact",
+    "00-stand-angled",
+    "02-stand-rear",
+    "02-support",
+    "03-passing",
+    "03-weight-shift",
+    "04-knee-bend",
+    "04-late-passing",
+    "05-lower-knees",
+    "05-reaching",
+    "06-kneeling",
+    "06-opposite-contact",
+    "07-opposite-loading",
+    "07-tuck-legs",
+    "08-half-seated",
+    "08-opposite-support",
+    "09-opposite-passing",
+    "09-seated-settle",
+    "10-opposite-late-passing",
+    "10-seated-rear",
+    "11-opposite-reaching",
+    "11-step-ready",
+    "12-stop-close",
+    "13-stop-settle",
+    "14-rise-support",
+    "16-rise-crouch",
+    "17-turn-first",
+    "18-turn-second",
+    "19-turn-fourth",
+    "20-turn-fifth",
+    "21-rise-lean",
+    "22-rise-weight",
+    "23-rise-extend"
+  ],
+  "last": {
+    "file": "frame-069.png",
+    "at": 1793775803959,
+    "done": true,
+    "pose": "10-seated-rear",
+    "time": "5.48 / 5.48 s"
+  },
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1384,
+        "height": 654
+      }
+    ],
+    "format": {
+      "duration": "21.880000",
+      "size": "551094"
+    }
+  },
+  "limit": "Screenshot sampling is not continuous video and may omit brief poses; all timeline steps are checked separately."
+}

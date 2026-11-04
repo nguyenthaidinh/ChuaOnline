@@ -9,10 +9,17 @@ import './animationLab.css';
 const CLIPS: readonly [TransitionClipId, string][] = [
   ['sequence', 'Ghép đứng dậy → đi → dừng → ngồi'],
   ['standUp', 'Đứng dậy có điểm tựa'],
+  ['turn', 'Quay về bàn thờ · 7 tư thế'],
   ['startWalk', 'Bắt đầu bước'],
   ['stopWalk', 'Giảm tốc và dừng'],
   ['sitDown', 'Quay và ngồi nhìn tượng Phật'],
 ];
+
+const FLOOR_POSITIONS = {
+  far: { label: 'Xa · gần khu làm lễ', x: -2.5, z: 3.2 },
+  middle: { label: 'Giữa điện', x: -1.8, z: 5 },
+  near: { label: 'Gần · cuối điện', x: -2.6, z: 7 },
+};
 
 export default function TransitionLab() {
   const walk = useStudyAtlas(WALK_STUDY_ROOT);
@@ -25,7 +32,9 @@ export default function TransitionLab() {
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(0.25);
   const [guides, setGuides] = useState(true);
+  const [pinFeet, setPinFeet] = useState(true);
   const [background, setBackground] = useState('light');
+  const [floorPosition, setFloorPosition] = useState<keyof typeof FLOOR_POSITIONS>('middle');
   const compiled = useMemo(() => {
     if (!walk.atlas || !transition.atlas) return { sequence: null, error: '' };
     try {
@@ -59,8 +68,13 @@ export default function TransitionLab() {
   const atlas = sample?.bank === 'walk' ? walk.atlas : transition.atlas;
   const root = sample?.bank === 'walk' ? WALK_STUDY_ROOT : TRANSITION_STUDY_ROOT;
   const backgroundStyle = atlas && sample ? { backgroundImage: `url('${studyImageUrl(root, atlas)}')`, ...studyBackground(atlas, sample.index) } : {};
+  const rootOffset = pinFeet && sample ? sample.rootOffset : { x: 0, y: 0 };
+  const rootTranslation = `translate(${rootOffset.x / 384 * 100}%,${rootOffset.y / 512 * 100}%)`;
+  const rightFoot = atlas && sample ? atlas.frames[sample.index].rightFoot : undefined;
   const travel = sample?.travel ?? 0;
-  const point = { x: -1.8 + travel / Math.SQRT2, z: 5 - travel / Math.SQRT2 };
+  const origin = FLOOR_POSITIONS[floorPosition];
+  const travelPoint = (distance: number) => ({ x: origin.x + distance / Math.SQRT2, z: origin.z - distance / Math.SQRT2 });
+  const point = travelPoint(travel);
   const projected = projectFloor(point, layout.id);
   const metrics = actorMetrics(point, layout.id);
   const seatDistances = clipId === 'sequence' ? [0, sequence?.steps[sequence.steps.length - 1]?.travelEnd ?? 0]
@@ -80,24 +94,26 @@ export default function TransitionLab() {
       <label>Chuỗi kiểm<select value={clipId} onChange={event => { setClipId(event.target.value as TransitionClipId); seek(0); }}>{CLIPS.map(([id, name]) => <option key={id} value={id}>{name}</option>)}</select></label>
       <label>Tốc độ<select value={speed} onChange={event => setSpeed(Number(event.target.value))}><option value="0.25">0,25× · xem chậm</option><option value="0.5">0,5×</option><option value="1">1× · nhịp nguồn thử</option></select></label>
       <label>Nền kiểm<select value={background} onChange={event => setBackground(event.target.value)}><option value="light">Nền sáng</option><option value="dark">Nền tối</option><option value="temple">Chánh điện</option></select></label>
+      <label>Vị trí trên sàn<select value={floorPosition} onChange={event => { setFloorPosition(event.target.value as keyof typeof FLOOR_POSITIONS); seek(0); }}>{Object.entries(FLOOR_POSITIONS).map(([id, position]) => <option key={id} value={id}>{position.label}</option>)}</select></label>
       <label className="lab-check"><input type="checkbox" checked={guides} onChange={event => setGuides(event.target.checked)} />Hiện điểm gốc sàn</label>
+      <label className="lab-check"><input type="checkbox" checked={pinFeet} onChange={event => setPinFeet(event.target.checked)} />Giữ chân trụ khi đứng dậy</label>
       <button onClick={retry}>Tải lại nguồn thử</button>
     </section>
     {!sequence && <p className="lab-load-status" role="status">{error || 'Đang tải hai bộ nguồn và ghép chuỗi…'}</p>}
     <section className={`lab-comparison lab-bg-${background}`} aria-label="Kiểm chuỗi ở hai kích thước">
       <article><h2>Tư thế phóng lớn</h2><div className="lab-stage" style={background === 'temple' ? { backgroundImage: `url('${roomAssets.hall.desktop}')` } : undefined}>
-        {sample && atlas && <div className="lab-sprite" data-transition-frame={sample.frameId} data-transition-phase={sample.phase} style={backgroundStyle}>
+        {sample && atlas && <div className="lab-sprite" data-transition-frame={sample.frameId} data-transition-phase={sample.phase} style={{ ...backgroundStyle, transform: rootTranslation }}>
           {guides && <i className="lab-pivot" style={{ left: '50%', top: '91.40625%' }} title="Điểm gốc sàn" />}
         </div>}
         <p className="lab-caption">{sample ? `${sample.phase} · ${sample.frameId}` : 'Đang chờ nguồn'}</p>
       </div></article>
-      <article><h2>Trên sàn chánh điện</h2><div className="lab-walk-room" data-layout={layout.id} style={{ backgroundImage: `url('${roomAssets.hall[layout.id]}')` }}>
+      <article><h2>Trên sàn chánh điện</h2><div className="lab-walk-room" data-layout={layout.id} data-floor-position={floorPosition} style={{ backgroundImage: `url('${roomAssets.hall[layout.id]}')` }}>
         {sequence && seatDistances.map((distance, index) => {
-          const seat = { x: -1.8 + distance / Math.SQRT2, z: 5 - distance / Math.SQRT2 };
+          const seat = travelPoint(distance);
           const position = projectFloor(seat, layout.id);
           return <img key={index} className="fixed-cushion" src={roomAssets.effect('cushion')} alt="" style={{ left: `${position.x}%`, top: `${position.y}%`, height: `${actorMetrics(seat, layout.id).height * 0.25}%` }} />;
         })}
-        {sample && atlas && <div className="lab-floor-sprite" data-transition-floor={sample.frameId} style={{ ...backgroundStyle, left: `${projected.x}%`, top: `${projected.y}%`, height: `${metrics.canvasHeight}%` }} />}
+        {sample && atlas && <div className="lab-floor-sprite" data-transition-floor={sample.frameId} data-contact-x={rightFoot?.x} data-contact-y={rightFoot?.y} style={{ ...backgroundStyle, transform: `translate(-50%,-91.40625%) ${rootTranslation}`, left: `${projected.x}%`, top: `${projected.y}%`, height: `${metrics.canvasHeight}%` }} />}
         <p>Phòng thử · kết thúc sẽ giữ tư thế cuối</p>
       </div></article>
     </section>

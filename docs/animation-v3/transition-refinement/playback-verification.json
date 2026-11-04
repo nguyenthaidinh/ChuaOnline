@@ -1,0 +1,26 @@
+[
+  {
+    "clip": "standUp",
+    "completed": true,
+    "pose": "00-stand-angled",
+    "time": "1.16 / 1.16 s"
+  },
+  {
+    "clip": "turn",
+    "completed": true,
+    "pose": "02-stand-rear",
+    "time": "0.38 / 0.38 s"
+  },
+  {
+    "clip": "sitDown",
+    "completed": true,
+    "pose": "10-seated-rear",
+    "time": "1.50 / 1.50 s"
+  },
+  {
+    "clip": "sequence",
+    "completed": true,
+    "pose": "10-seated-rear",
+    "time": "5.48 / 5.48 s"
+  }
+]

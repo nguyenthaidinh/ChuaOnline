@@ -1,0 +1,79 @@
+{
+  "tool": "built-in image_gen",
+  "sourceVersion": "transitions-v2",
+  "jobs": [
+    {
+      "id": "17-turn-first",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent RGBA animation key pose, not a sprite sheet. Edit the same Vietnamese male visitor in the references, blue-grey ao lam tunic and trousers, bare feet, realistic adult proportions. Keep EXACT identity, hair, cloth construction, warm upper-left light, fixed elevated camera, 1254-square framing and absolute head width about 150 pixels. DO NOT zoom, recenter, crop, enlarge lower poses, or change camera. Root/ground reference remains near x615,y1210 on 1254-square canvas; standing head top around y30. Large empty transparent upper area in low poses. Whole body, hands and feet inside canvas. Clean antialiased alpha edges without red/green outlines, no floor, cushion, shadow, prop, text, other people, motion blur, crossfade or duplicated limbs. References are endpoint poses, not separate people. Change posture only. Create the FIRST intermediate step of turning from image 1's rear-three-quarter upper-right heading toward image 2's near-rear heading. Body heading only about one-sixth of the total turn toward straight rear; right cheek still visible. Shift weight gently onto right leg and lift left heel a little to free the pivot. Head, pelvis and shoulders turn together, hands relaxed. Head height and scale stay as image 1. Feet remain in the same small ground area.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/transitions-v1/01-turn-mid.png"
+      ],
+      "output": "17-turn-first.png"
+    },
+    {
+      "id": "18-turn-second",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent RGBA animation key pose, not a sprite sheet. Edit the same Vietnamese male visitor in the references, blue-grey ao lam tunic and trousers, bare feet, realistic adult proportions. Keep EXACT identity, hair, cloth construction, warm upper-left light, fixed elevated camera, 1254-square framing and absolute head width about 150 pixels. DO NOT zoom, recenter, crop, enlarge lower poses, or change camera. Root/ground reference remains near x615,y1210 on 1254-square canvas; standing head top around y30. Large empty transparent upper area in low poses. Whole body, hands and feet inside canvas. Clean antialiased alpha edges without red/green outlines, no floor, cushion, shadow, prop, text, other people, motion blur, crossfade or duplicated limbs. References are endpoint poses, not separate people. Change posture only. Create the SECOND intermediate step, about one-third of the complete turn from rear-three-quarter toward exact rear, between image 1 and image 2. Slightly less right cheek than image 1, still a little more than image 2. Left foot has made a small turning step, right foot is weight-bearing. Rotate head, torso, pelvis together. Relax arms. Preserve absolute root, head size and height. Do not simply twist neck.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "artwork/animation-v3/transitions-v1/01-turn-mid.png"
+      ],
+      "output": "18-turn-second.png"
+    },
+    {
+      "id": "19-turn-fourth",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent RGBA animation key pose, not a sprite sheet. Edit the same Vietnamese male visitor in the references, blue-grey ao lam tunic and trousers, bare feet, realistic adult proportions. Keep EXACT identity, hair, cloth construction, warm upper-left light, fixed elevated camera, 1254-square framing and absolute head width about 150 pixels. DO NOT zoom, recenter, crop, enlarge lower poses, or change camera. Root/ground reference remains near x615,y1210 on 1254-square canvas; standing head top around y30. Large empty transparent upper area in low poses. Whole body, hands and feet inside canvas. Clean antialiased alpha edges without red/green outlines, no floor, cushion, shadow, prop, text, other people, motion blur, crossfade or duplicated limbs. References are endpoint poses, not separate people. Change posture only. Create an intermediate small step-turn one-third of the way FROM image 1's near-rear pose TO image 2's exact straight rear pose. Mostly back of head, right ear just slightly more exposed than left. Right heel frees slightly while left foot supports the weight, head and torso aligned. Small natural hand response. No translation of body center. Head size/top and root exactly as references.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/01-turn-mid.png",
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png"
+      ],
+      "output": "19-turn-fourth.png"
+    },
+    {
+      "id": "20-turn-fifth",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent RGBA animation key pose, not a sprite sheet. Edit the same Vietnamese male visitor in the references, blue-grey ao lam tunic and trousers, bare feet, realistic adult proportions. Keep EXACT identity, hair, cloth construction, warm upper-left light, fixed elevated camera, 1254-square framing and absolute head width about 150 pixels. DO NOT zoom, recenter, crop, enlarge lower poses, or change camera. Root/ground reference remains near x615,y1210 on 1254-square canvas; standing head top around y30. Large empty transparent upper area in low poses. Whole body, hands and feet inside canvas. Clean antialiased alpha edges without red/green outlines, no floor, cushion, shadow, prop, text, other people, motion blur, crossfade or duplicated limbs. References are endpoint poses, not separate people. Change posture only. Create the penultimate small step-turn two-thirds of the way FROM image 1's near-rear pose TO image 2's exact straight rear pose. Almost symmetric back view, only a tiny heading difference remains. Set right foot down facing almost straight rear and begin settling both soles, upright relaxed posture. Head and torso face together, hands relaxed. Exact same head size, standing height, body center and floor root.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/01-turn-mid.png",
+        "artwork/animation-v3/transitions-v1/02-stand-rear.png"
+      ],
+      "output": "20-turn-fifth.png"
+    },
+    {
+      "id": "21-rise-lean",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent RGBA animation key pose, not a sprite sheet. Edit the same Vietnamese male visitor in the references, blue-grey ao lam tunic and trousers, bare feet, realistic adult proportions. Keep EXACT identity, hair, cloth construction, warm upper-left light, fixed elevated camera, 1254-square framing and absolute head width about 150 pixels. DO NOT zoom, recenter, crop, enlarge lower poses, or change camera. Root/ground reference remains near x615,y1210 on 1254-square canvas; standing head top around y30. Large empty transparent upper area in low poses. Whole body, hands and feet inside canvas. Clean antialiased alpha edges without red/green outlines, no floor, cushion, shadow, prop, text, other people, motion blur, crossfade or duplicated limbs. References are endpoint poses, not separate people. Change posture only. EARLY STAND-UP PREPARATION, between seated cross-legged image 1 and hands-supported crouch image 2. Remain very low and cross-legged, lean chest gently forward, begin uncrossing the right leg. Move both open hands beside hips toward floor support; palms touch lightly beside pelvis. Pelvis has barely lifted, not yet at image 2's crouch. Head top approximately y470, head width about150 as both references, NOT enlarged to fill canvas. Straight rear view toward altar. Preserve root x615,y1210.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/10-seated-rear.png",
+        "artwork/animation-v3/transitions-v1/14-rise-support.png"
+      ],
+      "output": "21-rise-lean.png"
+    },
+    {
+      "id": "22-rise-weight",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent RGBA animation key pose, not a sprite sheet. Edit the same Vietnamese male visitor in the references, blue-grey ao lam tunic and trousers, bare feet, realistic adult proportions. Keep EXACT identity, hair, cloth construction, warm upper-left light, fixed elevated camera, 1254-square framing and absolute head width about 150 pixels. DO NOT zoom, recenter, crop, enlarge lower poses, or change camera. Root/ground reference remains near x615,y1210 on 1254-square canvas; standing head top around y30. Large empty transparent upper area in low poses. Whole body, hands and feet inside canvas. Clean antialiased alpha edges without red/green outlines, no floor, cushion, shadow, prop, text, other people, motion blur, crossfade or duplicated limbs. References are endpoint poses, not separate people. Change posture only. MID RISE WEIGHT TRANSFER, halfway in body height between supported low crouch image 1 and upright half kneel image 2. Right foot planted exactly in same ground region as reference1 and becomes primary support, left knee still on ground with toes folding naturally. Pelvis and chest lift halfway; head top around y290 on 1254 square, same150pxhead. Left palm still supports lightly on floor, right hand begins moving from floor toward right thigh. Plausible joints, no extra hands. Straight rear view, root unchanged.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/14-rise-support.png",
+        "artwork/animation-v3/transitions-v1/15-rise-half-kneel.png"
+      ],
+      "output": "22-rise-weight.png"
+    },
+    {
+      "id": "23-rise-extend",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent RGBA animation key pose, not a sprite sheet. Edit the same Vietnamese male visitor in the references, blue-grey ao lam tunic and trousers, bare feet, realistic adult proportions. Keep EXACT identity, hair, cloth construction, warm upper-left light, fixed elevated camera, 1254-square framing and absolute head width about 150 pixels. DO NOT zoom, recenter, crop, enlarge lower poses, or change camera. Root/ground reference remains near x615,y1210 on 1254-square canvas; standing head top around y30. Large empty transparent upper area in low poses. Whole body, hands and feet inside canvas. Clean antialiased alpha edges without red/green outlines, no floor, cushion, shadow, prop, text, other people, motion blur, crossfade or duplicated limbs. References are endpoint poses, not separate people. Change posture only. LATE STAND-UP TRANSFER between half kneel image 1 and both-feet crouch image 2. Push through planted right foot, lift left knee off ground and bring left foot under hips. Pelvis mostly up but knees still bent more than image 2; torso slightly forward, both hands move toward thighs for balance. Head top around y90, same150pxwidehead, no stretching. Right foot stays planted in the reference ground region, left foot is arriving. Exact straight rear view and same root/camera.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/15-rise-half-kneel.png",
+        "artwork/animation-v3/transitions-v1/16-rise-crouch.png"
+      ],
+      "output": "23-rise-extend.png"
+    },
+    {
+      "id": "15-rise-half-kneel",
+      "prompt": "Use case: identity-preserve. Create ONE corrected half-kneeling stand-up key pose for the exact same Vietnamese male temple visitor. Image 1 is the CURRENT half-kneeling pose to correct. Image 2 is the preceding supported rising pose; image3 is the following crouch. Preserve identity, blue-grey ao lam, natural anatomy, warm upper-left light, absolute head size about150px, transparent1254-square canvas and fixed elevated camera. Correct ONLY the posture and planted foot position. The RIGHT foot must stay planted at the SAME canvas ground position as image2, approximately center x720,y1175, sole spanning x665..790; do NOT put right foot forward toward x850,y1100 like image1. The right knee bends above that planted foot, left knee is still grounded slightly behind with toes tucked, pelvis rising. Right hand supports on right thigh and left hand has just left floor. Head top around y170, maintaining source scale, not enlarged. Body weight balanced over planted right sole, anatomically plausible leg lengths. Root near x615,y1210. Full feet,hands,head remain inside canvas. Clean true transparent RGBA, no floor, shadow,cushion,prop,text,extra people,outline,ghost or motion blur. Do not zoom/recenter/crop. This is a corrected intermediate rising pose, not seated nor fully standing.",
+      "references": [
+        "artwork/animation-v3/transitions-v1/15-rise-half-kneel.png",
+        "artwork/animation-v3/transitions-v2/22-rise-weight.png",
+        "artwork/animation-v3/transitions-v1/16-rise-crouch.png"
+      ],
+      "output": "15-rise-half-kneel.png"
+    }
+  ]
+}

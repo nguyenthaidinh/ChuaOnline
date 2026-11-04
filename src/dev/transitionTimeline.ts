@@ -1,7 +1,7 @@
 import type { StudyAtlas } from './studyAtlas.ts';
 
 export type StudyBank = 'walk' | 'transition';
-export type TransitionClipId = 'sequence' | 'sitDown' | 'standUp' | 'startWalk' | 'stopWalk';
+export type TransitionClipId = 'sequence' | 'sitDown' | 'standUp' | 'startWalk' | 'stopWalk' | 'turn';
 
 export interface StudyStep {
   bank: StudyBank;
@@ -9,6 +9,7 @@ export interface StudyStep {
   durationMs: number;
   phase: string;
   travelEnd: number;
+  rightFootReference?: string;
 }
 
 export interface CompiledStudyStep extends StudyStep {
@@ -16,6 +17,7 @@ export interface CompiledStudyStep extends StudyStep {
   startMs: number;
   endMs: number;
   travelStart: number;
+  rootOffset: { x: number; y: number };
 }
 
 export interface StudySequence {
@@ -25,11 +27,21 @@ export interface StudySequence {
 
 const pose = (frameId: string, durationMs: number, phase: string): StudyStep =>
   ({ bank: 'transition', frameId, durationMs, phase, travelEnd: 0 });
+const plantedPose = (frameId: string, durationMs: number, phase: string): StudyStep =>
+  ({ ...pose(frameId, durationMs, phase), rightFootReference: '14-rise-support' });
+
+const turn = [
+  pose('00-stand-angled', 80, 'Đứng vững'),
+  pose('17-turn-first', 40, 'Dồn trọng lượng để quay'),
+  pose('18-turn-second', 40, 'Bước xoay nhỏ'),
+  pose('01-turn-mid', 60, 'Quay về bàn thờ'),
+  pose('19-turn-fourth', 40, 'Chuyển chân trụ'),
+  pose('20-turn-fifth', 40, 'Đặt chân theo hướng bàn thờ'),
+  pose('02-stand-rear', 80, 'Hướng nhìn tượng Phật'),
+];
 
 const sitDown = [
-  pose('00-stand-angled', 140, 'Đứng vững'),
-  pose('01-turn-mid', 120, 'Quay về bàn thờ'),
-  pose('02-stand-rear', 120, 'Hướng nhìn tượng Phật'),
+  ...turn,
   pose('03-weight-shift', 100, 'Chuyển trọng lượng'),
   pose('04-knee-bend', 100, 'Khuỵu gối'),
   pose('05-lower-knees', 100, 'Hạ gối'),
@@ -41,13 +53,20 @@ const sitDown = [
 ];
 
 const standUp = [
-  pose('10-seated-rear', 200, 'An tọa'),
-  pose('14-rise-support', 180, 'Chống tay chuyển trọng lượng'),
-  pose('15-rise-half-kneel', 180, 'Đặt chân làm điểm tựa'),
-  pose('16-rise-crouch', 160, 'Đẩy thân đứng lên'),
-  pose('02-stand-rear', 160, 'Đứng vững'),
-  pose('01-turn-mid', 120, 'Quay theo hướng đi'),
-  pose('00-stand-angled', 160, 'Sẵn sàng di chuyển'),
+  pose('10-seated-rear', 120, 'An tọa'),
+  pose('21-rise-lean', 80, 'Nghiêng thân, đặt tay chống'),
+  plantedPose('14-rise-support', 100, 'Chống tay chuyển trọng lượng'),
+  plantedPose('22-rise-weight', 100, 'Nâng hông trên chân trụ'),
+  plantedPose('15-rise-half-kneel', 100, 'Đặt chân làm điểm tựa'),
+  plantedPose('23-rise-extend', 80, 'Rời gối, thu chân về'),
+  plantedPose('16-rise-crouch', 100, 'Đẩy thân đứng lên'),
+  pose('02-stand-rear', 100, 'Đứng vững'),
+  pose('20-turn-fifth', 50, 'Chuẩn bị quay theo hướng đi'),
+  pose('19-turn-fourth', 50, 'Chuyển trọng lượng khi quay'),
+  pose('01-turn-mid', 50, 'Quay theo hướng đi'),
+  pose('18-turn-second', 50, 'Bước xoay theo đường đi'),
+  pose('17-turn-first', 50, 'Ổn định hướng bước'),
+  pose('00-stand-angled', 130, 'Sẵn sàng di chuyển'),
 ];
 
 const startWalk: StudyStep[] = [
@@ -92,6 +111,7 @@ export function transitionDefinition(id: TransitionClipId): readonly StudyStep[]
   if (id === 'standUp') return standUp;
   if (id === 'startWalk') return startWalk;
   if (id === 'stopWalk') return stopWalk;
+  if (id === 'turn') return turn;
   return concatenate([standUp, startWalk, cruise, stopWalk, sitDown]);
 }
 
@@ -104,7 +124,15 @@ export function compileStudySequence(steps: readonly StudyStep[], atlases: Recor
     if (!Number.isFinite(step.travelEnd) || step.travelEnd < travel) throw new Error('Đường đi bị lùi ngoài dự kiến.');
     const index = atlases[step.bank].frames.findIndex(frame => frame.id === step.frameId);
     if (index < 0) throw new Error(`Đang chờ tư thế: ${step.frameId}`);
-    const compiledStep = { ...step, index, startMs, endMs: startMs + step.durationMs, travelStart: travel };
+    const rootOffset = { x: 0, y: 0 };
+    if (step.rightFootReference) {
+      const target = atlases[step.bank].frames.find(frame => frame.id === step.rightFootReference)?.rightFoot;
+      const contact = atlases[step.bank].frames[index].rightFoot;
+      if (!target || !contact) throw new Error(`Thiếu điểm chân trụ: ${step.frameId}`);
+      rootOffset.x = target.x - contact.x;
+      rootOffset.y = target.y - contact.y;
+    }
+    const compiledStep = { ...step, index, startMs, endMs: startMs + step.durationMs, travelStart: travel, rootOffset };
     startMs = compiledStep.endMs;
     travel = step.travelEnd;
     return compiledStep;

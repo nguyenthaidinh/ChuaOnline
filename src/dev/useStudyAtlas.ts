@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { parseStudyAtlas, studyImageUrl, type StudyAtlas } from './studyAtlas';
 
 export const WALK_STUDY_ROOT = '/artwork/animation-v3/walk-v1/';
-export const TRANSITION_STUDY_ROOT = '/artwork/animation-v3/transitions-v1/';
+export const TRANSITION_STUDY_ROOT = '/artwork/animation-v3/transitions-v2/';
 type StudyRoot = typeof WALK_STUDY_ROOT | typeof TRANSITION_STUDY_ROOT;
 
 /** Authoring assets stay outside public/. Late loads cannot overwrite a new attempt. */

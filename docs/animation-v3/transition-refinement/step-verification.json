@@ -1,0 +1,272 @@
+[
+  {
+    "frame": "10-seated-rear",
+    "phase": "An tọa",
+    "time": "0.00 / 5.48 s"
+  },
+  {
+    "frame": "21-rise-lean",
+    "phase": "Nghiêng thân, đặt tay chống",
+    "time": "0.12 / 5.48 s"
+  },
+  {
+    "frame": "14-rise-support",
+    "phase": "Chống tay chuyển trọng lượng",
+    "time": "0.20 / 5.48 s"
+  },
+  {
+    "frame": "22-rise-weight",
+    "phase": "Nâng hông trên chân trụ",
+    "time": "0.30 / 5.48 s"
+  },
+  {
+    "frame": "15-rise-half-kneel",
+    "phase": "Đặt chân làm điểm tựa",
+    "time": "0.40 / 5.48 s"
+  },
+  {
+    "frame": "23-rise-extend",
+    "phase": "Rời gối, thu chân về",
+    "time": "0.50 / 5.48 s"
+  },
+  {
+    "frame": "16-rise-crouch",
+    "phase": "Đẩy thân đứng lên",
+    "time": "0.58 / 5.48 s"
+  },
+  {
+    "frame": "02-stand-rear",
+    "phase": "Đứng vững",
+    "time": "0.68 / 5.48 s"
+  },
+  {
+    "frame": "20-turn-fifth",
+    "phase": "Chuẩn bị quay theo hướng đi",
+    "time": "0.78 / 5.48 s"
+  },
+  {
+    "frame": "19-turn-fourth",
+    "phase": "Chuyển trọng lượng khi quay",
+    "time": "0.83 / 5.48 s"
+  },
+  {
+    "frame": "01-turn-mid",
+    "phase": "Quay theo hướng đi",
+    "time": "0.88 / 5.48 s"
+  },
+  {
+    "frame": "18-turn-second",
+    "phase": "Bước xoay theo đường đi",
+    "time": "0.93 / 5.48 s"
+  },
+  {
+    "frame": "17-turn-first",
+    "phase": "Ổn định hướng bước",
+    "time": "0.98 / 5.48 s"
+  },
+  {
+    "frame": "00-stand-angled",
+    "phase": "Sẵn sàng di chuyển",
+    "time": "1.03 / 5.48 s"
+  },
+  {
+    "frame": "00-stand-angled",
+    "phase": "Đứng vững",
+    "time": "1.16 / 5.48 s"
+  },
+  {
+    "frame": "11-step-ready",
+    "phase": "Dồn trọng lượng, nhấc gót",
+    "time": "1.32 / 5.48 s"
+  },
+  {
+    "frame": "03-passing",
+    "phase": "Bước đầu",
+    "time": "1.46 / 5.48 s"
+  },
+  {
+    "frame": "04-late-passing",
+    "phase": "Đưa chân tới",
+    "time": "1.56 / 5.48 s"
+  },
+  {
+    "frame": "05-reaching",
+    "phase": "Đón bước",
+    "time": "1.66 / 5.48 s"
+  },
+  {
+    "frame": "06-opposite-contact",
+    "phase": "Tiếp đất",
+    "time": "1.76 / 5.48 s"
+  },
+  {
+    "frame": "07-opposite-loading",
+    "phase": "Đi bộ",
+    "time": "1.88 / 5.48 s"
+  },
+  {
+    "frame": "08-opposite-support",
+    "phase": "Đi bộ",
+    "time": "1.98 / 5.48 s"
+  },
+  {
+    "frame": "09-opposite-passing",
+    "phase": "Đi bộ",
+    "time": "2.08 / 5.48 s"
+  },
+  {
+    "frame": "10-opposite-late-passing",
+    "phase": "Đi bộ",
+    "time": "2.18 / 5.48 s"
+  },
+  {
+    "frame": "11-opposite-reaching",
+    "phase": "Đi bộ",
+    "time": "2.28 / 5.48 s"
+  },
+  {
+    "frame": "00-contact",
+    "phase": "Đi bộ",
+    "time": "2.38 / 5.48 s"
+  },
+  {
+    "frame": "01-loading",
+    "phase": "Đi bộ",
+    "time": "2.48 / 5.48 s"
+  },
+  {
+    "frame": "02-support",
+    "phase": "Đi bộ",
+    "time": "2.58 / 5.48 s"
+  },
+  {
+    "frame": "03-passing",
+    "phase": "Đi bộ",
+    "time": "2.68 / 5.48 s"
+  },
+  {
+    "frame": "04-late-passing",
+    "phase": "Đi bộ",
+    "time": "2.78 / 5.48 s"
+  },
+  {
+    "frame": "05-reaching",
+    "phase": "Đi bộ",
+    "time": "2.88 / 5.48 s"
+  },
+  {
+    "frame": "06-opposite-contact",
+    "phase": "Đi bộ",
+    "time": "2.98 / 5.48 s"
+  },
+  {
+    "frame": "06-opposite-contact",
+    "phase": "Chuẩn bị dừng",
+    "time": "3.08 / 5.48 s"
+  },
+  {
+    "frame": "07-opposite-loading",
+    "phase": "Nhận bước",
+    "time": "3.18 / 5.48 s"
+  },
+  {
+    "frame": "08-opposite-support",
+    "phase": "Giảm tốc",
+    "time": "3.29 / 5.48 s"
+  },
+  {
+    "frame": "09-opposite-passing",
+    "phase": "Thu ngắn bước",
+    "time": "3.40 / 5.48 s"
+  },
+  {
+    "frame": "12-stop-close",
+    "phase": "Đặt chân cạnh chân trụ",
+    "time": "3.52 / 5.48 s"
+  },
+  {
+    "frame": "13-stop-settle",
+    "phase": "Ổn định trọng lượng",
+    "time": "3.64 / 5.48 s"
+  },
+  {
+    "frame": "00-stand-angled",
+    "phase": "Đứng yên",
+    "time": "3.78 / 5.48 s"
+  },
+  {
+    "frame": "00-stand-angled",
+    "phase": "Đứng vững",
+    "time": "3.98 / 5.48 s"
+  },
+  {
+    "frame": "17-turn-first",
+    "phase": "Dồn trọng lượng để quay",
+    "time": "4.06 / 5.48 s"
+  },
+  {
+    "frame": "18-turn-second",
+    "phase": "Bước xoay nhỏ",
+    "time": "4.10 / 5.48 s"
+  },
+  {
+    "frame": "01-turn-mid",
+    "phase": "Quay về bàn thờ",
+    "time": "4.14 / 5.48 s"
+  },
+  {
+    "frame": "19-turn-fourth",
+    "phase": "Chuyển chân trụ",
+    "time": "4.20 / 5.48 s"
+  },
+  {
+    "frame": "20-turn-fifth",
+    "phase": "Đặt chân theo hướng bàn thờ",
+    "time": "4.24 / 5.48 s"
+  },
+  {
+    "frame": "02-stand-rear",
+    "phase": "Hướng nhìn tượng Phật",
+    "time": "4.28 / 5.48 s"
+  },
+  {
+    "frame": "03-weight-shift",
+    "phase": "Chuyển trọng lượng",
+    "time": "4.36 / 5.48 s"
+  },
+  {
+    "frame": "04-knee-bend",
+    "phase": "Khuỵu gối",
+    "time": "4.46 / 5.48 s"
+  },
+  {
+    "frame": "05-lower-knees",
+    "phase": "Hạ gối",
+    "time": "4.56 / 5.48 s"
+  },
+  {
+    "frame": "06-kneeling",
+    "phase": "Ổn định khi quỳ",
+    "time": "4.66 / 5.48 s"
+  },
+  {
+    "frame": "07-tuck-legs",
+    "phase": "Thu chân",
+    "time": "4.80 / 5.48 s"
+  },
+  {
+    "frame": "08-half-seated",
+    "phase": "Hạ thân xuống bồ đoàn",
+    "time": "4.92 / 5.48 s"
+  },
+  {
+    "frame": "09-seated-settle",
+    "phase": "Ổn định tư thế",
+    "time": "5.04 / 5.48 s"
+  },
+  {
+    "frame": "10-seated-rear",
+    "phase": "An tọa nhìn tượng Phật",
+    "time": "5.16 / 5.48 s"
+  }
+]

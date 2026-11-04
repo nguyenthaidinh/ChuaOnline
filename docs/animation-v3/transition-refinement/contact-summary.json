@@ -1,0 +1,110 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1080
+    },
+    "position": "far",
+    "pin": false,
+    "maxContactDriftPx": 1.5246859120079959
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1080
+    },
+    "position": "far",
+    "pin": true,
+    "maxContactDriftPx": 5.922089976741003e-05
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1080
+    },
+    "position": "middle",
+    "pin": false,
+    "maxContactDriftPx": 1.6489723249067618
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1080
+    },
+    "position": "middle",
+    "pin": true,
+    "maxContactDriftPx": 6.138323534515918e-05
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1080
+    },
+    "position": "near",
+    "pin": false,
+    "maxContactDriftPx": 1.7869327039058527
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1080
+    },
+    "position": "near",
+    "pin": true,
+    "maxContactDriftPx": 8.822054708004055e-05
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "position": "far",
+    "pin": false,
+    "maxContactDriftPx": 1.9571514769630307
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "position": "far",
+    "pin": true,
+    "maxContactDriftPx": 2.298817107453342e-05
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "position": "middle",
+    "pin": false,
+    "maxContactDriftPx": 2.066549657181384
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "position": "middle",
+    "pin": true,
+    "maxContactDriftPx": 4.579271192018822e-05
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "position": "near",
+    "pin": false,
+    "maxContactDriftPx": 2.1882995778296355
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "position": "near",
+    "pin": true,
+    "maxContactDriftPx": 3.415235014540903e-05
+  }
+]

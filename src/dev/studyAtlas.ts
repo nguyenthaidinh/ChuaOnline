@@ -1,6 +1,7 @@
 export interface StudyFrame {
   id: string;
   phase: string;
+  rightFoot?: { x: number; y: number };
 }
 
 export interface StudyAtlas {
@@ -43,7 +44,16 @@ export function parseStudyAtlas(value: unknown): StudyAtlas {
   const frames = (data.frames as unknown[]).map(value => {
     const frame = record(value);
     if (typeof frame.id !== 'string' || !frame.id || typeof frame.phase !== 'string') throw new Error('Khung thiếu ID hoặc tên tư thế.');
-    return { id: frame.id, phase: frame.phase };
+    let rightFoot: StudyFrame['rightFoot'];
+    if (frame.rightFoot !== undefined) {
+      const point = record(frame.rightFoot);
+      if (typeof point.x !== 'number' || !Number.isFinite(point.x) || point.x < 0 || point.x > width
+        || typeof point.y !== 'number' || !Number.isFinite(point.y) || point.y < 0 || point.y > height) {
+        throw new Error('Điểm chân ngoài canvas bản thử.');
+      }
+      rightFoot = { x: point.x, y: point.y };
+    }
+    return { id: frame.id, phase: frame.phase, ...(rightFoot ? { rightFoot } : {}) };
   });
   if (frames.length > columns * rows) throw new Error('Atlas không đủ ô cho số khung.');
   if (new Set(frames.map(frame => frame.id)).size !== frames.length) throw new Error('Atlas có ID khung bị trùng.');

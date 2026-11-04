@@ -9,7 +9,7 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-DIRECTORY = ROOT / 'artwork/animation-v3/transitions-v1'
+DIRECTORY = ROOT / 'artwork/animation-v3/transitions-v2'
 
 
 def main():
@@ -29,7 +29,8 @@ def main():
         frames, durations = [], []
         for step in clip['steps']:
             frame = Image.new('RGBA', (384, 512), (42, 32, 24, 255))
-            frame.alpha_composite(banks[step['bank']][step['index']])
+            offset = step.get('rootOffset', {'x': 0, 'y': 0})
+            frame.alpha_composite(banks[step['bank']][step['index']], (round(offset['x']), round(offset['y'])))
             frames.append(frame)
             durations.append(step['durationMs'])
         # Keep the completed pose readable before an explicit preview loop restart.

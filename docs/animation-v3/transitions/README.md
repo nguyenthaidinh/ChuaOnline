@@ -1,5 +1,8 @@
 # Đợt nối đứng dậy, bước đi, dừng và ngồi
 
+Báo cáo lịch sử của commit `c412eec`. Xưởng hiện đã chuyển sang
+[bản tinh chỉnh v2](../transition-refinement/README.md); nguồn, atlas và bằng chứng v1 vẫn được giữ nguyên.
+
 Ngày 04/11/2026, nhánh `codex/animation-v3`. Tiếp tục chặng 1: tạo nguồn chuyển tiếp nam áo lam,
 ghép với chu kỳ đi 12 khung đã có. Đây là bản kiểm nguồn ở xưởng; chưa thay hoạt ảnh trong phòng chung.
 
@@ -50,16 +53,15 @@ Mở `http://127.0.0.1:5180/?animation-lab=transitions`. Có chọn clip, phát 
 tua từng tư thế, scrub theo mili giây, nền sáng/tối/chùa và hai kích thước xem.
 Phòng thử dùng cùng `projectFloor` và `actorMetrics` với sản phẩm; không tạo client hoặc gọi API phòng.
 
-Xuất lại nguồn với Python/Pillow và Node hiện có:
+Xuất lại atlas nguồn v1 với Python/Pillow:
 
 ```powershell
 python scripts/pack-transition-study.py
-node --experimental-strip-types scripts/export-transition-sequences.mjs
-python scripts/render-transition-loops.py
 ```
 
 Packer từ chối thiếu ảnh hoặc phần thân bị cắt. `--draft` ghi rõ nguồn chưa đủ.
-Script xuất timeline dùng đúng hàm TypeScript của xưởng, không giữ một bản lịch riêng bằng Python.
+Timeline và vòng WebP v1 được lưu ở commit `c412eec`. Script xuất timeline/vòng xem hiện tại dùng nguồn v2;
+xem cách xuất trong báo cáo tinh chỉnh. Script dùng đúng hàm TypeScript của xưởng, không giữ bản lịch riêng bằng Python.
 Loader dùng chung cho hai bộ thử: kiểm manifest/ID/kích thước thật, decode ảnh, timeout/tải lại,
 URL atlas mang SHA-256 để tránh lấy nhầm ảnh nháp trong cache. Module và ảnh thử nằm ngoài bản production.
 
