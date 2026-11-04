@@ -4,6 +4,9 @@ Ngày 04/11/2026, múi giờ Asia/Saigon. Phạm vi: sửa và kiểm thử **lo
 đẩy GitHub hoặc triển khai website. Bản đầu vào: `ba6b787` / `shared-offerings-audio-v1`.
 Mốc bàn giao local: `visual-upgrade-v1`.
 
+Bản sửa tiếp theo: [hướng ngồi về tượng Phật](seating-direction/README.md),
+thay ba tư thế ngồi nghiêng bằng góc lưng thẳng; có ảnh kiểm tra desktop/mobile mới.
+
 Đã đọc toàn bộ `Chùa Online_ đặc tả nâng cấp hình ảnh và hoạt ảnh.md`, README,
 protocol, room client/server, renderer, CSS và tài nguyên thật. Không tìm thấy
 AGENTS.md trong dự án hoặc các thư mục cha đã kiểm. File đặc tả do người dùng thêm

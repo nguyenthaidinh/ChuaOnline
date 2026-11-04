@@ -1,31 +1,35 @@
 import type { Appearance } from './protocol.ts';
 import { LAM_GEOMETRY } from './visualGeometry.ts';
 import { VARIANT_GEOMETRY } from './variantGeometry.ts';
+import { SEATED_REAR_POSES } from './seatedRearGeometry.ts';
 export type Facing = 'rear' | 'front';
 export type ClipId = 'stand'|'standFront'|'walkRear'|'walkFront'|'sitDown'|'seated'|'standUp'|'kneelDown'|'kneeling'|'bowDown'|'bowHold'|'bowUp'|'rise'|'offerRaise'|'offerHold'|'offerPlace'|'offerRelease'|'petalRelease'|'bellStrike';
 export interface HandAnchor { x:number; y:number }
-export interface FrameSpec { cell:number; durationMs:number; hand?:HandAnchor; propLayer?:'behind-hand'|'in-front' }
+export interface FrameSpec { cell:number; durationMs:number; hand?:HandAnchor; propLayer?:'behind-hand'|'in-front'; pose?:'seatedRear' }
 export interface AnimationClip { frames:FrameSpec[]; loop:boolean; facing:Facing; markers?:Record<string,number>; stride?:number }
 export interface CharacterManifest {
   image:string; frameWidth:number; frameHeight:number; columns:number; rows:number; frameCount:number;
   groundPivot:HandAnchor; standingHeight:number; clips:Record<ClipId,AnimationClip>;
   geometry:Record<number,{top:number;hand?:HandAnchor}>;
+  poseAssets:Record<string,{image:string;top:number}>;
 }
 // Cell IDs are produced by scripts/pack-visual-assets.py. Every cell shares one fixed canvas.
 const one=(cell:number,durationMs=400,hand?:HandAnchor):FrameSpec=>({cell,durationMs,hand,propLayer:hand?'behind-hand':'in-front'});
 const clip=(frames:FrameSpec[],loop=false,facing:Facing='rear'):AnimationClip=>({frames,loop,facing});
+const rearSeated=(durationMs=400):FrameSpec=>({...one(4,durationMs),pose:'seatedRear'});
 export const LAM_MANIFEST:CharacterManifest={
   image:'assets/visual-v2/lam-atlas.webp',frameWidth:384,frameHeight:512,columns:6,rows:5,frameCount:30,
   groundPivot:{x:192,y:468},standingHeight:390,
   geometry:LAM_GEOMETRY,
+  poseAssets:{seatedRear:SEATED_REAR_POSES.man},
   clips:{
     stand:clip([one(0)],true),
     standFront:clip([one(1)],true,'front'),
     walkRear:{...clip(Array.from({length:8},(_,i)=>one(14+i,110)),true),stride:0.95},
     walkFront:{...clip(Array.from({length:8},(_,i)=>one(22+i,110)),true,'front'),stride:0.95},
-    sitDown:clip([one(0,120),one(2,220),one(3,240),one(4,280)]),
-    seated:clip([one(4)],true),
-    standUp:clip([one(4,100),one(3,220),one(2,240),one(0,200)]),
+    sitDown:clip([one(0,120),one(2,220),one(3,240),rearSeated(280)]),
+    seated:clip([rearSeated()],true),
+    standUp:clip([rearSeated(100),one(3,220),one(2,240),one(0,200)]),
     kneelDown:clip([one(0,140),one(2,260),one(5,320)]),
     kneeling:clip([one(5)],true),
     bowDown:clip([one(5,160),one(6,260),one(7,360),one(8,260)]),
@@ -47,11 +51,13 @@ export function sampleClip(manifest:CharacterManifest,id:ClipId,timeMs:number,di
   let index=0;
   while(index<clip.frames.length-1&&time>=clip.frames[index].durationMs) {time-=clip.frames[index].durationMs;index++;}
   const frame=clip.frames[index];
-  return {...frame,hand:manifest.geometry[frame.cell]?.hand??frame.hand,index,facing:clip.facing,top:manifest.geometry[frame.cell]?.top??70};
+  const pose=frame.pose?manifest.poseAssets[frame.pose]:undefined;
+  return {...frame,hand:manifest.geometry[frame.cell]?.hand??frame.hand,index,facing:clip.facing,top:pose?.top??manifest.geometry[frame.cell]?.top??70,
+    image:pose?.image??manifest.image,columns:pose?1:manifest.columns,rows:pose?1:manifest.rows,atlasCell:pose?0:frame.cell};
 }
 function variant(skin:'woman'|'granny'):CharacterManifest {
   const geometry=Object.fromEntries(Object.entries(LAM_GEOMETRY).map(([cell,value])=>[cell,{top:VARIANT_GEOMETRY[skin][Number(cell)].top,...(value.hand?{hand:{x:value.hand.x/2,y:value.hand.y/2}}:{})}]));
-  return {...LAM_MANIFEST,image:`assets/visual-v2/${skin}-atlas.webp`,frameWidth:192,frameHeight:256,standingHeight:195,groundPivot:{x:96,y:234},geometry};
+  return {...LAM_MANIFEST,image:`assets/visual-v2/${skin}-atlas.webp`,frameWidth:192,frameHeight:256,standingHeight:195,groundPivot:{x:96,y:234},geometry,poseAssets:{seatedRear:SEATED_REAR_POSES[skin]}};
 }
 const CHARACTERS:Record<Appearance,CharacterManifest>={man:LAM_MANIFEST,woman:variant('woman'),granny:variant('granny')};
 export function characterManifest(appearance:Appearance):CharacterManifest { return CHARACTERS[appearance]; }

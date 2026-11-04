@@ -1,0 +1,89 @@
+[
+  {
+    "skin": "man",
+    "source": "artwork/seating-direction/man.png",
+    "sourceDimensions": [
+      1254,
+      1254
+    ],
+    "scale": 0.22456140350877196,
+    "sourcePivot": [
+      615.24375,
+      1133.4984375
+    ],
+    "canvas": [
+      384,
+      512
+    ],
+    "groundPivot": [
+      192,
+      468
+    ],
+    "bounds": [
+      104,
+      233,
+      286,
+      474
+    ],
+    "bytes": 11982,
+    "sha256": "2c7f6f8e905b2c64581d36001f0a2f068c24a4b52c782aa1cbbdee37f35737ba"
+  },
+  {
+    "skin": "woman",
+    "source": "artwork/seating-direction/woman.png",
+    "sourceDimensions": [
+      1254,
+      1254
+    ],
+    "scale": 0.22456140350877196,
+    "sourcePivot": [
+      615.24375,
+      1133.4984375
+    ],
+    "canvas": [
+      192,
+      256
+    ],
+    "groundPivot": [
+      96,
+      234
+    ],
+    "bounds": [
+      51,
+      118,
+      144,
+      237
+    ],
+    "bytes": 5026,
+    "sha256": "d4351d8c67e8de2a50db1685d3a732612362d08dcc6455f391c94b3bcae7a4c7"
+  },
+  {
+    "skin": "granny",
+    "source": "artwork/seating-direction/granny.png",
+    "sourceDimensions": [
+      1254,
+      1254
+    ],
+    "scale": 0.22456140350877196,
+    "sourcePivot": [
+      615.24375,
+      1133.4984375
+    ],
+    "canvas": [
+      192,
+      256
+    ],
+    "groundPivot": [
+      96,
+      234
+    ],
+    "bounds": [
+      51,
+      116,
+      144,
+      237
+    ],
+    "bytes": 5422,
+    "sha256": "b53a20401ccc72c78deabe8901fe99297bcf34be4d6c9b07bb0b507d7165947a"
+  }
+]

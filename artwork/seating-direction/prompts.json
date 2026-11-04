@@ -1,0 +1,32 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-11-04",
+  "jobs": [
+    {
+      "file": "man.png",
+      "prompt": "Use case: identity-preserve. Edit target input1 is our approved Vietnamese temple visitor sitting cross-legged in a blue-gray ao lam. Correct ONLY his viewing direction: render a new full-body seated pose seen STRAIGHT FROM THE REAR, camera centered exactly behind his spine, slightly elevated 15 degrees. His head, neck, shoulders, pelvis and folded legs must face directly AWAY from the camera, toward the top center of the image and the Buddha in front of him. Show the back of his head and the back of his tunic; NO cheek, NO nose, NO facial profile visible. Both shoulders same depth and width, head centered over spine, both folded knees balanced left/right, calm upright seated posture, hands resting on lap in front of body largely hidden from this rear view. Preserve exact man identity, short hair, simple blue-gray cotton ao lam and trousers, barefoot, warm neutral semi-realistic painted rendering. Entire seated body visible with padding. NO cushion, no floor, no props, no book, no shadow, no glow, no text. TRUE transparent background, clean natural alpha. ONE pose only, square image. This must be a true centered rear view, not a flipped or rotated three-quarter side view.",
+      "references": [
+        "artwork/visual-v2/characters/lam/seated.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-670f14e1-ac3a-456b-89a4-0a8252c411e8.png"
+    },
+    {
+      "file": "woman.png",
+      "prompt": "Use case: identity-preserve. Input1 is the approved CORRECT seated viewing direction and composition. Input2 is the existing character identity/costume reference atlas. Produce ONE isolated seated pose of an adult Vietnamese woman with neat dark hair tied into one small low bun, wearing the same muted blue-gray ao lam and trousers. Use identity and garment from input2, but match input1's EXACT straight REAR viewing angle, scale, ground anchor and balanced cross-legged posture. Camera centered directly behind spine,15 degrees elevated, body and head facing straight AWAY toward TOP CENTER and Buddha, NO cheek/nose/profile visible. Centered head, symmetric shoulders and knees, hands resting on lap in front hidden from rear. Same warm restrained semi-realistic painted light as both references. Entire seated body inside square transparent canvas, same size and placement as input1. NO cushion, floor, book, props, shadow, glow, text or decorative elements. TRUE transparent background and clean natural alpha. ONE pose only, not an atlas.",
+      "references": [
+        "artwork/seating-direction/man.png",
+        "artwork\\visual-v2\\characters\\woman\\atlas-study.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-2dbb4fc7-14c7-4da0-8001-cee6d1f53ca3.png"
+    },
+    {
+      "file": "granny.png",
+      "prompt": "Use case: identity-preserve. Input1 is the approved CORRECT seated viewing direction and composition. Input2 is the existing character identity/costume reference atlas. Produce ONE isolated seated pose of an elderly Vietnamese woman with gray hair tied into one small low bun, wearing the same earth-brown ao lam tunic and trousers. Use identity and garment from input2, but match input1's EXACT straight REAR viewing angle, scale, ground anchor and balanced cross-legged posture. Camera centered directly behind spine,15 degrees elevated, body and head facing straight AWAY toward TOP CENTER and Buddha, NO cheek/nose/profile visible. Centered head, symmetric shoulders and knees, hands resting on lap in front hidden from rear. Same warm restrained semi-realistic painted light as both references. Entire seated body inside square transparent canvas, same size and placement as input1. NO cushion, floor, book, props, shadow, glow, text or decorative elements. TRUE transparent background and clean natural alpha. ONE pose only, not an atlas.",
+      "references": [
+        "artwork/seating-direction/man.png",
+        "artwork\\visual-v2\\characters\\granny\\atlas-study.png"
+      ],
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-cfabc02a-c251-41ac-a2ee-8dcf02e3d5fd.png"
+    }
+  ]
+}

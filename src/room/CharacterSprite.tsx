@@ -31,10 +31,11 @@ export function CharacterSprite({person,self,layout,offset,reduced}:{person:Room
   const frame=sampleClip(manifest,clip,reduced?0:pose?.clipTime??entry.clipTime,!reduced&&walking?(pose?.distance??entry.distance):undefined);
   const projected=projectFloor(point,layout),size=actorMetrics(point,layout);
   Object.assign(root.current.style,{left:`${projected.x}%`,top:`${projected.y}%`,height:`${size.canvasHeight}%`,aspectRatio:`${manifest.frameWidth}/${manifest.frameHeight}`,transform:`translate(-${manifest.groundPivot.x/manifest.frameWidth*100}%,-${manifest.groundPivot.y/manifest.frameHeight*100}%)`,zIndex:String(Math.round(projected.y*100))});
-  const columns=manifest.columns,rows=manifest.rows;
-  Object.assign(art.current.style,{backgroundImage:`url('${roomAssets.atlas(person.appearance)}')`,backgroundSize:`${columns*100}% ${rows*100}%`,backgroundPosition:`${(frame.cell%columns)/Math.max(1,columns-1)*100}% ${Math.floor(frame.cell/columns)/Math.max(1,rows-1)*100}%`,transform:flip?'scaleX(-1)':''});
+  const columns=frame.columns,rows=frame.rows,cell=frame.atlasCell;
+  Object.assign(art.current.style,{backgroundImage:`url('${roomAssets.frameImage(frame.image)}')`,backgroundSize:`${columns*100}% ${rows*100}%`,backgroundPosition:`${(cell%columns)/Math.max(1,columns-1)*100}% ${Math.floor(cell/columns)/Math.max(1,rows-1)*100}%`,transform:flip?'scaleX(-1)':''});
   root.current.dataset.phase=entering?entry.phase:pose?.phase??'idle';root.current.dataset.clip=clip;root.current.dataset.frame=String(frame.cell);root.current.dataset.facing=frame.facing;
   root.current.dataset.actionId=person.action?.id??'';
+  root.current.dataset.pose=frame.pose??'';
   root.current.dataset.bows=String(pose?.completedBows??(person.completed?.kind==='bow'?3:0));
   label.current.style.top=`${frame.top/manifest.frameHeight*100}%`;label.current.dataset.active=String(self||active);
   shadow.current.style.left=`${manifest.groundPivot.x/manifest.frameWidth*100}%`;shadow.current.style.top=`${manifest.groundPivot.y/manifest.frameHeight*100}%`;

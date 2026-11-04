@@ -28,8 +28,9 @@ export const roomAssets={
   hall:{desktop:`${base()}assets/visual-v2/hall-desktop.webp`,mobile:`${base()}assets/visual-v2/hall-mobile.webp`},
   sprite:(appearance:string)=>`${base()}assets/visual-v2/${appearance==='man'?'lam':appearance}-preview.webp`,
   atlas:(appearance:Appearance='man')=>`${base()}${characterManifest(appearance).image}`,
+  frameImage:(image:string)=>`${base()}${image}`,
   effect:(kind:string)=>`${base()}assets/visual-v2/${kind}.webp`,
 };
 export function essentialAssets(layout:SceneLayoutId) {
-  return [roomAssets.hall[layout],...(['man','woman','granny'] as const).map(roomAssets.atlas),roomAssets.effect('cushion'),...['incense','lotus','bell','petal','mallet','urn','flower-station','bell-station'].map(roomAssets.effect)];
+  return [roomAssets.hall[layout],...(['man','woman','granny'] as const).flatMap(skin=>[roomAssets.atlas(skin),roomAssets.frameImage(characterManifest(skin).poseAssets.seatedRear.image)]),roomAssets.effect('cushion'),...['incense','lotus','bell','petal','mallet','urn','flower-station','bell-station'].map(roomAssets.effect)];
 }
