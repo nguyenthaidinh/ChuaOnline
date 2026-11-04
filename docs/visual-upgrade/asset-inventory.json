@@ -1,0 +1,550 @@
+[
+  {
+    "path": "artwork/visual-v2/characters/granny/atlas-study.png",
+    "bytes": 915210,
+    "width": 1190,
+    "height": 1322,
+    "mode": "RGBA",
+    "sha256": "a3960f4abf53f9273b4502410aa038445cf5b6c38d4029416f5d1bfdf0e7e185",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/bow-floor.png",
+    "bytes": 838593,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "84971c51422b3753f4096ee4414187a111917cc3600f0ed12463e641c581d020",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/bow-low.png",
+    "bytes": 742387,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "d35cbc2ad391a26825fd875791be9b7e807058207e428ed9e6abdf673344d7c2",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/bow-mid.png",
+    "bytes": 810297,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "6ee86061cadf973435aa856e55ebf79bed785df5b4ba6f15fddf7d9b7aca702a",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/crouch.png",
+    "bytes": 782526,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "2ad0fe930bab338f3f445428bf947fdcd9123ce5c9792212c0cdf3ff5262c476",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/front.png",
+    "bytes": 595279,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "cad435be20446b48711ab6cc0d3b6bfa8d5ace2e8352adba895a27ce7ca414bb",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/kneel.png",
+    "bytes": 686246,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "447e94cdf1a5e328b32ee773d41d75c240491be03153525d988a86013ca8bdbb",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/offer-chest.png",
+    "bytes": 528597,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "8e3af153f4ad4c1980f29f8ef8716746ac11ec936c1a9fd8b1319218ee60fa3d",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/offer-place.png",
+    "bytes": 1471095,
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "90cd1d37c919035b50e1c9d2a1453415d6c595368e67128fb3c304eab97043fc",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/offer-raise.png",
+    "bytes": 1398373,
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "e80e18974e5107b6df3b9b4c524125f3b6fb4ad708ea483e8b1425ee4e32f2cf",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/offer-reach.png",
+    "bytes": 1436813,
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "8fda967ce7bf93567262d33e14d910129984c8b949b7fd973d564df7a038e2e4",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/offer-release.png",
+    "bytes": 1511591,
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "177e0242e6c74fb72e3a9a48e8d51c59dd1592980fbcd648b34227294ddb5a6e",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/reference.png",
+    "bytes": 537451,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "6a48bd0e02b125cb91163fcb90c99426c06cd91f81f08a3b5c8d28a13e46cd77",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/seated.png",
+    "bytes": 729760,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "b514d7fc0c70f80b2e51a0a2d7f3696bd47d830ae91691d38c4b2890fde0f21e",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/walk-front-alpha.png",
+    "bytes": 718194,
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "sha256": "ec28af8934f6d82e6eb916b1afdbbf94d94187ac7899ac2fa7ddc72714f6e9c2",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/walk-front.png",
+    "bytes": 1847387,
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "sha256": "5541d7f910f783fe8a39d4b61119d2bb23ed992fbdf206b181cb315986926fab",
+    "alphaExtrema": [
+      186,
+      252
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/lam/walk-rear.png",
+    "bytes": 851518,
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "sha256": "157e9317cbf54a746711415471dca565b64f59dfc7be5f615ccfed64dfa222ac",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/characters/woman/atlas-study.png",
+    "bytes": 1190336,
+    "width": 1190,
+    "height": 1322,
+    "mode": "RGBA",
+    "sha256": "50d1e7614e9680bfd19f95f51bfc02512fb3d855de58c2da06e53737c5bc57ca",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/lam-atlas.png",
+    "bytes": 2150860,
+    "width": 2304,
+    "height": 2560,
+    "mode": "RGBA",
+    "sha256": "c851c57f5b50a54f09fc2e02a6b27211887a3573d7e95e54f59e55c8645abffe",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/bell-station.png",
+    "bytes": 964303,
+    "width": 1199,
+    "height": 1312,
+    "mode": "RGBA",
+    "sha256": "e778092d76eed095bd2dddfe2f2fd5cee4ebe3e2c2d48a7c5ead4a836e189ff7",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/bell.png",
+    "bytes": 950277,
+    "width": 1312,
+    "height": 1199,
+    "mode": "RGBA",
+    "sha256": "0fa4c599343671cfcf57e77758c02f87ee139d24d9f66e71bc1cca317ee789b3",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/cushion.png",
+    "bytes": 1358133,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "abc0defc98b7df20aec5a0a27b3c5a8ba80159cd9e137138e16a3df7313dfb77",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/flower-station.png",
+    "bytes": 897417,
+    "width": 1199,
+    "height": 1312,
+    "mode": "RGBA",
+    "sha256": "acf7f2267b4343f59d70ced87142b5adcc45364de1f3cc027c97e78365629c2a",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/incense.png",
+    "bytes": 338251,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "sha256": "8f6da42c97987516819764a33e8d7fc822b7e76efe07b8cdff5f93ac971e5f18",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/lotus.png",
+    "bytes": 1551563,
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "485f615d58f6f9b40bad8bb04b2d954715777d794d05e427eed4328e593cf7dd",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/mallet.png",
+    "bytes": 1072099,
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "sha256": "77b1acf885ffc3ea3fe547493e9a78a66167675025f225a5a6ee5fe522ae8fe5",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/petal.png",
+    "bytes": 1142008,
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "sha256": "f97488bc874e4c8a76e2eaf56c54e9a2412b3c1137f08427ae9323c8077a4803",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/props/urn.png",
+    "bytes": 1071196,
+    "width": 1199,
+    "height": 1312,
+    "mode": "RGBA",
+    "sha256": "d6b1bde2e386caf9a3361464e69f0c0211c0b78512c7171af00df25e4377842e",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "artwork/visual-v2/scene/hall-desktop.png",
+    "bytes": 2509404,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "42b4f493109e1ec039d75dcdcebd60c37bc3ae373fa7f756fdbb5bcbbb3d6a5e"
+  },
+  {
+    "path": "artwork/visual-v2/scene/hall-mobile.png",
+    "bytes": 2344298,
+    "width": 941,
+    "height": 1672,
+    "mode": "RGB",
+    "sha256": "9f27e42864331843f50f2f81c04f7e60eb3d4b4e085d7cc542822452be834a91"
+  },
+  {
+    "path": "public/assets/visual-v2/bell-station.webp",
+    "bytes": 30242,
+    "width": 228,
+    "height": 384,
+    "mode": "RGBA",
+    "sha256": "e537f28d8c85712df838eadfd49d13b890bfb44ee9fa80026e216ba2c7616f95",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/bell.webp",
+    "bytes": 31574,
+    "width": 275,
+    "height": 384,
+    "mode": "RGBA",
+    "sha256": "d33aa1790bbc6d5df00c9aefaadf9a0b567cecf244dae1e764d4e6d8cd51d2ac",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/cushion.webp",
+    "bytes": 38680,
+    "width": 384,
+    "height": 199,
+    "mode": "RGBA",
+    "sha256": "65d55ded3677200f5dbd0ae1373192c2ce935c12c0cc12ce28ca3e1efaf339ad",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/flower-station.webp",
+    "bytes": 26478,
+    "width": 200,
+    "height": 384,
+    "mode": "RGBA",
+    "sha256": "4ebcf9909982598144a47dc685966470a867a38518a3ac8b8dc3e9110460d9a2",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/granny-atlas.webp",
+    "bytes": 313632,
+    "width": 1152,
+    "height": 1280,
+    "mode": "RGBA",
+    "sha256": "5bcb7ff2bc4cbac1da4d53752ea199a1e8cf084d2f0ece5884f51fea7984093a",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/granny-preview.webp",
+    "bytes": 7258,
+    "width": 191,
+    "height": 216,
+    "mode": "RGBA",
+    "sha256": "59407ee77458248f61c6ee0d0bc48749b2dc77c2db95a6b41c2761dc3b9ec589",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/hall-desktop.webp",
+    "bytes": 271516,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "sha256": "f582b4b6a92903c3f4a749ad11ea67f4de8d402259e919908c5298638f6442d8"
+  },
+  {
+    "path": "public/assets/visual-v2/hall-mobile.webp",
+    "bytes": 229906,
+    "width": 941,
+    "height": 1672,
+    "mode": "RGB",
+    "sha256": "3d3d5718de10ee1d2baa04b6e0ba78366f7e6233c48d13c6d41a7623ae3b4a9d"
+  },
+  {
+    "path": "public/assets/visual-v2/incense.webp",
+    "bytes": 17072,
+    "width": 95,
+    "height": 384,
+    "mode": "RGBA",
+    "sha256": "640a3937f3304cbf554cc4fa76d60de26c2c68a0f6777404b926d143bafe81ed",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/lam-atlas.webp",
+    "bytes": 599862,
+    "width": 2304,
+    "height": 2560,
+    "mode": "RGBA",
+    "sha256": "5f9e8eaf929d62378861116c05ce2023080c737b00e85b37ed8b84e916e3b07b",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/lam-preview.webp",
+    "bytes": 8712,
+    "width": 180,
+    "height": 220,
+    "mode": "RGBA",
+    "sha256": "51286fe0d385136c392a4f950ef3a2ab46e22a814748502f558e261a91f40393",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/lotus.webp",
+    "bytes": 34876,
+    "width": 384,
+    "height": 293,
+    "mode": "RGBA",
+    "sha256": "f293a2199678808fee9ca7cfbcb984144d27fcae72c87a40f2d6e72337ea80b1",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/mallet.webp",
+    "bytes": 8590,
+    "width": 83,
+    "height": 384,
+    "mode": "RGBA",
+    "sha256": "583a466b8f4c07bce58a71af1edacb0496bfbdef2e983d039a6944d105860a44",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/petal.webp",
+    "bytes": 20028,
+    "width": 384,
+    "height": 250,
+    "mode": "RGBA",
+    "sha256": "c4acbcc076994a5fc42f72d56382ad63b6348870aa3c39f2fab57a44ea58a7c3",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/urn.webp",
+    "bytes": 31072,
+    "width": 238,
+    "height": 384,
+    "mode": "RGBA",
+    "sha256": "6d915c4cf11081fe91896a95d1fc480060aec6b4df3cdd74e95a6b880b346fe4",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/woman-atlas.webp",
+    "bytes": 479172,
+    "width": 1152,
+    "height": 1280,
+    "mode": "RGBA",
+    "sha256": "3b8b79110c5bc2d1a6017d73a6b50488dc2e52aa033fbc8c01de497285bc98f1",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "public/assets/visual-v2/woman-preview.webp",
+    "bytes": 10468,
+    "width": 192,
+    "height": 234,
+    "mode": "RGBA",
+    "sha256": "eaf0991ab293f79bf19df9b9d75424a95a9848d62097c43f04253d0519937040",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+]

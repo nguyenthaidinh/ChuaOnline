@@ -1,0 +1,204 @@
+{
+  "date": "2026-11-04",
+  "generator": "Built-in image_gen tool, not CLI",
+  "sourceRoot": "artwork/visual-v2",
+  "jobs": [
+    {
+      "file": "characters/lam/reference.png",
+      "prompt": "Use case: stylized-concept. Asset type: original production character reference for a Vietnamese Buddhist temple 2.5D web scene. Create ONE full body adult Vietnamese male lay visitor, age around 35, short neat black hair, natural seven-head body proportions, modest loose plain blue-gray ao lam cotton tunic with small simple button placket and matching straight loose trousers, barefoot. Empty relaxed hands at sides. Rear three-quarter view facing toward upper right, camera slightly elevated 15 degrees, see back, right ear and a sliver of right cheek. Refined semi-realistic painted game art, believable anatomy, softly defined warm neutral light from upper right, restrained shading, quiet natural muted colors. Entire body including both feet fully visible. Square 1024x1024 transparent canvas with generous padding; standing height about 750 pixels, ground contact at x512 y900. No book, NO cushion, no props, no floor, no cast shadow, no rim glow, no outlines, no text or watermark. True clean transparent background with natural antialiased edges, no magenta or chroma-key fringe. This is an isolated game character reference, not a sprite sheet.",
+      "source": "exec-7382a740-76d8-4d91-9ca2-213eefcdd2ab.png",
+      "references": [],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/kneel.png",
+      "prompt": "Use case: identity-preserve. Asset type: one approved key pose for an original 2.5D temple character animation. Image 1 is the exact approved identity, costume, painterly rendering, light and body reference. Show the SAME adult Vietnamese man in the SAME plain blue-gray ao lam and loose trousers, bare feet. Change only pose: kneeling upright on BOTH knees and shins, feet behind, hips resting naturally over heels, torso upright, palms joined at chest in respectful Buddhist prayer. Rear three-quarter view facing upper right, elevated camera 15 degrees same as reference. Both hands anatomically correct, fingers together, no book, no cushion, no props, no glow, no shadow or floor. Complete body fully visible including knees and feet with generous clear padding. This is a true changed body pose, not a compressed standing image. Match head size and garment proportions exactly. Square canvas, true transparent background with clean natural alpha and no colored fringe, no text. ONE pose only.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-527ad3b0-9c9b-4232-a5c9-5688789a1c29.png",
+      "references": [
+        "characters/lam/reference.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/bow-mid.png",
+      "prompt": "Use case: identity-preserve. Production isolated character animation keyframe. Input 1 is exact approved man identity, blue-gray ao lam cotton outfit, anatomy and warm neutral painterly rendering; input 2 is approved upright kneeling pose for the same sequence. Keep same viewing direction rear three-quarter toward upper right and fixed camera elevation 15 degrees. One adult male ONLY, no cushions, no book, no props, no floor or shadows, no rim glow, no text. True transparent background with clean natural alpha, entire body fully inside image with padding. Anatomically believable limbs; change actual body joints. Pose: midway into a Buddhist prostration. Knees and shins remain at same ground location, torso bends forward about 45 degrees from hips, BOTH arms reaching down ahead of knees, both open palms almost touching floor, neck and head follow spine naturally. Hips still above heels. Show natural clear lowering of torso, visible bent elbows and folded legs, retain same head/body proportions.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4b65df99-c14a-4241-9666-3467934d5d77.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/kneel.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/bow-floor.png",
+      "prompt": "Use case: identity-preserve. Production isolated character animation keyframe. Input 1 is exact approved man identity, blue-gray ao lam cotton outfit, anatomy and warm neutral painterly rendering; input 2 is approved upright kneeling pose for the same sequence. Keep same viewing direction rear three-quarter toward upper right and fixed camera elevation 15 degrees. One adult male ONLY, no cushions, no book, no props, no floor or shadows, no rim glow, no text. True transparent background with clean natural alpha, entire body fully inside image with padding. Anatomically believable limbs; change actual body joints. Pose: full respectful Buddhist prostration, both knees and shins on the floor, hips folded down over heels, torso and head close to floor with forehead touching the ground in front of knees, both forearms and open palms resting forward on ground either side of head. Natural connected arms, exactly two hands, no floating limbs. Rear three-quarter view toward upper right; visible curved back, feet behind at lower left. Clear silhouette showing genuine deep bow, not merely sitting or crouching.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-dc28e9b5-d4ee-428f-bb52-6602d27cb39f.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/kneel.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/front.png",
+      "prompt": "Use case: identity-preserve. Original game character FRONT three-quarter reference pose, same Vietnamese adult male and same muted blue-gray ao lam and trousers as input 1, exact same short black hair, age, proportions and fabric, barefoot, empty hands relaxed at sides. Turn body and face toward LOWER LEFT toward camera, actual front of face and buttoned shirt must be visible. Slight elevated camera 15 degrees, same soft warm painted style. Full body natural stance, entire head hands feet visible. No cushion, book, props, floor, cast shadow or glow. Square true transparent canvas, generous padding, clean neutral alpha edges, no text. ONE single pose.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-b4653c30-0acb-4b78-9582-2a593530691a.png",
+      "references": [
+        "characters/lam/reference.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/crouch.png",
+      "prompt": "Use case: identity-preserve. One isolated production key pose, SAME adult Vietnamese man, exact SAME blue-gray ao lam outfit and short hair as reference, natural anatomy, painterly realistic warm neutral shading. Rear three-quarter looking toward upper right, camera 15 degrees elevated. Full body, all limbs inside square image with padding, no floor, NO cushion, NO book, NO props, no glow, no cast shadow. Clean TRUE transparent background without colored fringe or text. Actual pose between standing and kneeling: torso remains upright, hips lowered, right knee touching ground and left foot still planted with left knee bent at 90 degrees, hands loosely in front for balance. Anatomically plausible half-kneel lowering the body before settling onto both knees. Same physical head size and clothes as reference.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-6110c627-078a-4f74-a855-d4cc08842601.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/kneel.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/seated.png",
+      "prompt": "Use case: identity-preserve. One isolated production key pose, SAME adult Vietnamese man, exact SAME blue-gray ao lam outfit and short hair as reference, natural anatomy, painterly realistic warm neutral shading. Rear three-quarter looking toward upper right, camera 15 degrees elevated. Full body, all limbs inside square image with padding, no floor, NO cushion, NO book, NO props, no glow, no cast shadow. Clean TRUE transparent background without colored fringe or text. Actual pose: calmly seated cross-legged on ground, back naturally upright, both hands resting empty on lap, palms relaxed, legs folded symmetrically. No cushion. Preserve narrow shoulders, tunic length and head size, do not give a different garment. Rear three-quarter view identical to reference.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-cb997b4f-47c4-4702-880d-2ca540c48389.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/kneel.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/bow-low.png",
+      "prompt": "Use case: identity-preserve. One isolated production key pose, SAME adult Vietnamese man, exact SAME blue-gray ao lam outfit and short hair as reference, natural anatomy, painterly realistic warm neutral shading. Rear three-quarter looking toward upper right, camera 15 degrees elevated. Full body, all limbs inside square image with padding, no floor, NO cushion, NO book, NO props, no glow, no cast shadow. Clean TRUE transparent background without colored fringe or text. Actual pose midway between input2 and input3, preparing deep prostration: hips low over heels, torso lowered almost horizontal at 15 degrees above ground, both palms already flat on floor ahead, elbows bending, head lowered but forehead still 20 cm above ground. Knees and shins stay planted. Must be visibly lower than input2 but higher than full floor pose input3. Same anatomy, back and feet.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-25ba749d-ecce-4b7e-ab21-706ac87baa69.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/bow-mid.png",
+        "characters/lam/bow-floor.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/offer-chest.png",
+      "prompt": "Use case: identity-preserve. One isolated production key pose, SAME adult Vietnamese man, exact SAME blue-gray ao lam outfit and short hair as reference, natural anatomy, painterly realistic warm neutral shading. Rear three-quarter looking toward upper right, camera 15 degrees elevated. Full body, all limbs inside square image with padding, no floor, NO cushion, NO book, NO props, no glow, no cast shadow. Clean TRUE transparent background without colored fringe or text. Actual pose: standing respectfully with both empty hands joined gently at mid-chest as if about to hold three thin incense sticks between palms, fingers upright together, wrists close. Elbows naturally bent. Body upright at same size and viewing angle as reference. No actual incense, no object; object will be attached in the game.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-43fad44d-7931-4d40-9332-8eb5c9ecd7aa.png",
+      "references": [
+        "characters/lam/reference.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/walk-rear.png",
+      "prompt": "Use case: identity-preserve. Asset type: SMALL eight-frame walk cycle study of the exact approved original game character in input1, SAME face, short black hair, blue-gray ao lam outfit, barefoot, proportions and painterly lighting. Strict 4 columns by 2 rows regular grid on transparent landscape canvas, EIGHT equally sized cells; no borders or labels. Each cell shows ONE full body at IDENTICAL camera, scale, head height and floor baseline with ample gutters; entire head and feet inside its own cell. Rear three-quarter view, body facing UPPER RIGHT away from viewer toward altar. Natural restrained walking cycle IN PLACE, clear alternating left/right steps: row1 left contact, left down, left passing, left up; row2 right contact, right down, right passing, right up. Subtle alternating arms, natural bent knees and heel lift, no running or exaggerated march. NOT eight copies of the same pose; keep head and torso stable and costume identical. No cushion, book, props, floor, cast shadows, glows, text or watermark. True transparent background clean neutral edges. This eight-frame loop will be inspected and aligned into a separate production atlas later.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4b74fba2-6432-4715-bafa-aa128ec45f5d.png",
+      "references": [
+        "characters/lam/reference.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/walk-front.png",
+      "prompt": "Use case: identity-preserve. Asset type: SMALL eight-frame walk cycle study of the exact approved original game character in input1, SAME face, short black hair, blue-gray ao lam outfit, barefoot, proportions and painterly lighting. Strict 4 columns by 2 rows regular grid on transparent landscape canvas, EIGHT equally sized cells; no borders or labels. Each cell shows ONE full body at IDENTICAL camera, scale, head height and floor baseline with ample gutters; entire head and feet inside its own cell. FRONT three-quarter view, body facing LOWER LEFT toward viewer; front face and tunic buttons clearly visible. Do not show the back. Natural restrained walking cycle IN PLACE, clear alternating left/right steps: row1 left contact, left down, left passing, left up; row2 right contact, right down, right passing, right up. Subtle alternating arms, natural bent knees and heel lift, no running or exaggerated march. NOT eight copies of the same pose; keep head and torso stable and costume identical. No cushion, book, props, floor, cast shadows, glows, text or watermark. True transparent background clean neutral edges. This eight-frame loop will be inspected and aligned into a separate production atlas later.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-b75aee3b-1ee5-42fd-8e2c-b3a158b71d32.png",
+      "references": [
+        "characters/lam/front.png"
+      ],
+      "acceptance": "Rejected for opaque background; replaced by walk-front-alpha.png"
+    },
+    {
+      "file": "characters/lam/offer-raise.png",
+      "prompt": "Use case: identity-preserve. ONE actual full-body standing pose of the exact same adult Vietnamese man from input1, same blue-gray ao lam garment and trousers, same face, short hair, body proportions, neutral warm painted rendering, rear three-quarter looking toward upper right, slightly elevated camera15 degrees. Complete figure with generous transparent padding, no objects, floor, cushion, book, shadows, glow or text. True transparent clean alpha. Pose: both empty joined hands raised respectfully to forehead, fingertips at brow level, elbows bent and lowered naturally, holding an imaginary narrow incense bundle upright between palms. NO actual object. Full body standing, feet stay planted in same neutral stance.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-48c28856-62dd-4cb4-91ed-8c770ec52a52.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/offer-chest.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/offer-reach.png",
+      "prompt": "Use case: identity-preserve. ONE actual full-body standing pose of the exact same adult Vietnamese man from input1, same blue-gray ao lam garment and trousers, same face, short hair, body proportions, neutral warm painted rendering, rear three-quarter looking toward upper right, slightly elevated camera15 degrees. Complete figure with generous transparent padding, no objects, floor, cushion, book, shadows, glow or text. True transparent clean alpha. Pose: arms extend naturally forward and slightly right from the body at waist-to-lower-chest height, elbows still softly bent. Both empty cupped hands side by side supporting an imaginary small tray ahead, hands around 35 cm in front of torso. Mild forward lean from hips, feet planted. Hands clearly visible beyond sleeve ends. No tray or incense, just empty hands.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-6d03ef0b-b421-4979-a11d-59d4f8e7e60f.png",
+      "references": [
+        "characters/lam/reference.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/walk-front-alpha.png",
+      "prompt": "Use case: background-extraction. Image1 is an eight-frame character walk-cycle study. REMOVE ONLY the solid pale white/gray background and floor shadows, making it genuinely transparent (alpha0 outside each body). Preserve ALL EIGHT full-body figures, their poses, face, costume, original 4-column by2-row layout, sizes and positions EXACTLY. Do not redraw, rearrange or crop figures. Clean natural antialiased edges without white outline. No new backdrop, no checkerboard pixels, no text or decorative additions. Actual transparent PNG output.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-f52d1891-6e69-4f3e-b6d2-6fff3535dd5f.png",
+      "references": [
+        "characters/lam/walk-front.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/offer-place.png",
+      "prompt": "Use case: identity-preserve. ONE full-body standing production keyframe of exact same Vietnamese man, exact blue-gray ao lam, bare feet and short hair as input1. Same soft warm realistic painted light and body proportions, rear three-quarter facing upper right, slightly elevated camera15 degrees. True transparent background, entire body inside frame, no floor, shadows, glows, props, cushion, book, text. Actual placement pose: bend slightly from hips forward about15 degrees, extend right forearm forward-right at waist height, right fingers point downward with a gentle pinching/open grip as if inserting incense stems into a nearby waist-high bowl, LEFT hand is just underneath supporting the wrist or imaginary tray. Wrist at lower-chest to waist level, elbows naturally bent. Both hands clearly visible. No actual incense or bowl.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-300afedb-d24c-4f23-a932-ad90529cbc41.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/offer-reach.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/lam/offer-release.png",
+      "prompt": "Use case: identity-preserve. ONE full-body standing production keyframe of exact same Vietnamese man, exact blue-gray ao lam, bare feet and short hair as input1. Same soft warm realistic painted light and body proportions, rear three-quarter facing upper right, slightly elevated camera15 degrees. True transparent background, entire body inside frame, no floor, shadows, glows, props, cushion, book, text. Actual release/strike key pose: feet planted, torso leans forward mildly. Right arm extends forward-right at waist height, palm turned down and fingers spread slightly releasing imaginary small petals. Left hand relaxed near waist. Right wrist slightly bent down, forearm clearly visible, no props. Match input2 posture and scale; this is the moment the hand opens after placing a gift.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-86c609bd-4ec2-4466-a0c2-6728bdc41eb2.png",
+      "references": [
+        "characters/lam/reference.png",
+        "characters/lam/offer-reach.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "props/lotus.png",
+      "prompt": "Use case: stylized-concept. Original isolated physical prop for a Vietnamese temple 2.5D web game, fixed slightly elevated15-degree camera, restrained semi-realistic painted material, soft warm neutral light. True transparent background, entire object with generous padding, clean natural alpha, no people, hands, floor, cast shadow, text, rim glow or particles. ONE object only. A modest fresh pale-pink lotus flower and two dark green leaves resting on a SMALL shallow round dark bronze offering tray. Physical natural flower, no magical glow or halo.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-d1684823-50a2-4694-bcb3-de4ae9075fe8.png",
+      "references": [],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "props/bell.png",
+      "prompt": "Use case: stylized-concept. Original isolated physical prop for a Vietnamese temple 2.5D web game, fixed slightly elevated15-degree camera, restrained semi-realistic painted material, soft warm neutral light. True transparent background, entire object with generous padding, clean natural alpha, no people, hands, floor, cast shadow, text, rim glow or particles. ONE object only. Small traditional bronze Buddhist hand bell on a low round dark wooden base, simple patina and subtle lotus engraving. A real bell body with closed top and flared rim, no sound-wave graphics, no mallet, no smoke.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-0f61600b-a049-41b0-8f3b-a7b79974cabe.png",
+      "references": [],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "props/petal.png",
+      "prompt": "Use case: stylized-concept. Original isolated physical prop for a Vietnamese temple 2.5D web game, fixed slightly elevated15-degree camera, restrained semi-realistic painted material, soft warm neutral light. True transparent background, entire object with generous padding, clean natural alpha, no people, hands, floor, cast shadow, text, rim glow or particles. ONE object only. One small curved pale pink LOTUS PETAL, softly shaded, delicate natural curved shape viewed at slight angle, no stem, no yellow or gold flame-like appearance.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-d8c84089-833e-407b-8976-3f40b7e4b377.png",
+      "references": [],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "props/mallet.png",
+      "prompt": "Use case: stylized-concept. Original isolated physical prop for a Vietnamese temple 2.5D web game, fixed slightly elevated15-degree camera, restrained semi-realistic painted material, soft warm neutral light. True transparent background, entire object with generous padding, clean natural alpha, no people, hands, floor, cast shadow, text, rim glow or particles. ONE object only. One small simple wooden bell mallet, slim dark brown wooden handle with a modest padded round tan head at top. Vertical orientation, no bell, no other objects.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-30a65e94-331a-44e1-8a58-fc4f79c9488c.png",
+      "references": [],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/woman/atlas-study.png",
+      "prompt": "Use case: identity-preserve. This is a measured production animation atlas, not a concept sheet. Input1 has EXACTLY30 isolated full-body poses in EXACTLY6 columns by5 rows. Preserve this grid, pose order, transparent cell padding, individual body positions, ground pivots, hand positions, camera, lighting and exact limb gestures. Do NOT add frames, remove frames, change poses, rearrange rows or crop any heads/hands/feet. Keep original canvas aspect9:10, target2304x2560. Only replace the character identity and clothing in EVERY cell consistently as follows. One adult Vietnamese woman age35 with neat dark hair tied into a small low bun, modest natural body proportions, wearing a plain muted BLUE-GRAY ao lam tunic and matching loose trousers, barefoot, empty hands. Same woman in all30 poses; prayer, seated, deep floor prostration, offering gestures and eight front and eight rear walking frames follow input exactly. No books, cushions, props, floor, shadows, glows or text. Genuine fully transparent background with clean neutral alpha edges.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-003cb343-7351-4d52-9b91-bfd3f49a6423.png",
+      "references": [
+        "lam-atlas.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    },
+    {
+      "file": "characters/granny/atlas-study.png",
+      "prompt": "Use case: identity-preserve. This is a measured production animation atlas, not a concept sheet. Input1 has EXACTLY30 isolated full-body poses in EXACTLY6 columns by5 rows. Preserve this grid, pose order, transparent cell padding, individual body positions, ground pivots, hand positions, camera, lighting and exact limb gestures. Do NOT add frames, remove frames, change poses, rearrange rows or crop any heads/hands/feet. Keep original canvas aspect9:10, target2304x2560. Only replace the character identity and clothing in EVERY cell consistently as follows. One elderly Vietnamese woman age65 with neat gray hair tied in a small low bun, dignified natural mature face, modest natural body proportions, wearing a plain muted EARTH-BROWN ao lam tunic and matching loose trousers, barefoot, empty hands. Same elderly woman in all30 poses; all gestures and walking positions follow input exactly. No walking stick, books, cushions, props, floor, shadows, glows or text. Genuine fully transparent background with clean neutral alpha edges.",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-d227fedc-22e4-431e-a7bb-12c1af47d303.png",
+      "references": [
+        "lam-atlas.png"
+      ],
+      "acceptance": "Inspected source; web derivatives packed separately"
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+[
+  {
+    "label": "24-people-desktop-1920",
+    "drawCallbacks": "9",
+    "drawMs": "0.670",
+    "fps": "28.7",
+    "layout": "desktop",
+    "people": 24,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Bình An · Bạn",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "bowDown",
+        "name": "Kiểm thử 03",
+        "phase": "performing"
+      },
+      {
+        "bows": "0",
+        "clip": "walkFront",
+        "name": "Kiểm thử 04",
+        "phase": "returning"
+      },
+      {
+        "bows": "0",
+        "clip": "walkFront",
+        "name": "Kiểm thử 05",
+        "phase": "returning"
+      },
+      {
+        "bows": "0",
+        "clip": "walkRear",
+        "name": "Kiểm thử 06",
+        "phase": "moving"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 07",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 08",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 09",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 10",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 11",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 12",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 13",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 14",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 15",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 16",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 17",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 18",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 19",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 20",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 21",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 22",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 23",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 24",
+        "phase": "idle"
+      }
+    ],
+    "placed": [
+      "40af61ca-f213-43d4-a1be-ced7ddab89bc:placed",
+      "35b3622a-369d-4987-91cb-0e3fde41adf9:placed",
+      "5feb06cf-6ae1-4b6a-9af0-a697435a932d:placed",
+      "2000a152-6759-4906-bb38-5c1b0f07309e:placed"
+    ],
+    "scrollWidth": 1920,
+    "width": 1920
+  },
+  {
+    "label": "24-people-mobile-390",
+    "drawCallbacks": null,
+    "drawMs": null,
+    "fps": null,
+    "layout": "mobile",
+    "people": 24,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Bình An · Bạn",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "bowDown",
+        "name": "Kiểm thử 03",
+        "phase": "performing"
+      },
+      {
+        "bows": "0",
+        "clip": "walkFront",
+        "name": "Kiểm thử 04",
+        "phase": "returning"
+      },
+      {
+        "bows": "0",
+        "clip": "walkFront",
+        "name": "Kiểm thử 05",
+        "phase": "returning"
+      },
+      {
+        "bows": "0",
+        "clip": "walkRear",
+        "name": "Kiểm thử 06",
+        "phase": "moving"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 07",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 08",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 09",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 10",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 11",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 12",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 13",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 14",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 15",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 16",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 17",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 18",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 19",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 20",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 21",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 22",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 23",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 24",
+        "phase": "idle"
+      }
+    ],
+    "placed": [
+      "40af61ca-f213-43d4-a1be-ced7ddab89bc:placed",
+      "35b3622a-369d-4987-91cb-0e3fde41adf9:placed",
+      "5feb06cf-6ae1-4b6a-9af0-a697435a932d:placed",
+      "2000a152-6759-4906-bb38-5c1b0f07309e:placed"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "label": "24-people-mobile-steady",
+    "drawCallbacks": "10",
+    "drawMs": "0.887",
+    "fps": "30.0",
+    "layout": "mobile",
+    "people": 24,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Bình An · Bạn",
+        "phase": "idle"
+      },
+      {
+        "bows": "3",
+        "clip": "sitDown",
+        "name": "Kiểm thử 03",
+        "phase": "seating"
+      },
+      {
+        "bows": "0",
+        "clip": "stand",
+        "name": "Kiểm thử 04",
+        "phase": "rising"
+      },
+      {
+        "bows": "0",
+        "clip": "walkRear",
+        "name": "Kiểm thử 05",
+        "phase": "moving"
+      },
+      {
+        "bows": "0",
+        "clip": "offerRelease",
+        "name": "Kiểm thử 06",
+        "phase": "performing"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 07",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 08",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 09",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 10",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 11",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 12",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 13",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 14",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 15",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 16",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 17",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 18",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 19",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 20",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 21",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 22",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 23",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Kiểm thử 24",
+        "phase": "idle"
+      }
+    ],
+    "placed": [
+      "5feb06cf-6ae1-4b6a-9af0-a697435a932d:placed",
+      "f61cec91-ab9f-47fc-bf81-c300c8500061:placed",
+      "09f01728-9eda-42e4-b6a4-d1fd7e495fdb:placed",
+      "f3dc67a1-8cd9-433f-ab27-e762d281b11b:placed"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "label": "reduced-motion-live-room",
+    "drawCallbacks": "8",
+    "drawMs": "0.698",
+    "fps": "30.0",
+    "layout": "mobile",
+    "people": 2,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "Bình An · Bạn",
+        "phase": "idle"
+      }
+    ],
+    "placed": [
+      "f3dc67a1-8cd9-433f-ab27-e762d281b11b:placed",
+      "b8230998-3e24-4522-96b1-06452bd97f9c:placed",
+      "a15dbaa1-6f6a-459f-b229-73017d63326c:placed",
+      "c13893d3-bd29-4294-9b19-176654534d51:placed"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "label": "reduced-motion-during-walk",
+    "drawCallbacks": "2",
+    "drawMs": "0.229",
+    "fps": "30.0",
+    "layout": "mobile",
+    "people": 2,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "standFront",
+        "name": "Bình An · Bạn",
+        "phase": "moving"
+      }
+    ],
+    "placed": [
+      "c13893d3-bd29-4294-9b19-176654534d51:placed"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "label": "motion-restored-same-ritual",
+    "drawCallbacks": "2",
+    "drawMs": "0.229",
+    "fps": "30.0",
+    "layout": "mobile",
+    "people": 2,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      },
+      {
+        "bows": "0",
+        "clip": "walkRear",
+        "name": "Bình An · Bạn",
+        "phase": "moving"
+      }
+    ],
+    "placed": [
+      "c13893d3-bd29-4294-9b19-176654534d51:placed"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "label": "lotus-result-shared-mobile",
+    "drawCallbacks": "1",
+    "drawMs": "0.133",
+    "fps": "30.0",
+    "layout": "mobile",
+    "people": 2,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      },
+      {
+        "bows": "3",
+        "clip": "seated",
+        "name": "Bình An · Bạn",
+        "phase": "idle"
+      }
+    ],
+    "placed": [
+      "766b49bb-9c68-4db8-90a3-6085881c1442:placed"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "label": "late-snapshot-after-reload",
+    "drawCallbacks": null,
+    "drawMs": null,
+    "fps": null,
+    "layout": "mobile",
+    "people": 1,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      }
+    ],
+    "placed": [
+      "766b49bb-9c68-4db8-90a3-6085881c1442:placed"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "label": "final-build-observer",
+    "drawCallbacks": null,
+    "drawMs": null,
+    "fps": null,
+    "layout": "mobile",
+    "people": 1,
+    "phases": [
+      {
+        "bows": "0",
+        "clip": "seated",
+        "name": "An Nhiên",
+        "phase": "idle"
+      }
+    ],
+    "placed": [],
+    "scrollWidth": 390,
+    "width": 390
+  }
+]

@@ -1,0 +1,507 @@
+{
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "frames": [
+    {
+      "cell": 0,
+      "source": "reference",
+      "scale": 0.33,
+      "sourcePivot": [
+        605,
+        1204
+      ],
+      "sourceHand": null,
+      "bounds": [
+        142,
+        79,
+        253,
+        467
+      ]
+    },
+    {
+      "cell": 1,
+      "source": "front",
+      "scale": 0.33,
+      "sourcePivot": [
+        585,
+        1235
+      ],
+      "sourceHand": null,
+      "bounds": [
+        134,
+        68,
+        257,
+        468
+      ]
+    },
+    {
+      "cell": 2,
+      "source": "crouch",
+      "scale": 0.23,
+      "sourcePivot": [
+        790,
+        1170
+      ],
+      "sourceHand": null,
+      "bounds": [
+        62,
+        212,
+        228,
+        476
+      ]
+    },
+    {
+      "cell": 3,
+      "source": "kneel",
+      "scale": 0.23,
+      "sourcePivot": [
+        740,
+        1155
+      ],
+      "sourceHand": null,
+      "bounds": [
+        108,
+        221,
+        227,
+        472
+      ]
+    },
+    {
+      "cell": 4,
+      "source": "seated",
+      "scale": 0.23,
+      "sourcePivot": [
+        650,
+        1110
+      ],
+      "sourceHand": null,
+      "bounds": [
+        107,
+        233,
+        269,
+        473
+      ]
+    },
+    {
+      "cell": 5,
+      "source": "kneel",
+      "scale": 0.23,
+      "sourcePivot": [
+        740,
+        1155
+      ],
+      "sourceHand": null,
+      "bounds": [
+        108,
+        221,
+        227,
+        472
+      ]
+    },
+    {
+      "cell": 6,
+      "source": "bow-mid",
+      "scale": 0.23,
+      "sourcePivot": [
+        710,
+        1135
+      ],
+      "sourceHand": null,
+      "bounds": [
+        79,
+        263,
+        289,
+        475
+      ]
+    },
+    {
+      "cell": 7,
+      "source": "bow-low",
+      "scale": 0.25,
+      "sourcePivot": [
+        650,
+        1050
+      ],
+      "sourceHand": null,
+      "bounds": [
+        57,
+        308,
+        316,
+        477
+      ]
+    },
+    {
+      "cell": 8,
+      "source": "bow-floor",
+      "scale": 0.25,
+      "sourcePivot": [
+        630,
+        1050
+      ],
+      "sourceHand": null,
+      "bounds": [
+        48,
+        325,
+        331,
+        473
+      ]
+    },
+    {
+      "cell": 9,
+      "source": "offer-chest",
+      "scale": 0.33,
+      "sourcePivot": [
+        610,
+        1204
+      ],
+      "sourceHand": [
+        728,
+        292
+      ],
+      "bounds": [
+        145,
+        80,
+        248,
+        470
+      ]
+    },
+    {
+      "cell": 10,
+      "source": "offer-raise",
+      "scale": 0.27,
+      "sourcePivot": [
+        500,
+        1460
+      ],
+      "sourceHand": [
+        622,
+        226
+      ],
+      "bounds": [
+        147,
+        94,
+        262,
+        469
+      ]
+    },
+    {
+      "cell": 11,
+      "source": "offer-reach",
+      "scale": 0.27,
+      "sourcePivot": [
+        470,
+        1500
+      ],
+      "sourceHand": [
+        800,
+        530
+      ],
+      "bounds": [
+        133,
+        74,
+        301,
+        470
+      ]
+    },
+    {
+      "cell": 12,
+      "source": "offer-place",
+      "scale": 0.27,
+      "sourcePivot": [
+        450,
+        1490
+      ],
+      "sourceHand": [
+        872,
+        520
+      ],
+      "bounds": [
+        123,
+        80,
+        313,
+        471
+      ]
+    },
+    {
+      "cell": 13,
+      "source": "offer-release",
+      "scale": 0.27,
+      "sourcePivot": [
+        450,
+        1490
+      ],
+      "sourceHand": [
+        910,
+        615
+      ],
+      "bounds": [
+        125,
+        77,
+        332,
+        471
+      ]
+    },
+    {
+      "cell": 14,
+      "source": "walk-rear:0",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        112,
+        81,
+        268,
+        470
+      ]
+    },
+    {
+      "cell": 15,
+      "source": "walk-rear:1",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        118,
+        81,
+        276,
+        468
+      ]
+    },
+    {
+      "cell": 16,
+      "source": "walk-rear:2",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        115,
+        81,
+        278,
+        455
+      ]
+    },
+    {
+      "cell": 17,
+      "source": "walk-rear:3",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        109,
+        81,
+        272,
+        457
+      ]
+    },
+    {
+      "cell": 18,
+      "source": "walk-rear:4",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        104,
+        78,
+        266,
+        464
+      ]
+    },
+    {
+      "cell": 19,
+      "source": "walk-rear:5",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        105,
+        77,
+        265,
+        459
+      ]
+    },
+    {
+      "cell": 20,
+      "source": "walk-rear:6",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        127,
+        78,
+        270,
+        462
+      ]
+    },
+    {
+      "cell": 21,
+      "source": "walk-rear:7",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        122,
+        78,
+        265,
+        463
+      ]
+    },
+    {
+      "cell": 22,
+      "source": "walk-front-alpha:0",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        104,
+        80,
+        273,
+        471
+      ]
+    },
+    {
+      "cell": 23,
+      "source": "walk-front-alpha:1",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        112,
+        80,
+        269,
+        471
+      ]
+    },
+    {
+      "cell": 24,
+      "source": "walk-front-alpha:2",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        116,
+        80,
+        269,
+        471
+      ]
+    },
+    {
+      "cell": 25,
+      "source": "walk-front-alpha:3",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        430
+      ],
+      "sourceHand": null,
+      "bounds": [
+        109,
+        80,
+        280,
+        468
+      ]
+    },
+    {
+      "cell": 26,
+      "source": "walk-front-alpha:4",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        110,
+        77,
+        270,
+        467
+      ]
+    },
+    {
+      "cell": 27,
+      "source": "walk-front-alpha:5",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        109,
+        77,
+        266,
+        468
+      ]
+    },
+    {
+      "cell": 28,
+      "source": "walk-front-alpha:6",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        110,
+        77,
+        277,
+        468
+      ]
+    },
+    {
+      "cell": 29,
+      "source": "walk-front-alpha:7",
+      "scale": 0.92,
+      "sourcePivot": [
+        235,
+        434
+      ],
+      "sourceHand": null,
+      "bounds": [
+        107,
+        77,
+        282,
+        462
+      ]
+    }
+  ]
+}

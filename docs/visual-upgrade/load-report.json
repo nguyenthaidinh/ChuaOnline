@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-11-04T02:06:45.296Z",
+  "ownedClients": 22,
+  "initialBrowserGuests": 2,
+  "maxPeople": 24,
+  "maxActions": 4,
+  "sseEvents": 1946,
+  "sseBytes": 9986107,
+  "actions": 31,
+  "errors": [],
+  "endedAt": "2026-11-04T02:08:25.466Z",
+  "remainingPeople": 2
+}

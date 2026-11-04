@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Saigon",
+  "scope": "local only",
+  "baseline": "ba6b787",
+  "localTag": "visual-upgrade-v1",
+  "checks": {
+    "typecheck": "passed",
+    "tests": {
+      "passed": 33,
+      "failed": 0
+    },
+    "build": "passed",
+    "videoDecode": "passed",
+    "essentialAssetFailureAndRetry": "passed",
+    "finalDesktopViewport": {
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1366,
+      "scrollHeight": 768
+    },
+    "normalProductionConsoleErrors": []
+  },
+  "evidence": {
+    "browser": "browser-checks.json",
+    "load": "load-report.json",
+    "assets": "asset-inventory.json",
+    "video": "video-verification.json"
+  },
+  "limits": [
+    "Key-pose transitions remain stepped",
+    "Only front/rear view families",
+    "No physical phone or listening evaluation",
+    "No browser-level network-disconnect or hidden-tab end-to-end test",
+    "Not published or pushed"
+  ],
+  "cleanup": {
+    "remainingPeople": 0,
+    "previewStopped": true,
+    "browserTabsClosed": true,
+    "viewportReset": true
+  }
+}

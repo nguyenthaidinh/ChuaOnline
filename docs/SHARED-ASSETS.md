@@ -1,5 +1,11 @@
 # Nguồn ảnh cho giao diện phòng chung
 
+**Cập nhật 04/11/2026:** ảnh đang hiển thị đã được thay bằng bộ gốc `visual-v2`.
+Xem `VISUAL-ANIMATION-UPGRADE-REPORT.md` và `visual-upgrade/asset-inventory.json`.
+Nguồn tạo/prompt/tham chiếu nằm ở `artwork/visual-v2/generation-prompts.json`.
+Nội dung bên dưới lưu nguồn của bản trước; các ảnh Tân Phát không còn được renderer
+chính tải. Hai bài nhạc Tân Phát vẫn giữ nguồn và điều kiện như phần ghi chép cũ.
+
 Nguồn người dùng chỉ định: `F:\Dự Án Chung\ChuaTanPhat\assets`.
 Thư mục nguồn không bị sửa. Lấy các file ảnh và nhạc để dùng trong giao diện React mới;
 không sao chép JS/CSS, API tặng quà hoặc 12 nhân vật demo của dự án tham chiếu.

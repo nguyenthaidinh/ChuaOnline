@@ -1,0 +1,33 @@
+{
+  "captureMethod": "Timed screenshots from the actual production browser using CUA, encoded as VFR H.264; no synthetic animation or audio track",
+  "capturedFrames": 505,
+  "capturedSeconds": 28.172,
+  "observedFloorBows": 3,
+  "observedBowCounts": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1366,
+        "height": 768,
+        "avg_frame_rate": "6325/353"
+      }
+    ],
+    "format": {
+      "duration": "28.240000",
+      "size": "829413"
+    }
+  },
+  "labels": {
+    "final-entry": 119,
+    "final-bow": 241,
+    "final-incense": 145
+  }
+}

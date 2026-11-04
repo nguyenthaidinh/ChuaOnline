@@ -35,7 +35,9 @@ test('late joiners sample the same three-bow sequence and server completes it on
   const room = new TempleRoom(() => now);
   const a = room.join('A', 'man');
   room.action(a.token, 'bow', 'request-0001');
-  now += 7000;
+  const current = room.snapshot().people[0].action!;
+  now = current.startedAt;
+  while (sampleSharedRitual(current, now).phase !== 'performing') now += 20;
   const b = room.join('B', 'woman');
   const remote = b.room.people.find(person => person.id === a.selfId)!.action!;
   const one = sampleSharedRitual(remote, now);

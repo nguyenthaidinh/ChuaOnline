@@ -4,8 +4,9 @@ Bản hiện tại cho nhiều khách cùng xuất hiện trong một chánh đi
 y phục và chỗ ngồi riêng; mọi khách thấy nhân vật và nghi lễ của nhau. Số người là
 khách đang tham gia thật, không có người mẫu hoặc số trực tuyến giả.
 
-Giao diện dùng ảnh và nhân vật từ thư mục ChuaTanPhat do người dùng chỉ định.
-Bản ngang được tạo theo ảnh chánh điện đó, không dùng nền SVG tạm trước đây.
+Giao diện hiện dùng bộ hình gốc `visual-v2` tạo bằng image_gen: nền ngang/dọc,
+ba y phục, bồ đoàn và vật phẩm tách rời. Bộ tham chiếu ChuaTanPhat còn lưu để
+đối chiếu lịch sử; ảnh và sprite cũ không còn nằm trong đường render chính.
 
 ## Chạy để phát triển
 
@@ -54,13 +55,22 @@ Khách vào sau thấy đúng tiến độ đang chạy. Nhạc/chuông là âm 
 chỉ phát sau thao tác. Tên hiển thị công khai trong phòng và dài tối đa 32 ký tự.
 
 Nhân vật đi vào và ngồi xuống; khi làm lễ sẽ đứng dậy, đi lên, thực hiện nghi lễ,
-trở về rồi ngồi lại. Dâng lễ có bốn lựa chọn miễn phí: hương, hoa sen, cánh sen và
-thỉnh chuông. Hoạt ảnh dùng tám khung hình đi/ngồi của Tân Phát; cúi lạy mô phỏng
-bằng biến đổi sprite 2D.
+trở về rồi ngồi lại. Renderer đọc atlas/clip/pivot/điểm tay từ manifest. Có ảnh mặt
+cho chiều quay về, tư thế quỳ và lạy sát sàn, không co/xoay cả ảnh để giả lạy.
+Bồ đoàn ở lại chỗ. Đường đi đo theo quãng đường trên cùng mặt sàn logic cho mọi
+viewport; server đóng dấu thời lượng riêng cho từng đường đi.
+
+Dâng lễ có bốn lựa chọn miễn phí: hương, hoa sen, cánh sen và thỉnh chuông.
+Hương chuyển từ tay vào lư tại mốc đặt, sau đó mới có khói nhỏ. Sen đặt lên bàn,
+cánh sen rơi xuống sàn, chuông có mốc chạm riêng. Server giữ kết quả tối đa
+60 giây (cánh sen 8 giây), tối đa 12 vật, ba bó hương hoặc một khay sen mỗi vị trí.
+Đổi loại nghi lễ sẽ dọn vật của bố trí trước tại vị trí đó.
 
 Trong Âm thanh, chọn **Trăng trên rừng trúc**, **Hơi thở ban mai** hoặc **Nhạc thư giãn**.
 Có bật/tắt, bài tiếp theo, chỉnh âm lượng, chuông và mõ. Nhạc chỉ tải khi bấm bật;
 đổi bài dùng lại một bộ phát. Âm lượng 0 tắt cả nhạc và tiếng chuông/mõ.
+Có Giảm chuyển động trong menu Âm thanh, áp dụng cả chuyển động bằng JS.
+Ảnh thiết yếu được tải/decode trước khi cho vào điện; lỗi ảnh có nút tải lại.
 
 ## Vận hành hiện tại
 
@@ -69,7 +79,10 @@ Có bật/tắt, bài tiếp theo, chỉnh âm lượng, chuông và mõ. Nhạc
 - Khi đóng tab, trình duyệt gửi yêu cầu rời phòng. Mất kết nối không gửi được yêu cầu:
   khách được dọn sau khoảng 90 giây không có heartbeat.
 - Chưa có tài khoản, lịch sử lâu dài hoặc đồng bộ giữa nhiều máy chủ.
-- Đã kiểm tra hai tab trình duyệt và giao tiếp HTTP/SSE; chưa thử tải 24 thiết bị thật.
+- Đã kiểm tra hai tab, mô phỏng 22 client HTTP/SSE cộng hai khách trình duyệt:
+  24 người và bốn nghi lễ đồng thời; chưa thử 24 thiết bị thật.
+- Bộ hình 2D dùng tư thế chính và các frame đi bộ; chuyển tư thế còn cảm giác
+  từng khung, chưa đạt mức chuyển động mượt của nhân vật có rig.
 
 **Bản này cần máy chủ Node để chia sẻ phòng. Chỉ tải dist lên hosting tĩnh sẽ không
 đủ. Chưa triển khai công khai lên Internet.** Người truy cập bản được triển khai chỉ
@@ -77,12 +90,15 @@ cần trình duyệt, không cần cài Node trên thiết bị của họ.
 
 ## Tài liệu
 
+- [Báo cáo nâng cấp hình ảnh và hoạt ảnh hiện tại](docs/VISUAL-ANIMATION-UPGRADE-REPORT.md)
+- [Video chuỗi nghi lễ](docs/visual-upgrade/ritual-sequence.mp4)
 - [Báo cáo bản phòng chung và giao diện mới](docs/SHARED-ROOM.md)
 - [Kiểm tra hai tab](docs/shared-room-browser-checks.json)
 - [Nguồn tài nguyên và ảnh mở rộng](docs/SHARED-ASSETS.md)
 - [Hoạt ảnh, lễ vật và âm thanh](docs/OFFERINGS-AUDIO.md)
 
-Mốc Git mới: shared-offerings-audio-v1. Bản phòng chung trước còn ở shared-room-v1;
+Mốc Git mới: visual-upgrade-v1 (local). Bản trước ở shared-offerings-audio-v1.
+Bản phòng chung trước còn ở shared-room-v1;
 bản trước phòng chung còn ở stage-3-responsive-web.
 Các báo cáo STAGE-0-1/2/3 là lịch sử phạm vi cũ; quyết định dùng phiên riêng/hosting
 thuần tĩnh trong các báo cáo đó đã được thay bằng yêu cầu phòng chung của người dùng.
