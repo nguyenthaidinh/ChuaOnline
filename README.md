@@ -66,10 +66,16 @@ cánh sen rơi xuống sàn, chuông có mốc chạm riêng. Server giữ kết
 60 giây (cánh sen 8 giây), tối đa 12 vật, ba bó hương hoặc một khay sen mỗi vị trí.
 Đổi loại nghi lễ sẽ dọn vật của bố trí trước tại vị trí đó.
 
-Trong Âm thanh, chọn **Trăng trên rừng trúc**, **Hơi thở ban mai** hoặc **Nhạc thư giãn**.
-Có bật/tắt, bài tiếp theo, chỉnh âm lượng, chuông và mõ. Nhạc chỉ tải khi bấm bật;
+Nút **Bật nhạc** phát ngay và mở bảng âm thanh. Khi vào điện có tùy chọn bật nhạc thiền.
+Chọn **Trăng trên rừng trúc**, **Hơi thở ban mai** hoặc **Nhạc thư giãn**.
+Có bật/tắt, bài tiếp theo, chỉnh âm lượng, chuông và mõ. Nhạc chỉ tải sau thao tác bật;
 đổi bài dùng lại một bộ phát. Âm lượng 0 tắt cả nhạc và tiếng chuông/mõ.
 Có Giảm chuyển động trong menu Âm thanh, áp dụng cả chuyển động bằng JS.
+
+Lời chúc có 80 câu, xáo ngẫu nhiên không lặp cho đến hết lượt; có nút nhận câu khác.
+Khi dâng lễ, hương/hoa/chuông/cánh sen hiện thêm ở trước tượng Phật trong 6 giây,
+đồng bộ theo mốc dâng của phòng chung. Sau khi về chỗ không hiện lời cảm ơn dùng vật phẩm.
+Ảnh và kết quả kiểm tra: [lời chúc, hiệu ứng bàn thờ và nhạc](docs/offering-blessing-audio/README.md).
 Ảnh thiết yếu được tải/decode trước khi cho vào điện; lỗi ảnh có nút tải lại.
 
 ## Vận hành hiện tại

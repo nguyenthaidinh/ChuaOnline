@@ -31,9 +31,18 @@ test('music stays lazy and changing tracks reuses one audio player',async()=>{
 });
 test('volume affects both music and the master gain, including immediate mute',async()=>{
   const {engine,audio,gain}=setup();
-  await engine.startMusic();engine.setVolume(0);
+  await engine.unlock();await engine.startMusic();engine.setVolume(0);
   assert.equal(audio.volume,0);assert.equal(gain.gain.value,0);
   engine.setVolume(4);assert.equal(audio.volume,1);assert.equal(gain.gain.value,1);
+  engine.dispose();
+});
+
+test('music calls play during the click even when Web Audio cannot resume',async()=>{
+  const audio=new FakeAudio();let contexts=0;
+  const engine=new SoundEngine({createAudio:()=>audio as unknown as HTMLAudioElement,createContext:()=>{contexts++;throw new Error('unavailable');}});
+  const pending=engine.startMusic('bamboo');
+  assert.equal(audio.plays,1);assert.equal(contexts,0);
+  assert.equal(await pending,true);
   engine.dispose();
 });
 test('an older pending play cannot pause the newer selected track',async()=>{

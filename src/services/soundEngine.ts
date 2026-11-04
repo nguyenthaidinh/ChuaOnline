@@ -5,7 +5,7 @@ export class SoundEngine {
   private master: GainNode | null = null;
   private music: HTMLAudioElement | null = null;
   private voices: OscillatorNode[] = [];
-  private volume = 0.18;
+  private volume = 0.4;
   private generation = 0;
   private wanted = false;
   private track: MusicTrackId | null = null;
@@ -29,8 +29,8 @@ export class SoundEngine {
   async startMusic(track: MusicTrackId = 'bamboo') {
     const request = ++this.generation;
     this.wanted = true;
-    await this.unlock();
-    if (request !== this.generation) return false;
+    // Call play directly inside the user's gesture. Music does not need Web Audio;
+    // awaiting a context resume first can lose activation on mobile browsers.
     this.music ??= this.createAudio();
     const audio = this.music;
     audio.loop = true; audio.preload = 'none'; audio.volume = this.volume;

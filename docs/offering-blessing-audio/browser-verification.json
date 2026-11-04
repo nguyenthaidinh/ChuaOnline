@@ -1,0 +1,28 @@
+{
+  "audioFirst": {
+    "currentTime": 14.421457,
+    "error": null,
+    "paused": false,
+    "readyState": 4,
+    "src": "./assets/tanphat/music/music1.mp3"
+  },
+  "audioThird": {
+    "currentTime": 0.426115,
+    "error": null,
+    "paused": false,
+    "readyState": 4,
+    "src": "./assets/audio/chill_relax.mp3"
+  },
+  "blessingSamples": [
+    "Nguyện bạn còn thấy vui trước một bông hoa nở và một câu hỏi thăm giản dị.",
+    "Nguyện bạn nhìn thấy giá trị của từng bước nhỏ trên hành trình mình đang đi.",
+    "Chúc bạn đủ bình tĩnh trước một lời khó nghe và đủ rộng lòng trước một khác biệt.",
+    "Chúc bạn hôm nay có một niềm vui nhỏ, một hơi thở sâu và một giấc ngủ an lành.",
+    "Mong những băn khoăn dần sáng tỏ khi bạn bình tĩnh nhìn lại từng việc một.",
+    "Nguyện bạn khép ngày bằng việc nhớ đến một điều tốt đẹp đã thực sự xảy ra.",
+    "Nguyện lòng bạn có thêm khoảng trống cho những điều giản dị mà đẹp đẽ.",
+    "Mong bạn bớt vội vàng, giữ đôi vai thư giãn và dành cho mình một giấc ngủ sớm.",
+    "Chúc bạn tìm được nhịp sống vừa sức, có thời gian đi bộ và hít thở dưới trời xanh.",
+    "Nguyện bạn có những đêm ngủ sâu và những buổi sáng thức dậy nhẹ lòng hơn."
+  ]
+}

@@ -7,7 +7,23 @@ import {actionMovement,entryRoute,ritualRoute,sampleRoute} from '../src/room/mot
 import {InteractionCueGate} from '../src/room/interactionCue.ts';
 import {offeringCandidates,visibleOfferings} from '../src/room/placedOfferings.ts';
 import {RoomClock} from '../src/room/clock.ts';
+import {shrineEffectCandidates,SHRINE_EFFECT_MS} from '../src/room/shrineTimeline.ts';
 import type {SharedAction,OfferingKind} from '../src/room/protocol.ts';
+
+test('shrine effects share the exact contact time, deduplicate SSE and include bell without leaving a fake offering',()=>{
+ let now=1000;const room=new TempleRoom(()=>now);
+ const guests=(['incense','lotus','petal','bell'] as const).map((kind,i)=>{const guest=room.join(`A${i}`,'man');room.action(guest.token,kind,`shrine-${kind}`);return guest;});
+ const pending=shrineEffectCandidates(room.snapshot());
+ assert.equal(pending.length,4);assert.equal(new Set(pending.map(item=>item.kind)).size,4);
+ for(const person of room.snapshot().people)assert.equal(pending.find(item=>item.id===person.action!.id)?.at,interactionTime(person.action!));
+ now=Math.max(...pending.map(item=>item.at))+1;room.sweep();
+ assert.equal(room.snapshot().offerings.some(item=>item.kind==='bell'),false);
+ assert.deepEqual(shrineEffectCandidates(room.snapshot()),pending);
+ const late=room.join('Late','woman');assert.deepEqual(shrineEffectCandidates(late.room),pending);
+ now=Math.max(...pending.map(item=>item.at))+SHRINE_EFFECT_MS;room.sweep();
+ assert.deepEqual(shrineEffectCandidates(room.snapshot()),[]);
+ guests.forEach(guest=>room.leave(guest.token));
+});
 
 test('entry reaches its own fixed seat before sitting; manifest provides front and rear walking',()=>{
  for(const seat of [0,5,12,23]) {
