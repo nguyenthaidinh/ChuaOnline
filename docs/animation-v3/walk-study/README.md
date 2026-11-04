@@ -32,6 +32,9 @@ Một chu kỳ đi 0,95 m theo hướng chéo, đồng hồ authoring dài 1,2 g
 Nhịp authoring này không khẳng định là vận tốc di chuyển server 1,45 m/s.
 
 `CandidatePreview` kiểm manifest, ID trùng, kích thước atlas thật và có timeout/tải lại.
+URL atlas mang SHA-256 của nội dung để trình duyệt không dùng nhầm atlas nháp đã cache.
+Đồng hồ preview bỏ delta RAF âm ở lần phát đầu; chỉ số khung luôn được chặn trong miền hợp lệ.
+Nút tua bước dùng chỉ số nguyên để không bỏ/lặp khung do tích lũy số thực.
 Ảnh thử nằm ngoài `public/`; các module kiểm mẫu chỉ được import ở dev nên chưa đưa vào bản production.
 
 ## Kết quả đã xem và đo
@@ -40,13 +43,15 @@ Nhịp authoring này không khẳng định là vận tốc di chuyển server 
 - Quan sát nhân vật/tóc/màu áo không bị đổi rõ giữa các khung. Trong vùng kiểm alpha đầu cố định,
   các biên đo được chỉ thay đổi tối đa 1 px; số này là chỉ báo căn hình, không thay thế kiểm khuôn mặt
   hoặc giải phẫu. Vùng kiểm không được dùng để tự căn hoặc đổi scale.
-- Đã xem vòng lặp và đoạn nối 11→00, thử bước trên sàn, ghi được đủ 12 ID tư thế trong video thực.
-- [Video phòng thử ở 0,25×](floor-review.mp4): 32 ảnh chụp trình duyệt, khoảng 6,7 giây,
-  giữ timestamp thật. [Số liệu ghi hình](recording.json).
+- Đã xem vòng lặp và đoạn nối 11→00, thử bước trên sàn. [Tua bước qua UI](step-verification.json)
+  xác nhận đủ 12 ID theo đúng thứ tự, không bỏ/lặp khung.
+- [Video phòng thử ở 0,25×](floor-review.mp4): 32 ảnh chụp trình duyệt, khoảng 15,7 giây,
+  giữ timestamp thật; lấy mẫu được 11/12 ID, không phải video xuất liên tục mọi frame.
+  Vòng WebP nguồn chứa đủ 12 frame. [Số liệu ghi hình](recording.json).
 - [So sánh sprite cũ và mới](comparison.png), [ảnh phòng thử](floor-study.png).
 - [Mobile 390×844](mobile.png): không tràn ngang, sprite giữ tỷ lệ 3:4 và phòng thử đổi sang nền dọc.
-  [Số liệu mobile](mobile-verification.json). Console không có cảnh báo/lỗi lúc kiểm tra.
-- Typecheck, 39 test và build đạt; audit 480 action/207.765 mẫu vẫn khớp bản trước.
+  [Số liệu mobile](mobile-verification.json). Sau sửa cache và clock, không ghi cảnh báo/lỗi mới ở lượt kiểm cuối.
+- Typecheck, 42 test và build đạt; audit 480 action/207.765 mẫu vẫn khớp bản trước.
   Không gọi việc test code đạt là chứng nhận đã hoàn tất mỹ thuật.
 
 ## Điều kiện còn thiếu để hoàn thành chặng 1

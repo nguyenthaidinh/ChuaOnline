@@ -1,4 +1,5 @@
 {
+  "atlasStyle": "background-image: url(\"/artwork/animation-v3/walk-v1/walk-atlas.webp?v=7c4e92fda8fa2bca8b2844e5b4e458b6fff8200dee83d520a87bc79dc6bc7381\"); background-size: 400% 300%; background-position: 0% 0%; aspect-ratio: 384 / 512;",
   "layout": "mobile",
   "scrollWidth": 375,
   "spriteHeight": 455.4624938964844,

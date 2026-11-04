@@ -4,6 +4,7 @@
   "image": "walk-atlas.webp",
   "width": 384,
   "height": 512,
+  "imageHash": "7c4e92fda8fa2bca8b2844e5b4e458b6fff8200dee83d520a87bc79dc6bc7381",
   "columns": 4,
   "rows": 3,
   "durationMs": 1200,

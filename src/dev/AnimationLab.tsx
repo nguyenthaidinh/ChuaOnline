@@ -4,6 +4,7 @@ import { CLIP_MS, type ClipId } from '../shared/ritualSchedule';
 import { roomAssets } from '../room/layout';
 import { RigPreview, type RigClip } from './RigPreview';
 import { CandidatePreview } from './CandidatePreview';
+import { advancePreviewProgress, stepPreviewProgress } from './previewClock';
 import type { Appearance } from '../room/protocol';
 import './animationLab.css';
 
@@ -41,7 +42,7 @@ export default function AnimationLab() {
       const elapsed = now - previous;
       previous = now;
       // A hidden tab pauses the authoring clock; production uses server time instead.
-      if (!document.hidden && elapsed < 500) setProgress(value => (value + elapsed * speed / previewDurationMs) % 1);
+      if (!document.hidden) setProgress(value => advancePreviewProgress(value, elapsed, speed, previewDurationMs));
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
@@ -50,7 +51,7 @@ export default function AnimationLab() {
 
   const step = (delta: number) => {
     setPlaying(false);
-    setProgress(value => Math.max(0, Math.min(0.999, value + delta / 12)));
+    setProgress(value => stepPreviewProgress(value, delta));
   };
 
   return <main className="animation-lab">

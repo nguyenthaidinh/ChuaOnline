@@ -101,6 +101,7 @@ def main():
     manifest = {
         'status': 'draft' if missing else 'complete-unreviewed', 'missing': missing,
         'image': 'walk-atlas.webp', 'width': CANVAS[0], 'height': CANVAS[1],
+        'imageHash': hashlib.sha256((SOURCE / 'walk-atlas.webp').read_bytes()).hexdigest(),
         'columns': columns, 'rows': rows, 'durationMs': 1200, 'groundPivot': list(GROUND_PIVOT),
         'frames': audit,
     }

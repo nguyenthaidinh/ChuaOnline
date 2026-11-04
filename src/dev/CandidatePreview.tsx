@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { actorMetrics, projectFloor, roomAssets } from '../room/layout';
 import { useSceneLayout } from '../hooks/useSceneLayout';
+import { candidateFrameIndex } from './previewClock';
 
 interface CandidateFrame {
   id: string;
@@ -10,6 +11,7 @@ interface CandidateFrame {
 interface CandidateAtlas {
   status: 'draft' | 'complete-unreviewed';
   image: string;
+  imageHash: string;
   width: number;
   height: number;
   columns: number;
@@ -31,6 +33,9 @@ function parseAtlas(value: unknown): CandidateAtlas {
   }
   if (typeof data.image !== 'string' || !/^[a-z0-9-]+\.webp$/.test(data.image)) {
     throw new Error('Đường dẫn atlas không hợp lệ.');
+  }
+  if (typeof data.imageHash !== 'string' || !/^[a-f0-9]{64}$/.test(data.imageHash)) {
+    throw new Error('Manifest thiếu phiên bản nội dung ảnh.');
   }
   if (!Array.isArray(data.frames) || !data.frames.length || data.frames.some(frame =>
     !frame || typeof frame.id !== 'string' || typeof frame.phase !== 'string')) {
@@ -67,7 +72,7 @@ export function CandidatePreview({ progress, guides, floorStudy = false }: { pro
       if (!response.ok) throw new Error('Chưa có bản atlas thử. Hãy xuất tài nguyên rồi tải lại bản thử.');
       const manifest = parseAtlas(await response.json());
       const image = new Image();
-      image.src = `${CANDIDATE_ROOT}${manifest.image}?revision=${attempt}`;
+      image.src = `${CANDIDATE_ROOT}${manifest.image}?v=${manifest.imageHash}`;
       await image.decode();
       if (image.naturalWidth !== manifest.width * manifest.columns || image.naturalHeight !== manifest.height * manifest.rows) {
         throw new Error('Kích thước ảnh thật không khớp manifest.');
@@ -79,7 +84,7 @@ export function CandidatePreview({ progress, guides, floorStudy = false }: { pro
     return () => { window.clearTimeout(timeout); abort.abort(); };
   }, [attempt]);
 
-  const index = atlas ? Math.min(atlas.frames.length - 1, Math.floor(progress * atlas.frames.length)) : 0;
+  const index = atlas ? candidateFrameIndex(progress, atlas.frames.length) : 0;
   // Match the current 0.95 m gait stride; the authoring clock plays a cycle in 1.2 s.
   const axisDistance = 0.95 / Math.SQRT2;
   const point = { x: -1.5 + progress * axisDistance, z: 4.6 - progress * axisDistance };
@@ -89,7 +94,7 @@ export function CandidatePreview({ progress, guides, floorStudy = false }: { pro
     return <div className="lab-walk-room" data-layout={layout.id} style={{ backgroundImage: `url('${roomAssets.hall[layout.id]}')` }} aria-label="Đi thử một chu kỳ trên sàn chánh điện">
       {atlas && <div className="lab-floor-sprite" data-floor-frame={atlas.frames[index].id} style={{
         left: `${projected.x}%`, top: `${projected.y}%`, height: `${metrics.canvasHeight}%`,
-        backgroundImage: `url('${CANDIDATE_ROOT}${atlas.image}?revision=${attempt}')`,
+        backgroundImage: `url('${CANDIDATE_ROOT}${atlas.image}?v=${atlas.imageHash}')`,
         backgroundSize: `${atlas.columns * 100}% ${atlas.rows * 100}%`,
         backgroundPosition: `${index % atlas.columns / Math.max(1, atlas.columns - 1) * 100}% ${Math.floor(index / atlas.columns) / Math.max(1, atlas.rows - 1) * 100}%`,
       }} />}
@@ -98,7 +103,7 @@ export function CandidatePreview({ progress, guides, floorStudy = false }: { pro
   }
   return <>
     {atlas ? <div className="lab-sprite" data-candidate-frame={atlas.frames[index].id} style={{
-      backgroundImage: `url('${CANDIDATE_ROOT}${atlas.image}?revision=${attempt}')`,
+      backgroundImage: `url('${CANDIDATE_ROOT}${atlas.image}?v=${atlas.imageHash}')`,
       backgroundSize: `${atlas.columns * 100}% ${atlas.rows * 100}%`,
       backgroundPosition: `${index % atlas.columns / Math.max(1, atlas.columns - 1) * 100}% ${Math.floor(index / atlas.columns) / Math.max(1, atlas.rows - 1) * 100}%`,
       aspectRatio: `${atlas.width}/${atlas.height}`,
