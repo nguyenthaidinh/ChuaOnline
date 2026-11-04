@@ -8,6 +8,8 @@ import { DIRECTIONAL_ARTWORK } from './directionalMovementGeometry';
 import { FALLBACK_ARTWORK, type ArtworkAvailability } from './characterAnimation';
 import type { Appearance } from './protocol';
 import { RITUAL_ARTWORK } from './ritualPoseGeometry';
+import { EXPANDED_DIRECTION_ARTWORK } from './expandedDirectionGeometry';
+import { VARIANT_MOVEMENT } from './variantMovementGeometry';
 const decoded=new Map<string,Promise<void>>();
 export function decodeImage(url:string) {
   if(!decoded.has(url)) decoded.set(url,new Promise<void>((resolve,reject)=>{
@@ -29,7 +31,7 @@ export function useSceneAssets(layout:SceneLayoutId) {
 }
 
 /** Optional artwork cannot block entry or leave a shared action busy after a load failure. */
-export function useModernIncenseAssets() {
+export function useCharacterArtwork() {
   const [ready,setReady]=useState<ArtworkAvailability>(FALLBACK_ARTWORK);
   useEffect(()=>{
     let live=true;
@@ -38,6 +40,13 @@ export function useModernIncenseAssets() {
       .then(()=>{if(live)setReady(current=>({...current,movement:true}));}).catch(()=>{/* Keep fallback. */});
     void decodeImage(base+DIRECTIONAL_ARTWORK.image)
       .then(()=>{if(live)setReady(current=>({...current,directions:true}));}).catch(()=>{/* Independent direction fallback. */});
+    void decodeImage(base+EXPANDED_DIRECTION_ARTWORK.image)
+      .then(()=>{if(live)setReady(current=>({...current,expandedDirections:true}));}).catch(()=>{/* Keep the other heading banks available. */});
+    for(const appearance of ['woman','granny'] as const){
+      void decodeImage(base+VARIANT_MOVEMENT[appearance].asset.image).then(()=>{
+        if(live)setReady(current=>({...current,variantMovement:{woman:false,granny:false,...current.variantMovement,[appearance]:true}}));
+      }).catch(()=>{/* This identity retains its original movement poses. */});
+    }
     const incense={man:INCENSE_ARTWORK,woman:INCENSE_VARIANTS.woman.asset,granny:INCENSE_VARIANTS.granny.asset};
     for(const appearance of Object.keys(incense) as Appearance[]){
       void decodeImage(base+incense[appearance].image).then(()=>{

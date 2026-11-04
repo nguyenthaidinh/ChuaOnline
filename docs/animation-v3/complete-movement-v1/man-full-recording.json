@@ -1,0 +1,1912 @@
+{
+  "captureStarted": 1793806037616,
+  "ended": 1793806055745,
+  "viewport": "1280x720",
+  "note": "Full-viewport production screenshot sampling in wall-clock order, DOM read after each screenshot; not atomic with pixels, no audio, not continuous video/FPS. Replaces clipped capture with incorrect origin.",
+  "frames": [
+    {
+      "file": "verified-0000.png",
+      "at": 1793806038017,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "standing",
+        "source": "22-rise-weight",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 100%; transform: translate(0.570052%, 0.526367%);"
+      }
+    },
+    {
+      "file": "verified-0001.png",
+      "at": 1793806038108,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "standing",
+        "source": "22-rise-weight",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 100%; transform: translate(0.570052%, 0.526367%);"
+      }
+    },
+    {
+      "file": "verified-0002.png",
+      "at": 1793806038202,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "standing",
+        "source": "15-rise-half-kneel",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 100% 60%; transform: translate(-0.877344%, 1.77637%);"
+      }
+    },
+    {
+      "file": "verified-0003.png",
+      "at": 1793806038309,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "standing",
+        "source": "16-rise-crouch",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 0% 80%; transform: translate(-0.271875%, -0.460547%);"
+      }
+    },
+    {
+      "file": "verified-0004.png",
+      "at": 1793806038426,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "standing",
+        "source": "02-stand-rear",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0005.png",
+      "at": 1793806038546,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "standing",
+        "source": "rear-stand",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 90.9091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0006.png",
+      "at": 1793806038807,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "frontLeft",
+        "held": "false",
+        "phase": "standing",
+        "source": "frontLeft-stand",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 90.9091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0007.png",
+      "at": 1793806038949,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "moving",
+        "source": "front-stand",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 100% 90.9091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0008.png",
+      "at": 1793806039110,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "moving",
+        "source": "front-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 54.5455%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0009.png",
+      "at": 1793806039244,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0010.png",
+      "at": 1793806039403,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0011.png",
+      "at": 1793806039541,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0012.png",
+      "at": 1793806039667,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-00-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0013.png",
+      "at": 1793806039787,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0014.png",
+      "at": 1793806039926,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-04-opposite-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0015.png",
+      "at": 1793806040054,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0016.png",
+      "at": 1793806040150,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-07-opposite-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0017.png",
+      "at": 1793806040243,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-00-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0018.png",
+      "at": 1793806040359,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0019.png",
+      "at": 1793806040491,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0020.png",
+      "at": 1793806040620,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0021.png",
+      "at": 1793806040734,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0022.png",
+      "at": 1793806040843,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-07-opposite-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0023.png",
+      "at": 1793806040946,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0024.png",
+      "at": 1793806041049,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0025.png",
+      "at": 1793806041142,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0026.png",
+      "at": 1793806041233,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0027.png",
+      "at": 1793806041343,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0028.png",
+      "at": 1793806041434,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-07-opposite-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0029.png",
+      "at": 1793806041548,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-00-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0030.png",
+      "at": 1793806041647,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0031.png",
+      "at": 1793806041762,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0032.png",
+      "at": 1793806041874,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0033.png",
+      "at": 1793806041988,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 33.3333%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0034.png",
+      "at": 1793806042105,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-00-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0035.png",
+      "at": 1793806042216,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0036.png",
+      "at": 1793806042330,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "left",
+        "held": "false",
+        "phase": "moving",
+        "source": "left-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0037.png",
+      "at": 1793806042462,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rearLeft",
+        "held": "false",
+        "phase": "moving",
+        "source": "rearLeft-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 27.2727%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0038.png",
+      "at": 1793806042602,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 9.09091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0039.png",
+      "at": 1793806042747,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-00-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0040.png",
+      "at": 1793806042879,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0041.png",
+      "at": 1793806042986,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0042.png",
+      "at": 1793806043120,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 9.09091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0043.png",
+      "at": 1793806043240,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 9.09091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0044.png",
+      "at": 1793806043351,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-00-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0045.png",
+      "at": 1793806043485,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0046.png",
+      "at": 1793806043596,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0047.png",
+      "at": 1793806043705,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 9.09091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0048.png",
+      "at": 1793806043793,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 9.09091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0049.png",
+      "at": 1793806043909,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "moving",
+        "source": "rear-stand",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 90.9091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0050.png",
+      "at": 1793806044002,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "00-neutral",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0051.png",
+      "at": 1793806044126,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "01-reach",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0052.png",
+      "at": 1793806044221,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "02-grasp",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0053.png",
+      "at": 1793806044328,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "02-grasp",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0054.png",
+      "at": 1793806044451,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "19-pickup-lift",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 80%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0055.png",
+      "at": 1793806044549,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "03-chest",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0056.png",
+      "at": 1793806044650,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "20-mid-lift",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0057.png",
+      "at": 1793806044753,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "20-mid-lift",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0058.png",
+      "at": 1793806044855,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "20-mid-lift",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0059.png",
+      "at": 1793806044981,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "04-lift",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0060.png",
+      "at": 1793806045092,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "05-forehead",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0061.png",
+      "at": 1793806045212,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "05-forehead",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0062.png",
+      "at": 1793806045326,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "06-bow-start",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0063.png",
+      "at": 1793806045449,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "06-bow-start",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0064.png",
+      "at": 1793806045551,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "06-bow-start",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0065.png",
+      "at": 1793806045642,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "07-bow-hold",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0066.png",
+      "at": 1793806045733,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "07-bow-hold",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0067.png",
+      "at": 1793806045831,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "07-bow-hold",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0068.png",
+      "at": 1793806045930,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "07-bow-hold",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0069.png",
+      "at": 1793806046042,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "07-bow-hold",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0070.png",
+      "at": 1793806046125,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "07-bow-hold",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0071.png",
+      "at": 1793806046236,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "08-bow-return",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0072.png",
+      "at": 1793806046352,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "08-bow-return",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0073.png",
+      "at": 1793806046460,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "10-extend",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0074.png",
+      "at": 1793806046588,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "10-extend",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0075.png",
+      "at": 1793806046694,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "09-lower",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0076.png",
+      "at": 1793806046809,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "09-lower",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0077.png",
+      "at": 1793806046930,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "11-near-burner",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0078.png",
+      "at": 1793806047061,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "11-near-burner",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0079.png",
+      "at": 1793806047203,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "12-contact-closed",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 60%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0080.png",
+      "at": 1793806047315,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "true",
+        "phase": "performing",
+        "source": "12-contact-closed",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 60%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0081.png",
+      "at": 1793806047425,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "13-release",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 60%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0082.png",
+      "at": 1793806047596,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "14-open",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 60%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0083.png",
+      "at": 1793806047760,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "15-withdraw",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 60%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0084.png",
+      "at": 1793806047899,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "16-return",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 80%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0085.png",
+      "at": 1793806048014,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "16-return",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 80%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0086.png",
+      "at": 1793806048134,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "17-palms",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 80%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0087.png",
+      "at": 1793806048231,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "17-palms",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 80%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0088.png",
+      "at": 1793806048331,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "21-prayer-lower",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0089.png",
+      "at": 1793806048472,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "18-rest",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 80%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0090.png",
+      "at": 1793806048619,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "18-rest",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 80%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0091.png",
+      "at": 1793806048732,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "22-arms-lower",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0092.png",
+      "at": 1793806048866,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "incense",
+        "heading": "rear",
+        "held": "false",
+        "phase": "performing",
+        "source": "00-neutral",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0093.png",
+      "at": 1793806048997,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rearRight",
+        "held": "false",
+        "phase": "rising",
+        "source": "00-stand-angled",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0094.png",
+      "at": 1793806049137,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "rising",
+        "source": "right-stand",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0095.png",
+      "at": 1793806049375,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "rising",
+        "source": "front-stand",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 100% 90.9091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0096.png",
+      "at": 1793806049575,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "returning",
+        "source": "front-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 54.5455%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0097.png",
+      "at": 1793806049802,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "returning",
+        "source": "front-04-opposite-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 63.6364%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0098.png",
+      "at": 1793806049935,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "returning",
+        "source": "front-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 63.6364%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0099.png",
+      "at": 1793806050152,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "returning",
+        "source": "front-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 54.5455%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0100.png",
+      "at": 1793806050304,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "returning",
+        "source": "front-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 54.5455%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0101.png",
+      "at": 1793806050460,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "front",
+        "held": "false",
+        "phase": "returning",
+        "source": "front-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 63.6364%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0102.png",
+      "at": 1793806050635,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "frontRight",
+        "held": "false",
+        "phase": "returning",
+        "source": "frontRight-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 81.8182%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0103.png",
+      "at": 1793806050831,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 66.6667%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0104.png",
+      "at": 1793806051018,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-04-opposite-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0105.png",
+      "at": 1793806051146,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0106.png",
+      "at": 1793806051294,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-07-opposite-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0107.png",
+      "at": 1793806051455,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 66.6667%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0108.png",
+      "at": 1793806051633,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-04-opposite-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0109.png",
+      "at": 1793806051757,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0110.png",
+      "at": 1793806051881,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-07-opposite-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0111.png",
+      "at": 1793806052030,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 66.6667%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0112.png",
+      "at": 1793806052157,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 66.6667%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0113.png",
+      "at": 1793806052310,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-04-opposite-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0114.png",
+      "at": 1793806052540,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-07-opposite-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0115.png",
+      "at": 1793806052801,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-03-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 66.6667%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0116.png",
+      "at": 1793806053047,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-06-opposite-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0117.png",
+      "at": 1793806053210,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-00-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 66.6667%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0118.png",
+      "at": 1793806053342,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-02-passing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 66.6667%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0119.png",
+      "at": 1793806053493,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-04-opposite-contact",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0120.png",
+      "at": 1793806053618,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "right",
+        "held": "false",
+        "phase": "returning",
+        "source": "right-05-opposite-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 100%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0121.png",
+      "at": 1793806053751,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "returning",
+        "source": "rear-07-opposite-swing",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 100% 9.09091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0122.png",
+      "at": 1793806053900,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "returning",
+        "source": "rear-01-loading",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0123.png",
+      "at": 1793806054059,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "returning",
+        "source": "rear-stand",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 90.9091%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0124.png",
+      "at": 1793806054201,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "02-stand-rear",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0125.png",
+      "at": 1793806054381,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "03-weight-shift",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 100% 0%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0126.png",
+      "at": 1793806054506,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "04-knee-bend",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 0% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0127.png",
+      "at": 1793806054627,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "06-kneeling",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0128.png",
+      "at": 1793806054756,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "06-kneeling",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0129.png",
+      "at": 1793806054881,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "07-tuck-legs",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0130.png",
+      "at": 1793806055012,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "08-half-seated",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 0% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0131.png",
+      "at": 1793806055147,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "09-seated-settle",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 33.3333% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0132.png",
+      "at": 1793806055298,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "10-seated-rear",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0133.png",
+      "at": 1793806055425,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "10-seated-rear",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0134.png",
+      "at": 1793806055572,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "seating",
+        "source": "10-seated-rear",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+      }
+    },
+    {
+      "file": "verified-0135.png",
+      "at": 1793806055745,
+      "sample": {
+        "action": "7ebe82b7-4afe-4674-849f-c6e19c86a55d",
+        "artwork": "movement",
+        "heading": "rear",
+        "held": "false",
+        "phase": "complete",
+        "source": "10-seated-rear",
+        "timeline": "4",
+        "transform": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+      }
+    }
+  ]
+}

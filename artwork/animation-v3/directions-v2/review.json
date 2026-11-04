@@ -1,0 +1,1079 @@
+{
+  "status": "compiled",
+  "appearance": "man",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "master": "expanded-direction-atlas.webp",
+  "masterSha256": "e466769930ae9e4071fb36323049587bb07d354980a9a5a317590be9615a7d0f",
+  "directions": [
+    "rear",
+    "rearLeft",
+    "frontLeft",
+    "front",
+    "frontRight"
+  ],
+  "standDirections": [
+    "rear",
+    "rearLeft",
+    "frontLeft",
+    "front",
+    "frontRight",
+    "left",
+    "right"
+  ],
+  "mirrored": false,
+  "frames": [
+    {
+      "cell": 0,
+      "id": "rear-00-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/00-contact-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        71,
+        271,
+        473
+      ],
+      "sha256": "51d87ac69fa843b6dad28c442ab3c07c0a4c11d33b8ef7afa21c33d2f48eccbc"
+    },
+    {
+      "cell": 1,
+      "id": "rear-01-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        70,
+        272,
+        463
+      ],
+      "sha256": "6e9fd73e471454b5bcfb9fce4730084f093026432080312b426a09a0ea1397c0"
+    },
+    {
+      "cell": 2,
+      "id": "rear-02-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        70,
+        267,
+        460
+      ],
+      "sha256": "cfecb611655132fbfb3865139e3f8f2749f3d86d96c5445349ddd3b80507bb8d"
+    },
+    {
+      "cell": 3,
+      "id": "rear-03-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/03-swing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        69,
+        263,
+        470
+      ],
+      "sha256": "aad916da6c35b56d91b5152dfa495be88f869412c5456f0d9bbad175175ed442"
+    },
+    {
+      "cell": 4,
+      "id": "rear-04-opposite-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        70,
+        261,
+        471
+      ],
+      "sha256": "4af1c44a6edd7e938a2ef32f6dd23fa860fca0e000e8df935309521a284747cc"
+    },
+    {
+      "cell": 5,
+      "id": "rear-05-opposite-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        70,
+        263,
+        462
+      ],
+      "sha256": "fd0179ed4cfe837bed8ad5472fcca1c82d99cffc03a8e73d76c771d7badafb9e"
+    },
+    {
+      "cell": 6,
+      "id": "rear-06-opposite-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/06-opposite-passing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        126,
+        69,
+        263,
+        465
+      ],
+      "sha256": "220c925f24e6481e5dac7f8a88ec650fb6d0b6f02218e323bedbb2a9c09baa41"
+    },
+    {
+      "cell": 7,
+      "id": "rear-07-opposite-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rear/07-opposite-swing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        71,
+        271,
+        471
+      ],
+      "sha256": "755d3c346b74440b6ac7a5a76dcac92e1a7ba06412c1f1bc4432f41ac7587bdc"
+    },
+    {
+      "cell": 8,
+      "id": "rearLeft-00-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        88,
+        74,
+        275,
+        467
+      ],
+      "sha256": "6ee53749a8fc3bc5fb666f669354f2ab9de5ef17f07e420eaf2ef0b9630ea626"
+    },
+    {
+      "cell": 9,
+      "id": "rearLeft-01-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        83,
+        74,
+        269,
+        461
+      ],
+      "sha256": "3ae42360439f27b7662a5881471b47c5942e77c5f4b1d66caeb751a2ddfef588"
+    },
+    {
+      "cell": 10,
+      "id": "rearLeft-02-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/02-passing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        73,
+        255,
+        466
+      ],
+      "sha256": "5f66a02462a336670e4af98b72515d51764dfb851679313bc541591faa55b265"
+    },
+    {
+      "cell": 11,
+      "id": "rearLeft-03-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/03-swing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        94,
+        72,
+        274,
+        467
+      ],
+      "sha256": "d1641c6b6aff7f4ad9f18bc2ea793345585eddf0e18021e017a928892b772c6b"
+    },
+    {
+      "cell": 12,
+      "id": "rearLeft-04-opposite-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        104,
+        72,
+        273,
+        468
+      ],
+      "sha256": "270b5025dcfe8435ce1d37edb35db41593843e9dc10d99d24ffb29f5db87a119"
+    },
+    {
+      "cell": 13,
+      "id": "rearLeft-05-opposite-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        103,
+        71,
+        269,
+        467
+      ],
+      "sha256": "58f87a1c0b8d20830f98e8edceec1d1dd06d36a099309083a04aba7389d7a664"
+    },
+    {
+      "cell": 14,
+      "id": "rearLeft-06-opposite-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/06-opposite-passing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        72,
+        240,
+        442
+      ],
+      "sha256": "46507e12a1c9ac3a638df1571e5c7dafb2dceadb19350679256ca38981c5cf9b"
+    },
+    {
+      "cell": 15,
+      "id": "rearLeft-07-opposite-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        85,
+        73,
+        276,
+        467
+      ],
+      "sha256": "57ea40b0f78f31efd9051dc92165e9aa2f9f6ee7d8efdf5e6aec6f42f3c48c17"
+    },
+    {
+      "cell": 16,
+      "id": "frontLeft-00-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        107,
+        71,
+        260,
+        474
+      ],
+      "sha256": "13c285679b32de3a9d0073daf2d4b33ab0c5d4aaa7fd131ca9bef05742d4f70c"
+    },
+    {
+      "cell": 17,
+      "id": "frontLeft-01-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        70,
+        256,
+        472
+      ],
+      "sha256": "37ec3c99624eed331a428f2b441b3db31a464f23b1cbd8ed655ed4edd924fd66"
+    },
+    {
+      "cell": 18,
+      "id": "frontLeft-02-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        71,
+        261,
+        467
+      ],
+      "sha256": "6d4fdf2efa5bbd725bd3bb1839155d5c460dc202ce52265991a67bc90a6c45af"
+    },
+    {
+      "cell": 19,
+      "id": "frontLeft-03-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        70,
+        287,
+        459
+      ],
+      "sha256": "55114820534f579b2e3cd7ffd42cc104662fd168beec0e02cbbd0508697fc25d"
+    },
+    {
+      "cell": 20,
+      "id": "frontLeft-04-opposite-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        70,
+        277,
+        466
+      ],
+      "sha256": "ec3d785cfabb4a87e9aa6b0e7a234b0255dab1bf04646699e3271844ac918b7b"
+    },
+    {
+      "cell": 21,
+      "id": "frontLeft-05-opposite-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        70,
+        278,
+        463
+      ],
+      "sha256": "f0bff2710d19a8ef41db6b14efc4b04554876dfad8b7cebc13d2ca3af1c13fb7"
+    },
+    {
+      "cell": 22,
+      "id": "frontLeft-06-opposite-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/06-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        270,
+        466
+      ],
+      "sha256": "ac037b978d305089d259c3f49fe74ddba3725ba079ddfc00d40cf1a7ed733a7e"
+    },
+    {
+      "cell": 23,
+      "id": "frontLeft-07-opposite-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        104,
+        70,
+        263,
+        460
+      ],
+      "sha256": "eb8aac10a91ebe75620f6677a7cb825f7e567450a94ff2ae23d7db920d605e95"
+    },
+    {
+      "cell": 24,
+      "id": "front-00-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        71,
+        266,
+        474
+      ],
+      "sha256": "1e5467ad40f7d0deed5c028d427a82d4f62c53772023134dbb9924d2be7d9c69"
+    },
+    {
+      "cell": 25,
+      "id": "front-01-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        121,
+        70,
+        267,
+        473
+      ],
+      "sha256": "5f094154fa561707aa07faad0e1a6c028bd57e32e13ceda26b43bf927e745ffa"
+    },
+    {
+      "cell": 26,
+      "id": "front-02-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        116,
+        70,
+        267,
+        472
+      ],
+      "sha256": "9e105c185791f87e08a26d60753725f97bcc2cd0a8d39849357f7605fc7bc88f"
+    },
+    {
+      "cell": 27,
+      "id": "front-03-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/03-swing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        70,
+        272,
+        469
+      ],
+      "sha256": "4cd9cf8e40d7a2c152085d59293ff6041aef95ceb9d1d06d69ae4e3a6438d3b5"
+    },
+    {
+      "cell": 28,
+      "id": "front-04-opposite-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        71,
+        271,
+        471
+      ],
+      "sha256": "5017d423fe0843b8cab824f1d80f21d9d43fc721563a5f2f0d74ba8331fa051d"
+    },
+    {
+      "cell": 29,
+      "id": "front-05-opposite-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        70,
+        270,
+        472
+      ],
+      "sha256": "5e57539b06028a89f3d2fe89f29f70bd1bcedf5a53a3814bb3066f95e9578757"
+    },
+    {
+      "cell": 30,
+      "id": "front-06-opposite-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/06-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        70,
+        273,
+        469
+      ],
+      "sha256": "a2967d9e06559d1c66aa1aa3024bccad6a605ff18c40b8254dc7e42f2bcfdb17"
+    },
+    {
+      "cell": 31,
+      "id": "front-07-opposite-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/front/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        115,
+        71,
+        269,
+        470
+      ],
+      "sha256": "f8c22c6855cb6ab52bb9fc41213815a32af08278d8e40eae6f698d549998b0c3"
+    },
+    {
+      "cell": 32,
+      "id": "frontRight-00-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        98,
+        69,
+        282,
+        475
+      ],
+      "sha256": "37e563fe393c4208b62e895a7f7cf244e6059b56da57fb6a0c8119d60f72c43d"
+    },
+    {
+      "cell": 33,
+      "id": "frontRight-01-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        99,
+        69,
+        283,
+        471
+      ],
+      "sha256": "0bba8c5264cab55df3b8b9d11cc7e69b7de6a1dffd16aba3700c6f6d4451414e"
+    },
+    {
+      "cell": 34,
+      "id": "frontRight-02-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        69,
+        268,
+        469
+      ],
+      "sha256": "bd530df5e5fa7038f5df9aae439250125bd1e96caca69fc6dce8ded3f5e83d1f"
+    },
+    {
+      "cell": 35,
+      "id": "frontRight-03-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        110,
+        68,
+        285,
+        466
+      ],
+      "sha256": "d3a4d77ebf38214950c5b78bc4440e77aed6b0ace7ef7fe8bc3e2e931644905f"
+    },
+    {
+      "cell": 36,
+      "id": "frontRight-04-opposite-contact",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        68,
+        272,
+        470
+      ],
+      "sha256": "4bd9618d66bb57c716e0dc8a3987a3cc6c90fd196c998091c59445fd3cd6ed5a"
+    },
+    {
+      "cell": 37,
+      "id": "frontRight-05-opposite-loading",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        68,
+        269,
+        469
+      ],
+      "sha256": "8dcf04fd8deb2210717a01f4d4e03a9337e9bd15f4f83243f298368014c87047"
+    },
+    {
+      "cell": 38,
+      "id": "frontRight-06-opposite-passing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/06-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        116,
+        67,
+        275,
+        471
+      ],
+      "sha256": "693ab44de3c10a9230f1d59c961f43fb913d9057c5cfd79df86fd62a4d1dadef"
+    },
+    {
+      "cell": 39,
+      "id": "frontRight-07-opposite-swing",
+      "kind": "walk",
+      "source": "artwork/animation-v3/directions-v2/frontRight/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        83,
+        69,
+        291,
+        464
+      ],
+      "sha256": "46a0493bb8f7c9d5374d76547ac41103e751c02356360ca8d75fc636f42c13a1"
+    },
+    {
+      "cell": 40,
+      "id": "rear-stand",
+      "kind": "stand",
+      "source": "artwork/animation-v3/directions-v2/rear/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        70,
+        268,
+        469
+      ],
+      "sha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe"
+    },
+    {
+      "cell": 41,
+      "id": "rearLeft-stand",
+      "kind": "stand",
+      "source": "artwork/animation-v3/directions-v2/rearLeft/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        137,
+        69,
+        251,
+        464
+      ],
+      "sha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344"
+    },
+    {
+      "cell": 42,
+      "id": "frontLeft-stand",
+      "kind": "stand",
+      "source": "artwork/animation-v3/directions-v2/frontLeft/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        128,
+        69,
+        256,
+        472
+      ],
+      "sha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d"
+    },
+    {
+      "cell": 43,
+      "id": "front-stand",
+      "kind": "stand",
+      "source": "artwork/animation-v3/directions-v2/front/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        70,
+        268,
+        471
+      ],
+      "sha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531"
+    },
+    {
+      "cell": 44,
+      "id": "frontRight-stand",
+      "kind": "stand",
+      "source": "artwork/animation-v3/directions-v2/frontRight/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        129,
+        69,
+        259,
+        473
+      ],
+      "sha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f"
+    },
+    {
+      "cell": 45,
+      "id": "left-stand",
+      "kind": "stand",
+      "source": "artwork/animation-v3/directions-v2/left/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        156,
+        70,
+        230,
+        464
+      ],
+      "sha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5"
+    },
+    {
+      "cell": 46,
+      "id": "right-stand",
+      "kind": "stand",
+      "source": "artwork/animation-v3/directions-v2/right/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        158,
+        70,
+        227,
+        463
+      ],
+      "sha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849"
+    }
+  ],
+  "production": {
+    "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+    "sha256": "3de46c2a6c6eca931b0588ecf11f8dd9944e7c8069ff5d6fb498c67438051ea4",
+    "width": 768,
+    "height": 3072,
+    "columns": 4,
+    "rows": 12,
+    "cellWidth": 192,
+    "cellHeight": 256
+  },
+  "loopMs": 960,
+  "loopNote": "Atlas-source preview, not browser recording or FPS measurement."
+}

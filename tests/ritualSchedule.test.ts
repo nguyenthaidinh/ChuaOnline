@@ -28,28 +28,32 @@ test('changing visual frame duration cannot move a shared contact or completion 
   }
 });
 
-test('unchanged rituals identify schedule v1 and remain compatible with legacy snapshots', () => {
+test('explicit timeline v1 remains compatible with legacy snapshots after new commands adopt v3', () => {
   const room = new TempleRoom(() => 1000);
   const guest = room.join('Schedule QA', 'man');
   room.action(guest.token, 'lotus', 'schedule-version-test');
-  const action = room.snapshot().people[0].action!;
-  assert.equal(action.timelineVersion, 1);
+  const fresh=room.snapshot().people[0].action!;
+  assert.equal(fresh.timelineVersion,3);
+  const action={...fresh,timelineVersion:1 as const,
+    endsAt:fresh.startedAt+sharedRitualDurationMs(fresh.kind,fresh.movement,fresh.offering,1)};
   const legacy = { ...action, timelineVersion: undefined };
   assert.deepEqual(sampleSharedRitual(action, 5000), sampleSharedRitual(legacy, 5000));
-  assert.throws(() => assertTimelineVersion(3), /Unsupported ritual timeline/);
+  assert.throws(() => assertTimelineVersion(5), /Unsupported ritual timeline/);
 });
 
-test('new incense actions use v2 while other offerings and in-flight v1 actions retain their clock', () => {
+test('new incense publishes v4, other offerings v3, and old v1 snapshots retain their clock', () => {
   let now = 1000;
   const room = new TempleRoom(() => now);
   const man = room.join('Incense v2', 'man');
   const woman = room.join('Incense v1', 'woman');
   room.action(man.token, 'incense', 'incense-version-two');
   room.action(woman.token, 'lotus', 'incense-version-one');
-  const [modern, legacy] = room.snapshot().people.map(person => person.action!);
-  assert.equal(modern.timelineVersion, 2);
-  assert.equal(legacy.timelineVersion, 1);
-  assert.equal(modern.endsAt, modern.startedAt + sharedRitualDurationMs('incense', modern.movement, 'incense', 2));
+  const [modern, transition] = room.snapshot().people.map(person => person.action!);
+  const legacy={...transition,timelineVersion:1 as const,
+    endsAt:transition.startedAt+sharedRitualDurationMs(transition.kind,transition.movement,transition.offering,1)};
+  assert.equal(modern.timelineVersion, 4);
+  assert.equal(transition.timelineVersion,3);
+  assert.equal(modern.endsAt, modern.startedAt + sharedRitualDurationMs('incense', modern.movement, 'incense', 4));
   const before = structuredClone(legacy);
   const marker = interactionTime(modern)!;
   assert.equal(sampleSharedRitual(modern, marker - 1).propInHand, true);

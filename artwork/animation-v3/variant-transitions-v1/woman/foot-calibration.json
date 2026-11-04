@@ -1,0 +1,97 @@
+[
+  {
+    "id": "14-rise-support",
+    "source": "artwork/animation-v3/variant-transitions-v1/woman/14-rise-support.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "b2dc65e31fb329ebffbf859194500a91febae44c78c074acd154cbb9324da58e",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "15-rise-half-kneel",
+    "source": "artwork/animation-v3/variant-transitions-v1/woman/15-rise-half-kneel.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "dfdec92fec3645531343f146dca53385452e198c5631ac0035942b70f421d19e",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "16-rise-crouch",
+    "source": "artwork/animation-v3/variant-transitions-v1/woman/16-rise-crouch.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "658f2f63e989f4cd3291425edb9fb532e04cfd42ceaca316cef39b6ef75e48fd",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "22-rise-weight",
+    "source": "artwork/animation-v3/variant-transitions-v1/woman/22-rise-weight.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "dcaa53bb57a61c785bff137e2060454aeaf5ac968e885e361835913b47a8a4a3",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "23-rise-extend",
+    "source": "artwork/animation-v3/variant-transitions-v1/woman/23-rise-extend.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "35e41456b940bf6d695c087a938c0388a74a78ca4c65168fe1988c7bdba293be",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  }
+]

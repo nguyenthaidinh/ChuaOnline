@@ -1,0 +1,97 @@
+[
+  {
+    "id": "14-rise-support",
+    "source": "artwork/animation-v3/variant-transitions-v1/granny/14-rise-support.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "5e45827f7cf6864b002d9b1992095e8ca010231618b32588bb554d359c48fc0d",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "15-rise-half-kneel",
+    "source": "artwork/animation-v3/variant-transitions-v1/granny/15-rise-half-kneel.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "e31e5bbe57e20ea27490d26ecbe8dcbc9faa777187152ac21d42857603fcdaf3",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "16-rise-crouch",
+    "source": "artwork/animation-v3/variant-transitions-v1/granny/16-rise-crouch.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "fd02ea780a5dffb916e93a83b4aed7d49b407695ac3e90bd7316faaa6f182e97",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "22-rise-weight",
+    "source": "artwork/animation-v3/variant-transitions-v1/granny/22-rise-weight.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "b6d4617f47c34af2e883af8df82009b8f2217d0c80319df632de766390aef73e",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  },
+  {
+    "id": "23-rise-extend",
+    "source": "artwork/animation-v3/variant-transitions-v1/granny/23-rise-extend.png",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "sourceSha256": "ba62ee005c7ddc439d7095e0aac16de0eee7b9752254b5a0bd3e3a01488a97b0",
+    "crop": [
+      480,
+      1040,
+      870,
+      1254
+    ],
+    "displaySize": [
+      600,
+      330
+    ]
+  }
+]

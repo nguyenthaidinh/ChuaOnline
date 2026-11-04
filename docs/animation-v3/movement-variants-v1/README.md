@@ -3,6 +3,9 @@
 Ngày 04/11/2026, nhánh `codex/animation-v3`, tiếp tục từ `7f9a6b8`.
 Đã đưa nguồn mới vào phòng chung. Phạm vi này mở rộng chặng 1–3; chưa nghiệm thu toàn bộ kế hoạch.
 
+Đây là báo cáo của mốc `786d244`. Đợt tiếp theo đã bổ sung hướng nam, chuyển tiếp nữ/nâu,
+entry4/timeline3/4 và kiểm viewport thật; xem [báo cáo hiện hành](../complete-movement-v1/README.md).
+
 ## Thay đổi đã tích hợp
 
 - Chuyển động mới tăng tốc240 ms, giảm tốc360 ms; đường ngắn co cả hai nhịp.

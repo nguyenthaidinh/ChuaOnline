@@ -1,0 +1,1855 @@
+{
+  "captureStarted": 1793805041181,
+  "ended": 1793805057225,
+  "note": "Timestamped screenshots from production tab16; 1x wall clock, no audio, not continuous video or FPS measurement.",
+  "frames": [
+    {
+      "file": "0000.png",
+      "at": 1793805044057,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "standing",
+          "source": "02-stand-rear",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "front",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "front-00-contact",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 54.5455%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "standing",
+          "source": "15-rise-half-kneel",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 100% 60%; transform: translate(-0.614063%, 1.84219%);"
+        }
+      ]
+    },
+    {
+      "file": "0001.png",
+      "at": 1793805044505,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "standing",
+          "source": "17-turn-first",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 33.3333% 80%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-03-swing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "standing",
+          "source": "02-stand-rear",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0002.png",
+      "at": 1793805045086,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "right",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 100% 50%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-02-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 80% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0003.png",
+      "at": 1793805045319,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "right",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 60% 50%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-00-contact",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "right",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 20% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0004.png",
+      "at": 1793805045627,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "right",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 40% 75%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-04-opposite-contact",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 33.3333%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "right",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 60% 50%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0005.png",
+      "at": 1793805045857,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "rearRight",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 60% 50%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-07-opposite-swing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 33.3333%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "right",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 0% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0006.png",
+      "at": 1793805046184,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 0% 75%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-02-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "right",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 40% 50%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0007.png",
+      "at": 1793805046376,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 40% 50%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-06-opposite-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 33.3333%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "rearRight",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 0% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0008.png",
+      "at": 1793805046679,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 0% 75%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-01-loading",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 60% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0009.png",
+      "at": 1793805046875,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 60% 75%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-05-opposite-loading",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 33.3333%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 80% 50%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0010.png",
+      "at": 1793805047066,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 60% 50%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-07-opposite-swing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 33.3333%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 20% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0011.png",
+      "at": 1793805047485,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "01-reach",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 33.3333% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "left",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "left-02-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 40% 50%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0012.png",
+      "at": 1793805047871,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "03-chest",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 100% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "rear-00-contact",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "moving",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 20% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0013.png",
+      "at": 1793805048219,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "04-lift",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 0% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "rear-06-opposite-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 9.09091%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "02-grasp",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0014.png",
+      "at": 1793805048483,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "05-forehead",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 33.3333% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "rear-01-loading",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "03-chest",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 100% 0%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0015.png",
+      "at": 1793805048691,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "06-bow-start",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "rear-04-opposite-contact",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 9.09091%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "20-mid-lift",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 0% 100%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0016.png",
+      "at": 1793805049064,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "moving",
+          "source": "rear-stand",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 90.9091%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "05-forehead",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 33.3333% 20%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0017.png",
+      "at": 1793805049397,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "02-grasp",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "06-bow-start",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0018.png",
+      "at": 1793805049768,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "10-extend",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "20-mid-lift",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0019.png",
+      "at": 1793805050186,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "09-lower",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 33.3333% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "04-lift",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0020.png",
+      "at": 1793805050401,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "12-contact-closed",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 0% 60%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "06-bow-start",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "10-extend",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0021.png",
+      "at": 1793805050615,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "12-contact-closed",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 0% 60%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "06-bow-start",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "09-lower",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 33.3333% 40%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0022.png",
+      "at": 1793805051028,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "15-withdraw",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 100% 60%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "07-bow-hold",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "11-near-burner",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 100% 40%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0023.png",
+      "at": 1793805051360,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "17-palms",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 33.3333% 80%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "08-bow-return",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "12-contact-closed",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 0% 60%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0024.png",
+      "at": 1793805051602,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "21-prayer-lower",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 33.3333% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "10-extend",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "14-open",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 66.6667% 60%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0025.png",
+      "at": 1793805051866,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "18-rest",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 66.6667% 80%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "09-lower",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "16-return",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 0% 80%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0026.png",
+      "at": 1793805052135,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "performing",
+          "source": "00-neutral",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "11-near-burner",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "17-palms",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 33.3333% 80%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0027.png",
+      "at": 1793805052388,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "rising",
+          "source": "00-stand-angled",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "true",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "12-contact-closed",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 60%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "18-rest",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 66.6667% 80%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0028.png",
+      "at": 1793805052673,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 80% 75%; transform: translate(0%, 0%) scaleX(-1);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "14-open",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 60%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "22-arms-lower",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 66.6667% 100%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0029.png",
+      "at": 1793805052983,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 100% 75%; transform: translate(0%, 0%) scaleX(-1);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "15-withdraw",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 100% 60%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "performing",
+          "source": "00-neutral",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-incense-7d8518c76879.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0030.png",
+      "at": 1793805053366,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 100% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "17-palms",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 33.3333% 80%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "rising",
+          "source": "00-stand-angled",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0031.png",
+      "at": 1793805053628,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 20% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "18-rest",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 66.6667% 80%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 0% 100%; transform: translate(0%, 0%) scaleX(-1);"
+        }
+      ]
+    },
+    {
+      "file": "0032.png",
+      "at": 1793805053878,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 100% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "incense",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "performing",
+          "source": "00-neutral",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/incense-2e23dfe33319.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 80% 100%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0033.png",
+      "at": 1793805054245,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 0% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "right",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "rising",
+          "source": "right-stand",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "front",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 100% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0034.png",
+      "at": 1793805054544,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 80% 75%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "front",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "front-00-contact",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 54.5455%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "frontLeft",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 80% 100%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0035.png",
+      "at": 1793805054805,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 20% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "front",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "front-03-swing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 100% 54.5455%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 0% 100%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0036.png",
+      "at": 1793805055120,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 100% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "front",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "front-06-opposite-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 63.6364%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 60% 100%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0037.png",
+      "at": 1793805055458,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 100% 50%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "front",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "front-02-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 54.5455%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 100% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0038.png",
+      "at": 1793805055696,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "seating",
+          "source": "00-stand-angled",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "frontRight",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "frontRight-06-opposite-passing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 81.8182%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 80% 100%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0039.png",
+      "at": 1793805056046,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "seating",
+          "source": "19-turn-fourth",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 100% 80%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "right",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "right-01-loading",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 66.6667%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "left",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 100% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0040.png",
+      "at": 1793805056493,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "seating",
+          "source": "06-kneeling",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 66.6667% 20%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "right",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "right-07-opposite-swing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "legacy",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "returning",
+          "source": "",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 60% 75%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0041.png",
+      "at": 1793805056761,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "seating",
+          "source": "09-seated-settle",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 33.3333% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "right",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "right-05-opposite-loading",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 100%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "seating",
+          "source": "18-turn-second",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 66.6667% 80%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0042.png",
+      "at": 1793805057027,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "seating",
+          "source": "10-seated-rear",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "right",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "right-00-contact",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 66.6667%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "seating",
+          "source": "02-stand-rear",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);"
+        }
+      ]
+    },
+    {
+      "file": "0043.png",
+      "at": 1793805057225,
+      "people": [
+        {
+          "action": "d7dde91d-fc3c-4e30-a252-f82316c6a108",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Nữ kiểm mobile",
+          "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+          "phase": "complete",
+          "source": "10-seated-rear",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "06c2b7d7-b253-41e0-8e28-5b6ecaeefebe",
+          "artwork": "movement",
+          "heading": "right",
+          "held": "false",
+          "name": "Nam kiểm hướng · Bạn",
+          "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+          "phase": "returning",
+          "source": "right-03-swing",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 66.6667%; transform: translate(0%, 0%);"
+        },
+        {
+          "action": "c44bcb28-9348-47c7-8576-a376ebf571e7",
+          "artwork": "movement",
+          "heading": "rear",
+          "held": "false",
+          "name": "Áo nâu kiểm lễ",
+          "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+          "phase": "seating",
+          "source": "05-lower-knees",
+          "timeline": "4",
+          "transform": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 33.3333% 20%; transform: translate(0%, 0%);"
+        }
+      ]
+    }
+  ]
+}

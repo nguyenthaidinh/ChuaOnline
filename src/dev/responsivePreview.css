@@ -1,0 +1,11 @@
+.responsive-preview{max-width:1440px;margin:auto;padding:20px 28px;color:#e9dec9;font:13px/1.5 system-ui,sans-serif}
+.responsive-preview header{display:flex;justify-content:space-between;gap:24px;align-items:start;margin-bottom:16px}
+.responsive-preview header span{font-size:10px;letter-spacing:2px;color:#c6ab75}
+.responsive-preview h1{font:26px/1.25 Georgia,serif;margin:7px 0}.responsive-preview p{margin:6px 0;color:#b7a98f}
+.responsive-preview a{color:#dcc28b;white-space:nowrap}.responsive-preview nav{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.responsive-preview button,.responsive-preview select{border:1px solid #a78c5255;background:#292111;color:#e9dec9;border-radius:8px;padding:7px 12px;font:inherit}
+.responsive-preview button[aria-pressed=true]{background:#dfcb88;color:#30250e}.responsive-preview label{display:flex;align-items:center;gap:8px;margin-left:12px}
+.responsive-preview .responsive-readout{font-size:11px;margin:12px 0}.responsive-stage{overflow:auto;max-width:100%;padding:3px 3px 14px}
+.responsive-device{position:relative;margin:auto;box-shadow:0 0 0 1px #b2975f66,0 12px 35px #0004;border-radius:8px;overflow:hidden;background:#100c05}
+.responsive-device iframe{position:absolute;inset:0;border:0;display:block;transform-origin:top left;max-width:none;box-sizing:content-box}
+.responsive-preview .responsive-note{font-size:11px;margin-top:14px}

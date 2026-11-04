@@ -1,0 +1,83 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Correct observed pre-contact leg roles, rear-left heading drift, and one non-square output. Use only the approved same-heading anchor; originals retained.",
+  "jobs": [
+    {
+      "heading": "rear",
+      "id": "03-swing-v2",
+      "output": "rear/03-swing-v2.png",
+      "anchor": "rear/04-opposite-contact.png",
+      "phase": "Keep the LEFT leg leading AWAY (IMAGE-LEFT forward foot higher/farther) and RIGHT toes trailing closer at IMAGE-RIGHT. Change only the instant just BEFORE that LEFT heel lands: lift the LEFT leading heel a few centimetres above the ground, toes slightly lifted, leading left knee nearly EXTENDED. RIGHT trailing toes remain on the ground supporting weight; do not bend/curl/lift the RIGHT knee or make a passing pose. Retain RIGHT arm forward away/partly hidden and LEFT arm back/lower. The heel is approaching contact, not already planted.",
+      "prompt": "Use case: identity-preserve. Image1 is the approved straight REAR contact anchor of this exact adult man; image2 is his approved neutral design. Create ONE adjacent gait pose of the SAME man, keeping straight back view, centered spine/head, NO face profile, blue-grey ao lam tunic/trousers, matte fabric, bare feet, hair and warm upper-left light. Keep the LEFT leg leading AWAY (IMAGE-LEFT forward foot higher/farther) and RIGHT toes trailing closer at IMAGE-RIGHT. Change only the instant just BEFORE that LEFT heel lands: lift the LEFT leading heel a few centimetres above the ground, toes slightly lifted, leading left knee nearly EXTENDED. RIGHT trailing toes remain on the ground supporting weight; do not bend/curl/lift the RIGHT knee or make a passing pose. Retain RIGHT arm forward away/partly hidden and LEFT arm back/lower. The heel is approaching contact, not already planted. Keep the input SQUARE canvas width AND height exactly, with ample unused transparent space on both sides. Do NOT auto-crop or trim background margins into portrait. Fixed elevated camera, full body size, head top/position around sourcey30, pelvis/rootx615 and groundplane y1210. One1254×1254 transparent RGBA figure. No mirror, extra limb/person, floor, shadow, props, text, grid, smoke or motion blur.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/04-opposite-contact.png"
+      ]
+    },
+    {
+      "heading": "rear",
+      "id": "06-opposite-passing-v2",
+      "output": "rear/06-opposite-passing-v2.png",
+      "anchor": "rear/04-opposite-contact.png",
+      "phase": "LEFT SUPPORT / RIGHT PASSING. LEFT leg (IMAGE-LEFT) is planted almost vertical under the pelvis and carries weight. RIGHT knee (IMAGE-RIGHT) swings forward AWAY from camera, with right foot clearing the floor and passing the support, legs close. Arms move quietly beside torso through neutral, not the wide contact counter-swing. Preserve exact head size and BODY ROOT of image1; DO NOT enlarge or trim the canvas into a tall portrait.",
+      "prompt": "Use case: identity-preserve. Image1 is the approved straight REAR contact anchor of this exact adult man; image2 is his approved neutral design. Create ONE adjacent gait pose of the SAME man, keeping straight back view, centered spine/head, NO face profile, blue-grey ao lam tunic/trousers, matte fabric, bare feet, hair and warm upper-left light. LEFT SUPPORT / RIGHT PASSING. LEFT leg (IMAGE-LEFT) is planted almost vertical under the pelvis and carries weight. RIGHT knee (IMAGE-RIGHT) swings forward AWAY from camera, with right foot clearing the floor and passing the support, legs close. Arms move quietly beside torso through neutral, not the wide contact counter-swing. Preserve exact head size and BODY ROOT of image1; DO NOT enlarge or trim the canvas into a tall portrait. Keep the input SQUARE canvas width AND height exactly, with ample unused transparent space on both sides. Do NOT auto-crop or trim background margins into portrait. Fixed elevated camera, full body size, head top/position around sourcey30, pelvis/rootx615 and groundplane y1210. One1254×1254 transparent RGBA figure. No mirror, extra limb/person, floor, shadow, props, text, grid, smoke or motion blur.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/04-opposite-contact.png"
+      ]
+    },
+    {
+      "heading": "rear",
+      "id": "07-opposite-swing-v2",
+      "output": "rear/07-opposite-swing-v2.png",
+      "anchor": "rear/00-contact-v2.png",
+      "phase": "Keep the RIGHT leg leading AWAY (IMAGE-RIGHT forward foot higher/farther) and LEFT toes trailing closer at IMAGE-LEFT. Change only the instant just BEFORE that RIGHT heel lands: lift the RIGHT leading heel a few centimetres above the ground, toes slightly lifted, leading right knee nearly EXTENDED. LEFT trailing toes remain on the ground supporting weight; do not bend/curl/lift the LEFT knee or make a passing pose. Retain LEFT arm forward away/partly hidden and RIGHT arm back/lower. The heel is approaching contact, not already planted.",
+      "prompt": "Use case: identity-preserve. Image1 is the approved straight REAR contact anchor of this exact adult man; image2 is his approved neutral design. Create ONE adjacent gait pose of the SAME man, keeping straight back view, centered spine/head, NO face profile, blue-grey ao lam tunic/trousers, matte fabric, bare feet, hair and warm upper-left light. Keep the RIGHT leg leading AWAY (IMAGE-RIGHT forward foot higher/farther) and LEFT toes trailing closer at IMAGE-LEFT. Change only the instant just BEFORE that RIGHT heel lands: lift the RIGHT leading heel a few centimetres above the ground, toes slightly lifted, leading right knee nearly EXTENDED. LEFT trailing toes remain on the ground supporting weight; do not bend/curl/lift the LEFT knee or make a passing pose. Retain LEFT arm forward away/partly hidden and RIGHT arm back/lower. The heel is approaching contact, not already planted. Keep the input SQUARE canvas width AND height exactly, with ample unused transparent space on both sides. Do NOT auto-crop or trim background margins into portrait. Fixed elevated camera, full body size, head top/position around sourcey30, pelvis/rootx615 and groundplane y1210. One1254×1254 transparent RGBA figure. No mirror, extra limb/person, floor, shadow, props, text, grid, smoke or motion blur.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/00-contact-v2.png"
+      ]
+    },
+    {
+      "heading": "rearLeft",
+      "id": "02-passing-v2",
+      "output": "rearLeft/02-passing-v2.png",
+      "anchor": "rearLeft/00-contact.png",
+      "phase": "RIGHT SUPPORT / LEFT PASSING. Anatomical RIGHT leg is planted almost vertical under pelvis. LEFT leg swings past with flexed left knee and foot clearing the ground, legs close. Arms pass quietly down beside torso. CRITICAL: the NOSE must still point screen-LEFT exactly as image1. Preserve the SAME rear-left head, back and shoulder angle; do NOT turn his head or body to screen-right or straight rear just because the legs are close.",
+      "prompt": "Use case: identity-preserve. Edit ONLY the approved contact anchor image1 into ONE adjacent walking key pose of this EXACT man. Preserve his face, hair, head size/position, camera elevation/yaw, torso/root, blue-grey ao lam design, bare feet, matte fabric and warm upper-left light. RIGHT SUPPORT / LEFT PASSING. Anatomical RIGHT leg is planted almost vertical under pelvis. LEFT leg swings past with flexed left knee and foot clearing the ground, legs close. Arms pass quietly down beside torso. CRITICAL: the NOSE must still point screen-LEFT exactly as image1. Preserve the SAME rear-left head, back and shoulder angle; do NOT turn his head or body to screen-right or straight rear just because the legs are close. Keep the input SQUARE canvas WIDTH AND HEIGHT exactly and retain the original amount of UNUSED transparent margins on both sides. Do NOT auto-crop or trim to portrait. Root aroundsourcex615y1210 and headtop aroundy30, fullbody1254×1254 genuine RGBA. No mirroring, rotating the whole image, extra limb/figure, floor, shadow, props, cushion, text, grid, smoke or motion blur. One figure only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/00-contact.png"
+      ]
+    },
+    {
+      "heading": "rearLeft",
+      "id": "03-swing-v2",
+      "output": "rearLeft/03-swing-v2.png",
+      "anchor": "rearLeft/04-opposite-contact-v2.png",
+      "phase": "Adjacent PRE-LEFT-HEEL CONTACT. Keep image1's LEFT leg leading toward upper-left and RIGHT toes trailing lower-right. Keep the entire upper body and arm counter-swing EXACTLY as image1: NEAR LEFT arm swings BACK lower-right, farther RIGHT arm swings FORWARD upper-left. Lift only the leading LEFT heel a few centimetres above ground before contact, toes slightly lifted, left knee nearly extended; trailing RIGHT toes remain grounded. Do NOT swap back to initial right-foot contact, do not curl/lift the trailing right knee, and do NOT swing the near left arm forward. Face/nose still points LEFT.",
+      "prompt": "Use case: identity-preserve. Edit ONLY the approved contact anchor image1 into ONE adjacent walking key pose of this EXACT man. Preserve his face, hair, head size/position, camera elevation/yaw, torso/root, blue-grey ao lam design, bare feet, matte fabric and warm upper-left light. Adjacent PRE-LEFT-HEEL CONTACT. Keep image1's LEFT leg leading toward upper-left and RIGHT toes trailing lower-right. Keep the entire upper body and arm counter-swing EXACTLY as image1: NEAR LEFT arm swings BACK lower-right, farther RIGHT arm swings FORWARD upper-left. Lift only the leading LEFT heel a few centimetres above ground before contact, toes slightly lifted, left knee nearly extended; trailing RIGHT toes remain grounded. Do NOT swap back to initial right-foot contact, do not curl/lift the trailing right knee, and do NOT swing the near left arm forward. Face/nose still points LEFT. Keep the input SQUARE canvas WIDTH AND HEIGHT exactly and retain the original amount of UNUSED transparent margins on both sides. Do NOT auto-crop or trim to portrait. Root aroundsourcex615y1210 and headtop aroundy30, fullbody1254×1254 genuine RGBA. No mirroring, rotating the whole image, extra limb/figure, floor, shadow, props, cushion, text, grid, smoke or motion blur. One figure only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png"
+      ]
+    },
+    {
+      "heading": "rearLeft",
+      "id": "06-opposite-passing-v2",
+      "output": "rearLeft/06-opposite-passing-v2.png",
+      "anchor": "rearLeft/04-opposite-contact-v2.png",
+      "phase": "LEFT SUPPORT / RIGHT PASSING. Anatomical LEFT leg is planted almost vertical under pelvis. RIGHT leg swings past with flexed right knee and foot clearing ground, legs close. Arms pass quietly down beside torso. CRITICAL: the NOSE must still point screen-LEFT exactly as image1. Preserve the SAME rear-left head, back and shoulder angle; do NOT turn his head or body to screen-right or straight rear just because the legs are close.",
+      "prompt": "Use case: identity-preserve. Edit ONLY the approved contact anchor image1 into ONE adjacent walking key pose of this EXACT man. Preserve his face, hair, head size/position, camera elevation/yaw, torso/root, blue-grey ao lam design, bare feet, matte fabric and warm upper-left light. LEFT SUPPORT / RIGHT PASSING. Anatomical LEFT leg is planted almost vertical under pelvis. RIGHT leg swings past with flexed right knee and foot clearing ground, legs close. Arms pass quietly down beside torso. CRITICAL: the NOSE must still point screen-LEFT exactly as image1. Preserve the SAME rear-left head, back and shoulder angle; do NOT turn his head or body to screen-right or straight rear just because the legs are close. Keep the input SQUARE canvas WIDTH AND HEIGHT exactly and retain the original amount of UNUSED transparent margins on both sides. Do NOT auto-crop or trim to portrait. Root aroundsourcex615y1210 and headtop aroundy30, fullbody1254×1254 genuine RGBA. No mirroring, rotating the whole image, extra limb/figure, floor, shadow, props, cushion, text, grid, smoke or motion blur. One figure only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png"
+      ]
+    },
+    {
+      "heading": "front",
+      "id": "03-swing-v2",
+      "output": "front/03-swing-v2.png",
+      "anchor": "front/04-opposite-contact.png",
+      "phase": "Adjacent PRE-LEFT-HEEL CONTACT. Keep image1's LEFT leg (IMAGE-RIGHT) leading toward viewer/lower and RIGHT toes (IMAGE-LEFT) trailing higher/farther back. Keep image1's upper body/arms EXACTLY: anatomical RIGHT arm (IMAGE-LEFT) forward with elbow relaxed bent, LEFT arm (IMAGE-RIGHT) back beside hip. Lift only the leading LEFT heel a few centimetres above ground before landing, toes slightly lifted, left knee nearly extended; RIGHT trailing toes stay grounded. Do NOT swap to the initial right-leg-leading step, do not curl the trailing leg, and do not reset the arms. Face and tunic buttons remain STRAIGHT FRONT centered.",
+      "prompt": "Use case: identity-preserve. Edit ONLY the approved contact anchor image1 into ONE adjacent walking key pose of this EXACT man. Preserve his face, hair, head size/position, camera elevation/yaw, torso/root, blue-grey ao lam design, bare feet, matte fabric and warm upper-left light. Adjacent PRE-LEFT-HEEL CONTACT. Keep image1's LEFT leg (IMAGE-RIGHT) leading toward viewer/lower and RIGHT toes (IMAGE-LEFT) trailing higher/farther back. Keep image1's upper body/arms EXACTLY: anatomical RIGHT arm (IMAGE-LEFT) forward with elbow relaxed bent, LEFT arm (IMAGE-RIGHT) back beside hip. Lift only the leading LEFT heel a few centimetres above ground before landing, toes slightly lifted, left knee nearly extended; RIGHT trailing toes stay grounded. Do NOT swap to the initial right-leg-leading step, do not curl the trailing leg, and do not reset the arms. Face and tunic buttons remain STRAIGHT FRONT centered. Keep the input SQUARE canvas WIDTH AND HEIGHT exactly and retain the original amount of UNUSED transparent margins on both sides. Do NOT auto-crop or trim to portrait. Root aroundsourcex615y1210 and headtop aroundy30, fullbody1254×1254 genuine RGBA. No mirroring, rotating the whole image, extra limb/figure, floor, shadow, props, cushion, text, grid, smoke or motion blur. One figure only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/04-opposite-contact.png"
+      ]
+    }
+  ]
+}

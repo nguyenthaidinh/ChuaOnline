@@ -1,0 +1,18 @@
+{
+  "origin": "http://127.0.0.1:4180/",
+  "actor": {
+    "action": "59ddc13c-c93a-4914-88f8-429bded1b8c2",
+    "at": 1793805472117,
+    "phase": "moving",
+    "source": "",
+    "timeline": "4"
+  },
+  "observer": {
+    "action": "59ddc13c-c93a-4914-88f8-429bded1b8c2",
+    "at": 1793805472282,
+    "image": "background-image: url(\"./assets/visual-v2/granny-atlas.webp\"); background-size: 600% 500%; background-position: 60% 50%; transform: translate(0%, 0%);",
+    "phase": "moving",
+    "source": "",
+    "timeline": "4"
+  }
+}

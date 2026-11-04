@@ -1,0 +1,217 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "records": [
+    {
+      "id": "woman/19-turn-fourth",
+      "candidate": "woman/19-turn-fourth-v2.png",
+      "selected": true,
+      "prompt": "Use case: precise-object-edit.\nAsset: single transparent animation source frame for the ChuaOnline game, woman nineteen-turn-fourth.\nInput images: Image 1 is the EDIT TARGET and authoritative body, feet, costume, lighting and exact camera/framing. Image 2 is the same woman's straight-rear head endpoint, for her hair bun and identity only. Image 3 is a male POSE REFERENCE for the desired head yaw only; do not copy his identity or hair.\nChange only the woman's head and exposed neck in Image 1. Turn her head further away to almost straight rear, matching the very slight rightward yaw of Image 3, about ten degrees from the rear. The viewer should see the back of her hair and bun, both rear-side ears subtly, no eye, no nose or mouth profile. Her low dark hair bun remains the exact same woman's hairstyle and sits slightly left of the skull center because of that last small turn. Match the head angle between her current three-quarter head and the exact straight-rear head of Image 2, much closer to the latter.\nKeep every body feature below the collar unchanged from Image 1: shoulder and torso yaw, arms/hands, all clothing folds, trouser silhouette, ankle positions, heel and toe positions, proportions, same full-body scale and pixel placement. Keep head height and overall canvas placement unchanged; do not zoom, reframe, recenter, mirror, or rotate the body. Preserve the semi-realistic 3D painted sprite style and warm upper-left light. Single full figure, genuine transparent alpha background, no scene, no text, no shadow plane, no border.",
+      "referencedImagePaths": [
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\19-turn-fourth.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\20-turn-fifth.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\19-turn-fourth.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a6dd-4e70-7543-ac0e-3d06bb9ff6b0\\exec-5e8f3586-90d8-47ee-9980-cf2afd1777a3.png",
+      "review": "Head now almost rear with no eye/nose/mouth profile; own bun retained. Full body yaw, arms, trouser pose, toe/heel locations and framing visually remain aligned with original. Accept for selected 19; original preserved.",
+      "candidateSha256": "6c550deaebeda3175b3ed93a4e3ee901b741442649b97eb83ce68d096c318b0d",
+      "references": [
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\19-turn-fourth.png",
+          "sha256": "7f7f7c22530b55b997f76c2c20328be063876f5d366675d0583ad6614a966337",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/woman/19-turn-fourth.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\20-turn-fifth.png",
+          "sha256": "42c4befa117831a69e5315f29efa1c2340a14b09a00781555a5c6ff1f0ac5030",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/woman/20-turn-fifth.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\19-turn-fourth.png",
+          "sha256": "fd27c388dc92736a133fb924dc4ee1bd26553dda3415a3b0810b620d06735313",
+          "repositoryPath": "artwork/animation-v3/transitions-v2/19-turn-fourth.png"
+        }
+      ]
+    },
+    {
+      "id": "woman/01-turn-mid",
+      "candidate": "woman/01-turn-mid-v2.png",
+      "selected": true,
+      "prompt": "Use case: precise-object-edit. Transparent game sprite intermediate head-turn correction.\nInput images: Image 1 is the EDIT TARGET and lock for the entire woman, body, feet, camera and scale. Image 2 is the male POSE REFERENCE for head angle only. Image 3 is the same woman's next, almost-rear head-angle endpoint and identity reference only.\nEdit only the head and exposed neck of Image 1. Rotate her head farther away from the viewer to the rear-right three-quarter angle of Image 2, approximately twenty degrees right of straight rear. Most of the head should show hair and back of skull; the right ear and a slender outer cheek edge remain, but no visible eye and no projecting nose or lip silhouette. Preserve her dark low hair bun, the same skull size, hair texture, neck length, character identity and warm upper-left lighting. This is slightly less rear-facing than Image 3, a smooth one-step transition to that endpoint.\nAll pixels/features below the collar must remain visually unchanged from Image 1: body and shoulder yaw, hands, costume folds, legs, feet, heel and toe placement. Keep full square canvas, same full-body size, head-top height and subject placement. No zoom, recentering, body rotation or mirroring. Semi-realistic painted 3D sprite, genuine transparent alpha, no floor shadow, no scene, no lettering, no border.",
+      "referencedImagePaths": [
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\01-turn-mid.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v1\\01-turn-mid.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\19-turn-fourth-v2.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a6dd-4e70-7543-ac0e-3d06bb9ff6b0\\exec-02eaa71b-d963-4e2f-97bc-a1dec053e3c2.png",
+      "review": "Own head turned toward rear to follow the reviewed yaw progression. Body/shoulder angle, feet/heels/toes, framing and identity visually retain the edit-target pose. Source original preserved.",
+      "candidateSha256": "20b6d84c9d87b8bff3893c08d80758a8456ee52d988c1b180b0fc163329274d7",
+      "references": [
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\01-turn-mid.png",
+          "sha256": "c7c3fccf776aebbda249bb9e250f2cc5adedd39875c4dbbf99f0b10af19f92ca",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/woman/01-turn-mid.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v1\\01-turn-mid.png",
+          "sha256": "2a8b6cc94d09b22412e575b6f0438fb394999197c2f8883ec1802bd486ea21d8",
+          "repositoryPath": "artwork/animation-v3/transitions-v1/01-turn-mid.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\19-turn-fourth-v2.png",
+          "sha256": "6c550deaebeda3175b3ed93a4e3ee901b741442649b97eb83ce68d096c318b0d",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/woman/19-turn-fourth-v2.png"
+        }
+      ]
+    },
+    {
+      "id": "woman/18-turn-second",
+      "candidate": "woman/18-turn-second-v2.png",
+      "selected": true,
+      "prompt": "Use case: precise-object-edit. Transparent game sprite early intermediate head-turn correction.\nInput images: Image 1 is the EDIT TARGET and authoritative woman body, feet, costume, camera and full-body scale. Image 2 is a male POSE REFERENCE for head yaw only, not identity or hair. Image 3 is the same woman's next head-turn frame, slightly closer to rear.\nChange only the woman's head and exposed neck in Image 1. Rotate the head away from the viewer to a rear-right three-quarter angle about thirty-five degrees from straight rear, following Image 2. Show mostly the back of her hair, her right ear, a narrow outer cheek contour, only a very subtle nose edge at most; no visible eye. Her head should still turn slightly farther right than Image 3, forming a gradual step toward it. Keep the woman's original low dark hair bun and texture, anatomy, skull size, neck length and warm light.\nKeep the entire pose below her collar unchanged: exact torso angle, shoulders, relaxed hands, shirt and trouser folds, leg silhouettes, both foot shapes/heel and toe positions. Same head-top height, fixed subject position and full square framing; no camera movement, zoom, recentering, mirroring or body rotation. Same semi-realistic painted 3D sprite style. Genuine transparent alpha, no background, floor, text, border or extra object.",
+      "referencedImagePaths": [
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\18-turn-second.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\18-turn-second.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\01-turn-mid-v2.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a6dd-4e70-7543-ac0e-3d06bb9ff6b0\\exec-ba179853-439d-495a-92dd-1b738cb78b6d.png",
+      "review": "Own head turned toward rear to follow the reviewed yaw progression. Body/shoulder angle, feet/heels/toes, framing and identity visually retain the edit-target pose. Source original preserved.",
+      "candidateSha256": "c7be75ef8fc8bdffc51363352ecda2279586d299beabcae39689a2ab18f6e9e4",
+      "references": [
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\18-turn-second.png",
+          "sha256": "3b3dc74b57e7048a2b3c24e56221412f57309f9e5d9ae2cd59b88f6f8095f00c",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/woman/18-turn-second.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\18-turn-second.png",
+          "sha256": "020588a9225df8ad63266709576db3a2cdc14971f544a2d8eaccab4c5de6b49a",
+          "repositoryPath": "artwork/animation-v3/transitions-v2/18-turn-second.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\woman\\01-turn-mid-v2.png",
+          "sha256": "20b6d84c9d87b8bff3893c08d80758a8456ee52d988c1b180b0fc163329274d7",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/woman/01-turn-mid-v2.png"
+        }
+      ]
+    },
+    {
+      "id": "granny/19-turn-fourth",
+      "candidate": "granny/19-turn-fourth-v2.png",
+      "selected": true,
+      "prompt": "Use case: precise-object-edit. Transparent game sprite head-turn correction for an elderly Vietnamese woman in brown temple clothes.\nImage 1 is the EDIT TARGET, authoritative for elderly female identity, gray low bun, full body and camera. Image 2 is the same elderly woman's straight-rear head endpoint, for her hair and identity only. Image 3 is a male POSE REFERENCE for desired head yaw only; do not copy male hair or identity.\nChange only the elderly woman's head and exposed neck in Image 1. Turn the head almost straight away, about ten degrees to the right from straight rear, matching Image 3's small yaw. Show the back of her gray hair and low bun, a little of both rear-side ears, no visible eye, nose or mouth profile. Preserve her gray bun hairstyle, neck anatomy, age, hair texture and warm upper-left lighting; the bun moves nearer skull center as she looks away. Keep her head height/scale and canvas position.\nPreserve all features below the collar exactly as Image 1: shoulder/torso yaw, arm/hand positions, brown shirt and trouser folds, leg silhouettes, both foot shapes and all heels/toes. Fixed full-body square framing, no zoom, reframe, recenter, mirror or body rotation. Same semi-realistic painted 3D sprite. Genuine transparent alpha background, no scene, floor shadow, lettering or border.",
+      "referencedImagePaths": [
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\19-turn-fourth.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\20-turn-fifth.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\19-turn-fourth.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a6dd-4e70-7543-ac0e-3d06bb9ff6b0\\exec-3ae0e379-a015-4d08-aaae-5d16175b6a05.png",
+      "review": "Head now almost rear; body, hands, feet and full framing visually match original.",
+      "candidateSha256": "ed0012b8ddafbcd9d25aa5293bdacf13b8326496ed3b59e50797a4972925b3ca",
+      "references": [
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\19-turn-fourth.png",
+          "sha256": "6f78fa5bdb244fa9726603ab48a5ddb5b9e8e8c2f2d08c4d318b3de4f12762ad",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/19-turn-fourth.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\20-turn-fifth.png",
+          "sha256": "621c5f853795f96a14f9e3a1449f115f32563e279cc7d1fa819d722d147c4c38",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/20-turn-fifth.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\19-turn-fourth.png",
+          "sha256": "fd27c388dc92736a133fb924dc4ee1bd26553dda3415a3b0810b620d06735313",
+          "repositoryPath": "artwork/animation-v3/transitions-v2/19-turn-fourth.png"
+        }
+      ]
+    },
+    {
+      "id": "granny/01-turn-mid",
+      "candidate": "granny/01-turn-mid-v2.png",
+      "selected": false,
+      "prompt": "Use case: precise-object-edit. Transparent game sprite intermediate head-turn correction, elderly Vietnamese woman in brown temple clothes.\nImage 1 is the EDIT TARGET and lock for elderly female identity, gray hair bun, entire body, feet, camera and scale. Image 2 is male POSE REFERENCE for head angle only. Image 3 is the same elderly woman's next almost-rear head-angle frame and identity reference only.\nEdit only head and exposed neck of Image 1. Turn her head away to a rear-right three-quarter angle about twenty degrees right of straight rear, following Image 2. Show mostly back of gray hair and bun, the right ear and a slender cheek edge, no visible eye and no projecting nose or lip profile. The angle is a little less rear-facing than Image 3, a smooth step into it. Keep her original gray low bun, skull size, hair texture, age, neck length, warm upper-left lighting and head height.\nAll features below the collar remain unchanged from Image 1: shoulders/torso yaw, arms, hands, brown clothing and folds, legs, foot silhouettes and all heel/toe positions. Exact full-body scale and pixel placement on same square canvas. No zoom, recenter, reframe, mirror or body rotation. Same painted semi-realistic 3D sprite, genuine transparent alpha background, no floor, scene, shadow plane, text or border.",
+      "referencedImagePaths": [
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v1\\01-turn-mid.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\19-turn-fourth-v2.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a6dd-4e70-7543-ac0e-3d06bb9ff6b0\\exec-36e9d434-fd36-4787-be4e-79826ac4ef9b.png",
+      "review": "Head angle accepted but stray alpha fragments outside silhouette require cleanup; superseded by v3.",
+      "candidateSha256": "231a24dd04eed123b1b5ac3769582219b1e5a2bd61872a61375e1f9ad98bf45c",
+      "references": [
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid.png",
+          "sha256": "4c1bc0d1299f8cccf804ecf47a2388536f6f966dbd678f0b65e1b3fc795091cc",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/01-turn-mid.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v1\\01-turn-mid.png",
+          "sha256": "2a8b6cc94d09b22412e575b6f0438fb394999197c2f8883ec1802bd486ea21d8",
+          "repositoryPath": "artwork/animation-v3/transitions-v1/01-turn-mid.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\19-turn-fourth-v2.png",
+          "sha256": "ed0012b8ddafbcd9d25aa5293bdacf13b8326496ed3b59e50797a4972925b3ca",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/19-turn-fourth-v2.png"
+        }
+      ]
+    },
+    {
+      "id": "granny/18-turn-second",
+      "candidate": "granny/18-turn-second-v2.png",
+      "selected": true,
+      "prompt": "Use case: precise-object-edit. Transparent game sprite early head-turn correction, elderly Vietnamese woman in brown temple clothes.\nInput images: Image 1 is the EDIT TARGET, authoritative identity and full-body camera/pose. Image 2 is male POSE REFERENCE for head yaw only, no male identity/hair. Image 3 is the same elderly woman's next head-turn angle, slightly closer to straight rear.\nChange only head and exposed neck of Image 1. Turn her head away to a rear-right three-quarter angle about thirty-five degrees from straight rear, following Image 2. Show mostly back of gray hair, right ear, narrow outer cheek contour, only subtle nose edge if any, no visible eye. Her head remains slightly more right-facing than Image 3, forming a natural gradual turn into it. Preserve her gray low bun, hair texture, skull size, age, neck length and warm upper-left light.\nAll pose features below the collar remain unchanged: exact shoulder/torso yaw, arms/hands, brown clothing folds, leg silhouettes, both feet and all heel/toe placement. Keep head height, subject size, full square framing and pixel placement. No zoom, recenter, reframe, mirror or body rotation. Same semi-realistic painted 3D sprite. Genuine transparent alpha with clean contiguous subject boundary and no stray/floating pixels, no background, floor, text or border.",
+      "referencedImagePaths": [
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\18-turn-second.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\18-turn-second.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid-v2.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a6dd-4e70-7543-ac0e-3d06bb9ff6b0\\exec-1b47564b-b154-4ead-9f28-2112f701d530.png",
+      "review": "Head follows rear-right intermediate yaw; own gray bun and body/feet/framing retained.",
+      "candidateSha256": "30a969333d7035aaa4c9fb05f2a4a58c12bab402bcedccd575ae58ad66e5a746",
+      "references": [
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\18-turn-second.png",
+          "sha256": "2fe61c0954328384b2cca5b673fd490473672eda3f966b49c0b29eeb6c31bf1f",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/18-turn-second.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\transitions-v2\\18-turn-second.png",
+          "sha256": "020588a9225df8ad63266709576db3a2cdc14971f544a2d8eaccab4c5de6b49a",
+          "repositoryPath": "artwork/animation-v3/transitions-v2/18-turn-second.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid-v2.png",
+          "sha256": "231a24dd04eed123b1b5ac3769582219b1e5a2bd61872a61375e1f9ad98bf45c",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/01-turn-mid-v2.png"
+        }
+      ]
+    },
+    {
+      "id": "granny/01-turn-mid",
+      "candidate": "granny/01-turn-mid-v3.png",
+      "selected": true,
+      "prompt": "Use case: precise-object-edit. Clean the alpha edge of a transparent animation sprite.\nImage 1 is the EDIT TARGET, with the accepted intermediate rear-right head angle. Image 2 is the original same pose before the head correction, a reference for the clean contiguous body boundary.\nPreserve the entire elderly woman in Image 1, including her exact accepted head angle, gray bun, face/ear contour, neck, brown costume folds, hands, feet, pose, subject position, scale, lighting and square camera framing. Remove only the stray isolated speckles/fragments outside her silhouette, especially loose pixels left of her neck/shoulder/waist and below her feet. Preserve natural soft anti-aliasing along the continuous actual figure edge. Output one clean complete woman with true transparent alpha around the subject, no colored halo, floating pixels, ground plane, shadow or background. No restyling, no body/head turn, no camera or footprint changes.",
+      "referencedImagePaths": [
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid-v2.png",
+        "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a6dd-4e70-7543-ac0e-3d06bb9ff6b0\\exec-1c8c08f0-ae55-401e-8b93-25482d3407be.png",
+      "review": "Isolated outside-alpha fragments cleaned; accepted head yaw preserved, full body and footprint remain visually aligned with original.",
+      "candidateSha256": "003808d6058768fab25af6bcf14461f6f19b7bea5446c4d9c3efaa3744a65a11",
+      "references": [
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid-v2.png",
+          "sha256": "231a24dd04eed123b1b5ac3769582219b1e5a2bd61872a61375e1f9ad98bf45c",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/01-turn-mid-v2.png"
+        },
+        {
+          "path": "F:\\Dự Án Chung\\ChuaOnline\\artwork\\animation-v3\\variant-transitions-v1\\granny\\01-turn-mid.png",
+          "sha256": "4c1bc0d1299f8cccf804ecf47a2388536f6f966dbd678f0b65e1b3fc795091cc",
+          "repositoryPath": "artwork/animation-v3/variant-transitions-v1/granny/01-turn-mid.png"
+        }
+      ]
+    }
+  ]
+}

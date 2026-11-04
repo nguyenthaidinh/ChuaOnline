@@ -1,0 +1,34 @@
+{
+  "tests": {
+    "command": "npm test",
+    "passed": 101,
+    "failed": 0
+  },
+  "typecheck": "PASS",
+  "build": "PASS",
+  "legacyAudit": {
+    "baseline": "628098d",
+    "expected": "e90ca77813e0d75ec60a7f6c7630555920330a7c4b58d593cba949729d53d9d4",
+    "actual": "e90ca77813e0d75ec60a7f6c7630555920330a7c4b58d593cba949729d53d9d4",
+    "matches": true,
+    "actions": 480,
+    "poses": 207765
+  },
+  "productionBundleGuard": {
+    "patterns": [
+      "ResponsivePreview",
+      "FBXLoader",
+      "SkinnedMesh",
+      "artwork/animation-v3",
+      "animation-lab"
+    ],
+    "matches": []
+  },
+  "appChunks": [
+    {
+      "file": "App-CHYRMPe4.js",
+      "bytes": 118121
+    }
+  ],
+  "reviewScope": "Browser production shared clients and isolated texture404; responsive is DEV same-origin iframe, not physical mobile/FPS."
+}

@@ -13,7 +13,7 @@
     "lint": "npm run typecheck",
     "build": "vite build",
     "preview": "node --experimental-strip-types scripts/preview.mjs",
-    "test": "node --experimental-strip-types --test tests/ritual.test.ts tests/sceneLayout.test.ts tests/room.test.ts tests/sharedRitual.test.ts tests/sound.test.ts tests/blessings.test.ts tests/ritualSchedule.test.ts tests/animationLab.test.ts tests/transitionStudy.test.ts tests/incenseAnimation.test.ts tests/ritualContacts.test.ts tests/locomotion.test.ts tests/directionalMovement.test.ts tests/characterAnimation.test.ts",
+    "test": "node --experimental-strip-types --test tests/ritual.test.ts tests/sceneLayout.test.ts tests/room.test.ts tests/sharedRitual.test.ts tests/sound.test.ts tests/blessings.test.ts tests/ritualSchedule.test.ts tests/animationLab.test.ts tests/transitionStudy.test.ts tests/incenseAnimation.test.ts tests/ritualContacts.test.ts tests/locomotion.test.ts tests/directionalMovement.test.ts tests/characterAnimation.test.ts tests/transitionClocks.test.ts tests/headingTurns.test.ts tests/variantMovement.test.ts tests/expandedDirections.test.ts tests/completeMovement.test.ts",
     "audit:animation": "node --experimental-strip-types scripts/audit-ritual-schedule.mjs"
   },
   "dependencies": {

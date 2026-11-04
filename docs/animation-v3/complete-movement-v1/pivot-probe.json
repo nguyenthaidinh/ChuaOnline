@@ -1,0 +1,240 @@
+[
+  {
+    "file": "pivot-probe-00.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805951707,
+      "image": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 100% 100%; transform: translate(0.333333%, -0.591992%);",
+      "phase": "standing",
+      "rect": {
+        "height": 85.484375,
+        "width": 64.109375
+      },
+      "source": "23-rise-extend"
+    }
+  },
+  {
+    "file": "pivot-probe-01.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805951816,
+      "image": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 0% 80%; transform: translate(-0.271875%, -0.460547%);",
+      "phase": "standing",
+      "rect": {
+        "height": 85.484375,
+        "width": 64.109375
+      },
+      "source": "16-rise-crouch"
+    }
+  },
+  {
+    "file": "pivot-probe-02.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805951908,
+      "image": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 0%; transform: translate(0%, 0%);",
+      "phase": "standing",
+      "rect": {
+        "height": 85.484375,
+        "width": 64.109375
+      },
+      "source": "02-stand-rear"
+    }
+  },
+  {
+    "file": "pivot-probe-03.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952014,
+      "image": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 90.9091%; transform: translate(0%, 0%);",
+      "phase": "standing",
+      "rect": {
+        "height": 85.484375,
+        "width": 64.109375
+      },
+      "source": "rear-stand"
+    }
+  },
+  {
+    "file": "pivot-probe-04.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952248,
+      "image": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 90.9091%; transform: translate(0%, 0%);",
+      "phase": "standing",
+      "rect": {
+        "height": 85.484375,
+        "width": 64.109375
+      },
+      "source": "frontLeft-stand"
+    }
+  },
+  {
+    "file": "pivot-probe-05.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952362,
+      "image": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 100% 90.9091%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 85.484375,
+        "width": 64.109375
+      },
+      "source": "front-stand"
+    }
+  },
+  {
+    "file": "pivot-probe-06.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952494,
+      "image": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 0% 54.5455%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 85.765625,
+        "width": 64.3125
+      },
+      "source": "front-00-contact"
+    }
+  },
+  {
+    "file": "pivot-probe-07.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952607,
+      "image": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 33.3333% 36.3636%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.328125,
+        "width": 64.734375
+      },
+      "source": "frontLeft-01-loading"
+    }
+  },
+  {
+    "file": "pivot-probe-08.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952738,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.953125,
+        "width": 65.203125
+      },
+      "source": "left-03-swing"
+    }
+  },
+  {
+    "file": "pivot-probe-09.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952884,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 33.3333%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-05-opposite-loading"
+    }
+  },
+  {
+    "file": "pivot-probe-10.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805952994,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 33.3333%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-07-opposite-swing"
+    }
+  },
+  {
+    "file": "pivot-probe-11.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805953125,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 0%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-00-contact"
+    }
+  },
+  {
+    "file": "pivot-probe-12.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805953234,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 0%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-02-passing"
+    }
+  },
+  {
+    "file": "pivot-probe-13.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805953346,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 0%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-03-swing"
+    }
+  },
+  {
+    "file": "pivot-probe-14.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805953444,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 0% 33.3333%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-04-opposite-contact"
+    }
+  },
+  {
+    "file": "pivot-probe-15.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805953555,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 66.6667% 33.3333%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-06-opposite-passing"
+    }
+  },
+  {
+    "file": "pivot-probe-16.png",
+    "sample": {
+      "artwork": "movement",
+      "at": 1793805953652,
+      "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 100% 33.3333%; transform: translate(0%, 0%);",
+      "phase": "moving",
+      "rect": {
+        "height": 86.96875,
+        "width": 65.21875
+      },
+      "source": "left-07-opposite-swing"
+    }
+  }
+]

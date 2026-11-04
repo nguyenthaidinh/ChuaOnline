@@ -1,0 +1,23 @@
+[
+  {
+    "artwork": "movement",
+    "background": "background-image: url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);",
+    "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+    "phase": "idle",
+    "source": "10-seated-rear"
+  },
+  {
+    "artwork": "movement",
+    "background": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);",
+    "person": "fa4c8a7f-c838-40e8-91f7-55b58915690e",
+    "phase": "idle",
+    "source": "10-seated-rear"
+  },
+  {
+    "artwork": "movement",
+    "background": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);",
+    "person": "f3403c21-4cf5-4481-ab37-53dd7b2b62b2",
+    "phase": "idle",
+    "source": "10-seated-rear"
+  }
+]

@@ -1,6 +1,6 @@
-import { CLIP_MS, BOW_CYCLE_MS, offeringClips, performanceDuration, ritualSchedule, type ClipId, type RitualTimelineVersion } from '../shared/ritualSchedule.ts';
+import { CLIP_MS, BOW_CYCLE_MS, TRANSITION_TIMELINE_VERSION, offeringClips, performanceDuration, ritualSchedule, type ClipId, type RitualTimelineVersion } from '../shared/ritualSchedule.ts';
 import { actionMovement, entryRoute, logicalSeat, routeDurationMs, ritualRoute, sampleRoute, type FloorPoint } from './motion.ts';
-import type { SharedAction, OfferingKind } from './protocol.ts';
+import type { SharedAction, OfferingKind, EntryVersion } from './protocol.ts';
 import { sampleLocomotion, type LocomotionSample } from './locomotion.ts';
 
 const duration=(id:ClipId)=>CLIP_MS[id];
@@ -9,7 +9,8 @@ export const STAND_MS=duration('standUp');
 export const SETTLE_MS=duration('kneelDown');
 export const ENTRY_WALK_MS=routeDurationMs(entryRoute(0));
 export const ENTRY_DURATION_MS=ENTRY_WALK_MS+SIT_MS;
-export const entryDurationMs=(seat:number)=>routeDurationMs(entryRoute(seat))+SIT_MS;
+export const entryAnimationVersion=(version?:EntryVersion):RitualTimelineVersion=>version===4?TRANSITION_TIMELINE_VERSION:1;
+export const entryDurationMs=(seat:number,version?:EntryVersion)=>routeDurationMs(entryRoute(seat))+ritualSchedule(entryAnimationVersion(version)).clips.sitDown;
 export type SharedPhase='standing'|'moving'|'settling'|'performing'|'rising'|'returning'|'seating'|'complete';
 export interface SharedPose {
   phase:SharedPhase; travel:number; clip:ClipId; clipTime:number; point:FloorPoint;
@@ -21,8 +22,8 @@ type Movement=ReturnType<typeof actionMovement>;
 const BOW_CYCLE=BOW_CYCLE_MS;
 export const performanceMs=performanceDuration;
 export function sharedRitualDurationMs(kind:'bow'|'incense',movement:Movement=actionMovement(0,0,kind==='bow'),offering:OfferingKind='incense',version:RitualTimelineVersion=1) {
-  const clips=ritualSchedule(version).clips;
-  return clips.standUp+movement.outboundMs+(kind==='bow'?clips.kneelDown:0)+performanceMs(kind,offering,version)+(kind==='bow'?clips.rise:160)+movement.returnMs+clips.sitDown;
+  const schedule=ritualSchedule(version),clips=schedule.clips;
+  return clips.standUp+movement.outboundMs+(kind==='bow'?clips.kneelDown:0)+performanceMs(kind,offering,version)+(kind==='bow'?clips.rise:schedule.returnTurnMs)+movement.returnMs+clips.sitDown;
 }
 export function interactionTime(action:Pick<SharedAction,'startedAt'|'kind'|'offering'|'movement'|'timelineVersion'>) {
   if(action.kind==='bow') return null;
@@ -30,13 +31,14 @@ export function interactionTime(action:Pick<SharedAction,'startedAt'|'kind'|'off
   const schedule=ritualSchedule(action.timelineVersion);
   return action.startedAt+schedule.clips.standUp+(action.movement??actionMovement(0,0)).outboundMs+schedule.clips.offerRaise+schedule.clips.offerHold+schedule.contacts[offering];
 }
-export function sampleEntry(joinedAt:number,now:number,seat=0,version?:3) {
+export function sampleEntry(joinedAt:number,now:number,seat=0,version?:EntryVersion) {
   const route=entryRoute(seat),walkMs=routeDurationMs(route),elapsed=Math.max(0,now-joinedAt);
+  const sitMs=ritualSchedule(entryAnimationVersion(version)).clips.sitDown;
   if(elapsed<walkMs) {
-    if(version===3){const sampled=sampleLocomotion(route,elapsed,walkMs);return {phase:'entering' as const,clip:'walkRear' as ClipId,clipTime:elapsed,...sampled,locomotion:sampled,travel:1-sampled.progress};}
+    if(version===3||version===4){const sampled=sampleLocomotion(route,elapsed,walkMs);return {phase:'entering' as const,clip:'walkRear' as ClipId,clipTime:elapsed,...sampled,locomotion:sampled,travel:1-sampled.progress};}
     return {phase:'entering' as const,clip:'walkRear' as ClipId,clipTime:elapsed,...sampleRoute(route,elapsed/walkMs),travel:1-elapsed/walkMs};
   }
-  if(elapsed<walkMs+SIT_MS) return {phase:'seating' as const,clip:'sitDown' as ClipId,clipTime:elapsed-walkMs,point:logicalSeat(seat),tangent:{x:0,z:-1},distance:route.length,travel:0};
+  if(elapsed<walkMs+sitMs) return {phase:'seating' as const,clip:'sitDown' as ClipId,clipTime:elapsed-walkMs,point:logicalSeat(seat),tangent:{x:0,z:-1},distance:route.length,travel:0};
   return {phase:'idle' as const,clip:'seated' as ClipId,clipTime:0,point:logicalSeat(seat),tangent:{x:0,z:-1},distance:0,travel:0};
 }
 export function sampleSharedRitual(action:SharedAction,now:number):SharedPose {
@@ -67,7 +69,7 @@ export function sampleSharedRitual(action:SharedAction,now:number):SharedPose {
   }
   t-=perform;
   const completedBows=action.kind==='bow'?3:0;
-  const riseMs=action.kind==='bow'?duration('rise'):160;
+  const riseMs=action.kind==='bow'?duration('rise'):schedule.returnTurnMs;
   if(t<riseMs) return {...base,point:altar,travel:1,completedBows,phase:'rising',clip:action.kind==='bow'?'rise':'stand',clipTime:t};t-=riseMs;
   if(t<movement.returnMs) {
     if(movement.version===3){const sampled=sampleLocomotion(back,t,movement.returnMs);return {...base,...sampled,locomotion:sampled,completedBows,phase:'returning',clip:'walkFront',clipTime:t,travel:1-sampled.progress};}

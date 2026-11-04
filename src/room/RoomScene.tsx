@@ -5,9 +5,9 @@ import {actorMetrics,roomAssets,seatPoint} from './layout';
 import {logicalSeat} from './motion';
 import type {RoomSnapshot} from './protocol';
 import type {SceneLayoutId} from '../config/sceneLayout';
-import {useModernIncenseAssets} from './useSceneAssets';
+import {useCharacterArtwork} from './useSceneAssets';
 export function RoomScene({room,selfId,layout,offset,reduced}:{room:RoomSnapshot;selfId:string|null;layout:SceneLayoutId;offset:number;reduced:boolean}) {
- const artwork=useModernIncenseAssets();
+ const artwork=useCharacterArtwork();
  const modernReady=Object.values(artwork.incense).every(Boolean);
  return <div className="room-painting" data-layout={layout} data-modern-incense={modernReady?'ready':'fallback'} data-reduced-motion={String(reduced)} aria-label="Chánh điện chung">
  <img className="room-background" src={roomAssets.hall[layout]} alt="Chánh điện gỗ thanh tịnh với tượng Phật và sàn trống" fetchPriority="high"/>

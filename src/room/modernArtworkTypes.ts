@@ -1,8 +1,10 @@
 import type { FrameSpec, Facing, HandAnchor } from './animationManifest.ts';
+import type { Heading8 } from './locomotion.ts';
 
 export interface ArtworkFrame extends FrameSpec {
   index:number; facing:Facing; top:number; image:string;
   columns:number; rows:number; atlasCell:number;
+  heading?:Heading8;
 }
 
 export interface IncenseGeometry {

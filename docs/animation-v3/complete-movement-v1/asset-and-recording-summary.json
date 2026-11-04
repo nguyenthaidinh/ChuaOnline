@@ -1,0 +1,108 @@
+{
+  "productionAssets": [
+    {
+      "image": "directional-walk-7e5dc65f63fd.webp",
+      "width": 768,
+      "height": 1024,
+      "bytes": 157036,
+      "rgbaBytes": 3145728
+    },
+    {
+      "image": "expanded-directions-3de46c2a6c6e.webp",
+      "width": 768,
+      "height": 3072,
+      "bytes": 419774,
+      "rgbaBytes": 9437184
+    },
+    {
+      "image": "granny-incense-7d8518c76879.webp",
+      "width": 768,
+      "height": 1536,
+      "bytes": 185952,
+      "rgbaBytes": 4718592
+    },
+    {
+      "image": "granny-movement-f68fcbe7207f.webp",
+      "width": 768,
+      "height": 1536,
+      "bytes": 208742,
+      "rgbaBytes": 4718592
+    },
+    {
+      "image": "granny-ritual-bb6ffb1e27e3.webp",
+      "width": 576,
+      "height": 512,
+      "bytes": 41938,
+      "rgbaBytes": 1179648
+    },
+    {
+      "image": "incense-2e23dfe33319.webp",
+      "width": 768,
+      "height": 1536,
+      "bytes": 184740,
+      "rgbaBytes": 4718592
+    },
+    {
+      "image": "man-ritual-ca49b87c3b99.webp",
+      "width": 576,
+      "height": 512,
+      "bytes": 42754,
+      "rgbaBytes": 1179648
+    },
+    {
+      "image": "transitions-2776f8aac62d.webp",
+      "width": 768,
+      "height": 1536,
+      "bytes": 202918,
+      "rgbaBytes": 4718592
+    },
+    {
+      "image": "walk-rear-78213b858f96.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 111176,
+      "rgbaBytes": 2359296
+    },
+    {
+      "image": "woman-incense-8fea45e46523.webp",
+      "width": 768,
+      "height": 1536,
+      "bytes": 182170,
+      "rgbaBytes": 4718592
+    },
+    {
+      "image": "woman-movement-a660a3688bbd.webp",
+      "width": 768,
+      "height": 1536,
+      "bytes": 204946,
+      "rgbaBytes": 4718592
+    },
+    {
+      "image": "woman-ritual-c3b3fcf28fda.webp",
+      "width": 576,
+      "height": 512,
+      "bytes": 44008,
+      "rgbaBytes": 1179648
+    }
+  ],
+  "compressedBytes": 1986154,
+  "decodedMiB": 44.625,
+  "recording": {
+    "frames": 136,
+    "firstAt": 1793806038017,
+    "lastAt": 1793806055745,
+    "sampledMs": 17728,
+    "captureElapsedMs": 18129
+  },
+  "sourcePngs": {
+    "male": 56,
+    "womanAndBrown": 55
+  },
+  "sourceCounts": {
+    "newToolOutputs": 109,
+    "newSelectedPoses": 93,
+    "reusedNeutrals": 2,
+    "selectedAtlasCells": 95,
+    "retainedDrafts": 16
+  }
+}

@@ -42,7 +42,7 @@ export default function App() {
   const [blessingDeck] = useState(() => new BlessingDeck());
   const [fullscreen, setFullscreen] = useState(false);
   const [clock, setClock] = useState(Date.now());
-  const activeUntil = self?.action?.endsAt ?? (self ? self.joinedAt + entryDurationMs(self.seat) : 0);
+  const activeUntil = self?.action?.endsAt ?? (self ? self.joinedAt + entryDurationMs(self.seat,self.entryVersion) : 0);
   useEffect(() => {
     if (activeUntil <= Date.now() + room.offset) return;
     const timer = window.setInterval(() => { setClock(Date.now()); if (Date.now() + room.offset >= activeUntil) clearInterval(timer); }, 100);

@@ -19,7 +19,7 @@ export interface LocomotionSample {
 const ACCELERATION_MS = 240;
 const DECELERATION_MS = 360;
 const LOOK_AHEAD_METERS = 0.22;
-const HEADINGS: readonly Heading8[] = [
+export const HEADING_ORDER: readonly Heading8[] = [
   'rear', 'rearRight', 'right', 'frontRight', 'front', 'frontLeft', 'left', 'rearLeft',
 ];
 
@@ -44,7 +44,7 @@ export function headingForDirection(direction: FloorPoint, fallback: Heading8 = 
   if (!normalized) return fallback;
   const angle = Math.atan2(normalized.x, -normalized.z);
   const sector = Math.floor((angle + Math.PI / 8 + Math.PI * 2) / (Math.PI / 4)) % 8;
-  return HEADINGS[sector];
+  return HEADING_ORDER[sector];
 }
 
 function atDistance(route: Route, distance: number): FloorPoint {

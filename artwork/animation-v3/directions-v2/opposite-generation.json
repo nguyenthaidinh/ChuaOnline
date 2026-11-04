@@ -1,0 +1,55 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "heading": "rear",
+      "id": "04-opposite-contact",
+      "output": "rear/04-opposite-contact.png",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline. Image1 is the approved INITIAL RIGHT-CONTACT anchor for THIS exact heading and locks identity/camera/root/light. Image2 is the neutral design reference. Change only the gait to the opposite LEFT contact; do not repeat image1's stride. Keep the EXACT SAME adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers, matte soft fabric, bare feet and warm upper-left light. Heading/camera lock: STRAIGHT REAR toward screen-UP, centered back/head/spine, no face profile. Anatomical right is screen-RIGHT, left is screen-LEFT. LEFT HEEL CONTACT / OPPOSITE STEP: reverse the anatomical leg roles of initial contact WITHOUT mirroring the person. Anatomical LEFT leg now reaches forward to heel contact with toes slightly raised. RIGHT leg trails on its toes. Anatomical RIGHT arm MUST counter-swing FORWARD; LEFT arm MUST swing BACK. This must be visibly the opposite step, not another copy of initial right contact. In IMAGE coordinates: the LEFT foot now leads farther away/higher on the LEFT, and RIGHT toes trail lower/closer on the RIGHT. RIGHT arm (image-RIGHT) swings FORWARD AWAY, with hand partly hidden higher beside the torso. LEFT arm (image-LEFT) swings BACK closer to camera, with hand lower beside hip. Keep the straight back view and do not swap only the legs while leaving the arms as initial contact. Preserve the reference face/hair, head size/position, body scale, tunic design/seams and fixed elevated orthographic-style camera. Root remains beneath pelvis around source x615 and ground plane y1210; hair top aroundy30 in square1254×1254. Stable calm torso, natural adult anatomy and restrained slow walking. Full body and complete feet inside margins, real transparent RGBA. No mirror, crossfade, sheet, collage, extra figure, floor, shadow, props, cushion, smoke, text, grid or motion blur. Return one pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/00-contact-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    },
+    {
+      "heading": "rearLeft",
+      "id": "04-opposite-contact",
+      "output": "rearLeft/04-opposite-contact.png",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline. Image1 is the approved INITIAL RIGHT-CONTACT anchor for THIS exact heading and locks identity/camera/root/light. Image2 is the neutral design reference. Change only the gait to the opposite LEFT contact; do not repeat image1's stride. Keep the EXACT SAME adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers, matte soft fabric, bare feet and warm upper-left light. Heading/camera lock: REAR THREE-QUARTER toward screen-UP-LEFT, about45degrees from straight rear. Show back and a little right side. Keep feet, hips, shoulders and head aiming UP-LEFT. LEFT HEEL CONTACT / OPPOSITE STEP: reverse the anatomical leg roles of initial contact WITHOUT mirroring the person. Anatomical LEFT leg now reaches forward to heel contact with toes slightly raised. RIGHT leg trails on its toes. Anatomical RIGHT arm MUST counter-swing FORWARD; LEFT arm MUST swing BACK. This must be visibly the opposite step, not another copy of initial right contact. Preserve the reference face/hair, head size/position, body scale, tunic design/seams and fixed elevated orthographic-style camera. Root remains beneath pelvis around source x615 and ground plane y1210; hair top aroundy30 in square1254×1254. Stable calm torso, natural adult anatomy and restrained slow walking. Full body and complete feet inside margins, real transparent RGBA. No mirror, crossfade, sheet, collage, extra figure, floor, shadow, props, cushion, smoke, text, grid or motion blur. Return one pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    },
+    {
+      "heading": "frontLeft",
+      "id": "04-opposite-contact",
+      "output": "frontLeft/04-opposite-contact.png",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline. Image1 is the approved INITIAL RIGHT-CONTACT anchor for THIS exact heading and locks identity/camera/root/light. Image2 is the neutral design reference. Change only the gait to the opposite LEFT contact; do not repeat image1's stride. Keep the EXACT SAME adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers, matte soft fabric, bare feet and warm upper-left light. Heading/camera lock: FRONT THREE-QUARTER toward screen-DOWN-LEFT, about45degrees from straight front. Calm partial frontal face and front tunic buttons visible, never a rear view. LEFT HEEL CONTACT / OPPOSITE STEP: reverse the anatomical leg roles of initial contact WITHOUT mirroring the person. Anatomical LEFT leg now reaches forward to heel contact with toes slightly raised. RIGHT leg trails on its toes. Anatomical RIGHT arm MUST counter-swing FORWARD; LEFT arm MUST swing BACK. This must be visibly the opposite step, not another copy of initial right contact. Preserve the reference face/hair, head size/position, body scale, tunic design/seams and fixed elevated orthographic-style camera. Root remains beneath pelvis around source x615 and ground plane y1210; hair top aroundy30 in square1254×1254. Stable calm torso, natural adult anatomy and restrained slow walking. Full body and complete feet inside margins, real transparent RGBA. No mirror, crossfade, sheet, collage, extra figure, floor, shadow, props, cushion, smoke, text, grid or motion blur. Return one pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    },
+    {
+      "heading": "front",
+      "id": "04-opposite-contact",
+      "output": "front/04-opposite-contact.png",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline. Image1 is the approved INITIAL RIGHT-CONTACT anchor for THIS exact heading and locks identity/camera/root/light. Image2 is the neutral design reference. Change only the gait to the opposite LEFT contact; do not repeat image1's stride. Keep the EXACT SAME adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers, matte soft fabric, bare feet and warm upper-left light. Heading/camera lock: STRAIGHT FRONT toward screen-DOWN, centered face/nose/buttons and balanced shoulders. Anatomical RIGHT is screen-LEFT and LEFT is screen-RIGHT. LEFT HEEL CONTACT / OPPOSITE STEP: reverse the anatomical leg roles of initial contact WITHOUT mirroring the person. Anatomical LEFT leg now reaches forward to heel contact with toes slightly raised. RIGHT leg trails on its toes. Anatomical RIGHT arm MUST counter-swing FORWARD; LEFT arm MUST swing BACK. This must be visibly the opposite step, not another copy of initial right contact. In IMAGE coordinates: the LEFT foot (IMAGE-RIGHT) now leads toward viewer/lower, RIGHT toes (IMAGE-LEFT) trail farther/higher. RIGHT arm (IMAGE-LEFT) swings FORWARD toward camera with a bent relaxed elbow/hand closer; LEFT arm (IMAGE-RIGHT) swings BACK beside/behind hip. Do not keep the initial right-foot step or its arm swing. Preserve the reference face/hair, head size/position, body scale, tunic design/seams and fixed elevated orthographic-style camera. Root remains beneath pelvis around source x615 and ground plane y1210; hair top aroundy30 in square1254×1254. Stable calm torso, natural adult anatomy and restrained slow walking. Full body and complete feet inside margins, real transparent RGBA. No mirror, crossfade, sheet, collage, extra figure, floor, shadow, props, cushion, smoke, text, grid or motion blur. Return one pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    },
+    {
+      "heading": "frontRight",
+      "id": "04-opposite-contact",
+      "output": "frontRight/04-opposite-contact.png",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline. Image1 is the approved INITIAL RIGHT-CONTACT anchor for THIS exact heading and locks identity/camera/root/light. Image2 is the neutral design reference. Change only the gait to the opposite LEFT contact; do not repeat image1's stride. Keep the EXACT SAME adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers, matte soft fabric, bare feet and warm upper-left light. Heading/camera lock: FRONT THREE-QUARTER toward screen-DOWN-RIGHT, about45degrees from straight front. Calm partial frontal face and front tunic buttons visible, never a rear view. LEFT HEEL CONTACT / OPPOSITE STEP: reverse the anatomical leg roles of initial contact WITHOUT mirroring the person. Anatomical LEFT leg now reaches forward to heel contact with toes slightly raised. RIGHT leg trails on its toes. Anatomical RIGHT arm MUST counter-swing FORWARD; LEFT arm MUST swing BACK. This must be visibly the opposite step, not another copy of initial right contact. Preserve the reference face/hair, head size/position, body scale, tunic design/seams and fixed elevated orthographic-style camera. Root remains beneath pelvis around source x615 and ground plane y1210; hair top aroundy30 in square1254×1254. Stable calm torso, natural adult anatomy and restrained slow walking. Full body and complete feet inside margins, real transparent RGBA. No mirror, crossfade, sheet, collage, extra figure, floor, shadow, props, cushion, smoke, text, grid or motion blur. Return one pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    }
+  ]
+}

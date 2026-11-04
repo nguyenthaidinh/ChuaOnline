@@ -302,17 +302,17 @@ test('a queued incense-v2 action cannot stretch an in-progress legacy or v3 entr
   }
 });
 
-test('new server guests/actions publish movement3 while retaining entry duration and shared contact rules', () => {
+test('new guests publish entry4 and action clocks select incense4 or transition3', () => {
   for (const appearance of APPEARANCES) for (const rite of RITES) {
     let now = 1000;
     const room = new TempleRoom(() => now), guest = room.join('Version QA', appearance);
     const joined = guest.room.people[0];
-    assert.equal(joined.entryVersion, 3);
+    assert.equal(joined.entryVersion, 4);
     room.action(guest.token, rite, `version-${appearance}-${rite}`);
     const action = room.snapshot().people[0].action!;
     assert.equal(action.movement?.version, 3);
-    assert.equal(action.timelineVersion, rite === 'incense' ? 2 : 1);
-    assert.equal(action.startedAt, joined.joinedAt + entryDurationMs(joined.seat));
+    assert.equal(action.timelineVersion, rite === 'incense' ? 4 : 3);
+    assert.equal(action.startedAt, joined.joinedAt + entryDurationMs(joined.seat,joined.entryVersion));
     const oldMovement = { ...action.movement!, version: 2 as const };
     const oldAction = { ...action, movement: oldMovement };
     assert.equal(action.endsAt, action.startedAt + sharedRitualDurationMs(action.kind, oldMovement, action.offering, action.timelineVersion));

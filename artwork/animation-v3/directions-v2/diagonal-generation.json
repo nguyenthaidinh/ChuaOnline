@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "heading": "frontLeft",
+      "id": "00-contact",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline. Image1 is the newly approved STRAIGHT FRONT contact of this exact man and locks face, camera elevation, scale and root. Image2 is his approved neutral design/light reference and image3 is the current walking identity. Rotate the SAME man into the requested diagonal, rendering actual anatomy and correct light; do not mirror. Exact SAME adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic and full-length trousers, bare feet, matte soft woven fabric, natural adult proportions and calm face. Heading: FRONT THREE-QUARTER view walking diagonally TOWARD the camera toward screen-DOWN-LEFT, approximately45degrees left of straight front. Show the correct front tunic buttons and a calm partial frontal face, not a rear back. The whole body/feet/head aim DOWN-LEFT. Render this orientation anatomically with the established warm upper-left light, not a mirror of the opposite diagonal. RIGHT HEEL CONTACT: anatomical RIGHT leg reaches forward in the travel direction, heel arriving to contact and toes slightly raised. Anatomical LEFT leg trails with heel lifted and toes finishing push-off. Anatomical LEFT arm counter-swings FORWARD in the travel direction; RIGHT arm swings BACK. A modest natural stride, not an exaggerated lunge. Maintain the fixed elevated orthographic-style camera, identity, hairstyle, head size, garment seams, upper-left warm light/soft fill, body scale and stable pelvis/root. One square transparent RGBA canvas matching references (approximately1254×1254). Top of hair around source y30, root beneath pelvis around x615 and floor-contact plane near y1210. Full hands and complete feet inside a generous margin; torso stable and restrained slow walking. No floor, baked shadow, props, cushion, smoke, text, labels, grid, second person or motion blur. Do not mirror, crossfade, collage, or output multiple figures/sprite sheets. Genuine transparent background.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/00-contact.png"
+      ],
+      "output": "frontLeft/00-contact.png"
+    },
+    {
+      "heading": "frontRight",
+      "id": "00-contact",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline. Image1 is the newly approved STRAIGHT FRONT contact of this exact man and locks face, camera elevation, scale and root. Image2 is his approved neutral design/light reference and image3 is the current walking identity. Rotate the SAME man into the requested diagonal, rendering actual anatomy and correct light; do not mirror. Exact SAME adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic and full-length trousers, bare feet, matte soft woven fabric, natural adult proportions and calm face. Heading: FRONT THREE-QUARTER view walking diagonally TOWARD the camera toward screen-DOWN-RIGHT, approximately45degrees right of straight front. Show the correct front tunic buttons and a calm partial frontal face, not a rear back. The whole body/feet/head aim DOWN-RIGHT. Re-render physical anatomy and warm upper-left light for this side; do not mirror the opposite diagonal. RIGHT HEEL CONTACT: anatomical RIGHT leg reaches forward in the travel direction, heel arriving to contact and toes slightly raised. Anatomical LEFT leg trails with heel lifted and toes finishing push-off. Anatomical LEFT arm counter-swings FORWARD in the travel direction; RIGHT arm swings BACK. A modest natural stride, not an exaggerated lunge. Maintain the fixed elevated orthographic-style camera, identity, hairstyle, head size, garment seams, upper-left warm light/soft fill, body scale and stable pelvis/root. One square transparent RGBA canvas matching references (approximately1254×1254). Top of hair around source y30, root beneath pelvis around x615 and floor-contact plane near y1210. Full hands and complete feet inside a generous margin; torso stable and restrained slow walking. No floor, baked shadow, props, cushion, smoke, text, labels, grid, second person or motion blur. Do not mirror, crossfade, collage, or output multiple figures/sprite sheets. Genuine transparent background.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/00-contact.png"
+      ],
+      "output": "frontRight/00-contact.png"
+    }
+  ]
+}

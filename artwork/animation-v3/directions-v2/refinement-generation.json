@@ -1,0 +1,26 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Correct observed contralateral arm swing in rear source anchors; retain originals.",
+  "jobs": [
+    {
+      "heading": "rear",
+      "id": "00-contact-v2",
+      "output": "rear/00-contact-v2.png",
+      "prompt": "Use case: identity-preserve. Edit image1, the approved straight REAR walking contact, changing ONLY the two arms' counter-swing. Keep the exact same man, straight back view with NO facial profile, hair, torso, clothing folds/seams, camera elevation, body scale, leg pose, head top, root, bare feet and transparent background. The anatomical RIGHT leg is already leading AWAY/upward (screen-RIGHT foot farther away) and LEFT leg trailing closer to camera. Correct the arms to a natural CONTRALATERAL gait: anatomical LEFT arm (IMAGE-LEFT) swings FORWARD AWAY from camera, with that forearm/hand higher and partly hidden beside the torso around source y540–600. Anatomical RIGHT arm (IMAGE-RIGHT) swings BACK TOWARD the camera, with its hand lower/closer beside the right hip around source y700–740. Swap the current arms' swing roles without mirroring or changing legs. Do not leave the left hand hanging behind and the right hand forward. Keep restrained relaxed elbows and natural five-finger hands. Same warm upper-left light and matte blue-grey ao lam, square1254×1254 RGBA; head aroundy30, rootx615y1210. No floor, shadow, props, text, labels, extra person or motion blur. One full-body pose.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    },
+    {
+      "heading": "rearLeft",
+      "id": "04-opposite-contact-v2",
+      "output": "rearLeft/04-opposite-contact-v2.png",
+      "prompt": "Use case: identity-preserve. Edit image1, the approved LEFT-LEG-LEADING opposite-contact pose in REAR-LEFT three-quarter view, changing ONLY the arm counter-swing. Keep the exact same man, face glimpse, hair, elevated camera, UP-LEFT walking heading, LEFT-leading leg pose, hips/root, blue-grey ao lam, proportions, bare feet, head position and genuine transparent square1254 background. The most visible NEAR arm attached to the IMAGE-LEFT shoulder is the anatomical LEFT arm. It is incorrectly still reaching forward upper-left as in the initial step. Move this NEAR LEFT arm BACK behind the hip toward screen-LOWER-RIGHT: upper arm follows beside the torso, elbow relaxed and wrist/hand lower and just behind/alongside the hip toward the right, clearly NOT extended upper-left. The farther anatomical RIGHT arm now swings FORWARD toward upper-left, with forearm/hand partly hidden beyond the torso. Show the correct contralateral gait: LEFT leg forward, RIGHT arm forward, LEFT arm back. Do not keep the current same arm silhouettes or turn the person. Preserve lighting from upper-left, matte fabric, complete fingers and full body/feet margins, rootaroundx615y1210 and hair aroundy30. No mirror, extra limbs, props, floor, shadow, text, grid or motion blur. One pose only.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ]
+    }
+  ]
+}

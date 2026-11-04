@@ -1,0 +1,92 @@
+{
+  "origin": "http://127.0.0.1:4182/",
+  "missing": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+  "httpStatus": 404,
+  "checks": [
+    {
+      "stage": "idle-before",
+      "people": [
+        {
+          "artwork": "legacy",
+          "image": "background-image: url(\"./assets/seating-direction/woman.webp\"); background-size: 100% 100%; background-position: 0% 0%; transform: translate(0%, 0%);",
+          "name": "Nữ kiểm mất ảnh · Bạn",
+          "phase": "idle",
+          "source": ""
+        },
+        {
+          "artwork": "movement",
+          "image": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);",
+          "name": "Nam không ảnh hưởng",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        }
+      ]
+    },
+    {
+      "stage": "standing",
+      "people": [
+        {
+          "artwork": "legacy",
+          "image": "background-image: url(\"./assets/visual-v2/woman-atlas.webp\"); background-size: 600% 500%; background-position: 40% 0%; transform: translate(0%, 0%);",
+          "name": "Nữ kiểm mất ảnh · Bạn",
+          "phase": "standing",
+          "source": "",
+          "timeline": "4"
+        },
+        {
+          "artwork": "movement",
+          "image": "background-image: url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\"); background-size: 400% 1200%; background-position: 66.6667% 90.9091%; transform: translate(0%, 0%);",
+          "name": "Nam không ảnh hưởng",
+          "phase": "standing",
+          "source": "frontLeft-stand",
+          "timeline": "4"
+        }
+      ]
+    },
+    {
+      "stage": "performance",
+      "people": [
+        {
+          "artwork": "incense",
+          "held": "false",
+          "image": "background-image: url(\"./assets/animation-v3/woman-incense-8fea45e46523.webp\"); background-size: 400% 600%; background-position: 0% 0%; transform: translate(0%, 0%);",
+          "name": "Nữ kiểm mất ảnh · Bạn",
+          "phase": "performing",
+          "source": "00-neutral",
+          "timeline": "4"
+        },
+        {
+          "artwork": "movement",
+          "held": "false",
+          "image": "background-image: url(\"./assets/animation-v3/directional-walk-7e5dc65f63fd.webp\"); background-size: 400% 400%; background-position: 33.3333% 0%; transform: translate(0%, 0%);",
+          "name": "Nam không ảnh hưởng",
+          "phase": "moving",
+          "source": "left-01-loading",
+          "timeline": "4"
+        }
+      ]
+    },
+    {
+      "stage": "complete",
+      "people": [
+        {
+          "artwork": "legacy",
+          "image": "background-image: url(\"./assets/seating-direction/woman.webp\"); background-size: 100% 100%; background-position: 0% 0%; transform: translate(0%, 0%);",
+          "name": "Nữ kiểm mất ảnh · Bạn",
+          "phase": "idle",
+          "source": ""
+        },
+        {
+          "artwork": "movement",
+          "image": "background-image: url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);",
+          "name": "Nam không ảnh hưởng",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        }
+      ],
+      "womanReady": true,
+      "manReady": true,
+      "placed": 2
+    }
+  ]
+}

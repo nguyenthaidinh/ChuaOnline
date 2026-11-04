@@ -17,7 +17,7 @@ import { INCENSE_STUDY_ROOT, useStudyAtlas } from './useStudyAtlas';
 import './animationLab.css';
 import './incenseLab.css';
 
-const schedule = ritualSchedule(2);
+const schedule = ritualSchedule(4);
 const KEY_TIMES=incenseKeyTimes(2);
 const propStyle = (x:number,y:number,height=INCENSE_PROP.height,grip=1):CSSProperties => ({
   left:`${x/384*100}%`,top:`${y/512*100}%`,height:`${height/512*100}%`,
@@ -63,7 +63,7 @@ export default function IncenseLab() {
   const action=useMemo<SharedAction>(()=>{
     const movement=actionMovement(seat,slot,false,3);
     return {id:'offline-incense-study',actorId:'offline-study',kind:'incense',offering:'incense',bowCount:3,
-      slot,startedAt:0,timelineVersion:2,movement,endsAt:sharedRitualDurationMs('incense',movement,'incense',2)};
+      slot,startedAt:0,timelineVersion:4,movement,endsAt:sharedRitualDurationMs('incense',movement,'incense',4)};
   },[seat,slot]);
   const start=schedule.clips.standUp+action.movement!.outboundMs;
   const duration=mode==='performance'?5000:action.endsAt;
@@ -72,7 +72,7 @@ export default function IncenseLab() {
   const detailPose=sampleSharedRitual(action,Math.max(start,Math.min(start+4999.999,now)));
   const detailFrame=sampleIncenseClip(isIncenseClip(detailPose.clip)?detailPose.clip:'offerRaise',detailPose.clipTime,2,appearance);
   const scene=sampleCharacter({id:'offline-study',name:'Study',appearance,seat,joinedAt:-100000,action,completed:null},now,false,
-    {movement:true,directions:true,incense:{man:true,woman:true,granny:true}});
+    {movement:true,directions:true,expandedDirections:true,variantMovement:{woman:true,granny:true},incense:{man:true,woman:true,granny:true}});
   const frame=scene.frame;
   const owner=incenseOwnership(action,now);
   const held=scene.held;
@@ -102,7 +102,7 @@ export default function IncenseLab() {
   const masterImage=appearance==='man'&&master.atlas?studyImageUrl(INCENSE_STUDY_ROOT,master.atlas):undefined;
   const seatFloor=projectFloor(logicalSeat(seat),layout.id);
   return <main className="animation-lab incense-lab">
-    <header><div><span className="lab-eyebrow">CHUAONLINE · DÂNG HƯƠNG</span><h1>Hai tay, một bó hương và mốc đặt</h1><p>Phòng thử ngoại tuyến · cùng lịch v2 và bộ dựng hình với chánh điện · không gọi API phòng.</p></div><a href="?animation-lab=transitions">Xem đứng–đi–ngồi ↗</a></header>
+    <header><div><span className="lab-eyebrow">CHUAONLINE · DÂNG HƯƠNG</span><h1>Hai tay, một bó hương và mốc đặt</h1><p>Phòng thử ngoại tuyến · cùng lịch v4 và bộ dựng hình với chánh điện · không gọi API phòng.</p></div><a href="?animation-lab=transitions">Xem đứng–đi–ngồi ↗</a></header>
     <section className="lab-controls" aria-label="Điều khiển kiểm dâng hương">
       <label>Y phục<select value={appearance} onChange={event=>{setAppearance(event.target.value as Appearance);reset();}}><option value="man">Nam áo lam</option><option value="woman">Nữ áo lam</option><option value="granny">Áo nâu</option></select></label>
       <label>Đoạn kiểm<select value={mode} onChange={event=>{setMode(event.target.value as typeof mode);reset();}}><option value="performance">Đoạn tại lư · 5 giây</option><option value="ritual">Đứng dậy → dâng → về chỗ</option></select></label>
@@ -132,6 +132,6 @@ export default function IncenseLab() {
       <label htmlFor="incense-time">Thời gian <output>{(time/1000).toFixed(3)} / {(duration/1000).toFixed(3)} s</output><input id="incense-time" type="range" min="0" max={duration} step="1" value={time} onChange={event=>seek(Number(event.target.value))}/></label>
     </section>
     <div className="incense-marker-buttons"><button onClick={()=>seek(marker-1)}>Trước đặt 1 ms</button><button onClick={()=>seek(marker)}>Đúng mốc đặt</button><button onClick={()=>seek(marker+1)}>Sau đặt 1 ms</button></div>
-    <aside>Lớp ngón tay dùng đúng pixel của ảnh thân, che trên bó hương; miệng và thân lư có lớp trước/sau. Ba y phục có nguồn dâng hương riêng. Nam có thêm hai hướng đi ngang; các hướng chéo và chuyển tiếp của nữ/áo nâu vẫn cần hoàn thiện riêng.</aside>
+    <aside>Lớp ngón tay dùng đúng pixel của ảnh thân, che trên bó hương; miệng và thân lư có lớp trước/sau. Ba y phục có nguồn đứng–ngồi và dâng hương riêng. Nam có đủ tám hướng đi; nữ và áo nâu còn dùng chu kỳ bước cũ.</aside>
   </main>;
 }

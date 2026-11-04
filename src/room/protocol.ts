@@ -1,6 +1,8 @@
 import type { RitualCommand } from '../types/experience.ts';
 import type { RitualTimelineVersion } from '../shared/ritualSchedule.ts';
 export type Appearance = 'man' | 'woman' | 'granny';
+/** v4 keeps the v3 route and gives the complete sit-down artwork 1,500 ms. */
+export type EntryVersion = 3 | 4;
 export type OfferingKind = 'incense' | 'lotus' | 'petal' | 'bell';
 export type RoomActionKind = 'bow' | OfferingKind;
 export function isOfferingKind(value: unknown): value is OfferingKind {
@@ -16,7 +18,7 @@ export interface PlacedOffering { id:string; actionId:string; kind:OfferingKind;
   artworkVersion?:3;appearance?:Appearance }
 export interface RoomMember {
   id: string; name: string; appearance: Appearance; seat: number; joinedAt: number;
-  entryVersion?: 3;
+  entryVersion?: EntryVersion;
   action: SharedAction | null;
   completed: { kind: 'incense' | 'bow'; at: number; offering?: OfferingKind } | null;
 }

@@ -1,0 +1,76 @@
+{
+  "tool": "built-in image_gen",
+  "scope": "Seven new neutral direction views; rearRight reuses the existing neutral and is not regenerated",
+  "jobs": [
+    {
+      "heading": "rear",
+      "id": "stand",
+      "output": "rear/stand.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/00-contact-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE neutral standing direction pose for ChuaOnline. Image1 is the approved contact of this exact man for THIS heading and locks identity, face, camera elevation, scale, root and light; image2 is his neutral design reference. Replace only the walking pose with a TRUE STILL NEUTRAL STAND: BOTH bare feet close together at a natural hip-width, both soles flat and firmly grounded, knees relaxed almost straight, weight evenly balanced, pelvis upright and shoulders level. Both arms hang quietly down beside the tunic, relaxed open hands/palms toward thighs, no arm counter-swing. Do NOT retain the walking split stride, raised heel, lifted knee, prayer or gesture. Heading lock: STRAIGHT REAR toward screen-UP, centered back/head/spine, no face profile. Anatomical right is screen-RIGHT, left is screen-LEFT. Same adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers with identical seams/length, matte fabric, warm upper-left light and soft fill. Preserve input SQUARE canvas width AND height, head size/top around sourcey30, pelvis/rootx615 and ground plane aroundy1210. Keep generous UNUSED transparency to both sides; DO NOT trim/crop the square into a tall portrait. One1254×1254 genuinely transparent RGBA full figure with complete head, hands and feet inside margins. No mirroring, rotating the whole image, crossfade, extra figure/limb, props, floor, shadow, smoke, labels, grid, text or motion blur. Return one neutral person only."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "stand",
+      "output": "rearLeft/stand.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE neutral standing direction pose for ChuaOnline. Image1 is the approved contact of this exact man for THIS heading and locks identity, face, camera elevation, scale, root and light; image2 is his neutral design reference. Replace only the walking pose with a TRUE STILL NEUTRAL STAND: BOTH bare feet close together at a natural hip-width, both soles flat and firmly grounded, knees relaxed almost straight, weight evenly balanced, pelvis upright and shoulders level. Both arms hang quietly down beside the tunic, relaxed open hands/palms toward thighs, no arm counter-swing. Do NOT retain the walking split stride, raised heel, lifted knee, prayer or gesture. Heading lock: REAR THREE-QUARTER toward screen-UP-LEFT, about45degrees from straight rear. Show back and a little right side. Keep feet, hips, shoulders and head aiming UP-LEFT. Same adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers with identical seams/length, matte fabric, warm upper-left light and soft fill. Preserve input SQUARE canvas width AND height, head size/top around sourcey30, pelvis/rootx615 and ground plane aroundy1210. Keep generous UNUSED transparency to both sides; DO NOT trim/crop the square into a tall portrait. One1254×1254 genuinely transparent RGBA full figure with complete head, hands and feet inside margins. No mirroring, rotating the whole image, crossfade, extra figure/limb, props, floor, shadow, smoke, labels, grid, text or motion blur. Return one neutral person only."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "stand",
+      "output": "frontLeft/stand.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE neutral standing direction pose for ChuaOnline. Image1 is the approved contact of this exact man for THIS heading and locks identity, face, camera elevation, scale, root and light; image2 is his neutral design reference. Replace only the walking pose with a TRUE STILL NEUTRAL STAND: BOTH bare feet close together at a natural hip-width, both soles flat and firmly grounded, knees relaxed almost straight, weight evenly balanced, pelvis upright and shoulders level. Both arms hang quietly down beside the tunic, relaxed open hands/palms toward thighs, no arm counter-swing. Do NOT retain the walking split stride, raised heel, lifted knee, prayer or gesture. Heading lock: FRONT THREE-QUARTER toward screen-DOWN-LEFT, about45degrees from straight front. Calm partial frontal face and front tunic buttons visible, never a rear view. Same adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers with identical seams/length, matte fabric, warm upper-left light and soft fill. Preserve input SQUARE canvas width AND height, head size/top around sourcey30, pelvis/rootx615 and ground plane aroundy1210. Keep generous UNUSED transparency to both sides; DO NOT trim/crop the square into a tall portrait. One1254×1254 genuinely transparent RGBA full figure with complete head, hands and feet inside margins. No mirroring, rotating the whole image, crossfade, extra figure/limb, props, floor, shadow, smoke, labels, grid, text or motion blur. Return one neutral person only."
+    },
+    {
+      "heading": "front",
+      "id": "stand",
+      "output": "front/stand.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE neutral standing direction pose for ChuaOnline. Image1 is the approved contact of this exact man for THIS heading and locks identity, face, camera elevation, scale, root and light; image2 is his neutral design reference. Replace only the walking pose with a TRUE STILL NEUTRAL STAND: BOTH bare feet close together at a natural hip-width, both soles flat and firmly grounded, knees relaxed almost straight, weight evenly balanced, pelvis upright and shoulders level. Both arms hang quietly down beside the tunic, relaxed open hands/palms toward thighs, no arm counter-swing. Do NOT retain the walking split stride, raised heel, lifted knee, prayer or gesture. Heading lock: STRAIGHT FRONT toward screen-DOWN, centered face/nose/buttons and balanced shoulders. Anatomical RIGHT is screen-LEFT and LEFT is screen-RIGHT. Same adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers with identical seams/length, matte fabric, warm upper-left light and soft fill. Preserve input SQUARE canvas width AND height, head size/top around sourcey30, pelvis/rootx615 and ground plane aroundy1210. Keep generous UNUSED transparency to both sides; DO NOT trim/crop the square into a tall portrait. One1254×1254 genuinely transparent RGBA full figure with complete head, hands and feet inside margins. No mirroring, rotating the whole image, crossfade, extra figure/limb, props, floor, shadow, smoke, labels, grid, text or motion blur. Return one neutral person only."
+    },
+    {
+      "heading": "frontRight",
+      "id": "stand",
+      "output": "frontRight/stand.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE neutral standing direction pose for ChuaOnline. Image1 is the approved contact of this exact man for THIS heading and locks identity, face, camera elevation, scale, root and light; image2 is his neutral design reference. Replace only the walking pose with a TRUE STILL NEUTRAL STAND: BOTH bare feet close together at a natural hip-width, both soles flat and firmly grounded, knees relaxed almost straight, weight evenly balanced, pelvis upright and shoulders level. Both arms hang quietly down beside the tunic, relaxed open hands/palms toward thighs, no arm counter-swing. Do NOT retain the walking split stride, raised heel, lifted knee, prayer or gesture. Heading lock: FRONT THREE-QUARTER toward screen-DOWN-RIGHT, about45degrees from straight front. Calm partial frontal face and front tunic buttons visible, never a rear view. Same adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers with identical seams/length, matte fabric, warm upper-left light and soft fill. Preserve input SQUARE canvas width AND height, head size/top around sourcey30, pelvis/rootx615 and ground plane aroundy1210. Keep generous UNUSED transparency to both sides; DO NOT trim/crop the square into a tall portrait. One1254×1254 genuinely transparent RGBA full figure with complete head, hands and feet inside margins. No mirroring, rotating the whole image, crossfade, extra figure/limb, props, floor, shadow, smoke, labels, grid, text or motion blur. Return one neutral person only."
+    },
+    {
+      "heading": "left",
+      "id": "stand",
+      "output": "left/stand.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE neutral standing direction pose for ChuaOnline. Image1 is the approved contact of this exact man for THIS heading and locks identity, face, camera elevation, scale, root and light; image2 is his neutral design reference. Replace only the walking pose with a TRUE STILL NEUTRAL STAND: BOTH bare feet close together at a natural hip-width, both soles flat and firmly grounded, knees relaxed almost straight, weight evenly balanced, pelvis upright and shoulders level. Both arms hang quietly down beside the tunic, relaxed open hands/palms toward thighs, no arm counter-swing. Do NOT retain the walking split stride, raised heel, lifted knee, prayer or gesture. Heading lock: True lateral profile facing screen-LEFT. Nose, chest, hips, knees and toes all point LEFT, with the same fixed elevated camera as the lateral reference; do not turn to frontal or rear view. Same adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers with identical seams/length, matte fabric, warm upper-left light and soft fill. Preserve input SQUARE canvas width AND height, head size/top around sourcey30, pelvis/rootx615 and ground plane aroundy1210. Keep generous UNUSED transparency to both sides; DO NOT trim/crop the square into a tall portrait. One1254×1254 genuinely transparent RGBA full figure with complete head, hands and feet inside margins. No mirroring, rotating the whole image, crossfade, extra figure/limb, props, floor, shadow, smoke, labels, grid, text or motion blur. Return one neutral person only."
+    },
+    {
+      "heading": "right",
+      "id": "stand",
+      "output": "right/stand.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE neutral standing direction pose for ChuaOnline. Image1 is the approved contact of this exact man for THIS heading and locks identity, face, camera elevation, scale, root and light; image2 is his neutral design reference. Replace only the walking pose with a TRUE STILL NEUTRAL STAND: BOTH bare feet close together at a natural hip-width, both soles flat and firmly grounded, knees relaxed almost straight, weight evenly balanced, pelvis upright and shoulders level. Both arms hang quietly down beside the tunic, relaxed open hands/palms toward thighs, no arm counter-swing. Do NOT retain the walking split stride, raised heel, lifted knee, prayer or gesture. Heading lock: True lateral profile facing screen-RIGHT. Nose, chest, hips, knees and toes all point RIGHT, with the same fixed elevated camera as the lateral reference; render the anatomy/light independently, not a mirror. Same adult Vietnamese man, short dark hair, blue-grey ao lam tunic/trousers with identical seams/length, matte fabric, warm upper-left light and soft fill. Preserve input SQUARE canvas width AND height, head size/top around sourcey30, pelvis/rootx615 and ground plane aroundy1210. Keep generous UNUSED transparency to both sides; DO NOT trim/crop the square into a tall portrait. One1254×1254 genuinely transparent RGBA full figure with complete head, hands and feet inside margins. No mirroring, rotating the whole image, crossfade, extra figure/limb, props, floor, shadow, smoke, labels, grid, text or motion blur. Return one neutral person only."
+    }
+  ]
+}

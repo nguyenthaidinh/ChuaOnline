@@ -3,7 +3,7 @@ import { ROOM_CAPACITY, PRESENCE_TIMEOUT_MS, isOfferingKind, MAX_OFFERINGS, offe
 import { entryDurationMs, interactionTime, sharedRitualDurationMs } from '../src/room/ritual.ts';
 import { actionMovement } from '../src/room/motion.ts';
 import type { RitualCommand } from '../src/types/experience.ts';
-import { RITUAL_TIMELINE_VERSION, INCENSE_TIMELINE_VERSION } from '../src/shared/ritualSchedule.ts';
+import { TRANSITION_TIMELINE_VERSION, INCENSE_TRANSITION_TIMELINE_VERSION } from '../src/shared/ritualSchedule.ts';
 
 export class RoomError extends Error {
   status: number;
@@ -35,7 +35,7 @@ export class TempleRoom {
     while (taken.has(seat)) seat++;
     const token = randomBytes(32).toString('hex');
     const person: RoomMember = { id: randomUUID(), name: nameInput.replace(/[\u0000-\u001f\u007f]/g, '').trim() || 'Khách',
-      appearance: appearanceInput as Appearance, seat, joinedAt: this.now(), entryVersion:3, action: null, completed: null };
+      appearance: appearanceInput as Appearance, seat, joinedAt: this.now(), entryVersion:4, action: null, completed: null };
     this.guests.set(token, { person, seenAt: this.now(), requests: new Set(), appliedAction:null });
     this.changed();
     return { token, selfId: person.id, room: this.snapshot() };
@@ -59,9 +59,9 @@ export class TempleRoom {
     const command: RitualCommand = { id: randomUUID(), actorId: guest.person.id, kind: kind === 'bow' ? 'bow' : 'incense', bowCount: 3 };
     // Reusing a station for another physical setup clears its previous tray/sticks.
     if(kind!=='bow'&&kind!=='petal')this.offerings=this.offerings.filter(item=>item.slot!==slot||item.kind===kind||item.kind==='petal');
-    const startedAt = Math.max(this.now(), guest.person.joinedAt + entryDurationMs(guest.person.seat));
+    const startedAt = Math.max(this.now(), guest.person.joinedAt + entryDurationMs(guest.person.seat,guest.person.entryVersion));
     const movement=actionMovement(guest.person.seat,slot,command.kind==='bow',3);
-    const timelineVersion=kind==='incense'?INCENSE_TIMELINE_VERSION:RITUAL_TIMELINE_VERSION;
+    const timelineVersion=kind==='incense'?INCENSE_TRANSITION_TIMELINE_VERSION:TRANSITION_TIMELINE_VERSION;
     guest.person.action = { ...command, timelineVersion, startedAt, endsAt: startedAt + sharedRitualDurationMs(command.kind,movement,kind==='bow'?'incense':kind,timelineVersion), slot, movement,
       ...(kind === 'bow' ? {} : { offering: kind }) };
     guest.requests.add(requestId);

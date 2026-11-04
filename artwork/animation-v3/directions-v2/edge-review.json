@@ -1,0 +1,217 @@
+{
+  "texture": {
+    "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+    "sha256": "3de46c2a6c6eca931b0588ecf11f8dd9944e7c8069ff5d6fb498c67438051ea4",
+    "width": 768,
+    "height": 3072,
+    "columns": 4,
+    "rows": 12,
+    "cellWidth": 192,
+    "cellHeight": 256
+  },
+  "method": "Decode final WebP; composite each192x256 cell on light/dark for visual review. RGB diagnostic is a heuristic, not a proof of clean alpha.",
+  "nativeMasterCaveat": "Some saturated boundary pixels remain visible in magnified1254px masters. Production LOD is reviewed separately; do not treat alpha-channel presence as edge-quality certification.",
+  "generatedPNGs": 56,
+  "selected": 47,
+  "retainedUnselectedSources": [
+    "artwork/animation-v3/directions-v2/front/03-swing.png",
+    "artwork/animation-v3/directions-v2/rear/00-contact.png",
+    "artwork/animation-v3/directions-v2/rear/03-swing.png",
+    "artwork/animation-v3/directions-v2/rear/06-opposite-passing.png",
+    "artwork/animation-v3/directions-v2/rear/07-opposite-swing.png",
+    "artwork/animation-v3/directions-v2/rearLeft/02-passing.png",
+    "artwork/animation-v3/directions-v2/rearLeft/03-swing.png",
+    "artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact.png",
+    "artwork/animation-v3/directions-v2/rearLeft/06-opposite-passing.png"
+  ],
+  "diagnostics": [
+    {
+      "id": "rear-00-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rear-01-loading",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rear-02-passing",
+      "highSaturationRedPurplePixels": 2
+    },
+    {
+      "id": "rear-03-swing",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "rear-04-opposite-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rear-05-opposite-loading",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rear-06-opposite-passing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rear-07-opposite-swing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-00-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-01-loading",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-02-passing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-03-swing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-04-opposite-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-05-opposite-loading",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-06-opposite-passing",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "rearLeft-07-opposite-swing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontLeft-00-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontLeft-01-loading",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "frontLeft-02-passing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontLeft-03-swing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontLeft-04-opposite-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontLeft-05-opposite-loading",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "frontLeft-06-opposite-passing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontLeft-07-opposite-swing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "front-00-contact",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "front-01-loading",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "front-02-passing",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "front-03-swing",
+      "highSaturationRedPurplePixels": 2
+    },
+    {
+      "id": "front-04-opposite-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "front-05-opposite-loading",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "front-06-opposite-passing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "front-07-opposite-swing",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "frontRight-00-contact",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "frontRight-01-loading",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontRight-02-passing",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "frontRight-03-swing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontRight-04-opposite-contact",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontRight-05-opposite-loading",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontRight-06-opposite-passing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontRight-07-opposite-swing",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rear-stand",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "rearLeft-stand",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontLeft-stand",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "front-stand",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "frontRight-stand",
+      "highSaturationRedPurplePixels": 1
+    },
+    {
+      "id": "left-stand",
+      "highSaturationRedPurplePixels": 0
+    },
+    {
+      "id": "right-stand",
+      "highSaturationRedPurplePixels": 0
+    }
+  ]
+}

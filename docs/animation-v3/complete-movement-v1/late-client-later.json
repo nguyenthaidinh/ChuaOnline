@@ -1,0 +1,9 @@
+{
+  "action": "",
+  "artwork": "movement",
+  "at": 1793805498040,
+  "image": "background-image: url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\"); background-size: 400% 600%; background-position: 66.6667% 40%; transform: translate(0%, 0%);",
+  "phase": "idle",
+  "source": "10-seated-rear",
+  "timeline": "1"
+}

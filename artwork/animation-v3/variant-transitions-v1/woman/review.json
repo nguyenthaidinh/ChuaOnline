@@ -1,0 +1,982 @@
+{
+  "status": "compiled",
+  "appearance": "woman",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "master": "movement-atlas.webp",
+  "masterSha256": "5594a5c838340f593a4421e8f8af4c413818f68be0749c528182d2ba478da725",
+  "sourceManifestSha256": "29677bcf32730fb8670fdd4ac9ad91c843195678c9ab18f9cac4c41561cdae35",
+  "sourceTimelineSha256": "948f22e405f212450e474b5b6afd8107edc93db9c64dc6c35a9dd57d591c4d0a",
+  "selectionManifestSha256": "4864f30c288be141764ae35a16ffd3bed6061fa10f58bd412a446c8c3b1ce6b2",
+  "contactsManifestSha256": "027db3aa38db1eaad9fdbea68ca7edec13d82247a8158bf32ff1a4b95d6b0335",
+  "frames": [
+    {
+      "id": "00-stand-angled",
+      "index": 0,
+      "phase": "Đứng chéo",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/00-stand-angled.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        134,
+        73,
+        252,
+        461
+      ],
+      "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+    },
+    {
+      "id": "01-turn-mid",
+      "index": 1,
+      "phase": "Quay về bàn thờ",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/01-turn-mid-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        73,
+        255,
+        463
+      ],
+      "sha256": "20b6d84c9d87b8bff3893c08d80758a8456ee52d988c1b180b0fc163329274d7"
+    },
+    {
+      "id": "02-stand-rear",
+      "index": 2,
+      "phase": "Đứng lưng thẳng",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/02-stand-rear.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        71,
+        265,
+        465
+      ],
+      "sha256": "d6216a7e0beb5fd138147bd7407ccf51edebb1880b4ad1b74092e4a7a4eac23b"
+    },
+    {
+      "id": "03-weight-shift",
+      "index": 3,
+      "phase": "Chuyển trọng lượng",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/03-weight-shift.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        80,
+        271,
+        465
+      ],
+      "sha256": "b8e641d53dac9d07b5c71ba3e27a953de4e8f94083dc4383d6eb5daccd1d414e"
+    },
+    {
+      "id": "04-knee-bend",
+      "index": 4,
+      "phase": "Khuỵu gối",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/04-knee-bend.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        99,
+        118,
+        290,
+        465
+      ],
+      "sha256": "3636467a6e12479d3fd9975f355127f1156a2d32c837c1738f96442b8b6f0c6d"
+    },
+    {
+      "id": "05-lower-knees",
+      "index": 5,
+      "phase": "Hạ gối",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/05-lower-knees.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        93,
+        165,
+        297,
+        460
+      ],
+      "sha256": "f80c4372e40a5a5c678dbfc803e6e619cb7267e151658d7016ff9efbe3de097b"
+    },
+    {
+      "id": "06-kneeling",
+      "index": 6,
+      "phase": "Quỳ ổn định",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/06-kneeling.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        173,
+        268,
+        469
+      ],
+      "sha256": "37ab5e5a9e0cd9600c768b5a711cb4d96a717972b41a9a9ab582ea431ca7494a"
+    },
+    {
+      "id": "07-tuck-legs",
+      "index": 7,
+      "phase": "Thu chân",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/07-tuck-legs.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        73,
+        220,
+        298,
+        457
+      ],
+      "sha256": "f2b27e522c099b6cdd19d755b3fa0c7c20c36a952c5b7945c46a67e98a50f15b"
+    },
+    {
+      "id": "08-half-seated",
+      "index": 8,
+      "phase": "Hạ thân",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/08-half-seated.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        76,
+        218,
+        299,
+        462
+      ],
+      "sha256": "1134a00e34ad71bd91116b0460e70af30995ea5e22fd433ffc69bd0dded2a2c5"
+    },
+    {
+      "id": "09-seated-settle",
+      "index": 9,
+      "phase": "Ổn định khi ngồi",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/09-seated-settle.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        95,
+        225,
+        297,
+        464
+      ],
+      "sha256": "e02efeb919971b7e9f9a5db702fed7f95955ed918584338432ac49d2af8bdae0"
+    },
+    {
+      "id": "10-seated-rear",
+      "index": 10,
+      "phase": "Ngồi nhìn tượng Phật",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/10-seated-rear.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        96,
+        221,
+        296,
+        469
+      ],
+      "sha256": "6a3beec5529095c2b8e3f1e397e7c757cf71c1e4fb41d442810b904494060a4d"
+    },
+    {
+      "id": "11-step-ready",
+      "index": 11,
+      "phase": "Chuẩn bị bước",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/11-step-ready.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        73,
+        270,
+        461
+      ],
+      "sha256": "af70a9d4dc770d27da79db11ab62523c01415574c6d37e0608028b07a297aaf7"
+    },
+    {
+      "id": "12-stop-close",
+      "index": 12,
+      "phase": "Thu ngắn bước",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/12-stop-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        134,
+        73,
+        253,
+        460
+      ],
+      "sha256": "d783728cbd7c9d2dfb570599a19738baf79a4d618b68830215923c7558e479fc"
+    },
+    {
+      "id": "13-stop-settle",
+      "index": 13,
+      "phase": "Ổn định khi dừng",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/13-stop-settle.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        73,
+        253,
+        461
+      ],
+      "sha256": "090c1e564ccb234ca5d58e01aea400c65ca3e7260211198783c459f3113a30ea"
+    },
+    {
+      "id": "14-rise-support",
+      "index": 14,
+      "phase": "Chống tay đứng dậy",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/14-rise-support.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        67,
+        214,
+        325,
+        464
+      ],
+      "sha256": "b2dc65e31fb329ebffbf859194500a91febae44c78c074acd154cbb9324da58e",
+      "rightFoot": {
+        "x": 218.095,
+        "y": 463.874
+      },
+      "rightHeelSource": [
+        692,
+        1199
+      ],
+      "contactNote": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+    },
+    {
+      "id": "15-rise-half-kneel",
+      "index": 15,
+      "phase": "Đặt chân làm điểm tựa",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/15-rise-half-kneel.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        91,
+        112,
+        276,
+        464
+      ],
+      "sha256": "dfdec92fec3645531343f146dca53385452e198c5631ac0035942b70f421d19e",
+      "rightFoot": {
+        "x": 221.126,
+        "y": 454.779
+      },
+      "rightHeelSource": [
+        701,
+        1172
+      ],
+      "contactNote": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+    },
+    {
+      "id": "16-rise-crouch",
+      "index": 16,
+      "phase": "Đẩy thân đứng lên",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/16-rise-crouch.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        77,
+        278,
+        467
+      ],
+      "sha256": "658f2f63e989f4cd3291425edb9fb532e04cfd42ceaca316cef39b6ef75e48fd",
+      "rightFoot": {
+        "x": 218.768,
+        "y": 466.232
+      },
+      "rightHeelSource": [
+        694,
+        1206
+      ],
+      "contactNote": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+    },
+    {
+      "id": "17-turn-first",
+      "index": 17,
+      "phase": "Bắt đầu quay",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/17-turn-first.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        134,
+        72,
+        253,
+        462
+      ],
+      "sha256": "84870fe9047a56f4038f26d1da634c08d16b7e5aef20c85b1bb8d7875c1cc14f"
+    },
+    {
+      "id": "18-turn-second",
+      "index": 18,
+      "phase": "Bước xoay nhỏ",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/18-turn-second-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        72,
+        255,
+        462
+      ],
+      "sha256": "c7be75ef8fc8bdffc51363352ecda2279586d299beabcae39689a2ab18f6e9e4"
+    },
+    {
+      "id": "19-turn-fourth",
+      "index": 19,
+      "phase": "Chuyển chân trụ",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/19-turn-fourth-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        129,
+        73,
+        258,
+        462
+      ],
+      "sha256": "6c550deaebeda3175b3ed93a4e3ee901b741442649b97eb83ce68d096c318b0d"
+    },
+    {
+      "id": "20-turn-fifth",
+      "index": 20,
+      "phase": "Ổn định hướng bàn thờ",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/20-turn-fifth.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        73,
+        265,
+        464
+      ],
+      "sha256": "42c4befa117831a69e5315f29efa1c2340a14b09a00781555a5c6ff1f0ac5030"
+    },
+    {
+      "id": "21-rise-lean",
+      "index": 21,
+      "phase": "Nghiêng thân đặt tay",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/21-rise-lean.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        58,
+        220,
+        335,
+        461
+      ],
+      "sha256": "7a761aadcc0dd4e4c4ab8ef110e05ff5ac2174333e1e67b51ff20a7865faa57f"
+    },
+    {
+      "id": "22-rise-weight",
+      "index": 22,
+      "phase": "Nâng hông trên chân trụ",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/22-rise-weight.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        59,
+        169,
+        285,
+        465
+      ],
+      "sha256": "dcaa53bb57a61c785bff137e2060454aeaf5ac968e885e361835913b47a8a4a3",
+      "rightFoot": {
+        "x": 215.4,
+        "y": 461.516
+      },
+      "rightHeelSource": [
+        684,
+        1192
+      ],
+      "contactNote": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+    },
+    {
+      "id": "23-rise-extend",
+      "index": 23,
+      "phase": "Rời gối thu chân",
+      "selected": true,
+      "source": "artwork/animation-v3/variant-transitions-v1/woman/23-rise-extend.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        106,
+        104,
+        284,
+        467
+      ],
+      "sha256": "35e41456b940bf6d695c087a938c0388a74a78ca4c65168fe1988c7bdba293be",
+      "rightFoot": {
+        "x": 216.747,
+        "y": 466.568
+      },
+      "rightHeelSource": [
+        688,
+        1207
+      ],
+      "contactNote": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+    }
+  ],
+  "clips": {
+    "standUp": [
+      {
+        "id": "10-seated-rear",
+        "index": 10,
+        "bank": "transition",
+        "startMs": 0,
+        "endMs": 120,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 221
+      },
+      {
+        "id": "21-rise-lean",
+        "index": 21,
+        "bank": "transition",
+        "startMs": 120,
+        "endMs": 200,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 220
+      },
+      {
+        "id": "14-rise-support",
+        "index": 14,
+        "bank": "transition",
+        "startMs": 200,
+        "endMs": 300,
+        "rootOffset": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "top": 214
+      },
+      {
+        "id": "22-rise-weight",
+        "index": 22,
+        "bank": "transition",
+        "startMs": 300,
+        "endMs": 400,
+        "rootOffset": {
+          "x": 2.695,
+          "y": 2.358
+        },
+        "top": 169
+      },
+      {
+        "id": "15-rise-half-kneel",
+        "index": 15,
+        "bank": "transition",
+        "startMs": 400,
+        "endMs": 500,
+        "rootOffset": {
+          "x": -3.031,
+          "y": 9.095
+        },
+        "top": 112
+      },
+      {
+        "id": "23-rise-extend",
+        "index": 23,
+        "bank": "transition",
+        "startMs": 500,
+        "endMs": 580,
+        "rootOffset": {
+          "x": 1.348,
+          "y": -2.694
+        },
+        "top": 104
+      },
+      {
+        "id": "16-rise-crouch",
+        "index": 16,
+        "bank": "transition",
+        "startMs": 580,
+        "endMs": 680,
+        "rootOffset": {
+          "x": -0.673,
+          "y": -2.358
+        },
+        "top": 77
+      },
+      {
+        "id": "02-stand-rear",
+        "index": 2,
+        "bank": "transition",
+        "startMs": 680,
+        "endMs": 780,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 71
+      },
+      {
+        "id": "20-turn-fifth",
+        "index": 20,
+        "bank": "transition",
+        "startMs": 780,
+        "endMs": 830,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      },
+      {
+        "id": "19-turn-fourth",
+        "index": 19,
+        "bank": "transition",
+        "startMs": 830,
+        "endMs": 880,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      },
+      {
+        "id": "01-turn-mid",
+        "index": 1,
+        "bank": "transition",
+        "startMs": 880,
+        "endMs": 930,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      },
+      {
+        "id": "18-turn-second",
+        "index": 18,
+        "bank": "transition",
+        "startMs": 930,
+        "endMs": 980,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 72
+      },
+      {
+        "id": "17-turn-first",
+        "index": 17,
+        "bank": "transition",
+        "startMs": 980,
+        "endMs": 1030,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 72
+      },
+      {
+        "id": "00-stand-angled",
+        "index": 0,
+        "bank": "transition",
+        "startMs": 1030,
+        "endMs": 1160,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      }
+    ],
+    "sitDown": [
+      {
+        "id": "00-stand-angled",
+        "index": 0,
+        "bank": "transition",
+        "startMs": 0,
+        "endMs": 80,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      },
+      {
+        "id": "17-turn-first",
+        "index": 17,
+        "bank": "transition",
+        "startMs": 80,
+        "endMs": 120,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 72
+      },
+      {
+        "id": "18-turn-second",
+        "index": 18,
+        "bank": "transition",
+        "startMs": 120,
+        "endMs": 160,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 72
+      },
+      {
+        "id": "01-turn-mid",
+        "index": 1,
+        "bank": "transition",
+        "startMs": 160,
+        "endMs": 220,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      },
+      {
+        "id": "19-turn-fourth",
+        "index": 19,
+        "bank": "transition",
+        "startMs": 220,
+        "endMs": 260,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      },
+      {
+        "id": "20-turn-fifth",
+        "index": 20,
+        "bank": "transition",
+        "startMs": 260,
+        "endMs": 300,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 73
+      },
+      {
+        "id": "02-stand-rear",
+        "index": 2,
+        "bank": "transition",
+        "startMs": 300,
+        "endMs": 380,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 71
+      },
+      {
+        "id": "03-weight-shift",
+        "index": 3,
+        "bank": "transition",
+        "startMs": 380,
+        "endMs": 480,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 80
+      },
+      {
+        "id": "04-knee-bend",
+        "index": 4,
+        "bank": "transition",
+        "startMs": 480,
+        "endMs": 580,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 118
+      },
+      {
+        "id": "05-lower-knees",
+        "index": 5,
+        "bank": "transition",
+        "startMs": 580,
+        "endMs": 680,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 165
+      },
+      {
+        "id": "06-kneeling",
+        "index": 6,
+        "bank": "transition",
+        "startMs": 680,
+        "endMs": 820,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 173
+      },
+      {
+        "id": "07-tuck-legs",
+        "index": 7,
+        "bank": "transition",
+        "startMs": 820,
+        "endMs": 940,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 220
+      },
+      {
+        "id": "08-half-seated",
+        "index": 8,
+        "bank": "transition",
+        "startMs": 940,
+        "endMs": 1060,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 218
+      },
+      {
+        "id": "09-seated-settle",
+        "index": 9,
+        "bank": "transition",
+        "startMs": 1060,
+        "endMs": 1180,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 225
+      },
+      {
+        "id": "10-seated-rear",
+        "index": 10,
+        "bank": "transition",
+        "startMs": 1180,
+        "endMs": 1500,
+        "rootOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "top": 221
+      }
+    ]
+  },
+  "production": {
+    "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+    "sha256": "a660a3688bbdf2b2725285db0b01720b5f02f2a7795e9a1e07092721db438a0a",
+    "width": 768,
+    "height": 1536,
+    "columns": 4,
+    "rows": 6,
+    "cellWidth": 192,
+    "cellHeight": 256
+  },
+  "reviewNote": "Own annotated heel contacts; image boards/source loops require visual review."
+}

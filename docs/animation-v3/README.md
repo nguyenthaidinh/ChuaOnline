@@ -7,25 +7,29 @@ Ngày 04/11/2026. Nhánh `codex/animation-v3`, bản chuẩn trước nâng cấ
 | Chặng | Trạng thái thực tế |
 | --- | --- |
 | 0 | Đã khóa bản chuẩn, dựng công cụ xem chậm, ghi video nguồn hiện tại và lập danh sách lỗi |
-| 1 | Có đi lưng chéo 12 khung, chuyển tiếp 24 tư thế và hai hướng ngang mới 8 khung/hướng cho nam. Đã nối profile chuyển động 3 tăng/giảm tốc và nhìn trước góc; chưa đủ nguồn mọi hướng/chuyển tiếp nữ-nâu hoặc đo chân trụ mọi đường. [Đợt mở rộng](movement-variants-v1/README.md) |
-| 2 | Cả ba y phục có 23 tư thế dâng hương riêng, lớp tay và mốc vào lư. Đã kiểm3 khách, vào giữa lễ, lỗi riêng ảnh nữ, đủ 24 mốc/identity. Chưa nghiệm thu toàn chặng do hướng/chuyển tiếp và video mobile còn mở. [Báo cáo mới](movement-variants-v1/README.md) |
+| 1 | Nam có đủ tám hướng đi riêng, bảy neutral mới để quay và nối ngồi nhìn lên bàn thờ. Nữ/nâu có 24 pose chuyển tiếp riêng mỗi người, đo gót độc lập. Còn thiếu gait nữ/nâu, clip bước đầu/khép chân ở mọi hướng và đo chân trụ mọi đường. [Đợt mới](complete-movement-v1/README.md) |
+| 2 | Cả ba y phục có 23 tư thế dâng hương riêng, lớp tay và mốc vào lư. Đã kiểm ba khách với timeline4, khách vào giữa lễ, lỗi riêng ảnh chuyển tiếp nữ và đổi viewport thật giữa lễ. Chưa nghiệm thu toàn chặng do gait nữ/nâu và các phần còn mở ở chặng 1. [Báo cáo mới](complete-movement-v1/README.md) |
 | 3 | Đã bắt đầu: mỗi y phục có 3 pose chuông và 2 pose hoa; đo lại tiếp xúc bộ cũ. Cánh sen/lạy còn dùng nguồn trước, chuyển tiếp tay mới và hướng đi còn thiếu. Chưa nghiệm thu toàn chặng |
 | 4–6 | Chưa triển khai phần nâng cấp mới; tiếp tục sau các phạm vi còn mở ở chặng 1–3 |
 
 Không coi bộ kiểm tra code đạt là đã hoàn tất nâng cấp hình ảnh. Chánh điện đã dùng nguồn mới
-cho dâng hương cả ba y phục, hoa/chuông, đứng/ngồi và hướng đi lưng chéo/ngang nam đủ điều kiện.
-Góc trước/chéo, chuyển tiếp nữ/nâu, cánh sen và lạy vẫn cần nguồn bổ sung. Rig thử không tham gia render sản phẩm.
+cho dâng hương cả ba y phục, hoa/chuông, đứng/ngồi ba y phục và tám hướng đi nam.
+Chu kỳ đi nữ/nâu, clip bắt đầu/dừng ở mọi góc, cánh sen và lạy vẫn cần nguồn bổ sung.
+Rig thử không tham gia render sản phẩm.
 
-Đợt mới nhất có77 tư thế mới được chọn, thêm 653.858 byte nén/15,375 MiB RGBA theo kích thước pixel.
-Typecheck, 80 test, build và audit v1 đạt. Xem [báo cáo mở rộng](movement-variants-v1/README.md)
-để biết phạm vi đã kiểm và giới hạn responsive. [Báo cáo dâng hương nam](incense-v1/README.md) là mốc trước.
+Đợt mới nhất bổ sung 93 tư thế mới được chọn, thêm 833.462 byte nén/18 MiB RGBA theo kích thước pixel.
+Cả 12 texture animation-v3 dùng 44,625 MiB theo pixel; đây không phải bộ nhớ trình duyệt thực.
+Typecheck, 101 test, build và audit v1 đạt. Xem [báo cáo hướng đi/chuyển tiếp](complete-movement-v1/README.md)
+để biết kiểm mobile bằng iframe thật và giới hạn còn lại. [Báo cáo mở rộng trước](movement-variants-v1/README.md)
+và [báo cáo dâng hương nam](incense-v1/README.md) là các mốc trước.
 [Báo cáo tinh chỉnh chuyển tiếp](transition-refinement/README.md), [bản 17 tư thế](transitions/README.md)
 và các bằng chứng phía dưới là lịch sử những đợt trước.
 
 ## Nền tảng đã làm ở đợt đầu
 
 Phần này và bằng chứng đợt đầu bên dưới là lịch sử trước khi tích hợp v2.
-Quy tắc cấp phiên bản mới nhất nằm trong [báo cáo dâng hương](incense-v1/README.md).
+Quy tắc của đợt đó nằm trong [báo cáo dâng hương](incense-v1/README.md).
+Hợp đồng hiện hành entry4/timeline3/4 được ghi trong [báo cáo mới](complete-movement-v1/README.md).
 
 - `src/shared/ritualSchedule.ts`: lịch nghi lễ v1, thời lượng clip và mốc tương tác;
   server không còn lấy thời gian từ manifest artwork.
@@ -41,7 +45,8 @@ Quy tắc cấp phiên bản mới nhất nằm trong [báo cáo dâng hương](
   12 ô 384×512 RGBA. Khung camera được fit một lần qua nhiều pose, không crop theo từng frame.
   Có dọn mixer, geometry, material, skeleton và WebGL context khi đóng.
 
-Xưởng không tạo RoomClient, không gọi API và không chứa nút điều khiển phòng chung.
+Xưởng hoạt ảnh ngoại tuyến không tạo RoomClient, không gọi API và không chứa nút điều khiển phòng chung.
+Khung `?animation-lab=responsive` nhúng web thật qua iframe và dùng backend phòng chung đã chạy.
 Hai cột chạy cùng phần trăm tiến độ để xem nguồn; không khẳng định clip FBX quỳ và clip sprite ngồi
 là cùng một động tác. Nguồn FBX hiện chỉ là nam; chọn nữ/áo nâu thay cột sprite đối chiếu.
 

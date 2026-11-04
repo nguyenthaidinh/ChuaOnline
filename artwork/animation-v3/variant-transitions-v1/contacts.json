@@ -1,0 +1,90 @@
+{
+  "coordinateSpace": "actual selected PNG source pixels",
+  "measurementMethod": "Own source inspected in support-poses and source-pixel foot calibration; heel contact refined to visible skin/alpha boundary",
+  "appearances": {
+    "woman": {
+      "14-rise-support": {
+        "rightHeel": [
+          692,
+          1199
+        ],
+        "sourceSha256": "b2dc65e31fb329ebffbf859194500a91febae44c78c074acd154cbb9324da58e",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+      },
+      "22-rise-weight": {
+        "rightHeel": [
+          684,
+          1192
+        ],
+        "sourceSha256": "dcaa53bb57a61c785bff137e2060454aeaf5ac968e885e361835913b47a8a4a3",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+      },
+      "15-rise-half-kneel": {
+        "rightHeel": [
+          701,
+          1172
+        ],
+        "sourceSha256": "dfdec92fec3645531343f146dca53385452e198c5631ac0035942b70f421d19e",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+      },
+      "23-rise-extend": {
+        "rightHeel": [
+          688,
+          1207
+        ],
+        "sourceSha256": "35e41456b940bf6d695c087a938c0388a74a78ca4c65168fe1988c7bdba293be",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+      },
+      "16-rise-crouch": {
+        "rightHeel": [
+          694,
+          1206
+        ],
+        "sourceSha256": "658f2f63e989f4cd3291425edb9fb532e04cfd42ceaca316cef39b6ef75e48fd",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male metadata."
+      }
+    },
+    "granny": {
+      "14-rise-support": {
+        "rightHeel": [
+          692,
+          1199
+        ],
+        "sourceSha256": "5e45827f7cf6864b002d9b1992095e8ca010231618b32588bb554d359c48fc0d",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male or woman metadata."
+      },
+      "22-rise-weight": {
+        "rightHeel": [
+          682,
+          1193
+        ],
+        "sourceSha256": "b6d4617f47c34af2e883af8df82009b8f2217d0c80319df632de766390aef73e",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male or woman metadata."
+      },
+      "15-rise-half-kneel": {
+        "rightHeel": [
+          699,
+          1171
+        ],
+        "sourceSha256": "e31e5bbe57e20ea27490d26ecbe8dcbc9faa777187152ac21d42857603fcdaf3",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male or woman metadata."
+      },
+      "23-rise-extend": {
+        "rightHeel": [
+          688,
+          1208
+        ],
+        "sourceSha256": "ba62ee005c7ddc439d7095e0aac16de0eee7b9752254b5a0bd3e3a01488a97b0",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male or woman metadata."
+      },
+      "16-rise-crouch": {
+        "rightHeel": [
+          694,
+          1206
+        ],
+        "sourceSha256": "fd02ea780a5dffb916e93a83b4aed7d49b407695ac3e90bd7316faaa6f182e97",
+        "note": "Own right planted heel, selected after inspecting full pose and native foot grid; visible lower heel boundary, not copied from male or woman metadata."
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "method": "DEV same-origin iframe; intrinsic viewport, preview scale0.65; actual shared backend4180",
+  "checks": [
+    {
+      "action": "f43e5015-2510-42fa-b084-a1f68f372a30",
+      "at": 1793804802994,
+      "height": 844,
+      "layout": "mobile",
+      "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+      "phase": "moving",
+      "scrollWidth": 390,
+      "source": "",
+      "timeline": "4",
+      "width": 390
+    },
+    {
+      "action": "f43e5015-2510-42fa-b084-a1f68f372a30",
+      "at": 1793804803528,
+      "height": 800,
+      "layout": "mobile",
+      "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+      "phase": "moving",
+      "scrollWidth": 360,
+      "source": "",
+      "timeline": "4",
+      "width": 360
+    },
+    {
+      "action": "f43e5015-2510-42fa-b084-a1f68f372a30",
+      "at": 1793804804171,
+      "height": 1024,
+      "layout": "desktop",
+      "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+      "phase": "moving",
+      "scrollWidth": 768,
+      "source": "",
+      "timeline": "4",
+      "width": 768
+    },
+    {
+      "action": "f43e5015-2510-42fa-b084-a1f68f372a30",
+      "at": 1793804804875,
+      "height": 844,
+      "layout": "mobile",
+      "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+      "phase": "performing",
+      "scrollWidth": 390,
+      "source": "02-grasp",
+      "timeline": "4",
+      "width": 390
+    },
+    {
+      "artwork": "movement",
+      "at": 1793804826766,
+      "buttonEnabled": true,
+      "height": 844,
+      "layout": "mobile",
+      "offerings": 1,
+      "person": "3976ba7b-9e65-4b5e-959c-03a8870cf23c",
+      "phase": "idle",
+      "scrollWidth": 390,
+      "source": "10-seated-rear",
+      "width": 390
+    },
+    {
+      "at": 1793804911264,
+      "height": 768,
+      "layout": "desktop",
+      "scrollWidth": 1366,
+      "width": 1366
+    }
+  ]
+}
