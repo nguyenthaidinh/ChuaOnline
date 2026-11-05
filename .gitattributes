@@ -3,3 +3,6 @@
 artwork/animation-v3/variant-gaits-v1/**/*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
 artwork/animation-v3/stop-closes-v1/**/*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
 artwork/animation-v3/bow-petal-v1/**/*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+# Preserve exact upstream license bytes, including original trailing spaces.
+artwork/fonts-v1/OFL.txt -text -whitespace
+public/assets/fonts/OFL.txt -text -whitespace

@@ -1,0 +1,258 @@
+{
+  "status": "passed",
+  "files": 25,
+  "method": "FFmpeg decoded MP3 to mono24kHz16-bit PCM; measured RMS, peak and near-silence using55dB threshold. This is not a listening or pronunciation review.",
+  "totalMp3Bytes": 1265637,
+  "entries": [
+    {
+      "id": "b01",
+      "samples": 130474,
+      "durationDecodedSeconds": 5.436,
+      "rmsDbfs": -18.608,
+      "peakDbfs": -2.397,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b02",
+      "samples": 162001,
+      "durationDecodedSeconds": 6.75,
+      "rmsDbfs": -19.458,
+      "peakDbfs": -2.497,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b03",
+      "samples": 144548,
+      "durationDecodedSeconds": 6.023,
+      "rmsDbfs": -19.87,
+      "peakDbfs": -4.086,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b04",
+      "samples": 156154,
+      "durationDecodedSeconds": 6.506,
+      "rmsDbfs": -19.079,
+      "peakDbfs": -2.662,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b05",
+      "samples": 175474,
+      "durationDecodedSeconds": 7.311,
+      "rmsDbfs": -19.567,
+      "peakDbfs": -3.54,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b06",
+      "samples": 166934,
+      "durationDecodedSeconds": 6.956,
+      "rmsDbfs": -19.641,
+      "peakDbfs": -2.597,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b07",
+      "samples": 180932,
+      "durationDecodedSeconds": 7.539,
+      "rmsDbfs": -19.665,
+      "peakDbfs": -2.929,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b08",
+      "samples": 160281,
+      "durationDecodedSeconds": 6.678,
+      "rmsDbfs": -18.867,
+      "peakDbfs": -2.301,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b09",
+      "samples": 162623,
+      "durationDecodedSeconds": 6.776,
+      "rmsDbfs": -19.045,
+      "peakDbfs": -2.516,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b10",
+      "samples": 166854,
+      "durationDecodedSeconds": 6.952,
+      "rmsDbfs": -18.96,
+      "peakDbfs": -2.522,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b11",
+      "samples": 162792,
+      "durationDecodedSeconds": 6.783,
+      "rmsDbfs": -18.907,
+      "peakDbfs": -2.603,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b12",
+      "samples": 163631,
+      "durationDecodedSeconds": 6.818,
+      "rmsDbfs": -19.111,
+      "peakDbfs": -3.027,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.182,
+      "sha256Verified": true
+    },
+    {
+      "id": "b13",
+      "samples": 178473,
+      "durationDecodedSeconds": 7.436,
+      "rmsDbfs": -20.116,
+      "peakDbfs": -4.341,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b14",
+      "samples": 175785,
+      "durationDecodedSeconds": 7.324,
+      "rmsDbfs": -18.654,
+      "peakDbfs": -2.485,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b15",
+      "samples": 161734,
+      "durationDecodedSeconds": 6.739,
+      "rmsDbfs": -19.641,
+      "peakDbfs": -3.739,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b16",
+      "samples": 171942,
+      "durationDecodedSeconds": 7.164,
+      "rmsDbfs": -19.989,
+      "peakDbfs": -2.7,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b17",
+      "samples": 159180,
+      "durationDecodedSeconds": 6.633,
+      "rmsDbfs": -19.244,
+      "peakDbfs": -3.397,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b18",
+      "samples": 181189,
+      "durationDecodedSeconds": 7.55,
+      "rmsDbfs": -18.871,
+      "peakDbfs": -2.55,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.181,
+      "sha256Verified": true
+    },
+    {
+      "id": "b19",
+      "samples": 184644,
+      "durationDecodedSeconds": 7.694,
+      "rmsDbfs": -18.701,
+      "peakDbfs": -2.47,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "b20",
+      "samples": 178536,
+      "durationDecodedSeconds": 7.439,
+      "rmsDbfs": -19.07,
+      "peakDbfs": -2.768,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "incense",
+      "samples": 85808,
+      "durationDecodedSeconds": 3.575,
+      "rmsDbfs": -19.198,
+      "peakDbfs": -2.436,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "lotus",
+      "samples": 81750,
+      "durationDecodedSeconds": 3.406,
+      "rmsDbfs": -19.17,
+      "peakDbfs": -3.533,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "petal",
+      "samples": 79690,
+      "durationDecodedSeconds": 3.32,
+      "rmsDbfs": -19.01,
+      "peakDbfs": -2.56,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "bell",
+      "samples": 73400,
+      "durationDecodedSeconds": 3.058,
+      "rmsDbfs": -18.881,
+      "peakDbfs": -2.388,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    },
+    {
+      "id": "bow",
+      "samples": 98543,
+      "durationDecodedSeconds": 4.106,
+      "rmsDbfs": -19.136,
+      "peakDbfs": -3.121,
+      "leadingNearSilenceSeconds": 0.0,
+      "trailingNearSilenceSeconds": 0.18,
+      "sha256Verified": true
+    }
+  ]
+}

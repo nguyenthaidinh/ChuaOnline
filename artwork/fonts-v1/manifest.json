@@ -1,0 +1,68 @@
+{
+  "family": "Noto Serif",
+  "license": "SIL Open Font License 1.1",
+  "officialRepository": "https://github.com/google/fonts/tree/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notoserif",
+  "sourceCommit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+  "sourceFiles": [
+    {
+      "file": "artwork/fonts-v1/NotoSerif-variable.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notoserif/NotoSerif%5Bwdth,wght%5D.ttf",
+      "sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713",
+      "bytes": 1887192
+    },
+    {
+      "file": "artwork/fonts-v1/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notoserif/OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "bytes": 4396
+    }
+  ],
+  "fontToolsVersion": "4.58.0",
+  "brotliVersion": "1.2.0",
+  "operations": [
+    "Subset Latin, Vietnamese, combining marks and punctuation",
+    "Pin wdth=100",
+    "Restrict wght to400..700",
+    "Encode WOFF2"
+  ],
+  "output": {
+    "file": "public/assets/fonts/noto-serif-vietnamese.woff2",
+    "sha256": "883c4b606efe7cb2fb920401931168021086903373dd519785bcddd5f8db83da",
+    "bytes": 82612,
+    "style": "normal",
+    "weightRange": [
+      400,
+      700
+    ]
+  },
+  "validation": {
+    "catalogNfcGlyphsChecked": 103,
+    "missingGlyphs": [],
+    "vietnamesePrecomposedBlock": "U+1EA0..U+1EF9",
+    "missingVietnamesePrecomposedGlyphs": [],
+    "combiningMarks": [
+      "U+0300",
+      "U+0301",
+      "U+0303",
+      "U+0309",
+      "U+0323",
+      "U+0302",
+      "U+0306",
+      "U+031B"
+    ],
+    "gposFeatures": [
+      "kern",
+      "mark",
+      "mkmk"
+    ],
+    "axes": {
+      "wght": {
+        "min": 400.0,
+        "default": 400.0,
+        "max": 700.0
+      }
+    },
+    "glyphCount": 1308,
+    "note": "Table/cmap checks; final rendered diacritic review belongs to browser QA."
+  }
+}

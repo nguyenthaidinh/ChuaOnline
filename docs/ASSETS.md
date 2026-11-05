@@ -18,10 +18,27 @@ Danh mục đầy đủ với dung lượng và SHA-256 nằm trong `asset-inven
 
 Chuông được tổng hợp bằng Web Audio, không sử dụng bản thu bên ngoài.
 Hình đại diện dự phòng dùng ký tự Unicode của thiết bị.
-Không tải font, ảnh avatar hoặc âm thanh từ dịch vụ bên ngoài. CSS giữ tên font Lora;
-khi thiết bị không có Lora sẽ dùng serif hệ thống. Font đóng gói và bộ nhận diện cuối
-cùng để chặng hoàn thiện hình ảnh.
+Ở bản thử nghiệm ban đầu, CSS giữ tên font Lora và dùng serif hệ thống khi máy
+không có font. Bản cập nhật ngày 05/11/2026 đã đóng gói Noto Serif có đủ tiếng Việt,
+thay cho font hệ thống ở các tiêu đề và lời chúc; xem danh mục bổ sung dưới đây.
 
 Sau Chặng 3, `dist` chứa hai nền SVG tạm (~5,6 KB và ~4,7 KB), một bản nhạc
 (~5.66 MB), năm file FBX (~8.45 MB) và mã frontend. Nền raster cũ được chuyển
 sang archive. Quyền nhạc và model vẫn cần được xác minh trước khi công khai.
+
+## Bổ sung lời chúc có giọng đọc — 05/11/2026
+
+| Tài nguyên | Vị trí | Nguồn và hồ sơ |
+| --- | --- | --- |
+| Noto Serif tiếng Việt, WOFF2, 82.612 byte | public/assets/fonts | Noto Serif từ Google Fonts, SIL OFL 1.1; nguồn TTF, giấy phép, SHA và script subset trong artwork/fonts-v1 |
+| 20 lời chúc MP3 | public/assets/audio/blessings | Giọng tổng hợp Microsoft An vi-VN đã cài trên máy, tạo cục bộ từ src/data/blessingCatalog.ts |
+| 5 lời nguyện nghi lễ MP3 | public/assets/audio/rituals | Cùng giọng và workflow; tương ứng hương, hoa sen, cánh sen, chuông và lạy |
+
+25 MP3 tổng cộng 1.265.637 byte. WAV gốc, câu đọc, thông số, SHA và kết quả
+kiểm tín hiệu được giữ trong `artwork/audio-voice-v1`; WAV không đi vào bản web.
+Âm điểm nghi lễ được tổng hợp bằng Web Audio. Trang web tải font và giọng đọc
+từ cùng máy chủ ứng dụng, không gọi dịch vụ TTS hoặc Google Fonts khi truy cập.
+
+Xem [kiểm tra tích hợp và ảnh giao diện](blessings-voice-v1/README.md),
+[hồ sơ font](../artwork/fonts-v1/README.md) và
+[workflow giọng đọc](../artwork/audio-voice-v1/README.md).
