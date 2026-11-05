@@ -1,0 +1,303 @@
+{
+  "appearance": "woman",
+  "status": "complete",
+  "measurement": "Sixteen manually selected native-source heel/plantar landmarks. Anatomical left/right, own female PNGs, grid and alpha checked; occluded heels explicitly use a visible plantar edge.",
+  "frames": {
+    "rear": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+      "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          675,
+          1206
+        ],
+        "left": [
+          570,
+          1206
+        ]
+      },
+      "landmark": {
+        "right": "visible-heel",
+        "left": "visible-heel"
+      },
+      "landmarkNote": {
+        "right": "Lower rear heel curve on the image-right foot; heel is directly visible.",
+        "left": "Lower rear heel curve on the image-left foot; heel is directly visible."
+      },
+      "sampleRgba": {
+        "right": [
+          206,
+          149,
+          115,
+          252
+        ],
+        "left": [
+          207,
+          149,
+          115,
+          252
+        ]
+      }
+    },
+    "rearRight": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+      "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          627,
+          1183
+        ],
+        "left": [
+          535,
+          1177
+        ]
+      },
+      "landmark": {
+        "right": "visible-heel",
+        "left": "visible-heel"
+      },
+      "landmarkNote": {
+        "right": "Lower posterior heel edge of the near, image-right foot.",
+        "left": "Visible low rear heel curve of the far, image-left foot."
+      },
+      "sampleRgba": {
+        "right": [
+          205,
+          138,
+          97,
+          253
+        ],
+        "left": [
+          186,
+          122,
+          81,
+          250
+        ]
+      }
+    },
+    "right": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+      "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          562,
+          1189
+        ],
+        "left": [
+          690,
+          1164
+        ]
+      },
+      "landmark": {
+        "right": "visible-heel",
+        "left": "visible-plantar"
+      },
+      "landmarkNote": {
+        "right": "Low posterior heel edge of the near profile foot.",
+        "left": "Far heel is occluded by the near ankle/foot. This is the visible plantar edge below the far forefoot, not an inferred heel."
+      },
+      "sampleRgba": {
+        "right": [
+          174,
+          122,
+          93,
+          252
+        ],
+        "left": [
+          120,
+          73,
+          54,
+          238
+        ]
+      }
+    },
+    "frontRight": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+      "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          539,
+          1195
+        ],
+        "left": [
+          635,
+          1193
+        ]
+      },
+      "landmark": {
+        "right": "visible-heel",
+        "left": "visible-heel"
+      },
+      "landmarkNote": {
+        "right": "Visible lower posterior/side heel edge of the near, image-left foot.",
+        "left": "Low posterior heel edge of the far foot, just before the arch."
+      },
+      "sampleRgba": {
+        "right": [
+          239,
+          188,
+          144,
+          252
+        ],
+        "left": [
+          142,
+          92,
+          66,
+          252
+        ]
+      }
+    },
+    "front": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+      "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          570,
+          1215
+        ],
+        "left": [
+          665,
+          1215
+        ]
+      },
+      "landmark": {
+        "right": "visible-plantar",
+        "left": "visible-plantar"
+      },
+      "landmarkNote": {
+        "right": "Heel is behind the forefoot/cuff in the frontal view. This is a visible plantar toe-contact edge on the anatomical right, image-left foot.",
+        "left": "Heel is behind the forefoot/cuff in the frontal view. This is a visible plantar toe-contact edge on the anatomical left, image-right foot."
+      },
+      "sampleRgba": {
+        "right": [
+          206,
+          145,
+          115,
+          252
+        ],
+        "left": [
+          181,
+          121,
+          92,
+          249
+        ]
+      }
+    },
+    "frontLeft": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+      "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          592,
+          1190
+        ],
+        "left": [
+          635,
+          1221
+        ]
+      },
+      "landmark": {
+        "right": "visible-heel",
+        "left": "visible-plantar"
+      },
+      "landmarkNote": {
+        "right": "Low posterior/side heel edge of the far, image-left foot.",
+        "left": "Visible central plantar toe-pad on the near, image-right foot. This matches passing06, whose heel is occluded; the heel remains a secondary visible feature only."
+      },
+      "sampleRgba": {
+        "right": [
+          136,
+          89,
+          64,
+          249
+        ],
+        "left": [
+          226,
+          159,
+          129,
+          252
+        ]
+      }
+    },
+    "left": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+      "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          530,
+          1177
+        ],
+        "left": [
+          682,
+          1197
+        ]
+      },
+      "landmark": {
+        "right": "visible-plantar",
+        "left": "visible-heel"
+      },
+      "landmarkNote": {
+        "right": "Far heel is occluded by the near leg/ankle. This is the actual visible plantar edge below the far forefoot, not an inferred heel.",
+        "left": "Low posterior heel curve of the near profile foot."
+      },
+      "sampleRgba": {
+        "right": [
+          187,
+          119,
+          93,
+          252
+        ],
+        "left": [
+          121,
+          75,
+          54,
+          225
+        ]
+      }
+    },
+    "rearLeft": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+      "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+      "coordinateSpace": "native source PNG pixels",
+      "points": {
+        "right": [
+          674,
+          1191
+        ],
+        "left": [
+          590,
+          1200
+        ]
+      },
+      "landmark": {
+        "right": "visible-heel",
+        "left": "visible-heel"
+      },
+      "landmarkNote": {
+        "right": "Low posterior heel curve of the far, image-right foot.",
+        "left": "Visible low posterior heel curve of the near, image-left foot."
+      },
+      "sampleRgba": {
+        "right": [
+          203,
+          151,
+          130,
+          253
+        ],
+        "left": [
+          208,
+          162,
+          136,
+          253
+        ]
+      }
+    }
+  }
+}

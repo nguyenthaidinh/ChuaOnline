@@ -1,0 +1,872 @@
+{
+  "appearance": "granny",
+  "coordinateSpace": "Native selected PNG pixels, origin top-left",
+  "frames": {
+    "rear/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-gather.png",
+      "sourceSha256": "4d1935b469259c75f9ae789d7c8ffb6fd49d298cb656488fc82cff1526a5dbfd",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        625,
+        1186
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right heel planted; left foot is raised and gathering, arms damping, straight-rear head and bun retained.",
+      "evidence": "qa/feet-review/rear-right-gather.jpg",
+      "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+      "neutralPoint": [
+        675,
+        1210
+      ],
+      "pinLogicalOffset": [
+        16.84210526315789,
+        8.084210526315758
+      ],
+      "pinLogicalLength": 18.681835282677266
+    },
+    "rear/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-close.png",
+      "sourceSha256": "0bc3a5d47a68f4dd8cbd5cf08c22bd00380d65a0a54f7530b77fc1e5297cd80d",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        625,
+        1185
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right heel planted; left foot nearly closes beside it with slight lift, arms settled, straight-rear body retained.",
+      "evidence": "qa/feet-review/rear-right-close.jpg",
+      "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+      "neutralPoint": [
+        675,
+        1210
+      ],
+      "pinLogicalOffset": [
+        16.84210526315789,
+        8.421052631578902
+      ],
+      "pinLogicalLength": 18.830046126313995
+    },
+    "rear/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-gather.png",
+      "sourceSha256": "902d5a00e0f86a30367b73b05f29cbdf4755ec7c61dcc11baa3ba88d3242a674",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        585,
+        1209
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left heel planted; right sole is visibly raised while gathering, arms damping, straight-rear head and bun retained.",
+      "evidence": "qa/feet-review/rear-left-gather.jpg",
+      "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+      "neutralPoint": [
+        555,
+        1209
+      ],
+      "pinLogicalOffset": [
+        -10.10526315789474,
+        0.0
+      ],
+      "pinLogicalLength": 10.10526315789474
+    },
+    "rear/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-close.png",
+      "sourceSha256": "9f456c16a13f525e313ab03d45591541b50168cd9b642362b520d36e462e0379",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        585,
+        1206
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left heel remains planted, right foot has closed beside it, both legs near neutral, arms settled and straight rear retained.",
+      "evidence": "qa/feet-review/rear-left-close.jpg",
+      "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+      "neutralPoint": [
+        555,
+        1209
+      ],
+      "pinLogicalOffset": [
+        -10.10526315789474,
+        1.010526315789491
+      ],
+      "pinLogicalLength": 10.155663785553747
+    },
+    "rearRight/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-gather.png",
+      "sourceSha256": "34010f2ce731f286a79ee9c525a732f6ddc4f10dea846fc69f45991c3cc9f425",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        550,
+        1186
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: right support heel belongs to the foreground crossing stance leg; left foot raised, torso and bun retain rear-right heading.",
+      "evidence": "qa/feet-review/rearRight-right-gather.jpg",
+      "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+      "neutralPoint": [
+        620,
+        1186
+      ],
+      "pinLogicalOffset": [
+        23.57894736842107,
+        0.0
+      ],
+      "pinLogicalLength": 23.57894736842107
+    },
+    "rearRight/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-close.png",
+      "sourceSha256": "7e0d6ed738027d66bfb173c86aa280576fa2f30bbc9f3260ef219378c159714d",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        610,
+        1173
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right heel is on the nearer image-right foot; left foot closed behind it, arms settled, rear-right body and bun retained.",
+      "evidence": "qa/feet-review/rearRight-right-close.jpg",
+      "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+      "neutralPoint": [
+        620,
+        1186
+      ],
+      "pinLogicalOffset": [
+        3.3684210526315894,
+        4.378947368421052
+      ],
+      "pinLogicalLength": 5.524621294099114
+    },
+    "rearRight/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-gather.png",
+      "sourceSha256": "9a69dd9e378a51174dce63ae639a51f76321236ac9458ce4fed9b890aa9b8ee3",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        535,
+        1185
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left support heel is on the image-left stance leg; right foot raised and gathering, rear-right head and body retained.",
+      "evidence": "qa/feet-review/rearRight-left-gather.jpg",
+      "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+      "neutralPoint": [
+        530,
+        1176
+      ],
+      "pinLogicalOffset": [
+        -1.6842105263157805,
+        -3.0315789473684163
+      ],
+      "pinLogicalLength": 3.4680017317008756
+    },
+    "rearRight/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-close.png",
+      "sourceSha256": "07b2f3e3b106f46208e709ebd3b96839e20b7e5df196d6880d55c86f9458fb8c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        535,
+        1185
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left heel remains on image-left support foot; right foot has closed alongside behind it, rear-right torso and bun retained.",
+      "evidence": "qa/feet-review/rearRight-left-close.jpg",
+      "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+      "neutralPoint": [
+        530,
+        1176
+      ],
+      "pinLogicalOffset": [
+        -1.6842105263157805,
+        -3.0315789473684163
+      ],
+      "pinLogicalLength": 3.4680017317008756
+    },
+    "right/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-gather.png",
+      "sourceSha256": "df370dedc6e5033fdf7780966d5f4d566f6ba8f4891ef37a1c330918a3446070",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        650,
+        1196
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right stance foot planted, left knee flexed and foot drawing inward. Measured planted right plantar toe-pad to match neutral forefoot landmark.",
+      "evidence": "qa/feet-review/right-right-gather.jpg",
+      "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+      "neutralPoint": [
+        710,
+        1176
+      ],
+      "pinLogicalOffset": [
+        20.21052631578948,
+        -6.736842105263122
+      ],
+      "pinLogicalLength": 21.303765289555393
+    },
+    "right/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-close.png",
+      "sourceSha256": "2a0768035bdceb2d71dc82cad6688647d05d52cf1fbea12ae9a9423f8c617034",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        720,
+        1179
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right stance foot is the farther foot with visible plantar toe pad; left foot closes in front. Same toe-pad landmark as own neutral, no hidden heel inferred.",
+      "evidence": "qa/feet-review/right-right-close.jpg",
+      "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+      "neutralPoint": [
+        710,
+        1176
+      ],
+      "pinLogicalOffset": [
+        -3.368421052631561,
+        -1.0105263157894342
+      ],
+      "pinLogicalLength": 3.5167348240540517
+    },
+    "right/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-gather.png",
+      "sourceSha256": "bcb47668204739bcdc055ed5b652c025dc20e0fbc8de5dca24e41596c6d5a7f6",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        450,
+        1188
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left near leg bears weight and planted heel visible; right foot flexes inward while lifted. Pure right profile and mature face retained.",
+      "evidence": "qa/feet-review/right-left-gather.jpg",
+      "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+      "neutralPoint": [
+        550,
+        1198
+      ],
+      "pinLogicalOffset": [
+        33.68421052631578,
+        3.368421052631618
+      ],
+      "pinLogicalLength": 33.85221261851247
+    },
+    "right/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-close.png",
+      "sourceSha256": "e0a17f0d2ec4501bfd33bf7c7d3b071df71fb55b15314bee9d624bd066b9cbbb",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        510,
+        1188
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left near heel planted, right foot has closed beside it, arms settled, mature face and pure right profile retained.",
+      "evidence": "qa/feet-review/right-left-close.jpg",
+      "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+      "neutralPoint": [
+        550,
+        1198
+      ],
+      "pinLogicalOffset": [
+        13.47368421052633,
+        3.368421052631618
+      ],
+      "pinLogicalLength": 13.888355791554247
+    },
+    "frontRight/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-gather.png",
+      "sourceSha256": "15f079709e840a7b9a1134c8e102f06e48155fc87c6376b16ba1d238f68cd5d6",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        620,
+        1217
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right stance is image-left foot, left foot flexes inward while raised. Visible planted right toe-pad matches neutral toe-pad landmark.",
+      "evidence": "qa/feet-review/frontRight-right-gather.jpg",
+      "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+      "neutralPoint": [
+        560,
+        1224
+      ],
+      "pinLogicalOffset": [
+        -20.21052631578948,
+        2.357894736842127
+      ],
+      "pinLogicalLength": 20.347605302620916
+    },
+    "frontRight/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-close.png",
+      "sourceSha256": "642f3c26c26bf21b76ad2ea117f3dcac93da7fcbe4872eac67e6584b31dbbcf1",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        610,
+        1219
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right/image-left foot stays planted, left foot nearly closes alongside, arms settled. Same visible right plantar toe-pad as neutral; heel not inferred.",
+      "evidence": "qa/feet-review/frontRight-right-close.jpg",
+      "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+      "neutralPoint": [
+        560,
+        1224
+      ],
+      "pinLogicalOffset": [
+        -16.84210526315789,
+        1.6842105263157805
+      ],
+      "pinLogicalLength": 16.92610630925623
+    },
+    "frontRight/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-close.png",
+      "sourceSha256": "cf6f815af0adc7781f937711616252a823bcab68fcd721b474409fff6bcb0a87",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        670,
+        1218
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left/image-right foot planted with right foot closed alongside. Head and torso retain front-right direction; measured left plantar toe-pad matching neutral.",
+      "evidence": "qa/feet-review/frontRight-left-close.jpg",
+      "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+      "neutralPoint": [
+        690,
+        1214
+      ],
+      "pinLogicalOffset": [
+        6.73684210526315,
+        -1.3473684210526358
+      ],
+      "pinLogicalLength": 6.8702578709460616
+    },
+    "frontRight/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-gather.png",
+      "sourceSha256": "c53bb006f44ddc790ecf654d5fe31a194859bd84fca9ea6788e6bb1730fabc70",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        675,
+        1217
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual left stance foot planted while right foot gathers across in front. Measured visible left plantar toe-pad, matching own neutral type.",
+      "evidence": "qa/feet-review/frontRight-left-gather.jpg",
+      "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+      "neutralPoint": [
+        690,
+        1214
+      ],
+      "pinLogicalOffset": [
+        5.05263157894737,
+        -1.010526315789491
+      ],
+      "pinLogicalLength": 5.152693403209556
+    },
+    "front/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-gather.png",
+      "sourceSha256": "a28100d28562eba586058fc9a39df23221ed43c4bf9af9324cdfd221a553bdab",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        560,
+        1223
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: right/image-left foot planted, left foot raised and drawing inward. Straight-front mature face retained; visible right toe-pad matches neutral.",
+      "evidence": "qa/feet-review/front-right-gather.jpg",
+      "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+      "neutralPoint": [
+        540,
+        1219
+      ],
+      "pinLogicalOffset": [
+        -6.73684210526315,
+        -1.347368421052579
+      ],
+      "pinLogicalLength": 6.87025787094605
+    },
+    "front/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-close.png",
+      "sourceSha256": "171f66383b8999a43936b915e63624ebd5b865a37fd7d3d611628f50369f9622",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        560,
+        1225
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: right/image-left foot remains planted, left foot closes beside it and arms settle. Same visible right plantar toe-pad as own neutral; hidden heel not inferred.",
+      "evidence": "qa/feet-review/front-right-close.jpg",
+      "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+      "neutralPoint": [
+        540,
+        1219
+      ],
+      "pinLogicalOffset": [
+        -6.73684210526315,
+        -2.0210526315789252
+      ],
+      "pinLogicalLength": 7.033469648108147
+    },
+    "front/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-gather.png",
+      "sourceSha256": "ab5c3749d39ea8e041d91978830e83ac5d21aabee82ef13e8eaa82a4a43175f0",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        650,
+        1214
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: left/image-right foot planted, right foot raised and moving inward. Straight-front mature face retained; measured visible left plantar toe-pad.",
+      "evidence": "qa/feet-review/front-left-gather.jpg",
+      "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+      "neutralPoint": [
+        680,
+        1220
+      ],
+      "pinLogicalOffset": [
+        10.10526315789474,
+        2.021052631578982
+      ],
+      "pinLogicalLength": 10.305386806419111
+    },
+    "front/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-close.png",
+      "sourceSha256": "64f297bcb046ee883ee16cb454cf37f99f4183bdbe4fcce432d61654b1d71137",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        650,
+        1214
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: left/image-right foot remains planted and right foot closes beside it, arms settled. Same visible left plantar toe-pad as own neutral.",
+      "evidence": "qa/feet-review/front-left-close.jpg",
+      "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+      "neutralPoint": [
+        680,
+        1220
+      ],
+      "pinLogicalOffset": [
+        10.10526315789474,
+        2.021052631578982
+      ],
+      "pinLogicalLength": 10.305386806419111
+    },
+    "frontLeft/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-gather.png",
+      "sourceSha256": "66140b729a21e7e2ba2f029aa662ba76b6cedcdf896ee979238294728a4f2045",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        525,
+        1212
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: actual right/image-left foot planted, left knee flexes and foot gathers inward. Front-left mature face and bun retained; right plantar toe-pad measured.",
+      "evidence": "qa/feet-review/frontLeft-right-gather.jpg",
+      "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+      "neutralPoint": [
+        520,
+        1213
+      ],
+      "pinLogicalOffset": [
+        -1.684210526315809,
+        0.33684210526314473
+      ],
+      "pinLogicalLength": 1.7175644677365334
+    },
+    "frontLeft/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-close.png",
+      "sourceSha256": "2fd7d5defaf09a070375ba04922234896335aa2debf09cebec943946d6fa87b9",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        525,
+        1213
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed native source and144light/dark sequence: both feet nearly together, anatomical right/image-left plantar toe-pad remains the tracked support; head/grey bun and front-left yaw unchanged.",
+      "evidence": "qa/feet-review/frontLeft-right-close.jpg",
+      "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+      "neutralPoint": [
+        520,
+        1213
+      ],
+      "pinLogicalOffset": [
+        -1.684210526315809,
+        0.0
+      ],
+      "pinLogicalLength": 1.684210526315809
+    },
+    "frontLeft/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-gather.png",
+      "sourceSha256": "ef367ec43128c7e751d879f9b9730071593fa485f03d45af4bea87c74db56172",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        645,
+        1203
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed native source and144light/dark sequence: anatomical left/image-right foot planted, right knee bends and foot gathers inward. Measured visible left plantar toe-pad, same landmark as own neutral.",
+      "evidence": "qa/feet-review/frontLeft-left-gather.jpg",
+      "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+      "neutralPoint": [
+        630,
+        1225
+      ],
+      "pinLogicalOffset": [
+        -5.05263157894737,
+        7.410526315789468
+      ],
+      "pinLogicalLength": 8.969112896467767
+    },
+    "frontLeft/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-close.png",
+      "sourceSha256": "9fd03aadb99ea3e0e349eee97a92d5051c7bf3cbd1054009d3b8a3b6a44f90be",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        645,
+        1203
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed native source and144light/dark sequence: anatomical left/image-right support traced from gather, both feet settle beside each other. Measured matching visible left plantar toe-pad.",
+      "evidence": "qa/feet-review/frontLeft-left-close.jpg",
+      "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+      "neutralPoint": [
+        630,
+        1225
+      ],
+      "pinLogicalOffset": [
+        -5.05263157894737,
+        7.410526315789468
+      ],
+      "pinLogicalLength": 8.969112896467767
+    },
+    "left/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-gather-v2.png",
+      "sourceSha256": "74f2dc56e02f014e0bf2c9fd33bf5e24a4fe0f20ae496f600cf23e247b82a9c0",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        675,
+        1193
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Reviewed corrected siblingv2 fullsource and144sequence: near right leg/heel stays planted while free far left foot is visibly gathered inward, no longer a long trailing stride; fixed mature profile and brown costume retained.",
+      "evidence": "qa/feet-review/left-right-gather.jpg",
+      "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+      "neutralPoint": [
+        665,
+        1197
+      ],
+      "pinLogicalOffset": [
+        -3.368421052631561,
+        1.3473684210526358
+      ],
+      "pinLogicalLength": 3.627900501648493
+    },
+    "left/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-close-v2.png",
+      "sourceSha256": "264052783304a304fd8d5344fbf525c3d1e8290e84e497275df82b68d487f0d4",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        650,
+        1184
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Reviewed corrected siblingv2 fullsource and144sequence: near right heel planted, far left foot now nearly beside it, softly settling into neutral. Original raw stride gap rejected; body and head remain pure left profile.",
+      "evidence": "qa/feet-review/left-right-close.jpg",
+      "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+      "neutralPoint": [
+        665,
+        1197
+      ],
+      "pinLogicalOffset": [
+        5.05263157894737,
+        4.378947368421052
+      ],
+      "pinLogicalLength": 6.686124881272997
+    },
+    "left/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-gather.png",
+      "sourceSha256": "1b87ec3ffc220e567ba317be1a34a86f5fc43f53143dabf5f909daf9322123f2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        590,
+        1190
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: near right knee visibly flexes in foreground while the far left leg bears weight. Matching visible far left plantar toe-pad measured; hidden heel not inferred.",
+      "evidence": "qa/feet-review/left-left-gather.jpg",
+      "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+      "neutralPoint": [
+        510,
+        1174
+      ],
+      "pinLogicalOffset": [
+        -26.94736842105266,
+        -5.389473684210543
+      ],
+      "pinLogicalLength": 27.481031483784303
+    },
+    "left/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-close.png",
+      "sourceSha256": "3ed2a3116e0808e00deec45f0b6595491c913899ce64d56b431b57942d7a8f1f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        500,
+        1187
+      ],
+      "landmark": "plantar-toe-pad",
+      "reviewed": true,
+      "review": "Viewed full source and native grid: both feet settle in pure left profile; selected far left plantar toe-pad is visible in front of the near-foot silhouette and tracked from the preceding far-left support gather.",
+      "evidence": "qa/feet-review/left-left-close.jpg",
+      "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+      "neutralPoint": [
+        510,
+        1174
+      ],
+      "pinLogicalOffset": [
+        3.368421052631561,
+        -4.378947368421052
+      ],
+      "pinLogicalLength": 5.524621294099096
+    },
+    "rearLeft/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-gather.png",
+      "sourceSha256": "8d1114047d7caba25f3774c76b89c850a90ec075a6a809c2423e5c926f0dfee4",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        695,
+        1199
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Full native review confirms camera sees back and LEFT side: RIGHT far/background leg stays straight and planted at image-right; near left knee bends and lifts at image-left. Corrected neutral anatomical labels, measured actual far-right heel.",
+      "evidence": "qa/feet-review/rearLeft-right-gather.jpg",
+      "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+      "neutralPoint": [
+        670,
+        1189
+      ],
+      "pinLogicalOffset": [
+        -8.42105263157896,
+        -3.368421052631561
+      ],
+      "pinLogicalLength": 9.069751254121275
+    },
+    "rearLeft/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-close.png",
+      "sourceSha256": "f7a9348a3f4a7ddd46ff5f6aafc321e7fd6c328c3c5fea6a57c9bf9551200e1f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        675,
+        1193
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Full native review confirms RIGHT far/background foot at image-right remains planted while the near left foot settles alongside. Corrected neutral anatomical labels; tracked same far-right posterior heel from gather.",
+      "evidence": "qa/feet-review/rearLeft-right-close.jpg",
+      "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+      "neutralPoint": [
+        670,
+        1189
+      ],
+      "pinLogicalOffset": [
+        -1.6842105263157805,
+        -1.347368421052579
+      ],
+      "pinLogicalLength": 2.1568418483983933
+    },
+    "rearLeft/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather-v2.png",
+      "sourceSha256": "6eda358261b73373dd186599b21749065e90e79456cd42b05b40797db9006267",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        610,
+        1172
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Full native corrected siblingv2 plus144light/dark sequence inspected: camera sees back and LEFT side. LEFT foreground leg stays straight/planted at image-left, RIGHT far leg gathers and settles from image-right. Own left posterior heel retained near its neutral footprint; rejected raw repeated far-right support or displaced near heel is preserved as draft.",
+      "evidence": "qa/feet-review/rearLeft-left-gather.jpg",
+      "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+      "neutralPoint": [
+        595,
+        1197
+      ],
+      "pinLogicalOffset": [
+        -5.05263157894737,
+        8.421052631578902
+      ],
+      "pinLogicalLength": 9.820550559739416
+    },
+    "rearLeft/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-close-v2.png",
+      "sourceSha256": "6a591c8e3ac5946c6359648956f4c6b1ef7b129401f1f454f0255425ecc2bae9",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        610,
+        1172
+      ],
+      "landmark": "heel",
+      "reviewed": true,
+      "review": "Full native corrected siblingv2 plus144light/dark sequence inspected: camera sees back and LEFT side. LEFT foreground leg stays straight/planted at image-left, RIGHT far leg gathers and settles from image-right. Own left posterior heel retained near its neutral footprint; rejected raw repeated far-right support or displaced near heel is preserved as draft.",
+      "evidence": "qa/feet-review/rearLeft-left-close.jpg",
+      "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+      "neutralPoint": [
+        595,
+        1197
+      ],
+      "pinLogicalOffset": [
+        -5.05263157894737,
+        8.421052631578902
+      ],
+      "pinLogicalLength": 9.820550559739416
+    }
+  },
+  "note": "Manually reviewed same-type plantar landmarks; no hidden heels inferred.",
+  "status": "complete"
+}

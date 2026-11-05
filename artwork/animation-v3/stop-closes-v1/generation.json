@@ -1,0 +1,390 @@
+{
+  "tool": "built-in image_gen",
+  "scope": "two own closing phases per anatomical lead and heading; contact and neutral explicitly reused from approved banks",
+  "jobs": [
+    {
+      "appearance": "man",
+      "heading": "rear",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rear); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rear/00-contact-v2.png",
+        "artwork/animation-v3/directions-v2/rear/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rear",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rear); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rear/00-contact-v2.png",
+        "artwork/animation-v3/directions-v2/rear/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rear",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rear); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rear/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/rear/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rear",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rear); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rear/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/rear/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/left-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearRight",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/walk-v1/00-contact.png",
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearRight",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/walk-v1/00-contact.png",
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearRight",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/walk-v1/06-opposite-contact.png",
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearRight",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/walk-v1/06-opposite-contact.png",
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "right",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (right); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/right/00-contact.png",
+        "artwork/animation-v3/directions-v2/right/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "right",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (right); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/right/00-contact.png",
+        "artwork/animation-v3/directions-v2/right/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "right",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (right); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/right/04-opposite-contact-v2.png",
+        "artwork/animation-v3/directions-v2/right/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "right",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (right); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/right/04-opposite-contact-v2.png",
+        "artwork/animation-v3/directions-v2/right/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/left-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontRight",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontRight/00-contact.png",
+        "artwork/animation-v3/directions-v2/frontRight/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontRight",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontRight/00-contact.png",
+        "artwork/animation-v3/directions-v2/frontRight/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontRight",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontRight/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/frontRight/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontRight",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontRight); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontRight/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/frontRight/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "front",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (front); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/front/00-contact.png",
+        "artwork/animation-v3/directions-v2/front/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "front",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (front); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/front/00-contact.png",
+        "artwork/animation-v3/directions-v2/front/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "front",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (front); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/front/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/front/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "front",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (front); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/front/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/front/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/left-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontLeft",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontLeft/00-contact.png",
+        "artwork/animation-v3/directions-v2/frontLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontLeft",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontLeft/00-contact.png",
+        "artwork/animation-v3/directions-v2/frontLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontLeft",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontLeft/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/frontLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontLeft",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (frontLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontLeft/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/frontLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "left",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (left); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/left/00-contact.png",
+        "artwork/animation-v3/directions-v2/left/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "left",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (left); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/left/00-contact.png",
+        "artwork/animation-v3/directions-v2/left/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "left",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (left); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/left/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/left/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "left",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (left); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v1/left/04-opposite-contact.png",
+        "artwork/animation-v3/directions-v2/left/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/left-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearLeft",
+      "lead": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot has just left its rear toe push-off and moves halfway toward the planted RIGHT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rearLeft/00-contact.png",
+        "artwork/animation-v3/directions-v2/rearLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearLeft",
+      "lead": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical RIGHT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical LEFT foot is nearly beside the planted RIGHT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted RIGHT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rearLeft/00-contact.png",
+        "artwork/animation-v3/directions-v2/rearLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-close.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearLeft",
+      "lead": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot has just left its rear toe push-off and moves halfway toward the planted LEFT foot. Keep a modest knee bend, arms easing gently toward neutral. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png",
+        "artwork/animation-v3/directions-v2/rearLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-gather.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearLeft",
+      "lead": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline stopping key pose, not a sheet. Image1 is the exact identity, camera, heading and anatomical LEFT-heel contact anchor; Image2 is the matching final neutral stance. Create a NEW intermediate pose between them. The trailing anatomical RIGHT foot is nearly beside the planted LEFT foot, toes lowering softly to the floor, weight settling under the pelvis. Arms almost at the neutral sides, shoulders level. Preserve Image1's planted LEFT heel/sole at the EXACT SAME source pixel location and height; do not slide or lift the supporting heel; let its toes roll gently down from contact to a flat sole. Body and head keep the SAME physical heading (rearLeft); do not turn toward the camera. Modest natural closing step, bare feet, exact same Vietnamese adult male blue-grey ao lam, hairstyle, fabric/light/camera and scale. Follow the second image for calm final posture, not for moving the planted heel. Fixed square1254canvas, source floor origin aroundx615,y1210, head near30. Keep original unused transparent margins; no crop, re-center, zoom, mirror, ghost limbs, extra figure, floor, shadow, cushion, props, labels or motion blur. Actual clean transparent RGBA.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png",
+        "artwork/animation-v3/directions-v2/rearLeft/stand.png"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-close.png"
+    }
+  ]
+}

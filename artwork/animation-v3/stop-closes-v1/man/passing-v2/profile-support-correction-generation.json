@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Native source pair review showed repeated foreground straight support; corrected near/far thigh layering and lifted foot side.",
+  "jobs": [
+    {
+      "output": "right/left-v3.png",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/left.png",
+      "prompt": "Use case: precise-object-edit, identity-preserve. CORRECT ONLY THE TWO LEG ROLES in this one existing male ChuaOnline right-facing profile sprite. Keep identical male head and face looking RIGHT, hair, blue-grey robe, torso, arms, camera, full-body scale, original square1254x1254 canvas and true transparent background. The current picture incorrectly has its FOREGROUND/NEAR leg straight on the floor and BACKGROUND/FAR leg bent. SWAP THOSE ROLES: BEND the current FOREGROUND NEAR anatomical RIGHT thigh and knee so that this same foreground free leg is lifted and sweeps in FRONT OF the far thigh. Its raised bare foot must be on IMAGE-LEFT, BEHIND the straight supporting calf, heel clearly airborne roughly80pixels above the ground. STRAIGHTEN the current BACKGROUND FAR anatomical LEFT leg into a fully weight-bearing vertical leg; its bare foot is the ONLY foot flat on the ground, pointing RIGHT at source x650\u2013730,y1185\u20131200. Show the bent foreground thigh occluding the straight far thigh at their intersection; draw a clear foreground bent-knee outline. This must have a visibly different bent-leg silhouette than the input: free foot now LEFT of the supporting shin, NOT on image-right. No duplicate straight foreground leg, no both feet flat, no long stride. Adult proportion and calm walking compact passing pose, no leaping. Preserve source square transparent margins, no mirror/flip, do not face LEFT, no floor, shadow, text, prop or additional person. Output ONE complete male figure.",
+      "sourceSha256": "0ce1fc11a0667c0418af9b13a4974bbc160cec0b77d1ee6f40333759028f04ff",
+      "generatedSource": "C:/Users/Admin/.codex/generated_images/01a1a94a-5b3d-77d0-ba4e-227caae26ea8/exec-1cee6010-9834-4dfe-bb07-7011e9257e57.png"
+    }
+  ]
+}

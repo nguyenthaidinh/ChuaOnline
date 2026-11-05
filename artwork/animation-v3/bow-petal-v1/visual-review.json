@@ -1,0 +1,71 @@
+{
+  "status": "source-and-decoded-atlas-reviewed-after-browser-floor-correction",
+  "priorReviewSuperseded": true,
+  "reason": "Browser QA found that initial pose08 kept the forehead and palms raised. Nine selected siblings correct the floor-contact sequence.",
+  "selectedPoses": 72,
+  "newSelected": 69,
+  "reusedNeutral": 3,
+  "retainedDrafts": 18,
+  "generationOutputs": 87,
+  "decodedRgbaMiB": 7.59375,
+  "maxRootOffsetByAppearance": {
+    "man": 19.2,
+    "woman": 17.179,
+    "granny": 19.2
+  },
+  "assets": {
+    "man": {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "sha256": "f9861f37b3e438e90ea051411441af0cb2705f2664cc96945054249bd5bb4b5a",
+      "width": 576,
+      "height": 1152,
+      "columns": 4,
+      "rows": 6,
+      "cellWidth": 144,
+      "cellHeight": 192
+    },
+    "woman": {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "sha256": "8e0e19871878fd0017ce7b0a4b849db833ccd87bc8f3375fbf12d3b333c7358f",
+      "width": 576,
+      "height": 1152,
+      "columns": 4,
+      "rows": 6,
+      "cellWidth": 144,
+      "cellHeight": 192
+    },
+    "granny": {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "sha256": "659e0a79c9feccb6cb6a076420728e3216cf3df2f0876be01b60d37c9cba2c05",
+      "width": 576,
+      "height": 1152,
+      "columns": 4,
+      "rows": 6,
+      "cellWidth": 144,
+      "cellHeight": 192
+    }
+  },
+  "reviewed": [
+    "All nine selected floor-pose siblings at native size, with1254square RGBA, fixed camera and folded feet preserved",
+    "Own native toe contour overlays and forehead/palm floor-plane grids",
+    "All actual decoded144 dark atlas cells after final compile",
+    "Actual decoded144 light/dark cells07/08/09/10 in floor-contact-decoded-review.jpg",
+    "The same24 cells and public durations; bowUp includes a120ms hands-on-floor bridge before the140ms push-up pose",
+    "Own hands and petal poses15\u201321 remain unchanged from the earlier source review"
+  ],
+  "checks": [
+    {
+      "command": "node --experimental-strip-types --test tests/bowPetalAssets.test.ts",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "command": "python -m py_compile scripts/pack-bow-petal.py artwork/animation-v3/bow-petal-v1/floor-contact-review.py artwork/animation-v3/bow-petal-v1/source-audit.py",
+      "exitCode": 0
+    }
+  ],
+  "limitations": [
+    "Visible floor landmarks are manually selected source annotations, not a full biomechanical solver.",
+    "Integrated browser and performance QA are owned by the parent task; reload the new hashed assets."
+  ]
+}

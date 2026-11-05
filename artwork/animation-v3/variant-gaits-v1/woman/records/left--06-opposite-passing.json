@@ -1,0 +1,14 @@
+{
+  "heading": "left",
+  "id": "06-opposite-passing",
+  "output": "left/06-opposite-passing.png",
+  "anchor": "artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+  "anchorSha256": "f1f41180ccd86b8574126cdccfc54f8b571a153b6801f2e169242a22aed3ce41",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/06-opposite-passing.png"
+  ],
+  "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT LEFT SIDE PROFILE walking screen-LEFT; head/chest/pelvis/toes aim LEFT. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-32e965a6-9cd2-4e03-9f09-10fcfe346663.png",
+  "generatedAt": "2026-11-04T16:34:43.560Z"
+}

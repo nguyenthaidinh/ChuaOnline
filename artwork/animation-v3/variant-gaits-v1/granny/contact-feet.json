@@ -1,0 +1,68 @@
+{
+  "coordinateSpace": "Native PNG pixels, top-left origin",
+  "appearance": "granny",
+  "pointDefinition": "Visible underside heel/sole contact of the leading foot, manually read on this identity source and checked against own alpha/skin contour. Not the trailing toe or the whole-alpha bounding-box bottom.",
+  "precisionNote": "Manual source-grid inspection; approximately two native pixels, not optical foot tracking.",
+  "frames": {
+    "rear/00-contact": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rear/00-contact.png",
+      "sourceSha256": "309d4fa49994c3ff1aa746a1358646d905bfa9327ef7a621bad736eb36731577",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "leadingFoot": "right",
+      "leadingHeel": [
+        660,
+        1098
+      ],
+      "evidence": "feet-review/rear-00-contact.jpg",
+      "review": "Far right leading heel is partly occluded; selected its visible underside edge, not the nearer trailing sole."
+    },
+    "rear/04-opposite-contact": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rear/04-opposite-contact.png",
+      "sourceSha256": "dcf1903f5516f30fd35e32ad85286c3187f850d5fcc0be5247e47b7e5895ad17",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "leadingFoot": "left",
+      "leadingHeel": [
+        565,
+        1069
+      ],
+      "evidence": "feet-review/rear-04-opposite-contact.jpg",
+      "review": "Far left leading heel underside at the right/proximal end of the forward foot."
+    },
+    "rearRight/00-contact": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/00-contact.png",
+      "sourceSha256": "59914d355ff5a4f0ce0aaf8430851ba0e01249d74473a612ee27627405f805aa",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "leadingFoot": "right",
+      "leadingHeel": [
+        710,
+        1132
+      ],
+      "evidence": "feet-review/rearRight-00-contact.jpg",
+      "review": "Leading right heel underside in the upper-right forward foot; trailing near toes are excluded."
+    },
+    "rearRight/04-opposite-contact": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/04-opposite-contact.png",
+      "sourceSha256": "5d4c83f9b040eb70a1ee4e313cbe098e1c8163f230b82aa20da987805558bbb1",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "leadingFoot": "left",
+      "leadingHeel": [
+        765,
+        1106
+      ],
+      "evidence": "feet-review/rearRight-04-opposite-contact.jpg",
+      "review": "Leading left heel underside of upper-right forward foot; near lower-left foot trails."
+    }
+  }
+}

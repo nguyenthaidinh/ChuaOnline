@@ -1,0 +1,12 @@
+{
+  "heading": "rearRight",
+  "id": "06-opposite-passing",
+  "candidateId": "06-opposite-passing-v2",
+  "output": "rearRight/06-opposite-passing-v2.png",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png"
+  ],
+  "prompt": "Use case: background-extraction. Clean ONLY the alpha-edge artifacts of the woman in IMAGE1. Keep the EXACT same woman, rear-right body view, low black bun, blue-grey tunic/trousers, pose, scale, whole-body coordinates and supporting LEFT foot and lifted RIGHT knee/foot. Image2 is her clean identity/light reference only, do NOT copy its long stride. Remove the broad pale/grey/yellow/red/purple halo and stray disconnected pixels around hair, neck, arms, leg and feet. Keep genuine natural warm rim light INSIDE her silhouette and fine antialiased hair/cloth contours; outside must be truly transparent RGBA, not white/grey paint. One full-body individual, same square1254canvas and margins, do not crop/recenter, no shadow/floor/props/text/second figure. Preserve the compact passing stance: one straight support leg under pelvis, other knee bent and foot hovering. Do not mirror or stretch anatomy.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-ee549b37-1f75-43c7-adf3-514a7f8f775a.png"
+}

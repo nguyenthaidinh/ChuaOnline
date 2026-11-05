@@ -1,0 +1,1086 @@
+{
+  "tool": "built-in image_gen",
+  "scope": "Adult woman own identity, 8 independent headings",
+  "reused": [
+    {
+      "output": "rearRight/stand.png",
+      "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png"
+    }
+  ],
+  "records": [
+    {
+      "heading": "front",
+      "id": "stand",
+      "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: STRAIGHT FRONT view, facing the viewer/screen-DOWN. Face, nose, tunic buttons, knees and toes centered straight forward, shoulders balanced. Keep a soft calm adult Vietnamese female face consistent with image1's profile; low bun behind head, no man's facial features.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/stand.png"
+      ],
+      "output": "front/stand.png",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-3c07eaea-861f-4190-9df7-b30610fa2965.png"
+    },
+    {
+      "heading": "rear",
+      "id": "stand",
+      "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: STRAIGHT REAR view, facing away/screen-UP toward altar. Centered back of head with visible neat low black bun, neck, spine and tunic. No visible nose, eye or face profile. Balanced shoulders, both toes and knees face directly away.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/stand.png"
+      ],
+      "output": "rear/stand.png",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-e009791f-8277-4114-9edb-1e0679700970.png"
+    },
+    {
+      "heading": "front",
+      "id": "00-contact",
+      "output": "front/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/00-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading STRAIGHT FRONT facing screen-DOWN, balanced forward face and button line. RIGHT HEEL CONTACT: anatomical RIGHT leg (image-LEFT) leads toward viewer/lower, heel arriving, toes slightly raised. Anatomical LEFT leg (image-RIGHT) trails with heel lifted and toes pushing off. Anatomical LEFT arm (image-RIGHT) swings FORWARD, RIGHT arm (image-LEFT) swings BACK. Use image2's actual exact limb pose.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-45d9590c-6768-4c24-95bd-875ed5864258.png"
+    },
+    {
+      "heading": "front",
+      "id": "01-loading",
+      "output": "front/01-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+      "anchorSha256": "f64234232993c9630f67e9e6672149bc815b58a3e683576b4c28010679e4f2c8",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT FRONT walking toward viewer/screen-DOWN; centered face/buttons, shoulders balanced. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d3653e0f-482c-4856-be35-da2731493222.png",
+      "generatedAt": "2026-11-04T16:51:57.628Z"
+    },
+    {
+      "heading": "front",
+      "id": "02-passing",
+      "output": "front/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+      "anchorSha256": "f64234232993c9630f67e9e6672149bc815b58a3e683576b4c28010679e4f2c8",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT FRONT walking toward viewer/screen-DOWN; centered face/buttons, shoulders balanced. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-c8bc417a-f538-42b0-a522-284a27918c86.png"
+    },
+    {
+      "heading": "front",
+      "id": "03-swing",
+      "output": "front/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+      "anchorSha256": "c2982c2e32157d7309af420183082ab65a640011cad00e3d1979105f48cb56ad",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/03-swing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT FRONT walking toward viewer/screen-DOWN; centered face/buttons, shoulders balanced. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-8645b82d-af8d-408f-b39a-a95614209290.png",
+      "generatedAt": "2026-11-04T16:52:51.227Z"
+    },
+    {
+      "heading": "front",
+      "id": "04-opposite-contact",
+      "output": "front/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: STRAIGHT FRONT facing screen-DOWN; centered female face and tunic buttons, balanced shoulders. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-450e65ca-03d2-4b42-ba90-6eb9c32fe506.png"
+    },
+    {
+      "heading": "front",
+      "id": "05-opposite-loading",
+      "output": "front/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+      "anchorSha256": "c2982c2e32157d7309af420183082ab65a640011cad00e3d1979105f48cb56ad",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/05-opposite-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT FRONT walking toward viewer/screen-DOWN; centered face/buttons, shoulders balanced. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-df21300b-3046-4c13-a54f-7405cc447de4.png",
+      "generatedAt": "2026-11-04T16:53:42.366Z"
+    },
+    {
+      "heading": "front",
+      "id": "06-opposite-passing",
+      "output": "front/06-opposite-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+      "anchorSha256": "c2982c2e32157d7309af420183082ab65a640011cad00e3d1979105f48cb56ad",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/06-opposite-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT FRONT walking toward viewer/screen-DOWN; centered face/buttons, shoulders balanced. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-6d28f5f9-3251-44c7-8bc7-d17f859145b4.png"
+    },
+    {
+      "heading": "front",
+      "id": "07-opposite-swing",
+      "output": "front/07-opposite-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+      "anchorSha256": "f64234232993c9630f67e9e6672149bc815b58a3e683576b4c28010679e4f2c8",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/07-opposite-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT FRONT walking toward viewer/screen-DOWN; centered face/buttons, shoulders balanced. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-b17186f5-c462-47c7-bc72-6e4e676f7105.png",
+      "generatedAt": "2026-11-04T16:53:46.760Z"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "00-contact",
+      "output": "frontLeft/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/00-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: FRONT-LEFT45deg facing screen-DOWN-LEFT, same female face/head yaw and camera as image1. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-b20f61b9-065e-4904-aed7-240225218d85.png"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "01-loading",
+      "output": "frontLeft/01-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+      "anchorSha256": "095aa60066d198e1e8455b81040fae1db3f527ac7087ebf83cbe554e097ed6ff",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-492dcddf-3d64-49b2-939a-690d71b319c2.png",
+      "generatedAt": "2026-11-04T16:54:39.600Z"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "02-passing",
+      "output": "frontLeft/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+      "anchorSha256": "095aa60066d198e1e8455b81040fae1db3f527ac7087ebf83cbe554e097ed6ff",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-b36e4887-931e-428a-b07d-9c183c8f0fc9.png",
+      "recoveryNote": "Actual PNG copy completed during an interrupted reprioritization runner, before its record write returned. Matched exact SHA and size back to builtin generated_images; prompt/references preserved from phase-plan."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "02-passing",
+      "output": "frontLeft/02-passing-s3.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+      "anchorSha256": "095aa60066d198e1e8455b81040fae1db3f527ac7087ebf83cbe554e097ed6ff",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "candidateId": "02-passing-s3",
+      "restartNote": "Versioned destination after queue priority/cancellation, to avoid a late default output overwriting selected source.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-06e02f1c-6015-4d6a-a781-23999ac24e4e.png",
+      "generatedAt": "2026-11-04T16:32:04.862Z"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "03-swing",
+      "output": "frontLeft/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+      "anchorSha256": "16d654a48212cd2110ca594510c776a8afcddfa915ba5ee35cb8c67319718311",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/03-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-3ee76c0c-861d-44b7-ad3e-f855aa0adeee.png",
+      "generatedAt": "2026-11-04T16:55:34.601Z"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "04-opposite-contact",
+      "output": "frontLeft/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: FRONT-LEFT45deg facing screen-DOWN-LEFT, same female face/head yaw and camera as image1. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-e21ad876-a30c-4930-9fa8-c6474089d319.png"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "05-opposite-loading",
+      "output": "frontLeft/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+      "anchorSha256": "16d654a48212cd2110ca594510c776a8afcddfa915ba5ee35cb8c67319718311",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/05-opposite-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-cff94bdb-9727-4271-b20a-8975bdfe7a5f.png",
+      "generatedAt": "2026-11-04T16:56:30.470Z"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "06-opposite-passing",
+      "output": "frontLeft/06-opposite-passing-s3.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+      "anchorSha256": "16d654a48212cd2110ca594510c776a8afcddfa915ba5ee35cb8c67319718311",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/06-opposite-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "candidateId": "06-opposite-passing-s3",
+      "restartNote": "Versioned destination after queue priority/cancellation, to avoid a late default output overwriting selected source.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-f1a15aab-74d6-4369-bcd8-4d0204ddb46b.png",
+      "generatedAt": "2026-11-04T16:32:55.121Z"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "07-opposite-swing",
+      "output": "frontLeft/07-opposite-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+      "anchorSha256": "095aa60066d198e1e8455b81040fae1db3f527ac7087ebf83cbe554e097ed6ff",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/07-opposite-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-8120d917-d1a4-483d-9324-57c90e659a15.png",
+      "generatedAt": "2026-11-04T16:56:33.495Z"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "stand",
+      "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: FRONT THREE-QUARTER view rotated45degrees toward screen-DOWN-LEFT. Face and tunic buttons visible, her right side closer, nose, pelvis, knees and toes all aim DOWN-LEFT.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "frontLeft/stand.png",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-b72a89e3-d218-4eb4-bfb0-2ec33310827b.png"
+    },
+    {
+      "heading": "frontRight",
+      "id": "00-contact",
+      "output": "frontRight/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/00-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: FRONT-RIGHT45deg facing screen-DOWN-RIGHT, same female face/head yaw and camera as image1. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-7574b2d8-e3db-453e-a564-7db097f6e93f.png"
+    },
+    {
+      "heading": "frontRight",
+      "id": "01-loading",
+      "output": "frontRight/01-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+      "anchorSha256": "fd7506e6dbceb8e7fd32b3cff600dd48751ccabfe3a8f3436771210273c40351",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-RIGHT45degrees walking screen-DOWN-RIGHT; keep the approved female face/yaw. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-27fef29e-6e13-4fe4-9582-389220b7c354.png",
+      "generatedAt": "2026-11-04T16:42:57.337Z"
+    },
+    {
+      "heading": "frontRight",
+      "id": "02-passing",
+      "output": "frontRight/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+      "anchorSha256": "fd7506e6dbceb8e7fd32b3cff600dd48751ccabfe3a8f3436771210273c40351",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-RIGHT45degrees walking screen-DOWN-RIGHT; keep the approved female face/yaw. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-dc1ac763-af71-4107-997c-2185e381a99d.png"
+    },
+    {
+      "heading": "frontRight",
+      "id": "03-swing",
+      "output": "frontRight/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+      "anchorSha256": "94da03f055b81c6ba22d9090e0a016834b4db2a37a0b41f5b93033beb68f6f35",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/03-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-RIGHT45degrees walking screen-DOWN-RIGHT; keep the approved female face/yaw. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-961dd1fc-e06e-4294-9272-33e688d33616.png",
+      "generatedAt": "2026-11-04T16:43:04.061Z"
+    },
+    {
+      "heading": "frontRight",
+      "id": "04-opposite-contact",
+      "output": "frontRight/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: FRONT-RIGHT45deg facing screen-DOWN-RIGHT, same female face/head yaw and camera as image1. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-e36d6e64-c007-4fcb-834e-e5040dc6c472.png"
+    },
+    {
+      "heading": "frontRight",
+      "id": "05-opposite-loading",
+      "output": "frontRight/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+      "anchorSha256": "94da03f055b81c6ba22d9090e0a016834b4db2a37a0b41f5b93033beb68f6f35",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/05-opposite-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-RIGHT45degrees walking screen-DOWN-RIGHT; keep the approved female face/yaw. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-74649851-de22-46c0-8e34-2d2bb7cb8378.png",
+      "generatedAt": "2026-11-04T16:48:42.280Z"
+    },
+    {
+      "heading": "frontRight",
+      "id": "06-opposite-passing",
+      "output": "frontRight/06-opposite-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+      "anchorSha256": "94da03f055b81c6ba22d9090e0a016834b4db2a37a0b41f5b93033beb68f6f35",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/06-opposite-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-RIGHT45degrees walking screen-DOWN-RIGHT; keep the approved female face/yaw. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-a17bb279-d708-405c-ade8-1bd9a043704c.png"
+    },
+    {
+      "heading": "frontRight",
+      "id": "07-opposite-swing",
+      "output": "frontRight/07-opposite-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+      "anchorSha256": "fd7506e6dbceb8e7fd32b3cff600dd48751ccabfe3a8f3436771210273c40351",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/07-opposite-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-RIGHT45degrees walking screen-DOWN-RIGHT; keep the approved female face/yaw. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-a3930278-9d1d-4939-8358-901f193d5c16.png",
+      "generatedAt": "2026-11-04T16:49:08.122Z"
+    },
+    {
+      "heading": "frontRight",
+      "id": "stand",
+      "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: FRONT THREE-QUARTER view rotated45degrees toward screen-DOWN-RIGHT. Face and tunic buttons visible, her left side closer, nose, pelvis, knees and toes all aim DOWN-RIGHT.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "frontRight/stand.png",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d7c0337f-f787-494e-8f4e-f571149690e2.png"
+    },
+    {
+      "heading": "left",
+      "id": "00-contact",
+      "output": "left/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/00-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: EXACT LEFT PROFILE facing screen-LEFT, whole body and toes aim LEFT. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d7761627-ffbf-4182-8672-045332e8e6b3.png"
+    },
+    {
+      "heading": "left",
+      "id": "01-loading",
+      "output": "left/01-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+      "anchorSha256": "98485e346911d1b6e846d7d8ddc2a66d9d3ad48fd2740586711d104cf95b042f",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT LEFT SIDE PROFILE walking screen-LEFT; head/chest/pelvis/toes aim LEFT. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-c3d01619-4bb8-41e7-904d-d628f2fa9e2c.png",
+      "generatedAt": "2026-11-04T16:57:30.020Z"
+    },
+    {
+      "heading": "left",
+      "id": "02-passing",
+      "candidateId": "02-passing-v2",
+      "output": "left/02-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit IMAGE1: its stride is too long for a RIGHT SUPPORT / LEFT PASSING mid-stance. IMAGE2 supplies the exact left-profile neutral identity/view and ground scale. IMAGE3 supplies COMPACT passing anatomy only, not body yaw. Keep the woman in EXACT LEFT PROFILE walking screen-LEFT, nose/chest/pelvis/toes pointing LEFT. RIGHT support leg (far leg) is almost straight directly below pelvis, right foot flat under her body on the same ground plane. Bend the near LEFT knee and lift its foot close beside the right supporting shin; swing foot hovers near ankle/shin, not extended behind at far screen-right. Pelvis above support ankle, no long split stride. Arms near hips, right arm slightly forward/left arm slightly back, relaxed counter-swing. Keep the exact adult Vietnamese woman, low black bun, blue-grey ao lam, loose trousers, bare feet, feminine anatomy, calm face and same elevated camera. Whole head/body/root scale and 1254-square coordinates remain fixed, hair top near30, root near615,1210. True clean transparent RGBA, natural warm rim light inside the silhouette only, no broad grey/yellow/red alpha halo, floor, baked shadow, props, motion blur, extra limbs or second figure. Do not mirror, crop, recenter, stretch, repaint her face, change view, or generate a sheet. One full-body pose.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-44c5e732-ea70-421d-92e4-8adc66ca269b.png",
+      "generatedAt": "2026-11-04T16:46:20.040Z"
+    },
+    {
+      "heading": "left",
+      "id": "02-passing",
+      "output": "left/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+      "anchorSha256": "98485e346911d1b6e846d7d8ddc2a66d9d3ad48fd2740586711d104cf95b042f",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT LEFT SIDE PROFILE walking screen-LEFT; head/chest/pelvis/toes aim LEFT. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-bb0e5f9d-b4b4-4d58-86bf-66440d25e891.png",
+      "generatedAt": "2026-11-04T16:33:47.534Z"
+    },
+    {
+      "heading": "left",
+      "id": "03-swing",
+      "output": "left/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+      "anchorSha256": "f1f41180ccd86b8574126cdccfc54f8b571a153b6801f2e169242a22aed3ce41",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/03-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT LEFT SIDE PROFILE walking screen-LEFT; head/chest/pelvis/toes aim LEFT. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-bcc13322-8794-4b8f-8bb7-8a04a1f45aa4.png",
+      "generatedAt": "2026-11-04T16:58:26.602Z"
+    },
+    {
+      "heading": "left",
+      "id": "04-opposite-contact",
+      "output": "left/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: EXACT LEFT PROFILE facing screen-LEFT, whole body and toes aim LEFT. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-a58eac15-9196-42a3-9048-aaae92a7dac8.png"
+    },
+    {
+      "heading": "left",
+      "id": "05-opposite-loading",
+      "output": "left/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+      "anchorSha256": "f1f41180ccd86b8574126cdccfc54f8b571a153b6801f2e169242a22aed3ce41",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/05-opposite-loading-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT LEFT SIDE PROFILE walking screen-LEFT; head/chest/pelvis/toes aim LEFT. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-169205a4-81cd-48a9-8196-f555a14fcbc6.png",
+      "generatedAt": "2026-11-04T16:59:31.271Z"
+    },
+    {
+      "heading": "left",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "left/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit IMAGE1: its right swing leg reaches far ahead; fix to compact LEFT SUPPORT / RIGHT PASSING. IMAGE2 supplies exact left-profile neutral identity/view and ground scale. IMAGE3 supplies COMPACT passing anatomy only, not body yaw. Keep EXACT LEFT PROFILE walking screen-LEFT, nose/chest/pelvis/toes LEFT. Near LEFT support leg almost straight directly under pelvis, left foot flat beneath the body at the same ground plane. Far RIGHT knee bends and its right foot lifts close beside the planted left shin; no extended foot far screen-left. This is the opposite support to right-support phase02. Arms near hips, left arm slightly forward/right arm slightly back, restrained counter-swing. Keep the exact adult Vietnamese woman, low black bun, blue-grey ao lam, loose trousers, bare feet, feminine anatomy, calm face and same elevated camera. Whole head/body/root scale and 1254-square coordinates remain fixed, hair top near30, root near615,1210. True clean transparent RGBA, natural warm rim light inside the silhouette only, no broad grey/yellow/red alpha halo, floor, baked shadow, props, motion blur, extra limbs or second figure. Do not mirror, crop, recenter, stretch, repaint her face, change view, or generate a sheet. One full-body pose.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-e0e3c64a-cb18-4941-ba7f-8f7ddbf834fc.png",
+      "generatedAt": "2026-11-04T16:47:09.612Z"
+    },
+    {
+      "heading": "left",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v3",
+      "output": "left/06-opposite-passing-v3.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Start with the exact LEFT PROFILE woman in IMAGE1. Make a compact LEFT SUPPORT / RIGHT PASSING walking frame. IMAGE2 demonstrates the correct anatomical LEFT planted leg with RIGHT leg lifted; use its lower-body arrangement only, NOT its rear-left body yaw. IMAGE3 is the OPPOSITE phase: its NEAR LEFT knee is lifted, so do NOT repeat image3. Here the NEAR LEFT leg must be visibly STRAIGHT from hip down through knee to ankle, broad foreground trouser leg in front of the other thigh, bearing her weight with a flat planted left foot beneath pelvis. The FAR RIGHT leg bends BEHIND that straight foreground left thigh. Only its bent knee and lifted right foot emerge to the LEFT of the straight support shin; the raised foot hangs close to ankle/shin. Make the far thigh partly OCCLUDED by the straight near left leg, instead of placing the bent thigh across the front as image3. The vertical near leg must be visible uninterrupted from hip to foot. At this exact LEFT-profile camera, this occlusion distinguishes the opposite gait support. Right knee softly bent, no long reach or split stride. Left arm slightly forward, right arm slightly back, near hips. Keep IMAGE1's exact face/profile/low black bun, blue-grey ao lam, full loose trousers, adult Vietnamese feminine proportions, bare feet, elevated camera and warm upper-left light. Head/chest/pelvis/toes all point LEFT, do not yaw toward rear or front. Same whole-body size and1254squarecanvas, hairtop~30, root~615,1210, complete feet/hands with unused transparent margins. True clean RGBA outside body, natural rimlight within silhouette, no colored/white broad halo, floor, baked shadow, props, male build, mirror, crop/recenter/zoom, extra limb, ghost or second person. One individual full-body pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d488798a-f264-4649-a5a8-29023511ee4c.png",
+      "generatedAt": "2026-11-04T16:51:00.387Z"
+    },
+    {
+      "heading": "left",
+      "id": "06-opposite-passing",
+      "output": "left/06-opposite-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+      "anchorSha256": "f1f41180ccd86b8574126cdccfc54f8b571a153b6801f2e169242a22aed3ce41",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/06-opposite-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT LEFT SIDE PROFILE walking screen-LEFT; head/chest/pelvis/toes aim LEFT. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-32e965a6-9cd2-4e03-9f09-10fcfe346663.png",
+      "generatedAt": "2026-11-04T16:34:43.560Z"
+    },
+    {
+      "heading": "left",
+      "id": "07-opposite-swing",
+      "output": "left/07-opposite-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+      "anchorSha256": "98485e346911d1b6e846d7d8ddc2a66d9d3ad48fd2740586711d104cf95b042f",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/07-opposite-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT LEFT SIDE PROFILE walking screen-LEFT; head/chest/pelvis/toes aim LEFT. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-5540f12a-bc92-4f3a-871d-9f7e8087ad91.png",
+      "generatedAt": "2026-11-04T16:59:27.094Z"
+    },
+    {
+      "heading": "left",
+      "id": "stand",
+      "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: EXACT LEFT SIDE PROFILE, facing screen-LEFT. Nose, chest, knees and toes point LEFT, arms relaxed alongside hips, no torso twist toward viewer or altar. One foot partly overlaps the other in side view; not an exaggerated stride.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "left/stand.png",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-3afd6eca-af74-4b56-83cd-51ab6c8a325a.png"
+    },
+    {
+      "heading": "rear",
+      "id": "00-contact",
+      "output": "rear/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/00-contact-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: STRAIGHT REAR facing screen-UP; centered bun/spine, absolutely no face profile. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-923a5942-75de-4008-95a7-b0e5c677866c.png"
+    },
+    {
+      "heading": "rear",
+      "id": "01-loading",
+      "output": "rear/01-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+      "anchorSha256": "fbb5c65acc660480ef5793429ce2421d7005a479fb856908199a4d6d848d00e9",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT REAR walking away/screen-UP; centered black bun/spine, no face profile. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-bb914e20-de89-4d2d-944d-7fbb725da185.png"
+    },
+    {
+      "heading": "rear",
+      "id": "02-passing",
+      "output": "rear/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+      "anchorSha256": "fbb5c65acc660480ef5793429ce2421d7005a479fb856908199a4d6d848d00e9",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT REAR walking away/screen-UP; centered black bun/spine, no face profile. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-0162ca3a-a20d-4462-8362-200981283099.png"
+    },
+    {
+      "heading": "rear",
+      "id": "03-swing",
+      "output": "rear/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+      "anchorSha256": "09ce3a72904ba650df5dd56f852034daf167a94cc9fe962e5e49fe18b4b909a3",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/03-swing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT REAR walking away/screen-UP; centered black bun/spine, no face profile. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-0788d7f8-6dbc-49b4-a757-f0370dc6e744.png"
+    },
+    {
+      "heading": "rear",
+      "id": "04-opposite-contact",
+      "output": "rear/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: STRAIGHT REAR facing screen-UP; centered bun/spine, absolutely no face profile. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-2f5b62f3-f83d-4e71-9b89-2b37ddf735b1.png"
+    },
+    {
+      "heading": "rear",
+      "id": "05-opposite-loading",
+      "output": "rear/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+      "anchorSha256": "09ce3a72904ba650df5dd56f852034daf167a94cc9fe962e5e49fe18b4b909a3",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/05-opposite-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT REAR walking away/screen-UP; centered black bun/spine, no face profile. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-52cc970c-ba64-48f9-9119-b8539e5c071d.png"
+    },
+    {
+      "heading": "rear",
+      "id": "06-opposite-passing",
+      "output": "rear/06-opposite-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+      "anchorSha256": "09ce3a72904ba650df5dd56f852034daf167a94cc9fe962e5e49fe18b4b909a3",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/06-opposite-passing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT REAR walking away/screen-UP; centered black bun/spine, no face profile. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-989e2c34-4aed-4af6-9b83-a76c89bd5b1d.png"
+    },
+    {
+      "heading": "rear",
+      "id": "07-opposite-swing",
+      "output": "rear/07-opposite-swing-s2.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+      "anchorSha256": "fbb5c65acc660480ef5793429ce2421d7005a479fb856908199a4d6d848d00e9",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/07-opposite-swing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT REAR walking away/screen-UP; centered black bun/spine, no face profile. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "candidateId": "07-opposite-swing-s2",
+      "restartNote": "Versioned destination after queue priority/cancellation, to avoid a late default output overwriting selected source.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-5a0c11ce-c91f-4f40-ae91-ce1ebf5de18a.png",
+      "generatedAt": "2026-11-04T16:35:36.226Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "00-contact",
+      "output": "rearLeft/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/00-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: REAR-LEFT45deg facing screen-UP-LEFT, back and right side visible, nose/left profile points LEFT. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-0b389df4-38c3-4b25-9e8b-d8fa738113fb.png"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "01-loading",
+      "output": "rearLeft/01-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+      "anchorSha256": "efe40ac1d20f796606095cfd40711d48e21c58e0da00962b9c94b874589fecac",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-LEFT45degrees walking screen-UP-LEFT; back and right side visible, nose/profile points LEFT. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-2c7ae5a6-2006-46b5-a4bf-9ee535168f31.png",
+      "generatedAt": "2026-11-04T17:00:20.583Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "02-passing",
+      "output": "rearLeft/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+      "anchorSha256": "efe40ac1d20f796606095cfd40711d48e21c58e0da00962b9c94b874589fecac",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/02-passing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-LEFT45degrees walking screen-UP-LEFT; back and right side visible, nose/profile points LEFT. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-eca41316-3091-4ba4-a529-8f81f520763a.png",
+      "generatedAt": "2026-11-04T16:34:23.203Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "03-swing",
+      "output": "rearLeft/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+      "anchorSha256": "197059a28b91055d6b76777893e0e665e827c30784538a3626c78c165c2e4545",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/03-swing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-LEFT45degrees walking screen-UP-LEFT; back and right side visible, nose/profile points LEFT. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-c6332894-f365-4581-8492-bc254535d216.png",
+      "generatedAt": "2026-11-04T17:01:13.892Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "04-opposite-contact",
+      "output": "rearLeft/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: REAR-LEFT45deg facing screen-UP-LEFT, back and right side visible, nose/left profile points LEFT. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-615a7654-14e9-4f29-8da9-250e29c72ff3.png"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "05-opposite-loading",
+      "output": "rearLeft/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+      "anchorSha256": "197059a28b91055d6b76777893e0e665e827c30784538a3626c78c165c2e4545",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/05-opposite-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-LEFT45degrees walking screen-UP-LEFT; back and right side visible, nose/profile points LEFT. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d3591575-c483-4287-a603-3cf14eca281b.png",
+      "generatedAt": "2026-11-04T17:02:04.298Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "rearLeft/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Correct IMAGE1 into the OPPOSITE support leg to IMAGE2. IMAGE1 currently repeats the same planted right leg as phase02. IMAGE3 establishes the LEFT-leading contact and correct arm/leg identity. IMAGE4 supplies exact rear-left neutral yaw and scale. Stay REAR-LEFT three-quarter BACK view walking screen-UP-LEFT, broad back visible, nose/profile points LEFT. Anatomical LEFT leg is now the straight planted support leg below pelvis, near/image-LEFT leg, its foot flat around source x570 groundy1205. Anatomical RIGHT leg, far/image-RIGHT leg, must bend its knee and lift its foot next to the left supporting shin. Show the RIGHT foot suspended on image-RIGHT side of the supporting leg, not on image-left as in IMAGE2. Opposite arms too: left arm gently forward, right arm gently back, near hips. Do not repeat IMAGE2 support/knee silhouette; do not mirror camera/head; make actual anatomical opposite step. Keep body heading from IMAGE3/4 and COMPACT bent-knee passing, no long reach. Keep the exact adult Vietnamese woman, low black bun, blue-grey ao lam, loose trousers, bare feet, feminine anatomy, calm face and same elevated camera. Whole head/body/root scale and 1254-square coordinates remain fixed, hair top near30, root near615,1210. True clean transparent RGBA, natural warm rim light inside the silhouette only, no broad grey/yellow/red alpha halo, floor, baked shadow, props, motion blur, extra limbs or second figure. Do not mirror, crop, recenter, stretch, repaint her face, change view, or generate a sheet. One full-body pose.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-14dfcc40-796f-4223-8358-7255d1f8b2ba.png",
+      "generatedAt": "2026-11-04T16:48:06.977Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "06-opposite-passing",
+      "output": "rearLeft/06-opposite-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+      "anchorSha256": "197059a28b91055d6b76777893e0e665e827c30784538a3626c78c165c2e4545",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/06-opposite-passing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-LEFT45degrees walking screen-UP-LEFT; back and right side visible, nose/profile points LEFT. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-caa8c0de-7bca-4419-9bb5-188ebfac8e3f.png",
+      "generatedAt": "2026-11-04T16:35:17.275Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "07-opposite-swing",
+      "output": "rearLeft/07-opposite-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+      "anchorSha256": "efe40ac1d20f796606095cfd40711d48e21c58e0da00962b9c94b874589fecac",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/07-opposite-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-LEFT45degrees walking screen-UP-LEFT; back and right side visible, nose/profile points LEFT. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-56529b68-25b5-43cf-a81a-71682fab86f3.png",
+      "generatedAt": "2026-11-04T17:02:07.736Z"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "stand",
+      "candidateId": "stand-v2",
+      "output": "rearLeft/stand-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit approved female rear view IMAGE1 into ONE neutral full-body REAR-LEFT standing view. IMAGE2 is the exact body/camera/yaw/feet target only; IMAGE3 supports her exact same woman's face identity. Rotate her body45degrees toward screen-UP-LEFT: nose profile points LEFT, her back and right side visible, no right-facing nose. Head, pelvis, shoulders, knees and all toes point UP-LEFT, match IMAGE2. Keep image1's neat low BLACK bun, blue-grey ao lam and full trousers, soft feminine adult proportions, bare feet, warm upper-left light, exact scale and camera. Arms empty resting by hips, neutral feet near parallel. Keep SQUARE1254canvas and unused transparent margins, rootx615y1210 and hair topy30. No rightward body view, no man/greyhair, mirror, floor, baked shadow, props, text, crop/recenter, extra limbs or colored fringe. Genuine RGBA transparent.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-294fa8d0-a3b8-40af-a76a-b92e911a3082.png"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "stand",
+      "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: REAR THREE-QUARTER view rotated45degrees toward screen-UP-LEFT. Back and a little of her right side visible, low black bun visible, only a small left-facing nose/profile glimpse. Shoulders, pelvis, knees and toes all point UP-LEFT, not front.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "rearLeft/stand.png",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-05f1f498-7eca-43f9-8085-17cdffe8d059.png"
+    },
+    {
+      "heading": "rearRight",
+      "id": "00-contact",
+      "output": "rearRight/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/00-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: REAR-RIGHT45deg facing screen-UP-RIGHT, back and left side visible, nose/right profile points RIGHT. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-a1b7111d-6e17-466e-9289-d0aba56e8902.png"
+    },
+    {
+      "heading": "rearRight",
+      "id": "01-loading",
+      "output": "rearRight/01-loading-s2.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+      "anchorSha256": "0475067c476708fd20ec6d3bda907d31360cb1a48c586cd46740f8bce6f67d9d",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-RIGHT45degrees walking screen-UP-RIGHT; back and left side visible, nose/profile points RIGHT. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "candidateId": "01-loading-s2",
+      "restartNote": "Versioned destination after queue priority/cancellation, to avoid a late default output overwriting selected source.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-e3766d7a-8d73-4f5b-a458-00f978bcfa51.png",
+      "generatedAt": "2026-11-04T16:36:30.380Z"
+    },
+    {
+      "heading": "rearRight",
+      "id": "02-passing",
+      "candidateId": "02-passing-v2",
+      "output": "rearRight/02-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. From this EXACT rear-right-facing adult Vietnamese woman neutral, create ONE RIGHT SUPPORT / LEFT PASSING natural walking frame. Anatomical convention for THIS view: RIGHT is NEAR/image-RIGHT leg, whose heel in the reference is at source[627,1183]; LEFT is FAR/image-LEFT leg, heel near[535,1177]. KEEP the NEAR RIGHT leg straight and planted exactly as the neutral reference, with its near/image-right foot flat and heel at[627,1183]. The full straight near RIGHT trouser leg must remain visibly unbent, foreground from hip through knee to ankle. Only change the FAR LEFT leg: flex its knee moderately behind the straight foreground right thigh, lift the FAR LEFT foot aroundsourcex535-570,y1090-1120 next to the support shin, NOT the near image-right foot. Show the lifted foot to screen-LEFT of the planted near right shin, with a small natural swing clearance. Far bent thigh is partly OCCLUDED behind the near straight right leg. Do NOT bend or lift the near right knee/foot; do NOT plant the far left foot. This must have one flat planted foot on image-RIGHT and the other hovering on image-LEFT. Gentle arms near hips with left arm slightly back/right arm slightly forward counter-swing; no large reach. Keep exact low black bun, female identity, blue-grey ao lam/loose trousers, bare feet, same broad-back REAR-RIGHT45-degree yaw/nosepointsRIGHT, elevated camera and warm light. SAME1254squarecanvas, hairtop~30, root~615,1210, wholebody scale and unused transparent margins. No mirror, yaw change, crop/recenter/zoom, stretch, male build, secondperson, props, floor, bakedshadow or text. One whole-body individual pose with clean genuine RGBA outside natural silhouette.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-1d789ef1-d073-40f3-9880-02add894244b.png",
+      "generatedAt": "2026-11-04T17:14:50.819Z"
+    },
+    {
+      "heading": "rearRight",
+      "id": "02-passing",
+      "output": "rearRight/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+      "anchorSha256": "0475067c476708fd20ec6d3bda907d31360cb1a48c586cd46740f8bce6f67d9d",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/03-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-RIGHT45degrees walking screen-UP-RIGHT; back and left side visible, nose/profile points RIGHT. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-33453825-d76c-4692-a52e-4a8394d67a58.png"
+    },
+    {
+      "heading": "rearRight",
+      "id": "03-swing",
+      "output": "rearRight/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+      "anchorSha256": "61e6d8a6ba4caeb83cb5171a857e399dc3753f438cb64cc0e6973cc5ffad78ac",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/05-reaching.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-RIGHT45degrees walking screen-UP-RIGHT; back and left side visible, nose/profile points RIGHT. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-5d5ba5ac-9f72-4702-ba79-9a8e723ef408.png",
+      "generatedAt": "2026-11-04T16:37:22.229Z"
+    },
+    {
+      "heading": "rearRight",
+      "id": "04-opposite-contact",
+      "output": "rearRight/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/06-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: REAR-RIGHT45deg facing screen-UP-RIGHT, back and left side visible, nose/right profile points RIGHT. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-35dd7a0a-0505-4331-998e-079dec168750.png"
+    },
+    {
+      "heading": "rearRight",
+      "id": "05-opposite-loading",
+      "output": "rearRight/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+      "anchorSha256": "61e6d8a6ba4caeb83cb5171a857e399dc3753f438cb64cc0e6973cc5ffad78ac",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/07-opposite-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-RIGHT45degrees walking screen-UP-RIGHT; back and left side visible, nose/profile points RIGHT. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-ecb562ed-b771-46a5-81b8-5a98e0f80b70.png",
+      "generatedAt": "2026-11-04T16:37:22.551Z"
+    },
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "rearRight/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: background-extraction. Clean ONLY the alpha-edge artifacts of the woman in IMAGE1. Keep the EXACT same woman, rear-right body view, low black bun, blue-grey tunic/trousers, pose, scale, whole-body coordinates and supporting LEFT foot and lifted RIGHT knee/foot. Image2 is her clean identity/light reference only, do NOT copy its long stride. Remove the broad pale/grey/yellow/red/purple halo and stray disconnected pixels around hair, neck, arms, leg and feet. Keep genuine natural warm rim light INSIDE her silhouette and fine antialiased hair/cloth contours; outside must be truly transparent RGBA, not white/grey paint. One full-body individual, same square1254canvas and margins, do not crop/recenter, no shadow/floor/props/text/second figure. Preserve the compact passing stance: one straight support leg under pelvis, other knee bent and foot hovering. Do not mirror or stretch anatomy.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-ee549b37-1f75-43c7-adf3-514a7f8f775a.png"
+    },
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v3",
+      "output": "rearRight/06-opposite-passing-v3.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create the OPPOSITE leg-support silhouette to IMAGE2/IMAGE3 for the exact rear-right-view woman in IMAGE1. Images2/3 currently both have the foreground thigh STRAIGHT and far thigh bent: do not repeat that. Here BEND the FOREGROUND NEAR thigh at hip and knee, crossing prominently in FRONT of the far supporting thigh; near knee lifts gently to screen-RIGHT, near lower leg folds back with bare foot suspended beside the far shin. The FAR leg must be STRAIGHT below pelvis, partly occluded by that foreground bent thigh, and its foot flat on the source ground plane. IMAGE4 is only a guide for 'foreground bent thigh / far straight support' occlusion and compact knee; absolutely do NOT copy its LEFT-facing body direction. The output must face REAR-RIGHT, nose screen-RIGHT, broad back with the same yaw as IMAGE1; no front/profile change. This is opposite support to IMAGE2, not another identical bent-far-thigh pose. LEFT SUPPORT / RIGHT PASSING, modest arms counter-swing near hips. Keep exact calm adult Vietnamese female identity, neat low black bun, blue-grey ao lam/tunic and full loose trousers, bare feet, elevated camera and warm upper-left light. Same1254squarecoordinates, wholebodyscale, hairtop~30, root~615,1210, full hands/feet with unused transparent margins. Do not mirror, crop, recenter, stretch, enlarge, make male, secondperson, ghost, props, bakedfloor/shadow or text. True transparent RGBA, clean alpha outside natural silhouette, no broad grey/white/red/yellow fringes. ONE full-body individual pose.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-8ca95db7-3d74-4674-8db2-99122e67360f.png",
+      "generatedAt": "2026-11-04T17:05:44.713Z"
+    },
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v4",
+      "output": "rearRight/06-opposite-passing-v4.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v3.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Make ONE targeted lower-body refinement to IMAGE1. Its support/swing leg OCCLUSION is now correct: KEEP far leg straight planted, near foreground thigh bent across it, exact same rear-right head/body yaw and arms. But the raised knee is too HIGH like a marching/ballet step. LOWER that near swinging knee by about100sourcepixels, from aroundy780 toy880-910; bring the suspended bare foot DOWN near sourcey1100, beside the support ankle/shin. Natural walking passing: slight hip flexion20-30degrees and knee bend30-45degrees, not a horizontal raised thigh or90degree knee lift. The near thigh still crosses visibly IN FRONT of the far straight support thigh, so do not revert to the original wrong bent-far-leg silhouette. Keep far planted heel in EXACT same source location and whole pelvis/root/torso/head unchanged. One leg supports, opposite foot suspended by a small clearance; do not plant both. Keep exact same woman, lowblackbun, bluegrey ao lam, loose trousers and bare feet, warm light, whole-body size1254squarecanvas and margins. Clean true RGBA outside silhouette, no floor/shadow/text/extra limbs, do not mirror/crop/recenter/zoom/warp. Image2 is neutral identity/light only, do not copy its both-feet stance. Preserve all details except the lower height/softer bend of the suspended near leg.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-349ba2eb-0eb0-4591-b335-fec15d7b8777.png",
+      "generatedAt": "2026-11-04T17:07:58.193Z"
+    },
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "output": "rearRight/06-opposite-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+      "anchorSha256": "61e6d8a6ba4caeb83cb5171a857e399dc3753f438cb64cc0e6973cc5ffad78ac",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/09-opposite-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-RIGHT45degrees walking screen-UP-RIGHT; back and left side visible, nose/profile points RIGHT. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-5e945e27-15b2-4128-ab24-efb57311ae78.png"
+    },
+    {
+      "heading": "rearRight",
+      "id": "07-opposite-swing",
+      "output": "rearRight/07-opposite-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+      "anchorSha256": "0475067c476708fd20ec6d3bda907d31360cb1a48c586cd46740f8bce6f67d9d",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/11-opposite-reaching.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: REAR-RIGHT45degrees walking screen-UP-RIGHT; back and left side visible, nose/profile points RIGHT. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-8741b594-944a-49ec-93c1-445575c810f9.png",
+      "generatedAt": "2026-11-04T16:38:16.598Z"
+    },
+    {
+      "heading": "right",
+      "id": "00-contact",
+      "output": "right/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/00-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: EXACT RIGHT PROFILE facing screen-RIGHT, whole body and toes aim RIGHT. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-42085a89-4cca-4360-8c50-13c40996f897.png"
+    },
+    {
+      "heading": "right",
+      "id": "01-loading",
+      "output": "right/01-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+      "anchorSha256": "0e41d83a56965d9fba7797298ba6d9e775c845dffce01761d90e9a966fe63162",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/01-loading.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT RIGHT SIDE PROFILE walking screen-RIGHT; head/chest/pelvis/toes aim RIGHT. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-4208bc6c-0da0-4907-acd6-cb4c9ef5286e.png",
+      "generatedAt": "2026-11-04T16:39:08.696Z"
+    },
+    {
+      "heading": "right",
+      "id": "02-passing",
+      "output": "right/02-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+      "anchorSha256": "0e41d83a56965d9fba7797298ba6d9e775c845dffce01761d90e9a966fe63162",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT RIGHT SIDE PROFILE walking screen-RIGHT; head/chest/pelvis/toes aim RIGHT. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-2e012b66-39e3-4cf3-9797-809b93e9ccfd.png"
+    },
+    {
+      "heading": "right",
+      "id": "03-swing",
+      "output": "right/03-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+      "anchorSha256": "3462a8e0cf1b6bcfb94e48bd2d2f7ecbdc6ff9acb7d474fb82d12b7cf5363450",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/03-swing-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT RIGHT SIDE PROFILE walking screen-RIGHT; head/chest/pelvis/toes aim RIGHT. Phase: PRE-LEFT-HEEL CONTACT: retain the approved LEFT-leading opposite step. Nearly extend left knee forward; left heel hovers a few centimetres before landing with toes slightly raised. Right trailing toes remain planted, right heel lifted. Right arm forward/left arm back. Do not curl the leading knee or reset to the initial right-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d3a78ee9-1e4f-450f-881d-35cbede5eecc.png",
+      "generatedAt": "2026-11-04T16:41:12.598Z"
+    },
+    {
+      "heading": "right",
+      "id": "04-opposite-contact",
+      "output": "right/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/04-opposite-contact-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: EXACT RIGHT PROFILE facing screen-RIGHT, whole body and toes aim RIGHT. Phase: OPPOSITE LEFT HEEL CONTACT: anatomical LEFT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical RIGHT leg trails on its toes with heel lifted. Anatomical RIGHT arm counter-swings FORWARD; LEFT arm swings BACK. This is the opposite step, not a repeated right-leg-leading stance. Match image2's precise limb placement, modest stride and floor position.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-f65c38b2-9223-4b48-8f2d-a8bbde5ce7aa.png"
+    },
+    {
+      "heading": "right",
+      "id": "05-opposite-loading",
+      "output": "right/05-opposite-loading.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+      "anchorSha256": "3462a8e0cf1b6bcfb94e48bd2d2f7ecbdc6ff9acb7d474fb82d12b7cf5363450",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/05-opposite-loading-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT RIGHT SIDE PROFILE walking screen-RIGHT; head/chest/pelvis/toes aim RIGHT. Phase: LEFT-FOOT LOADING: after the left heel contact, roll left foot flat and transfer weight onto it. Right heel stays raised with right toes finishing push-off behind. Keep right arm forward/left arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-f6484939-5c78-429b-9106-0d820bfecb17.png",
+      "generatedAt": "2026-11-04T16:42:07.557Z"
+    },
+    {
+      "heading": "right",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "right/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Fix IMAGE1 into the LEFT SUPPORT / RIGHT PASSING walking phase for this exact adult Vietnamese woman. IMAGE2 shows the required COMPACT mid-stance silhouette/scale; IMAGE3 establishes the opposite left-leading step and same identity. Keep her exact same right-profile head/body view, black low bun, blue-grey ao lam, calm female face, empty hands, elevated camera and warm upper-left light. LEFT leg is the weight-bearing support leg almost straight under the pelvis; its foot stays flat on the same ground plane. RIGHT leg is the swinging leg: BEND the RIGHT knee, lift the right foot and bring it close beside the support shin, NOT extended a stride ahead. Sole of the raised right foot hovers near the other ankle/shin, not out at the far right edge. Arms pass near hips with restrained counter-swing. This must be opposite support to IMAGE2, without mirroring the woman or camera. Keep fixed rootnearx615y1210, hairtopy30 and exact SQUARE1254canvas with unused margins; complete feet/hands, no crop/recenter/zoom. Genuine RGBA outside clean body silhouette, no broad colored/white alpha halos, floor, baked shadow, props, cushion, text, extra limbs or second person.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-ea982253-f3b1-491e-8d93-bf94114b5742.png"
+    },
+    {
+      "heading": "right",
+      "id": "06-opposite-passing",
+      "output": "right/06-opposite-passing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+      "anchorSha256": "3462a8e0cf1b6bcfb94e48bd2d2f7ecbdc6ff9acb7d474fb82d12b7cf5363450",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/06-opposite-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT RIGHT SIDE PROFILE walking screen-RIGHT; head/chest/pelvis/toes aim RIGHT. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-195d348b-55e9-4903-a631-530954f12186.png"
+    },
+    {
+      "heading": "right",
+      "id": "07-opposite-swing",
+      "output": "right/07-opposite-swing.png",
+      "anchor": "artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+      "anchorSha256": "0e41d83a56965d9fba7797298ba6d9e775c845dffce01761d90e9a966fe63162",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/07-opposite-swing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: EXACT RIGHT SIDE PROFILE walking screen-RIGHT; head/chest/pelvis/toes aim RIGHT. Phase: PRE-RIGHT-HEEL CONTACT: retain the approved RIGHT-leading initial step. Nearly extend right knee forward; right heel hovers a few centimetres before landing with toes slightly raised. Left trailing toes remain planted, left heel lifted. Left arm forward/right arm back. Do not curl the leading knee or reset to the opposite left-leading step. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-8dd593ca-1c77-48d1-ba53-966b655be318.png",
+      "generatedAt": "2026-11-04T16:42:00.937Z"
+    },
+    {
+      "heading": "right",
+      "id": "stand",
+      "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: EXACT RIGHT SIDE PROFILE, facing screen-RIGHT. Nose, chest, knees and toes point RIGHT, arms relaxed alongside hips, no torso twist toward viewer or altar. One foot partly overlaps the other in side view; not an exaggerated stride.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/right/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "output": "right/stand.png",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-9afeee7b-ff4b-4b4b-b603-5a3d4a6813db.png"
+    }
+  ]
+}

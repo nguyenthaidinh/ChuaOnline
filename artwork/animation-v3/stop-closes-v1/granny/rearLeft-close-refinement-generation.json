@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "job": {
+    "id": "rearLeft/left-close",
+    "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-close-v2.png",
+    "prompt": "Use case: identity-preserve. ONE final almost-closed stop pose, ChuaOnline true transparent RGBA1254square. Image1 is exact elderly brown-clothed Vietnamese woman identity, mature face, grey low bun, camera, torso and planted LEFT near/foreground leg. Image2 is her OWN neutral endpoint, fixed feet arrangement. Image3 provides only the two settled foot pose/occlusion. Move ONLY the far RIGHT free leg from image1 down and inward until its foot is nearly alongside the planted LEFT foot, just2-3pixels above its depth-adjusted floor. Both legs nearly straight, both feet parallel and almost beside each other, no stride and no bent lifted knee remaining. LEFT foreground leg stays weight-bearing EXACTLY asimage1: preserve its heel native aroundx610,y1175 and the full nearfoot position unchanged; no moving that left heel100pixels sideways. FarRIGHT freeheel shouldsettlenearx690,y1165 asownneutral, toespointLEFT. Back andLEFTsidecamera unchanged. Calm both empty arms beside thighs. Preserve older woman identity, brown robe and trousers, grey bun, lighting, torso/hip/root and fixedsource margins. Headtoparoundy30, groundrootnear6151210; fullbody headtoes. No younger face, bluegarment, mirroring, recentering, zoom, floor, shadow, text, grids, extra limbs. Only oneimage.",
+    "references": [
+      "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather-v2.png",
+      "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png",
+      "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-close.png"
+    ],
+    "referenceAssets": [
+      {
+        "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather-v2.png",
+        "sha256": "6eda358261b73373dd186599b21749065e90e79456cd42b05b40797db9006267"
+      },
+      {
+        "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png",
+        "sha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc"
+      },
+      {
+        "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-close.png",
+        "sha256": "a608c9f4ce363594e787f66215bfb030f8433c2208d00c15248593f41b206d3f"
+      }
+    ]
+  }
+}

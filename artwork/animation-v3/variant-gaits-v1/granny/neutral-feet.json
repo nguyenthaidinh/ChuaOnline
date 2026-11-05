@@ -1,0 +1,224 @@
+{
+  "appearance": "granny",
+  "coordinateSpace": "Native PNG pixels, origin top-left",
+  "precisionNote": "Manually inspected own source grids and visible skin/alpha boundary, approximately two pixels. Occluded heels are not inferred; the available plantar landmark is explicitly identified.",
+  "frames": {
+    "rear/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png",
+      "sourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          675,
+          1210
+        ],
+        "left": [
+          555,
+          1209
+        ]
+      },
+      "landmarkNote": {
+        "right": "Visible underside right heel.",
+        "left": "Visible underside left heel."
+      },
+      "evidence": "feet-review/rear-stand.jpg",
+      "landmarks": {
+        "right": "heel",
+        "left": "heel"
+      }
+    },
+    "rearRight/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png",
+      "sourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          620,
+          1186
+        ],
+        "left": [
+          530,
+          1176
+        ]
+      },
+      "landmarkNote": {
+        "right": "Visible underside nearer right heel.",
+        "left": "Visible underside farther left heel."
+      },
+      "evidence": "feet-review/rearRight-stand.jpg",
+      "landmarks": {
+        "right": "heel",
+        "left": "heel"
+      }
+    },
+    "right/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/right/stand.png",
+      "sourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          710,
+          1176
+        ],
+        "left": [
+          550,
+          1198
+        ]
+      },
+      "landmarkNote": {
+        "right": "Right heel is occluded by nearer leg; measured visible plantar edge of far right forefoot.",
+        "left": "Visible underside nearer left heel."
+      },
+      "evidence": "feet-review/right-stand.jpg",
+      "landmarks": {
+        "right": "plantar-toe-pad",
+        "left": "heel"
+      }
+    },
+    "frontRight/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png",
+      "sourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          560,
+          1224
+        ],
+        "left": [
+          690,
+          1214
+        ]
+      },
+      "landmarkNote": {
+        "right": "Heel hidden by frontal projection; measured visible plantar toe-pad edge of right foot.",
+        "left": "Heel hidden by frontal projection; measured visible plantar toe-pad edge of left foot."
+      },
+      "evidence": "feet-review/frontRight-stand.jpg",
+      "landmarks": {
+        "right": "plantar-toe-pad",
+        "left": "plantar-toe-pad"
+      }
+    },
+    "front/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/front/stand.png",
+      "sourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          540,
+          1219
+        ],
+        "left": [
+          680,
+          1220
+        ]
+      },
+      "landmarkNote": {
+        "right": "Heel hidden in frontal view; visible underside right toe pad.",
+        "left": "Heel hidden in frontal view; visible underside left toe pad."
+      },
+      "evidence": "feet-review/front-stand.jpg",
+      "landmarks": {
+        "right": "plantar-toe-pad",
+        "left": "plantar-toe-pad"
+      }
+    },
+    "frontLeft/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png",
+      "sourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          520,
+          1213
+        ],
+        "left": [
+          630,
+          1225
+        ]
+      },
+      "landmarkNote": {
+        "right": "Heel hidden by frontal projection; visible right plantar toe-pad edge.",
+        "left": "Heel hidden by frontal projection; visible left plantar toe-pad edge."
+      },
+      "evidence": "feet-review/frontLeft-stand.jpg",
+      "landmarks": {
+        "right": "plantar-toe-pad",
+        "left": "plantar-toe-pad"
+      }
+    },
+    "left/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png",
+      "sourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          665,
+          1197
+        ],
+        "left": [
+          510,
+          1174
+        ]
+      },
+      "landmarkNote": {
+        "right": "Visible underside nearer right heel.",
+        "left": "Left heel is occluded by nearer leg; measured visible plantar edge of far left forefoot."
+      },
+      "evidence": "feet-review/left-stand.jpg",
+      "landmarks": {
+        "right": "heel",
+        "left": "plantar-toe-pad"
+      }
+    },
+    "rearLeft/stand": {
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png",
+      "sourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "points": {
+        "right": [
+          670,
+          1189
+        ],
+        "left": [
+          595,
+          1197
+        ]
+      },
+      "landmarkNote": {
+        "right": "Far anatomical right foot at image-right; own rear-left camera shows back and left side. Visible posterior heel curve.",
+        "left": "Near anatomical left foot at image-left; own rear-left camera shows back and left side. Visible posterior heel curve."
+      },
+      "evidence": "feet-review/rearLeft-stand.jpg",
+      "landmarks": {
+        "right": "heel",
+        "left": "heel"
+      },
+      "revisionNote": "Full native source review corrected swapped anatomical R/L labels. Pixel locations and PNG unchanged; previous metadata retained in rearLeft-role-revisions.json."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Two actual source support-role errors. Own validated male passing is the only edit target; preserve planted-leg silhouette.",
+  "jobs": [
+    {
+      "output": "rearRight/left-close-v5.png",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearRight/left-v2.png",
+      "prompt": "Use case: identity-preserve. Edit this ONE male ChuaOnline transparent sprite, keeping the same man, face, short dark hair, blue-grey robe, fixed camera rear-right orientation, whole body scale and original square1254x1254 framing with transparent margins. The FAR anatomical LEFT leg on IMAGE-LEFT is the straight supporting leg in this exact reference. Keep that FAR LEFT supporting thigh, shin, heel and flat planted sole unchanged, at the SAME source-pixel location (heel around520,1198). Change only the free NEAR RIGHT leg: lower and straighten its bent knee until the near right bare foot rests fully FLAT beside the unchanged left foot, both knees nearly straight. Final quiet close-to-neutral stance, BOTH feet soles flat, parallel, side by side. No heel raised on either foot, no knee lift remaining, no walking stride, no foot stretched behind the other. Keep far-left support leg in the rear layer and near-right leg in front layer, do NOT exchange which leg bears weight, do NOT mirror. Quiet the arms beside the body slightly but preserve the same shoulders, chest, head and scale. True RGBA transparent background, no floor, shadows, text, extra characters, contact sheet or labels. Output only one complete figure and preserve entire SQUARE 1:1 canvas. Invariant: the existing supporting left foot never leaves the ground.",
+      "sourceSha256": "95d91b71137cd7cfbbbcde6089feb8e84ee5fde005def410536ba2873f66cab0",
+      "references": [
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearRight/left-v2.png",
+          "sha256": "95d91b71137cd7cfbbbcde6089feb8e84ee5fde005def410536ba2873f66cab0"
+        }
+      ],
+      "generatedSource": "C:/Users/Admin/.codex/generated_images/01a1a94a-5b3d-77d0-ba4e-227caae26ea8/exec-05978042-3d6f-408f-9b37-d7d16728532a.png",
+      "outputSha256": "4c993ee749d5fd37f1ca6962127de7481b7e0cd92472dcf7a344cfafd4d9bc7a"
+    },
+    {
+      "output": "right/left-gather-v5.png",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/left.png",
+      "prompt": "Use case: identity-preserve. Edit this ONE male ChuaOnline transparent sprite. Preserve original square1254x1254 canvas with wide transparent margins, exact male face, short dark hair, blue-grey ao lam, body scale, camera and physical RIGHT-facing profile. The FAR anatomical LEFT leg is the straight weight-bearing leg BEHIND the lifted near leg in this exact image. KEEP that supporting far-left thigh, shin, heel and foot planted exactly as shown, unchanged at the same pixel location (visible supporting forefoot pad near639,1197). Change ONLY the lifted NEAR RIGHT leg: lower its lifted knee modestly so its free bare foot gathers close to the planted ankle, toe about3cm above the ground. Keep the free knee visibly bent and its NEAR RIGHT thigh and bent knee IN FRONT OF and occluding the straight far supporting leg, exactly the same layering as this reference. Do not straighten the near leg. Do not swap which leg is planted. Do not make both opposite phases use the same straight foreground leg. This is a compact final gather after walking, not a long stride or contact step. Keep arms damping down slightly but retain same shoulder, torso, head, stature and empty hands. No mirror/flip, no floor, shadow, text, props or montage. One full body male figure only. True transparent RGBA background and identical square framing.",
+      "sourceSha256": "0ce1fc11a0667c0418af9b13a4974bbc160cec0b77d1ee6f40333759028f04ff",
+      "references": [
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/left.png",
+          "sha256": "0ce1fc11a0667c0418af9b13a4974bbc160cec0b77d1ee6f40333759028f04ff"
+        }
+      ],
+      "generatedSource": "C:/Users/Admin/.codex/generated_images/01a1a94a-5b3d-77d0-ba4e-227caae26ea8/exec-3b3a094c-608e-4b6a-9072-8ef7aef381d9.png",
+      "outputSha256": "2c651ccf675daadd735e946113bb535490005749565016e907c6e9dad0206a97"
+    }
+  ]
+}

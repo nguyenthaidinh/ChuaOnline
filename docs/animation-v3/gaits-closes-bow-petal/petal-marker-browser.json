@@ -1,0 +1,41 @@
+[
+  {
+    "appearance": "man",
+    "before": {
+      "heldImages": 1,
+      "source": "18-petal-pre-release",
+      "time": "5031.000"
+    },
+    "after": {
+      "heldImages": 0,
+      "source": "19-petal-release",
+      "time": "5032.000"
+    }
+  },
+  {
+    "appearance": "woman",
+    "before": {
+      "heldImages": 1,
+      "source": "18-petal-pre-release",
+      "time": "5031.000"
+    },
+    "after": {
+      "heldImages": 0,
+      "source": "19-petal-release",
+      "time": "5032.000"
+    }
+  },
+  {
+    "appearance": "granny",
+    "before": {
+      "heldImages": 1,
+      "source": "18-petal-pre-release",
+      "time": "5031.000"
+    },
+    "after": {
+      "heldImages": 0,
+      "source": "19-petal-release",
+      "time": "5032.000"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "tool": "built-in image_gen",
+  "appearance": "granny",
+  "jobs": [
+    {
+      "id": "left/right-gather",
+      "output": "left/right-gather-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/stop-closes-v1/granny/left/right-gather.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE corrected transparent ChuaOnline stop key pose. IMAGE1 is the edit target: same elderly Vietnamese woman, grey low bun, warm brown ao lam suit, barefoot, pure LEFT profile. IMAGE2 is her approved neutral endpoint and exact fixed camera/scale style. Change only the LEFT moving leg and modestly settle arms to make a genuine 60-percent gathered stop after right-leg mid-stance. The anatomical RIGHT near-side leg/whole foot is load-bearing: retain its exact location from image1, heel around native x560,y1190, foot pointing LEFT. Do not move or lift that planted right foot. Image1 leaves the LEFT far leg too far behind. Draw that left knee/ankle forward inward toward the right stance ankle: left far heel now near x650,y1160, toes point LEFT near x520,y1165; the free sole stays just above floor, not in a long stride or high marching kick. This is partway between mid-stance and image2's parallel quiet feet. Head, mature face, bun, neck and torso stay at exact LEFT-profile yaw; preserve her original identity, brown garment, proportions, head scale, camera, torso position and lighting. Arms damp to small relaxed swing. Fixed 1254 square true RGBA transparent canvas, all source margins unchanged, hairtop near y30, source root near615,1210. No autocrop/recenter/zoom/mirror, no floor/shadow/text/grid, no extra limbs or outline. Only this one pose.",
+      "builtinOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-9432-7fe0-9abf-e4849a8e0a6d\\exec-6bbcff31-84c3-42f2-bc0a-b95c8046bad0.png",
+      "status": "reviewed-selected-awaiting-contact",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sha256": "74f2dc56e02f014e0bf2c9fd33bf5e24a4fe0f20ae496f600cf23e247b82a9c0",
+      "referenceAssets": [
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-gather.png",
+          "sha256": "5650f7170ef48091db8c294707b9fc448c54b7079fa01ab6733cc88d9219c848"
+        },
+        {
+          "source": "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png",
+          "sha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+        }
+      ]
+    },
+    {
+      "id": "left/right-close",
+      "output": "left/right-close-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/stop-closes-v1/granny/left/right-close.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE corrected transparent ChuaOnline almost-neutral stop key pose. IMAGE1 is the edit target: same elderly Vietnamese woman, grey low bun, warm brown ao lam suit, barefoot, pure LEFT profile. IMAGE2 is her approved neutral endpoint, especially the two parallel feet closed beside each other. Fix image1's LEFT far leg, which is still a full foot behind the stance leg. This must be a 90-percent CLOSED stop, not a short walking stride. Anatomical RIGHT near leg/whole foot remains planted at exact image1 location: heel around native x560,y1190, toes point LEFT near x400. Keep that right foot unchanged. Bring the LEFT far ankle completely inward beside that right ankle: far left heel nearly above/alongside right heel in screen x, roughly x550-575,y1170; its toes point LEFT roughly x410-435,y1175. Both feet are parallel, almost touching side-by-side as in image2; the left moving foot is landing softly, its sole at most a few pixels above its final depth-adjusted floor. No far heel hanging150pixels behind, no stride gap, no step forward, no leg crossing. Knees settle nearly straight and both empty hands hang close to thighs. Keep exact head/face/bun/body LEFT yaw, mature female identity, costume, source scale, camera, torso and lighting. Fixed square1254 true RGBA; original unused margins/headtop near y30/root near615,1210 unchanged. No autocrop/recenter/mirror/stretch/zoom, floor, shadow, text, grids, extra limbs or glow. One pose only.",
+      "builtinOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-9432-7fe0-9abf-e4849a8e0a6d\\exec-4a62d431-47c7-41bf-809f-5adc6f91ba8c.png",
+      "status": "reviewed-selected-awaiting-contact",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sha256": "264052783304a304fd8d5344fbf525c3d1e8290e84e497275df82b68d487f0d4",
+      "referenceAssets": [
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-close.png",
+          "sha256": "3b5102c93bede5e7c211854b41bc4d9a3cff9e4c7d3daeb5f55f984c92754c65"
+        },
+        {
+          "source": "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png",
+          "sha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+        }
+      ]
+    }
+  ],
+  "drafts": [
+    {
+      "id": "left/right-gather",
+      "source": "left/right-gather.png",
+      "sha256": "5650f7170ef48091db8c294707b9fc448c54b7079fa01ab6733cc88d9219c848",
+      "reason": "Left free foot remained too far behind in stopping pose; replaced with more gathered/closed sibling.",
+      "evidence": "qa/feet-review/left-right-gather-raw.jpg"
+    },
+    {
+      "id": "left/right-close",
+      "source": "left/right-close.png",
+      "sha256": "3b5102c93bede5e7c211854b41bc4d9a3cff9e4c7d3daeb5f55f984c92754c65",
+      "reason": "Left free foot remained too far behind in stopping pose; replaced with more gathered/closed sibling.",
+      "evidence": "qa/feet-review/left-right-close-raw.jpg"
+    }
+  ],
+  "note": "Only selected versioned refinements; raw outputs retained unchanged. Source stance position is manually remeasured and pinned by the integration owner."
+}

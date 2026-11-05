@@ -1,0 +1,14 @@
+{
+  "heading": "frontLeft",
+  "id": "02-passing",
+  "output": "frontLeft/02-passing.png",
+  "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+  "anchorSha256": "095aa60066d198e1e8455b81040fae1db3f527ac7087ebf83cbe554e097ed6ff",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/02-passing.png"
+  ],
+  "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: RIGHT SUPPORT / LEFT PASSING: right support leg is near vertical beneath the pelvis, left knee bends and swings forward past the supporting right shin. Right foot still supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-b36e4887-931e-428a-b07d-9c183c8f0fc9.png",
+  "recoveryNote": "Actual PNG copy completed during an interrupted reprioritization runner, before its record write returned. Matched exact SHA and size back to builtin generated_images; prompt/references preserved from phase-plan."
+}

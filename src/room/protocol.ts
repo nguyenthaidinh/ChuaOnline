@@ -1,8 +1,9 @@
 import type { RitualCommand } from '../types/experience.ts';
 import type { RitualTimelineVersion } from '../shared/ritualSchedule.ts';
+import type { MovementVersion } from '../shared/movementSchedule.ts';
 export type Appearance = 'man' | 'woman' | 'granny';
-/** v4 keeps the v3 route and gives the complete sit-down artwork 1,500 ms. */
-export type EntryVersion = 3 | 4;
+/** v4 adds the full sit; v5 also closes the last step at the fixed seat. */
+export type EntryVersion = 3 | 4 | 5;
 export type OfferingKind = 'incense' | 'lotus' | 'petal' | 'bell';
 export type RoomActionKind = 'bow' | OfferingKind;
 export function isOfferingKind(value: unknown): value is OfferingKind {
@@ -13,9 +14,9 @@ export const OFFERING_LABELS: Record<OfferingKind, string> = {
 };
 export interface SharedAction extends RitualCommand { startedAt: number; endsAt: number; slot: number; offering?: OfferingKind;
   timelineVersion?: RitualTimelineVersion;
-  movement?: { seat:number; outboundMs:number; returnMs:number; version:2|3 } }
+  movement?: { seat:number; outboundMs:number; returnMs:number; version:MovementVersion } }
 export interface PlacedOffering { id:string; actionId:string; kind:OfferingKind; slot:number; placedAt:number; expiresAt:number;
-  artworkVersion?:3;appearance?:Appearance }
+  artworkVersion?:3|4;appearance?:Appearance }
 export interface RoomMember {
   id: string; name: string; appearance: Appearance; seat: number; joinedAt: number;
   entryVersion?: EntryVersion;

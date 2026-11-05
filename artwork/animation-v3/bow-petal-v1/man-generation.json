@@ -1,0 +1,152 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "01-knee-bend",
+      "output": "man/01-knee-bend.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Image1 fixes standing origin; image2 is later kneel endpoint only. Begin lowering into a bow: both knees bend moderately, pelvis lowersabout150px, torso remains tall with a slight forward balance lean, headtoparound170. Feet remain planted exactly likeimage1; heels low, hands gently reach a littleforward beside thighs for balance. Not yet kneeling; no crossed legs. Preserve camera/body size."
+    },
+    {
+      "id": "02-lower-knees",
+      "output": "man/02-lower-knees.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep exact knees and folded feet positions ofimage1. Intermediate lowering pose just ABOVE fullkneel: hips liftedabout130px above heels, thighs slant down into planted knees, torso vertical so headtoparound280. Arms naturally forward/down for balance, palms relaxed near thighs, not prayer yet. Lower legs and feet stay locked atimage1 coordinates. No sliding/recenter."
+    },
+    {
+      "id": "05-forehead-prayer",
+      "output": "man/05-forehead-prayer.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/04-prayer.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep exact upright kneeling torso/head and ALL lowerbody coordinates ofimage1. Raise the joined-palms prayer from chest to forehead with fingertips just above eyebrows, elbows softly forward. Gentle respectful chin tuck, no large bow yet. Exactly twohands with fingers together, no incense."
+    },
+    {
+      "id": "06-lean",
+      "output": "man/06-lean.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/04-prayer.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep both knees/lowerlegs/feet EXACTLY fixed atimage1 coordinates (feetbottom1190). Begin bowing from hips forward towardupper-right, torso inclinedabout40degrees, headtoparound590. Joined hands move down/forward from prayer toward the floor but have not contacted; arms relaxed, elbows bent naturally. Hips stay above heels; no sliding, enlarged head or side-view camera."
+    },
+    {
+      "id": "07-hands-floor",
+      "output": "man/07-hands-floor.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep image1 knees,foldedlegs,feet and hip root EXACTLY fixed. Show moment JUST BEFORE forehead touches floor: lift only head/shouldersabout90px aboveimage1, neck natural, arms support gently with both PALMS DOWN on same floor locations beside future forehead contact. Forearms angle down from elbows, torso remains low. This is the lowering support pose; no head-floor contact yet. Same head size/camera."
+    },
+    {
+      "id": "09-lift-head",
+      "output": "man/09-lift-head.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep exact hips,knees,lowerlegs,feet and camera ofimage1. A distinct UPWARD recovery keypose: forehead liftsabout70px from floor, palms roll back facing DOWN to take weight, elbows begin to extend, shoulder blades rise slightly. Hands stay at same floor positions, torso still mostly low overthighs. Natural fingers/wrists, no ghost arm or hand."
+    },
+    {
+      "id": "10-push-up",
+      "output": "man/10-push-up.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/04-prayer.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Image1 locks lowerbody/floor origin, image2 shows final upright endpoint only. Recover upward from lowbow: hips stay nearheels and knees/feet EXACTLY atimage1 coordinates, torso rises toabout45degrees. Both palms press flat on floor beneath/infront of shoulders, elbows nearly extend to lift chest, head naturally follows upperbody with hairtoparound590. Do NOT change camera/headsize or move lowerbody."
+    },
+    {
+      "id": "11-kneel-return",
+      "output": "man/11-kneel-return.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/04-prayer.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep exactlyimage1 upright kneeling lowerbody, head, shoulders, size and position. Hands are RETURNING fromfloor support toward chest: elbows relaxed, palms approach eachother at upperabdomen but remainabout5cm apart, fingertips angled upward. This distinct recovery pose is before final joinedpalms, not the lowering phase. No props."
+    },
+    {
+      "id": "12-rise-support",
+      "output": "man/12-rise-support.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Image1 locks kneeling camera/identity, image2 is standing endpoint/root. Begin standing fromkneel: torso leans gentlyforward, lift hips fromheels; bring anatomical RIGHT foot underneath into a planted sole with heel nearx610,y1180 and toes towardx730,y1185, matching standing rightfoot ofimage2. LEFT knee remains onfloor behind/left with lefttoes folded nearx490,y1190. Rightknee lifts towardx730,y1000. Right palm presses onrightthigh and left palm briefly supports besideleftknee. Headtoparound350. Keep stable feetfloorline, natural balance, fullbody not enlarged."
+    },
+    {
+      "id": "13-rise-half-kneel",
+      "output": "man/13-rise-half-kneel.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Image1 gives kneeling identity/camera, image2 standing foot/root. Half-kneeling upward recovery: anatomical RIGHT sole firmly planted EXACTLY in standing right-foot position ofimage2 (heelnear6101180,toestoward7301185); LEFT knee still touchesfloor behind atx520,y1120 with lefttoesnear4901190. Hips/head rise fromsupport, torso morevertical, rightpalm supportsrightthigh, lefthand lifts fromfloor. Hairtoparound190, headsize unchanged. Right plantedfoot must notslide; no kneeling seatedbody or extra leg."
+    },
+    {
+      "id": "14-rise-extend",
+      "output": "man/14-rise-extend.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/04-prayer.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Image1 locks standing foot/origin and identity; image2 earlierkneeling endpoint. Almost fully standing: RIGHT foot remains fixed exactly asimage1, torso/headnownearfullheight(headtoparound80), both knees still slightly bent. LEFT leg rises fromkneel and gathers toward its standing position, lefthand now besidehip, righthand releases support on thigh. Bothfeet staywithin standing footprint; natural balance, body not leaning unnaturally. Preserve rightheel/root, fullbody/camera/scale."
+    },
+    {
+      "id": "16-petal-lift",
+      "output": "man/16-petal-lift.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Image1 locks the twohanded cradle; image2 standing identity/root. Raise the empty cuppedpalms gentlyabout60px from abdomen towardmidchest, cup centrenearx830,y360. Keep fingers curled and palmsup asif holding invisible loosepetals, lefthand supports right. Elbows softly bent, shoulders calm, no head/torso/feet move."
+    },
+    {
+      "id": "17-petal-extend",
+      "output": "man/17-petal-extend.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep exact standingfeet/torso/head/camera. Move BOTH empty cuppedhands smoothly forward towardupper-right altar, extend forearms without lockedelbows, cupcentrenearx970,y420. Palms still gentlyclosed/up, right infront ofleft. Natural wrists/fingers, no actualpetals/object, no praying joinedpalms."
+    },
+    {
+      "id": "18-petal-pre-release",
+      "output": "man/18-petal-pre-release.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep standingbody/feet/head EXACTLY. Arms extend gentlyforward, hands aroundx990,y430. Rightpalm remains softlycupped with fingers curled around invisiblepetals, but wrist begins slight outward/downward tilt; lefthand supports underneath. This is the LAST CLOSED-HAND moment before release. Do NOT open fingers yet; no actualpetals/props."
+    },
+    {
+      "id": "19-petal-release",
+      "output": "man/19-petal-release.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep standingbody/feet/head/camera EXACTLY. Arms extend calmlyforward, hands aroundx990,y440. OPEN the right fingers softly and tilt right palm forward/downabout15degrees to let invisible petals slip from fingertipedge; leftpalm also relaxes/open underneath, hands slightlyseparate. Empty hands with allfingers anatomicallycoherent and gentle gesture. This is exact release keypose, no actualpetalparticles, no cup/bowl/object."
+    },
+    {
+      "id": "20-petal-follow",
+      "output": "man/20-petal-follow.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep standingbody/feet/head EXACTLY. After releasing invisiblepetals, open palms stayextended towardupper-right aroundx1010,y455, wrists ease outward slightly, fingers naturally spread/relaxed, elbowssoft. Bothhands empty, no flicking exaggeratedly, no actualpetals/props."
+    },
+    {
+      "id": "21-petal-return",
+      "output": "man/21-petal-return.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animation key pose, square1254canvas. Preserve exact approved adult Vietnamese man, short dark hair, blue-grey ao lam tunic/loose trousers, bare feet, matte fabric, warm upper-left light, fixed elevated rear-right three-quarter camera facing upper-right and stable source scale. Source origin nearx615,y1210, standing headtop30 and lowest toes1190; NO enlargement of lowered poses to fill canvas, NO zoom/recenter/mirror/whole-image warp. Exactly one complete person, bothhands EMPTY, no props/petals/flower/bowl/altar/floor/shadow/cushion/text/extra limbs. Fullbody, toes and fingers inside generous true transparent margins. Keep exact standingbody/feet/head/camera. Afterrelease, withdraw both EMPTY openhands towardwaist, forearms lower smoothly, hands aroundx840,y540. Rightfingers relaxedopen pointsoftlydown, lefthand retreats below, elbows close toribs. This is halfway from extendedrelease to armsrest neutral, no prayer/props/petals."
+    }
+  ]
+}

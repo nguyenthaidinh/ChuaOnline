@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "appearance": "woman",
+      "id": "08-prostrate",
+      "output": "woman/08-prostrate.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animationkeypose, sameSQUARE1254canvas. Image1 is the exact POSE/CAMERA/SCALE/SOURCE-COORDINATE target; image2 is the approved female IDENTITY/COSTUME reference, not the pose. Create this woman in EXACTLY image1's anatomical pose and direction; preserve all wrists/feet/knees/floor-contactpositions, pelvis height, camera elevation, body scale and unused transparent margins of image1. Match HER own face/bun/body proportions/fabric from image2, not the male face or hair. Fixed elevatedrearRightcamera facingupper-right, warmupper-leftlight, no zoom/recenter/whole-bodywarp. DoNOTenlarge a loweredkneeling/bowed body tofillframe. Hands EMPTY. Exactly oneperson, completefeet/fingertipsinsideframe. No props/petals/incense/floor/shadow/cushion/text/extra limbs. Identity: adultVietnamese female layvisitor, feminine proportions, darkhair in neatlowbun, softblue-grey ao lam tunicandloosefull-lengthtrousers, barefeet. Respectful deepBuddhistbow exactlylikeimage1, forehead andforearms loweredtoinvisiblefloor,palmsup, hipsnearheels; preserve kneelingfoot/toeanchors, doNOTshiftwholebody. Her bun staysattachednaturally tobackofhead asheadbows."
+    },
+    {
+      "appearance": "granny",
+      "id": "18-petal-pre-release",
+      "output": "granny/18-petal-pre-release.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/18-petal-pre-release-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/granny/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA full-body ChuaOnline animationkeypose, sameSQUARE1254canvas. Image1 is the exact POSE/CAMERA/SCALE/SOURCE-COORDINATE target; image2 is the approved female IDENTITY/COSTUME reference, not the pose. Create this woman in EXACTLY image1's anatomical pose and direction; preserve all wrists/feet/knees/floor-contactpositions, pelvis height, camera elevation, body scale and unused transparent margins of image1. Match HER own face/bun/body proportions/fabric from image2, not the male face or hair. Fixed elevatedrearRightcamera facingupper-right, warmupper-leftlight, no zoom/recenter/whole-bodywarp. DoNOTenlarge a loweredkneeling/bowed body tofillframe. Hands EMPTY. Exactly oneperson, completefeet/fingertipsinsideframe. No props/petals/incense/floor/shadow/cushion/text/extra limbs. Identity: elderlyVietnamese female layvisitor, greyhair in neatlowbun, warmbrown ao lam tunicandmatchingloosetrousers, barefeet, calmolderface. EXACTlastclosed-fingerpetalpose ofimage1: rightfingersgentlycurledcontaininginvisiblepetalsbeforeopening, rightwrist/leftopenpalm atsamepixelpositions; torso/feetfixed. DoNOTmakeprayer, joinhandsorholdobjects."
+    }
+  ]
+}

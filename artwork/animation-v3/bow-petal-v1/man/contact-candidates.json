@@ -1,0 +1,1013 @@
+{
+  "00-neutral": {
+    "sourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+    "support": {
+      "point": [
+        519,
+        1173
+      ],
+      "landmark": "leftSoleContact",
+      "reference": "00-neutral",
+      "reviewRoi": [
+        440,
+        1090,
+        600,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "02-lower-knees": {
+    "sourceSha256": "6c03e41bac1bdf09fb052a53c6297a46de96440ee3a7625acf8fafddcb4b340f",
+    "support": {
+      "point": [
+        527,
+        1180
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "03-kneel-rest": {
+    "sourceSha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e",
+    "support": {
+      "point": [
+        529,
+        1187
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "04-prayer": {
+    "sourceSha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19",
+    "support": {
+      "point": [
+        530,
+        1187
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "05-forehead-prayer": {
+    "sourceSha256": "206ae60b1cb0676fcbc6709cfef1e74e536a7cc6a09032bb82981052d5370295",
+    "support": {
+      "point": [
+        529,
+        1187
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "06-lean": {
+    "sourceSha256": "3c94f5d2a2f013fcacdb56e3543ea518b4aaa7e9fb847840b96f54e96c45f263",
+    "support": {
+      "point": [
+        498,
+        1184
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "07-hands-floor": {
+    "sourceSha256": "01d97bbf8d18015dee4e7448edd3b3856c20e1aa4ae154b450cf398b369f9b8e",
+    "support": {
+      "point": [
+        527,
+        1189
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "08-prostrate": {
+    "sourceSha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189",
+    "support": {
+      "point": [
+        528,
+        1188
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "09-lift-head": {
+    "sourceSha256": "ee8bd9f68c0a053bb35da61090623212971d5e6fc52dce1f2e3b36050e490ce7",
+    "support": {
+      "point": [
+        528,
+        1189
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "10-push-up": {
+    "sourceSha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3",
+    "support": {
+      "point": [
+        528,
+        1189
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "11-kneel-return": {
+    "sourceSha256": "279c8ed048dfb182f3a48390edab0fb1b1afeadaab62ced97b5084d11641b28d",
+    "support": {
+      "point": [
+        529,
+        1188
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "12-rise-support": {
+    "sourceSha256": "53089e603cb5c18f757a6bec8a28aa1e0bdf7be9de02e49b8c6e2fbdbc15344a",
+    "support": {
+      "point": [
+        729,
+        1169
+      ],
+      "landmark": "rightSoleContact",
+      "reference": "12-rise-support",
+      "reviewRoi": [
+        600,
+        1100,
+        920,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "13-rise-half-kneel": {
+    "sourceSha256": "95c8d200dbff063f47045dceda8d6bc9d1abcda4e274ad8fa91946b250044676",
+    "support": {
+      "point": [
+        714,
+        1157
+      ],
+      "landmark": "rightSoleContact",
+      "reference": "12-rise-support",
+      "reviewRoi": [
+        600,
+        1100,
+        920,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "14-rise-extend": {
+    "sourceSha256": "731131dd9d25bc89e4b8f754db3893d0437ec8a6796dd21df3aaa3930e8eb61b",
+    "support": {
+      "point": [
+        491,
+        1164
+      ],
+      "landmark": "leftSoleContact",
+      "reference": "00-neutral",
+      "reviewRoi": [
+        440,
+        1090,
+        600,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  },
+  "15-petal-cradle": {
+    "sourceSha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919",
+    "hand": [
+      810,
+      395
+    ],
+    "handMask": [
+      [
+        735,
+        394
+      ],
+      [
+        754,
+        380
+      ],
+      [
+        758,
+        378
+      ],
+      [
+        770,
+        374
+      ],
+      [
+        783,
+        374
+      ],
+      [
+        801,
+        375
+      ],
+      [
+        843,
+        381
+      ],
+      [
+        849,
+        384
+      ],
+      [
+        850,
+        385
+      ],
+      [
+        853,
+        389
+      ],
+      [
+        853,
+        401
+      ],
+      [
+        852,
+        404
+      ],
+      [
+        850,
+        409
+      ],
+      [
+        847,
+        416
+      ],
+      [
+        845,
+        420
+      ],
+      [
+        839,
+        426
+      ],
+      [
+        829,
+        435
+      ],
+      [
+        826,
+        437
+      ],
+      [
+        771,
+        448
+      ],
+      [
+        764,
+        448
+      ],
+      [
+        738,
+        420
+      ],
+      [
+        737,
+        418
+      ],
+      [
+        736,
+        414
+      ],
+      [
+        735,
+        403
+      ]
+    ],
+    "handReview": {
+      "roi": [
+        730,
+        350,
+        880,
+        460
+      ],
+      "pixels": 4309,
+      "method": "Manual grip in viewed own hand image; own source skin/alpha contour mask."
+    }
+  },
+  "16-petal-lift": {
+    "sourceSha256": "3db1069f9f42ff476a839e85d59040420e63350bad1b8176964fdf3fae2bee01",
+    "hand": [
+      800,
+      335
+    ],
+    "handMask": [
+      [
+        735,
+        342
+      ],
+      [
+        736,
+        340
+      ],
+      [
+        756,
+        323
+      ],
+      [
+        764,
+        319
+      ],
+      [
+        769,
+        317
+      ],
+      [
+        772,
+        316
+      ],
+      [
+        792,
+        315
+      ],
+      [
+        803,
+        315
+      ],
+      [
+        845,
+        320
+      ],
+      [
+        852,
+        323
+      ],
+      [
+        854,
+        325
+      ],
+      [
+        856,
+        329
+      ],
+      [
+        856,
+        340
+      ],
+      [
+        854,
+        348
+      ],
+      [
+        848,
+        361
+      ],
+      [
+        847,
+        362
+      ],
+      [
+        832,
+        376
+      ],
+      [
+        830,
+        377
+      ],
+      [
+        777,
+        392
+      ],
+      [
+        771,
+        392
+      ],
+      [
+        737,
+        364
+      ],
+      [
+        736,
+        363
+      ],
+      [
+        735,
+        356
+      ]
+    ],
+    "handReview": {
+      "roi": [
+        730,
+        290,
+        880,
+        395
+      ],
+      "pixels": 4598,
+      "method": "Manual grip in viewed own hand image; own source skin/alpha contour mask."
+    }
+  },
+  "17-petal-extend": {
+    "sourceSha256": "16fa139bba5378ca1c82b93dba8a72c5692833acf9e15dae5609492af5b7bff3",
+    "hand": [
+      935,
+      265
+    ],
+    "handMask": [
+      [
+        847,
+        265
+      ],
+      [
+        848,
+        264
+      ],
+      [
+        893,
+        240
+      ],
+      [
+        897,
+        238
+      ],
+      [
+        900,
+        237
+      ],
+      [
+        904,
+        236
+      ],
+      [
+        916,
+        234
+      ],
+      [
+        926,
+        234
+      ],
+      [
+        949,
+        235
+      ],
+      [
+        957,
+        236
+      ],
+      [
+        984,
+        241
+      ],
+      [
+        986,
+        243
+      ],
+      [
+        988,
+        248
+      ],
+      [
+        988,
+        257
+      ],
+      [
+        982,
+        274
+      ],
+      [
+        970,
+        288
+      ],
+      [
+        964,
+        294
+      ],
+      [
+        957,
+        298
+      ],
+      [
+        941,
+        307
+      ],
+      [
+        939,
+        308
+      ],
+      [
+        870,
+        327
+      ],
+      [
+        864,
+        327
+      ],
+      [
+        847,
+        314
+      ]
+    ],
+    "handReview": {
+      "roi": [
+        850,
+        200,
+        1020,
+        330
+      ],
+      "pixels": 5998,
+      "method": "Manual grip in viewed own hand image; own source skin/alpha contour mask."
+    }
+  },
+  "18-petal-pre-release": {
+    "sourceSha256": "ced5590fbedd6f3852bfa7e489eaab50d9e122d9c8f4686ffc581450fd0926a3",
+    "hand": [
+      929,
+      325
+    ],
+    "handMask": [
+      [
+        807,
+        410
+      ],
+      [
+        823,
+        317
+      ],
+      [
+        899,
+        299
+      ],
+      [
+        908,
+        299
+      ],
+      [
+        936,
+        303
+      ],
+      [
+        941,
+        304
+      ],
+      [
+        944,
+        305
+      ],
+      [
+        954,
+        309
+      ],
+      [
+        955,
+        310
+      ],
+      [
+        959,
+        316
+      ],
+      [
+        959,
+        324
+      ],
+      [
+        935,
+        401
+      ],
+      [
+        924,
+        410
+      ],
+      [
+        916,
+        416
+      ],
+      [
+        890,
+        426
+      ],
+      [
+        821,
+        434
+      ],
+      [
+        813,
+        434
+      ],
+      [
+        807,
+        421
+      ]
+    ],
+    "handReview": {
+      "roi": [
+        810,
+        285,
+        1000,
+        455
+      ],
+      "pixels": 5818,
+      "method": "Manual grip in viewed own hand image; own source skin/alpha contour mask."
+    }
+  },
+  "19-petal-release": {
+    "sourceSha256": "bbead0cc152851390cd56a60c6fccd026ae335ef9e28f17585bbe21f33b5178d",
+    "hand": [
+      929,
+      325
+    ],
+    "handMask": [
+      [
+        807,
+        410
+      ],
+      [
+        823,
+        318
+      ],
+      [
+        826,
+        317
+      ],
+      [
+        900,
+        299
+      ],
+      [
+        907,
+        299
+      ],
+      [
+        939,
+        304
+      ],
+      [
+        941,
+        305
+      ],
+      [
+        956,
+        313
+      ],
+      [
+        965,
+        319
+      ],
+      [
+        966,
+        320
+      ],
+      [
+        969,
+        324
+      ],
+      [
+        969,
+        332
+      ],
+      [
+        963,
+        346
+      ],
+      [
+        934,
+        401
+      ],
+      [
+        931,
+        405
+      ],
+      [
+        930,
+        406
+      ],
+      [
+        915,
+        415
+      ],
+      [
+        909,
+        418
+      ],
+      [
+        888,
+        427
+      ],
+      [
+        822,
+        434
+      ],
+      [
+        813,
+        434
+      ],
+      [
+        812,
+        433
+      ],
+      [
+        807,
+        421
+      ]
+    ],
+    "handReview": {
+      "roi": [
+        810,
+        285,
+        1010,
+        455
+      ],
+      "pixels": 5686,
+      "method": "Manual grip in viewed own hand image; own source skin/alpha contour mask."
+    }
+  },
+  "20-petal-follow": {
+    "sourceSha256": "1d763e6e55c391730a8daa1136434631112fff8e57da29779c141570c915e06e",
+    "hand": [
+      900,
+      343
+    ],
+    "handMask": [
+      [
+        807,
+        332
+      ],
+      [
+        813,
+        322
+      ],
+      [
+        817,
+        318
+      ],
+      [
+        823,
+        313
+      ],
+      [
+        827,
+        311
+      ],
+      [
+        844,
+        306
+      ],
+      [
+        855,
+        304
+      ],
+      [
+        864,
+        304
+      ],
+      [
+        991,
+        351
+      ],
+      [
+        998,
+        354
+      ],
+      [
+        999,
+        355
+      ],
+      [
+        999,
+        362
+      ],
+      [
+        996,
+        366
+      ],
+      [
+        983,
+        383
+      ],
+      [
+        982,
+        384
+      ],
+      [
+        951,
+        396
+      ],
+      [
+        877,
+        420
+      ],
+      [
+        870,
+        420
+      ],
+      [
+        807,
+        370
+      ]
+    ],
+    "handReview": {
+      "roi": [
+        810,
+        285,
+        1030,
+        455
+      ],
+      "pixels": 6671,
+      "method": "Manual grip in viewed own hand image; own source skin/alpha contour mask."
+    }
+  },
+  "21-petal-return": {
+    "sourceSha256": "4a3ae2bd3bf1f9d267567bf614edf17964ed4d4224f5f57f11c66198e78294a0",
+    "hand": [
+      785,
+      550
+    ],
+    "handMask": [
+      [
+        735,
+        444
+      ],
+      [
+        736,
+        440
+      ],
+      [
+        737,
+        437
+      ],
+      [
+        752,
+        437
+      ],
+      [
+        798,
+        452
+      ],
+      [
+        801,
+        453
+      ],
+      [
+        803,
+        454
+      ],
+      [
+        822,
+        471
+      ],
+      [
+        826,
+        475
+      ],
+      [
+        833,
+        489
+      ],
+      [
+        835,
+        494
+      ],
+      [
+        836,
+        498
+      ],
+      [
+        836,
+        507
+      ],
+      [
+        835,
+        513
+      ],
+      [
+        812,
+        577
+      ],
+      [
+        804,
+        590
+      ],
+      [
+        797,
+        590
+      ],
+      [
+        772,
+        579
+      ],
+      [
+        769,
+        577
+      ],
+      [
+        745,
+        548
+      ],
+      [
+        742,
+        542
+      ],
+      [
+        735,
+        451
+      ]
+    ],
+    "handReview": {
+      "roi": [
+        720,
+        440,
+        870,
+        615
+      ],
+      "pixels": 4644,
+      "method": "Manual grip in viewed own hand image; own source skin/alpha contour mask."
+    }
+  },
+  "22-rise-weight-transfer": {
+    "sourceSha256": "15cf9872546d321e415e4654fc9cee9de8d8212f3cfcbf665e2cc1b6e5a2c31c",
+    "support": {
+      "point": [
+        672,
+        1155
+      ],
+      "landmark": "rightSoleContact",
+      "reference": "12-rise-support",
+      "reviewRoi": [
+        600,
+        1100,
+        920,
+        1220
+      ],
+      "method": "Own alpha/skin floor-contour candidate, pending visual acceptance."
+    }
+  }
+}

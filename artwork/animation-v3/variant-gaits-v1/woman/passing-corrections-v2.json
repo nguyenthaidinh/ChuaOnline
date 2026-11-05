@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Three physical passing-source corrections before lock; left old source stride was long, rearLeft06 repeated right-support.",
+  "jobs": [
+    {
+      "heading": "left",
+      "id": "02-passing",
+      "candidateId": "02-passing-v2",
+      "output": "left/02-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit IMAGE1: its stride is too long for a RIGHT SUPPORT / LEFT PASSING mid-stance. IMAGE2 supplies the exact left-profile neutral identity/view and ground scale. IMAGE3 supplies COMPACT passing anatomy only, not body yaw. Keep the woman in EXACT LEFT PROFILE walking screen-LEFT, nose/chest/pelvis/toes pointing LEFT. RIGHT support leg (far leg) is almost straight directly below pelvis, right foot flat under her body on the same ground plane. Bend the near LEFT knee and lift its foot close beside the right supporting shin; swing foot hovers near ankle/shin, not extended behind at far screen-right. Pelvis above support ankle, no long split stride. Arms near hips, right arm slightly forward/left arm slightly back, relaxed counter-swing. Keep the exact adult Vietnamese woman, low black bun, blue-grey ao lam, loose trousers, bare feet, feminine anatomy, calm face and same elevated camera. Whole head/body/root scale and 1254-square coordinates remain fixed, hair top near30, root near615,1210. True clean transparent RGBA, natural warm rim light inside the silhouette only, no broad grey/yellow/red alpha halo, floor, baked shadow, props, motion blur, extra limbs or second figure. Do not mirror, crop, recenter, stretch, repaint her face, change view, or generate a sheet. One full-body pose."
+    },
+    {
+      "heading": "left",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "left/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit IMAGE1: its right swing leg reaches far ahead; fix to compact LEFT SUPPORT / RIGHT PASSING. IMAGE2 supplies exact left-profile neutral identity/view and ground scale. IMAGE3 supplies COMPACT passing anatomy only, not body yaw. Keep EXACT LEFT PROFILE walking screen-LEFT, nose/chest/pelvis/toes LEFT. Near LEFT support leg almost straight directly under pelvis, left foot flat beneath the body at the same ground plane. Far RIGHT knee bends and its right foot lifts close beside the planted left shin; no extended foot far screen-left. This is the opposite support to right-support phase02. Arms near hips, left arm slightly forward/right arm slightly back, restrained counter-swing. Keep the exact adult Vietnamese woman, low black bun, blue-grey ao lam, loose trousers, bare feet, feminine anatomy, calm face and same elevated camera. Whole head/body/root scale and 1254-square coordinates remain fixed, hair top near30, root near615,1210. True clean transparent RGBA, natural warm rim light inside the silhouette only, no broad grey/yellow/red alpha halo, floor, baked shadow, props, motion blur, extra limbs or second figure. Do not mirror, crop, recenter, stretch, repaint her face, change view, or generate a sheet. One full-body pose."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "rearLeft/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Correct IMAGE1 into the OPPOSITE support leg to IMAGE2. IMAGE1 currently repeats the same planted right leg as phase02. IMAGE3 establishes the LEFT-leading contact and correct arm/leg identity. IMAGE4 supplies exact rear-left neutral yaw and scale. Stay REAR-LEFT three-quarter BACK view walking screen-UP-LEFT, broad back visible, nose/profile points LEFT. Anatomical LEFT leg is now the straight planted support leg below pelvis, near/image-LEFT leg, its foot flat around source x570 groundy1205. Anatomical RIGHT leg, far/image-RIGHT leg, must bend its knee and lift its foot next to the left supporting shin. Show the RIGHT foot suspended on image-RIGHT side of the supporting leg, not on image-left as in IMAGE2. Opposite arms too: left arm gently forward, right arm gently back, near hips. Do not repeat IMAGE2 support/knee silhouette; do not mirror camera/head; make actual anatomical opposite step. Keep body heading from IMAGE3/4 and COMPACT bent-knee passing, no long reach. Keep the exact adult Vietnamese woman, low black bun, blue-grey ao lam, loose trousers, bare feet, feminine anatomy, calm face and same elevated camera. Whole head/body/root scale and 1254-square coordinates remain fixed, hair top near30, root near615,1210. True clean transparent RGBA, natural warm rim light inside the silhouette only, no broad grey/yellow/red alpha halo, floor, baked shadow, props, motion blur, extra limbs or second figure. Do not mirror, crop, recenter, stretch, repaint her face, change view, or generate a sheet. One full-body pose."
+    }
+  ]
+}

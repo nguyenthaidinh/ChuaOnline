@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-05",
+  "baseline": "7e6f045",
+  "checks": {
+    "typecheck": "passed",
+    "tests": {
+      "passed": 119,
+      "failed": 0
+    },
+    "build": "passed",
+    "legacyAudit": {
+      "actions": 480,
+      "poses": 207765,
+      "digest": "e90ca77813e0d75ec60a7f6c7630555920330a7c4b58d593cba949729d53d9d4",
+      "matches": true
+    }
+  },
+  "assets": {
+    "added": [
+      {
+        "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+        "sha256": "c898b9768d8d2de05d4420714720ac138a538e9d3790c55d862546be435989bf",
+        "width": 1152,
+        "height": 1728,
+        "columns": 8,
+        "rows": 9,
+        "cellWidth": 144,
+        "cellHeight": 192
+      },
+      {
+        "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+        "sha256": "13663c2b5cb010a1d42e7cc12fd53a8f49e3369c73ef5d512cc7787351d245d7",
+        "width": 1152,
+        "height": 1728,
+        "columns": 8,
+        "rows": 9,
+        "cellWidth": 144,
+        "cellHeight": 192
+      },
+      {
+        "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+        "sha256": "ff6b1f48cf064cffdce2a4aecedfcec10e982026d69ead08afaba87ac084d9d9",
+        "width": 1152,
+        "height": 1152,
+        "columns": 8,
+        "rows": 6,
+        "cellWidth": 144,
+        "cellHeight": 192
+      },
+      {
+        "image": "assets/animation-v3/woman-closes-d73f98b2cb55.webp",
+        "sha256": "d73f98b2cb55e5144dc758037e3eac22619f9a3e0aa1aa00e0af8dc6b2f0713b",
+        "width": 1152,
+        "height": 768,
+        "columns": 8,
+        "rows": 4,
+        "cellWidth": 144,
+        "cellHeight": 192
+      },
+      {
+        "image": "assets/animation-v3/granny-closes-36dbcee69982.webp",
+        "sha256": "36dbcee69982aa6cd030b073bf62813b512908bc5320641fc962ca5e282bbd00",
+        "width": 1152,
+        "height": 768,
+        "columns": 8,
+        "rows": 4,
+        "cellWidth": 144,
+        "cellHeight": 192
+      },
+      {
+        "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+        "sha256": "f9861f37b3e438e90ea051411441af0cb2705f2664cc96945054249bd5bb4b5a",
+        "width": 576,
+        "height": 1152,
+        "columns": 4,
+        "rows": 6,
+        "cellWidth": 144,
+        "cellHeight": 192
+      },
+      {
+        "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+        "sha256": "8e0e19871878fd0017ce7b0a4b849db833ccd87bc8f3375fbf12d3b333c7358f",
+        "width": 576,
+        "height": 1152,
+        "columns": 4,
+        "rows": 6,
+        "cellWidth": 144,
+        "cellHeight": 192
+      },
+      {
+        "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+        "sha256": "659e0a79c9feccb6cb6a076420728e3216cf3df2f0876be01b60d37c9cba2c05",
+        "width": 576,
+        "height": 1152,
+        "columns": 4,
+        "rows": 6,
+        "cellWidth": 144,
+        "cellHeight": 192
+      }
+    ],
+    "selectedCells": 328,
+    "newSelectedSources": 323,
+    "exactNeutralReuses": 5,
+    "newCompressedBytes": 1999888,
+    "newDecodedPixelMiB": 34.59375,
+    "all20OptionalAnimationDecodedPixelMiB": 79.21875,
+    "memoryNote": "Pixel-size estimate, excludes base art, DOM, browser overhead and GPU copies."
+  },
+  "browser": {
+    "clients": 3,
+    "bowCounts": [
+      {
+        "name": "Kiểm Nam · Bạn",
+        "counts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "Kiểm Nâu",
+        "counts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "Kiểm Nữ",
+        "counts": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "sameActionIdsAcross360to390": true,
+    "samePeopleAcross390to768": true,
+    "breakpointNote": "Immediately after changing layout, the new sprite nodes expose only personId until the next animation callback. The later390viewport observation shows all three same people seated with3completed bows. No claim of a populated actionId at the immediate breakpoint capture.",
+    "lateObserverSawActiveActionIds": true,
+    "petalMarkers": [
+      {
+        "appearance": "man",
+        "before": {
+          "heldImages": 1,
+          "source": "18-petal-pre-release",
+          "time": "5031.000"
+        },
+        "after": {
+          "heldImages": 0,
+          "source": "19-petal-release",
+          "time": "5032.000"
+        }
+      },
+      {
+        "appearance": "woman",
+        "before": {
+          "heldImages": 1,
+          "source": "18-petal-pre-release",
+          "time": "5031.000"
+        },
+        "after": {
+          "heldImages": 0,
+          "source": "19-petal-release",
+          "time": "5032.000"
+        }
+      },
+      {
+        "appearance": "granny",
+        "before": {
+          "heldImages": 1,
+          "source": "18-petal-pre-release",
+          "time": "5031.000"
+        },
+        "after": {
+          "heldImages": 0,
+          "source": "19-petal-release",
+          "time": "5032.000"
+        }
+      }
+    ],
+    "heldEmitterCenters": [
+      {
+        "frame": 11,
+        "name": "Kiểm Nữ · Bạn",
+        "actionId": "f304c9cf-9cf1-4ac8-9544-902081764237",
+        "delta": {
+          "x": -0.04582552462761669,
+          "y": -0.009469529006935318
+        }
+      }
+    ],
+    "fallbackCenters": [
+      {
+        "stamp": 1793843515635,
+        "actionId": "7199a87c-6587-4ca1-acd2-104236bef8c5",
+        "delta": {
+          "x": -0.03651722254937795,
+          "y": -0.012555552001913384
+        }
+      }
+    ],
+    "finalConsole": {
+      "production": [],
+      "mobile": [],
+      "lab": [],
+      "late": []
+    },
+    "cleanup": "All owned participants left; owned browser tabs closed; private preview servers stopped."
+  },
+  "recordings": {
+    "petal": {
+      "file": "petal-room-web.mp4",
+      "frames": 80,
+      "timestampSpanMs": 24883
+    },
+    "bow": {
+      "file": "bow-room-web.mp4",
+      "frames": 72,
+      "timestampSpanMs": 24493
+    },
+    "note": "Timestamped browser screenshots, approximately3 captures/sec, not a renderer FPS measurement."
+  },
+  "limits": [
+    "No physical-phone performance measurement",
+    "No24-client visual release acceptance",
+    "Full plan remains open",
+    "Local-only; no push or deployment"
+  ]
+}

@@ -1,3 +1,4 @@
+import { arrivalDurationMs, type MovementVersion } from '../shared/movementSchedule.ts';
 /** Floor coordinates are shared by every viewport. z grows toward the door. */
 export interface FloorPoint { x: number; z: number }
 export interface Route { points: FloorPoint[]; cumulative: number[]; length: number }
@@ -50,6 +51,8 @@ export function ritualRoute(seat: number,slot: number,returning=false,bow=false)
   return ritualCache.get(key)!;
 }
 export const routeDurationMs=(route: Route)=>Math.round(route.length/WALK_SPEED*1000);
-export function actionMovement(seat: number,slot: number,bow=false,version:2|3=2) {
-  return {seat,outboundMs:routeDurationMs(ritualRoute(seat,slot,false,bow)),returnMs:routeDurationMs(ritualRoute(seat,slot,true,bow)),version};
+export function actionMovement(seat: number,slot: number,bow=false,version:MovementVersion=2) {
+  const arrival=arrivalDurationMs(version);
+  return {seat,outboundMs:routeDurationMs(ritualRoute(seat,slot,false,bow))+arrival,
+    returnMs:routeDurationMs(ritualRoute(seat,slot,true,bow))+arrival,version};
 }

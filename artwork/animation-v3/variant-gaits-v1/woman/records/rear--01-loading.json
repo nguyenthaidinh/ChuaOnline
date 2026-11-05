@@ -1,0 +1,13 @@
+{
+  "heading": "rear",
+  "id": "01-loading",
+  "output": "rear/01-loading.png",
+  "anchor": "artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+  "anchorSha256": "fbb5c65acc660480ef5793429ce2421d7005a479fb856908199a4d6d848d00e9",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/01-loading.png"
+  ],
+  "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: STRAIGHT REAR walking away/screen-UP; centered black bun/spine, no face profile. Phase: RIGHT-FOOT LOADING: after the right heel contact, roll that right foot flat and transfer weight onto it. Left heel stays raised with left toes finishing push-off behind. Keep left arm forward/right arm back, slightly smaller swing. No repeated contact or swapped leading leg. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-bb914e20-de89-4d2d-944d-7fbb725da185.png"
+}

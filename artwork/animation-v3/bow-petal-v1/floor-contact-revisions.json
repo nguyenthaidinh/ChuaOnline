@@ -1,0 +1,87 @@
+{
+  "reason": "Browser proof superseded prior erroneous source review. Originals retained.",
+  "revisions": [
+    {
+      "id": "man/07-hands-floor",
+      "before": "man/07-hands-floor.png",
+      "beforeSha256": "01d97bbf8d18015dee4e7448edd3b3856c20e1aa4ae154b450cf398b369f9b8e",
+      "after": "man/07-hands-floor-v3.png",
+      "afterSha256": "176b65676cf1fcb582317b87d34c3150d39d144ab6a35ced422a5a8bef3390a4",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "man/08-prostrate",
+      "before": "man/08-prostrate-v2.png",
+      "beforeSha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189",
+      "after": "man/08-prostrate-v3.png",
+      "afterSha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "man/09-lift-head",
+      "before": "man/09-lift-head.png",
+      "beforeSha256": "ee8bd9f68c0a053bb35da61090623212971d5e6fc52dce1f2e3b36050e490ce7",
+      "after": "man/09-lift-head-v2.png",
+      "afterSha256": "1bbac246152b4e43275076209399b4a1fe582219a3580dbc475921e24f104c23",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "woman/07-hands-floor",
+      "before": "woman/07-hands-floor.png",
+      "beforeSha256": "f497b13af52a2e1b45300aa59ad0dcdccf0ff78f17687bfe615861e8db2c6a77",
+      "after": "woman/07-hands-floor-v2.png",
+      "afterSha256": "593bf6a5e605ef64d474ef288642360624379503a475453221852b20bed6eeab",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "woman/08-prostrate",
+      "before": "woman/08-prostrate.png",
+      "beforeSha256": "451a857cbfe904665360773a7777d0d9c8b952d54298911da28710a28e50eb2a",
+      "after": "woman/08-prostrate-v2.png",
+      "afterSha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "woman/09-lift-head",
+      "before": "woman/09-lift-head.png",
+      "beforeSha256": "1baf83f5e17b0f083113a7ceb8950b79855e0d57cd18fa75a21de2a39a6d72a4",
+      "after": "woman/09-lift-head-v2.png",
+      "afterSha256": "6656ec986d8bfae131732361d683377cdf3e51c348ee242ac641410fd767029f",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "granny/07-hands-floor",
+      "before": "granny/07-hands-floor.png",
+      "beforeSha256": "9976f4c3fe2291f974c23c6acfeecefc231b410b223b54ae43e035277a706139",
+      "after": "granny/07-hands-floor-v2.png",
+      "afterSha256": "468eda48c65554300496dc90c2aef2f4e7b2f893668d78537b25d398fda77fc5",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "granny/08-prostrate",
+      "before": "granny/08-prostrate.png",
+      "beforeSha256": "ff2ee260e0cd2aeddcc228df2b22bdcdbd78fc3cc5768d0278bce769cf917e25",
+      "after": "granny/08-prostrate-v2.png",
+      "afterSha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    },
+    {
+      "id": "granny/09-lift-head",
+      "before": "granny/09-lift-head.png",
+      "beforeSha256": "3f01fbd8e118a8efa879483d6fcdea9007a6e676eb6a63b4fd6d3669df1cb272",
+      "after": "granny/09-lift-head-v2.png",
+      "afterSha256": "b9ced02d1d26d371187083bdfca1a7a4b10692ab1330d9b3c050d34afd9b63fb",
+      "reason": "Browser/source review rejected raised forehead/palms; correct low head, palms-down floor support and first head lift."
+    }
+  ],
+  "rejectedAdditionalDrafts": {
+    "man/07-hands-floor-v2.png": "Face looked upward rather than down into floor.",
+    "granny/07-hands-floor-v3.png": "Near palm/wrist deform and curl; valid v2 retained after comparison against the same projected floor band."
+  },
+  "bowUpBridge": {
+    "addedFrame": "07-hands-floor",
+    "durationMs": 120,
+    "reduced10PushUpMs": 140,
+    "totalMs": 1020
+  }
+}

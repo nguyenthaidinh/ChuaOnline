@@ -2,10 +2,11 @@
 
 Ngày 04/11/2026. Mốc nguồn: `628098d`. Đây là kế hoạch triển khai, chưa phải báo cáo hoàn thành. Bộ prompt đi kèm: [PROMPT-HOAT-ANH.md](PROMPT-HOAT-ANH.md).
 
-Tiến độ gần nhất: cả ba y phục đã có 23 tư thế dâng hương riêng trong web chính; đã thêm hai hướng ngang nam,
-profile tăng/giảm tốc, dáng đỡ hoa và nắm dùi riêng. Chặng1–3 vẫn mở ở các hướng/chuyển tiếp còn thiếu,
-nguồn cánh sen/lạy và kiểm mobile; chưa đánh dấu toàn bộ kế hoạch hoàn thành.
-[Bảng tiến độ](animation-v3/README.md) và [bằng chứng đợt mới](animation-v3/movement-variants-v1/README.md).
+Tiến độ 05/11/2026: đã nối chu kỳ đi tám hướng nữ/nâu, khép chân cho cả ba y phục,
+bộ lạy/cánh sen riêng và chuyển động movement4. Dâng hương23 tư thế mỗi y phục, hoa/chuông và đứng/ngồi
+tiếp tục dùng các bộ đã có. Chặng1–3 còn nghiệm thu chuyển động liên tục, va chạm và ma trận phòng đông;
+chặng4–6 chưa được đánh dấu hoàn thành.
+[Bảng tiến độ](animation-v3/README.md) và [đợt gait/khép chân/lạy–sen](animation-v3/gaits-closes-bow-petal/README.md).
 
 ## 1. Kết quả hướng tới
 

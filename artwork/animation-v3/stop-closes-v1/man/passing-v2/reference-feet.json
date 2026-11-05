@@ -1,0 +1,438 @@
+{
+  "appearance": "man",
+  "status": "reviewed-own-native-source",
+  "frames": {
+    "rear/right": {
+      "source": "artwork/animation-v3/directions-v2/rear/stand.png",
+      "sourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        665,
+        1206
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        209.0,
+        466.232
+      ],
+      "sampleRgba": [
+        167,
+        116,
+        86,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "rear/left": {
+      "source": "artwork/animation-v3/directions-v2/rear/stand.png",
+      "sourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        560,
+        1207
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        173.632,
+        466.568
+      ],
+      "sampleRgba": [
+        177,
+        124,
+        94,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "rearRight/right": {
+      "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+      "sourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        613,
+        1186
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        191.484,
+        459.495
+      ],
+      "sampleRgba": [
+        146,
+        91,
+        56,
+        249
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "rearRight/left": {
+      "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+      "sourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        519,
+        1173
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        159.821,
+        455.116
+      ],
+      "sampleRgba": [
+        172,
+        108,
+        71,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "right/right": {
+      "source": "artwork/animation-v3/directions-v2/right/stand.png",
+      "sourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        540,
+        1181
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        166.895,
+        457.811
+      ],
+      "sampleRgba": [
+        196,
+        131,
+        93,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "right/left": {
+      "source": "artwork/animation-v3/directions-v2/right/stand.png",
+      "sourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        691,
+        1154
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        217.758,
+        448.716
+      ],
+      "sampleRgba": [
+        200,
+        143,
+        115,
+        251
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "frontRight/right": {
+      "source": "artwork/animation-v3/directions-v2/frontRight/stand.png",
+      "sourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        558,
+        1217
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        172.958,
+        469.937
+      ],
+      "sampleRgba": [
+        243,
+        178,
+        162,
+        253
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "frontRight/left": {
+      "source": "artwork/animation-v3/directions-v2/frontRight/stand.png",
+      "sourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        686,
+        1208
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        216.074,
+        466.905
+      ],
+      "sampleRgba": [
+        140,
+        86,
+        64,
+        250
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "front/right": {
+      "source": "artwork/animation-v3/directions-v2/front/stand.png",
+      "sourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        552,
+        1216
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        170.937,
+        469.6
+      ],
+      "sampleRgba": [
+        195,
+        125,
+        99,
+        251
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "front/left": {
+      "source": "artwork/animation-v3/directions-v2/front/stand.png",
+      "sourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        662,
+        1217
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        207.989,
+        469.937
+      ],
+      "sampleRgba": [
+        150,
+        93,
+        71,
+        253
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "frontLeft/right": {
+      "source": "artwork/animation-v3/directions-v2/frontLeft/stand.png",
+      "sourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        500,
+        1205
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        153.421,
+        465.895
+      ],
+      "sampleRgba": [
+        238,
+        177,
+        135,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "frontLeft/left": {
+      "source": "artwork/animation-v3/directions-v2/frontLeft/stand.png",
+      "sourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        652,
+        1216
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        204.621,
+        469.6
+      ],
+      "sampleRgba": [
+        235,
+        174,
+        150,
+        253
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "left/right": {
+      "source": "artwork/animation-v3/directions-v2/left/stand.png",
+      "sourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        515,
+        1158
+      ],
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        158.474,
+        450.063
+      ],
+      "sampleRgba": [
+        219,
+        167,
+        133,
+        249
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "left/left": {
+      "source": "artwork/animation-v3/directions-v2/left/stand.png",
+      "sourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        670,
+        1182
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        210.684,
+        458.147
+      ],
+      "sampleRgba": [
+        212,
+        159,
+        138,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "rearLeft/right": {
+      "source": "artwork/animation-v3/directions-v2/rearLeft/stand.png",
+      "sourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "sourcePoint": [
+        667,
+        1179
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        209.674,
+        457.137
+      ],
+      "sampleRgba": [
+        200,
+        145,
+        122,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    },
+    "rearLeft/left": {
+      "source": "artwork/animation-v3/directions-v2/rearLeft/stand.png",
+      "sourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "sourcePoint": [
+        611,
+        1188
+      ],
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        190.811,
+        460.168
+      ],
+      "sampleRgba": [
+        191,
+        137,
+        113,
+        252
+      ],
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Own male neutral native grid inspected; anatomical side follows physical view. Visible forefoot pad used when posterior heel is hidden.",
+      "reviewed": true
+    }
+  }
+}

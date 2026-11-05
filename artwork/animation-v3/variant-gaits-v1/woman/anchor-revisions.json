@@ -1,0 +1,83 @@
+{
+  "appearance": "woman",
+  "revisions": [
+    {
+      "key": "rearRight/06-opposite-passing",
+      "previousFrame": {
+        "heading": "rearRight",
+        "id": "06-opposite-passing",
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v2.png",
+        "sha256": "401150341a4225448346dbe7303acb707830627d705b11c77712625c3649230d",
+        "sourceSize": [
+          1254,
+          1254
+        ],
+        "bounds": [
+          122,
+          72,
+          259,
+          462
+        ],
+        "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+      },
+      "replacementFrame": {
+        "heading": "rearRight",
+        "id": "06-opposite-passing",
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+        "sha256": "0e8533d818c8f7051c91161e8225650ad33d002f3e4ab27d93ebd7d8cf34bebf",
+        "sourceSize": [
+          1254,
+          1254
+        ],
+        "bounds": [
+          120,
+          72,
+          275,
+          462
+        ],
+        "review": "Full-source re-audit corrected repeated bent-far-thigh silhouette. Foreground thigh now bends in front of the straight far support leg; v4 lowers knee/foot from the marching-height v3. Parent notified and agreed before replacing lock."
+      },
+      "reason": "Physical opposite-leg correction after full-resolution re-audit",
+      "downstreamNotification": "Parent /root informed before mutation; parent agreed sibling/provenance revision while runtime not packed."
+    },
+    {
+      "key": "rearRight/02-passing",
+      "previousFrame": {
+        "heading": "rearRight",
+        "id": "02-passing",
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing.png",
+        "sha256": "cc2fd70ee7f28d47ca03d4b122696840bd83b6e561a53c472731edebbe9399a5",
+        "sourceSize": [
+          1254,
+          1254
+        ],
+        "bounds": [
+          122,
+          72,
+          271,
+          463
+        ],
+        "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+      },
+      "replacementFrame": {
+        "heading": "rearRight",
+        "id": "02-passing",
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+        "sha256": "e53ccd9c5060b27df7ed7af1ae185ed1d899333330b668704129be5e05fb14ea",
+        "sourceSize": [
+          1254,
+          1254
+        ],
+        "bounds": [
+          122,
+          73,
+          271,
+          461
+        ],
+        "review": "Full source anatomy confirmed: near/image-right anatomical RIGHT thigh stays straight and foot planted; far/image-left LEFT knee/foot suspended. Reference own neutral only, avoid old mistaken pose. Parent notified and approved support-role revision before pack."
+      },
+      "reason": "Old passing had far-left support despite right-support label; exact neutral foot convention now verified against root and sibling agent",
+      "downstreamNotification": "Parent /root and bow_petal_assets notified before mutation; parent explicitly directed actual anatomical R/L correction."
+    }
+  ]
+}

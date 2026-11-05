@@ -1,0 +1,130 @@
+{
+  "rear/right-gather": [
+    616,
+    1184
+  ],
+  "rear/right-close": [
+    643,
+    1197
+  ],
+  "rear/left-gather": [
+    580,
+    1198
+  ],
+  "rear/left-close": [
+    560,
+    1210
+  ],
+  "rearRight/right-close": [
+    602,
+    1179
+  ],
+  "rearRight/left-gather": [
+    531,
+    1182
+  ],
+  "right/right-gather": [
+    490,
+    1188
+  ],
+  "right/right-close": [
+    550,
+    1184
+  ],
+  "frontRight/right-gather": [
+    604,
+    1208
+  ],
+  "frontRight/right-close": [
+    575,
+    1220
+  ],
+  "frontRight/left-gather": [
+    680,
+    1214
+  ],
+  "frontRight/left-close": [
+    676,
+    1211
+  ],
+  "front/right-gather": [
+    570,
+    1218
+  ],
+  "front/right-close": [
+    555,
+    1216
+  ],
+  "front/left-gather": [
+    650,
+    1210
+  ],
+  "front/left-close": [
+    665,
+    1217
+  ],
+  "frontLeft/right-gather": [
+    520,
+    1204
+  ],
+  "frontLeft/right-close": [
+    460,
+    1212
+  ],
+  "frontLeft/left-gather": [
+    660,
+    1198
+  ],
+  "frontLeft/left-close": [
+    670,
+    1218
+  ],
+  "left/right-gather": [
+    465,
+    1191
+  ],
+  "left/right-close": [
+    465,
+    1180
+  ],
+  "left/left-gather": [
+    730,
+    1184
+  ],
+  "rearLeft/right-gather": [
+    664,
+    1202
+  ],
+  "rearLeft/right-close": [
+    695,
+    1185
+  ],
+  "rearLeft/left-close": [
+    600,
+    1196
+  ],
+  "rearRight/right-gather": [
+    611,
+    1187
+  ],
+  "rearRight/left-close": [
+    510,
+    1198
+  ],
+  "right/left-gather": [
+    675,
+    1195
+  ],
+  "right/left-close": [
+    690,
+    1166
+  ],
+  "rearLeft/left-gather": [
+    600,
+    1190
+  ],
+  "left/left-close": [
+    650,
+    1194
+  ]
+}

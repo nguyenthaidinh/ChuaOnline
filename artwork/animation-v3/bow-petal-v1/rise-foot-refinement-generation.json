@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "The previous candidate lifted the back foot; specify image-space foreground/right gathering foot and planted back/left foot explicitly.",
+  "jobs": [
+    {
+      "id": "14-rise-extend-v3",
+      "output": "man/14-rise-extend-v3.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/14-rise-extend-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit ONLY the two feet/ankles ofimage1; retain exact head/torso/hips/hands/clothes/scale/elevatedrearRightcamera/light and1254squaretransparentcanvas. IMPORTANT IMAGE-SPACE SPECIFICATION: the SMALLER BACK FOOT on SCREEN-LEFT (nearx500,y1150) must be FLAT AND PLANTED likeimage2, heel touchingfloor; it bearsweight. The LARGER FRONT FOOT on SCREEN-RIGHT (heelnearx610,toespointingrighttoward735) must be the LIFTED FOOT: raise that ENTIRE SCREEN-RIGHT SOLE about20px off floor, heelnear6101160 andtoes7351160, slight knee/ankleflexion, naturalclosingstep, no toe contact. Do not lift the left/backfoot again. Precisely TWO feet, no crossing/merging/extra toes. Finalrightfootwill landintoimage2neutralnextframe. No floor/shadow/props/text, transparentRGBA; no recenter/zoom/wholebodychange."
+    }
+  ]
+}

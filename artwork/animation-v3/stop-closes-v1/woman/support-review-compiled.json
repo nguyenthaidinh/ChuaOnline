@@ -1,0 +1,1543 @@
+{
+  "supportManifestSha256": "0a5e06e11fea924215de246f6dbfcf980a50a886cb1a027d24facd2f0758694a",
+  "references": {
+    "rear": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            675,
+            1206
+          ],
+          "left": [
+            570,
+            1206
+          ]
+        },
+        "landmark": {
+          "right": "visible-heel",
+          "left": "visible-heel"
+        },
+        "landmarkNote": {
+          "right": "Lower rear heel curve on the image-right foot; heel is directly visible.",
+          "left": "Lower rear heel curve on the image-left foot; heel is directly visible."
+        },
+        "sampleRgba": {
+          "right": [
+            206,
+            149,
+            115,
+            252
+          ],
+          "left": [
+            207,
+            149,
+            115,
+            252
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/02-passing.png",
+          "sourceSha256": "6d1bce50b16a981aeebba635770db391da792f20ee35d90cbc5ec32442fe324d",
+          "supportFoot": "right",
+          "supportPoint": [
+            620,
+            1195
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            193.842,
+            462.526
+          ],
+          "sampleRgba": [
+            143,
+            96,
+            65,
+            252
+          ],
+          "note": "Right support heel under the pelvis, lower rear calcaneus curve; left sole is lifted.",
+          "supportHeel": [
+            620,
+            1195
+          ],
+          "normalizedSupportHeel": [
+            193.842,
+            462.526
+          ],
+          "point": [
+            620,
+            1195
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/06-opposite-passing.png",
+          "sourceSha256": "8dda223fd211587dc4e4ecc3f4e61afa998d3f344f8844663aa6fba328035c6a",
+          "supportFoot": "left",
+          "supportPoint": [
+            600,
+            1204
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            187.105,
+            465.558
+          ],
+          "sampleRgba": [
+            146,
+            92,
+            61,
+            255
+          ],
+          "note": "Left support heel under the pelvis, low rear calcaneus edge; right sole is lifted.",
+          "supportHeel": [
+            600,
+            1204
+          ],
+          "normalizedSupportHeel": [
+            187.105,
+            465.558
+          ],
+          "point": [
+            600,
+            1204
+          ]
+        }
+      }
+    },
+    "rearRight": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            627,
+            1183
+          ],
+          "left": [
+            535,
+            1177
+          ]
+        },
+        "landmark": {
+          "right": "visible-heel",
+          "left": "visible-heel"
+        },
+        "landmarkNote": {
+          "right": "Lower posterior heel edge of the near, image-right foot.",
+          "left": "Visible low rear heel curve of the far, image-left foot."
+        },
+        "sampleRgba": {
+          "right": [
+            205,
+            138,
+            97,
+            253
+          ],
+          "left": [
+            186,
+            122,
+            81,
+            250
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+          "sourceSha256": "e53ccd9c5060b27df7ed7af1ae185ed1d899333330b668704129be5e05fb14ea",
+          "supportFoot": "right",
+          "supportPoint": [
+            625,
+            1186
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            195.526,
+            459.495
+          ],
+          "sampleRgba": [
+            189,
+            126,
+            89,
+            252
+          ],
+          "note": "Near/image-right anatomical RIGHT support heel on corrected v2. Far LEFT knee/foot suspended; replaced incorrectly planted far-left source after parent/sibling audit.",
+          "supportHeel": [
+            625,
+            1186
+          ],
+          "normalizedSupportHeel": [
+            195.526,
+            459.495
+          ],
+          "point": [
+            625,
+            1186
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+          "sourceSha256": "0e8533d818c8f7051c91161e8225650ad33d002f3e4ab27d93ebd7d8cf34bebf",
+          "supportFoot": "left",
+          "supportPoint": [
+            543,
+            1192
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            167.905,
+            461.516
+          ],
+          "sampleRgba": [
+            151,
+            99,
+            68,
+            249
+          ],
+          "note": "Left support heel at the visible low posterior curve on corrected opposite-leg v4. Foreground right thigh swings across the far straight support; parent notified before source revision.",
+          "supportHeel": [
+            543,
+            1192
+          ],
+          "normalizedSupportHeel": [
+            167.905,
+            461.516
+          ],
+          "point": [
+            543,
+            1192
+          ]
+        }
+      }
+    },
+    "right": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+        "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            562,
+            1189
+          ],
+          "left": [
+            690,
+            1164
+          ]
+        },
+        "landmark": {
+          "right": "visible-heel",
+          "left": "visible-plantar"
+        },
+        "landmarkNote": {
+          "right": "Low posterior heel edge of the near profile foot.",
+          "left": "Far heel is occluded by the near ankle/foot. This is the visible plantar edge below the far forefoot, not an inferred heel."
+        },
+        "sampleRgba": {
+          "right": [
+            174,
+            122,
+            93,
+            252
+          ],
+          "left": [
+            120,
+            73,
+            54,
+            238
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+          "sourceSha256": "ca0c305071bb1c3189166a47c4f7a6fa099431bdb472f2196f0140483b870f45",
+          "supportFoot": "right",
+          "supportPoint": [
+            520,
+            1193
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            160.158,
+            461.853
+          ],
+          "sampleRgba": [
+            177,
+            129,
+            99,
+            249
+          ],
+          "note": "Right-support heel at the rear/lower edge of the planted profile foot; left swing foot is raised.",
+          "supportHeel": [
+            520,
+            1193
+          ],
+          "normalizedSupportHeel": [
+            160.158,
+            461.853
+          ],
+          "point": [
+            520,
+            1193
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing-v2.png",
+          "sourceSha256": "1123e95954d102c2983e2b840147aae7079f9b11f0a21b649a5c463ef43b6029",
+          "supportFoot": "left",
+          "supportPoint": [
+            668,
+            1192
+          ],
+          "landmark": "visible-plantar",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            210.011,
+            461.516
+          ],
+          "sampleRgba": [
+            200,
+            138,
+            116,
+            253
+          ],
+          "note": "Left support heel at the low posterior curve of the planted profile foot; right knee/foot is bent compactly beside it. Generic supportPoint is the visible central plantar forefoot pad to match neutral far-left foot; supportHeel stays secondary.",
+          "supportHeel": [
+            521,
+            1188
+          ],
+          "normalizedSupportHeel": [
+            160.495,
+            460.168
+          ],
+          "point": [
+            668,
+            1192
+          ]
+        }
+      }
+    },
+    "frontRight": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+        "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            539,
+            1195
+          ],
+          "left": [
+            635,
+            1193
+          ]
+        },
+        "landmark": {
+          "right": "visible-heel",
+          "left": "visible-heel"
+        },
+        "landmarkNote": {
+          "right": "Visible lower posterior/side heel edge of the near, image-left foot.",
+          "left": "Low posterior heel edge of the far foot, just before the arch."
+        },
+        "sampleRgba": {
+          "right": [
+            239,
+            188,
+            144,
+            252
+          ],
+          "left": [
+            142,
+            92,
+            66,
+            252
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/02-passing.png",
+          "sourceSha256": "275c3bc82ffa2a5425b9369260aa585e278f79851c6012f270dddfc42de88f85",
+          "supportFoot": "right",
+          "supportPoint": [
+            558,
+            1195
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            172.958,
+            462.526
+          ],
+          "sampleRgba": [
+            199,
+            142,
+            107,
+            252
+          ],
+          "note": "Right support heel at its visible low posterior/side curve; left foot is lifted.",
+          "supportHeel": [
+            558,
+            1195
+          ],
+          "normalizedSupportHeel": [
+            172.958,
+            462.526
+          ],
+          "point": [
+            558,
+            1195
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/06-opposite-passing.png",
+          "sourceSha256": "b3835ffa50dd8786825e837ceba38e33189eefcd912ad39646dbea9c2a0753d5",
+          "supportFoot": "left",
+          "supportPoint": [
+            578,
+            1190
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            179.695,
+            460.842
+          ],
+          "sampleRgba": [
+            221,
+            166,
+            135,
+            252
+          ],
+          "note": "Left support heel at its visible low posterior/side curve; right foot is lifted.",
+          "supportHeel": [
+            578,
+            1190
+          ],
+          "normalizedSupportHeel": [
+            179.695,
+            460.842
+          ],
+          "point": [
+            578,
+            1190
+          ]
+        }
+      }
+    },
+    "front": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            570,
+            1215
+          ],
+          "left": [
+            665,
+            1215
+          ]
+        },
+        "landmark": {
+          "right": "visible-plantar",
+          "left": "visible-plantar"
+        },
+        "landmarkNote": {
+          "right": "Heel is behind the forefoot/cuff in the frontal view. This is a visible plantar toe-contact edge on the anatomical right, image-left foot.",
+          "left": "Heel is behind the forefoot/cuff in the frontal view. This is a visible plantar toe-contact edge on the anatomical left, image-right foot."
+        },
+        "sampleRgba": {
+          "right": [
+            206,
+            145,
+            115,
+            252
+          ],
+          "left": [
+            181,
+            121,
+            92,
+            249
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/front/02-passing.png",
+          "sourceSha256": "71d1e0314da9188e9372bcf84ba3bd7be14ebd09e5ea46e5f936dfe764a9b1f4",
+          "supportFoot": "right",
+          "supportPoint": [
+            565,
+            1226
+          ],
+          "landmark": "visible-plantar",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            175.316,
+            472.968
+          ],
+          "sampleRgba": [
+            198,
+            133,
+            110,
+            252
+          ],
+          "note": "The right support heel is occluded in this frontal view. This is an actual visible plantar toe-contact edge, not an inferred hidden heel.",
+          "point": [
+            565,
+            1226
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/front/06-opposite-passing.png",
+          "sourceSha256": "b3e955f4aa7dec3eabb0a4fd9c4ca2b98a94a0a7982c05d574bed9527033df8b",
+          "supportFoot": "left",
+          "supportPoint": [
+            658,
+            1209
+          ],
+          "landmark": "visible-plantar",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            206.642,
+            467.242
+          ],
+          "sampleRgba": [
+            213,
+            143,
+            118,
+            251
+          ],
+          "note": "The left support heel is occluded in this frontal view. This is an actual visible plantar toe-contact edge, not an inferred hidden heel.",
+          "point": [
+            658,
+            1209
+          ]
+        }
+      }
+    },
+    "frontLeft": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+        "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            592,
+            1190
+          ],
+          "left": [
+            635,
+            1221
+          ]
+        },
+        "landmark": {
+          "right": "visible-heel",
+          "left": "visible-plantar"
+        },
+        "landmarkNote": {
+          "right": "Low posterior/side heel edge of the far, image-left foot.",
+          "left": "Visible central plantar toe-pad on the near, image-right foot. This matches passing06, whose heel is occluded; the heel remains a secondary visible feature only."
+        },
+        "sampleRgba": {
+          "right": [
+            136,
+            89,
+            64,
+            249
+          ],
+          "left": [
+            226,
+            159,
+            129,
+            252
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png",
+          "sourceSha256": "e1abfc33e8c6e6ad3d0f95f4ff5e3f9683fbf96a31d5d9a617660f14cd1faba7",
+          "supportFoot": "right",
+          "supportPoint": [
+            600,
+            1190
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            187.105,
+            460.842
+          ],
+          "sampleRgba": [
+            187,
+            136,
+            109,
+            252
+          ],
+          "note": "Right support heel at the visible low posterior/side curve of the image-left planted foot.",
+          "supportHeel": [
+            600,
+            1190
+          ],
+          "normalizedSupportHeel": [
+            187.105,
+            460.842
+          ],
+          "point": [
+            600,
+            1190
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png",
+          "sourceSha256": "ee6dcb95846c17f89d4cc514ab10167fe51969f6a1a92552733d11852d8b1ba2",
+          "supportFoot": "left",
+          "supportPoint": [
+            636,
+            1201
+          ],
+          "landmark": "visible-plantar",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            199.232,
+            464.547
+          ],
+          "sampleRgba": [
+            212,
+            136,
+            106,
+            252
+          ],
+          "note": "The left support heel is occluded by the forefoot/cuff at this angle. This is a visible plantar toe-contact edge, not an inferred hidden heel.",
+          "point": [
+            636,
+            1201
+          ]
+        }
+      }
+    },
+    "left": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            530,
+            1177
+          ],
+          "left": [
+            682,
+            1197
+          ]
+        },
+        "landmark": {
+          "right": "visible-plantar",
+          "left": "visible-heel"
+        },
+        "landmarkNote": {
+          "right": "Far heel is occluded by the near leg/ankle. This is the actual visible plantar edge below the far forefoot, not an inferred heel.",
+          "left": "Low posterior heel curve of the near profile foot."
+        },
+        "sampleRgba": {
+          "right": [
+            187,
+            119,
+            93,
+            252
+          ],
+          "left": [
+            121,
+            75,
+            54,
+            225
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png",
+          "sourceSha256": "c89dee30e3616dcca0c01995eaa61d0ac0473b945e11a9433d255ea2248fd800",
+          "supportFoot": "right",
+          "supportPoint": [
+            537,
+            1194
+          ],
+          "landmark": "visible-plantar",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            165.884,
+            462.189
+          ],
+          "sampleRgba": [
+            213,
+            152,
+            131,
+            252
+          ],
+          "note": "Visible right support heel; generic supportPoint instead uses the central plantar forefoot pad because the matching neutral far-foot heel is occluded.",
+          "supportHeel": [
+            666,
+            1193
+          ],
+          "normalizedSupportHeel": [
+            209.337,
+            461.853
+          ],
+          "point": [
+            537,
+            1194
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v3.png",
+          "sourceSha256": "617627cf4850f31f64093e74129ea25d7fec44a10fa0442ce1fa63b763e6d52c",
+          "supportFoot": "left",
+          "supportPoint": [
+            658,
+            1195
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            206.642,
+            462.526
+          ],
+          "sampleRgba": [
+            167,
+            111,
+            87,
+            251
+          ],
+          "note": "Visible low posterior curve of the near left supporting heel; the right thigh/foot is suspended behind it.",
+          "supportHeel": [
+            658,
+            1195
+          ],
+          "normalizedSupportHeel": [
+            206.642,
+            462.526
+          ],
+          "point": [
+            658,
+            1195
+          ]
+        }
+      }
+    },
+    "rearLeft": {
+      "neutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+        "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+        "coordinateSpace": "native source PNG pixels",
+        "points": {
+          "right": [
+            674,
+            1191
+          ],
+          "left": [
+            590,
+            1200
+          ]
+        },
+        "landmark": {
+          "right": "visible-heel",
+          "left": "visible-heel"
+        },
+        "landmarkNote": {
+          "right": "Low posterior heel curve of the far, image-right foot.",
+          "left": "Visible low posterior heel curve of the near, image-left foot."
+        },
+        "sampleRgba": {
+          "right": [
+            203,
+            151,
+            130,
+            253
+          ],
+          "left": [
+            208,
+            162,
+            136,
+            253
+          ]
+        }
+      },
+      "passing": {
+        "right": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+          "sourceSha256": "fec85ab2217f1677ca2c0614755f9e73419719e52177cd0c310cb882cd7b0a79",
+          "supportFoot": "right",
+          "supportPoint": [
+            691,
+            1202
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            217.758,
+            464.884
+          ],
+          "sampleRgba": [
+            155,
+            109,
+            86,
+            251
+          ],
+          "note": "Right support heel at the low posterior curve of the far, image-right planted foot; left foot is suspended.",
+          "supportHeel": [
+            691,
+            1202
+          ],
+          "normalizedSupportHeel": [
+            217.758,
+            464.884
+          ],
+          "point": [
+            691,
+            1202
+          ]
+        },
+        "left": {
+          "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+          "sourceSha256": "4f0b3001d1d4dbd48c686fc4e1d70ac9d7a1ae5a7abb5d5ad16954fba9e3c7b2",
+          "supportFoot": "left",
+          "supportPoint": [
+            601,
+            1168
+          ],
+          "landmark": "visible-heel",
+          "coordinateSpace": "native source PNG pixels",
+          "normalizedSupportPoint": [
+            187.442,
+            453.432
+          ],
+          "sampleRgba": [
+            163,
+            115,
+            89,
+            247
+          ],
+          "note": "Left support heel at the low posterior curve of the near planted foot; the far right leg/foot is suspended on image-right.",
+          "supportHeel": [
+            601,
+            1168
+          ],
+          "normalizedSupportHeel": [
+            187.442,
+            453.432
+          ],
+          "point": [
+            601,
+            1168
+          ]
+        }
+      }
+    }
+  },
+  "headings": {
+    "rear": {
+      "right": {
+        "frames": [
+          {
+            "cell": 0,
+            "id": "rear-right-gather",
+            "top": 71,
+            "rootOffset": {
+              "x": 18.52630000000002,
+              "y": 3.7053000000000225
+            },
+            "supportContact": {
+              "x": 193.8421,
+              "y": 462.5263
+            }
+          },
+          {
+            "cell": 1,
+            "id": "rear-right-close",
+            "top": 71,
+            "rootOffset": {
+              "x": 18.52630000000002,
+              "y": 3.7053000000000225
+            },
+            "supportContact": {
+              "x": 193.8421,
+              "y": 462.5263
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 18.52630000000002,
+          "y": 3.7053000000000225
+        },
+        "referenceContact": {
+          "x": 212.3684,
+          "y": 466.2316
+        },
+        "passingContact": {
+          "x": 193.8421,
+          "y": 462.5263
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 2,
+            "id": "rear-left-gather",
+            "top": 70,
+            "rootOffset": {
+              "x": -8.08420000000001,
+              "y": 1.6842000000000326
+            },
+            "supportContact": {
+              "x": 185.0842,
+              "y": 464.5474
+            }
+          },
+          {
+            "cell": 3,
+            "id": "rear-left-close",
+            "top": 71,
+            "rootOffset": {
+              "x": -8.08420000000001,
+              "y": 1.010500000000036
+            },
+            "supportContact": {
+              "x": 185.0842,
+              "y": 465.2211
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -10.1053,
+          "y": 0.6736999999999966
+        },
+        "referenceContact": {
+          "x": 177.0,
+          "y": 466.2316
+        },
+        "passingContact": {
+          "x": 187.1053,
+          "y": 465.5579
+        }
+      }
+    },
+    "rearRight": {
+      "right": {
+        "frames": [
+          {
+            "cell": 4,
+            "id": "rearRight-right-gather",
+            "top": 72,
+            "rootOffset": {
+              "x": 0.6736999999999966,
+              "y": -1.010500000000036
+            },
+            "supportContact": {
+              "x": 195.5263,
+              "y": 459.4947
+            }
+          },
+          {
+            "cell": 5,
+            "id": "rearRight-right-close",
+            "top": 71,
+            "rootOffset": {
+              "x": 1.010499999999979,
+              "y": -1.010500000000036
+            },
+            "supportContact": {
+              "x": 195.1895,
+              "y": 459.4947
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 0.6736999999999966,
+          "y": -1.010500000000036
+        },
+        "referenceContact": {
+          "x": 196.2,
+          "y": 458.4842
+        },
+        "passingContact": {
+          "x": 195.5263,
+          "y": 459.4947
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 6,
+            "id": "rearRight-left-gather",
+            "top": 71,
+            "rootOffset": {
+              "x": -2.694800000000015,
+              "y": -5.052600000000041
+            },
+            "supportContact": {
+              "x": 167.9053,
+              "y": 461.5158
+            }
+          },
+          {
+            "cell": 7,
+            "id": "rearRight-left-close",
+            "top": 72,
+            "rootOffset": {
+              "x": 8.420999999999992,
+              "y": -2.357900000000029
+            },
+            "supportContact": {
+              "x": 156.7895,
+              "y": 458.8211
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -2.694800000000015,
+          "y": -5.052600000000041
+        },
+        "referenceContact": {
+          "x": 165.2105,
+          "y": 456.4632
+        },
+        "passingContact": {
+          "x": 167.9053,
+          "y": 461.5158
+        }
+      }
+    },
+    "right": {
+      "right": {
+        "frames": [
+          {
+            "cell": 8,
+            "id": "right-right-gather",
+            "top": 72,
+            "rootOffset": {
+              "x": 24.252699999999976,
+              "y": -1.6842000000000326
+            },
+            "supportContact": {
+              "x": 150.0526,
+              "y": 462.1895
+            }
+          },
+          {
+            "cell": 9,
+            "id": "right-right-close",
+            "top": 73,
+            "rootOffset": {
+              "x": 24.252699999999976,
+              "y": -1.6842000000000326
+            },
+            "supportContact": {
+              "x": 150.0526,
+              "y": 462.1895
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 14.147399999999976,
+          "y": -1.3473000000000184
+        },
+        "referenceContact": {
+          "x": 174.3053,
+          "y": 460.5053
+        },
+        "passingContact": {
+          "x": 160.1579,
+          "y": 461.8526
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 10,
+            "id": "right-left-gather",
+            "top": 72,
+            "rootOffset": {
+              "x": 6.7368999999999915,
+              "y": -9.768399999999986
+            },
+            "supportContact": {
+              "x": 210.6842,
+              "y": 461.8526
+            }
+          },
+          {
+            "cell": 11,
+            "id": "right-left-close",
+            "top": 71,
+            "rootOffset": {
+              "x": 6.7368999999999915,
+              "y": -9.431600000000003
+            },
+            "supportContact": {
+              "x": 210.6842,
+              "y": 461.5158
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 7.410599999999988,
+          "y": -9.431600000000003
+        },
+        "referenceContact": {
+          "x": 217.4211,
+          "y": 452.0842
+        },
+        "passingContact": {
+          "x": 210.0105,
+          "y": 461.5158
+        }
+      }
+    },
+    "frontRight": {
+      "right": {
+        "frames": [
+          {
+            "cell": 12,
+            "id": "frontRight-right-gather",
+            "top": 71,
+            "rootOffset": {
+              "x": -6.063200000000023,
+              "y": -0.3369000000000142
+            },
+            "supportContact": {
+              "x": 172.6211,
+              "y": 462.8632
+            }
+          },
+          {
+            "cell": 13,
+            "id": "frontRight-right-close",
+            "top": 70,
+            "rootOffset": {
+              "x": -4.378900000000016,
+              "y": 0.33679999999998245
+            },
+            "supportContact": {
+              "x": 170.9368,
+              "y": 462.1895
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -6.400000000000006,
+          "y": 0.0
+        },
+        "referenceContact": {
+          "x": 166.5579,
+          "y": 462.5263
+        },
+        "passingContact": {
+          "x": 172.9579,
+          "y": 462.5263
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 14,
+            "id": "frontRight-left-gather",
+            "top": 69,
+            "rootOffset": {
+              "x": 4.7158000000000015,
+              "y": -1.6842000000000326
+            },
+            "supportContact": {
+              "x": 194.1789,
+              "y": 463.5368
+            }
+          },
+          {
+            "cell": 15,
+            "id": "frontRight-left-close",
+            "top": 70,
+            "rootOffset": {
+              "x": 7.747299999999996,
+              "y": -1.0106000000000108
+            },
+            "supportContact": {
+              "x": 191.1474,
+              "y": 462.8632
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 19.19999999999999,
+          "y": 1.010499999999979
+        },
+        "referenceContact": {
+          "x": 198.8947,
+          "y": 461.8526
+        },
+        "passingContact": {
+          "x": 179.6947,
+          "y": 460.8421
+        }
+      }
+    },
+    "front": {
+      "right": {
+        "frames": [
+          {
+            "cell": 16,
+            "id": "front-right-gather",
+            "top": 72,
+            "rootOffset": {
+              "x": 1.6842000000000041,
+              "y": -3.7051999999999907
+            },
+            "supportContact": {
+              "x": 175.3158,
+              "y": 472.9684
+            }
+          },
+          {
+            "cell": 17,
+            "id": "front-right-close",
+            "top": 73,
+            "rootOffset": {
+              "x": 1.6842000000000041,
+              "y": -3.7051999999999907
+            },
+            "supportContact": {
+              "x": 175.3158,
+              "y": 472.9684
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 1.6842000000000041,
+          "y": -3.7051999999999907
+        },
+        "referenceContact": {
+          "x": 177.0,
+          "y": 469.2632
+        },
+        "passingContact": {
+          "x": 175.3158,
+          "y": 472.9684
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 18,
+            "id": "front-left-gather",
+            "top": 71,
+            "rootOffset": {
+              "x": 2.3579000000000008,
+              "y": 2.02109999999999
+            },
+            "supportContact": {
+              "x": 206.6421,
+              "y": 467.2421
+            }
+          },
+          {
+            "cell": 19,
+            "id": "front-left-close",
+            "top": 70,
+            "rootOffset": {
+              "x": 2.3579000000000008,
+              "y": 2.02109999999999
+            },
+            "supportContact": {
+              "x": 206.6421,
+              "y": 467.2421
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 2.3579000000000008,
+          "y": 2.02109999999999
+        },
+        "referenceContact": {
+          "x": 209.0,
+          "y": 469.2632
+        },
+        "passingContact": {
+          "x": 206.6421,
+          "y": 467.2421
+        }
+      }
+    },
+    "frontLeft": {
+      "right": {
+        "frames": [
+          {
+            "cell": 20,
+            "id": "frontLeft-right-gather",
+            "top": 72,
+            "rootOffset": {
+              "x": -2.6947999999999865,
+              "y": 0.0
+            },
+            "supportContact": {
+              "x": 187.1053,
+              "y": 460.8421
+            }
+          },
+          {
+            "cell": 21,
+            "id": "frontLeft-right-close",
+            "top": 71,
+            "rootOffset": {
+              "x": -2.6947999999999865,
+              "y": 0.0
+            },
+            "supportContact": {
+              "x": 187.1053,
+              "y": 460.8421
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -2.6947999999999865,
+          "y": 0.0
+        },
+        "referenceContact": {
+          "x": 184.4105,
+          "y": 460.8421
+        },
+        "passingContact": {
+          "x": 187.1053,
+          "y": 460.8421
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 22,
+            "id": "frontLeft-left-gather",
+            "top": 70,
+            "rootOffset": {
+              "x": -0.33689999999998577,
+              "y": 6.7368000000000166
+            },
+            "supportContact": {
+              "x": 199.2316,
+              "y": 464.5474
+            }
+          },
+          {
+            "cell": 23,
+            "id": "frontLeft-left-close",
+            "top": 70,
+            "rootOffset": {
+              "x": -0.33689999999998577,
+              "y": 6.7368000000000166
+            },
+            "supportContact": {
+              "x": 199.2316,
+              "y": 464.5474
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -0.33689999999998577,
+          "y": 6.7368000000000166
+        },
+        "referenceContact": {
+          "x": 198.8947,
+          "y": 471.2842
+        },
+        "passingContact": {
+          "x": 199.2316,
+          "y": 464.5474
+        }
+      }
+    },
+    "left": {
+      "right": {
+        "frames": [
+          {
+            "cell": 24,
+            "id": "left-right-gather",
+            "top": 73,
+            "rootOffset": {
+              "x": -1.6842000000000041,
+              "y": -5.7263000000000375
+            },
+            "supportContact": {
+              "x": 165.2105,
+              "y": 462.1895
+            }
+          },
+          {
+            "cell": 25,
+            "id": "left-right-close",
+            "top": 72,
+            "rootOffset": {
+              "x": 5.052599999999984,
+              "y": -3.3684000000000083
+            },
+            "supportContact": {
+              "x": 158.4737,
+              "y": 459.8316
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -2.3579000000000008,
+          "y": -5.7263000000000375
+        },
+        "referenceContact": {
+          "x": 163.5263,
+          "y": 456.4632
+        },
+        "passingContact": {
+          "x": 165.8842,
+          "y": 462.1895
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 26,
+            "id": "left-left-gather",
+            "top": 73,
+            "rootOffset": {
+              "x": 8.42100000000002,
+              "y": 0.33679999999998245
+            },
+            "supportContact": {
+              "x": 206.3053,
+              "y": 462.8632
+            }
+          },
+          {
+            "cell": 27,
+            "id": "left-left-close",
+            "top": 72,
+            "rootOffset": {
+              "x": 8.08420000000001,
+              "y": 0.33679999999998245
+            },
+            "supportContact": {
+              "x": 206.6421,
+              "y": 462.8632
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": 8.08420000000001,
+          "y": 0.6736999999999966
+        },
+        "referenceContact": {
+          "x": 214.7263,
+          "y": 463.2
+        },
+        "passingContact": {
+          "x": 206.6421,
+          "y": 462.5263
+        }
+      }
+    },
+    "rearLeft": {
+      "right": {
+        "frames": [
+          {
+            "cell": 28,
+            "id": "rearLeft-right-gather",
+            "top": 75,
+            "rootOffset": {
+              "x": -5.726300000000009,
+              "y": -3.7053000000000225
+            },
+            "supportContact": {
+              "x": 217.7579,
+              "y": 464.8842
+            }
+          },
+          {
+            "cell": 29,
+            "id": "rearLeft-right-close",
+            "top": 74,
+            "rootOffset": {
+              "x": -0.6736999999999966,
+              "y": -2.357900000000029
+            },
+            "supportContact": {
+              "x": 212.7053,
+              "y": 463.5368
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -5.726300000000009,
+          "y": -3.7053000000000225
+        },
+        "referenceContact": {
+          "x": 212.0316,
+          "y": 461.1789
+        },
+        "passingContact": {
+          "x": 217.7579,
+          "y": 464.8842
+        }
+      },
+      "left": {
+        "frames": [
+          {
+            "cell": 30,
+            "id": "rearLeft-left-gather",
+            "top": 73,
+            "rootOffset": {
+              "x": -4.042100000000005,
+              "y": 10.442100000000039
+            },
+            "supportContact": {
+              "x": 187.7789,
+              "y": 453.7684
+            }
+          },
+          {
+            "cell": 31,
+            "id": "rearLeft-left-close",
+            "top": 73,
+            "rootOffset": {
+              "x": -4.7158000000000015,
+              "y": 10.442100000000039
+            },
+            "supportContact": {
+              "x": 188.4526,
+              "y": 453.7684
+            }
+          }
+        ],
+        "entryOffset": {
+          "x": -3.7053000000000225,
+          "y": 10.778900000000021
+        },
+        "referenceContact": {
+          "x": 183.7368,
+          "y": 464.2105
+        },
+        "passingContact": {
+          "x": 187.4421,
+          "y": 453.4316
+        }
+      }
+    }
+  }
+}

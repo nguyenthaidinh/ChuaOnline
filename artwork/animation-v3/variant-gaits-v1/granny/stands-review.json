@@ -1,0 +1,206 @@
+{
+  "status": "source-review-subset",
+  "appearance": "granny",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "headings": [
+    "rear",
+    "rearRight",
+    "right",
+    "frontRight",
+    "front",
+    "frontLeft",
+    "left",
+    "rearLeft"
+  ],
+  "phases": [
+    "stand"
+  ],
+  "mirrored": false,
+  "frames": [
+    {
+      "id": "rear-stand",
+      "heading": "rear",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        72,
+        267,
+        469
+      ],
+      "sha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef"
+    },
+    {
+      "id": "rearRight-stand",
+      "heading": "rearRight",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        74,
+        254,
+        461
+      ],
+      "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+    },
+    {
+      "id": "right-stand",
+      "heading": "right",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/right/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        153,
+        73,
+        229,
+        467
+      ],
+      "sha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37"
+    },
+    {
+      "id": "frontRight-stand",
+      "heading": "frontRight",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        128,
+        71,
+        260,
+        473
+      ],
+      "sha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19"
+    },
+    {
+      "id": "front-stand",
+      "heading": "front",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/front/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        73,
+        267,
+        472
+      ],
+      "sha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7"
+    },
+    {
+      "id": "frontLeft-stand",
+      "heading": "frontLeft",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        129,
+        71,
+        255,
+        473
+      ],
+      "sha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461"
+    },
+    {
+      "id": "left-stand",
+      "heading": "left",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        155,
+        72,
+        231,
+        467
+      ],
+      "sha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+    },
+    {
+      "id": "rearLeft-stand",
+      "heading": "rearLeft",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        71,
+        251,
+        464
+      ],
+      "sha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc"
+    }
+  ],
+  "loopMs": 960,
+  "note": "Source-board review only; not browser evidence or FPS measurement."
+}

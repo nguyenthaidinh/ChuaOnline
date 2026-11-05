@@ -1,0 +1,233 @@
+{
+  "status": "source-review-subset",
+  "appearance": "granny",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "headings": [
+    "left"
+  ],
+  "phases": [
+    "stand",
+    "00-contact",
+    "01-loading",
+    "02-passing",
+    "03-swing",
+    "04-opposite-contact",
+    "05-opposite-loading",
+    "06-opposite-passing",
+    "07-opposite-swing"
+  ],
+  "mirrored": false,
+  "frames": [
+    {
+      "id": "left-stand",
+      "heading": "left",
+      "phase": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        155,
+        72,
+        231,
+        467
+      ],
+      "sha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+    },
+    {
+      "id": "left-00-contact",
+      "heading": "left",
+      "phase": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        72,
+        72,
+        300,
+        462
+      ],
+      "sha256": "8465d293b03fb6b8ef31adaee397a68e9ae17229559434ab769467ecea2626f0"
+    },
+    {
+      "id": "left-01-loading",
+      "heading": "left",
+      "phase": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        100,
+        71,
+        281,
+        466
+      ],
+      "sha256": "350e5d7da8b97cb75751fef148b258b4356ed4fda31ca00df4a8c4be7780b84e"
+    },
+    {
+      "id": "left-02-passing",
+      "heading": "left",
+      "phase": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        98,
+        71,
+        276,
+        464
+      ],
+      "sha256": "3e60571ba8156bf64625718715bb740a0884ad8bc1e839eccd2620212006d0ac"
+    },
+    {
+      "id": "left-03-swing",
+      "heading": "left",
+      "phase": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        65,
+        71,
+        293,
+        461
+      ],
+      "sha256": "290cf0d926956bc17d19bddcde1c56d0e7db47d753a788e28badb8c96705fa0a"
+    },
+    {
+      "id": "left-04-opposite-contact",
+      "heading": "left",
+      "phase": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        64,
+        72,
+        321,
+        462
+      ],
+      "sha256": "759e83db0dc41c6793d2a9e3d1c43919cb050adf5a6f46b851a49dddd1ee2415"
+    },
+    {
+      "id": "left-05-opposite-loading",
+      "heading": "left",
+      "phase": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        93,
+        72,
+        305,
+        461
+      ],
+      "sha256": "9a10704181808960ef3fe28244838c9b216b0d98a78fed18adb5b467b354c764"
+    },
+    {
+      "id": "left-06-opposite-passing",
+      "heading": "left",
+      "phase": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/06-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        56,
+        72,
+        265,
+        462
+      ],
+      "sha256": "c6396f62ceb0f594033dd341f5e83d8d6f8883181f3e524bd0d9874d3a23fb93"
+    },
+    {
+      "id": "left-07-opposite-swing",
+      "heading": "left",
+      "phase": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        67,
+        71,
+        299,
+        462
+      ],
+      "sha256": "68979908f283e6bf3f944445646321989a58da519417328dd39f07e754fd90ba"
+    }
+  ],
+  "previewSize": [
+    384,
+    512
+  ],
+  "loopMs": 960,
+  "note": "Source-board review only; not browser evidence or FPS measurement."
+}

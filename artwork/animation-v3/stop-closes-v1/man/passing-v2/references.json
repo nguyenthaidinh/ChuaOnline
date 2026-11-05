@@ -1,0 +1,146 @@
+[
+  {
+    "heading": "rear",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/rear/02-passing.png",
+    "poseSha256": "6d1bce50b16a981aeebba635770db391da792f20ee35d90cbc5ec32442fe324d",
+    "neutral": "artwork/animation-v3/directions-v2/rear/stand.png",
+    "neutralSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+    "output": "rear/right.png"
+  },
+  {
+    "heading": "rear",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/rear/06-opposite-passing.png",
+    "poseSha256": "8dda223fd211587dc4e4ecc3f4e61afa998d3f344f8844663aa6fba328035c6a",
+    "neutral": "artwork/animation-v3/directions-v2/rear/stand.png",
+    "neutralSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+    "output": "rear/left.png"
+  },
+  {
+    "heading": "rearRight",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing.png",
+    "poseSha256": "cc2fd70ee7f28d47ca03d4b122696840bd83b6e561a53c472731edebbe9399a5",
+    "neutral": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+    "neutralSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+    "output": "rearRight/right.png"
+  },
+  {
+    "heading": "rearRight",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v2.png",
+    "poseSha256": "401150341a4225448346dbe7303acb707830627d705b11c77712625c3649230d",
+    "neutral": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+    "neutralSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+    "output": "rearRight/left.png"
+  },
+  {
+    "heading": "right",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+    "poseSha256": "ca0c305071bb1c3189166a47c4f7a6fa099431bdb472f2196f0140483b870f45",
+    "neutral": "artwork/animation-v3/directions-v2/right/stand.png",
+    "neutralSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+    "output": "right/right.png"
+  },
+  {
+    "heading": "right",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing-v2.png",
+    "poseSha256": "1123e95954d102c2983e2b840147aae7079f9b11f0a21b649a5c463ef43b6029",
+    "neutral": "artwork/animation-v3/directions-v2/right/stand.png",
+    "neutralSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+    "output": "right/left.png"
+  },
+  {
+    "heading": "frontRight",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/02-passing.png",
+    "poseSha256": "275c3bc82ffa2a5425b9369260aa585e278f79851c6012f270dddfc42de88f85",
+    "neutral": "artwork/animation-v3/directions-v2/frontRight/stand.png",
+    "neutralSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+    "output": "frontRight/right.png"
+  },
+  {
+    "heading": "frontRight",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/06-opposite-passing.png",
+    "poseSha256": "b3835ffa50dd8786825e837ceba38e33189eefcd912ad39646dbea9c2a0753d5",
+    "neutral": "artwork/animation-v3/directions-v2/frontRight/stand.png",
+    "neutralSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+    "output": "frontRight/left.png"
+  },
+  {
+    "heading": "front",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/front/02-passing.png",
+    "poseSha256": "71d1e0314da9188e9372bcf84ba3bd7be14ebd09e5ea46e5f936dfe764a9b1f4",
+    "neutral": "artwork/animation-v3/directions-v2/front/stand.png",
+    "neutralSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+    "output": "front/right.png"
+  },
+  {
+    "heading": "front",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/front/06-opposite-passing.png",
+    "poseSha256": "b3e955f4aa7dec3eabb0a4fd9c4ca2b98a94a0a7982c05d574bed9527033df8b",
+    "neutral": "artwork/animation-v3/directions-v2/front/stand.png",
+    "neutralSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+    "output": "front/left.png"
+  },
+  {
+    "heading": "frontLeft",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png",
+    "poseSha256": "e1abfc33e8c6e6ad3d0f95f4ff5e3f9683fbf96a31d5d9a617660f14cd1faba7",
+    "neutral": "artwork/animation-v3/directions-v2/frontLeft/stand.png",
+    "neutralSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+    "output": "frontLeft/right.png"
+  },
+  {
+    "heading": "frontLeft",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png",
+    "poseSha256": "ee6dcb95846c17f89d4cc514ab10167fe51969f6a1a92552733d11852d8b1ba2",
+    "neutral": "artwork/animation-v3/directions-v2/frontLeft/stand.png",
+    "neutralSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+    "output": "frontLeft/left.png"
+  },
+  {
+    "heading": "left",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png",
+    "poseSha256": "c89dee30e3616dcca0c01995eaa61d0ac0473b945e11a9433d255ea2248fd800",
+    "neutral": "artwork/animation-v3/directions-v2/left/stand.png",
+    "neutralSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+    "output": "left/right.png"
+  },
+  {
+    "heading": "left",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v3.png",
+    "poseSha256": "617627cf4850f31f64093e74129ea25d7fec44a10fa0442ce1fa63b763e6d52c",
+    "neutral": "artwork/animation-v3/directions-v2/left/stand.png",
+    "neutralSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+    "output": "left/left.png"
+  },
+  {
+    "heading": "rearLeft",
+    "supportFoot": "right",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+    "poseSha256": "fec85ab2217f1677ca2c0614755f9e73419719e52177cd0c310cb882cd7b0a79",
+    "neutral": "artwork/animation-v3/directions-v2/rearLeft/stand.png",
+    "neutralSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+    "output": "rearLeft/right.png"
+  },
+  {
+    "heading": "rearLeft",
+    "supportFoot": "left",
+    "pose": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+    "poseSha256": "4f0b3001d1d4dbd48c686fc4e1d70ac9d7a1ae5a7abb5d5ad16954fba9e3c7b2",
+    "neutral": "artwork/animation-v3/directions-v2/rearLeft/stand.png",
+    "neutralSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+    "output": "rearLeft/left.png"
+  }
+]

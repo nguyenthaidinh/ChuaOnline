@@ -1,0 +1,1191 @@
+{
+  "appearance": "man",
+  "status": "complete",
+  "frames": {
+    "rear/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/right-gather-v2.png",
+      "sourceSha256": "02831ea0a87bc1d416692501eae3030d8304f191b14ebf6447c1504c0dd94e01",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        616,
+        1184
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        162,
+        112,
+        74,
+        252
+      ],
+      "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "neutralPoint": [
+        665,
+        1206
+      ],
+      "normalizedSupportPoint": [
+        192.4947,
+        458.8211
+      ],
+      "pinLogicalOffset": [
+        16.5053,
+        7.4109
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "rear/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/right-close.png",
+      "sourceSha256": "d763ff9310e0c340720e83a4904b93df8503aa87110717c4ba63e94ac73c4093",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        643,
+        1197
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        170,
+        119,
+        87,
+        253
+      ],
+      "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "neutralPoint": [
+        665,
+        1206
+      ],
+      "normalizedSupportPoint": [
+        201.5895,
+        463.2
+      ],
+      "pinLogicalOffset": [
+        7.4105,
+        3.032
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "rear/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/left-gather-v2.png",
+      "sourceSha256": "dd6ef749063235b18599b7b5386d995b258bb12e9e8cfa9297ba204ec33baf25",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        580,
+        1198
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        174,
+        125,
+        88,
+        253
+      ],
+      "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "neutralPoint": [
+        560,
+        1207
+      ],
+      "normalizedSupportPoint": [
+        180.3684,
+        463.5368
+      ],
+      "pinLogicalOffset": [
+        -6.7364,
+        3.0312
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "rear/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/left-close.png",
+      "sourceSha256": "345510252816ce34476d77bf9338031d5da29a83be7015d16aba10d89adcc958",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        560,
+        1210
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        146,
+        104,
+        74,
+        249
+      ],
+      "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "neutralPoint": [
+        560,
+        1207
+      ],
+      "normalizedSupportPoint": [
+        173.6316,
+        467.5789
+      ],
+      "pinLogicalOffset": [
+        0.0004,
+        -1.0109
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "rearRight/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-close.png",
+      "sourceSha256": "ca5d7cab0020c26bd37c2ed7c4fff7f04351247318d72e7329556425ea009337",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        602,
+        1179
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        165,
+        107,
+        72,
+        251
+      ],
+      "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "neutralPoint": [
+        613,
+        1186
+      ],
+      "normalizedSupportPoint": [
+        187.7789,
+        457.1368
+      ],
+      "pinLogicalOffset": [
+        3.7051,
+        2.3582
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "rearRight/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-gather-v2.png",
+      "sourceSha256": "3e350d3b9608cf8c5b0c988f94a3c56e57740b9bf51d8b60eb9e203be2017135",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        531,
+        1182
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        171,
+        109,
+        72,
+        252
+      ],
+      "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "neutralPoint": [
+        519,
+        1173
+      ],
+      "normalizedSupportPoint": [
+        163.8632,
+        458.1474
+      ],
+      "pinLogicalOffset": [
+        -4.0422,
+        -3.0314
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "right/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/right-gather-v2.png",
+      "sourceSha256": "f036a07e3fd248c54d9d47abd95df052085254eb3d9f20772fb8928d76027df5",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        490,
+        1188
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        188,
+        134,
+        102,
+        252
+      ],
+      "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "neutralPoint": [
+        540,
+        1181
+      ],
+      "normalizedSupportPoint": [
+        150.0526,
+        460.1684
+      ],
+      "pinLogicalOffset": [
+        16.8424,
+        -2.3574
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "right/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/right-close.png",
+      "sourceSha256": "d3df76343e0993d4a0eb11dfcd83278f63294c7a9b77073b6a394c78484d191f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        550,
+        1184
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        215,
+        154,
+        128,
+        252
+      ],
+      "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "neutralPoint": [
+        540,
+        1181
+      ],
+      "normalizedSupportPoint": [
+        170.2632,
+        458.8211
+      ],
+      "pinLogicalOffset": [
+        -3.3682,
+        -1.0101
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "frontRight/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-gather-v2.png",
+      "sourceSha256": "24c447b182e731915b3f330ceb13092cd63d98cb57db69ac91ebd5e592767b12",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        604,
+        1208
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        215,
+        156,
+        120,
+        253
+      ],
+      "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "neutralPoint": [
+        558,
+        1217
+      ],
+      "normalizedSupportPoint": [
+        188.4526,
+        466.9053
+      ],
+      "pinLogicalOffset": [
+        -15.4946,
+        3.0317
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "frontRight/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-close.png",
+      "sourceSha256": "ccc522a4c5eb788161e1d7177dd5b5d1d2394e63f2d92270ec463b4cac21425c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        575,
+        1220
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        220,
+        147,
+        125,
+        252
+      ],
+      "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "neutralPoint": [
+        558,
+        1217
+      ],
+      "normalizedSupportPoint": [
+        178.6842,
+        470.9474
+      ],
+      "pinLogicalOffset": [
+        -5.7262,
+        -1.0104
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "frontRight/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-gather-v2.png",
+      "sourceSha256": "995e86b7c622e29d0778c4da459967fd3a16391190f0a3010d7fc43cd0d917a2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        680,
+        1214
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        160,
+        116,
+        91,
+        253
+      ],
+      "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "neutralPoint": [
+        686,
+        1208
+      ],
+      "normalizedSupportPoint": [
+        214.0526,
+        468.9263
+      ],
+      "pinLogicalOffset": [
+        2.0214,
+        -2.0213
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "frontRight/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-close.png",
+      "sourceSha256": "2fe38987d7297a0e2fd1221192dae84298985ad0e09424f1719dbc3dcbb6b787",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        676,
+        1211
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        153,
+        98,
+        74,
+        243
+      ],
+      "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "neutralPoint": [
+        686,
+        1208
+      ],
+      "normalizedSupportPoint": [
+        212.7053,
+        467.9158
+      ],
+      "pinLogicalOffset": [
+        3.3687,
+        -1.0108
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "front/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/right-gather-v2.png",
+      "sourceSha256": "1ec64cd1efac2b0848233b1112ecc6c893f83f8bf93cff1f15658c5cbeb5e770",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        570,
+        1218
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        210,
+        144,
+        114,
+        253
+      ],
+      "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "neutralPoint": [
+        552,
+        1216
+      ],
+      "normalizedSupportPoint": [
+        177.0,
+        470.2737
+      ],
+      "pinLogicalOffset": [
+        -6.063,
+        -0.6737
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "front/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/right-close.png",
+      "sourceSha256": "b9d5f3257bf56c649c88cd682108228683bfb03cf0533860e627a0019fab41cc",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        555,
+        1216
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        227,
+        175,
+        155,
+        252
+      ],
+      "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "neutralPoint": [
+        552,
+        1216
+      ],
+      "normalizedSupportPoint": [
+        171.9474,
+        469.6
+      ],
+      "pinLogicalOffset": [
+        -1.0104,
+        0.0
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "front/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/left-gather-v2.png",
+      "sourceSha256": "e5b0d0c82bea82326c6150e446a85c7bf135d8bd24f3413db04f8c3419fdbc2c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        650,
+        1210
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        207,
+        143,
+        122,
+        252
+      ],
+      "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "neutralPoint": [
+        662,
+        1217
+      ],
+      "normalizedSupportPoint": [
+        203.9474,
+        467.5789
+      ],
+      "pinLogicalOffset": [
+        4.0416,
+        2.3581
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "front/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/left-close.png",
+      "sourceSha256": "cc0a812ed92b12579ab9d0bb52370c8a01371a9a3c206010ac2ed7e565dcf977",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        665,
+        1217
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        166,
+        100,
+        73,
+        252
+      ],
+      "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "neutralPoint": [
+        662,
+        1217
+      ],
+      "normalizedSupportPoint": [
+        209.0,
+        469.9368
+      ],
+      "pinLogicalOffset": [
+        -1.011,
+        0.0002
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "frontLeft/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-gather-v2.png",
+      "sourceSha256": "937ec4b1aa04459bc87511311942397e7a75373ab3845d64c1464860bb4f62e3",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        520,
+        1204
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        145,
+        90,
+        64,
+        237
+      ],
+      "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "neutralPoint": [
+        500,
+        1205
+      ],
+      "normalizedSupportPoint": [
+        160.1579,
+        465.5579
+      ],
+      "pinLogicalOffset": [
+        -6.7369,
+        0.3371
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "frontLeft/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-close.png",
+      "sourceSha256": "6bca92a8402a23d9bc8d1e2b22e51934fd8bbb42e5842d3682dcb56e22d914f1",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        460,
+        1212
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        219,
+        161,
+        138,
+        253
+      ],
+      "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "neutralPoint": [
+        500,
+        1205
+      ],
+      "normalizedSupportPoint": [
+        139.9474,
+        468.2526
+      ],
+      "pinLogicalOffset": [
+        13.4736,
+        -2.3576
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "frontLeft/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-gather-v2.png",
+      "sourceSha256": "822a6d6915c01a44d2066d012c41201b66ed0386c8469a07129b10959de0cefe",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        660,
+        1198
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        193,
+        129,
+        105,
+        253
+      ],
+      "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "neutralPoint": [
+        652,
+        1216
+      ],
+      "normalizedSupportPoint": [
+        207.3158,
+        463.5368
+      ],
+      "pinLogicalOffset": [
+        -2.6948,
+        6.0632
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "frontLeft/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-close.png",
+      "sourceSha256": "956f421d27e7ee136738c024803ca37c0a523cdbedc4e5ddfef7df9ecb585650",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        670,
+        1218
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        189,
+        129,
+        105,
+        253
+      ],
+      "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "neutralPoint": [
+        652,
+        1216
+      ],
+      "normalizedSupportPoint": [
+        210.6842,
+        470.2737
+      ],
+      "pinLogicalOffset": [
+        -6.0632,
+        -0.6737
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "left/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/right-gather-v2.png",
+      "sourceSha256": "1e4137a608c41aeb3fc1befb60b70698aa75297d339378f833ae9742c358e549",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        465,
+        1191
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        202,
+        145,
+        122,
+        252
+      ],
+      "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "neutralPoint": [
+        515,
+        1158
+      ],
+      "normalizedSupportPoint": [
+        141.6316,
+        461.1789
+      ],
+      "pinLogicalOffset": [
+        16.8424,
+        -11.1159
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "left/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/right-close.png",
+      "sourceSha256": "33dc2e92fd8dcf8f4cc29d010be5bda47b5c2364312ac03b4761d5b302388363",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        465,
+        1180
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        210,
+        155,
+        132,
+        253
+      ],
+      "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "neutralPoint": [
+        515,
+        1158
+      ],
+      "normalizedSupportPoint": [
+        141.6316,
+        457.4737
+      ],
+      "pinLogicalOffset": [
+        16.8424,
+        -7.4107
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "left/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/left-gather-v2.png",
+      "sourceSha256": "11da8dd606c80a28dca31b65a12c046c0dd2c3f28c8e2fc3bbc896a547bca350",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        730,
+        1184
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        197,
+        131,
+        103,
+        252
+      ],
+      "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "neutralPoint": [
+        670,
+        1182
+      ],
+      "normalizedSupportPoint": [
+        230.8947,
+        458.8211
+      ],
+      "pinLogicalOffset": [
+        -20.2107,
+        -0.6741
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "rearLeft/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-gather-v2.png",
+      "sourceSha256": "9aadccef450d7ceaec7d63d1491de6b31ab226ba25777107e6f9a6ba49ac6f9b",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        664,
+        1202
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        126,
+        89,
+        70,
+        206
+      ],
+      "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "neutralPoint": [
+        667,
+        1179
+      ],
+      "normalizedSupportPoint": [
+        208.6632,
+        464.8842
+      ],
+      "pinLogicalOffset": [
+        1.0108,
+        -7.7472
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "rearLeft/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-close.png",
+      "sourceSha256": "d1b3252b470368b08d966e256addb547b07ba80cc7a98044684a30dd7cb328ea",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        695,
+        1185
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        98,
+        70,
+        52,
+        249
+      ],
+      "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "neutralPoint": [
+        667,
+        1179
+      ],
+      "normalizedSupportPoint": [
+        219.1053,
+        459.1579
+      ],
+      "pinLogicalOffset": [
+        -9.4313,
+        -2.0209
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "rearLeft/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-close.png",
+      "sourceSha256": "92ad03516593d004138b33bbe00d20a47a9b5660a40616959ebfd76de12bdb29",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        600,
+        1196
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        146,
+        99,
+        75,
+        253
+      ],
+      "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "neutralPoint": [
+        611,
+        1188
+      ],
+      "normalizedSupportPoint": [
+        187.1053,
+        462.8632
+      ],
+      "pinLogicalOffset": [
+        3.7057,
+        -2.6952
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "rearRight/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-gather-v3.png",
+      "sourceSha256": "e2ad245ccfc74e6d250334b8acda7819f4311cb8228982ddde98a620e6059736",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "right",
+      "point": [
+        611,
+        1187
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        180,
+        116,
+        75,
+        253
+      ],
+      "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "neutralPoint": [
+        613,
+        1186
+      ],
+      "normalizedSupportPoint": [
+        190.8105,
+        459.8316
+      ],
+      "pinLogicalOffset": [
+        0.6735,
+        -0.3366
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "rearRight/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-close-v5.png",
+      "sourceSha256": "4c993ee749d5fd37f1ca6962127de7481b7e0cd92472dcf7a344cfafd4d9bc7a",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        510,
+        1198
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        141,
+        96,
+        70,
+        227
+      ],
+      "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "neutralPoint": [
+        519,
+        1173
+      ],
+      "normalizedSupportPoint": [
+        156.7895,
+        463.5368
+      ],
+      "pinLogicalOffset": [
+        3.0315,
+        -8.4208
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts. Final-v5 has both soles flat side by side, including the far/image-left heel used as support. Earlier repeated-right-support drafts rejected.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "right/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/left-gather-v6.png",
+      "sourceSha256": "d45d3bc7995da6783920a61ffa04bea40b67db5e2fc50fe2ca93555573dac46f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        675,
+        1195
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        210,
+        159,
+        133,
+        253
+      ],
+      "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "neutralPoint": [
+        691,
+        1154
+      ],
+      "normalizedSupportPoint": [
+        212.3684,
+        462.5263
+      ],
+      "pinLogicalOffset": [
+        5.3896,
+        -13.8103
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts. Final-v6 uses bent foreground near-right leg and straight background far-left support; free foot is behind the planted calf on image-left, visibly opposite to the right-support phase.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "right/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/left-close-v4.png",
+      "sourceSha256": "e9d0da34fe46272dddcbf4518ba27f866da57e93c3ae185fd1ae715576a2b634",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        690,
+        1166
+      ],
+      "landmark": "visibleToePad",
+      "sampleRgba": [
+        196,
+        148,
+        118,
+        253
+      ],
+      "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "neutralPoint": [
+        691,
+        1154
+      ],
+      "normalizedSupportPoint": [
+        217.4211,
+        452.7579
+      ],
+      "pinLogicalOffset": [
+        0.3369,
+        -4.0419
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-1.jpg"
+    },
+    "rearLeft/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-gather-v4.png",
+      "sourceSha256": "bbbfdf5ada50014174087b74701ef62aa1634102d40db96232d0ee9917090f3c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "supportFoot": "left",
+      "point": [
+        600,
+        1190
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        196,
+        141,
+        116,
+        252
+      ],
+      "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "neutralPoint": [
+        611,
+        1188
+      ],
+      "normalizedSupportPoint": [
+        187.1053,
+        460.8421
+      ],
+      "pinLogicalOffset": [
+        3.7057,
+        -0.6741
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    },
+    "left/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/left-close-v3.png",
+      "sourceSha256": "5ae188442c8338483d41abf5bc5dcc853243df4f7b9462765bfd177895ff928f",
+      "sourceSize": [
+        1246,
+        1262
+      ],
+      "supportFoot": "left",
+      "point": [
+        650,
+        1194
+      ],
+      "landmark": "visibleHeel",
+      "sampleRgba": [
+        182,
+        123,
+        96,
+        252
+      ],
+      "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "neutralPoint": [
+        670,
+        1182
+      ],
+      "normalizedSupportPoint": [
+        204.5594,
+        459.6399
+      ],
+      "pinLogicalOffset": [
+        6.1246,
+        -1.4929
+      ],
+      "reviewed": true,
+      "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+      "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+      "evidence": "closing-contact-review-2.jpg"
+    }
+  },
+  "note": "32 selected own male gather/close contacts manually reviewed. Approximately2nativepixel precision; maxlogicalaxis20.2107, no clipping after correction. One1246x1262 source uses explicit SHA-locked uniformscale/virtualsquare override, never stretch."
+}

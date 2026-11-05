@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Source-only edit of the now genuinely opposite far-left-support passing; lower its free foreground right leg.",
+  "jobs": [
+    {
+      "output": "right/left-gather-v6.png",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/left-v3.png",
+      "prompt": "Use case: precise-object-edit, identity-preserve. ONE final gathering footstep for this exact male ChuaOnline sprite. Preserve entire original1254x1254 SQUARE canvas, male identity/head/face looking RIGHT, torso, clothing, camera, body scale, ground root and true transparent background. Preserve the existing LEFT supporting leg in the BACKGROUND: its thigh/shin stay straight and its bare sole remains fully planted exactly at the same pixel position as the reference. Preserve the existing RIGHT free leg in the FOREGROUND, bent across IN FRONT of the supporting thigh, with its free foot BEHIND the planted calf on image-LEFT. Change only that airborne bent foreground free leg: lower its knee and bare foot so the foot is now very close beside the supporting ankle, just25sourcepixels above the floor, still clearly airborne. Keep its bent thigh/leg visibly in the FRONT layer, never switch to straight foreground support. The near free foot stays image-LEFT/behind the grounded calf rather than swinging in front on image-right. Compact last gathering step, no long stride, no jumping, no both feet on ground. Quiet the arms closer beside the body while retaining shoulders/head and empty hands. Remove any barely visible background residue so every pixel outside the figure is perfectly transparent; preserve natural antialiasing at the silhouette only. No text, floor, cast shadow, prop, extra figure, mirror/flip or zoom/crop. One complete figure only, fixed square transparent margins.",
+      "sourceSha256": "82b2fc03772ad3ef5ac7527b1de0ff8f6cd26aec0471700dd88599a230bdfc5d",
+      "references": [
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/left-v3.png",
+          "sha256": "82b2fc03772ad3ef5ac7527b1de0ff8f6cd26aec0471700dd88599a230bdfc5d"
+        }
+      ],
+      "generatedSource": "C:/Users/Admin/.codex/generated_images/01a1a94a-5b3d-77d0-ba4e-227caae26ea8/exec-89e3f5c7-4859-48e3-98b3-b2a66dd3ad3c.png",
+      "outputSha256": "d45d3bc7995da6783920a61ffa04bea40b67db5e2fc50fe2ca93555573dac46f"
+    }
+  ]
+}

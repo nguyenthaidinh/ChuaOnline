@@ -1,0 +1,1029 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "appearance": "granny",
+      "heading": "rear",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "7ff04f9b18ba85eff8aeef8c6d800c8e5d605de49be068c86bcd773f386d3d4a",
+        "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rear",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "7ff04f9b18ba85eff8aeef8c6d800c8e5d605de49be068c86bcd773f386d3d4a",
+        "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rear",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "642e6ad718a8b01ab322d30e9ffc3c9badde72399a66718af16f87081445dbea",
+        "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rear",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "642e6ad718a8b01ab322d30e9ffc3c9badde72399a66718af16f87081445dbea",
+        "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rear",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "6d1bce50b16a981aeebba635770db391da792f20ee35d90cbc5ec32442fe324d",
+        "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rear",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "6d1bce50b16a981aeebba635770db391da792f20ee35d90cbc5ec32442fe324d",
+        "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rear",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "8dda223fd211587dc4e4ecc3f4e61afa998d3f344f8844663aa6fba328035c6a",
+        "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rear",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rear, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "8dda223fd211587dc4e4ecc3f4e61afa998d3f344f8844663aa6fba328035c6a",
+        "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearRight",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "cc2fd70ee7f28d47ca03d4b122696840bd83b6e561a53c472731edebbe9399a5",
+        "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearRight",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "cc2fd70ee7f28d47ca03d4b122696840bd83b6e561a53c472731edebbe9399a5",
+        "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearRight",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "401150341a4225448346dbe7303acb707830627d705b11c77712625c3649230d",
+        "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearRight",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "401150341a4225448346dbe7303acb707830627d705b11c77712625c3649230d",
+        "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "right",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png"
+      ],
+      "referenceHashes": [
+        "ca0c305071bb1c3189166a47c4f7a6fa099431bdb472f2196f0140483b870f45",
+        "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "right",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png"
+      ],
+      "referenceHashes": [
+        "ca0c305071bb1c3189166a47c4f7a6fa099431bdb472f2196f0140483b870f45",
+        "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "right",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png"
+      ],
+      "referenceHashes": [
+        "1123e95954d102c2983e2b840147aae7079f9b11f0a21b649a5c463ef43b6029",
+        "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "right",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png"
+      ],
+      "referenceHashes": [
+        "1123e95954d102c2983e2b840147aae7079f9b11f0a21b649a5c463ef43b6029",
+        "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontRight",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "275c3bc82ffa2a5425b9369260aa585e278f79851c6012f270dddfc42de88f85",
+        "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontRight",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "275c3bc82ffa2a5425b9369260aa585e278f79851c6012f270dddfc42de88f85",
+        "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontRight",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "b3835ffa50dd8786825e837ceba38e33189eefcd912ad39646dbea9c2a0753d5",
+        "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontRight",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "b3835ffa50dd8786825e837ceba38e33189eefcd912ad39646dbea9c2a0753d5",
+        "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "front",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/front/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png"
+      ],
+      "referenceHashes": [
+        "71d1e0314da9188e9372bcf84ba3bd7be14ebd09e5ea46e5f936dfe764a9b1f4",
+        "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "front",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/front/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png"
+      ],
+      "referenceHashes": [
+        "71d1e0314da9188e9372bcf84ba3bd7be14ebd09e5ea46e5f936dfe764a9b1f4",
+        "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "front",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/front/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png"
+      ],
+      "referenceHashes": [
+        "b3e955f4aa7dec3eabb0a4fd9c4ca2b98a94a0a7982c05d574bed9527033df8b",
+        "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "front",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/front/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png"
+      ],
+      "referenceHashes": [
+        "b3e955f4aa7dec3eabb0a4fd9c4ca2b98a94a0a7982c05d574bed9527033df8b",
+        "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/left-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearRight",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "9bbf90c0cb7932dc9a6937cfa7118086d12c85e32355f6166754168d085b597c",
+        "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearRight",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "9bbf90c0cb7932dc9a6937cfa7118086d12c85e32355f6166754168d085b597c",
+        "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearRight",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "942178c2b216984d91122c704da08956982444d62aad0e35cce0c2e0e01ae50a",
+        "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearRight",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png"
+      ],
+      "referenceHashes": [
+        "942178c2b216984d91122c704da08956982444d62aad0e35cce0c2e0e01ae50a",
+        "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "right",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/right/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/right/stand.png"
+      ],
+      "referenceHashes": [
+        "191f7c5fe7684cdea232c8b767585fa56f5953294b8b05839ab1af73ccec0b54",
+        "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "right",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/right/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/right/stand.png"
+      ],
+      "referenceHashes": [
+        "191f7c5fe7684cdea232c8b767585fa56f5953294b8b05839ab1af73ccec0b54",
+        "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "right",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/right/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/right/stand.png"
+      ],
+      "referenceHashes": [
+        "f5e251b4ebe23f5326e72ff89848fbc21093ef90d0371dddb3cb41bafe0dc6fd",
+        "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "right",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading right, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/right/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/right/stand.png"
+      ],
+      "referenceHashes": [
+        "f5e251b4ebe23f5326e72ff89848fbc21093ef90d0371dddb3cb41bafe0dc6fd",
+        "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/left-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontRight",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "9af1ac906a562f176d72b87d6b454f37cca1a6309db4edfc18466053d32835e6",
+        "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontRight",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "9af1ac906a562f176d72b87d6b454f37cca1a6309db4edfc18466053d32835e6",
+        "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontRight",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "3a9381ca56996bbaf8709b7b8d252e9868d6679db4f8f7fd7ecee15fd2aca884",
+        "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontRight",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontRight, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "3a9381ca56996bbaf8709b7b8d252e9868d6679db4f8f7fd7ecee15fd2aca884",
+        "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "front",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/front/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/front/stand.png"
+      ],
+      "referenceHashes": [
+        "4e97b22241c3cdbe671f7ab9430140b236c1887b0864e1b3d1e3399a9ff51140",
+        "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "front",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/front/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/front/stand.png"
+      ],
+      "referenceHashes": [
+        "4e97b22241c3cdbe671f7ab9430140b236c1887b0864e1b3d1e3399a9ff51140",
+        "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "front",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/front/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/front/stand.png"
+      ],
+      "referenceHashes": [
+        "b968e2c574a5776f3dbad2724c945997caf413e29f423c77cd7912c971db9d93",
+        "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "front",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading front, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/front/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/front/stand.png"
+      ],
+      "referenceHashes": [
+        "b968e2c574a5776f3dbad2724c945997caf413e29f423c77cd7912c971db9d93",
+        "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/left-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontLeft",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "c92cb327bc68d5d9c382267d0eede48f6f9e699572e399add2f71c8ad472ab25",
+        "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontLeft",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "c92cb327bc68d5d9c382267d0eede48f6f9e699572e399add2f71c8ad472ab25",
+        "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontLeft",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "39b1943649e10877be256182bd5342c2ee098d66fb416c1ac51f31feee2a988c",
+        "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "frontLeft",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "39b1943649e10877be256182bd5342c2ee098d66fb416c1ac51f31feee2a988c",
+        "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "left",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/left/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "referenceHashes": [
+        "3e60571ba8156bf64625718715bb740a0884ad8bc1e839eccd2620212006d0ac",
+        "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "left",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/left/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "referenceHashes": [
+        "3e60571ba8156bf64625718715bb740a0884ad8bc1e839eccd2620212006d0ac",
+        "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "left",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/left/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "referenceHashes": [
+        "c6396f62ceb0f594033dd341f5e83d8d6f8883181f3e524bd0d9874d3a23fb93",
+        "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "left",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/left/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "referenceHashes": [
+        "c6396f62ceb0f594033dd341f5e83d8d6f8883181f3e524bd0d9874d3a23fb93",
+        "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/left-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearLeft",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "32a4a0dd33b358752c2b6d5d9b88ccae51ebc48b702b97692ec3fc86d442f651",
+        "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearLeft",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "32a4a0dd33b358752c2b6d5d9b88ccae51ebc48b702b97692ec3fc86d442f651",
+        "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-close.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearLeft",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "faf3af81f992fff5c4944cafd172cda5eb551c2d4a61c75ecd5750c9e5174cf5",
+        "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather.png"
+    },
+    {
+      "appearance": "granny",
+      "heading": "rearLeft",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same elderly Vietnamese woman, grey low bun and warm brown ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/06-opposite-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "faf3af81f992fff5c4944cafd172cda5eb551c2d4a61c75ecd5750c9e5174cf5",
+        "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontLeft",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "e1abfc33e8c6e6ad3d0f95f4ff5e3f9683fbf96a31d5d9a617660f14cd1faba7",
+        "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontLeft",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "e1abfc33e8c6e6ad3d0f95f4ff5e3f9683fbf96a31d5d9a617660f14cd1faba7",
+        "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontLeft",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "ee6dcb95846c17f89d4cc514ab10167fe51969f6a1a92552733d11852d8b1ba2",
+        "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "frontLeft",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading frontLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "ee6dcb95846c17f89d4cc514ab10167fe51969f6a1a92552733d11852d8b1ba2",
+        "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "left",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png"
+      ],
+      "referenceHashes": [
+        "c89dee30e3616dcca0c01995eaa61d0ac0473b945e11a9433d255ea2248fd800",
+        "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "left",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png"
+      ],
+      "referenceHashes": [
+        "c89dee30e3616dcca0c01995eaa61d0ac0473b945e11a9433d255ea2248fd800",
+        "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "left",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v3.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png"
+      ],
+      "referenceHashes": [
+        "617627cf4850f31f64093e74129ea25d7fec44a10fa0442ce1fa63b763e6d52c",
+        "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "left",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading left, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v3.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png"
+      ],
+      "referenceHashes": [
+        "617627cf4850f31f64093e74129ea25d7fec44a10fa0442ce1fa63b763e6d52c",
+        "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/left-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearLeft",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical LEFT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png"
+      ],
+      "referenceHashes": [
+        "fec85ab2217f1677ca2c0614755f9e73419719e52177cd0c310cb882cd7b0a79",
+        "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearLeft",
+      "supportFoot": "right",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical RIGHT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical LEFT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical LEFT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original RIGHT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png"
+      ],
+      "referenceHashes": [
+        "fec85ab2217f1677ca2c0614755f9e73419719e52177cd0c310cb882cd7b0a79",
+        "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-close.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearLeft",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the GATHER intermediate closing step. The airborne anatomical RIGHT foot moves halfway toward its neutral position, staying slightly off the floor. Arms soften toward their resting sides. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png"
+      ],
+      "referenceHashes": [
+        "4f0b3001d1d4dbd48c686fc4e1d70ac9d7a1ae5a7abb5d5ad16954fba9e3c7b2",
+        "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-gather.png"
+    },
+    {
+      "appearance": "woman",
+      "heading": "rearLeft",
+      "supportFoot": "left",
+      "phase": "close",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline stopping animation pose, not a sheet. Image1 is the approved MID-STANCE/PASSING pose: anatomical LEFT leg is the straight planted weight-bearing support UNDER THE HIP, and anatomical RIGHT leg is airborne. Image2 is the matching neutral identity/stance target. Create the CLOSE intermediate closing step. The moving anatomical RIGHT toes softly touch down close beside the supporting foot, knees straighten gently, both arms nearly neutral. Keep weight on the original support leg until the second foot has landed. The original LEFT support heel/sole stays FLAT at the EXACT source pixel location in image1; do not swap legs, lift that heel, or slide it. Preserve the same adult Vietnamese woman, dark low bun and blue-grey ao lam, face/bun/garment, root/body scale, elevated orthographic-style camera, heading rearLeft, warm upper-left light and fixed framing. Keep the head and torso aimed in precisely image1's direction; do not turn toward the camera. Same square1254 transparent canvas, root origin nearx615,y1210 and original transparent margins. No zoom, recenter, cropping, mirrored anatomy, extra limbs/person, props, cushion, floor, baked shadow, text or motion blur. Genuine clean RGBA transparency.",
+      "references": [
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+        "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png"
+      ],
+      "referenceHashes": [
+        "4f0b3001d1d4dbd48c686fc4e1d70ac9d7a1ae5a7abb5d5ad16954fba9e3c7b2",
+        "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-close.png"
+    }
+  ]
+}

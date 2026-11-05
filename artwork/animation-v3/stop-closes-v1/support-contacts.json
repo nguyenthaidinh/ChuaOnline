@@ -1,0 +1,3131 @@
+{
+  "appearances": {
+    "man": {
+      "appearance": "man",
+      "status": "complete",
+      "frames": {
+        "rear/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rear/right-gather-v2.png",
+          "sourceSha256": "02831ea0a87bc1d416692501eae3030d8304f191b14ebf6447c1504c0dd94e01",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            616,
+            1184
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            162,
+            112,
+            74,
+            252
+          ],
+          "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+          "neutralPoint": [
+            665,
+            1206
+          ],
+          "normalizedSupportPoint": [
+            192.4947,
+            458.8211
+          ],
+          "pinLogicalOffset": [
+            16.5053,
+            7.4109
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "rear/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rear/right-close.png",
+          "sourceSha256": "d763ff9310e0c340720e83a4904b93df8503aa87110717c4ba63e94ac73c4093",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            643,
+            1197
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            170,
+            119,
+            87,
+            253
+          ],
+          "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+          "neutralPoint": [
+            665,
+            1206
+          ],
+          "normalizedSupportPoint": [
+            201.5895,
+            463.2
+          ],
+          "pinLogicalOffset": [
+            7.4105,
+            3.032
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "rear/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rear/left-gather-v2.png",
+          "sourceSha256": "dd6ef749063235b18599b7b5386d995b258bb12e9e8cfa9297ba204ec33baf25",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            580,
+            1198
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            174,
+            125,
+            88,
+            253
+          ],
+          "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+          "neutralPoint": [
+            560,
+            1207
+          ],
+          "normalizedSupportPoint": [
+            180.3684,
+            463.5368
+          ],
+          "pinLogicalOffset": [
+            -6.7364,
+            3.0312
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "rear/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rear/left-close.png",
+          "sourceSha256": "345510252816ce34476d77bf9338031d5da29a83be7015d16aba10d89adcc958",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            560,
+            1210
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            146,
+            104,
+            74,
+            249
+          ],
+          "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+          "neutralPoint": [
+            560,
+            1207
+          ],
+          "normalizedSupportPoint": [
+            173.6316,
+            467.5789
+          ],
+          "pinLogicalOffset": [
+            0.0004,
+            -1.0109
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "rearRight/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-close.png",
+          "sourceSha256": "ca5d7cab0020c26bd37c2ed7c4fff7f04351247318d72e7329556425ea009337",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            602,
+            1179
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            165,
+            107,
+            72,
+            251
+          ],
+          "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+          "neutralPoint": [
+            613,
+            1186
+          ],
+          "normalizedSupportPoint": [
+            187.7789,
+            457.1368
+          ],
+          "pinLogicalOffset": [
+            3.7051,
+            2.3582
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "rearRight/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-gather-v2.png",
+          "sourceSha256": "3e350d3b9608cf8c5b0c988f94a3c56e57740b9bf51d8b60eb9e203be2017135",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            531,
+            1182
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            171,
+            109,
+            72,
+            252
+          ],
+          "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+          "neutralPoint": [
+            519,
+            1173
+          ],
+          "normalizedSupportPoint": [
+            163.8632,
+            458.1474
+          ],
+          "pinLogicalOffset": [
+            -4.0422,
+            -3.0314
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "right/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/right/right-gather-v2.png",
+          "sourceSha256": "f036a07e3fd248c54d9d47abd95df052085254eb3d9f20772fb8928d76027df5",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            490,
+            1188
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            188,
+            134,
+            102,
+            252
+          ],
+          "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+          "neutralPoint": [
+            540,
+            1181
+          ],
+          "normalizedSupportPoint": [
+            150.0526,
+            460.1684
+          ],
+          "pinLogicalOffset": [
+            16.8424,
+            -2.3574
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "right/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/right/right-close.png",
+          "sourceSha256": "d3df76343e0993d4a0eb11dfcd83278f63294c7a9b77073b6a394c78484d191f",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            550,
+            1184
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            215,
+            154,
+            128,
+            252
+          ],
+          "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+          "neutralPoint": [
+            540,
+            1181
+          ],
+          "normalizedSupportPoint": [
+            170.2632,
+            458.8211
+          ],
+          "pinLogicalOffset": [
+            -3.3682,
+            -1.0101
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "frontRight/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-gather-v2.png",
+          "sourceSha256": "24c447b182e731915b3f330ceb13092cd63d98cb57db69ac91ebd5e592767b12",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            604,
+            1208
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            215,
+            156,
+            120,
+            253
+          ],
+          "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+          "neutralPoint": [
+            558,
+            1217
+          ],
+          "normalizedSupportPoint": [
+            188.4526,
+            466.9053
+          ],
+          "pinLogicalOffset": [
+            -15.4946,
+            3.0317
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "frontRight/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-close.png",
+          "sourceSha256": "ccc522a4c5eb788161e1d7177dd5b5d1d2394e63f2d92270ec463b4cac21425c",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            575,
+            1220
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            220,
+            147,
+            125,
+            252
+          ],
+          "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+          "neutralPoint": [
+            558,
+            1217
+          ],
+          "normalizedSupportPoint": [
+            178.6842,
+            470.9474
+          ],
+          "pinLogicalOffset": [
+            -5.7262,
+            -1.0104
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "frontRight/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-gather-v2.png",
+          "sourceSha256": "995e86b7c622e29d0778c4da459967fd3a16391190f0a3010d7fc43cd0d917a2",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            680,
+            1214
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            160,
+            116,
+            91,
+            253
+          ],
+          "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+          "neutralPoint": [
+            686,
+            1208
+          ],
+          "normalizedSupportPoint": [
+            214.0526,
+            468.9263
+          ],
+          "pinLogicalOffset": [
+            2.0214,
+            -2.0213
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "frontRight/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-close.png",
+          "sourceSha256": "2fe38987d7297a0e2fd1221192dae84298985ad0e09424f1719dbc3dcbb6b787",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            676,
+            1211
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            153,
+            98,
+            74,
+            243
+          ],
+          "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+          "neutralPoint": [
+            686,
+            1208
+          ],
+          "normalizedSupportPoint": [
+            212.7053,
+            467.9158
+          ],
+          "pinLogicalOffset": [
+            3.3687,
+            -1.0108
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "front/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/front/right-gather-v2.png",
+          "sourceSha256": "1ec64cd1efac2b0848233b1112ecc6c893f83f8bf93cff1f15658c5cbeb5e770",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            570,
+            1218
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            210,
+            144,
+            114,
+            253
+          ],
+          "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+          "neutralPoint": [
+            552,
+            1216
+          ],
+          "normalizedSupportPoint": [
+            177.0,
+            470.2737
+          ],
+          "pinLogicalOffset": [
+            -6.063,
+            -0.6737
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "front/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/front/right-close.png",
+          "sourceSha256": "b9d5f3257bf56c649c88cd682108228683bfb03cf0533860e627a0019fab41cc",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            555,
+            1216
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            227,
+            175,
+            155,
+            252
+          ],
+          "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+          "neutralPoint": [
+            552,
+            1216
+          ],
+          "normalizedSupportPoint": [
+            171.9474,
+            469.6
+          ],
+          "pinLogicalOffset": [
+            -1.0104,
+            0.0
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "front/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/front/left-gather-v2.png",
+          "sourceSha256": "e5b0d0c82bea82326c6150e446a85c7bf135d8bd24f3413db04f8c3419fdbc2c",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            650,
+            1210
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            207,
+            143,
+            122,
+            252
+          ],
+          "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+          "neutralPoint": [
+            662,
+            1217
+          ],
+          "normalizedSupportPoint": [
+            203.9474,
+            467.5789
+          ],
+          "pinLogicalOffset": [
+            4.0416,
+            2.3581
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "front/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/front/left-close.png",
+          "sourceSha256": "cc0a812ed92b12579ab9d0bb52370c8a01371a9a3c206010ac2ed7e565dcf977",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            665,
+            1217
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            166,
+            100,
+            73,
+            252
+          ],
+          "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+          "neutralPoint": [
+            662,
+            1217
+          ],
+          "normalizedSupportPoint": [
+            209.0,
+            469.9368
+          ],
+          "pinLogicalOffset": [
+            -1.011,
+            0.0002
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "frontLeft/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-gather-v2.png",
+          "sourceSha256": "937ec4b1aa04459bc87511311942397e7a75373ab3845d64c1464860bb4f62e3",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            520,
+            1204
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            145,
+            90,
+            64,
+            237
+          ],
+          "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+          "neutralPoint": [
+            500,
+            1205
+          ],
+          "normalizedSupportPoint": [
+            160.1579,
+            465.5579
+          ],
+          "pinLogicalOffset": [
+            -6.7369,
+            0.3371
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "frontLeft/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-close.png",
+          "sourceSha256": "6bca92a8402a23d9bc8d1e2b22e51934fd8bbb42e5842d3682dcb56e22d914f1",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            460,
+            1212
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            219,
+            161,
+            138,
+            253
+          ],
+          "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+          "neutralPoint": [
+            500,
+            1205
+          ],
+          "normalizedSupportPoint": [
+            139.9474,
+            468.2526
+          ],
+          "pinLogicalOffset": [
+            13.4736,
+            -2.3576
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "frontLeft/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-gather-v2.png",
+          "sourceSha256": "822a6d6915c01a44d2066d012c41201b66ed0386c8469a07129b10959de0cefe",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            660,
+            1198
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            193,
+            129,
+            105,
+            253
+          ],
+          "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+          "neutralPoint": [
+            652,
+            1216
+          ],
+          "normalizedSupportPoint": [
+            207.3158,
+            463.5368
+          ],
+          "pinLogicalOffset": [
+            -2.6948,
+            6.0632
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "frontLeft/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-close.png",
+          "sourceSha256": "956f421d27e7ee136738c024803ca37c0a523cdbedc4e5ddfef7df9ecb585650",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            670,
+            1218
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            189,
+            129,
+            105,
+            253
+          ],
+          "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+          "neutralPoint": [
+            652,
+            1216
+          ],
+          "normalizedSupportPoint": [
+            210.6842,
+            470.2737
+          ],
+          "pinLogicalOffset": [
+            -6.0632,
+            -0.6737
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "left/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/left/right-gather-v2.png",
+          "sourceSha256": "1e4137a608c41aeb3fc1befb60b70698aa75297d339378f833ae9742c358e549",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            465,
+            1191
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            202,
+            145,
+            122,
+            252
+          ],
+          "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+          "neutralPoint": [
+            515,
+            1158
+          ],
+          "normalizedSupportPoint": [
+            141.6316,
+            461.1789
+          ],
+          "pinLogicalOffset": [
+            16.8424,
+            -11.1159
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "left/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/left/right-close.png",
+          "sourceSha256": "33dc2e92fd8dcf8f4cc29d010be5bda47b5c2364312ac03b4761d5b302388363",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            465,
+            1180
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            210,
+            155,
+            132,
+            253
+          ],
+          "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+          "neutralPoint": [
+            515,
+            1158
+          ],
+          "normalizedSupportPoint": [
+            141.6316,
+            457.4737
+          ],
+          "pinLogicalOffset": [
+            16.8424,
+            -7.4107
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "left/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/left/left-gather-v2.png",
+          "sourceSha256": "11da8dd606c80a28dca31b65a12c046c0dd2c3f28c8e2fc3bbc896a547bca350",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            730,
+            1184
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            197,
+            131,
+            103,
+            252
+          ],
+          "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+          "neutralPoint": [
+            670,
+            1182
+          ],
+          "normalizedSupportPoint": [
+            230.8947,
+            458.8211
+          ],
+          "pinLogicalOffset": [
+            -20.2107,
+            -0.6741
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "rearLeft/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-gather-v2.png",
+          "sourceSha256": "9aadccef450d7ceaec7d63d1491de6b31ab226ba25777107e6f9a6ba49ac6f9b",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            664,
+            1202
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            126,
+            89,
+            70,
+            206
+          ],
+          "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+          "neutralPoint": [
+            667,
+            1179
+          ],
+          "normalizedSupportPoint": [
+            208.6632,
+            464.8842
+          ],
+          "pinLogicalOffset": [
+            1.0108,
+            -7.7472
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "rearLeft/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-close.png",
+          "sourceSha256": "d1b3252b470368b08d966e256addb547b07ba80cc7a98044684a30dd7cb328ea",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            695,
+            1185
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            98,
+            70,
+            52,
+            249
+          ],
+          "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+          "neutralPoint": [
+            667,
+            1179
+          ],
+          "normalizedSupportPoint": [
+            219.1053,
+            459.1579
+          ],
+          "pinLogicalOffset": [
+            -9.4313,
+            -2.0209
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "rearLeft/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-close.png",
+          "sourceSha256": "92ad03516593d004138b33bbe00d20a47a9b5660a40616959ebfd76de12bdb29",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            600,
+            1196
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            146,
+            99,
+            75,
+            253
+          ],
+          "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+          "neutralPoint": [
+            611,
+            1188
+          ],
+          "normalizedSupportPoint": [
+            187.1053,
+            462.8632
+          ],
+          "pinLogicalOffset": [
+            3.7057,
+            -2.6952
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "rearRight/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-gather-v3.png",
+          "sourceSha256": "e2ad245ccfc74e6d250334b8acda7819f4311cb8228982ddde98a620e6059736",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            611,
+            1187
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            180,
+            116,
+            75,
+            253
+          ],
+          "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+          "neutralPoint": [
+            613,
+            1186
+          ],
+          "normalizedSupportPoint": [
+            190.8105,
+            459.8316
+          ],
+          "pinLogicalOffset": [
+            0.6735,
+            -0.3366
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "rearRight/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-close-v5.png",
+          "sourceSha256": "4c993ee749d5fd37f1ca6962127de7481b7e0cd92472dcf7a344cfafd4d9bc7a",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            510,
+            1198
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            141,
+            96,
+            70,
+            227
+          ],
+          "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+          "neutralPoint": [
+            519,
+            1173
+          ],
+          "normalizedSupportPoint": [
+            156.7895,
+            463.5368
+          ],
+          "pinLogicalOffset": [
+            3.0315,
+            -8.4208
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts. Final-v5 has both soles flat side by side, including the far/image-left heel used as support. Earlier repeated-right-support drafts rejected.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "right/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/right/left-gather-v6.png",
+          "sourceSha256": "d45d3bc7995da6783920a61ffa04bea40b67db5e2fc50fe2ca93555573dac46f",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            675,
+            1195
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            210,
+            159,
+            133,
+            253
+          ],
+          "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+          "neutralPoint": [
+            691,
+            1154
+          ],
+          "normalizedSupportPoint": [
+            212.3684,
+            462.5263
+          ],
+          "pinLogicalOffset": [
+            5.3896,
+            -13.8103
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts. Final-v6 uses bent foreground near-right leg and straight background far-left support; free foot is behind the planted calf on image-left, visibly opposite to the right-support phase.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "right/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/right/left-close-v4.png",
+          "sourceSha256": "e9d0da34fe46272dddcbf4518ba27f866da57e93c3ae185fd1ae715576a2b634",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            690,
+            1166
+          ],
+          "landmark": "visibleToePad",
+          "sampleRgba": [
+            196,
+            148,
+            118,
+            253
+          ],
+          "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+          "neutralPoint": [
+            691,
+            1154
+          ],
+          "normalizedSupportPoint": [
+            217.4211,
+            452.7579
+          ],
+          "pinLogicalOffset": [
+            0.3369,
+            -4.0419
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-1.jpg"
+        },
+        "rearLeft/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-gather-v4.png",
+          "sourceSha256": "bbbfdf5ada50014174087b74701ef62aa1634102d40db96232d0ee9917090f3c",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            600,
+            1190
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            196,
+            141,
+            116,
+            252
+          ],
+          "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+          "neutralPoint": [
+            611,
+            1188
+          ],
+          "normalizedSupportPoint": [
+            187.1053,
+            460.8421
+          ],
+          "pinLogicalOffset": [
+            3.7057,
+            -0.6741
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        },
+        "left/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/man/left/left-close-v3.png",
+          "sourceSha256": "5ae188442c8338483d41abf5bc5dcc853243df4f7b9462765bfd177895ff928f",
+          "sourceSize": [
+            1246,
+            1262
+          ],
+          "supportFoot": "left",
+          "point": [
+            650,
+            1194
+          ],
+          "landmark": "visibleHeel",
+          "sampleRgba": [
+            182,
+            123,
+            96,
+            252
+          ],
+          "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+          "neutralPoint": [
+            670,
+            1182
+          ],
+          "normalizedSupportPoint": [
+            204.5594,
+            459.6399
+          ],
+          "pinLogicalOffset": [
+            6.1246,
+            -1.4929
+          ],
+          "reviewed": true,
+          "review": "Selected native source and marked foot grid visually reviewed. Straight weight-bearing leg and free gathering/closing foot traced from the same-foot passing, matched to own neutral visible heel or plantar forefoot landmark. No hidden heel inferred, no cross-identity coordinate scaling. Corrected sources retain prior drafts.",
+          "method": "Native grid seed manually chosen; snapped at most12sourcepixels to visible skin alpha>=200. Approximately2pixel measurement precision, not optical tracking.",
+          "evidence": "closing-contact-review-2.jpg"
+        }
+      },
+      "note": "32 selected own male gather/close contacts manually reviewed. Approximately2nativepixel precision; maxlogicalaxis20.2107, no clipping after correction. One1246x1262 source uses explicit SHA-locked uniformscale/virtualsquare override, never stretch."
+    },
+    "woman": {
+      "appearance": "woman",
+      "status": "complete",
+      "count": 32,
+      "measurement": "Manual native-source skin/alpha landmarks reviewed with full body and fixed-scale light/dark boards; each support contact uses the same landmark kind as its own neutral foot.",
+      "frames": {
+        "rear/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rear/right-gather.png",
+          "sourceSha256": "29618ac58c4bac6b9bf383bbf0a2ec95f79262a6e07f640cc6d879433009fd12",
+          "point": [
+            620,
+            1195
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            155,
+            107,
+            73,
+            251
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+            "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+            "point": [
+              675,
+              1206
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 18.893
+        },
+        "rear/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rear/right-close.png",
+          "sourceSha256": "84e5f9e064c2d37e694523b9b82069f101665a813d343157998323448a80ecfe",
+          "point": [
+            620,
+            1195
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            166,
+            115,
+            80,
+            252
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+            "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+            "point": [
+              675,
+              1206
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 18.893
+        },
+        "rear/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rear/left-gather.png",
+          "sourceSha256": "261fbe6d4c40f1d45f2054053191c0f718ed5a51e4a2c3aca82875d99dc395cf",
+          "point": [
+            594,
+            1201
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            165,
+            113,
+            81,
+            252
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+            "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+            "point": [
+              570,
+              1206
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 8.258
+        },
+        "rear/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rear/left-close.png",
+          "sourceSha256": "8fd52009320d45956b1312f11fdc20894bff8cdd432cd14c062ae5f907adffec",
+          "point": [
+            594,
+            1203
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            164,
+            112,
+            77,
+            252
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+            "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+            "point": [
+              570,
+              1206
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 8.147
+        },
+        "rearRight/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-gather-v2.png",
+          "sourceSha256": "d06dd9b6ecc103e90b05ba3e6fba2ecde414d5370752c0279aee33ed692bb2a0",
+          "point": [
+            625,
+            1186
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            188,
+            125,
+            86,
+            253
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+            "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+            "point": [
+              627,
+              1183
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 1.215
+        },
+        "rearRight/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-close.png",
+          "sourceSha256": "e7c61c5c35106340f8dd342b0cb30d988194a203aee19b5532ba56869b8436da",
+          "point": [
+            624,
+            1186
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            182,
+            124,
+            86,
+            252
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+            "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+            "point": [
+              627,
+              1183
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 1.429
+        },
+        "rearRight/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-gather-v2.png",
+          "sourceSha256": "5e6ef162cfbf8a451b7a695578342754467d8da82bda17413647a66a90f14c5b",
+          "point": [
+            543,
+            1192
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            159,
+            108,
+            76,
+            250
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+            "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+            "point": [
+              535,
+              1177
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 5.726
+        },
+        "rearRight/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-close.png",
+          "sourceSha256": "661698719fcee3eb2107b056e1def54fd029b3ffceda414a9134c56bf9a4e059",
+          "point": [
+            510,
+            1184
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            196,
+            138,
+            98,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+            "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+            "point": [
+              535,
+              1177
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 8.745
+        },
+        "right/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/right/right-gather.png",
+          "sourceSha256": "cadf0304b0bf7a0d779031ae479a93fa43e8186889c2890d31546c187de98a22",
+          "point": [
+            490,
+            1194
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            151,
+            107,
+            78,
+            249
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+            "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+            "point": [
+              562,
+              1189
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 24.311
+        },
+        "right/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/right/right-close.png",
+          "sourceSha256": "7f7112dfb832435959fdce8813c9b0e675f373a64ce7305c6c684143f0b39fba",
+          "point": [
+            490,
+            1194
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            161,
+            112,
+            79,
+            249
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+            "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+            "point": [
+              562,
+              1189
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 24.311
+        },
+        "right/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-gather.png",
+          "sourceSha256": "eb5f157786b2d1f4e0e756ec74c7b4abc1e9747bf2074b651e18b0ba26d321a2",
+          "point": [
+            670,
+            1193
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            185,
+            135,
+            110,
+            247
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+            "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+            "point": [
+              690,
+              1164
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 11.866
+        },
+        "right/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-close.png",
+          "sourceSha256": "567311d88d8410ac7523049d3dee415e50ee58224144acc19d82f0b342bca454",
+          "point": [
+            670,
+            1192
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            193,
+            141,
+            116,
+            247
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+            "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+            "point": [
+              690,
+              1164
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 11.591
+        },
+        "frontRight/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-gather.png",
+          "sourceSha256": "e014752bcaa48b866ceccf3e3a0ce4a917d7a9d32e1ec26a8c0ecfe94539f328",
+          "point": [
+            557,
+            1196
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            188,
+            136,
+            106,
+            252
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+            "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+            "point": [
+              539,
+              1195
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 6.073
+        },
+        "frontRight/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-close.png",
+          "sourceSha256": "9a5e6891f4150ea69b1e0a93450d38389583e27a5ec41dced73c37fec20b268d",
+          "point": [
+            552,
+            1194
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            204,
+            150,
+            109,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+            "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+            "point": [
+              539,
+              1195
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 4.392
+        },
+        "frontRight/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-gather.png",
+          "sourceSha256": "af20c1138b1e45725d0daf96b88498f5dc3203279f9002df7bffc365b636f360",
+          "point": [
+            621,
+            1198
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            169,
+            117,
+            89,
+            253
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+            "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+            "point": [
+              635,
+              1193
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 5.008
+        },
+        "frontRight/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-close.png",
+          "sourceSha256": "bd2c7c2f1203a32bb25d61d9fe89c3cd0aa1c98a7f80fbbb1f926f2a7907d0da",
+          "point": [
+            612,
+            1196
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            141,
+            96,
+            72,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+            "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+            "point": [
+              635,
+              1193
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 7.813
+        },
+        "front/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/front/right-gather.png",
+          "sourceSha256": "af4c39fcb8cf451296e9c86ddf32834fed97fceb7ce876bb7b4557d6174d1965",
+          "point": [
+            565,
+            1226
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            208,
+            149,
+            126,
+            252
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+            "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+            "point": [
+              570,
+              1215
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 4.07
+        },
+        "front/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/front/right-close.png",
+          "sourceSha256": "c628f5569830695ecf6f2b191c9cefa153d481debcc3b59b5f410bb52ea051a7",
+          "point": [
+            565,
+            1226
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            208,
+            147,
+            121,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+            "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+            "point": [
+              570,
+              1215
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 4.07
+        },
+        "front/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/front/left-gather.png",
+          "sourceSha256": "fdaf0e5e7b8eab1b54d126f5aa52eb5dec6cca607556fb13e669db424e11548c",
+          "point": [
+            658,
+            1209
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            215,
+            153,
+            126,
+            252
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+            "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+            "point": [
+              665,
+              1215
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 3.106
+        },
+        "front/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/front/left-close.png",
+          "sourceSha256": "7cbfc86cd4077ded9f681c321e2642729c07486891b068d53ea892f61e5b725f",
+          "point": [
+            658,
+            1209
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            216,
+            144,
+            115,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+            "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+            "point": [
+              665,
+              1215
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 3.106
+        },
+        "frontLeft/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-gather.png",
+          "sourceSha256": "a0d9744c8bf938ac0c0085a7f980d4caae39688bdb9566b9adc150c070b66178",
+          "point": [
+            600,
+            1190
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            186,
+            134,
+            109,
+            252
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+            "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+            "point": [
+              592,
+              1190
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 2.695
+        },
+        "frontLeft/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-close.png",
+          "sourceSha256": "d446ac6e185ff16f219f7c12f19816ab32b74e48859b7c099c2aa05be7c74773",
+          "point": [
+            600,
+            1190
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            191,
+            135,
+            105,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+            "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+            "point": [
+              592,
+              1190
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 2.695
+        },
+        "frontLeft/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-gather.png",
+          "sourceSha256": "23fb91079be76f8124fb84e882b56128e853af914d77dab4855ad5eb1bf13f2e",
+          "point": [
+            636,
+            1201
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            216,
+            149,
+            118,
+            253
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+            "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+            "point": [
+              635,
+              1221
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 6.745
+        },
+        "frontLeft/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-close.png",
+          "sourceSha256": "3cf62ba6991534dc906f4f9a083c084d9f9516f7e94a1e1dae403419a4c1f8ef",
+          "point": [
+            636,
+            1201
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            220,
+            147,
+            119,
+            252
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+            "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+            "point": [
+              635,
+              1221
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 6.745
+        },
+        "left/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/left/right-gather.png",
+          "sourceSha256": "0124cd162e16cca46f7bb5f83b8eaee99d861545099f253a60b94c4bddabb295",
+          "point": [
+            535,
+            1194
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            207,
+            144,
+            123,
+            252
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+            "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+            "point": [
+              530,
+              1177
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 5.969
+        },
+        "left/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/left/right-close.png",
+          "sourceSha256": "7d4b6314afad8e687549e9d62311ab98cca5566c19616c74f2bb5b38f492ac29",
+          "point": [
+            515,
+            1187
+          ],
+          "landmark": "visible-plantar",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            212,
+            155,
+            133,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+            "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+            "point": [
+              530,
+              1177
+            ],
+            "landmark": "visible-plantar"
+          },
+          "nativeToNeutralDistanceLogical": 6.073
+        },
+        "left/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/left/left-gather.png",
+          "sourceSha256": "cd76f53f2e937a2416d5e866b91c542e4d9563bf1753f6f5461e9ec1f9b3f912",
+          "point": [
+            657,
+            1196
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            149,
+            94,
+            66,
+            249
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+            "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+            "point": [
+              682,
+              1197
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 8.428
+        },
+        "left/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/left/left-close.png",
+          "sourceSha256": "42ea493c661455ebe1a271d39f078b4e53e48e51c6383dbcfd795342c31d312e",
+          "point": [
+            658,
+            1196
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            162,
+            99,
+            69,
+            249
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+            "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+            "point": [
+              682,
+              1197
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 8.091
+        },
+        "rearLeft/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-gather.png",
+          "sourceSha256": "452105f52137c0b9957ef3e02663a96af64f4ea3d6d6bb463dd8e8c8ffa73aaa",
+          "point": [
+            691,
+            1202
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            162,
+            107,
+            80,
+            252
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-right-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+            "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+            "point": [
+              674,
+              1191
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 6.821
+        },
+        "rearLeft/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-close.png",
+          "sourceSha256": "172fb3f2c2b67b7a3a422e3eae947b9b7d6b97c39884590d262627801821a331",
+          "point": [
+            676,
+            1198
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "right",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            176,
+            125,
+            101,
+            253
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-right-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+            "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+            "point": [
+              674,
+              1191
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 2.452
+        },
+        "rearLeft/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-gather.png",
+          "sourceSha256": "758d7bc97bade620308821482be4df9c1a2aa39425563a3a26f41714b184c555",
+          "point": [
+            602,
+            1169
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            149,
+            102,
+            77,
+            250
+          ],
+          "reviewed": true,
+          "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-left-gather-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+            "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+            "point": [
+              590,
+              1200
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 11.197
+        },
+        "rearLeft/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-close.png",
+          "sourceSha256": "a608c9f4ce363594e787f66215bfb030f8433c2208d00c15248593f41b206d3f",
+          "point": [
+            604,
+            1169
+          ],
+          "landmark": "visible-heel",
+          "supportFoot": "left",
+          "coordinateSpace": "native source PNG pixels",
+          "sampleRgba": [
+            153,
+            106,
+            82,
+            255
+          ],
+          "reviewed": true,
+          "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+          "evidence": [
+            "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+            "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-left-close-grid.jpg"
+          ],
+          "targetNeutral": {
+            "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+            "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+            "point": [
+              590,
+              1200
+            ],
+            "landmark": "visible-heel"
+          },
+          "nativeToNeutralDistanceLogical": 11.458
+        }
+      }
+    },
+    "granny": {
+      "appearance": "granny",
+      "coordinateSpace": "Native selected PNG pixels, origin top-left",
+      "frames": {
+        "rear/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-gather.png",
+          "sourceSha256": "4d1935b469259c75f9ae789d7c8ffb6fd49d298cb656488fc82cff1526a5dbfd",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            625,
+            1186
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right heel planted; left foot is raised and gathering, arms damping, straight-rear head and bun retained.",
+          "evidence": "qa/feet-review/rear-right-gather.jpg",
+          "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+          "neutralPoint": [
+            675,
+            1210
+          ],
+          "pinLogicalOffset": [
+            16.84210526315789,
+            8.084210526315758
+          ],
+          "pinLogicalLength": 18.681835282677266
+        },
+        "rear/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-close.png",
+          "sourceSha256": "0bc3a5d47a68f4dd8cbd5cf08c22bd00380d65a0a54f7530b77fc1e5297cd80d",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            625,
+            1185
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right heel planted; left foot nearly closes beside it with slight lift, arms settled, straight-rear body retained.",
+          "evidence": "qa/feet-review/rear-right-close.jpg",
+          "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+          "neutralPoint": [
+            675,
+            1210
+          ],
+          "pinLogicalOffset": [
+            16.84210526315789,
+            8.421052631578902
+          ],
+          "pinLogicalLength": 18.830046126313995
+        },
+        "rear/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-gather.png",
+          "sourceSha256": "902d5a00e0f86a30367b73b05f29cbdf4755ec7c61dcc11baa3ba88d3242a674",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            585,
+            1209
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left heel planted; right sole is visibly raised while gathering, arms damping, straight-rear head and bun retained.",
+          "evidence": "qa/feet-review/rear-left-gather.jpg",
+          "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+          "neutralPoint": [
+            555,
+            1209
+          ],
+          "pinLogicalOffset": [
+            -10.10526315789474,
+            0.0
+          ],
+          "pinLogicalLength": 10.10526315789474
+        },
+        "rear/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-close.png",
+          "sourceSha256": "9f456c16a13f525e313ab03d45591541b50168cd9b642362b520d36e462e0379",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            585,
+            1206
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left heel remains planted, right foot has closed beside it, both legs near neutral, arms settled and straight rear retained.",
+          "evidence": "qa/feet-review/rear-left-close.jpg",
+          "neutralSourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+          "neutralPoint": [
+            555,
+            1209
+          ],
+          "pinLogicalOffset": [
+            -10.10526315789474,
+            1.010526315789491
+          ],
+          "pinLogicalLength": 10.155663785553747
+        },
+        "rearRight/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-gather.png",
+          "sourceSha256": "34010f2ce731f286a79ee9c525a732f6ddc4f10dea846fc69f45991c3cc9f425",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            550,
+            1186
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: right support heel belongs to the foreground crossing stance leg; left foot raised, torso and bun retain rear-right heading.",
+          "evidence": "qa/feet-review/rearRight-right-gather.jpg",
+          "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+          "neutralPoint": [
+            620,
+            1186
+          ],
+          "pinLogicalOffset": [
+            23.57894736842107,
+            0.0
+          ],
+          "pinLogicalLength": 23.57894736842107
+        },
+        "rearRight/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-close.png",
+          "sourceSha256": "7e0d6ed738027d66bfb173c86aa280576fa2f30bbc9f3260ef219378c159714d",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            610,
+            1173
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right heel is on the nearer image-right foot; left foot closed behind it, arms settled, rear-right body and bun retained.",
+          "evidence": "qa/feet-review/rearRight-right-close.jpg",
+          "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+          "neutralPoint": [
+            620,
+            1186
+          ],
+          "pinLogicalOffset": [
+            3.3684210526315894,
+            4.378947368421052
+          ],
+          "pinLogicalLength": 5.524621294099114
+        },
+        "rearRight/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-gather.png",
+          "sourceSha256": "9a69dd9e378a51174dce63ae639a51f76321236ac9458ce4fed9b890aa9b8ee3",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            535,
+            1185
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left support heel is on the image-left stance leg; right foot raised and gathering, rear-right head and body retained.",
+          "evidence": "qa/feet-review/rearRight-left-gather.jpg",
+          "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+          "neutralPoint": [
+            530,
+            1176
+          ],
+          "pinLogicalOffset": [
+            -1.6842105263157805,
+            -3.0315789473684163
+          ],
+          "pinLogicalLength": 3.4680017317008756
+        },
+        "rearRight/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-close.png",
+          "sourceSha256": "07b2f3e3b106f46208e709ebd3b96839e20b7e5df196d6880d55c86f9458fb8c",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            535,
+            1185
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left heel remains on image-left support foot; right foot has closed alongside behind it, rear-right torso and bun retained.",
+          "evidence": "qa/feet-review/rearRight-left-close.jpg",
+          "neutralSourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+          "neutralPoint": [
+            530,
+            1176
+          ],
+          "pinLogicalOffset": [
+            -1.6842105263157805,
+            -3.0315789473684163
+          ],
+          "pinLogicalLength": 3.4680017317008756
+        },
+        "right/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-gather.png",
+          "sourceSha256": "df370dedc6e5033fdf7780966d5f4d566f6ba8f4891ef37a1c330918a3446070",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            650,
+            1196
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right stance foot planted, left knee flexed and foot drawing inward. Measured planted right plantar toe-pad to match neutral forefoot landmark.",
+          "evidence": "qa/feet-review/right-right-gather.jpg",
+          "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+          "neutralPoint": [
+            710,
+            1176
+          ],
+          "pinLogicalOffset": [
+            20.21052631578948,
+            -6.736842105263122
+          ],
+          "pinLogicalLength": 21.303765289555393
+        },
+        "right/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-close.png",
+          "sourceSha256": "2a0768035bdceb2d71dc82cad6688647d05d52cf1fbea12ae9a9423f8c617034",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            720,
+            1179
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right stance foot is the farther foot with visible plantar toe pad; left foot closes in front. Same toe-pad landmark as own neutral, no hidden heel inferred.",
+          "evidence": "qa/feet-review/right-right-close.jpg",
+          "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+          "neutralPoint": [
+            710,
+            1176
+          ],
+          "pinLogicalOffset": [
+            -3.368421052631561,
+            -1.0105263157894342
+          ],
+          "pinLogicalLength": 3.5167348240540517
+        },
+        "right/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-gather.png",
+          "sourceSha256": "bcb47668204739bcdc055ed5b652c025dc20e0fbc8de5dca24e41596c6d5a7f6",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            450,
+            1188
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left near leg bears weight and planted heel visible; right foot flexes inward while lifted. Pure right profile and mature face retained.",
+          "evidence": "qa/feet-review/right-left-gather.jpg",
+          "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+          "neutralPoint": [
+            550,
+            1198
+          ],
+          "pinLogicalOffset": [
+            33.68421052631578,
+            3.368421052631618
+          ],
+          "pinLogicalLength": 33.85221261851247
+        },
+        "right/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-close.png",
+          "sourceSha256": "e0a17f0d2ec4501bfd33bf7c7d3b071df71fb55b15314bee9d624bd066b9cbbb",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            510,
+            1188
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left near heel planted, right foot has closed beside it, arms settled, mature face and pure right profile retained.",
+          "evidence": "qa/feet-review/right-left-close.jpg",
+          "neutralSourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+          "neutralPoint": [
+            550,
+            1198
+          ],
+          "pinLogicalOffset": [
+            13.47368421052633,
+            3.368421052631618
+          ],
+          "pinLogicalLength": 13.888355791554247
+        },
+        "frontRight/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-gather.png",
+          "sourceSha256": "15f079709e840a7b9a1134c8e102f06e48155fc87c6376b16ba1d238f68cd5d6",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            620,
+            1217
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right stance is image-left foot, left foot flexes inward while raised. Visible planted right toe-pad matches neutral toe-pad landmark.",
+          "evidence": "qa/feet-review/frontRight-right-gather.jpg",
+          "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+          "neutralPoint": [
+            560,
+            1224
+          ],
+          "pinLogicalOffset": [
+            -20.21052631578948,
+            2.357894736842127
+          ],
+          "pinLogicalLength": 20.347605302620916
+        },
+        "frontRight/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-close.png",
+          "sourceSha256": "642f3c26c26bf21b76ad2ea117f3dcac93da7fcbe4872eac67e6584b31dbbcf1",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            610,
+            1219
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right/image-left foot stays planted, left foot nearly closes alongside, arms settled. Same visible right plantar toe-pad as neutral; heel not inferred.",
+          "evidence": "qa/feet-review/frontRight-right-close.jpg",
+          "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+          "neutralPoint": [
+            560,
+            1224
+          ],
+          "pinLogicalOffset": [
+            -16.84210526315789,
+            1.6842105263157805
+          ],
+          "pinLogicalLength": 16.92610630925623
+        },
+        "frontRight/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-close.png",
+          "sourceSha256": "cf6f815af0adc7781f937711616252a823bcab68fcd721b474409fff6bcb0a87",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            670,
+            1218
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left/image-right foot planted with right foot closed alongside. Head and torso retain front-right direction; measured left plantar toe-pad matching neutral.",
+          "evidence": "qa/feet-review/frontRight-left-close.jpg",
+          "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+          "neutralPoint": [
+            690,
+            1214
+          ],
+          "pinLogicalOffset": [
+            6.73684210526315,
+            -1.3473684210526358
+          ],
+          "pinLogicalLength": 6.8702578709460616
+        },
+        "frontRight/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-gather.png",
+          "sourceSha256": "c53bb006f44ddc790ecf654d5fe31a194859bd84fca9ea6788e6bb1730fabc70",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            675,
+            1217
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual left stance foot planted while right foot gathers across in front. Measured visible left plantar toe-pad, matching own neutral type.",
+          "evidence": "qa/feet-review/frontRight-left-gather.jpg",
+          "neutralSourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+          "neutralPoint": [
+            690,
+            1214
+          ],
+          "pinLogicalOffset": [
+            5.05263157894737,
+            -1.010526315789491
+          ],
+          "pinLogicalLength": 5.152693403209556
+        },
+        "front/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-gather.png",
+          "sourceSha256": "a28100d28562eba586058fc9a39df23221ed43c4bf9af9324cdfd221a553bdab",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            560,
+            1223
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: right/image-left foot planted, left foot raised and drawing inward. Straight-front mature face retained; visible right toe-pad matches neutral.",
+          "evidence": "qa/feet-review/front-right-gather.jpg",
+          "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+          "neutralPoint": [
+            540,
+            1219
+          ],
+          "pinLogicalOffset": [
+            -6.73684210526315,
+            -1.347368421052579
+          ],
+          "pinLogicalLength": 6.87025787094605
+        },
+        "front/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-close.png",
+          "sourceSha256": "171f66383b8999a43936b915e63624ebd5b865a37fd7d3d611628f50369f9622",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            560,
+            1225
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: right/image-left foot remains planted, left foot closes beside it and arms settle. Same visible right plantar toe-pad as own neutral; hidden heel not inferred.",
+          "evidence": "qa/feet-review/front-right-close.jpg",
+          "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+          "neutralPoint": [
+            540,
+            1219
+          ],
+          "pinLogicalOffset": [
+            -6.73684210526315,
+            -2.0210526315789252
+          ],
+          "pinLogicalLength": 7.033469648108147
+        },
+        "front/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-gather.png",
+          "sourceSha256": "ab5c3749d39ea8e041d91978830e83ac5d21aabee82ef13e8eaa82a4a43175f0",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            650,
+            1214
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: left/image-right foot planted, right foot raised and moving inward. Straight-front mature face retained; measured visible left plantar toe-pad.",
+          "evidence": "qa/feet-review/front-left-gather.jpg",
+          "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+          "neutralPoint": [
+            680,
+            1220
+          ],
+          "pinLogicalOffset": [
+            10.10526315789474,
+            2.021052631578982
+          ],
+          "pinLogicalLength": 10.305386806419111
+        },
+        "front/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-close.png",
+          "sourceSha256": "64f297bcb046ee883ee16cb454cf37f99f4183bdbe4fcce432d61654b1d71137",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            650,
+            1214
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: left/image-right foot remains planted and right foot closes beside it, arms settled. Same visible left plantar toe-pad as own neutral.",
+          "evidence": "qa/feet-review/front-left-close.jpg",
+          "neutralSourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+          "neutralPoint": [
+            680,
+            1220
+          ],
+          "pinLogicalOffset": [
+            10.10526315789474,
+            2.021052631578982
+          ],
+          "pinLogicalLength": 10.305386806419111
+        },
+        "frontLeft/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-gather.png",
+          "sourceSha256": "66140b729a21e7e2ba2f029aa662ba76b6cedcdf896ee979238294728a4f2045",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            525,
+            1212
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: actual right/image-left foot planted, left knee flexes and foot gathers inward. Front-left mature face and bun retained; right plantar toe-pad measured.",
+          "evidence": "qa/feet-review/frontLeft-right-gather.jpg",
+          "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+          "neutralPoint": [
+            520,
+            1213
+          ],
+          "pinLogicalOffset": [
+            -1.684210526315809,
+            0.33684210526314473
+          ],
+          "pinLogicalLength": 1.7175644677365334
+        },
+        "frontLeft/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-close.png",
+          "sourceSha256": "2fd7d5defaf09a070375ba04922234896335aa2debf09cebec943946d6fa87b9",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            525,
+            1213
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed native source and144light/dark sequence: both feet nearly together, anatomical right/image-left plantar toe-pad remains the tracked support; head/grey bun and front-left yaw unchanged.",
+          "evidence": "qa/feet-review/frontLeft-right-close.jpg",
+          "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+          "neutralPoint": [
+            520,
+            1213
+          ],
+          "pinLogicalOffset": [
+            -1.684210526315809,
+            0.0
+          ],
+          "pinLogicalLength": 1.684210526315809
+        },
+        "frontLeft/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-gather.png",
+          "sourceSha256": "ef367ec43128c7e751d879f9b9730071593fa485f03d45af4bea87c74db56172",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            645,
+            1203
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed native source and144light/dark sequence: anatomical left/image-right foot planted, right knee bends and foot gathers inward. Measured visible left plantar toe-pad, same landmark as own neutral.",
+          "evidence": "qa/feet-review/frontLeft-left-gather.jpg",
+          "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+          "neutralPoint": [
+            630,
+            1225
+          ],
+          "pinLogicalOffset": [
+            -5.05263157894737,
+            7.410526315789468
+          ],
+          "pinLogicalLength": 8.969112896467767
+        },
+        "frontLeft/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-close.png",
+          "sourceSha256": "9fd03aadb99ea3e0e349eee97a92d5051c7bf3cbd1054009d3b8a3b6a44f90be",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            645,
+            1203
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed native source and144light/dark sequence: anatomical left/image-right support traced from gather, both feet settle beside each other. Measured matching visible left plantar toe-pad.",
+          "evidence": "qa/feet-review/frontLeft-left-close.jpg",
+          "neutralSourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+          "neutralPoint": [
+            630,
+            1225
+          ],
+          "pinLogicalOffset": [
+            -5.05263157894737,
+            7.410526315789468
+          ],
+          "pinLogicalLength": 8.969112896467767
+        },
+        "left/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-gather-v2.png",
+          "sourceSha256": "74f2dc56e02f014e0bf2c9fd33bf5e24a4fe0f20ae496f600cf23e247b82a9c0",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            675,
+            1193
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Reviewed corrected siblingv2 fullsource and144sequence: near right leg/heel stays planted while free far left foot is visibly gathered inward, no longer a long trailing stride; fixed mature profile and brown costume retained.",
+          "evidence": "qa/feet-review/left-right-gather.jpg",
+          "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+          "neutralPoint": [
+            665,
+            1197
+          ],
+          "pinLogicalOffset": [
+            -3.368421052631561,
+            1.3473684210526358
+          ],
+          "pinLogicalLength": 3.627900501648493
+        },
+        "left/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-close-v2.png",
+          "sourceSha256": "264052783304a304fd8d5344fbf525c3d1e8290e84e497275df82b68d487f0d4",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            650,
+            1184
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Reviewed corrected siblingv2 fullsource and144sequence: near right heel planted, far left foot now nearly beside it, softly settling into neutral. Original raw stride gap rejected; body and head remain pure left profile.",
+          "evidence": "qa/feet-review/left-right-close.jpg",
+          "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+          "neutralPoint": [
+            665,
+            1197
+          ],
+          "pinLogicalOffset": [
+            5.05263157894737,
+            4.378947368421052
+          ],
+          "pinLogicalLength": 6.686124881272997
+        },
+        "left/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-gather.png",
+          "sourceSha256": "1b87ec3ffc220e567ba317be1a34a86f5fc43f53143dabf5f909daf9322123f2",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            590,
+            1190
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: near right knee visibly flexes in foreground while the far left leg bears weight. Matching visible far left plantar toe-pad measured; hidden heel not inferred.",
+          "evidence": "qa/feet-review/left-left-gather.jpg",
+          "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+          "neutralPoint": [
+            510,
+            1174
+          ],
+          "pinLogicalOffset": [
+            -26.94736842105266,
+            -5.389473684210543
+          ],
+          "pinLogicalLength": 27.481031483784303
+        },
+        "left/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-close.png",
+          "sourceSha256": "3ed2a3116e0808e00deec45f0b6595491c913899ce64d56b431b57942d7a8f1f",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            500,
+            1187
+          ],
+          "landmark": "plantar-toe-pad",
+          "reviewed": true,
+          "review": "Viewed full source and native grid: both feet settle in pure left profile; selected far left plantar toe-pad is visible in front of the near-foot silhouette and tracked from the preceding far-left support gather.",
+          "evidence": "qa/feet-review/left-left-close.jpg",
+          "neutralSourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+          "neutralPoint": [
+            510,
+            1174
+          ],
+          "pinLogicalOffset": [
+            3.368421052631561,
+            -4.378947368421052
+          ],
+          "pinLogicalLength": 5.524621294099096
+        },
+        "rearLeft/right-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-gather.png",
+          "sourceSha256": "8d1114047d7caba25f3774c76b89c850a90ec075a6a809c2423e5c926f0dfee4",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            695,
+            1199
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Full native review confirms camera sees back and LEFT side: RIGHT far/background leg stays straight and planted at image-right; near left knee bends and lifts at image-left. Corrected neutral anatomical labels, measured actual far-right heel.",
+          "evidence": "qa/feet-review/rearLeft-right-gather.jpg",
+          "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+          "neutralPoint": [
+            670,
+            1189
+          ],
+          "pinLogicalOffset": [
+            -8.42105263157896,
+            -3.368421052631561
+          ],
+          "pinLogicalLength": 9.069751254121275
+        },
+        "rearLeft/right-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-close.png",
+          "sourceSha256": "f7a9348a3f4a7ddd46ff5f6aafc321e7fd6c328c3c5fea6a57c9bf9551200e1f",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "right",
+          "point": [
+            675,
+            1193
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Full native review confirms RIGHT far/background foot at image-right remains planted while the near left foot settles alongside. Corrected neutral anatomical labels; tracked same far-right posterior heel from gather.",
+          "evidence": "qa/feet-review/rearLeft-right-close.jpg",
+          "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+          "neutralPoint": [
+            670,
+            1189
+          ],
+          "pinLogicalOffset": [
+            -1.6842105263157805,
+            -1.347368421052579
+          ],
+          "pinLogicalLength": 2.1568418483983933
+        },
+        "rearLeft/left-gather": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather-v2.png",
+          "sourceSha256": "6eda358261b73373dd186599b21749065e90e79456cd42b05b40797db9006267",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            610,
+            1172
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Full native corrected siblingv2 plus144light/dark sequence inspected: camera sees back and LEFT side. LEFT foreground leg stays straight/planted at image-left, RIGHT far leg gathers and settles from image-right. Own left posterior heel retained near its neutral footprint; rejected raw repeated far-right support or displaced near heel is preserved as draft.",
+          "evidence": "qa/feet-review/rearLeft-left-gather.jpg",
+          "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+          "neutralPoint": [
+            595,
+            1197
+          ],
+          "pinLogicalOffset": [
+            -5.05263157894737,
+            8.421052631578902
+          ],
+          "pinLogicalLength": 9.820550559739416
+        },
+        "rearLeft/left-close": {
+          "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-close-v2.png",
+          "sourceSha256": "6a591c8e3ac5946c6359648956f4c6b1ef7b129401f1f454f0255425ecc2bae9",
+          "sourceSize": [
+            1254,
+            1254
+          ],
+          "supportFoot": "left",
+          "point": [
+            610,
+            1172
+          ],
+          "landmark": "heel",
+          "reviewed": true,
+          "review": "Full native corrected siblingv2 plus144light/dark sequence inspected: camera sees back and LEFT side. LEFT foreground leg stays straight/planted at image-left, RIGHT far leg gathers and settles from image-right. Own left posterior heel retained near its neutral footprint; rejected raw repeated far-right support or displaced near heel is preserved as draft.",
+          "evidence": "qa/feet-review/rearLeft-left-close.jpg",
+          "neutralSourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+          "neutralPoint": [
+            595,
+            1197
+          ],
+          "pinLogicalOffset": [
+            -5.05263157894737,
+            8.421052631578902
+          ],
+          "pinLogicalLength": 9.820550559739416
+        }
+      },
+      "note": "Manually reviewed same-type plantar landmarks; no hidden heels inferred.",
+      "status": "complete"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "heading": "left",
+  "id": "06-opposite-passing",
+  "candidateId": "06-opposite-passing-v3",
+  "output": "left/06-opposite-passing-v3.png",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png"
+  ],
+  "prompt": "Use case: identity-preserve. Start with the exact LEFT PROFILE woman in IMAGE1. Make a compact LEFT SUPPORT / RIGHT PASSING walking frame. IMAGE2 demonstrates the correct anatomical LEFT planted leg with RIGHT leg lifted; use its lower-body arrangement only, NOT its rear-left body yaw. IMAGE3 is the OPPOSITE phase: its NEAR LEFT knee is lifted, so do NOT repeat image3. Here the NEAR LEFT leg must be visibly STRAIGHT from hip down through knee to ankle, broad foreground trouser leg in front of the other thigh, bearing her weight with a flat planted left foot beneath pelvis. The FAR RIGHT leg bends BEHIND that straight foreground left thigh. Only its bent knee and lifted right foot emerge to the LEFT of the straight support shin; the raised foot hangs close to ankle/shin. Make the far thigh partly OCCLUDED by the straight near left leg, instead of placing the bent thigh across the front as image3. The vertical near leg must be visible uninterrupted from hip to foot. At this exact LEFT-profile camera, this occlusion distinguishes the opposite gait support. Right knee softly bent, no long reach or split stride. Left arm slightly forward, right arm slightly back, near hips. Keep IMAGE1's exact face/profile/low black bun, blue-grey ao lam, full loose trousers, adult Vietnamese feminine proportions, bare feet, elevated camera and warm upper-left light. Head/chest/pelvis/toes all point LEFT, do not yaw toward rear or front. Same whole-body size and1254squarecanvas, hairtop~30, root~615,1210, complete feet/hands with unused transparent margins. True clean RGBA outside body, natural rimlight within silhouette, no colored/white broad halo, floor, baked shadow, props, male build, mirror, crop/recenter/zoom, extra limb, ghost or second person. One individual full-body pose only.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d488798a-f264-4649-a5a8-29023511ee4c.png",
+  "generatedAt": "2026-11-04T16:51:00.387Z"
+}

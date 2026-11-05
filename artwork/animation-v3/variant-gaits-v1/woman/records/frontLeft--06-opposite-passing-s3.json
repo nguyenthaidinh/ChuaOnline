@@ -1,0 +1,16 @@
+{
+  "heading": "frontLeft",
+  "id": "06-opposite-passing",
+  "output": "frontLeft/06-opposite-passing-s3.png",
+  "anchor": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+  "anchorSha256": "16d654a48212cd2110ca594510c776a8afcddfa915ba5ee35cb8c67319718311",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/06-opposite-passing.png"
+  ],
+  "prompt": "Use case: identity-preserve. Create ONE transparent full-body animation in-between pose. IMAGE1 is the approved adult WOMAN contact anchor: exact identity, garment, head/bun, view/camera and scale. IMAGE2 is ONLY the target male walking PHASE and limb placement; do not copy his face or masculine build. Move the SAME Vietnamese woman into image2's pose. Keep black hair in the same neat low bun, calm face, blue-grey ao lam and full loose trousers, feminine adult proportions and bare feet. Physical heading: FRONT-LEFT45degrees walking screen-DOWN-LEFT; keep the approved female face/yaw. Phase: LEFT SUPPORT / RIGHT PASSING: left support leg is near vertical beneath the pelvis, right knee bends and swings forward past the supporting left shin. Left foot supports the body. Hands pass near hips with restrained swing. This is a compact mid-stride, not a second heel contact or long reach. Preserve the body yaw and head direction of image1; match image2's anatomical arms/legs. Same elevated camera and warm upper-left light/soft fill, matte cloth and semi-realistic game style. Same SQUARE1254canvas with UNUSED transparent margins, hair top aroundy30 and source floor/root nearx615,y1210. Do not zoom, trim, crop or recenter. Full head, hands and feet inside true RGBA alpha. Both hands EMPTY. No male identity, grey hair, mirror, ghost limbs, second person, floor, baked shadow, cushion, props, text, motion blur or colored alpha fringe. One individual pose only.",
+  "candidateId": "06-opposite-passing-s3",
+  "restartNote": "Versioned destination after queue priority/cancellation, to avoid a late default output overwriting selected source.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-f1a15aab-74d6-4369-bcd8-4d0204ddb46b.png",
+  "generatedAt": "2026-11-04T16:32:55.121Z"
+}

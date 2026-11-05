@@ -1,0 +1,79 @@
+{
+  "appearance": "woman",
+  "status": "locked",
+  "review": "Full front/rear/rearLeft-v2 and normalized8view board checked; fixed scale, physical view and own bun/face/garment.",
+  "frames": [
+    {
+      "heading": "rear",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+      "sha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "heading": "rearRight",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+      "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "heading": "right",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+      "sha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "heading": "frontRight",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+      "sha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "heading": "front",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+      "sha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "heading": "frontLeft",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+      "sha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "heading": "left",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+      "sha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "heading": "rearLeft",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+      "sha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+      "sourceSize": [
+        1254,
+        1254
+      ]
+    }
+  ]
+}

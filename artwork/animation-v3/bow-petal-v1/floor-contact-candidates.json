@@ -1,0 +1,290 @@
+{
+  "man": {
+    "07-hands-floor": {
+      "sourceSha256": "176b65676cf1fcb582317b87d34c3150d39d144ab6a35ced422a5a8bef3390a4",
+      "support": {
+        "point": [
+          528,
+          1190
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    },
+    "08-prostrate": {
+      "sourceSha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89",
+      "support": {
+        "point": [
+          528,
+          1189
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored.",
+      "floorPose": {
+        "headLowerEdge": [
+          930,
+          1040
+        ],
+        "nearPalm": [
+          1010,
+          1070
+        ],
+        "upperHip": [
+          520,
+          930
+        ],
+        "sampleRgba": {
+          "headLowerEdge": [
+            49,
+            43,
+            37,
+            253
+          ],
+          "nearPalm": [
+            213,
+            154,
+            119,
+            252
+          ],
+          "upperHip": [
+            167,
+            152,
+            162,
+            253
+          ]
+        },
+        "reviewed": true,
+        "evidence": "forehead-palm-native-grid.jpg",
+        "note": "Viewed head-down full prostration; lowest visible head silhouette is at the palm floor plane below the upper hip. HeadLowerEdge is a visible silhouette marker, not an inferred hidden forehead point."
+      }
+    },
+    "09-lift-head": {
+      "sourceSha256": "1bbac246152b4e43275076209399b4a1fe582219a3580dbc475921e24f104c23",
+      "support": {
+        "point": [
+          526,
+          1188
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    }
+  },
+  "woman": {
+    "07-hands-floor": {
+      "sourceSha256": "593bf6a5e605ef64d474ef288642360624379503a475453221852b20bed6eeab",
+      "support": {
+        "point": [
+          523,
+          1187
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    },
+    "08-prostrate": {
+      "sourceSha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872",
+      "support": {
+        "point": [
+          525,
+          1187
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored.",
+      "floorPose": {
+        "headLowerEdge": [
+          925,
+          1050
+        ],
+        "nearPalm": [
+          1015,
+          1080
+        ],
+        "upperHip": [
+          520,
+          930
+        ],
+        "sampleRgba": {
+          "headLowerEdge": [
+            45,
+            38,
+            32,
+            252
+          ],
+          "nearPalm": [
+            222,
+            163,
+            124,
+            252
+          ],
+          "upperHip": [
+            178,
+            160,
+            163,
+            253
+          ]
+        },
+        "reviewed": true,
+        "evidence": "forehead-palm-native-grid.jpg",
+        "note": "Viewed head-down full prostration; lowest visible head silhouette is at the palm floor plane below the upper hip. HeadLowerEdge is a visible silhouette marker, not an inferred hidden forehead point."
+      }
+    },
+    "09-lift-head": {
+      "sourceSha256": "6656ec986d8bfae131732361d683377cdf3e51c348ee242ac641410fd767029f",
+      "support": {
+        "point": [
+          525,
+          1188
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    }
+  },
+  "granny": {
+    "07-hands-floor": {
+      "sourceSha256": "468eda48c65554300496dc90c2aef2f4e7b2f893668d78537b25d398fda77fc5",
+      "support": {
+        "point": [
+          520,
+          1190
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    },
+    "08-prostrate": {
+      "sourceSha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c",
+      "support": {
+        "point": [
+          524,
+          1189
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored.",
+      "floorPose": {
+        "headLowerEdge": [
+          930,
+          1040
+        ],
+        "nearPalm": [
+          1010,
+          1070
+        ],
+        "upperHip": [
+          520,
+          930
+        ],
+        "sampleRgba": {
+          "headLowerEdge": [
+            83,
+            63,
+            55,
+            253
+          ],
+          "nearPalm": [
+            221,
+            160,
+            122,
+            252
+          ],
+          "upperHip": [
+            179,
+            122,
+            94,
+            253
+          ]
+        },
+        "reviewed": true,
+        "evidence": "forehead-palm-native-grid.jpg",
+        "note": "Viewed head-down full prostration; lowest visible head silhouette is at the palm floor plane below the upper hip. HeadLowerEdge is a visible silhouette marker, not an inferred hidden forehead point."
+      }
+    },
+    "09-lift-head": {
+      "sourceSha256": "b9ced02d1d26d371187083bdfca1a7a4b10692ab1330d9b3c050d34afd9b63fb",
+      "support": {
+        "point": [
+          525,
+          1190
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    }
+  }
+}

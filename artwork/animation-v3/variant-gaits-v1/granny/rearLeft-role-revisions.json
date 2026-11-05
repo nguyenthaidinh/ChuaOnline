@@ -1,0 +1,134 @@
+{
+  "reason": "Root approved correction after full-source opposite-support and physical-camera review. Raw originals preserved.",
+  "neutralBefore": {
+    "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png",
+    "sourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "points": {
+      "right": [
+        595,
+        1197
+      ],
+      "left": [
+        670,
+        1189
+      ]
+    },
+    "landmarkNote": {
+      "right": "Visible underside nearer right heel.",
+      "left": "Visible underside farther left heel."
+    },
+    "evidence": "feet-review/rearLeft-stand.jpg",
+    "landmarks": {
+      "right": "heel",
+      "left": "heel"
+    }
+  },
+  "neutralAfter": {
+    "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png",
+    "sourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "points": {
+      "right": [
+        670,
+        1189
+      ],
+      "left": [
+        595,
+        1197
+      ]
+    },
+    "landmarkNote": {
+      "right": "Far anatomical right foot at image-right; own rear-left camera shows back and left side. Visible posterior heel curve.",
+      "left": "Near anatomical left foot at image-left; own rear-left camera shows back and left side. Visible posterior heel curve."
+    },
+    "evidence": "feet-review/rearLeft-stand.jpg",
+    "landmarks": {
+      "right": "heel",
+      "left": "heel"
+    },
+    "revisionNote": "Full native source review corrected swapped anatomical R/L labels. Pixel locations and PNG unchanged; previous metadata retained in rearLeft-role-revisions.json."
+  },
+  "gaitAndStop": "06 and left-gather sibling refinements pending review.",
+  "gaitBefore": {
+    "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/06-opposite-passing.png",
+    "sha256": "faf3af81f992fff5c4944cafd172cda5eb551c2d4a61c75ecd5750c9e5174cf5",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      121,
+      73,
+      250,
+      452
+    ],
+    "review": "Full rear-left sources and native feet grids reviewed. Rear-left head and body remain in heading; right then left support under pelvis, opposite knee lifts through overlapping legs; own grey bun and brown outfit retained."
+  },
+  "gaitAfter": {
+    "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/06-opposite-passing-v2.png",
+    "sha256": "3c3d7a02db51bc2928b9c614cf53786f718915d4f3e39687f78f0cd1bd578b85",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "bounds": [
+      92,
+      72,
+      268,
+      456
+    ],
+    "review": "Full-source revision: camera sees back and LEFT side; LEFT near/foreground leg at image-left is now straight/planted, RIGHT far leg bends and rises at image-right. Opposite support to02 is visually real; mature identity and brown outfit retained."
+  },
+  "supportBefore": {
+    "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/06-opposite-passing.png",
+    "sourceSha256": "faf3af81f992fff5c4944cafd172cda5eb551c2d4a61c75ecd5750c9e5174cf5",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "supportFoot": "left",
+    "supportHeel": [
+      695,
+      1160
+    ],
+    "evidence": "feet-review/rearLeft-06-opposite-passing.jpg",
+    "review": "Manually inspected own native source grid: underside of planted left heel below hips; raised swing foot excluded.",
+    "supportPoint": [
+      695,
+      1160
+    ],
+    "landmark": "heel",
+    "supportHeelLandmark": "heel",
+    "landmarkNote": "Visible underside planted heel, matching neutral heel landmark."
+  },
+  "supportAfter": {
+    "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/06-opposite-passing-v2.png",
+    "sourceSha256": "3c3d7a02db51bc2928b9c614cf53786f718915d4f3e39687f78f0cd1bd578b85",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "supportFoot": "left",
+    "supportHeel": [
+      600,
+      1172
+    ],
+    "evidence": "rearLeft/06-opposite-passing-v2-feet.jpg",
+    "review": "Full1254 and native grid inspected: LEFT foreground leg occludes bent far RIGHT thigh, left heel is visibly planted at image-left. Original06 repeated far-right support and is retained as draft. Same visible heel type as own corrected neutral LEFT point5951197.",
+    "supportPoint": [
+      600,
+      1172
+    ],
+    "landmark": "heel",
+    "supportHeelLandmark": "heel",
+    "landmarkNote": "Visible underside planted heel, matching neutral heel landmark.",
+    "reviewed": true
+  }
+}

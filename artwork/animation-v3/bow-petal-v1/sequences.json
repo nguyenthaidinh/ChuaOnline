@@ -1,0 +1,226 @@
+{
+  "coordinateSpace": {
+    "canvas": [
+      384,
+      512
+    ],
+    "groundPivot": [
+      192,
+      468
+    ],
+    "webCell": [
+      144,
+      192
+    ]
+  },
+  "ids": [
+    "00-neutral",
+    "01-knee-bend",
+    "02-lower-knees",
+    "03-kneel-rest",
+    "04-prayer",
+    "05-forehead-prayer",
+    "06-lean",
+    "07-hands-floor",
+    "08-prostrate",
+    "09-lift-head",
+    "10-push-up",
+    "11-kneel-return",
+    "12-rise-support",
+    "13-rise-half-kneel",
+    "14-rise-extend",
+    "15-petal-cradle",
+    "16-petal-lift",
+    "17-petal-extend",
+    "18-petal-pre-release",
+    "19-petal-release",
+    "20-petal-follow",
+    "21-petal-return",
+    "22-rise-weight-transfer",
+    "23-petal-arms-low"
+  ],
+  "bow": {
+    "kneelDown": [
+      {
+        "id": "00-neutral",
+        "durationMs": 120
+      },
+      {
+        "id": "01-knee-bend",
+        "durationMs": 180
+      },
+      {
+        "id": "02-lower-knees",
+        "durationMs": 200
+      },
+      {
+        "id": "03-kneel-rest",
+        "durationMs": 100
+      },
+      {
+        "id": "04-prayer",
+        "durationMs": 120
+      }
+    ],
+    "kneeling": [
+      {
+        "id": "04-prayer",
+        "durationMs": 400
+      }
+    ],
+    "bowDown": [
+      {
+        "id": "04-prayer",
+        "durationMs": 120
+      },
+      {
+        "id": "05-forehead-prayer",
+        "durationMs": 160
+      },
+      {
+        "id": "06-lean",
+        "durationMs": 200
+      },
+      {
+        "id": "07-hands-floor",
+        "durationMs": 260
+      },
+      {
+        "id": "08-prostrate",
+        "durationMs": 300
+      }
+    ],
+    "bowHold": [
+      {
+        "id": "08-prostrate",
+        "durationMs": 380
+      }
+    ],
+    "bowUp": [
+      {
+        "id": "08-prostrate",
+        "durationMs": 100
+      },
+      {
+        "id": "09-lift-head",
+        "durationMs": 200
+      },
+      {
+        "id": "07-hands-floor",
+        "durationMs": 120
+      },
+      {
+        "id": "10-push-up",
+        "durationMs": 140
+      },
+      {
+        "id": "11-kneel-return",
+        "durationMs": 240
+      },
+      {
+        "id": "04-prayer",
+        "durationMs": 220
+      }
+    ],
+    "rise": [
+      {
+        "id": "04-prayer",
+        "durationMs": 80
+      },
+      {
+        "id": "12-rise-support",
+        "durationMs": 100
+      },
+      {
+        "id": "13-rise-half-kneel",
+        "durationMs": 100
+      },
+      {
+        "id": "22-rise-weight-transfer",
+        "durationMs": 110
+      },
+      {
+        "id": "14-rise-extend",
+        "durationMs": 110
+      },
+      {
+        "id": "00-neutral",
+        "durationMs": 260
+      }
+    ]
+  },
+  "petal": {
+    "offerRaise": [
+      {
+        "id": "00-neutral",
+        "durationMs": 100
+      },
+      {
+        "id": "15-petal-cradle",
+        "durationMs": 250
+      },
+      {
+        "id": "16-petal-lift",
+        "durationMs": 350
+      }
+    ],
+    "offerHold": [
+      {
+        "id": "16-petal-lift",
+        "durationMs": 650
+      }
+    ],
+    "petalRelease": [
+      {
+        "id": "17-petal-extend",
+        "durationMs": 160
+      },
+      {
+        "id": "18-petal-pre-release",
+        "durationMs": 190
+      },
+      {
+        "id": "19-petal-release",
+        "durationMs": 160
+      },
+      {
+        "id": "20-petal-follow",
+        "durationMs": 260
+      },
+      {
+        "id": "21-petal-return",
+        "durationMs": 280
+      }
+    ],
+    "offerRelease": [
+      {
+        "id": "21-petal-return",
+        "durationMs": 200
+      },
+      {
+        "id": "23-petal-arms-low",
+        "durationMs": 320
+      },
+      {
+        "id": "00-neutral",
+        "durationMs": 360
+      }
+    ]
+  },
+  "petalContact": {
+    "clip": "petalRelease",
+    "offsetMs": 350,
+    "frame": "19-petal-release"
+  },
+  "petalHeld": [
+    "15-petal-cradle",
+    "16-petal-lift",
+    "17-petal-extend",
+    "18-petal-pre-release"
+  ],
+  "riseSupport": [
+    "12-rise-support",
+    "13-rise-half-kneel",
+    "22-rise-weight-transfer"
+  ]
+}

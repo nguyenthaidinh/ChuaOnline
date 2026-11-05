@@ -1,0 +1,229 @@
+{
+  "coordinateSpace": "Native PNG pixels, origin top-left",
+  "frames": [
+    {
+      "id": "rearRight/02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/02-passing.png",
+      "sourceSha256": "9bbf90c0cb7932dc9a6937cfa7118086d12c85e32355f6166754168d085b597c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearRight-02-passing.jpg"
+    },
+    {
+      "id": "rearRight/06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/06-opposite-passing.png",
+      "sourceSha256": "942178c2b216984d91122c704da08956982444d62aad0e35cce0c2e0e01ae50a",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearRight-06-opposite-passing.jpg"
+    },
+    {
+      "id": "right/02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/right/02-passing.png",
+      "sourceSha256": "191f7c5fe7684cdea232c8b767585fa56f5953294b8b05839ab1af73ccec0b54",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/right-02-passing.jpg"
+    },
+    {
+      "id": "right/06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/right/06-opposite-passing.png",
+      "sourceSha256": "f5e251b4ebe23f5326e72ff89848fbc21093ef90d0371dddb3cb41bafe0dc6fd",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/right-06-opposite-passing.jpg"
+    },
+    {
+      "id": "frontRight/02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontRight/02-passing.png",
+      "sourceSha256": "9af1ac906a562f176d72b87d6b454f37cca1a6309db4edfc18466053d32835e6",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontRight-02-passing.jpg"
+    },
+    {
+      "id": "frontRight/06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontRight/06-opposite-passing.png",
+      "sourceSha256": "3a9381ca56996bbaf8709b7b8d252e9868d6679db4f8f7fd7ecee15fd2aca884",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontRight-06-opposite-passing.jpg"
+    },
+    {
+      "id": "front/02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/front/02-passing.png",
+      "sourceSha256": "4e97b22241c3cdbe671f7ab9430140b236c1887b0864e1b3d1e3399a9ff51140",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/front-02-passing.jpg"
+    },
+    {
+      "id": "front/06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/front/06-opposite-passing.png",
+      "sourceSha256": "b968e2c574a5776f3dbad2724c945997caf413e29f423c77cd7912c971db9d93",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/front-06-opposite-passing.jpg"
+    },
+    {
+      "id": "frontLeft/02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/02-passing.png",
+      "sourceSha256": "c92cb327bc68d5d9c382267d0eede48f6f9e699572e399add2f71c8ad472ab25",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontLeft-02-passing.jpg"
+    },
+    {
+      "id": "frontLeft/06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/06-opposite-passing.png",
+      "sourceSha256": "39b1943649e10877be256182bd5342c2ee098d66fb416c1ac51f31feee2a988c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontLeft-06-opposite-passing.jpg"
+    },
+    {
+      "id": "left/02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/02-passing.png",
+      "sourceSha256": "3e60571ba8156bf64625718715bb740a0884ad8bc1e839eccd2620212006d0ac",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/left-02-passing.jpg"
+    },
+    {
+      "id": "left/06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/06-opposite-passing.png",
+      "sourceSha256": "c6396f62ceb0f594033dd341f5e83d8d6f8883181f3e524bd0d9874d3a23fb93",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/left-06-opposite-passing.jpg"
+    },
+    {
+      "id": "rearLeft/02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/02-passing.png",
+      "sourceSha256": "32a4a0dd33b358752c2b6d5d9b88ccae51ebc48b702b97692ec3fc86d442f651",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearLeft-02-passing.jpg"
+    },
+    {
+      "id": "rearLeft/06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/06-opposite-passing.png",
+      "sourceSha256": "faf3af81f992fff5c4944cafd172cda5eb551c2d4a61c75ecd5750c9e5174cf5",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearLeft-06-opposite-passing.jpg"
+    }
+  ]
+}

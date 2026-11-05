@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "output": "man/rearRight/right-gather-v3.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-f5c3c3e4-b4b8-4266-8d64-d75b371c5060.png",
+      "hash": "Hash\r\n----\r\nE2AD245CCFC74E6D250334B8ACDA7819F4311CB8228982DDDE98A620E6059736"
+    },
+    {
+      "output": "man/rearRight/left-close-v3.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-2d16b455-cb5d-4e32-95bf-823df4d34850.png",
+      "hash": "Hash\r\n----\r\n691FBA71EBF4C25951FB21A7F422C68B80A73079FF9DFCA4120D1AEFA8F338A0"
+    },
+    {
+      "output": "man/right/left-close-v3.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-9d8afe52-5962-4221-8bfe-d77849bc8197.png",
+      "hash": "Hash\r\n----\r\nFAAB3DA5A57F355201BAFBF644B8AD1A9900E6DF63393F58FF50A0414AB5F0D4"
+    },
+    {
+      "output": "man/right/left-gather-v3.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4b27a02d-1352-4f96-8052-5a24c1d5164a.png",
+      "hash": "Hash\r\n----\r\n84891D8C4202DE5B168F6A2263629EA5299345F46515BEE0BB0C4BBB537B69E8"
+    },
+    {
+      "output": "man/rearLeft/left-gather-v3.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-d01ebb2e-4e00-4e33-b2da-63a5a918b26a.png",
+      "hash": "Hash\r\n----\r\nBAE95D0BF7EF32058DA8DA793FAFDD63828CA39B1A70F6E81B5B6338B43F388B"
+    },
+    {
+      "output": "man/left/left-close-v3.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-ecdb3d3f-74c1-47e8-ba59-8de46c29d9f3.png"
+    }
+  ]
+}

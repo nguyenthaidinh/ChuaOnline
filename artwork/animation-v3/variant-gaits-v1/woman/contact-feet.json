@@ -1,0 +1,69 @@
+{
+  "appearance": "woman",
+  "status": "partial",
+  "frames": {
+    "rear/00-contact": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+      "sourceSha256": "fbb5c65acc660480ef5793429ce2421d7005a479fb856908199a4d6d848d00e9",
+      "leadingFoot": "right",
+      "leadingHeel": [
+        656,
+        1106
+      ],
+      "coordinateSpace": "native source pixels",
+      "normalizedLeadingHeel": [
+        205.968,
+        432.547
+      ],
+      "sampleRgba": [
+        129,
+        92,
+        72,
+        255
+      ],
+      "note": "Visible far leading heel/sole underside, not the large trailing sole."
+    },
+    "rear/04-opposite-contact": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+      "sourceSha256": "09ce3a72904ba650df5dd56f852034daf167a94cc9fe962e5e49fe18b4b909a3",
+      "leadingFoot": "left",
+      "leadingHeel": [
+        565,
+        1083
+      ],
+      "coordinateSpace": "native source pixels",
+      "normalizedLeadingHeel": [
+        175.316,
+        424.8
+      ],
+      "sampleRgba": [
+        148,
+        99,
+        72,
+        252
+      ],
+      "note": "Opposite far leading heel at the lower curved sole edge."
+    },
+    "front/00-contact": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+      "sourceSha256": "f64234232993c9630f67e9e6672149bc815b58a3e683576b4c28010679e4f2c8",
+      "leadingFoot": "right",
+      "leadingHeel": [
+        566,
+        1226
+      ],
+      "coordinateSpace": "native source pixels",
+      "normalizedLeadingHeel": [
+        175.653,
+        472.968
+      ],
+      "sampleRgba": [
+        122,
+        80,
+        56,
+        250
+      ],
+      "note": "Front-view leading heel at the low central calcaneus edge, toes raised above it."
+    }
+  }
+}

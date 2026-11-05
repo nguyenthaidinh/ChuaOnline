@@ -1,0 +1,133 @@
+{
+  "coordinateSpace": "Native PNG pixels, origin top-left",
+  "frames": [
+    {
+      "id": "rear/00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rear/00-contact.png",
+      "sourceSha256": "309d4fa49994c3ff1aa746a1358646d905bfa9327ef7a621bad736eb36731577",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rear-00-contact.jpg"
+    },
+    {
+      "id": "rear/04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rear/04-opposite-contact.png",
+      "sourceSha256": "dcf1903f5516f30fd35e32ad85286c3187f850d5fcc0be5247e47b7e5895ad17",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rear-04-opposite-contact.jpg"
+    },
+    {
+      "id": "rearRight/00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/00-contact.png",
+      "sourceSha256": "59914d355ff5a4f0ce0aaf8430851ba0e01249d74473a612ee27627405f805aa",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearRight-00-contact.jpg"
+    },
+    {
+      "id": "rearRight/04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/04-opposite-contact.png",
+      "sourceSha256": "5d4c83f9b040eb70a1ee4e313cbe098e1c8163f230b82aa20da987805558bbb1",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearRight-04-opposite-contact.jpg"
+    },
+    {
+      "id": "right/00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/right/00-contact.png",
+      "sourceSha256": "9b7d6f07d013306a98d82dc71db2f36288b521c3f70833572872625bb3bd1ef3",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/right-00-contact.jpg"
+    },
+    {
+      "id": "right/04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/right/04-opposite-contact.png",
+      "sourceSha256": "7d767ff00414f8d6dde5ca3c189fd3dd8116f6b12af5f0a88e5f40e25478a093",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/right-04-opposite-contact.jpg"
+    },
+    {
+      "id": "frontRight/00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontRight/00-contact.png",
+      "sourceSha256": "cb939de10757b5e42f1ba86366936003524797c4f1b06f11367ecac097f2a968",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontRight-00-contact.jpg"
+    },
+    {
+      "id": "frontRight/04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontRight/04-opposite-contact.png",
+      "sourceSha256": "d1eb8e2175395ad57a2d039ed19d76a0be0ab40b2481806e879e75b5e636b11f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontRight-04-opposite-contact.jpg"
+    }
+  ]
+}

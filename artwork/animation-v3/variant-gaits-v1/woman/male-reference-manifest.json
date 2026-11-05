@@ -1,0 +1,82 @@
+{
+  "rear": {
+    "00-contact": "artwork/animation-v3/directions-v2/rear/00-contact-v2.png",
+    "01-loading": "artwork/animation-v3/directions-v2/rear/01-loading.png",
+    "02-passing": "artwork/animation-v3/directions-v2/rear/02-passing.png",
+    "03-swing": "artwork/animation-v3/directions-v2/rear/03-swing-v2.png",
+    "04-opposite-contact": "artwork/animation-v3/directions-v2/rear/04-opposite-contact.png",
+    "05-opposite-loading": "artwork/animation-v3/directions-v2/rear/05-opposite-loading.png",
+    "06-opposite-passing": "artwork/animation-v3/directions-v2/rear/06-opposite-passing-v2.png",
+    "07-opposite-swing": "artwork/animation-v3/directions-v2/rear/07-opposite-swing-v2.png"
+  },
+  "rearRight": {
+    "00-contact": "artwork/animation-v3/walk-v1/00-contact.png",
+    "01-loading": "artwork/animation-v3/walk-v1/01-loading.png",
+    "02-passing": "artwork/animation-v3/walk-v1/03-passing.png",
+    "03-swing": "artwork/animation-v3/walk-v1/05-reaching.png",
+    "04-opposite-contact": "artwork/animation-v3/walk-v1/06-opposite-contact.png",
+    "05-opposite-loading": "artwork/animation-v3/walk-v1/07-opposite-loading.png",
+    "06-opposite-passing": "artwork/animation-v3/walk-v1/09-opposite-passing.png",
+    "07-opposite-swing": "artwork/animation-v3/walk-v1/11-opposite-reaching.png"
+  },
+  "right": {
+    "00-contact": "artwork/animation-v3/directions-v1/right/00-contact.png",
+    "01-loading": "artwork/animation-v3/directions-v1/right/01-loading.png",
+    "02-passing": "artwork/animation-v3/directions-v1/right/02-passing.png",
+    "03-swing": "artwork/animation-v3/directions-v1/right/03-swing-v2.png",
+    "04-opposite-contact": "artwork/animation-v3/directions-v1/right/04-opposite-contact-v2.png",
+    "05-opposite-loading": "artwork/animation-v3/directions-v1/right/05-opposite-loading-v2.png",
+    "06-opposite-passing": "artwork/animation-v3/directions-v1/right/06-opposite-passing.png",
+    "07-opposite-swing": "artwork/animation-v3/directions-v1/right/07-opposite-swing.png"
+  },
+  "frontRight": {
+    "00-contact": "artwork/animation-v3/directions-v2/frontRight/00-contact.png",
+    "01-loading": "artwork/animation-v3/directions-v2/frontRight/01-loading.png",
+    "02-passing": "artwork/animation-v3/directions-v2/frontRight/02-passing.png",
+    "03-swing": "artwork/animation-v3/directions-v2/frontRight/03-swing.png",
+    "04-opposite-contact": "artwork/animation-v3/directions-v2/frontRight/04-opposite-contact.png",
+    "05-opposite-loading": "artwork/animation-v3/directions-v2/frontRight/05-opposite-loading.png",
+    "06-opposite-passing": "artwork/animation-v3/directions-v2/frontRight/06-opposite-passing.png",
+    "07-opposite-swing": "artwork/animation-v3/directions-v2/frontRight/07-opposite-swing.png"
+  },
+  "front": {
+    "00-contact": "artwork/animation-v3/directions-v2/front/00-contact.png",
+    "01-loading": "artwork/animation-v3/directions-v2/front/01-loading.png",
+    "02-passing": "artwork/animation-v3/directions-v2/front/02-passing.png",
+    "03-swing": "artwork/animation-v3/directions-v2/front/03-swing-v2.png",
+    "04-opposite-contact": "artwork/animation-v3/directions-v2/front/04-opposite-contact.png",
+    "05-opposite-loading": "artwork/animation-v3/directions-v2/front/05-opposite-loading.png",
+    "06-opposite-passing": "artwork/animation-v3/directions-v2/front/06-opposite-passing.png",
+    "07-opposite-swing": "artwork/animation-v3/directions-v2/front/07-opposite-swing.png"
+  },
+  "frontLeft": {
+    "00-contact": "artwork/animation-v3/directions-v2/frontLeft/00-contact.png",
+    "01-loading": "artwork/animation-v3/directions-v2/frontLeft/01-loading.png",
+    "02-passing": "artwork/animation-v3/directions-v2/frontLeft/02-passing.png",
+    "03-swing": "artwork/animation-v3/directions-v2/frontLeft/03-swing.png",
+    "04-opposite-contact": "artwork/animation-v3/directions-v2/frontLeft/04-opposite-contact.png",
+    "05-opposite-loading": "artwork/animation-v3/directions-v2/frontLeft/05-opposite-loading.png",
+    "06-opposite-passing": "artwork/animation-v3/directions-v2/frontLeft/06-opposite-passing.png",
+    "07-opposite-swing": "artwork/animation-v3/directions-v2/frontLeft/07-opposite-swing.png"
+  },
+  "left": {
+    "00-contact": "artwork/animation-v3/directions-v1/left/00-contact.png",
+    "01-loading": "artwork/animation-v3/directions-v1/left/01-loading.png",
+    "02-passing": "artwork/animation-v3/directions-v1/left/02-passing.png",
+    "03-swing": "artwork/animation-v3/directions-v1/left/03-swing.png",
+    "04-opposite-contact": "artwork/animation-v3/directions-v1/left/04-opposite-contact.png",
+    "05-opposite-loading": "artwork/animation-v3/directions-v1/left/05-opposite-loading-v2.png",
+    "06-opposite-passing": "artwork/animation-v3/directions-v1/left/06-opposite-passing.png",
+    "07-opposite-swing": "artwork/animation-v3/directions-v1/left/07-opposite-swing.png"
+  },
+  "rearLeft": {
+    "00-contact": "artwork/animation-v3/directions-v2/rearLeft/00-contact.png",
+    "01-loading": "artwork/animation-v3/directions-v2/rearLeft/01-loading.png",
+    "02-passing": "artwork/animation-v3/directions-v2/rearLeft/02-passing-v2.png",
+    "03-swing": "artwork/animation-v3/directions-v2/rearLeft/03-swing-v2.png",
+    "04-opposite-contact": "artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png",
+    "05-opposite-loading": "artwork/animation-v3/directions-v2/rearLeft/05-opposite-loading.png",
+    "06-opposite-passing": "artwork/animation-v3/directions-v2/rearLeft/06-opposite-passing-v2.png",
+    "07-opposite-swing": "artwork/animation-v3/directions-v2/rearLeft/07-opposite-swing.png"
+  }
+}

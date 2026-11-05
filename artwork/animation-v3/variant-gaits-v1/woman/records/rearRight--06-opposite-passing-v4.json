@@ -1,0 +1,13 @@
+{
+  "heading": "rearRight",
+  "id": "06-opposite-passing",
+  "candidateId": "06-opposite-passing-v4",
+  "output": "rearRight/06-opposite-passing-v4.png",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v3.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+  ],
+  "prompt": "Use case: identity-preserve. Make ONE targeted lower-body refinement to IMAGE1. Its support/swing leg OCCLUSION is now correct: KEEP far leg straight planted, near foreground thigh bent across it, exact same rear-right head/body yaw and arms. But the raised knee is too HIGH like a marching/ballet step. LOWER that near swinging knee by about100sourcepixels, from aroundy780 toy880-910; bring the suspended bare foot DOWN near sourcey1100, beside the support ankle/shin. Natural walking passing: slight hip flexion20-30degrees and knee bend30-45degrees, not a horizontal raised thigh or90degree knee lift. The near thigh still crosses visibly IN FRONT of the far straight support thigh, so do not revert to the original wrong bent-far-leg silhouette. Keep far planted heel in EXACT same source location and whole pelvis/root/torso/head unchanged. One leg supports, opposite foot suspended by a small clearance; do not plant both. Keep exact same woman, lowblackbun, bluegrey ao lam, loose trousers and bare feet, warm light, whole-body size1254squarecanvas and margins. Clean true RGBA outside silhouette, no floor/shadow/text/extra limbs, do not mirror/crop/recenter/zoom/warp. Image2 is neutral identity/light only, do not copy its both-feet stance. Preserve all details except the lower height/softer bend of the suspended near leg.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-349ba2eb-0eb0-4591-b335-fec15d7b8777.png",
+  "generatedAt": "2026-11-04T17:07:58.193Z"
+}

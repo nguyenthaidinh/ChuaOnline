@@ -1,0 +1,37 @@
+{
+  "tool": "built-in image_gen",
+  "records": [
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-ed1b8e19-6d47-4f08-945d-abcf945b9613.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-c279979e-9f3e-4a08-aa4c-52fe6363b587.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-42eb4498-b3ed-4a72-8868-30a3dc5382c6.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rear/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-7ba2705d-0977-4989-9c9d-53b21169de59.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-c3979509-b2c6-43f6-8a34-5931c591d5e1.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-c40bfbab-e341-4404-89fa-9021217ba337.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-af62800b-4272-49f5-bb58-afc554ee0619.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rear/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-9b0e2bb3-71ca-49eb-b031-aec7c58a6338.png"
+    }
+  ]
+}

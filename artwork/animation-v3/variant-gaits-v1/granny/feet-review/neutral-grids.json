@@ -1,0 +1,133 @@
+{
+  "coordinateSpace": "Native PNG pixels, origin top-left",
+  "frames": [
+    {
+      "id": "rear/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png",
+      "sourceSha256": "ebe7187c32d411614a7a89980ce1ed5bf91de1bc56e254fc3bae8db518cbedef",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rear-stand.jpg"
+    },
+    {
+      "id": "rearRight/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png",
+      "sourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearRight-stand.jpg"
+    },
+    {
+      "id": "right/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/right/stand.png",
+      "sourceSha256": "b7ade24e64d271a43b8eec1123192d728aa066dfec03dab17881e046c648dc37",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/right-stand.jpg"
+    },
+    {
+      "id": "frontRight/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png",
+      "sourceSha256": "8a2f340eb182919a6955967f4b28e03b622fb2531ccc9f7d405f12fdc0763e19",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontRight-stand.jpg"
+    },
+    {
+      "id": "front/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/front/stand.png",
+      "sourceSha256": "7bb7b6c529b6d0c765ff1dfc3c454e017abcab574db8333794a66e29e98637f7",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/front-stand.jpg"
+    },
+    {
+      "id": "frontLeft/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png",
+      "sourceSha256": "450ea4f361cfa39d3604fc5a127d861e35adb99a10b1d2e8d4b9c85480132461",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/frontLeft-stand.jpg"
+    },
+    {
+      "id": "left/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/left/stand.png",
+      "sourceSha256": "4c2dc247b53c3c7c6b21794444a811bc0c558df7ea7dbad05757942a6e94e4db",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/left-stand.jpg"
+    },
+    {
+      "id": "rearLeft/stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png",
+      "sourceSha256": "ebaeac3e7c1d814d4b1fe8444cc38da7c29816f272e78288d088e4aaa71801cc",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "crop": [
+        200,
+        850,
+        1050,
+        1254
+      ],
+      "evidence": "feet-review/rearLeft-stand.jpg"
+    }
+  ]
+}

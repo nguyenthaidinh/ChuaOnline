@@ -1,0 +1,293 @@
+{
+  "tool": "built-in image_gen",
+  "records": [
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-8b3fcc7e-3629-40d9-8e6f-3e3fa72034fa.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a3f048da-07b4-420a-bcae-734bc06ecef9.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a50caa26-92ea-4d83-841b-7081aa392912.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-fcceb561-312c-4c88-af68-4f3fa090fc78.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-442ab1d0-20e9-410e-a8c8-f799647b6059.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-85bb9721-3864-4508-9ab5-86dabbaf67fc.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-67f0e572-98bf-43fc-9e3d-41feadaf78f1.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-6e0c68e8-b626-49ab-a5a2-36c5f64b7e16.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-010c9feb-d416-4e6c-9eb5-831e324d1348.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-8dc67088-49fd-4091-9117-c94c663c0d59.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a4a1f770-67a9-4405-84d5-c8db018ceed5.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-9c02e9d5-bb64-48a9-a216-e830245a34cc.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-8ac728d1-29d8-4fcf-af32-a70a2b39beb4.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a4c32437-e9ec-49fc-9fa1-c115bb25b4e2.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-3d935cbc-2b58-4a3d-b9d5-dd2d607a960b.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-gather-v2.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-60272737-6ca9-4ebc-98d2-dff0d80ca297.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4fe696da-2e2d-4fa1-9a84-895352a3b2ab.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-f39898ca-7189-4e52-8594-4dc335ee9d4d.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-fec8a2e1-0c4f-4f83-95e3-d83017e8102e.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-e8e55d14-9ebc-47b7-81e6-5c939a386c8d.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4900954b-95e1-495d-a160-f7111cf400bc.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-d0d85e2e-7ca1-4d18-aa7b-269cb05e233d.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4433d0a7-60bc-441d-b521-3c2083ee58dc.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/right/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-f75da4a2-90c9-4bc9-b016-609025390944.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-eb88c255-76b8-47a1-8998-95afce71d803.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-41b5a607-ff87-45b9-8da0-4f845378e459.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-cf73005f-126c-4b7f-8c2e-1639fc7d3d15.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-7046d57a-ea08-4ee5-b6ed-6d9d24f1ecdf.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-5e0ea68f-8ed0-4fdb-a40e-43d23a194fc4.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-30cfacde-9aee-4742-b784-e39fadbf1f86.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-20bb9caa-c8ac-42d2-bd6b-8137bfc6d3c0.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/front/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-1d87d549-db62-402a-b0c7-fc63149a137b.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-77acb519-0a7c-49ed-b2f6-267ca1ee5e21.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-d54c67ab-469e-4703-a575-74e0936cba1f.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-76bdbf15-1ba4-49eb-a708-fd5c05d022d1.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-ddbd00da-4dc6-4d79-a494-e224f7bf21ef.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-fad42a98-8baf-4e7e-a600-24d7c4a0627d.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-3e58e3c9-921f-43b1-a52f-bc2931bd6bce.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a07806ea-2e99-4640-8091-5205a8842a01.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-94cc6512-4383-49b2-87f2-6789e517c0c6.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-b00615a3-d881-4c26-8373-ade8ece76004.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-57a32b8f-ea0a-4cba-b6bb-fbfba08f95b1.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/left/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-2e7af367-43c7-4e0e-b63c-a1a399cdbe4d.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-441c1733-aa54-4692-9e17-250bc1365a3d.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-590f4202-4df6-4255-864f-86460a320af9.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-312035e5-b2c9-40c0-82b7-136e5958d455.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-fc60428c-d764-4d42-90e0-0872566b7263.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-7b38a0e5-7d9a-4e2e-84d1-f845683044a1.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-77942576-fb6b-4d5f-a15e-c5e11dc6b4c0.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-8ff16934-8969-4da5-8ba5-4924a0bed639.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-801d90af-dde5-4cba-8e9b-22258aef32a5.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/right/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-fdaab94f-6fa5-4dc3-96b4-90d3825bad2e.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-ebc8c937-b775-4175-b152-e22653958565.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-840b8989-582a-46bf-87f1-547d77bd0c87.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a352cb8f-3a68-4e7a-b702-dc22e3a84867.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-0aacd193-d2c0-4135-8812-6b466e1bf2c5.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-88038f30-3649-43e3-8159-f793d978828a.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-dc7f04ae-af30-4bfd-b1da-55a463e59916.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-20db02f3-f943-4201-a9d3-2b75858e9e67.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/front/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-282f3f85-98ec-4df2-bf73-13afd4a55a43.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-c5530941-160c-45a7-8f61-69c00b2ede6b.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-5d98057b-01c0-444c-96ff-554f526a71b3.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-dee1370b-aaaa-4271-8906-ec3f508de5ba.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-edcb3bc8-8da9-47db-b597-36c4f90d8a17.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-c8f00249-e85e-4a20-a4b2-972fd7895daf.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a886f74d-d57b-43d7-b013-0fcf172e2eeb.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-681b7bd8-8514-4158-bffb-370fd64f2308.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/left/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-73372f9c-4ce5-448c-8948-ba2cdf5f9383.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4d71189a-e407-4af9-abc1-ed350eaf251b.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-e14eee8f-e22c-44e2-903a-f8d6c33d9dea.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-43df81f9-364d-48e3-b54c-81ccf3c79e39.png"
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-facf7be5-77fb-43c1-bd65-830b16ad68ee.png"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "tool": "built-in image_gen",
+  "note": "Recovered the actual PNG path from the save hint; initial directory prefix was not a file. No image generation failed.",
+  "records": [
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-02fdc8e9-a17e-4830-a242-5b88e00db240.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-4e607354-51aa-4268-824d-ea08fa239595.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-78c06a66-12f9-4749-b0e7-81c1aef5db4c.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-e9943925-4222-4bef-9bdb-221ba5707a6d.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-46da68c3-7236-4521-9f7b-d6fa37cd000e.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a441358f-ab88-4e0f-8b7a-69c43da19d0f.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-6049391c-ae04-4130-a13b-a05eaa8e8c26.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-c3b9775e-5633-4e2f-a74a-0ce640d9e687.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-f2e098dc-e205-4055-9ce5-5008e0d3b22e.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-5b6e64f0-7bdf-4a3f-93d1-188ec27bfab3.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-94d9adca-0fdf-4f71-a9c3-1ae1b030b5ac.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-5ce644c7-fc02-434e-8446-c90b16a3f8c9.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a98dc62d-a856-4097-a359-bd80ce1f61cc.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-ace87498-8480-4cd7-8d8c-c7035456c98f.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-3bcebfa5-4dca-46e3-a2e3-b1b7f424d916.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-87bc8c99-876e-47b9-9a40-a9838fe0aa2f.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-3e90c930-eda3-4380-b0e9-8eca07a0bea5.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-b31540d7-9c30-47d4-a62f-b669006036c7.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-8bf7a9c2-efe7-4ea6-985a-0c6afd68bd81.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-69224357-c399-4905-abf4-c816fe5b3376.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-ce2f7c77-929c-4a52-bc34-fd300344df60.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-614b6194-68b6-4648-9481-d5002f84c0e0.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-621bec39-b0ba-4f86-a69b-c5c18d41d2a8.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-a4190c3d-a2d3-479b-8845-0224998c5de6.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-dbbebc0f-ba6e-4c5d-b050-b378dd257400.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-aeaf7749-ab35-432c-9a1a-a03dc631557b.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-b1313e67-33e4-45c2-9566-0a2c4828e786.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-886205a4-4b59-424b-a8d9-714bbbee3af5.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-f6de3974-a607-43a5-9b19-706ab73264a6.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-f69def17-7c1d-453b-b0c0-7fe3bad0e69d.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-gather.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-0b2c958c-b4f1-4913-82f8-80314c349482.png",
+      "saveHintRecovered": true
+    },
+    {
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-close.png",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a1b8-d60a-7350-9bf1-cde958a1d209\\exec-35402618-3629-4047-a1c1-3e6e069b9fca.png",
+      "saveHintRecovered": true
+    }
+  ]
+}

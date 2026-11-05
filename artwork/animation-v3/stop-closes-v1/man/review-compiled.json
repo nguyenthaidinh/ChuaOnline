@@ -1,0 +1,1045 @@
+{
+  "status": "compiled",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "master": "atlas-master.webp",
+  "masterSha256": "dc5400b00d8d43196579dde15e1a845800e1065af0bd9a25abef4d8af0bb549e",
+  "frames": [
+    {
+      "cell": 0,
+      "id": "rear/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        69,
+        267,
+        461
+      ],
+      "sha256": "02831ea0a87bc1d416692501eae3030d8304f191b14ebf6447c1504c0dd94e01"
+    },
+    {
+      "cell": 1,
+      "id": "rear/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        70,
+        269,
+        468
+      ],
+      "sha256": "d763ff9310e0c340720e83a4904b93df8503aa87110717c4ba63e94ac73c4093"
+    },
+    {
+      "cell": 2,
+      "id": "rear/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        126,
+        69,
+        265,
+        465
+      ],
+      "sha256": "dd6ef749063235b18599b7b5386d995b258bb12e9e8cfa9297ba204ec33baf25"
+    },
+    {
+      "cell": 3,
+      "id": "rear/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rear/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        69,
+        272,
+        469
+      ],
+      "sha256": "345510252816ce34476d77bf9338031d5da29a83be7015d16aba10d89adcc958"
+    },
+    {
+      "cell": 4,
+      "id": "rearRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-gather-v3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        130,
+        70,
+        255,
+        462
+      ],
+      "sha256": "e2ad245ccfc74e6d250334b8acda7819f4311cb8228982ddde98a620e6059736"
+    },
+    {
+      "cell": 5,
+      "id": "rearRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        70,
+        255,
+        459
+      ],
+      "sha256": "ca5d7cab0020c26bd37c2ed7c4fff7f04351247318d72e7329556425ea009337"
+    },
+    {
+      "cell": 6,
+      "id": "rearRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        70,
+        248,
+        461
+      ],
+      "sha256": "3e350d3b9608cf8c5b0c988f94a3c56e57740b9bf51d8b60eb9e203be2017135"
+    },
+    {
+      "cell": 7,
+      "id": "rearRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-close-v5.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        69,
+        261,
+        466
+      ],
+      "sha256": "4c993ee749d5fd37f1ca6962127de7481b7e0cd92472dcf7a344cfafd4d9bc7a"
+    },
+    {
+      "cell": 8,
+      "id": "right/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        140,
+        70,
+        265,
+        465
+      ],
+      "sha256": "f036a07e3fd248c54d9d47abd95df052085254eb3d9f20772fb8928d76027df5"
+    },
+    {
+      "cell": 9,
+      "id": "right/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        154,
+        71,
+        235,
+        463
+      ],
+      "sha256": "d3df76343e0993d4a0eb11dfcd83278f63294c7a9b77073b6a394c78484d191f"
+    },
+    {
+      "cell": 10,
+      "id": "right/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/left-gather-v6.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        71,
+        236,
+        466
+      ],
+      "sha256": "d45d3bc7995da6783920a61ffa04bea40b67db5e2fc50fe2ca93555573dac46f"
+    },
+    {
+      "cell": 11,
+      "id": "right/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/right/left-close-v4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        157,
+        69,
+        229,
+        463
+      ],
+      "sha256": "e9d0da34fe46272dddcbf4518ba27f866da57e93c3ae185fd1ae715576a2b634"
+    },
+    {
+      "cell": 12,
+      "id": "frontRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        69,
+        267,
+        470
+      ],
+      "sha256": "24c447b182e731915b3f330ceb13092cd63d98cb57db69ac91ebd5e592767b12"
+    },
+    {
+      "cell": 13,
+      "id": "frontRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        69,
+        264,
+        474
+      ],
+      "sha256": "ccc522a4c5eb788161e1d7177dd5b5d1d2394e63f2d92270ec463b4cac21425c"
+    },
+    {
+      "cell": 14,
+      "id": "frontRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        116,
+        67,
+        275,
+        472
+      ],
+      "sha256": "995e86b7c622e29d0778c4da459967fd3a16391190f0a3010d7fc43cd0d917a2"
+    },
+    {
+      "cell": 15,
+      "id": "frontRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        68,
+        267,
+        471
+      ],
+      "sha256": "2fe38987d7297a0e2fd1221192dae84298985ad0e09424f1719dbc3dcbb6b787"
+    },
+    {
+      "cell": 16,
+      "id": "front/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        116,
+        69,
+        268,
+        473
+      ],
+      "sha256": "1ec64cd1efac2b0848233b1112ecc6c893f83f8bf93cff1f15658c5cbeb5e770"
+    },
+    {
+      "cell": 17,
+      "id": "front/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        269,
+        472
+      ],
+      "sha256": "b9d5f3257bf56c649c88cd682108228683bfb03cf0533860e627a0019fab41cc"
+    },
+    {
+      "cell": 18,
+      "id": "front/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        70,
+        272,
+        469
+      ],
+      "sha256": "e5b0d0c82bea82326c6150e446a85c7bf135d8bd24f3413db04f8c3419fdbc2c"
+    },
+    {
+      "cell": 19,
+      "id": "front/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/front/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        70,
+        270,
+        472
+      ],
+      "sha256": "cc0a812ed92b12579ab9d0bb52370c8a01371a9a3c206010ac2ed7e565dcf977"
+    },
+    {
+      "cell": 20,
+      "id": "frontLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        262,
+        468
+      ],
+      "sha256": "937ec4b1aa04459bc87511311942397e7a75373ab3845d64c1464860bb4f62e3"
+    },
+    {
+      "cell": 21,
+      "id": "frontLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        126,
+        69,
+        259,
+        472
+      ],
+      "sha256": "6bca92a8402a23d9bc8d1e2b22e51934fd8bbb42e5842d3682dcb56e22d914f1"
+    },
+    {
+      "cell": 22,
+      "id": "frontLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        270,
+        466
+      ],
+      "sha256": "822a6d6915c01a44d2066d012c41201b66ed0386c8469a07129b10959de0cefe"
+    },
+    {
+      "cell": 23,
+      "id": "frontLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        69,
+        263,
+        473
+      ],
+      "sha256": "956f421d27e7ee136738c024803ca37c0a523cdbedc4e5ddfef7df9ecb585650"
+    },
+    {
+      "cell": 24,
+      "id": "left/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        70,
+        260,
+        464
+      ],
+      "sha256": "1e4137a608c41aeb3fc1befb60b70698aa75297d339378f833ae9742c358e549"
+    },
+    {
+      "cell": 25,
+      "id": "left/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        239,
+        461
+      ],
+      "sha256": "33dc2e92fd8dcf8f4cc29d010be5bda47b5c2364312ac03b4761d5b302388363"
+    },
+    {
+      "cell": 26,
+      "id": "left/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        70,
+        238,
+        462
+      ],
+      "sha256": "11da8dd606c80a28dca31b65a12c046c0dd2c3f28c8e2fc3bbc896a547bca350"
+    },
+    {
+      "cell": 27,
+      "id": "left/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/left/left-close-v3.png",
+      "sourceSize": [
+        1246,
+        1262
+      ],
+      "sourcePivot": [
+        611.16875,
+        1217.6328125
+      ],
+      "scale": 0.3347068145800317,
+      "bounds": [
+        134,
+        70,
+        233,
+        464
+      ],
+      "sha256": "5ae188442c8338483d41abf5bc5dcc853243df4f7b9462765bfd177895ff928f",
+      "sourceCanvas": {
+        "size": [
+          1262,
+          1262
+        ],
+        "padding": [
+          8.0,
+          0.0
+        ],
+        "method": "uniform-scale-centered-near-square"
+      }
+    },
+    {
+      "cell": 28,
+      "id": "rearLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        73,
+        255,
+        466
+      ],
+      "sha256": "9aadccef450d7ceaec7d63d1491de6b31ab226ba25777107e6f9a6ba49ac6f9b"
+    },
+    {
+      "cell": 29,
+      "id": "rearLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        69,
+        258,
+        463
+      ],
+      "sha256": "d1b3252b470368b08d966e256addb547b07ba80cc7a98044684a30dd7cb328ea"
+    },
+    {
+      "cell": 30,
+      "id": "rearLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-gather-v4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        121,
+        68,
+        252,
+        464
+      ],
+      "sha256": "bbbfdf5ada50014174087b74701ef62aa1634102d40db96232d0ee9917090f3c"
+    },
+    {
+      "cell": 31,
+      "id": "rearLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        70,
+        247,
+        464
+      ],
+      "sha256": "92ad03516593d004138b33bbe00d20a47a9b5660a40616959ebfd76de12bdb29"
+    },
+    {
+      "cell": 32,
+      "id": "rear/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rear/right.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        69,
+        271,
+        467
+      ],
+      "sha256": "d100622bcaa61f0329d95aa13b356582d8bf52a443c2fafe62048977ff66a1e4"
+    },
+    {
+      "cell": 33,
+      "id": "rear/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rear/left.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        71,
+        269,
+        467
+      ],
+      "sha256": "2b6f3098f32ffcdc818c0bde57f9483d99b962f0282e6770b00bcd3cb3bf4871"
+    },
+    {
+      "cell": 34,
+      "id": "rearRight/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearRight/right-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        70,
+        275,
+        462
+      ],
+      "sha256": "868890e55e6037c503e93e3752eb87aecb7b83a11c42198cc3f9ba893ecef620"
+    },
+    {
+      "cell": 35,
+      "id": "rearRight/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearRight/left-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        69,
+        278,
+        465
+      ],
+      "sha256": "95d91b71137cd7cfbbbcde6089feb8e84ee5fde005def410536ba2873f66cab0"
+    },
+    {
+      "cell": 36,
+      "id": "right/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/right.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        115,
+        72,
+        271,
+        465
+      ],
+      "sha256": "e4ddbe91945a2db4f41fdd0cc6e40df1322b7f69aa7dc3902694fb92c6bc17ff"
+    },
+    {
+      "cell": 37,
+      "id": "right/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/left-v3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        71,
+        256,
+        466
+      ],
+      "sha256": "82b2fc03772ad3ef5ac7527b1de0ff8f6cd26aec0471700dd88599a230bdfc5d"
+    },
+    {
+      "cell": 38,
+      "id": "frontRight/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontRight/right.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        103,
+        67,
+        284,
+        476
+      ],
+      "sha256": "a31a8eb9b50d6e86f42dca32ee9c83a531ef9ed267eb1c279fcc46d0f4fe3c90"
+    },
+    {
+      "cell": 39,
+      "id": "frontRight/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontRight/left.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        69,
+        276,
+        472
+      ],
+      "sha256": "6820e99b6b89552f2cc20e6e108606f8a0886ccbbf473288f6a0c92f9550ee4e"
+    },
+    {
+      "cell": 40,
+      "id": "front/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/front/right.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        70,
+        262,
+        476
+      ],
+      "sha256": "3439736b8b61a0d5e7001b48ba1912293ac9c1959a39c14e8d92eb7e6e50a48e"
+    },
+    {
+      "cell": 41,
+      "id": "front/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/front/left.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        69,
+        273,
+        473
+      ],
+      "sha256": "ad7856f88b6f6bf2976254e2e1f916a947959b2ee2a83ac0b14293dd4f049e02"
+    },
+    {
+      "cell": 42,
+      "id": "frontLeft/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontLeft/right.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        116,
+        68,
+        258,
+        473
+      ],
+      "sha256": "80c8dad50e6ad0400301895841af541b7d67ee3b3e39dfee858ecd67ad7f2c17"
+    },
+    {
+      "cell": 43,
+      "id": "frontLeft/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontLeft/left.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        116,
+        70,
+        276,
+        468
+      ],
+      "sha256": "cc88543f1879ee2ead032892e6302ce0bb7115775eec4b94db04a25bec34a5d2"
+    },
+    {
+      "cell": 44,
+      "id": "left/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/left/right.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        106,
+        71,
+        257,
+        466
+      ],
+      "sha256": "c0ffbf2c3c69ea6b44ae4d8b7cf071c3587847b87015e92ddc61843d0601d29f"
+    },
+    {
+      "cell": 45,
+      "id": "left/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/left/left.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        112,
+        70,
+        263,
+        466
+      ],
+      "sha256": "4de3707fa51a8ca3121e9d7404d684c8bfb11d8d4e17d49ba0254facde0bf6f9"
+    },
+    {
+      "cell": 46,
+      "id": "rearLeft/right-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearLeft/right.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        92,
+        75,
+        263,
+        467
+      ],
+      "sha256": "1c847c0b066d9aae6990d88097c1f33f4ddf038bac52122bebd1b48d860f0640"
+    },
+    {
+      "cell": 47,
+      "id": "rearLeft/left-passing",
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearLeft/left.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        89,
+        73,
+        265,
+        456
+      ],
+      "sha256": "4b62b4b1aeacfe3a3a86fbe506fc3a0343c8a757b9b47ed58cef0de5e8619c66"
+    }
+  ],
+  "production": {
+    "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+    "sha256": "ff6b1f48cf064cffdce2a4aecedfcec10e982026d69ead08afaba87ac084d9d9",
+    "width": 1152,
+    "height": 1152,
+    "columns": 8,
+    "rows": 6,
+    "cellWidth": 144,
+    "cellHeight": 192
+  },
+  "selectionSha256": "00599e19aa80e192aee3435813d358d94abc94fc61c1c9d99350c2bb1f1f2aef"
+}

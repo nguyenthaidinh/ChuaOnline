@@ -1,0 +1,146 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Browser QA rejected floating forehead/raised palms; true floor-contact prostration required.",
+  "jobs": [
+    {
+      "output": "man/08-prostrate-v3.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/10-push-up.png",
+          "sha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit the single male sprite in this reference into the BOTTOM position of a full Buddhist prostration, forehead touching the ground. Preserve the entire square1254x1254 transparent canvas, fixed orthographic rear-right camera, same man, short hair, blue-grey ao lam robe, exact stature, lighting and identity. Keep BOTH knees and both folded bare feet anchored exactly where they are in this reference. Keep BOTH palms planted FLAT DOWN on the same ground plane at their existing source-pixel positions in front of the knees. Change ONLY the torso, neck, head and elbows: bend the elbows and fold the torso deeply FORWARD AND DOWN until the FOREHEAD RESTS ON THE FLOOR BETWEEN THE TWO PLANTED PALMS. The forehead must be visibly BELOW the hips, on the same floor plane as the palms. Hips remain higher than the head, close to the heels; spine forms a gentle low arc. Elbows bend and may touch the floor, shoulders drop. This is a completed full prostration, not merely kneeling or bowing the neck. The face looks DOWN into the floor; do not show an upright side profile. Hands remain PALMS DOWN in contact with ground, never cupped upward or raised in front of the eyes. Do not lift the hands to the forehead: bring the forehead DOWN to the hands on the floor. Foot and knee positions unchanged. No standing, no chair, no prop, no floor texture, no cast shadow, no text, no extra character, no contact sheet. ONE complete figure only. Retain wide transparent margins and the exact SQUARE1:1 canvas. True RGBA background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-56ff4078-33ad-4806-96bf-521b46545211.png",
+      "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89"
+    },
+    {
+      "output": "man/07-hands-floor-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/10-push-up.png",
+          "sha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit this exact single male Buddhist sprite, keep the SAME man, face, short hair, blue-grey ao lam, warm light, fixed rear-right camera, full body scale and exactly the SAME square1254x1254 transparent canvas. Keep both knees and folded bare feet at the SAME source-pixel positions. Lower the torso/head halfway from upright toward a full floor prostration. Head is above the planted palms but the spine leans forward and the elbows have begun bending. Both palms remain flatDOWN on the floor at their exact existing pixel positions, not reaching in midair. This is the preparation pose just BEFORE the forehead descends to floor. Do not change the supporting feet/knees or face identity; no shadow, no floor texture, no props, text or montage. Both hands PALMS DOWN contact the same floor plane. One complete figure only, true RGBA transparent background. Preserve square1:1 framing with wide transparent margins.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-8011bf3b-d131-431d-b9cd-4f300bb05927.png",
+      "sha256": "b7ec57fd66fd940960ba64013e7e195827783efbcf96849a69ca07bb7264ebaa"
+    },
+    {
+      "output": "man/09-lift-head-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v3.png",
+          "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit this exact single male Buddhist sprite, keep the SAME man, face, short hair, blue-grey ao lam, warm light, fixed rear-right camera, full body scale and exactly the SAME square1254x1254 transparent canvas. Keep both knees and folded bare feet at the SAME source-pixel positions. Raise ONLY the head and upper chest slightly from the full forehead-to-floor prostration, forehead about5cm ABOVE the floor, not an upright half bow. Both palms and bent elbows stay resting on the floor, at the same exact source positions. Hips and folded legs stay low and anchored; hands never float or turn palmsup. This is the FIRST small head lift, before straightening the arms to push up. Do not change the supporting feet/knees or face identity; no shadow, no floor texture, no props, text or montage. Both hands PALMS DOWN contact the same floor plane. One complete figure only, true RGBA transparent background. Preserve square1:1 framing with wide transparent margins.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-e090d965-2687-4e9c-a9e6-1f3b02531adc.png",
+      "sha256": "1bbac246152b4e43275076209399b4a1fe582219a3580dbc475921e24f104c23"
+    },
+    {
+      "output": "woman/08-prostrate-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/woman/10-push-up.png",
+          "sha256": "f7920d571210f8c003a693665cc3c18ab0b8e5724a20ce634b23a0ec7e16c1d4"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v3.png",
+          "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. First reference is the EDIT TARGET and ONLY identity: the adult Vietnamese woman with black hair in a low bun and blue-grey ao lam. Second reference is ONLY an exact pose guide for the BOTTOM of a full prostration. Change the first person's torso/head/elbows to match the second reference pose exactly, while keeping the first person's face, hair, sex, age, own clothing, body proportions, exact same knees and folded bare feet positions, camera and lighting. The FOREHEAD RESTS ON THE FLOOR BETWEEN BOTH PALMS, below the hips. Both PALMS FACE DOWN and remain flat against the floor at their first-reference existing positions. Fold the torso FORWARD AND DOWN, bend elbows to the floor, face looksDOWN into floor. Hips remain higher than the forehead, close to heels, knees and toes anchored. This is full forehead-to-ground prostration, NOT kneeling with raised cupped hands, NOT just neck bow. Bring forehead DOWN to ground, never lift hands up to face. Use same full figure scale and exact SQUARE1254x1254 transparent canvas and margins as firstreference. One figure only; no floor texture, cast shadow, props, text, montage or male identity. True RGBA transparent background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-7725e775-d458-471e-8699-5d550c30a671.png",
+      "sha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872"
+    },
+    {
+      "output": "granny/08-prostrate-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/10-push-up.png",
+          "sha256": "3a5f543ca6dc92e49320f3db5e731a6b84d59b368b95d2a07ed553548c16d0b7"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v3.png",
+          "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. First reference is the EDIT TARGET and ONLY identity: the older Vietnamese woman with grey hair in a low bun and brown Buddhist robe. Second reference is ONLY an exact pose guide for the BOTTOM of a full prostration. Change the first person's torso/head/elbows to match the second reference pose exactly, while keeping the first person's face, hair, sex, age, own clothing, body proportions, exact same knees and folded bare feet positions, camera and lighting. The FOREHEAD RESTS ON THE FLOOR BETWEEN BOTH PALMS, below the hips. Both PALMS FACE DOWN and remain flat against the floor at their first-reference existing positions. Fold the torso FORWARD AND DOWN, bend elbows to the floor, face looksDOWN into floor. Hips remain higher than the forehead, close to heels, knees and toes anchored. This is full forehead-to-ground prostration, NOT kneeling with raised cupped hands, NOT just neck bow. Bring forehead DOWN to ground, never lift hands up to face. Use same full figure scale and exact SQUARE1254x1254 transparent canvas and margins as firstreference. One figure only; no floor texture, cast shadow, props, text, montage or male identity. True RGBA transparent background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-5dd7a88d-b25d-48b3-82ea-642fa83b2334.png",
+      "sha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c"
+    },
+    {
+      "output": "man/07-hands-floor-v3.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/07-hands-floor-v2.png",
+          "sha256": "b7ec57fd66fd940960ba64013e7e195827783efbcf96849a69ca07bb7264ebaa"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit ONLY the head/neck angle of this exact male sprite: bend the neck and tilt the face DOWNWARD approximately60degrees, looking at the floor between his planted palms. Keep the same face identity and short hair, but do not keep his current forward-looking head pose. Everything below the neck MUST remain unchanged: exact torso angle, robe, shoulders, bent elbows, both palms flat on the floor, knees, folded bare feet and sourcepixel positions. This is the hands-to-floor preparation just before lowering the forehead to the floor; his face must look down, not forward/up. Same fixed rear-right camera, warm lighting, figure scale and square1254x1254 transparent canvas with all margins. One man only, true RGBA, no floor texture, props, text or montage.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-17cd678d-9a99-491d-b635-b7da3f331eb4.png",
+      "sha256": "176b65676cf1fcb582317b87d34c3150d39d144ab6a35ced422a5a8bef3390a4"
+    },
+    {
+      "output": "woman/07-hands-floor-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/woman/08-prostrate-v2.png",
+          "sha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit this exact single Buddhist sprite, the adult Vietnamese woman, black low bun and blue-grey ao lam. Raise the TORSO partway from this deep prostration, to a forward-leaning hands-on-floor preparation. Keep the NECK FLEXED and face lookingDOWN at the planted palms, not forward/up. Head is20cm above the floor, torso leans down about45degrees, elbows bent90degrees. Both palms remain flat DOWN on the floor at their SAME pixel positions. Keep BOTH knees and both folded bare feet at the exact SAME source-pixel positions. Keep ownfaceidentity, age, hair, clothes, body proportions, warm light, fixed rear-right camera and empty hands. Change only the pose described; palms must never float or turn palmsup. Hips remain close to heels. No floor texture, castshadow, props, text, extra figure or montage. One fullfigure only. Preserve the entire SQUARE1254x1254 canvas and same fullbody scale with generous transparent margins. TrueRGBA transparent background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-2dc87ec6-70ed-4175-84db-fd1b96dbc1c9.png",
+      "sha256": "593bf6a5e605ef64d474ef288642360624379503a475453221852b20bed6eeab"
+    },
+    {
+      "output": "woman/09-lift-head-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/woman/08-prostrate-v2.png",
+          "sha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit this exact single Buddhist sprite, the adult Vietnamese woman, black low bun and blue-grey ao lam. Raise ONLY the head and upper chest very slightly, forehead about5cm above its floor contact. Do not lift toward an upright bow: this is the FIRST small head lift after prostration. Both palms and bent elbows remain supported on the floor at the same pixel positions. Face stilllooksDOWN. Keep BOTH knees and both folded bare feet at the exact SAME source-pixel positions. Keep ownfaceidentity, age, hair, clothes, body proportions, warm light, fixed rear-right camera and empty hands. Change only the pose described; palms must never float or turn palmsup. Hips remain close to heels. No floor texture, castshadow, props, text, extra figure or montage. One fullfigure only. Preserve the entire SQUARE1254x1254 canvas and same fullbody scale with generous transparent margins. TrueRGBA transparent background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-0907a268-8eed-4811-8697-e921fda91c9b.png",
+      "sha256": "6656ec986d8bfae131732361d683377cdf3e51c348ee242ac641410fd767029f"
+    },
+    {
+      "output": "granny/07-hands-floor-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/08-prostrate-v2.png",
+          "sha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit this exact single Buddhist sprite, the older Vietnamese woman, grey low bun and brown Buddhist robe. Raise the TORSO partway from this deep prostration, to a forward-leaning hands-on-floor preparation. Keep the NECK FLEXED and face lookingDOWN at the planted palms, not forward/up. Head is20cm above the floor, torso leans down about45degrees, elbows bent90degrees. Both palms remain flat DOWN on the floor at their SAME pixel positions. Keep BOTH knees and both folded bare feet at the exact SAME source-pixel positions. Keep ownfaceidentity, age, hair, clothes, body proportions, warm light, fixed rear-right camera and empty hands. Change only the pose described; palms must never float or turn palmsup. Hips remain close to heels. No floor texture, castshadow, props, text, extra figure or montage. One fullfigure only. Preserve the entire SQUARE1254x1254 canvas and same fullbody scale with generous transparent margins. TrueRGBA transparent background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-0c4a7c2b-53e9-4cdb-b849-bcd5b4ea44e1.png",
+      "sha256": "468eda48c65554300496dc90c2aef2f4e7b2f893668d78537b25d398fda77fc5"
+    },
+    {
+      "output": "granny/09-lift-head-v2.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/08-prostrate-v2.png",
+          "sha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit this exact single Buddhist sprite, the older Vietnamese woman, grey low bun and brown Buddhist robe. Raise ONLY the head and upper chest very slightly, forehead about5cm above its floor contact. Do not lift toward an upright bow: this is the FIRST small head lift after prostration. Both palms and bent elbows remain supported on the floor at the same pixel positions. Face stilllooksDOWN. Keep BOTH knees and both folded bare feet at the exact SAME source-pixel positions. Keep ownfaceidentity, age, hair, clothes, body proportions, warm light, fixed rear-right camera and empty hands. Change only the pose described; palms must never float or turn palmsup. Hips remain close to heels. No floor texture, castshadow, props, text, extra figure or montage. One fullfigure only. Preserve the entire SQUARE1254x1254 canvas and same fullbody scale with generous transparent margins. TrueRGBA transparent background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-b8ea9b25-d694-41ae-8547-0bea9f5d8f31.png",
+      "sha256": "b9ced02d1d26d371187083bdfca1a7a4b10692ab1330d9b3c050d34afd9b63fb"
+    },
+    {
+      "output": "granny/07-hands-floor-v3.png",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/10-push-up.png",
+          "sha256": "3a5f543ca6dc92e49320f3db5e731a6b84d59b368b95d2a07ed553548c16d0b7"
+        }
+      ],
+      "prompt": "Use case: identity-preserve. Edit this exact older Vietnamese woman with grey low bun and brown Buddhist robe. Keep the SAME square1254x1254 transparent canvas, camera, lighting, stature and bodypixel scale. The TWO PALMS in the reference are already correctly planted FLAT DOWN on the floor. Keep their exact pixels and wrist positions UNCHANGED, never rotate palmsup or lift them into the air. Keep the knees and both folded feet exactly unchanged too. Change ONLY torso/head and elbows above the fixed wrists: lean the torso FORWARD AND DOWN to about45degrees, bend the elbows about90degrees, tuck chin and look straightDOWN toward the palms, head about20cm above the floor. This is hands-first floor-contact preparation before forehead descends to the floor. Both palms remain ground supports, arms transfer bodyweight through them. Do not reach hands forward, do not cup palms, do not change handposition. No change to identity, age, hair, robe or feet. No floor texture, shadow, props, text, contact sheet or extra figure. One complete sprite, same squarecanvas and generous transparent margins, trueRGBA background.",
+      "generatedSource": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a95f-1c77-7d23-94d2-b423fa47dfd3\\exec-d39b615c-fddd-4e4b-8745-483f852acaa8.png",
+      "sha256": "ea75c8471b06af47bd94820e9e30383a58c0d8886a48fc82f76107f7f6812a94"
+    }
+  ]
+}

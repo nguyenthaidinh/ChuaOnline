@@ -1,0 +1,698 @@
+{
+  "status": "compiled",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "master": "atlas-master.webp",
+  "masterSha256": "ea06a3d6ac0d80ca30f901a97f119883c24fffd88f69faf5e7e5c78e88cf0956",
+  "frames": [
+    {
+      "cell": 0,
+      "id": "rear/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        72,
+        266,
+        462
+      ],
+      "sha256": "4d1935b469259c75f9ae789d7c8ffb6fd49d298cb656488fc82cff1526a5dbfd"
+    },
+    {
+      "cell": 1,
+      "id": "rear/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        72,
+        268,
+        462
+      ],
+      "sha256": "0bc3a5d47a68f4dd8cbd5cf08c22bd00380d65a0a54f7530b77fc1e5297cd80d"
+    },
+    {
+      "cell": 2,
+      "id": "rear/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        71,
+        265,
+        469
+      ],
+      "sha256": "902d5a00e0f86a30367b73b05f29cbdf4755ec7c61dcc11baa3ba88d3242a674"
+    },
+    {
+      "cell": 3,
+      "id": "rear/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        121,
+        71,
+        268,
+        469
+      ],
+      "sha256": "9f456c16a13f525e313ab03d45591541b50168cd9b642362b520d36e462e0379"
+    },
+    {
+      "cell": 4,
+      "id": "rearRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        72,
+        258,
+        462
+      ],
+      "sha256": "34010f2ce731f286a79ee9c525a732f6ddc4f10dea846fc69f45991c3cc9f425"
+    },
+    {
+      "cell": 5,
+      "id": "rearRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        126,
+        71,
+        253,
+        457
+      ],
+      "sha256": "7e0d6ed738027d66bfb173c86aa280576fa2f30bbc9f3260ef219378c159714d"
+    },
+    {
+      "cell": 6,
+      "id": "rearRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        129,
+        72,
+        251,
+        461
+      ],
+      "sha256": "9a69dd9e378a51174dce63ae639a51f76321236ac9458ce4fed9b890aa9b8ee3"
+    },
+    {
+      "cell": 7,
+      "id": "rearRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        72,
+        260,
+        461
+      ],
+      "sha256": "07b2f3e3b106f46208e709ebd3b96839e20b7e5df196d6880d55c86f9458fb8c"
+    },
+    {
+      "cell": 8,
+      "id": "right/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        73,
+        257,
+        465
+      ],
+      "sha256": "df370dedc6e5033fdf7780966d5f4d566f6ba8f4891ef37a1c330918a3446070"
+    },
+    {
+      "cell": 9,
+      "id": "right/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        147,
+        73,
+        248,
+        465
+      ],
+      "sha256": "2a0768035bdceb2d71dc82cad6688647d05d52cf1fbea12ae9a9423f8c617034"
+    },
+    {
+      "cell": 10,
+      "id": "right/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        130,
+        71,
+        249,
+        465
+      ],
+      "sha256": "bcb47668204739bcdc055ed5b652c025dc20e0fbc8de5dca24e41596c6d5a7f6"
+    },
+    {
+      "cell": 11,
+      "id": "right/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        138,
+        71,
+        243,
+        464
+      ],
+      "sha256": "e0a17f0d2ec4501bfd33bf7c7d3b071df71fb55b15314bee9d624bd066b9cbbb"
+    },
+    {
+      "cell": 12,
+      "id": "frontRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        70,
+        270,
+        471
+      ],
+      "sha256": "15f079709e840a7b9a1134c8e102f06e48155fc87c6376b16ba1d238f68cd5d6"
+    },
+    {
+      "cell": 13,
+      "id": "frontRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        70,
+        265,
+        471
+      ],
+      "sha256": "642f3c26c26bf21b76ad2ea117f3dcac93da7fcbe4872eac67e6584b31dbbcf1"
+    },
+    {
+      "cell": 14,
+      "id": "frontRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        70,
+        265,
+        472
+      ],
+      "sha256": "c53bb006f44ddc790ecf654d5fe31a194859bd84fca9ea6788e6bb1730fabc70"
+    },
+    {
+      "cell": 15,
+      "id": "frontRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        70,
+        267,
+        472
+      ],
+      "sha256": "cf6f815af0adc7781f937711616252a823bcab68fcd721b474409fff6bcb0a87"
+    },
+    {
+      "cell": 16,
+      "id": "front/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        73,
+        263,
+        473
+      ],
+      "sha256": "a28100d28562eba586058fc9a39df23221ed43c4bf9af9324cdfd221a553bdab"
+    },
+    {
+      "cell": 17,
+      "id": "front/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        73,
+        265,
+        474
+      ],
+      "sha256": "171f66383b8999a43936b915e63624ebd5b865a37fd7d3d611628f50369f9622"
+    },
+    {
+      "cell": 18,
+      "id": "front/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        72,
+        269,
+        470
+      ],
+      "sha256": "ab5c3749d39ea8e041d91978830e83ac5d21aabee82ef13e8eaa82a4a43175f0"
+    },
+    {
+      "cell": 19,
+      "id": "front/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        73,
+        271,
+        470
+      ],
+      "sha256": "64f297bcb046ee883ee16cb454cf37f99f4183bdbe4fcce432d61654b1d71137"
+    },
+    {
+      "cell": 20,
+      "id": "frontLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        70,
+        258,
+        470
+      ],
+      "sha256": "66140b729a21e7e2ba2f029aa662ba76b6cedcdf896ee979238294728a4f2045"
+    },
+    {
+      "cell": 21,
+      "id": "frontLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        255,
+        470
+      ],
+      "sha256": "2fd7d5defaf09a070375ba04922234896335aa2debf09cebec943946d6fa87b9"
+    },
+    {
+      "cell": 22,
+      "id": "frontLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        70,
+        270,
+        466
+      ],
+      "sha256": "ef367ec43128c7e751d879f9b9730071593fa485f03d45af4bea87c74db56172"
+    },
+    {
+      "cell": 23,
+      "id": "frontLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        71,
+        271,
+        467
+      ],
+      "sha256": "9fd03aadb99ea3e0e349eee97a92d5051c7bf3cbd1054009d3b8a3b6a44f90be"
+    },
+    {
+      "cell": 24,
+      "id": "left/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        70,
+        238,
+        465
+      ],
+      "sha256": "74f2dc56e02f014e0bf2c9fd33bf5e24a4fe0f20ae496f600cf23e247b82a9c0"
+    },
+    {
+      "cell": 25,
+      "id": "left/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-close-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        141,
+        71,
+        231,
+        463
+      ],
+      "sha256": "264052783304a304fd8d5344fbf525c3d1e8290e84e497275df82b68d487f0d4"
+    },
+    {
+      "cell": 26,
+      "id": "left/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        130,
+        71,
+        246,
+        463
+      ],
+      "sha256": "1b87ec3ffc220e567ba317be1a34a86f5fc43f53143dabf5f909daf9322123f2"
+    },
+    {
+      "cell": 27,
+      "id": "left/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        138,
+        71,
+        235,
+        466
+      ],
+      "sha256": "3ed2a3116e0808e00deec45f0b6595491c913899ce64d56b431b57942d7a8f1f"
+    },
+    {
+      "cell": 28,
+      "id": "rearLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        74,
+        245,
+        465
+      ],
+      "sha256": "8d1114047d7caba25f3774c76b89c850a90ec075a6a809c2423e5c926f0dfee4"
+    },
+    {
+      "cell": 29,
+      "id": "rearLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        74,
+        247,
+        464
+      ],
+      "sha256": "f7a9348a3f4a7ddd46ff5f6aafc321e7fd6c328c3c5fea6a57c9bf9551200e1f"
+    },
+    {
+      "cell": 30,
+      "id": "rearLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        71,
+        246,
+        456
+      ],
+      "sha256": "6eda358261b73373dd186599b21749065e90e79456cd42b05b40797db9006267"
+    },
+    {
+      "cell": 31,
+      "id": "rearLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-close-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        70,
+        246,
+        456
+      ],
+      "sha256": "6a591c8e3ac5946c6359648956f4c6b1ef7b129401f1f454f0255425ecc2bae9"
+    }
+  ],
+  "production": {
+    "image": "assets/animation-v3/granny-closes-36dbcee69982.webp",
+    "sha256": "36dbcee69982aa6cd030b073bf62813b512908bc5320641fc962ca5e282bbd00",
+    "width": 1152,
+    "height": 768,
+    "columns": 8,
+    "rows": 4,
+    "cellWidth": 144,
+    "cellHeight": 192
+  },
+  "selectionSha256": "9d3c3d5c02ef2e8ec84fc1da5317ba2bf8722f446e7183eb1badb85a95e9cfba"
+}

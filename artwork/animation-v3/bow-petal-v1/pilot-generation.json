@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "03-kneel-rest-v2",
+      "output": "man/03-kneel-rest-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/03-kneel-rest.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit target image1 is the approved kneeling visitor. Image2 is his standing scale/root reference. Keep EXACT kneeling anatomy, face/hair/headsize, blue-grey ao lam costume, rear-right camera, warm upper-left light and SQUARE1254transparentcanvas. Correct ONLY the placement of the entire kneeling body on the source canvas: preserve its exact size and orientation but place its folded feet so the lowest toes contact aroundy1210 rather than1150. The whole body is roughly60px lower; top of hair aroundy450, kneecaps remain ahead/right of folded feet; no enlargement, auto-crop, zoom, rotation or new pose. Full knees/feet/hands within generous transparent margin, anatomical seams and alpha edges clean. Both hands rest on thighs, posture upright, gaze away upper-right toward altar. No floor, shadow, cushion, text, props or extra person. Keep genuine transparent RGBA."
+    },
+    {
+      "id": "15-petal-cradle",
+      "output": "man/15-petal-cradle.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE ChuaOnline ritual key pose, true transparent RGBA1254square. Preserve exact man identity, head size/position, planted bare feet, source origin nearx615,y1210, torso/root, blue-grey ao lam, fixed elevated rear-right camera and warm upper-left light of image1. Change ONLY his arms and hands into a gentle TWO-HANDED CUP at lower chest/upper abdomen, elbows naturally bent. Two empty palms face up and curve together to cradle an invisible small handful of loose petals; right hand slightly in front, left hand supporting underneath. Fingertips/thumbs naturally curved, all5fingers perhand, no fused hands or extra digit. The cup sits in front of body toward screen-right, aroundsourcex830,y510. Hands EMPTY: no petals, flower, bowl, tray, incense, object, floor, cushion, shadow, background, text or multiple poses. Keep full hands and feet in frame with generous margins. Do not change face/costume/camera/scale or recenter the image."
+    }
+  ]
+}

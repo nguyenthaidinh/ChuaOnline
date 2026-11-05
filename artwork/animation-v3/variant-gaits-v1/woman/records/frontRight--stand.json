@@ -1,0 +1,12 @@
+{
+  "heading": "frontRight",
+  "id": "stand",
+  "prompt": "Use case: identity-preserve. Create ONE full-body transparent animation key pose for ChuaOnline. Image1 is the approved WOMAN identity reference. Image2 is ONLY the body pose, view/camera, scale and source-floor-origin reference; never copy the man's identity or male proportions. Exact SAME adult Vietnamese female lay visitor from image1, modest blue-grey ao lam tunic and matching full loose trousers, black hair combed into the same neat low bun, feminine natural adult build and calm face, bare feet. Preserve her own garment design/seams/material, age, head scale and hair/bun across views. Keep the fixed slightly elevated game camera, warm upper-left light/soft fill, quiet semi-realistic illustration style. Match image2's standing height and entire limb/foot positions, keeping source hair top around y30, pelvis/root centered near x615 and floor y1210, on a SQUARE1254x1254 true RGBA canvas with unused transparent margin. Full head, fingertips and feet must fit; no crop, zoom or per-pose recenter. Both hands EMPTY, relaxed arms beside hips and quiet parallel neutral feet. No male face/body, no elderly hair, mirror, floor, shadow, cushion, props, smoke, text, frame, second figure, duplicate limbs, motion blur or colored alpha fringe. Heading: FRONT THREE-QUARTER view rotated45degrees toward screen-DOWN-RIGHT. Face and tunic buttons visible, her left side closer, nose, pelvis, knees and toes all aim DOWN-RIGHT.",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/stand.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variants-v1/woman/00-neutral.png"
+  ],
+  "output": "frontRight/stand.png",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-d7c0337f-f787-494e-8f4e-f571149690e2.png"
+}

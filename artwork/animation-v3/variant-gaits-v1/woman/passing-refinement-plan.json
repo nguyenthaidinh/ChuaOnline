@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Reject unclean halo on rearRight06 and incorrect extended swing leg on right06 before support-source lock.",
+  "jobs": [
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "rearRight/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: background-extraction. Clean ONLY the alpha-edge artifacts of the woman in IMAGE1. Keep the EXACT same woman, rear-right body view, low black bun, blue-grey tunic/trousers, pose, scale, whole-body coordinates and supporting LEFT foot and lifted RIGHT knee/foot. Image2 is her clean identity/light reference only, do NOT copy its long stride. Remove the broad pale/grey/yellow/red/purple halo and stray disconnected pixels around hair, neck, arms, leg and feet. Keep genuine natural warm rim light INSIDE her silhouette and fine antialiased hair/cloth contours; outside must be truly transparent RGBA, not white/grey paint. One full-body individual, same square1254canvas and margins, do not crop/recenter, no shadow/floor/props/text/second figure. Preserve the compact passing stance: one straight support leg under pelvis, other knee bent and foot hovering. Do not mirror or stretch anatomy."
+    },
+    {
+      "heading": "right",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v2",
+      "output": "right/06-opposite-passing-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png"
+      ],
+      "prompt": "Use case: identity-preserve. Fix IMAGE1 into the LEFT SUPPORT / RIGHT PASSING walking phase for this exact adult Vietnamese woman. IMAGE2 shows the required COMPACT mid-stance silhouette/scale; IMAGE3 establishes the opposite left-leading step and same identity. Keep her exact same right-profile head/body view, black low bun, blue-grey ao lam, calm female face, empty hands, elevated camera and warm upper-left light. LEFT leg is the weight-bearing support leg almost straight under the pelvis; its foot stays flat on the same ground plane. RIGHT leg is the swinging leg: BEND the RIGHT knee, lift the right foot and bring it close beside the support shin, NOT extended a stride ahead. Sole of the raised right foot hovers near the other ankle/shin, not out at the far right edge. Arms pass near hips with restrained counter-swing. This must be opposite support to IMAGE2, without mirroring the woman or camera. Keep fixed rootnearx615y1210, hairtopy30 and exact SQUARE1254canvas with unused margins; complete feet/hands, no crop/recenter/zoom. Genuine RGBA outside clean body silhouette, no broad colored/white alpha halos, floor, baked shadow, props, cushion, text, extra limbs or second person."
+    }
+  ]
+}

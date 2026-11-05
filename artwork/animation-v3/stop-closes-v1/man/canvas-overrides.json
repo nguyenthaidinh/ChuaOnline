@@ -1,0 +1,11 @@
+{
+  "left/left-close-v3.png": {
+    "sourceSha256": "5ae188442c8338483d41abf5bc5dcc853243df4f7b9462765bfd177895ff928f",
+    "reviewed": true,
+    "reason": "Native1246x1262 RGBA canvas differs1.27%; same male proportions and leg support visually reviewed. Use centered virtual1262square, uniformscale and transparentletterbox; never stretch or alter raw pixels.",
+    "sourceSize": [
+      1246,
+      1262
+    ]
+  }
+}

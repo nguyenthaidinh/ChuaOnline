@@ -25,6 +25,7 @@ export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLB
   Object.assign(art.current.style,imageStyle);
   root.current.dataset.phase=sample.phase;root.current.dataset.clip=clip;root.current.dataset.frame=String(frame.cell);root.current.dataset.facing=frame.facing;
   root.current.dataset.heading=sample.heading;root.current.dataset.movementStage=sample.locomotion?.stage??'';
+  root.current.dataset.supportFoot=sample.locomotion?.supportFoot??'';
   root.current.dataset.movementVersion=String(person.action?.movement?.version??person.entryVersion??2);
   root.current.dataset.actionId=person.action?.id??'';
   root.current.dataset.timelineVersion=String(person.action?.timelineVersion??1);

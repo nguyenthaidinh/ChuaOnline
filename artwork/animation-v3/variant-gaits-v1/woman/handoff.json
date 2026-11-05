@@ -1,0 +1,1643 @@
+{
+  "appearance": "woman",
+  "status": "source-complete",
+  "tool": "built-in image_gen",
+  "selectedCount": 72,
+  "selectedNewOutputs": 71,
+  "exactReusedOutputs": 1,
+  "retainedNewOutputs": 82,
+  "nativeSourceFiles": 83,
+  "draftCount": 11,
+  "sourceGeometry": {
+    "native": [
+      1254,
+      1254
+    ],
+    "logical": [
+      384,
+      512
+    ],
+    "pivot": [
+      192,
+      468
+    ],
+    "runtimeCellPlanned": [
+      144,
+      192
+    ]
+  },
+  "validation": "All selected/native source SHA, 32 anchor locks, 16 passing contacts, 16 neutral contacts, native RGBA/square alpha, non-clipped normalized bounds, exact reused neutral, and eight 8-frame/960ms loops checked. Light/dark ordered-frame boards manually reviewed; runtime/browser rendering remains parent integration.",
+  "selected": [
+    {
+      "heading": "rear",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        71,
+        264,
+        469
+      ],
+      "sha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa"
+    },
+    {
+      "heading": "rear",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        71,
+        270,
+        473
+      ],
+      "sha256": "fbb5c65acc660480ef5793429ce2421d7005a479fb856908199a4d6d848d00e9"
+    },
+    {
+      "heading": "rear",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        71,
+        271,
+        464
+      ],
+      "sha256": "37757531d4432950d4ac2b53ba8aedcbe76a0b6d8a1586fc0262b572258bebca"
+    },
+    {
+      "heading": "rear",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        71,
+        267,
+        464
+      ],
+      "sha256": "6d1bce50b16a981aeebba635770db391da792f20ee35d90cbc5ec32442fe324d"
+    },
+    {
+      "heading": "rear",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        71,
+        259,
+        470
+      ],
+      "sha256": "778be86de571ddae26b388d7bdeabbe2ae85c47e452bec7c33207291ab73f4c6"
+    },
+    {
+      "heading": "rear",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        72,
+        258,
+        471
+      ],
+      "sha256": "09ce3a72904ba650df5dd56f852034daf167a94cc9fe962e5e49fe18b4b909a3"
+    },
+    {
+      "heading": "rear",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        71,
+        259,
+        469
+      ],
+      "sha256": "25a6270611ba37ea82f4b159bb38f122f862a8126a09313f113d10de2eb2e48c"
+    },
+    {
+      "heading": "rear",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/06-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        71,
+        262,
+        466
+      ],
+      "sha256": "8dda223fd211587dc4e4ecc3f4e61afa998d3f344f8844663aa6fba328035c6a"
+    },
+    {
+      "heading": "rear",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/07-opposite-swing-s2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        71,
+        271,
+        472
+      ],
+      "sha256": "a1af810c5995a8e9b49265b0cbc4b4903c018e14dab0b6a17876c90ed17f1618"
+    },
+    {
+      "heading": "rearRight",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        134,
+        73,
+        252,
+        461
+      ],
+      "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+    },
+    {
+      "heading": "rearRight",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        73,
+        279,
+        470
+      ],
+      "sha256": "0475067c476708fd20ec6d3bda907d31360cb1a48c586cd46740f8bce6f67d9d"
+    },
+    {
+      "heading": "rearRight",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/01-loading-s2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        115,
+        73,
+        283,
+        469
+      ],
+      "sha256": "0db9e223cebcc90652442185200e927f6d5423b9468a1a49cc9f7d8b9c3cb2df"
+    },
+    {
+      "heading": "rearRight",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        73,
+        271,
+        461
+      ],
+      "sha256": "e53ccd9c5060b27df7ed7af1ae185ed1d899333330b668704129be5e05fb14ea"
+    },
+    {
+      "heading": "rearRight",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        107,
+        73,
+        289,
+        467
+      ],
+      "sha256": "e54925bd8c1923dde53caf29179ae6cbc414dcd1095df5c3b3ca1fa3100fca38"
+    },
+    {
+      "heading": "rearRight",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        107,
+        74,
+        289,
+        467
+      ],
+      "sha256": "61e6d8a6ba4caeb83cb5171a857e399dc3753f438cb64cc0e6973cc5ffad78ac"
+    },
+    {
+      "heading": "rearRight",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        107,
+        73,
+        288,
+        468
+      ],
+      "sha256": "3cd7c2219f34d613dc96690269630db8f763383bb45dfd3321eaada70db989eb"
+    },
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        72,
+        275,
+        462
+      ],
+      "sha256": "0e8533d818c8f7051c91161e8225650ad33d002f3e4ab27d93ebd7d8cf34bebf"
+    },
+    {
+      "heading": "rearRight",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        72,
+        284,
+        469
+      ],
+      "sha256": "fcf67156719813cb8cf1f536a5c2c675c3a7c79303c175b42a684550b554a7ff"
+    },
+    {
+      "heading": "right",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        161,
+        72,
+        230,
+        464
+      ],
+      "sha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11"
+    },
+    {
+      "heading": "right",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        83,
+        75,
+        305,
+        464
+      ],
+      "sha256": "0e41d83a56965d9fba7797298ba6d9e775c845dffce01761d90e9a966fe63162"
+    },
+    {
+      "heading": "right",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        103,
+        75,
+        275,
+        463
+      ],
+      "sha256": "380f358664cac37a612f64776e3418edee9c33e52665f6e338a855d1c1f098b5"
+    },
+    {
+      "heading": "right",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        129,
+        73,
+        267,
+        464
+      ],
+      "sha256": "ca0c305071bb1c3189166a47c4f7a6fa099431bdb472f2196f0140483b870f45"
+    },
+    {
+      "heading": "right",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        78,
+        73,
+        313,
+        461
+      ],
+      "sha256": "38b7ae4b9ea248ad255ed1d1de8155388d8245361299a802411081b0f009b22b"
+    },
+    {
+      "heading": "right",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        77,
+        73,
+        307,
+        461
+      ],
+      "sha256": "3462a8e0cf1b6bcfb94e48bd2d2f7ecbdc6ff9acb7d474fb82d12b7cf5363450"
+    },
+    {
+      "heading": "right",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        78,
+        73,
+        285,
+        460
+      ],
+      "sha256": "0a3d0bfccb4c19d4ce131dd9e6075f51937a67e8498d64355de57fb22eb28c73"
+    },
+    {
+      "heading": "right",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        73,
+        256,
+        464
+      ],
+      "sha256": "1123e95954d102c2983e2b840147aae7079f9b11f0a21b649a5c463ef43b6029"
+    },
+    {
+      "heading": "right",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        82,
+        75,
+        305,
+        464
+      ],
+      "sha256": "f5fc66f26f9d065aac73c91f44f52a9a6fa9a2dc4175c42cf3649e31c42d7038"
+    },
+    {
+      "heading": "frontRight",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        71,
+        254,
+        472
+      ],
+      "sha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d"
+    },
+    {
+      "heading": "frontRight",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        100,
+        72,
+        285,
+        474
+      ],
+      "sha256": "fd7506e6dbceb8e7fd32b3cff600dd48751ccabfe3a8f3436771210273c40351"
+    },
+    {
+      "heading": "frontRight",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        98,
+        71,
+        286,
+        472
+      ],
+      "sha256": "64d21e822991accfc884c352ac344f535faf99637bb1eac3b96646ddca27efb1"
+    },
+    {
+      "heading": "frontRight",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        109,
+        71,
+        279,
+        471
+      ],
+      "sha256": "275c3bc82ffa2a5425b9369260aa585e278f79851c6012f270dddfc42de88f85"
+    },
+    {
+      "heading": "frontRight",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        108,
+        70,
+        279,
+        467
+      ],
+      "sha256": "82769b3aa87282f66f636f9500f2f8030431e2967c01f2975595ab2328e26bcf"
+    },
+    {
+      "heading": "frontRight",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        110,
+        71,
+        272,
+        469
+      ],
+      "sha256": "94da03f055b81c6ba22d9090e0a016834b4db2a37a0b41f5b93033beb68f6f35"
+    },
+    {
+      "heading": "frontRight",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        110,
+        69,
+        267,
+        470
+      ],
+      "sha256": "a158cac273c9224e97d237776f5193184834a8206d2fab740caf99812b6375a6"
+    },
+    {
+      "heading": "frontRight",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/06-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        70,
+        274,
+        472
+      ],
+      "sha256": "b3835ffa50dd8786825e837ceba38e33189eefcd912ad39646dbea9c2a0753d5"
+    },
+    {
+      "heading": "frontRight",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        94,
+        72,
+        286,
+        474
+      ],
+      "sha256": "394bf996de7c7d6907dcf7cbed7c9704b36a05265b31b30f55be369bec3ee39c"
+    },
+    {
+      "heading": "front",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        129,
+        74,
+        263,
+        471
+      ],
+      "sha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d"
+    },
+    {
+      "heading": "front",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        74,
+        256,
+        474
+      ],
+      "sha256": "f64234232993c9630f67e9e6672149bc815b58a3e683576b4c28010679e4f2c8"
+    },
+    {
+      "heading": "front",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        73,
+        257,
+        473
+      ],
+      "sha256": "ef9ff48eda812dcd810a8aeceb3282c9e30e0b47ec81334d9d8e4baa7773265b"
+    },
+    {
+      "heading": "front",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        73,
+        257,
+        475
+      ],
+      "sha256": "71d1e0314da9188e9372bcf84ba3bd7be14ebd09e5ea46e5f936dfe764a9b1f4"
+    },
+    {
+      "heading": "front",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        72,
+        268,
+        471
+      ],
+      "sha256": "67ebef3c5a2a51a8284d64177d54d0a3fa41988fa806b1b11cbad0ffbebbab4a"
+    },
+    {
+      "heading": "front",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        128,
+        72,
+        267,
+        471
+      ],
+      "sha256": "c2982c2e32157d7309af420183082ab65a640011cad00e3d1979105f48cb56ad"
+    },
+    {
+      "heading": "front",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        128,
+        72,
+        266,
+        473
+      ],
+      "sha256": "c8f277ed3efcc7ed281bad9457ba3225cf52a56c53fe9a8ade83d17770f20d4e"
+    },
+    {
+      "heading": "front",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/06-opposite-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        71,
+        268,
+        470
+      ],
+      "sha256": "b3e955f4aa7dec3eabb0a4fd9c4ca2b98a94a0a7982c05d574bed9527033df8b"
+    },
+    {
+      "heading": "front",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        73,
+        260,
+        473
+      ],
+      "sha256": "931996d2c10c54ad7ac7e3243d5abfc8212a0216e4d251baae41ac896e2c7ad2"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        135,
+        71,
+        256,
+        474
+      ],
+      "sha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        106,
+        73,
+        262,
+        474
+      ],
+      "sha256": "095aa60066d198e1e8455b81040fae1db3f527ac7087ebf83cbe554e097ed6ff"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        115,
+        73,
+        256,
+        474
+      ],
+      "sha256": "0165dfdedaf67012f0ad52424151dcb3967747e2398f63cc07faf3ce0c4ca273"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        118,
+        73,
+        250,
+        470
+      ],
+      "sha256": "e1abfc33e8c6e6ad3d0f95f4ff5e3f9683fbf96a31d5d9a617660f14cd1faba7"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        72,
+        286,
+        464
+      ],
+      "sha256": "62d93d5050770c60b1689c715f0d32634b87912e31eca214d201cdfb17d9df47"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        71,
+        280,
+        467
+      ],
+      "sha256": "16d654a48212cd2110ca594510c776a8afcddfa915ba5ee35cb8c67319718311"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        71,
+        279,
+        465
+      ],
+      "sha256": "441b533174553cfa66fbc96cbd90b4c150de3c54df40d563f7919cf087426313"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        71,
+        273,
+        466
+      ],
+      "sha256": "ee6dcb95846c17f89d4cc514ab10167fe51969f6a1a92552733d11852d8b1ba2"
+    },
+    {
+      "heading": "frontLeft",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        104,
+        73,
+        264,
+        473
+      ],
+      "sha256": "32ae158ccc3a67e6ed9a6ccdf4fb2424ffe52ac97995e202b05a9abbc68700c2"
+    },
+    {
+      "heading": "left",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        156,
+        73,
+        231,
+        466
+      ],
+      "sha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214"
+    },
+    {
+      "heading": "left",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        71,
+        75,
+        300,
+        463
+      ],
+      "sha256": "98485e346911d1b6e846d7d8ddc2a66d9d3ad48fd2740586711d104cf95b042f"
+    },
+    {
+      "heading": "left",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        81,
+        74,
+        297,
+        464
+      ],
+      "sha256": "eaef23688ddd6ab04830191a83c0c7bd24a661deac5f2a7542daa5d4a3dbb475"
+    },
+    {
+      "heading": "left",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        109,
+        73,
+        254,
+        464
+      ],
+      "sha256": "c89dee30e3616dcca0c01995eaa61d0ac0473b945e11a9433d255ea2248fd800"
+    },
+    {
+      "heading": "left",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        64,
+        74,
+        319,
+        463
+      ],
+      "sha256": "8979d3683f8d33c6ee685d83408c9fd5304171fcec96d2c581e933e4e3cc5d3b"
+    },
+    {
+      "heading": "left",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        65,
+        75,
+        320,
+        462
+      ],
+      "sha256": "f1f41180ccd86b8574126cdccfc54f8b571a153b6801f2e169242a22aed3ce41"
+    },
+    {
+      "heading": "left",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        96,
+        75,
+        309,
+        463
+      ],
+      "sha256": "fb39c295a818b3f59a7b71793663b744b0f1decc5247ad1ea30fc6c87d4a2e02"
+    },
+    {
+      "heading": "left",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v3.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        114,
+        73,
+        258,
+        466
+      ],
+      "sha256": "617627cf4850f31f64093e74129ea25d7fec44a10fa0442ce1fa63b763e6d52c"
+    },
+    {
+      "heading": "left",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        66,
+        74,
+        302,
+        464
+      ],
+      "sha256": "85be2bab295a68e3274eac875b26d1cd1eb41907bd9b9adb4577376af8f3e52e"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "stand",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        138,
+        72,
+        245,
+        468
+      ],
+      "sha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        84,
+        76,
+        277,
+        467
+      ],
+      "sha256": "efe40ac1d20f796606095cfd40711d48e21c58e0da00962b9c94b874589fecac"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "01-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/01-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        83,
+        76,
+        267,
+        466
+      ],
+      "sha256": "4f940c6ebf5c59b03f07bc77ecd5dc57e362cce721a32b1cc303a503e61b14dd"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        96,
+        75,
+        261,
+        466
+      ],
+      "sha256": "fec85ab2217f1677ca2c0614755f9e73419719e52177cd0c310cb882cd7b0a79"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "03-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/03-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        96,
+        74,
+        272,
+        468
+      ],
+      "sha256": "148e623cee93146750cf7c8dbc48758dc16dd4ecaff8b929ef2c2070a95e3877"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        100,
+        75,
+        271,
+        468
+      ],
+      "sha256": "197059a28b91055d6b76777893e0e665e827c30784538a3626c78c165c2e4545"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "05-opposite-loading",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/05-opposite-loading.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        102,
+        75,
+        269,
+        468
+      ],
+      "sha256": "c50bcb7cf064e6ede5c7c346c5f0cbea978ab0b8be21b66a42d95a97c18a886e"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        93,
+        74,
+        261,
+        455
+      ],
+      "sha256": "4f0b3001d1d4dbd48c686fc4e1d70ac9d7a1ae5a7abb5d5ad16954fba9e3c7b2"
+    },
+    {
+      "heading": "rearLeft",
+      "id": "07-opposite-swing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/07-opposite-swing.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        81,
+        76,
+        278,
+        467
+      ],
+      "sha256": "ba7c49254d4990d9ad702cd506b01e0586c269ae96a761fca592c1043ebbfd58"
+    }
+  ],
+  "drafts": [
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing.png",
+      "sha256": "cc2fd70ee7f28d47ca03d4b122696840bd83b6e561a53c472731edebbe9399a5",
+      "reason": "Incorrect far-left support for a right-support label; selected v2 uses near right leg planted, far left foot suspended."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v2.png",
+      "sha256": "401150341a4225448346dbe7303acb707830627d705b11c77712625c3649230d",
+      "reason": "Halo refinement retained but full-source support-role audit required clearer foreground bent right thigh and far left support."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v3.png",
+      "sha256": "cd95fa98b9e35fbe841b016ddb629f6b300f0c4ef6ee06876da0c1e742da72c8",
+      "reason": "Correct left-support/right-swing occlusion but knee height too high; v4 lowers it for natural passing."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing.png",
+      "sha256": "72d7820e87def4bd8060c5fec38695d98ad707aa9f438f7ea0567de100b7bd4b",
+      "reason": "Broad alpha halo and ambiguous/repeated leg silhouette; superseded by reviewed v4."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing.png",
+      "sha256": "eaa3523ab9d971174b3e6a6090baf7eaf118cd359cc1454c006500861208407e",
+      "reason": "Swing leg extended too far for compact passing; selected v2 bends it beside the support shin."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing.png",
+      "sha256": "1d70b8ecf243bd0c67842827f4fd82d6ae4e43537a28c53d4780794282483859",
+      "reason": "Returned during interrupted priority runner; preserved with recovered exact tool path/prompt, selected reviewed s3 sibling."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing.png",
+      "sha256": "b105c26595d4ee5da9db36e08d3e3110e640e19dde4c08b976ff435a77d6b57a",
+      "reason": "Long trailing split stride instead of compact passing; selected v2."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v2.png",
+      "sha256": "a522540ac214dd8c8a8d52a17e893da58fdc997272a916b584f4a22bdd1d634f",
+      "reason": "Near raised thigh repeated phase02; selected v3 keeps near left thigh straight and far right leg bent behind."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing.png",
+      "sha256": "5d8df9ee0eafe3e7fed1f0c158f9fc5ed1759f6a08c1d956ce9dd22ca6a233a4",
+      "reason": "Long forward reach instead of compact passing; selected v3."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing.png",
+      "sha256": "3b8df687d352a437cec50180853ce4769e04df7d233ac370e779179de4f255fd",
+      "reason": "Repeated right support instead of opposite left support; selected v2."
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand.png",
+      "sha256": "3a986d37307bee2acb2e949d0c6c2c2cd3b472ac6bc40c810b43791d37964907",
+      "reason": "Rejected whole-body heading; selected stand-v2 faces rear-left."
+    }
+  ],
+  "loops": [
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    },
+    {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft-loop.webp",
+      "frames": 8,
+      "durationMs": 960
+    }
+  ]
+}

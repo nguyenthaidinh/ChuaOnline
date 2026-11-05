@@ -118,7 +118,7 @@ export default function App() {
     </header>
     <main className="sanctuary-main">
       <section className="sanctuary-frame" aria-label="Chánh điện" data-layout={layout.id}>
-        {assets.status==='ready'&&<RoomScene room={room.room} selfId={room.selfId} layout={layout.id} offset={room.offset} reduced={reducedMotion} />}
+        {assets.status==='ready'&&<RoomScene room={room.room} selfId={room.selfId} layout={layout.id} offset={room.offset} reduced={reducedMotion} warmAppearance={appearance} />}
         {assets.status!=='ready'&&<div className="scene-loading" role="status"><Icon name="lotus"/><p>{assets.status==='error'?'Chưa tải được hình ảnh chánh điện.':'Đang chuẩn bị chánh điện…'}</p>{assets.status==='error'&&<button className="ritual-button" onClick={assets.retry}>Tải lại hình ảnh</button>}</div>}
         <div className="scene-heading"><span className="scene-eyebrow">NAM MÔ A DI ĐÀ PHẬT</span><h1>Chánh điện bình an</h1></div>
         {self && <div className="self-badge"><span className="connection-dot connected" />{self.name}<span> · {entering ? 'Bạn đang vào điện' : busy ? 'Bạn đang làm lễ' : 'Bạn đang an tọa'}</span></div>}

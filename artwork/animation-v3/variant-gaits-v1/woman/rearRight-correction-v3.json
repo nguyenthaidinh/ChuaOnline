@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Full-source second audit found rearRight02 and06-v2 repeating foreground-straight/far-bent thigh; root notified before replacement.",
+  "jobs": [
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "candidateId": "06-opposite-passing-v3",
+      "output": "rearRight/06-opposite-passing-v3.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create the OPPOSITE leg-support silhouette to IMAGE2/IMAGE3 for the exact rear-right-view woman in IMAGE1. Images2/3 currently both have the foreground thigh STRAIGHT and far thigh bent: do not repeat that. Here BEND the FOREGROUND NEAR thigh at hip and knee, crossing prominently in FRONT of the far supporting thigh; near knee lifts gently to screen-RIGHT, near lower leg folds back with bare foot suspended beside the far shin. The FAR leg must be STRAIGHT below pelvis, partly occluded by that foreground bent thigh, and its foot flat on the source ground plane. IMAGE4 is only a guide for 'foreground bent thigh / far straight support' occlusion and compact knee; absolutely do NOT copy its LEFT-facing body direction. The output must face REAR-RIGHT, nose screen-RIGHT, broad back with the same yaw as IMAGE1; no front/profile change. This is opposite support to IMAGE2, not another identical bent-far-thigh pose. LEFT SUPPORT / RIGHT PASSING, modest arms counter-swing near hips. Keep exact calm adult Vietnamese female identity, neat low black bun, blue-grey ao lam/tunic and full loose trousers, bare feet, elevated camera and warm upper-left light. Same1254squarecoordinates, wholebodyscale, hairtop~30, root~615,1210, full hands/feet with unused transparent margins. Do not mirror, crop, recenter, stretch, enlarge, make male, secondperson, ghost, props, bakedfloor/shadow or text. True transparent RGBA, clean alpha outside natural silhouette, no broad grey/white/red/yellow fringes. ONE full-body individual pose."
+    }
+  ]
+}

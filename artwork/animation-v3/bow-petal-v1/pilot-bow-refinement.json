@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "08-prostrate-v2",
+      "output": "man/08-prostrate-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent full-body ChuaOnline ritual pose. Input image1 is the locked exact kneeling anatomy, body size, rear-right elevated camera, origin and identity reference. Preserve exactly the man's blue-grey ao lam, short dark hair, matte fabric, warm upper-left light, square1254canvas and the UNUSED transparent margin. Keep both folded lower legs, ankles, toes and knees at the SAME source pixel positions as image1: feet stay nearx500-650 with lowest toesy1190 and kneecap nearx820,y1140. Do NOT translate, rotate, enlarge or recenter the body/canvas. No floor, shadow, cushion, props, text, extra limbs or second figure. Genuine transparent RGBA. CHANGE ONLY torso/head/arms into a deep Buddhist prostration while KEEPING THE ENTIRE KNEES/LOWER-LEGS/FEET FIXED. Fold upper body forward toward screen-UP-RIGHT from the hips; hips stay over heels. Forehead contacts the same invisible floor plane in front of knees, forearms relaxed on the plane, two palms softly turned upward on either side of forehead. Forehead aroundx1030,y930, hands aroundx1090,y870; the head remains the same physical size, with natural neck. Spine forms a relaxed downward curve, no collapsed/duplicated elbow. The figure becomes lower/longer toward upper-right but DOES NOT slide feet down-left as it bends. Camera stays rear-right, not an enlarged side view."
+    },
+    {
+      "id": "04-prayer",
+      "output": "man/04-prayer.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent full-body ChuaOnline ritual pose. Input image1 is the locked exact kneeling anatomy, body size, rear-right elevated camera, origin and identity reference. Preserve exactly the man's blue-grey ao lam, short dark hair, matte fabric, warm upper-left light, square1254canvas and the UNUSED transparent margin. Keep both folded lower legs, ankles, toes and knees at the SAME source pixel positions as image1: feet stay nearx500-650 with lowest toesy1190 and kneecap nearx820,y1140. Do NOT translate, rotate, enlarge or recenter the body/canvas. No floor, shadow, cushion, props, text, extra limbs or second figure. Genuine transparent RGBA. CHANGE ONLY arms/hands into joined-palms prayer at the centre of chest, fingers pointing gently upward, elbows relaxed near ribs. Keep torso vertical, head upright, calm respectful gaze toward upper-right altar. Knees/lowerlegs/feet EXACTLY fixed to image1, no scale/camera/root change. Empty hands, all five fingers correctly formed on eachhand."
+    }
+  ]
+}

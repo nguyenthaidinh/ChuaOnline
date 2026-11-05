@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Earlier locked female rearRight02 accidentally repeated left support; both previous male pilots retained. Corrected female02-v2 and06-v4 have verified genuine opposite physical limb roles.",
+  "jobs": [
+    {
+      "heading": "rearRight",
+      "supportFoot": "right",
+      "pose": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+      "poseSha256": "e53ccd9c5060b27df7ed7af1ae185ed1d899333330b668704129be5e05fb14ea",
+      "neutral": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+      "neutralSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "output": "rearRight/right-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE ChuaOnline transparent RGBA full-body MALE animation keypose, square1254x1254 with original wide transparent margins. IMAGE1 is the exact checked COMPACT MIDSTANCE/PASSING POSE, CAMERA, PHYSICAL HEADING and foot/arm overlap target. IMAGE2 is the approved MALE IDENTITY, own short dark hair, male face/body, blue-grey ao lam tunic and loose trousers, bare feet, fixed scale and neutral camera reference. Replace the female in image1 with this exact man from image2, keeping all of image1's bent-knee and planted-foot limb ordering and camera. Do NOT copy female face/hair/bun/hips. Adult Vietnamese layman, short dark hair, calm male face, matte fabric, warm upper-left light. Heading rearRight, supportFoot right: anatomical RIGHT leg is the straight WEIGHT-BEARING leg directly under pelvis, sole planted; the OTHER knee is flexed, other foot raised clearly OFF floor beside the supporting shin, compact passing motion. Preserve image1's exact supporting leg side, lifted knee/ankle and arm arrangement; do not use a wide stride/contact pose, lunge, tiptoe, crossed feet, both feet planted, or the same limb roles for both opposite phases. Match image2's male head size/standing stature and source-pixel root around615,1210. Do not zoom/recenter/rotate/scale whole body. Entire head/fingers/toes inside the1254canvas. Genuine transparent background and clean naturally antialiased edges, no colored outline. Hands empty; no floor, shadow, cushion, props, letters, labels or multiple figures. Output a single complete male figure in this one pose. CRITICAL corrected selected reference1 is the final anatomical opposite phase. The NEAR/image-RIGHT leg is straight and planted (male own neutral near heel613,1186); the FAR/image-LEFT leg has its knee bent and entire foot raised on the LEFT of the standing shin. Copy this actual final reference leg overlap exactly; do not use the previous both-left-support draft. Do not mirror or reflect the image."
+    },
+    {
+      "heading": "rearRight",
+      "supportFoot": "left",
+      "pose": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+      "poseSha256": "0e8533d818c8f7051c91161e8225650ad33d002f3e4ab27d93ebd7d8cf34bebf",
+      "neutral": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+      "neutralSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "output": "rearRight/left-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE ChuaOnline transparent RGBA full-body MALE animation keypose, square1254x1254 with original wide transparent margins. IMAGE1 is the exact checked COMPACT MIDSTANCE/PASSING POSE, CAMERA, PHYSICAL HEADING and foot/arm overlap target. IMAGE2 is the approved MALE IDENTITY, own short dark hair, male face/body, blue-grey ao lam tunic and loose trousers, bare feet, fixed scale and neutral camera reference. Replace the female in image1 with this exact man from image2, keeping all of image1's bent-knee and planted-foot limb ordering and camera. Do NOT copy female face/hair/bun/hips. Adult Vietnamese layman, short dark hair, calm male face, matte fabric, warm upper-left light. Heading rearRight, supportFoot left: anatomical LEFT leg is the straight WEIGHT-BEARING leg directly under pelvis, sole planted; the OTHER knee is flexed, other foot raised clearly OFF floor beside the supporting shin, compact passing motion. Preserve image1's exact supporting leg side, lifted knee/ankle and arm arrangement; do not use a wide stride/contact pose, lunge, tiptoe, crossed feet, both feet planted, or the same limb roles for both opposite phases. Match image2's male head size/standing stature and source-pixel root around615,1210. Do not zoom/recenter/rotate/scale whole body. Entire head/fingers/toes inside the1254canvas. Genuine transparent background and clean naturally antialiased edges, no colored outline. Hands empty; no floor, shadow, cushion, props, letters, labels or multiple figures. Output a single complete male figure in this one pose. CRITICAL corrected selected reference1 is the final anatomical opposite phase. The FAR/image-LEFT leg is straight and planted (male own neutral far heel519,1173); the NEAR/image-RIGHT thigh/knee is raised in front, foot clearly suspended to the RIGHT of the standing shin. Copy this actual final reference leg overlap exactly; do not use the previous both-left-support draft. Do not mirror or reflect the image."
+    }
+  ]
+}

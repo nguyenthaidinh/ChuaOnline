@@ -1,0 +1,1064 @@
+{
+  "appearance": "woman",
+  "status": "complete",
+  "count": 32,
+  "measurement": "Manual native-source skin/alpha landmarks reviewed with full body and fixed-scale light/dark boards; each support contact uses the same landmark kind as its own neutral foot.",
+  "frames": {
+    "rear/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/right-gather.png",
+      "sourceSha256": "29618ac58c4bac6b9bf383bbf0a2ec95f79262a6e07f640cc6d879433009fd12",
+      "point": [
+        620,
+        1195
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        155,
+        107,
+        73,
+        251
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+        "point": [
+          675,
+          1206
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 18.893
+    },
+    "rear/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/right-close.png",
+      "sourceSha256": "84e5f9e064c2d37e694523b9b82069f101665a813d343157998323448a80ecfe",
+      "point": [
+        620,
+        1195
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        166,
+        115,
+        80,
+        252
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+        "point": [
+          675,
+          1206
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 18.893
+    },
+    "rear/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/left-gather.png",
+      "sourceSha256": "261fbe6d4c40f1d45f2054053191c0f718ed5a51e4a2c3aca82875d99dc395cf",
+      "point": [
+        594,
+        1201
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        165,
+        113,
+        81,
+        252
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+        "point": [
+          570,
+          1206
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 8.258
+    },
+    "rear/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/left-close.png",
+      "sourceSha256": "8fd52009320d45956b1312f11fdc20894bff8cdd432cd14c062ae5f907adffec",
+      "point": [
+        594,
+        1203
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        164,
+        112,
+        77,
+        252
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rear-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rear-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+        "sourceSha256": "02e9110aa0764bb53ecd7e2c7058aaa0d8bb0334f1d8591cc14335c138788efa",
+        "point": [
+          570,
+          1206
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 8.147
+    },
+    "rearRight/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-gather-v2.png",
+      "sourceSha256": "d06dd9b6ecc103e90b05ba3e6fba2ecde414d5370752c0279aee33ed692bb2a0",
+      "point": [
+        625,
+        1186
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        188,
+        125,
+        86,
+        253
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+        "point": [
+          627,
+          1183
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 1.215
+    },
+    "rearRight/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-close.png",
+      "sourceSha256": "e7c61c5c35106340f8dd342b0cb30d988194a203aee19b5532ba56869b8436da",
+      "point": [
+        624,
+        1186
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        182,
+        124,
+        86,
+        252
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+        "point": [
+          627,
+          1183
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 1.429
+    },
+    "rearRight/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-gather-v2.png",
+      "sourceSha256": "5e6ef162cfbf8a451b7a695578342754467d8da82bda17413647a66a90f14c5b",
+      "point": [
+        543,
+        1192
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        159,
+        108,
+        76,
+        250
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+        "point": [
+          535,
+          1177
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 5.726
+    },
+    "rearRight/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-close.png",
+      "sourceSha256": "661698719fcee3eb2107b056e1def54fd029b3ffceda414a9134c56bf9a4e059",
+      "point": [
+        510,
+        1184
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        196,
+        138,
+        98,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Explicit anatomical convention checked: RIGHT=near/image-right, LEFT=far/image-left. Both gather siblings replace the rejected far-left-support repetition; full body refs reviewed. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearRight-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+        "point": [
+          535,
+          1177
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 8.745
+    },
+    "right/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/right-gather.png",
+      "sourceSha256": "cadf0304b0bf7a0d779031ae479a93fa43e8186889c2890d31546c187de98a22",
+      "point": [
+        490,
+        1194
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        151,
+        107,
+        78,
+        249
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+        "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+        "point": [
+          562,
+          1189
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 24.311
+    },
+    "right/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/right-close.png",
+      "sourceSha256": "7f7112dfb832435959fdce8813c9b0e675f373a64ce7305c6c684143f0b39fba",
+      "point": [
+        490,
+        1194
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        161,
+        112,
+        79,
+        249
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+        "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+        "point": [
+          562,
+          1189
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 24.311
+    },
+    "right/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-gather.png",
+      "sourceSha256": "eb5f157786b2d1f4e0e756ec74c7b4abc1e9747bf2074b651e18b0ba26d321a2",
+      "point": [
+        670,
+        1193
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        185,
+        135,
+        110,
+        247
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+        "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+        "point": [
+          690,
+          1164
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 11.866
+    },
+    "right/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-close.png",
+      "sourceSha256": "567311d88d8410ac7523049d3dee415e50ee58224144acc19d82f0b342bca454",
+      "point": [
+        670,
+        1192
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        193,
+        141,
+        116,
+        247
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/right-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/right-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/right/stand.png",
+        "sourceSha256": "31067669eb981f0116712525def5dca690a572beb46c1b4432c234facc3bdb11",
+        "point": [
+          690,
+          1164
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 11.591
+    },
+    "frontRight/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-gather.png",
+      "sourceSha256": "e014752bcaa48b866ceccf3e3a0ce4a917d7a9d32e1ec26a8c0ecfe94539f328",
+      "point": [
+        557,
+        1196
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        188,
+        136,
+        106,
+        252
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+        "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+        "point": [
+          539,
+          1195
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 6.073
+    },
+    "frontRight/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-close.png",
+      "sourceSha256": "9a5e6891f4150ea69b1e0a93450d38389583e27a5ec41dced73c37fec20b268d",
+      "point": [
+        552,
+        1194
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        204,
+        150,
+        109,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+        "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+        "point": [
+          539,
+          1195
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 4.392
+    },
+    "frontRight/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-gather.png",
+      "sourceSha256": "af20c1138b1e45725d0daf96b88498f5dc3203279f9002df7bffc365b636f360",
+      "point": [
+        621,
+        1198
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        169,
+        117,
+        89,
+        253
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+        "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+        "point": [
+          635,
+          1193
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 5.008
+    },
+    "frontRight/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-close.png",
+      "sourceSha256": "bd2c7c2f1203a32bb25d61d9fe89c3cd0aa1c98a7f80fbbb1f926f2a7907d0da",
+      "point": [
+        612,
+        1196
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        141,
+        96,
+        72,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontRight-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontRight-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/stand.png",
+        "sourceSha256": "9fec717354f5511cde0aa2e7ed5ccb9efab249ce98b338edddbbd1b79935f62d",
+        "point": [
+          635,
+          1193
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 7.813
+    },
+    "front/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/right-gather.png",
+      "sourceSha256": "af4c39fcb8cf451296e9c86ddf32834fed97fceb7ce876bb7b4557d6174d1965",
+      "point": [
+        565,
+        1226
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        208,
+        149,
+        126,
+        252
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+        "point": [
+          570,
+          1215
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 4.07
+    },
+    "front/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/right-close.png",
+      "sourceSha256": "c628f5569830695ecf6f2b191c9cefa153d481debcc3b59b5f410bb52ea051a7",
+      "point": [
+        565,
+        1226
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        208,
+        147,
+        121,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+        "point": [
+          570,
+          1215
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 4.07
+    },
+    "front/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/left-gather.png",
+      "sourceSha256": "fdaf0e5e7b8eab1b54d126f5aa52eb5dec6cca607556fb13e669db424e11548c",
+      "point": [
+        658,
+        1209
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        215,
+        153,
+        126,
+        252
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+        "point": [
+          665,
+          1215
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 3.106
+    },
+    "front/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/left-close.png",
+      "sourceSha256": "7cbfc86cd4077ded9f681c321e2642729c07486891b068d53ea892f61e5b725f",
+      "point": [
+        658,
+        1209
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        216,
+        144,
+        115,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/front-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/front-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/front/stand.png",
+        "sourceSha256": "52637070248daae35cc3b75f69caed98bafbed03ffbe91e4e26f5613b65ce30d",
+        "point": [
+          665,
+          1215
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 3.106
+    },
+    "frontLeft/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-gather.png",
+      "sourceSha256": "a0d9744c8bf938ac0c0085a7f980d4caae39688bdb9566b9adc150c070b66178",
+      "point": [
+        600,
+        1190
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        186,
+        134,
+        109,
+        252
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+        "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+        "point": [
+          592,
+          1190
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 2.695
+    },
+    "frontLeft/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-close.png",
+      "sourceSha256": "d446ac6e185ff16f219f7c12f19816ab32b74e48859b7c099c2aa05be7c74773",
+      "point": [
+        600,
+        1190
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        191,
+        135,
+        105,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+        "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+        "point": [
+          592,
+          1190
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 2.695
+    },
+    "frontLeft/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-gather.png",
+      "sourceSha256": "23fb91079be76f8124fb84e882b56128e853af914d77dab4855ad5eb1bf13f2e",
+      "point": [
+        636,
+        1201
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        216,
+        149,
+        118,
+        253
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+        "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+        "point": [
+          635,
+          1221
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 6.745
+    },
+    "frontLeft/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-close.png",
+      "sourceSha256": "3cf62ba6991534dc906f4f9a083c084d9f9516f7e94a1e1dae403419a4c1f8ef",
+      "point": [
+        636,
+        1201
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        220,
+        147,
+        119,
+        252
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/frontLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/frontLeft-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/stand.png",
+        "sourceSha256": "fcd1c8e9a96afa2b301490016bac7e233ed9989cf6b50c0a7c7abbf0c86c63cb",
+        "point": [
+          635,
+          1221
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 6.745
+    },
+    "left/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/right-gather.png",
+      "sourceSha256": "0124cd162e16cca46f7bb5f83b8eaee99d861545099f253a60b94c4bddabb295",
+      "point": [
+        535,
+        1194
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        207,
+        144,
+        123,
+        252
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+        "point": [
+          530,
+          1177
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 5.969
+    },
+    "left/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/right-close.png",
+      "sourceSha256": "7d4b6314afad8e687549e9d62311ab98cca5566c19616c74f2bb5b38f492ac29",
+      "point": [
+        515,
+        1187
+      ],
+      "landmark": "visible-plantar",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        212,
+        155,
+        133,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible central plantar forefoot/toe-pad contact, matching the same foot in neutral. No hidden heel is inferred or subtracted against a toe point.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+        "point": [
+          530,
+          1177
+        ],
+        "landmark": "visible-plantar"
+      },
+      "nativeToNeutralDistanceLogical": 6.073
+    },
+    "left/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/left-gather.png",
+      "sourceSha256": "cd76f53f2e937a2416d5e866b91c542e4d9563bf1753f6f5461e9ec1f9b3f912",
+      "point": [
+        657,
+        1196
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        149,
+        94,
+        66,
+        249
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+        "point": [
+          682,
+          1197
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 8.428
+    },
+    "left/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/left-close.png",
+      "sourceSha256": "42ea493c661455ebe1a271d39f078b4e53e48e51c6383dbcfd795342c31d312e",
+      "point": [
+        658,
+        1196
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        162,
+        99,
+        69,
+        249
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/left-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/left-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/left/stand.png",
+        "sourceSha256": "094d9c60f71ffc6d4d841605d24fb721b11f7ef35f0b697b961bf0868c96f214",
+        "point": [
+          682,
+          1197
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 8.091
+    },
+    "rearLeft/right-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-gather.png",
+      "sourceSha256": "452105f52137c0b9957ef3e02663a96af64f4ea3d6d6bb463dd8e8c8ffa73aaa",
+      "point": [
+        691,
+        1202
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        162,
+        107,
+        80,
+        252
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-right-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+        "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+        "point": [
+          674,
+          1191
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 6.821
+    },
+    "rearLeft/right-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-close.png",
+      "sourceSha256": "172fb3f2c2b67b7a3a422e3eae947b9b7d6b97c39884590d262627801821a331",
+      "point": [
+        676,
+        1198
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "right",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        176,
+        125,
+        101,
+        253
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-right-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+        "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+        "point": [
+          674,
+          1191
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 2.452
+    },
+    "rearLeft/left-gather": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-gather.png",
+      "sourceSha256": "758d7bc97bade620308821482be4df9c1a2aa39425563a3a26f41714b184c555",
+      "point": [
+        602,
+        1169
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        149,
+        102,
+        77,
+        250
+      ],
+      "reviewed": true,
+      "review": "The planted support leg stays straight while the opposite knee/foot remains visibly suspended and gathers toward the ankle. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-left-gather-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+        "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+        "point": [
+          590,
+          1200
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 11.197
+    },
+    "rearLeft/left-close": {
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-close.png",
+      "sourceSha256": "a608c9f4ce363594e787f66215bfb030f8433c2208d00c15248593f41b206d3f",
+      "point": [
+        604,
+        1169
+      ],
+      "landmark": "visible-heel",
+      "supportFoot": "left",
+      "coordinateSpace": "native source PNG pixels",
+      "sampleRgba": [
+        153,
+        106,
+        82,
+        255
+      ],
+      "reviewed": true,
+      "review": "Both feet have settled beside each other; the selected supporting foot is traced from the same-foot gather and matched to its neutral foot, not inferred from the filename alone. Visible lower posterior calcaneus/heel edge on this actual supporting foot.",
+      "evidence": [
+        "artwork/animation-v3/stop-closes-v1/woman/review/rearLeft-144.jpg",
+        "artwork/animation-v3/stop-closes-v1/woman/feet-review/rearLeft-left-close-grid.jpg"
+      ],
+      "targetNeutral": {
+        "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/stand-v2.png",
+        "sourceSha256": "1edd3a01ac8c5058e5a02682adf6f77a75b4387b36ced40467524cb1c4f8487e",
+        "point": [
+          590,
+          1200
+        ],
+        "landmark": "visible-heel"
+      },
+      "nativeToNeutralDistanceLogical": 11.458
+    }
+  }
+}

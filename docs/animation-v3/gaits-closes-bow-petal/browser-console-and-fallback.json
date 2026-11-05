@@ -1,0 +1,24 @@
+{
+  "fallbackLayer": {
+    "height": 538.4000244140625,
+    "width": 958.4000244140624,
+    "x": 160.8000030517578,
+    "y": 64.80000305175781
+  },
+  "fallbackCenters": [
+    {
+      "stamp": 1793843515635,
+      "actionId": "7199a87c-6587-4ca1-acd2-104236bef8c5",
+      "delta": {
+        "x": -0.03651722254937795,
+        "y": -0.012555552001913384
+      }
+    }
+  ],
+  "logReport": {
+    "production": [],
+    "mobile": [],
+    "lateObserver": [],
+    "fallback": []
+  }
+}

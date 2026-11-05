@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Show real transfer of weight and gathering step instead of a large root correction or an instantaneous foot slide.",
+  "jobs": [
+    {
+      "id": "22-rise-weight-transfer",
+      "output": "man/22-rise-weight-transfer.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/13-rise-half-kneel.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONE transparent RGBA ChuaOnline fullbody rise key pose, exactsame man/ao lam/headsize/camera/elevatedrearRight/warm light and square1254canvas. Image1 is previous halfkneel; image2 finalneutral ONLY gives destination footpositions. Insert a physically balanced WEIGHT TRANSFER between halfkneel andstanding. Keep image1 anatomicalRIGHT foot firmly planted at its EXACT source place, rightheel aroundx700,y1170, toesaround8501170. Raise hips andhead (hairtoparound160), straighten rightknee partly. Lift LEFT knee off the floor and bring LEFT sole underneath pelvis, planting it in image2 finalleftfootspot aroundheel510,y1150 and toes630,y1165. Transfer some weight onto this new LEFT plant; torso nearlyupright, botharms release supports toward sides, palmsrelaxed. Rightplantedfoot MUST NOT slide, nor can bodyrecenter/zoom. Natural anatomy2legs2arms, stilla slightkneebend, barefeetinsideframe. No floor,shadow,cushion,props,text,particles,extrafigure; same unused transparent margins."
+    },
+    {
+      "id": "14-rise-extend-v2",
+      "output": "man/14-rise-extend-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/14-rise-extend.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit image1 only into the adjacent ALMOST-STANDING FOOT GATHER pose. Image2 fixes the exact finalstanding identity/feet positions. Preserve image1 head,hair,bodyheight,torso,arms,camera,ao lam,light and square1254transparentcanvas. LEFT foot now bearsweight, soleplanted exactly where image2 leftsole rests (heelaround5101150,toes6301165). AnatomicalRIGHT foot is gathering BACK fromits previousforwardplant toward itsfinalimage2footposition: show RIGHT sole hoveringjust10-20px abovefloor, heelnear6301165 andtoes7351165, toesrelaxed; kneeonlyslightlybent to liftfoot. Do NOT draw bothfeet alreadyplanted, no crosslegs, no tiptoeonleftfoot. It is one gentleclosingstep before rightfootlands in image2neutral. Fullfeetinside margins, no zoom/recenter/rotation/duplicateleg. GenuineRGBAalpha, no floor/shadow/cushion/props/text."
+    }
+  ]
+}

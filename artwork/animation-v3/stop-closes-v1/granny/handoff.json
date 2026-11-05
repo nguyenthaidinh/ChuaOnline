@@ -1,0 +1,365 @@
+{
+  "appearance": "granny",
+  "status": "reviewed-complete",
+  "selected": 32,
+  "retainedDrafts": 4,
+  "nativeSources": 36,
+  "maxPinLogicalLength": 33.85221261851247,
+  "selectionSha256": "9d3c3d5c02ef2e8ec84fc1da5317ba2bf8722f446e7183eb1badb85a95e9cfba",
+  "supportManifestSha256": "87d9f80303eeaf22c18d6fefe78d67d0b6c02f7bf22a6af0eb120388759506ff",
+  "frames": [
+    {
+      "id": "rear/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-gather.png",
+      "sha256": "4d1935b469259c75f9ae789d7c8ffb6fd49d298cb656488fc82cff1526a5dbfd",
+      "point": [
+        625,
+        1186
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 18.681835282677266
+    },
+    {
+      "id": "rear/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/right-close.png",
+      "sha256": "0bc3a5d47a68f4dd8cbd5cf08c22bd00380d65a0a54f7530b77fc1e5297cd80d",
+      "point": [
+        625,
+        1185
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 18.830046126313995
+    },
+    {
+      "id": "rear/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-gather.png",
+      "sha256": "902d5a00e0f86a30367b73b05f29cbdf4755ec7c61dcc11baa3ba88d3242a674",
+      "point": [
+        585,
+        1209
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 10.10526315789474
+    },
+    {
+      "id": "rear/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rear/left-close.png",
+      "sha256": "9f456c16a13f525e313ab03d45591541b50168cd9b642362b520d36e462e0379",
+      "point": [
+        585,
+        1206
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 10.155663785553747
+    },
+    {
+      "id": "rearRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-gather.png",
+      "sha256": "34010f2ce731f286a79ee9c525a732f6ddc4f10dea846fc69f45991c3cc9f425",
+      "point": [
+        550,
+        1186
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 23.57894736842107
+    },
+    {
+      "id": "rearRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/right-close.png",
+      "sha256": "7e0d6ed738027d66bfb173c86aa280576fa2f30bbc9f3260ef219378c159714d",
+      "point": [
+        610,
+        1173
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 5.524621294099114
+    },
+    {
+      "id": "rearRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-gather.png",
+      "sha256": "9a69dd9e378a51174dce63ae639a51f76321236ac9458ce4fed9b890aa9b8ee3",
+      "point": [
+        535,
+        1185
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 3.4680017317008756
+    },
+    {
+      "id": "rearRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearRight/left-close.png",
+      "sha256": "07b2f3e3b106f46208e709ebd3b96839e20b7e5df196d6880d55c86f9458fb8c",
+      "point": [
+        535,
+        1185
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 3.4680017317008756
+    },
+    {
+      "id": "right/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-gather.png",
+      "sha256": "df370dedc6e5033fdf7780966d5f4d566f6ba8f4891ef37a1c330918a3446070",
+      "point": [
+        650,
+        1196
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 21.303765289555393
+    },
+    {
+      "id": "right/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/right-close.png",
+      "sha256": "2a0768035bdceb2d71dc82cad6688647d05d52cf1fbea12ae9a9423f8c617034",
+      "point": [
+        720,
+        1179
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 3.5167348240540517
+    },
+    {
+      "id": "right/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-gather.png",
+      "sha256": "bcb47668204739bcdc055ed5b652c025dc20e0fbc8de5dca24e41596c6d5a7f6",
+      "point": [
+        450,
+        1188
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 33.85221261851247
+    },
+    {
+      "id": "right/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/right/left-close.png",
+      "sha256": "e0a17f0d2ec4501bfd33bf7c7d3b071df71fb55b15314bee9d624bd066b9cbbb",
+      "point": [
+        510,
+        1188
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 13.888355791554247
+    },
+    {
+      "id": "frontRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-gather.png",
+      "sha256": "15f079709e840a7b9a1134c8e102f06e48155fc87c6376b16ba1d238f68cd5d6",
+      "point": [
+        620,
+        1217
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 20.347605302620916
+    },
+    {
+      "id": "frontRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/right-close.png",
+      "sha256": "642f3c26c26bf21b76ad2ea117f3dcac93da7fcbe4872eac67e6584b31dbbcf1",
+      "point": [
+        610,
+        1219
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 16.92610630925623
+    },
+    {
+      "id": "frontRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-gather.png",
+      "sha256": "c53bb006f44ddc790ecf654d5fe31a194859bd84fca9ea6788e6bb1730fabc70",
+      "point": [
+        675,
+        1217
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 5.152693403209556
+    },
+    {
+      "id": "frontRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontRight/left-close.png",
+      "sha256": "cf6f815af0adc7781f937711616252a823bcab68fcd721b474409fff6bcb0a87",
+      "point": [
+        670,
+        1218
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 6.8702578709460616
+    },
+    {
+      "id": "front/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-gather.png",
+      "sha256": "a28100d28562eba586058fc9a39df23221ed43c4bf9af9324cdfd221a553bdab",
+      "point": [
+        560,
+        1223
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 6.87025787094605
+    },
+    {
+      "id": "front/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/right-close.png",
+      "sha256": "171f66383b8999a43936b915e63624ebd5b865a37fd7d3d611628f50369f9622",
+      "point": [
+        560,
+        1225
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 7.033469648108147
+    },
+    {
+      "id": "front/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-gather.png",
+      "sha256": "ab5c3749d39ea8e041d91978830e83ac5d21aabee82ef13e8eaa82a4a43175f0",
+      "point": [
+        650,
+        1214
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 10.305386806419111
+    },
+    {
+      "id": "front/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/front/left-close.png",
+      "sha256": "64f297bcb046ee883ee16cb454cf37f99f4183bdbe4fcce432d61654b1d71137",
+      "point": [
+        650,
+        1214
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 10.305386806419111
+    },
+    {
+      "id": "frontLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-gather.png",
+      "sha256": "66140b729a21e7e2ba2f029aa662ba76b6cedcdf896ee979238294728a4f2045",
+      "point": [
+        525,
+        1212
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 1.7175644677365334
+    },
+    {
+      "id": "frontLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/right-close.png",
+      "sha256": "2fd7d5defaf09a070375ba04922234896335aa2debf09cebec943946d6fa87b9",
+      "point": [
+        525,
+        1213
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 1.684210526315809
+    },
+    {
+      "id": "frontLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-gather.png",
+      "sha256": "ef367ec43128c7e751d879f9b9730071593fa485f03d45af4bea87c74db56172",
+      "point": [
+        645,
+        1203
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 8.969112896467767
+    },
+    {
+      "id": "frontLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/frontLeft/left-close.png",
+      "sha256": "9fd03aadb99ea3e0e349eee97a92d5051c7bf3cbd1054009d3b8a3b6a44f90be",
+      "point": [
+        645,
+        1203
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 8.969112896467767
+    },
+    {
+      "id": "left/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-gather-v2.png",
+      "sha256": "74f2dc56e02f014e0bf2c9fd33bf5e24a4fe0f20ae496f600cf23e247b82a9c0",
+      "point": [
+        675,
+        1193
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 3.627900501648493
+    },
+    {
+      "id": "left/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/right-close-v2.png",
+      "sha256": "264052783304a304fd8d5344fbf525c3d1e8290e84e497275df82b68d487f0d4",
+      "point": [
+        650,
+        1184
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 6.686124881272997
+    },
+    {
+      "id": "left/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-gather.png",
+      "sha256": "1b87ec3ffc220e567ba317be1a34a86f5fc43f53143dabf5f909daf9322123f2",
+      "point": [
+        590,
+        1190
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 27.481031483784303
+    },
+    {
+      "id": "left/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/left/left-close.png",
+      "sha256": "3ed2a3116e0808e00deec45f0b6595491c913899ce64d56b431b57942d7a8f1f",
+      "point": [
+        500,
+        1187
+      ],
+      "landmark": "plantar-toe-pad",
+      "pinLogicalLength": 5.524621294099096
+    },
+    {
+      "id": "rearLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-gather.png",
+      "sha256": "8d1114047d7caba25f3774c76b89c850a90ec075a6a809c2423e5c926f0dfee4",
+      "point": [
+        695,
+        1199
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 9.069751254121275
+    },
+    {
+      "id": "rearLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/right-close.png",
+      "sha256": "f7a9348a3f4a7ddd46ff5f6aafc321e7fd6c328c3c5fea6a57c9bf9551200e1f",
+      "point": [
+        675,
+        1193
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 2.1568418483983933
+    },
+    {
+      "id": "rearLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-gather-v2.png",
+      "sha256": "6eda358261b73373dd186599b21749065e90e79456cd42b05b40797db9006267",
+      "point": [
+        610,
+        1172
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 9.820550559739416
+    },
+    {
+      "id": "rearLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/granny/rearLeft/left-close-v2.png",
+      "sha256": "6a591c8e3ac5946c6359648956f4c6b1ef7b129401f1f454f0255425ecc2bae9",
+      "point": [
+        610,
+        1172
+      ],
+      "landmark": "heel",
+      "pinLogicalLength": 9.820550559739416
+    }
+  ],
+  "scope": "Own selected source and144x192 light/dark sequence review, source/alpha/landmark/pin checks. Integration owner verifies browser and actual decoded runtime atlas."
+}

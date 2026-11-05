@@ -1,0 +1,12 @@
+{
+  "heading": "rearRight",
+  "id": "02-passing",
+  "candidateId": "02-passing-v2",
+  "output": "rearRight/02-passing-v2.png",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+  ],
+  "prompt": "Use case: identity-preserve. From this EXACT rear-right-facing adult Vietnamese woman neutral, create ONE RIGHT SUPPORT / LEFT PASSING natural walking frame. Anatomical convention for THIS view: RIGHT is NEAR/image-RIGHT leg, whose heel in the reference is at source[627,1183]; LEFT is FAR/image-LEFT leg, heel near[535,1177]. KEEP the NEAR RIGHT leg straight and planted exactly as the neutral reference, with its near/image-right foot flat and heel at[627,1183]. The full straight near RIGHT trouser leg must remain visibly unbent, foreground from hip through knee to ankle. Only change the FAR LEFT leg: flex its knee moderately behind the straight foreground right thigh, lift the FAR LEFT foot aroundsourcex535-570,y1090-1120 next to the support shin, NOT the near image-right foot. Show the lifted foot to screen-LEFT of the planted near right shin, with a small natural swing clearance. Far bent thigh is partly OCCLUDED behind the near straight right leg. Do NOT bend or lift the near right knee/foot; do NOT plant the far left foot. This must have one flat planted foot on image-RIGHT and the other hovering on image-LEFT. Gentle arms near hips with left arm slightly back/right arm slightly forward counter-swing; no large reach. Keep exact low black bun, female identity, blue-grey ao lam/loose trousers, bare feet, same broad-back REAR-RIGHT45-degree yaw/nosepointsRIGHT, elevated camera and warm light. SAME1254squarecanvas, hairtop~30, root~615,1210, wholebody scale and unused transparent margins. No mirror, yaw change, crop/recenter/zoom, stretch, male build, secondperson, props, floor, bakedshadow or text. One whole-body individual pose with clean genuine RGBA outside natural silhouette.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-1d789ef1-d073-40f3-9880-02add894244b.png",
+  "generatedAt": "2026-11-04T17:14:50.819Z"
+}

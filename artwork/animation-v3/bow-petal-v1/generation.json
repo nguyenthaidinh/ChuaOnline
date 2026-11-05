@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Three-identity true bow and petal artwork, no body transform simulation",
+  "postureReference": {
+    "url": "https://phatgiao.org.vn/le-phat-cach-le-thai-do-khoi-phuc-than-tam-d56811.html",
+    "author": "Pháp sư Đạo Chứng",
+    "used": "Five-contact respectful prostration and allowance for ritual variants; no medical claims used."
+  },
+  "reuse": {
+    "man": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+    "woman": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+    "granny": "artwork/animation-v3/variants-v1/granny/00-neutral.png"
+  },
+  "jobs": [
+    {
+      "id": "03-kneel-rest",
+      "prompt": "Use case: identity-preserve. Asset type: ONE transparent full-body ChuaOnline Buddhist ritual animation key pose. Image1 is the exact approved man, clothing, body scale, camera and origin reference: adult Vietnamese male lay visitor with short dark hair, blue-grey ao lam tunic and loose full-length trousers, bare feet. Preserve his identity, head size, matte fabric, fixed elevated rear-right three-quarter camera, warm upper-left lighting and source scale. He faces diagonally away toward screen-UP-RIGHT; see mostly back and right profile. Keep a SQUARE1254x1254 transparent RGBA canvas with the original wide unused margins. This is the same camera, not a profile or zoomed view. The source standing height is about1180px; do NOT enlarge a kneeling or bowed figure to fill the canvas. Floor/root origin remains aroundx615,y1210. Complete hands, feet and body within margins. No props, cushion, altar, floor, shadow, smoke, text, labels, extra limbs or multiple figures. Primary request: create the kneeling rest pose immediately before prayer. Both knees on the same invisible floor plane, lower legs folded back and tops of bare feet on the floor, pelvis gently supported above heels, torso vertical and relaxed. Both empty hands rest softly on thighs. Head stays naturally upright looking toward the altar. Same head size as standing. The top of hair is now aroundy500, knees aroundx700,y1090 and feet trail towardx520,y1210. Keep the rear-right view so the knees/feet foreshorten diagonally rather than a long side profile.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "output": "man/03-kneel-rest.png"
+    },
+    {
+      "id": "08-prostrate",
+      "prompt": "Use case: identity-preserve. Asset type: ONE transparent full-body ChuaOnline Buddhist ritual animation key pose. Image1 is the exact approved man, clothing, body scale, camera and origin reference: adult Vietnamese male lay visitor with short dark hair, blue-grey ao lam tunic and loose full-length trousers, bare feet. Preserve his identity, head size, matte fabric, fixed elevated rear-right three-quarter camera, warm upper-left lighting and source scale. He faces diagonally away toward screen-UP-RIGHT; see mostly back and right profile. Keep a SQUARE1254x1254 transparent RGBA canvas with the original wide unused margins. This is the same camera, not a profile or zoomed view. The source standing height is about1180px; do NOT enlarge a kneeling or bowed figure to fill the canvas. Floor/root origin remains aroundx615,y1210. Complete hands, feet and body within margins. No props, cushion, altar, floor, shadow, smoke, text, labels, extra limbs or multiple figures. Image2 is only an anatomy/posture reference for a respectful low bow, NOT the camera, crop or scale target. Primary request: a complete Buddhist floor prostration. Both knees stay planted, hips gently toward heels, torso lowers over thighs. Forehead touches the invisible floor in front of the knees; both forearms and hands reach gently forward, palms turning upward in respectful offering beside the forehead. Anatomically coherent neck, elbows, hands and legs, exactly two of each. Feet remain behind nearx520,y1210; knees nearx690,y1110; forehead towardx940,y940, hands towardx1010,y900, the head stays the same size as image1. The rear-right elevated camera FORESHORTENS the folded body into a compact diagonal from feet lower-left to hands upper-right; do NOT produce image2's enlarged side-on silhouette. Keep all pixels inside margins, especially hands upper-right and feet lower-left.",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/transitions-v1/00-stand-angled.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/visual-v2/characters/lam/bow-floor.png"
+      ],
+      "output": "man/08-prostrate.png"
+    }
+  ]
+}

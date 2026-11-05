@@ -1,0 +1,83 @@
+[
+  [
+    "frontLeft/right-close",
+    "right",
+    [
+      525,
+      1213
+    ],
+    "Viewed native source and144light/dark sequence: both feet nearly together, anatomical right/image-left plantar toe-pad remains the tracked support; head/grey bun and front-left yaw unchanged."
+  ],
+  [
+    "frontLeft/left-gather",
+    "left",
+    [
+      645,
+      1203
+    ],
+    "Viewed native source and144light/dark sequence: anatomical left/image-right foot planted, right knee bends and foot gathers inward. Measured visible left plantar toe-pad, same landmark as own neutral."
+  ],
+  [
+    "frontLeft/left-close",
+    "left",
+    [
+      645,
+      1203
+    ],
+    "Viewed native source and144light/dark sequence: anatomical left/image-right support traced from gather, both feet settle beside each other. Measured matching visible left plantar toe-pad."
+  ],
+  [
+    "left/right-gather",
+    "right",
+    [
+      675,
+      1193
+    ],
+    "Reviewed corrected siblingv2 fullsource and144sequence: near right leg/heel stays planted while free far left foot is visibly gathered inward, no longer a long trailing stride; fixed mature profile and brown costume retained."
+  ],
+  [
+    "left/right-close",
+    "right",
+    [
+      650,
+      1184
+    ],
+    "Reviewed corrected siblingv2 fullsource and144sequence: near right heel planted, far left foot now nearly beside it, softly settling into neutral. Original raw stride gap rejected; body and head remain pure left profile."
+  ],
+  [
+    "left/left-gather",
+    "left",
+    [
+      590,
+      1190
+    ],
+    "Viewed full source and native grid: near right knee visibly flexes in foreground while the far left leg bears weight. Matching visible far left plantar toe-pad measured; hidden heel not inferred."
+  ],
+  [
+    "left/left-close",
+    "left",
+    [
+      500,
+      1187
+    ],
+    "Viewed full source and native grid: both feet settle in pure left profile; selected far left plantar toe-pad is visible in front of the near-foot silhouette and tracked from the preceding far-left support gather."
+  ],
+  [
+    "rearLeft/right-gather",
+    "right",
+    [
+      695,
+      1199
+    ],
+    "Full native review confirms camera sees back and LEFT side: RIGHT far/background leg stays straight and planted at image-right; near left knee bends and lifts at image-left. Corrected neutral anatomical labels, measured actual far-right heel."
+  ],
+  [
+    "rearLeft/right-close",
+    "right",
+    [
+      675,
+      1193
+    ],
+    "Full native review confirms RIGHT far/background foot at image-right remains planted while the near left foot settles alongside. Corrected neutral anatomical labels; tracked same far-right posterior heel from gather."
+  ]
+]

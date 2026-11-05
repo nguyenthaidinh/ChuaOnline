@@ -302,15 +302,15 @@ test('a queued incense-v2 action cannot stretch an in-progress legacy or v3 entr
   }
 });
 
-test('new guests publish entry4 and action clocks select incense4 or transition3', () => {
+test('new guests publish entry5/movement4 and retain incense4 or transition3 clocks', () => {
   for (const appearance of APPEARANCES) for (const rite of RITES) {
     let now = 1000;
     const room = new TempleRoom(() => now), guest = room.join('Version QA', appearance);
     const joined = guest.room.people[0];
-    assert.equal(joined.entryVersion, 4);
+    assert.equal(joined.entryVersion, 5);
     room.action(guest.token, rite, `version-${appearance}-${rite}`);
     const action = room.snapshot().people[0].action!;
-    assert.equal(action.movement?.version, 3);
+    assert.equal(action.movement?.version, 4);
     assert.equal(action.timelineVersion, rite === 'incense' ? 4 : 3);
     assert.equal(action.startedAt, joined.joinedAt + entryDurationMs(joined.seat,joined.entryVersion));
     const oldMovement = { ...action.movement!, version: 2 as const };
@@ -396,7 +396,7 @@ test('new placement metadata survives prediction, persistence and leaving for la
     const pendingRoom = room.snapshot(), action = pendingRoom.people[0].action!;
     const predicted = offeringCandidates(pendingRoom);
     assert.equal(predicted.length, 1);
-    assert.equal(predicted[0].artworkVersion, 3); assert.equal(predicted[0].appearance, appearance);
+    assert.equal(predicted[0].artworkVersion, 4); assert.equal(predicted[0].appearance, appearance);
     assert.equal(visibleOfferings(predicted, now).length, 0);
     now = interactionTime(action)!; room.sweep();
     assert.deepEqual(room.snapshot().offerings, predicted);

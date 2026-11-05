@@ -1,0 +1,166 @@
+{
+  "tool": "built-in image_gen",
+  "stage": "Contact anchors from exact reviewed male poses and own approved directional neutral",
+  "jobs": [
+    {
+      "heading": "rear",
+      "id": "00-contact",
+      "output": "rear/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/00-contact-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: STRAIGHT REAR, away toward screen-UP. Centered back/bun/spine and balanced shoulders, no nose or face profile. Feet and knees point directly UP/away. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "rear",
+      "id": "04-opposite-contact",
+      "output": "rear/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rear/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/rear/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: STRAIGHT REAR, away toward screen-UP. Centered back/bun/spine and balanced shoulders, no nose or face profile. Feet and knees point directly UP/away. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "rearRight",
+      "id": "00-contact",
+      "output": "rearRight/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: REAR-RIGHT three-quarter, diagonally away toward screen-UP-RIGHT; her back and left side visible, a small RIGHT-pointing nose/profile. Both feet, pelvis, shoulders and gaze aim UP-RIGHT. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "rearRight",
+      "id": "04-opposite-contact",
+      "output": "rearRight/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/06-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/rearRight/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: REAR-RIGHT three-quarter, diagonally away toward screen-UP-RIGHT; her back and left side visible, a small RIGHT-pointing nose/profile. Both feet, pelvis, shoulders and gaze aim UP-RIGHT. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "right",
+      "id": "00-contact",
+      "output": "right/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/right/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: PURE RIGHT PROFILE, travelling screen-RIGHT. Her head, neck, torso, hips, knees and feet all aim RIGHT; we see her left side. No front/back camera drift. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "right",
+      "id": "04-opposite-contact",
+      "output": "right/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/right/04-opposite-contact-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/right/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: PURE RIGHT PROFILE, travelling screen-RIGHT. Her head, neck, torso, hips, knees and feet all aim RIGHT; we see her left side. No front/back camera drift. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "frontRight",
+      "id": "00-contact",
+      "output": "frontRight/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: FRONT-RIGHT three-quarter, travelling toward screen-DOWN-RIGHT; her front and left side visible, nose points RIGHT. Do not rotate toward a back view. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "frontRight",
+      "id": "04-opposite-contact",
+      "output": "frontRight/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontRight/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/frontRight/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: FRONT-RIGHT three-quarter, travelling toward screen-DOWN-RIGHT; her front and left side visible, nose points RIGHT. Do not rotate toward a back view. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "front",
+      "id": "00-contact",
+      "output": "front/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/front/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: STRAIGHT FRONT, walking directly toward the viewer/screen-DOWN. Centered nose/sternum/button line, balanced shoulders, no head turned sideways. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "front",
+      "id": "04-opposite-contact",
+      "output": "front/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/front/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/front/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: STRAIGHT FRONT, walking directly toward the viewer/screen-DOWN. Centered nose/sternum/button line, balanced shoulders, no head turned sideways. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "00-contact",
+      "output": "frontLeft/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: FRONT-LEFT three-quarter, travelling toward screen-DOWN-LEFT; her front and right side visible, nose points LEFT. Do not rotate toward a back view. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "04-opposite-contact",
+      "output": "frontLeft/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/frontLeft/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/frontLeft/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: FRONT-LEFT three-quarter, travelling toward screen-DOWN-LEFT; her front and right side visible, nose points LEFT. Do not rotate toward a back view. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "left",
+      "id": "00-contact",
+      "output": "left/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: PURE LEFT PROFILE, travelling screen-LEFT. Head, neck, torso, hips, knees and feet all aim LEFT; we see her right side. No front/back camera drift. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "left",
+      "id": "04-opposite-contact",
+      "output": "left/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v1/left/04-opposite-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/left/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: PURE LEFT PROFILE, travelling screen-LEFT. Head, neck, torso, hips, knees and feet all aim LEFT; we see her right side. No front/back camera drift. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "00-contact",
+      "output": "rearLeft/00-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/00-contact.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: REAR-LEFT three-quarter, diagonally away toward screen-UP-LEFT; her back and right side visible, a small LEFT-pointing nose/profile. Both feet, pelvis, shoulders and gaze aim UP-LEFT. This is the FIRST contact of this gait, exactly the stride in image1. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "04-opposite-contact",
+      "output": "rearLeft/04-opposite-contact.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/04-opposite-contact-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/granny/rearLeft/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body walking animation key pose for ChuaOnline, not a sheet. IMAGE1 is the approved POSE and CAMERA target, IMAGE2 is the elderly female IDENTITY/heading reference. Replace the man in image1 with the SAME elderly Vietnamese woman from image2, roughly70years old, grey hair in the exact neat low bun, mature gentle face, warm brown ao lam tunic and matching loose full-length trousers, bare feet, matte cloth and warm upper-left soft light. Keep her own head size, bun, garment seams and female proportions. IMPORTANT: copy image1's precise leading leg, planted heel, trailing raised heel/toes, pelvic balance, arm counter-swing and empty hand positions; do NOT copy the standing stance from image2. Do NOT swap the anatomical left/right limb roles. Required heading: REAR-LEFT three-quarter, diagonally away toward screen-UP-LEFT; her back and right side visible, a small LEFT-pointing nose/profile. Both feet, pelvis, shoulders and gaze aim UP-LEFT. This is the OPPOSITE contact, the other leg now leading exactly as image1; preserve the opposite arm swing rather than repeating the first step. Keep the fixed elevated camera, scale, torso/root and SQUARE1254×1254 source with unchanged transparent side margins. Top of hair near y30 and floor/root near x615,y1210; retain actual foot positions from the pose target, not autocropped/centered. One full figure with complete fingers/feet inside true RGBA. No mirror, body warp, floor, baked shadow, props, cushion, text, labels, grids, neon contour, extra limb/figure or motion blur."
+    }
+  ]
+}

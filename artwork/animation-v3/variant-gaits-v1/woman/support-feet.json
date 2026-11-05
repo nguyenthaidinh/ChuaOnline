@@ -1,0 +1,463 @@
+{
+  "appearance": "woman",
+  "status": "complete",
+  "measurement": "Manually selected heel/sole landmark on the supporting foot in each own source PNG; grid crops and alpha contour checked.",
+  "frames": {
+    "rear/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/02-passing.png",
+      "sourceSha256": "6d1bce50b16a981aeebba635770db391da792f20ee35d90cbc5ec32442fe324d",
+      "supportFoot": "right",
+      "supportPoint": [
+        620,
+        1195
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        193.842,
+        462.526
+      ],
+      "sampleRgba": [
+        143,
+        96,
+        65,
+        252
+      ],
+      "note": "Right support heel under the pelvis, lower rear calcaneus curve; left sole is lifted.",
+      "supportHeel": [
+        620,
+        1195
+      ],
+      "normalizedSupportHeel": [
+        193.842,
+        462.526
+      ]
+    },
+    "rear/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/06-opposite-passing.png",
+      "sourceSha256": "8dda223fd211587dc4e4ecc3f4e61afa998d3f344f8844663aa6fba328035c6a",
+      "supportFoot": "left",
+      "supportPoint": [
+        600,
+        1204
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        187.105,
+        465.558
+      ],
+      "sampleRgba": [
+        146,
+        92,
+        61,
+        255
+      ],
+      "note": "Left support heel under the pelvis, low rear calcaneus edge; right sole is lifted.",
+      "supportHeel": [
+        600,
+        1204
+      ],
+      "normalizedSupportHeel": [
+        187.105,
+        465.558
+      ]
+    },
+    "rearRight/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+      "sourceSha256": "e53ccd9c5060b27df7ed7af1ae185ed1d899333330b668704129be5e05fb14ea",
+      "supportFoot": "right",
+      "supportPoint": [
+        625,
+        1186
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        195.526,
+        459.495
+      ],
+      "sampleRgba": [
+        189,
+        126,
+        89,
+        252
+      ],
+      "note": "Near/image-right anatomical RIGHT support heel on corrected v2. Far LEFT knee/foot suspended; replaced incorrectly planted far-left source after parent/sibling audit.",
+      "supportHeel": [
+        625,
+        1186
+      ],
+      "normalizedSupportHeel": [
+        195.526,
+        459.495
+      ]
+    },
+    "right/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+      "sourceSha256": "ca0c305071bb1c3189166a47c4f7a6fa099431bdb472f2196f0140483b870f45",
+      "supportFoot": "right",
+      "supportPoint": [
+        520,
+        1193
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        160.158,
+        461.853
+      ],
+      "sampleRgba": [
+        177,
+        129,
+        99,
+        249
+      ],
+      "note": "Right-support heel at the rear/lower edge of the planted profile foot; left swing foot is raised.",
+      "supportHeel": [
+        520,
+        1193
+      ],
+      "normalizedSupportHeel": [
+        160.158,
+        461.853
+      ]
+    },
+    "rearRight/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+      "sourceSha256": "0e8533d818c8f7051c91161e8225650ad33d002f3e4ab27d93ebd7d8cf34bebf",
+      "supportFoot": "left",
+      "supportPoint": [
+        543,
+        1192
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        167.905,
+        461.516
+      ],
+      "sampleRgba": [
+        151,
+        99,
+        68,
+        249
+      ],
+      "note": "Left support heel at the visible low posterior curve on corrected opposite-leg v4. Foreground right thigh swings across the far straight support; parent notified before source revision.",
+      "supportHeel": [
+        543,
+        1192
+      ],
+      "normalizedSupportHeel": [
+        167.905,
+        461.516
+      ]
+    },
+    "right/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing-v2.png",
+      "sourceSha256": "1123e95954d102c2983e2b840147aae7079f9b11f0a21b649a5c463ef43b6029",
+      "supportFoot": "left",
+      "supportPoint": [
+        668,
+        1192
+      ],
+      "landmark": "visible-plantar",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        210.011,
+        461.516
+      ],
+      "sampleRgba": [
+        200,
+        138,
+        116,
+        253
+      ],
+      "note": "Left support heel at the low posterior curve of the planted profile foot; right knee/foot is bent compactly beside it. Generic supportPoint is the visible central plantar forefoot pad to match neutral far-left foot; supportHeel stays secondary.",
+      "supportHeel": [
+        521,
+        1188
+      ],
+      "normalizedSupportHeel": [
+        160.495,
+        460.168
+      ]
+    },
+    "frontRight/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/02-passing.png",
+      "sourceSha256": "275c3bc82ffa2a5425b9369260aa585e278f79851c6012f270dddfc42de88f85",
+      "supportFoot": "right",
+      "supportPoint": [
+        558,
+        1195
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        172.958,
+        462.526
+      ],
+      "sampleRgba": [
+        199,
+        142,
+        107,
+        252
+      ],
+      "note": "Right support heel at its visible low posterior/side curve; left foot is lifted.",
+      "supportHeel": [
+        558,
+        1195
+      ],
+      "normalizedSupportHeel": [
+        172.958,
+        462.526
+      ]
+    },
+    "frontRight/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/06-opposite-passing.png",
+      "sourceSha256": "b3835ffa50dd8786825e837ceba38e33189eefcd912ad39646dbea9c2a0753d5",
+      "supportFoot": "left",
+      "supportPoint": [
+        578,
+        1190
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        179.695,
+        460.842
+      ],
+      "sampleRgba": [
+        221,
+        166,
+        135,
+        252
+      ],
+      "note": "Left support heel at its visible low posterior/side curve; right foot is lifted.",
+      "supportHeel": [
+        578,
+        1190
+      ],
+      "normalizedSupportHeel": [
+        179.695,
+        460.842
+      ]
+    },
+    "front/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/02-passing.png",
+      "sourceSha256": "71d1e0314da9188e9372bcf84ba3bd7be14ebd09e5ea46e5f936dfe764a9b1f4",
+      "supportFoot": "right",
+      "supportPoint": [
+        565,
+        1226
+      ],
+      "landmark": "visible-plantar",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        175.316,
+        472.968
+      ],
+      "sampleRgba": [
+        198,
+        133,
+        110,
+        252
+      ],
+      "note": "The right support heel is occluded in this frontal view. This is an actual visible plantar toe-contact edge, not an inferred hidden heel."
+    },
+    "front/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/06-opposite-passing.png",
+      "sourceSha256": "b3e955f4aa7dec3eabb0a4fd9c4ca2b98a94a0a7982c05d574bed9527033df8b",
+      "supportFoot": "left",
+      "supportPoint": [
+        658,
+        1209
+      ],
+      "landmark": "visible-plantar",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        206.642,
+        467.242
+      ],
+      "sampleRgba": [
+        213,
+        143,
+        118,
+        251
+      ],
+      "note": "The left support heel is occluded in this frontal view. This is an actual visible plantar toe-contact edge, not an inferred hidden heel."
+    },
+    "frontLeft/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png",
+      "sourceSha256": "e1abfc33e8c6e6ad3d0f95f4ff5e3f9683fbf96a31d5d9a617660f14cd1faba7",
+      "supportFoot": "right",
+      "supportPoint": [
+        600,
+        1190
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        187.105,
+        460.842
+      ],
+      "sampleRgba": [
+        187,
+        136,
+        109,
+        252
+      ],
+      "note": "Right support heel at the visible low posterior/side curve of the image-left planted foot.",
+      "supportHeel": [
+        600,
+        1190
+      ],
+      "normalizedSupportHeel": [
+        187.105,
+        460.842
+      ]
+    },
+    "frontLeft/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png",
+      "sourceSha256": "ee6dcb95846c17f89d4cc514ab10167fe51969f6a1a92552733d11852d8b1ba2",
+      "supportFoot": "left",
+      "supportPoint": [
+        636,
+        1201
+      ],
+      "landmark": "visible-plantar",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        199.232,
+        464.547
+      ],
+      "sampleRgba": [
+        212,
+        136,
+        106,
+        252
+      ],
+      "note": "The left support heel is occluded by the forefoot/cuff at this angle. This is a visible plantar toe-contact edge, not an inferred hidden heel."
+    },
+    "left/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png",
+      "sourceSha256": "c89dee30e3616dcca0c01995eaa61d0ac0473b945e11a9433d255ea2248fd800",
+      "supportFoot": "right",
+      "supportPoint": [
+        537,
+        1194
+      ],
+      "landmark": "visible-plantar",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        165.884,
+        462.189
+      ],
+      "sampleRgba": [
+        213,
+        152,
+        131,
+        252
+      ],
+      "note": "Visible right support heel; generic supportPoint instead uses the central plantar forefoot pad because the matching neutral far-foot heel is occluded.",
+      "supportHeel": [
+        666,
+        1193
+      ],
+      "normalizedSupportHeel": [
+        209.337,
+        461.853
+      ]
+    },
+    "left/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v3.png",
+      "sourceSha256": "617627cf4850f31f64093e74129ea25d7fec44a10fa0442ce1fa63b763e6d52c",
+      "supportFoot": "left",
+      "supportPoint": [
+        658,
+        1195
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        206.642,
+        462.526
+      ],
+      "sampleRgba": [
+        167,
+        111,
+        87,
+        251
+      ],
+      "note": "Visible low posterior curve of the near left supporting heel; the right thigh/foot is suspended behind it.",
+      "supportHeel": [
+        658,
+        1195
+      ],
+      "normalizedSupportHeel": [
+        206.642,
+        462.526
+      ]
+    },
+    "rearLeft/02-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+      "sourceSha256": "fec85ab2217f1677ca2c0614755f9e73419719e52177cd0c310cb882cd7b0a79",
+      "supportFoot": "right",
+      "supportPoint": [
+        691,
+        1202
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        217.758,
+        464.884
+      ],
+      "sampleRgba": [
+        155,
+        109,
+        86,
+        251
+      ],
+      "note": "Right support heel at the low posterior curve of the far, image-right planted foot; left foot is suspended.",
+      "supportHeel": [
+        691,
+        1202
+      ],
+      "normalizedSupportHeel": [
+        217.758,
+        464.884
+      ]
+    },
+    "rearLeft/06-opposite-passing": {
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+      "sourceSha256": "4f0b3001d1d4dbd48c686fc4e1d70ac9d7a1ae5a7abb5d5ad16954fba9e3c7b2",
+      "supportFoot": "left",
+      "supportPoint": [
+        601,
+        1168
+      ],
+      "landmark": "visible-heel",
+      "coordinateSpace": "native source PNG pixels",
+      "normalizedSupportPoint": [
+        187.442,
+        453.432
+      ],
+      "sampleRgba": [
+        163,
+        115,
+        89,
+        247
+      ],
+      "note": "Left support heel at the low posterior curve of the near planted foot; the far right leg/foot is suspended on image-right.",
+      "supportHeel": [
+        601,
+        1168
+      ],
+      "normalizedSupportHeel": [
+        187.442,
+        453.432
+      ]
+    }
+  }
+}

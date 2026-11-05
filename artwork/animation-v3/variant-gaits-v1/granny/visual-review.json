@@ -1,0 +1,196 @@
+{
+  "status": "approved-source-review",
+  "appearance": "granny",
+  "headings": [
+    "rear",
+    "rearRight",
+    "right",
+    "frontRight",
+    "front",
+    "frontLeft",
+    "left",
+    "rearLeft"
+  ],
+  "method": "Manual inspection of full sources for identity/direction and locked contact/passing anchors, plus every eight-phase storyboard on light/dark at192x256 and144x192. Encoded eight-frame loops are structurally verified by finalize_sources.py.",
+  "observations": "Same elderly Vietnamese grey-bun brown-clothed identity. Complete limbs/feet and readable counter-swing. Composited144x192 edges are clean on both inspected backgrounds. Source alpha and fixed canvas normalization retained.",
+  "scope": "Local source/frame sequence review only; no browser playback, multiplayer or FPS claim. Runtime integration owner verifies movement/stop behavior.",
+  "reviews": {
+    "rear": {
+      "approved": true,
+      "note": "Straight rear head and centered bun retained. Alternating feet and opposing arms read clearly through the eight reference phases.",
+      "evidence": [
+        {
+          "source": "rear-review-light.jpg",
+          "sha256": "c0d3ecafa2c648c8a40dd7bd3151aeeb19323d60caf7329f33af627e06c0a1af"
+        },
+        {
+          "source": "rear-review-dark.jpg",
+          "sha256": "0642098edacc245b9925e7abbef8939271b70e7407bc531a6d7e85a5b74396f3"
+        },
+        {
+          "source": "rear-review-lod144-light.jpg",
+          "sha256": "5b89494818a551208986a5dcd5577962e55d493c049e848f917e06504add661d"
+        },
+        {
+          "source": "rear-review-lod144-dark.jpg",
+          "sha256": "af0b2e03ee0ad606d52783f11891d5cc03dce686c94275fac0cc8461dc298940"
+        }
+      ]
+    },
+    "rearRight": {
+      "approved": true,
+      "note": "Rear-right torso and bun direction retained; left/right stance is distinguished through hip occlusion. Reused neutral is intentionally byte-identical.",
+      "evidence": [
+        {
+          "source": "rearRight-review-light.jpg",
+          "sha256": "defea7ff27bd1e38f870795601dba8962984350d1f174a90760507d85b010513"
+        },
+        {
+          "source": "rearRight-review-dark.jpg",
+          "sha256": "61227b533dc82da886752e5a70fd8d0082bb25e9923e8936346517cf5271123d"
+        },
+        {
+          "source": "rearRight-review-lod144-light.jpg",
+          "sha256": "ae5281c41b5835f5ae87c6828f39eda7531a39fc962ce1e251aabaedf39a7359"
+        },
+        {
+          "source": "rearRight-review-lod144-dark.jpg",
+          "sha256": "c031bfd623b949c1a30c3839266d914eb81ae11fde0ef14704112e241e689e05"
+        }
+      ]
+    },
+    "right": {
+      "approved": true,
+      "note": "Pure right profile retained. Contact, foot roll, raised swing and opposing arm phases remain distinct.",
+      "evidence": [
+        {
+          "source": "right-review-light.jpg",
+          "sha256": "04490efb6e77af2c6f6e72cc0fa3dbb22e63c9ddbb54a989b8d6c04fc180d173"
+        },
+        {
+          "source": "right-review-dark.jpg",
+          "sha256": "e5349573ae41055673a01c53e8ccbeb420a1c652c61693e78f0685a0c221325e"
+        },
+        {
+          "source": "right-review-lod144-light.jpg",
+          "sha256": "2b1bfec25a5fe0803c1682d6a3cf81f35b845bffa854200d9bf3ad9f76bf0d28"
+        },
+        {
+          "source": "right-review-lod144-dark.jpg",
+          "sha256": "6bf24a0e4f9986c6a2d9e7bca09f0e42e79d56a61b802c14bbf8f7bb44718916"
+        }
+      ]
+    },
+    "frontRight": {
+      "approved": true,
+      "note": "Front-right mature face and shoulder direction retained; planted and lifted feet alternate with coherent opposing arms.",
+      "evidence": [
+        {
+          "source": "frontRight-review-light.jpg",
+          "sha256": "817b36f07d9192db61b7643f490a4a97be822921a82bbf312335b01490d292c1"
+        },
+        {
+          "source": "frontRight-review-dark.jpg",
+          "sha256": "07d911fdc07c1b475bd09c8366cec7fdb267c37eb013d8371f06e49db4f58c6f"
+        },
+        {
+          "source": "frontRight-review-lod144-light.jpg",
+          "sha256": "679e1e10242b3a1a20dacaa4c9359d4dd882958b57d2f401fb1765ac6995a7c8"
+        },
+        {
+          "source": "frontRight-review-lod144-dark.jpg",
+          "sha256": "d95c141d91804407537f031e52008233971ed5051ea165316577793f02796789"
+        }
+      ]
+    },
+    "front": {
+      "approved": true,
+      "note": "Straight front mature face retained without side yaw. Right/image-left and left/image-right lead phases remain distinct.",
+      "evidence": [
+        {
+          "source": "front-review-light.jpg",
+          "sha256": "4c53c88b2b685284a7585ceadf75f8409b0810a095dddbc02d243bd52fcf46e8"
+        },
+        {
+          "source": "front-review-dark.jpg",
+          "sha256": "9ad456428a1367fb898dce275fb9d6e33130d63f11a9fa69c0ea264de2e00876"
+        },
+        {
+          "source": "front-review-lod144-light.jpg",
+          "sha256": "0c0db94f7d8b0e80f7517d9fa445c76b6a569ba813efd53c6b76bf6bfa816dcf"
+        },
+        {
+          "source": "front-review-lod144-dark.jpg",
+          "sha256": "76e34539b7d413c31100fefcd08b9adfcbb4181a67616aa1c5e042c914c2a10a"
+        }
+      ]
+    },
+    "frontLeft": {
+      "approved": true,
+      "note": "Front-left mature face and brown costume remain coherent across contact, loading, passing and swing phases.",
+      "evidence": [
+        {
+          "source": "frontLeft-review-light.jpg",
+          "sha256": "7d03be5f8fc8a23e21ad2bf19d2ae72d6f3b3dd17652f96432f013ee820f4b09"
+        },
+        {
+          "source": "frontLeft-review-dark.jpg",
+          "sha256": "15ce22154166b22ced866be16fea90abaca4fdb6aef2c4882b73b38dc90e6a08"
+        },
+        {
+          "source": "frontLeft-review-lod144-light.jpg",
+          "sha256": "1e3cf4edf713b034a915b01572b86da82d745d8a1742bd5704915a8ceeaa4d91"
+        },
+        {
+          "source": "frontLeft-review-lod144-dark.jpg",
+          "sha256": "8b57336e59a29b15b60808a6f9a8266c173179ea4bd49aabfb1520f0998e5919"
+        }
+      ]
+    },
+    "left": {
+      "approved": true,
+      "note": "Pure left profile retained with complete feet/hands; alternate arm and leg phases follow the selected reference sequence.",
+      "evidence": [
+        {
+          "source": "left-review-light.jpg",
+          "sha256": "d87c09f997e031f446767a36afe6b28ed9ae4128062429856cb91af57e93e79a"
+        },
+        {
+          "source": "left-review-dark.jpg",
+          "sha256": "8f68b33608c56e637a67d9eda16b7c1f965567fd07cc64e7e5cb61de13d1f134"
+        },
+        {
+          "source": "left-review-lod144-light.jpg",
+          "sha256": "eea34b638951b1cca888a87ac0895530faa045cdd1d1fe49182674340a2379aa"
+        },
+        {
+          "source": "left-review-lod144-dark.jpg",
+          "sha256": "ae8bae2204aacb329df090443a6493785b9e5f6462e687924ce4dc3b1a04a496"
+        }
+      ]
+    },
+    "rearLeft": {
+      "approved": true,
+      "note": "Post-freeze full-source reinspection found06 repeating far-right support and neutral R/L labels reversed. Raw06 retained;06-v2 now visibly plants LEFT foreground leg and bends far RIGHT thigh, opposite02. Corrected neutral mapping RIGHTfar/image-right and LEFTnear/image-left. Rechecked revised192+144light/dark boards.",
+      "evidence": [
+        {
+          "source": "rearLeft-review-light.jpg",
+          "sha256": "b5d54d5b5f6a193366fede33a7b4275165cc281699f8220d89fad4e0509ca3e0"
+        },
+        {
+          "source": "rearLeft-review-dark.jpg",
+          "sha256": "587527be8e202d1b6ccf9c734eddf33fa3fd27fb7ec68cf03c7f5d27842391db"
+        },
+        {
+          "source": "rearLeft-review-lod144-light.jpg",
+          "sha256": "bb2ea5a43d71fffcee3b28b504d19f2d2160f9976bb55e27a1ec8e120afbf559"
+        },
+        {
+          "source": "rearLeft-review-lod144-dark.jpg",
+          "sha256": "c8b49b65da933f4c3646b911ab0efbc600ce31960166f15a6b6d20ab71ba822c"
+        }
+      ]
+    }
+  },
+  "correction": "See rearLeft-role-revisions.json for root-authorized late anatomical source/metadata revision; no raw PNG overwritten."
+}

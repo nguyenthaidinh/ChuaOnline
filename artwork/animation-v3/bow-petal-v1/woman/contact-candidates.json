@@ -1,0 +1,287 @@
+{
+  "00-neutral": {
+    "sourceSha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b",
+    "support": {
+      "point": [
+        524,
+        1177
+      ],
+      "landmark": "leftSoleContact",
+      "reference": "00-neutral",
+      "reviewRoi": [
+        440,
+        1090,
+        600,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "02-lower-knees": {
+    "sourceSha256": "70b6d77b6fbf3579ab1ffac9a560a3ca4bccdaf932b769a2c9533eb7cf7f2561",
+    "support": {
+      "point": [
+        528,
+        1182
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "03-kneel-rest": {
+    "sourceSha256": "b1491ec9483529f7d97101181ccf6734bb607a30eb36e0f825d68640e5f29358",
+    "support": {
+      "point": [
+        523,
+        1187
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "04-prayer": {
+    "sourceSha256": "c1d2830e0757425a215d45acdf296702714283e50dbaeb05e7c2f7c12ab4c593",
+    "support": {
+      "point": [
+        525,
+        1186
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "05-forehead-prayer": {
+    "sourceSha256": "6e29772d2f3c7b4b49da5a7f6759100bd505d225a95af7ca503ef54f3ad6403c",
+    "support": {
+      "point": [
+        529,
+        1188
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "06-lean": {
+    "sourceSha256": "ecda752d1abfa87a83d68b15b5c707be661cbfeadacf71a581745743d7c0c65a",
+    "support": {
+      "point": [
+        498,
+        1186
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "07-hands-floor": {
+    "sourceSha256": "f497b13af52a2e1b45300aa59ad0dcdccf0ff78f17687bfe615861e8db2c6a77",
+    "support": {
+      "point": [
+        527,
+        1191
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "08-prostrate": {
+    "sourceSha256": "451a857cbfe904665360773a7777d0d9c8b952d54298911da28710a28e50eb2a",
+    "support": {
+      "point": [
+        526,
+        1189
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "09-lift-head": {
+    "sourceSha256": "1baf83f5e17b0f083113a7ceb8950b79855e0d57cd18fa75a21de2a39a6d72a4",
+    "support": {
+      "point": [
+        526,
+        1188
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "10-push-up": {
+    "sourceSha256": "f7920d571210f8c003a693665cc3c18ab0b8e5724a20ce634b23a0ec7e16c1d4",
+    "support": {
+      "point": [
+        524,
+        1187
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "11-kneel-return": {
+    "sourceSha256": "1acbfb83ed18360a8929dc7f713a76ac850c5bc9a20af439914824e476562f6c",
+    "support": {
+      "point": [
+        523,
+        1187
+      ],
+      "landmark": "frontToeContact",
+      "reference": "03-kneel-rest",
+      "reviewRoi": [
+        440,
+        1120,
+        660,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "12-rise-support": {
+    "sourceSha256": "bb85211a2e7f3e29ec7219d1d3f4b6971adf8780a05e21f18519a3d657bc6224",
+    "support": {
+      "point": [
+        697,
+        1166
+      ],
+      "landmark": "rightPosteriorSoleContact",
+      "reference": "12-rise-support",
+      "reviewRoi": [
+        600,
+        1100,
+        920,
+        1220
+      ],
+      "method": "Own posterior sole curve manually selected from native heel detail; lowest-row quantile targets mid-sole and is not used."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "13-rise-half-kneel": {
+    "sourceSha256": "219128b120a76827d2cd9aa71f8c571479477ca6d31fe932fc42e567f2e81a77",
+    "support": {
+      "point": [
+        691,
+        1153
+      ],
+      "landmark": "rightPosteriorSoleContact",
+      "reference": "12-rise-support",
+      "reviewRoi": [
+        600,
+        1100,
+        920,
+        1220
+      ],
+      "method": "Own posterior sole curve manually selected from native heel detail; lowest-row quantile targets mid-sole and is not used."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "14-rise-extend": {
+    "sourceSha256": "4d3bc3d50c379c84f045b55d2e7b6d4798c8840264ad42f2f91bd479bee6da63",
+    "support": {
+      "point": [
+        494,
+        1168
+      ],
+      "landmark": "leftSoleContact",
+      "reference": "00-neutral",
+      "reviewRoi": [
+        440,
+        1090,
+        600,
+        1220
+      ],
+      "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  },
+  "22-rise-weight-transfer": {
+    "sourceSha256": "764e7c74f38579ee781a41f218ed9db39a27dfbac4540677671222ba59d1ebc0",
+    "support": {
+      "point": [
+        646,
+        1153
+      ],
+      "landmark": "rightPosteriorSoleContact",
+      "reference": "12-rise-support",
+      "reviewRoi": [
+        600,
+        1100,
+        920,
+        1220
+      ],
+      "method": "Own posterior sole curve manually selected from native heel detail; lowest-row quantile targets mid-sole and is not used."
+    },
+    "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+  }
+}

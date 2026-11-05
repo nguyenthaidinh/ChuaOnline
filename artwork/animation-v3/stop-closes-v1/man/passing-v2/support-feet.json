@@ -1,0 +1,599 @@
+{
+  "appearance": "man",
+  "status": "reviewed-own-native-source",
+  "frames": {
+    "rear/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rear/right.png",
+      "sourceSha256": "d100622bcaa61f0329d95aa13b356582d8bf52a443c2fafe62048977ff66a1e4",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        620,
+        1200
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        193.842,
+        464.211
+      ],
+      "sampleRgba": [
+        173,
+        119,
+        86,
+        253
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "neutralPoint": [
+        665,
+        1206
+      ],
+      "pinLogicalOffset": [
+        15.158,
+        2.021
+      ]
+    },
+    "rear/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rear/left.png",
+      "sourceSha256": "2b6f3098f32ffcdc818c0bde57f9483d99b962f0282e6770b00bcd3cb3bf4871",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        590,
+        1203
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        183.737,
+        465.221
+      ],
+      "sampleRgba": [
+        181,
+        125,
+        89,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe",
+      "neutralPoint": [
+        560,
+        1207
+      ],
+      "pinLogicalOffset": [
+        -10.105,
+        1.347
+      ]
+    },
+    "rearRight/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearRight/right-v2.png",
+      "sourceSha256": "868890e55e6037c503e93e3752eb87aecb7b83a11c42198cc3f9ba893ecef620",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        610,
+        1187
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        190.474,
+        459.832
+      ],
+      "sampleRgba": [
+        172,
+        114,
+        78,
+        253
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference. Corrected final rearRight pair: RIGHT=near/image-right heel planted, LEFT=far/image-left heel planted; rejected repeated-left-support pilots retained.",
+      "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "neutralPoint": [
+        613,
+        1186
+      ],
+      "pinLogicalOffset": [
+        1.01,
+        -0.337
+      ]
+    },
+    "rearRight/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearRight/left-v2.png",
+      "sourceSha256": "95d91b71137cd7cfbbbcde6089feb8e84ee5fde005def410536ba2873f66cab0",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        520,
+        1198
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        160.158,
+        463.537
+      ],
+      "sampleRgba": [
+        173,
+        116,
+        80,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference. Corrected final rearRight pair: RIGHT=near/image-right heel planted, LEFT=far/image-left heel planted; rejected repeated-left-support pilots retained.",
+      "neutralSourceSha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2",
+      "neutralPoint": [
+        519,
+        1173
+      ],
+      "pinLogicalOffset": [
+        -0.337,
+        -8.421
+      ]
+    },
+    "right/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/right.png",
+      "sourceSha256": "e4ddbe91945a2db4f41fdd0cc6e40df1322b7f69aa7dc3902694fb92c6bc17ff",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        510,
+        1193
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        156.789,
+        461.853
+      ],
+      "sampleRgba": [
+        202,
+        148,
+        121,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "neutralPoint": [
+        540,
+        1181
+      ],
+      "pinLogicalOffset": [
+        10.106,
+        -4.042
+      ]
+    },
+    "right/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/right/left-v3.png",
+      "sourceSha256": "82b2fc03772ad3ef5ac7527b1de0ff8f6cd26aec0471700dd88599a230bdfc5d",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        675,
+        1197
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        212.368,
+        463.2
+      ],
+      "sampleRgba": [
+        193,
+        131,
+        110,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native-v3 corrected profile pair reviewed at full source and marked feet. Far anatomical left leg stays straight and weight-bearing behind a bent near-right leg that occludes it; the free right foot is raised behind the calf on image-left, unlike right-support phase. Own visible forefoot/toe-pad matches own neutral class. Old repeated-foreground-straight pilot retained as draft.",
+      "neutralSourceSha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849",
+      "neutralPoint": [
+        691,
+        1154
+      ],
+      "pinLogicalOffset": [
+        5.39,
+        -14.484
+      ]
+    },
+    "frontRight/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontRight/right.png",
+      "sourceSha256": "a31a8eb9b50d6e86f42dca32ee9c83a531ef9ed267eb1c279fcc46d0f4fe3c90",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        603,
+        1225
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        188.116,
+        472.632
+      ],
+      "sampleRgba": [
+        219,
+        150,
+        117,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "neutralPoint": [
+        558,
+        1217
+      ],
+      "pinLogicalOffset": [
+        -15.158,
+        -2.695
+      ]
+    },
+    "frontRight/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontRight/left.png",
+      "sourceSha256": "6820e99b6b89552f2cc20e6e108606f8a0886ccbbf473288f6a0c92f9550ee4e",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        675,
+        1218
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        212.368,
+        470.274
+      ],
+      "sampleRgba": [
+        188,
+        113,
+        95,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f",
+      "neutralPoint": [
+        686,
+        1208
+      ],
+      "pinLogicalOffset": [
+        3.706,
+        -3.369
+      ]
+    },
+    "front/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/front/right.png",
+      "sourceSha256": "3439736b8b61a0d5e7001b48ba1912293ac9c1959a39c14e8d92eb7e6e50a48e",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        551,
+        1227
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        170.6,
+        473.305
+      ],
+      "sampleRgba": [
+        222,
+        154,
+        126,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "neutralPoint": [
+        552,
+        1216
+      ],
+      "pinLogicalOffset": [
+        0.337,
+        -3.705
+      ]
+    },
+    "front/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/front/left.png",
+      "sourceSha256": "ad7856f88b6f6bf2976254e2e1f916a947959b2ee2a83ac0b14293dd4f049e02",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        638,
+        1215
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        199.905,
+        469.263
+      ],
+      "sampleRgba": [
+        224,
+        162,
+        137,
+        253
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531",
+      "neutralPoint": [
+        662,
+        1217
+      ],
+      "pinLogicalOffset": [
+        8.084,
+        0.674
+      ]
+    },
+    "frontLeft/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontLeft/right.png",
+      "sourceSha256": "80c8dad50e6ad0400301895841af541b7d67ee3b3e39dfee858ecd67ad7f2c17",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        533,
+        1215
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        164.537,
+        469.263
+      ],
+      "sampleRgba": [
+        230,
+        165,
+        124,
+        253
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "neutralPoint": [
+        500,
+        1205
+      ],
+      "pinLogicalOffset": [
+        -11.116,
+        -3.368
+      ]
+    },
+    "frontLeft/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/frontLeft/left.png",
+      "sourceSha256": "cc88543f1879ee2ead032892e6302ce0bb7115775eec4b94db04a25bec34a5d2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        601,
+        1200
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        187.442,
+        464.211
+      ],
+      "sampleRgba": [
+        230,
+        168,
+        117,
+        251
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d",
+      "neutralPoint": [
+        652,
+        1216
+      ],
+      "pinLogicalOffset": [
+        17.179,
+        5.389
+      ]
+    },
+    "left/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/left/right.png",
+      "sourceSha256": "c0ffbf2c3c69ea6b44ae4d8b7cf071c3587847b87015e92ddc61843d0601d29f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        525,
+        1196
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleToePad",
+      "normalizedSupportPoint": [
+        161.842,
+        462.863
+      ],
+      "sampleRgba": [
+        196,
+        134,
+        110,
+        254
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "neutralPoint": [
+        515,
+        1158
+      ],
+      "pinLogicalOffset": [
+        -3.368,
+        -12.8
+      ]
+    },
+    "left/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/left/left.png",
+      "sourceSha256": "4de3707fa51a8ca3121e9d7404d684c8bfb11d8d4e17d49ba0254facde0bf6f9",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        663,
+        1193
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        208.326,
+        461.853
+      ],
+      "sampleRgba": [
+        185,
+        124,
+        98,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5",
+      "neutralPoint": [
+        670,
+        1182
+      ],
+      "pinLogicalOffset": [
+        2.358,
+        -3.706
+      ]
+    },
+    "rearLeft/right": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearLeft/right.png",
+      "sourceSha256": "1c847c0b066d9aae6990d88097c1f33f4ddf038bac52122bebd1b48d860f0640",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        670,
+        1199
+      ],
+      "supportFoot": "right",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        210.684,
+        463.874
+      ],
+      "sampleRgba": [
+        188,
+        136,
+        108,
+        253
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "neutralPoint": [
+        667,
+        1179
+      ],
+      "pinLogicalOffset": [
+        -1.01,
+        -6.737
+      ]
+    },
+    "rearLeft/left": {
+      "source": "artwork/animation-v3/stop-closes-v1/man/passing-v2/rearLeft/left.png",
+      "sourceSha256": "4b62b4b1aeacfe3a3a86fbe506fc3a0343c8a757b9b47ed58cef0de5e8619c66",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePoint": [
+        596,
+        1170
+      ],
+      "supportFoot": "left",
+      "landmark": "visibleHeel",
+      "normalizedSupportPoint": [
+        185.758,
+        454.105
+      ],
+      "sampleRgba": [
+        177,
+        124,
+        98,
+        252
+      ],
+      "reviewed": true,
+      "evidence": "support-contact-review.jpg",
+      "coordinateSpace": "native source PNG pixels",
+      "review": "Native source and marked heel/forefoot edge visually reviewed. The selected planted leg is straight under the pelvis and the other foot is fully airborne. Opposite near/far thigh occlusion checked, not just the arm swing. Contact is measured on this own male PNG and uses the same visible landmark class as its own neutral; no female coordinate scaling or hidden heel inference.",
+      "neutralSourceSha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344",
+      "neutralPoint": [
+        611,
+        1188
+      ],
+      "pinLogicalOffset": [
+        5.053,
+        6.063
+      ]
+    }
+  },
+  "note": "Native points selected from inspected grids, snapped within12nativepixels to the visible skin/alpha edge, then manually reviewed. Precision approximately2nativepixels; not optical tracking."
+}

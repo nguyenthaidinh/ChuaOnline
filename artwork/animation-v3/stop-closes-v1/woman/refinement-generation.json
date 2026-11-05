@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Both RR gathers regenerated after root-approved physical R/L support corrections; raw preserved.",
+  "jobs": [
+    {
+      "heading": "rearRight",
+      "id": "left-gather",
+      "candidateId": "left-gather-v2",
+      "output": "rearRight/left-gather-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/stop-closes-v1/woman/rearRight/left-gather.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE left-support deceleration GATHER pose following IMAGE1's corrected passing, same woman and exact REAR-RIGHT heading. IMAGE1 is the authoritative support/swing anatomy: far leg remains straight/planted, near foreground RIGHT thigh bends in front of it and its foot is suspended. KEEP this same planted support leg and its heel EXACTLY at image1 source location; do NOT copy IMAGE3's incorrect opposite knee/straight foreground leg. Image3 is a rejected old gather, identity/light only. Bring image1's suspended right foot gently DOWN and IN beside the support ankle, a small visible clearance above the floor, almost ready to set beside the planted foot. Reduce knee bend and let both arms soften down toward the neutral in IMAGE2. It is a GATHER in-between: one fixed planted support foot, other foot still suspended by a little, NOT a stride or a high marching knee. Keep hips/head/body yaw and scale fixed, nose screen-RIGHT, broad back visible, neat low black bun and blue-grey ao lam/loose trousers, adult Vietnamese woman with empty hands and bare feet. Same1254squarecanvas, hairtop~30, root~615,1210; do not move the planted heel, crop, recenter, zoom, mirror or stretch. One full-body character with true clean RGBA outside silhouette, no colored broad halo, floor/shadow/text/props/ghosts/extra limbs.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-b2364d80-152a-449f-8c20-a3909ad98801.png",
+      "generatedAt": "2026-11-04T17:09:51.700Z"
+    },
+    {
+      "heading": "rearRight",
+      "id": "right-gather",
+      "candidateId": "right-gather-v2",
+      "output": "rearRight/right-gather-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE RIGHT-support deceleration GATHER after IMAGE1's corrected right-support passing. Keep its NEAR/image-RIGHT leg straight and planted, right heel source[625,1186] FIXED exactly. Its FAR LEFT foot is the suspended foot on image-LEFT: gently lower and draw that left foot IN next to the supporting right ankle, hovering just a little above the floor, sourcefootbottomaround1140-1155 rather than1090. Keep the far thigh behind the straight foreground near right leg. Do NOT swap legs, bend/lift the right support knee/foot, or plant the far left foot. This is one fixed near right planted support and far left foot gathering toward it, not a stride or high knee. Let arms relax gently toward IMAGE2 neutral, keep head/hips/yaw/root and wholebody scale fixed. Same exact Vietnamese adult woman, lowblackbun, bluegrey ao lam and loose trousers, bare feet, broad-back REAR-RIGHT heading/noseRIGHT, elevated camera/warm light. Same1254squarecanvas, hairtop30/root6151210, complete limbs and unused transparent margin. True clean RGBA outside silhouette; no mirror, crop/recenter/zoom, bodywarp, colored broad halo, floor/shadow/props/text/extra limb/ghost/secondperson.",
+      "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-3f0342d0-a7e0-4b14-b30f-03d0beb21e1c.png",
+      "generatedAt": "2026-11-04T17:17:06.688Z"
+    }
+  ]
+}

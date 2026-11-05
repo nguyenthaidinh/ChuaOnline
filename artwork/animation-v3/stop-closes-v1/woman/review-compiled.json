@@ -1,0 +1,698 @@
+{
+  "status": "compiled",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "master": "atlas-master.webp",
+  "masterSha256": "00eb9b4524091f994c8428e1e34349c400773bea64397e79be9a6099ff38309b",
+  "frames": [
+    {
+      "cell": 0,
+      "id": "rear/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        124,
+        71,
+        262,
+        464
+      ],
+      "sha256": "29618ac58c4bac6b9bf383bbf0a2ec95f79262a6e07f640cc6d879433009fd12"
+    },
+    {
+      "cell": 1,
+      "id": "rear/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        71,
+        266,
+        464
+      ],
+      "sha256": "84e5f9e064c2d37e694523b9b82069f101665a813d343157998323448a80ecfe"
+    },
+    {
+      "cell": 2,
+      "id": "rear/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        70,
+        262,
+        467
+      ],
+      "sha256": "261fbe6d4c40f1d45f2054053191c0f718ed5a51e4a2c3aca82875d99dc395cf"
+    },
+    {
+      "cell": 3,
+      "id": "rear/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rear/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        126,
+        71,
+        265,
+        467
+      ],
+      "sha256": "8fd52009320d45956b1312f11fdc20894bff8cdd432cd14c062ae5f907adffec"
+    },
+    {
+      "cell": 4,
+      "id": "rearRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        132,
+        72,
+        254,
+        462
+      ],
+      "sha256": "d06dd9b6ecc103e90b05ba3e6fba2ecde414d5370752c0279aee33ed692bb2a0"
+    },
+    {
+      "cell": 5,
+      "id": "rearRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        71,
+        252,
+        461
+      ],
+      "sha256": "e7c61c5c35106340f8dd342b0cb30d988194a203aee19b5532ba56869b8436da"
+    },
+    {
+      "cell": 6,
+      "id": "rearRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-gather-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        128,
+        71,
+        264,
+        463
+      ],
+      "sha256": "5e6ef162cfbf8a451b7a695578342754467d8da82bda17413647a66a90f14c5b"
+    },
+    {
+      "cell": 7,
+      "id": "rearRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearRight/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        72,
+        253,
+        462
+      ],
+      "sha256": "661698719fcee3eb2107b056e1def54fd029b3ffceda414a9134c56bf9a4e059"
+    },
+    {
+      "cell": 8,
+      "id": "right/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        141,
+        72,
+        246,
+        464
+      ],
+      "sha256": "cadf0304b0bf7a0d779031ae479a93fa43e8186889c2890d31546c187de98a22"
+    },
+    {
+      "cell": 9,
+      "id": "right/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        139,
+        73,
+        243,
+        465
+      ],
+      "sha256": "7f7112dfb832435959fdce8813c9b0e675f373a64ce7305c6c684143f0b39fba"
+    },
+    {
+      "cell": 10,
+      "id": "right/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        138,
+        72,
+        242,
+        464
+      ],
+      "sha256": "eb5f157786b2d1f4e0e756ec74c7b4abc1e9747bf2074b651e18b0ba26d321a2"
+    },
+    {
+      "cell": 11,
+      "id": "right/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        139,
+        71,
+        229,
+        464
+      ],
+      "sha256": "567311d88d8410ac7523049d3dee415e50ee58224144acc19d82f0b342bca454"
+    },
+    {
+      "cell": 12,
+      "id": "frontRight/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        71,
+        268,
+        471
+      ],
+      "sha256": "e014752bcaa48b866ceccf3e3a0ce4a917d7a9d32e1ec26a8c0ecfe94539f328"
+    },
+    {
+      "cell": 13,
+      "id": "frontRight/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        120,
+        70,
+        265,
+        471
+      ],
+      "sha256": "9a5e6891f4150ea69b1e0a93450d38389583e27a5ec41dced73c37fec20b268d"
+    },
+    {
+      "cell": 14,
+      "id": "frontRight/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        69,
+        263,
+        472
+      ],
+      "sha256": "af20c1138b1e45725d0daf96b88498f5dc3203279f9002df7bffc365b636f360"
+    },
+    {
+      "cell": 15,
+      "id": "frontRight/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontRight/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        128,
+        70,
+        265,
+        473
+      ],
+      "sha256": "bd2c7c2f1203a32bb25d61d9fe89c3cd0aa1c98a7f80fbbb1f926f2a7907d0da"
+    },
+    {
+      "cell": 16,
+      "id": "front/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        72,
+        260,
+        475
+      ],
+      "sha256": "af4c39fcb8cf451296e9c86ddf32834fed97fceb7ce876bb7b4557d6174d1965"
+    },
+    {
+      "cell": 17,
+      "id": "front/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        73,
+        258,
+        475
+      ],
+      "sha256": "c628f5569830695ecf6f2b191c9cefa153d481debcc3b59b5f410bb52ea051a7"
+    },
+    {
+      "cell": 18,
+      "id": "front/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        71,
+        264,
+        470
+      ],
+      "sha256": "fdaf0e5e7b8eab1b54d126f5aa52eb5dec6cca607556fb13e669db424e11548c"
+    },
+    {
+      "cell": 19,
+      "id": "front/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/front/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        70,
+        268,
+        470
+      ],
+      "sha256": "7cbfc86cd4077ded9f681c321e2642729c07486891b068d53ea892f61e5b725f"
+    },
+    {
+      "cell": 20,
+      "id": "frontLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        123,
+        72,
+        251,
+        470
+      ],
+      "sha256": "a0d9744c8bf938ac0c0085a7f980d4caae39688bdb9566b9adc150c070b66178"
+    },
+    {
+      "cell": 21,
+      "id": "frontLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        122,
+        71,
+        249,
+        471
+      ],
+      "sha256": "d446ac6e185ff16f219f7c12f19816ab32b74e48859b7c099c2aa05be7c74773"
+    },
+    {
+      "cell": 22,
+      "id": "frontLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        121,
+        70,
+        265,
+        467
+      ],
+      "sha256": "23fb91079be76f8124fb84e882b56128e853af914d77dab4855ad5eb1bf13f2e"
+    },
+    {
+      "cell": 23,
+      "id": "frontLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/frontLeft/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        70,
+        261,
+        467
+      ],
+      "sha256": "3cf62ba6991534dc906f4f9a083c084d9f9516f7e94a1e1dae403419a4c1f8ef"
+    },
+    {
+      "cell": 24,
+      "id": "left/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        119,
+        73,
+        225,
+        464
+      ],
+      "sha256": "0124cd162e16cca46f7bb5f83b8eaee99d861545099f253a60b94c4bddabb295"
+    },
+    {
+      "cell": 25,
+      "id": "left/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        126,
+        72,
+        234,
+        466
+      ],
+      "sha256": "7d4b6314afad8e687549e9d62311ab98cca5566c19616c74f2bb5b38f492ac29"
+    },
+    {
+      "cell": 26,
+      "id": "left/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        73,
+        231,
+        467
+      ],
+      "sha256": "cd76f53f2e937a2416d5e866b91c542e4d9563bf1753f6f5461e9ec1f9b3f912"
+    },
+    {
+      "cell": 27,
+      "id": "left/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/left/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        136,
+        72,
+        231,
+        467
+      ],
+      "sha256": "42ea493c661455ebe1a271d39f078b4e53e48e51c6383dbcfd795342c31d312e"
+    },
+    {
+      "cell": 28,
+      "id": "rearLeft/right-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        121,
+        75,
+        252,
+        466
+      ],
+      "sha256": "452105f52137c0b9957ef3e02663a96af64f4ea3d6d6bb463dd8e8c8ffa73aaa"
+    },
+    {
+      "cell": 29,
+      "id": "rearLeft/right-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/right-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        113,
+        74,
+        248,
+        467
+      ],
+      "sha256": "172fb3f2c2b67b7a3a422e3eae947b9b7d6b97c39884590d262627801821a331"
+    },
+    {
+      "cell": 30,
+      "id": "rearLeft/left-gather",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-gather.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        110,
+        73,
+        246,
+        455
+      ],
+      "sha256": "758d7bc97bade620308821482be4df9c1a2aa39425563a3a26f41714b184c555"
+    },
+    {
+      "cell": 31,
+      "id": "rearLeft/left-close",
+      "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-close.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        110,
+        73,
+        241,
+        455
+      ],
+      "sha256": "a608c9f4ce363594e787f66215bfb030f8433c2208d00c15248593f41b206d3f"
+    }
+  ],
+  "production": {
+    "image": "assets/animation-v3/woman-closes-d73f98b2cb55.webp",
+    "sha256": "d73f98b2cb55e5144dc758037e3eac22619f9a3e0aa1aa00e0af8dc6b2f0713b",
+    "width": 1152,
+    "height": 768,
+    "columns": 8,
+    "rows": 4,
+    "cellWidth": 144,
+    "cellHeight": 192
+  },
+  "selectionSha256": "0d88d64c3bda1e2965943abbf596d1141fcb78c5789fad749fa25802d7315872"
+}

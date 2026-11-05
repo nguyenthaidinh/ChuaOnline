@@ -35,7 +35,7 @@ test('entry4 allocates the complete sit transition while entry3 and missing-vers
 });
 
 test('queued action versions cannot shorten or retime their entry transition',()=>{
-  for(const appearance of APPEARANCES)for(const entryVersion of [undefined,3,4] as const){
+  for(const appearance of APPEARANCES)for(const entryVersion of [undefined,3,4,5] as const){
     const joinedAt=1000,seat=23,end=joinedAt+entryDurationMs(seat,entryVersion);
     const person:RoomMember={id:'visitor',name:'Fixture',appearance,seat,joinedAt,entryVersion,action:null,completed:null};
     for(const version of [1,2,3,4] as const){
@@ -46,7 +46,7 @@ test('queued action versions cannot shorten or retime their entry transition',()
         assert.deepEqual(queued.frame,idle.frame);assert.deepEqual(queued.point,idle.point);
         assert.equal(queued.held,false);assert.equal(queued.entering,true);
       }
-      assert.equal(entryAnimationVersion(entryVersion),entryVersion===4?3:1);
+      assert.equal(entryAnimationVersion(entryVersion),entryVersion===4||entryVersion===5?3:1);
     }
   }
 });
@@ -69,13 +69,14 @@ test('transition clock extends stand, return turn and sit while preserving each 
   }
 });
 
-test('new server queues all appearances after entry4 and publishes their complete authoritative duration',()=>{
+test('new server queues all appearances after entry5 and publishes their complete authoritative duration',()=>{
   for(const appearance of APPEARANCES)for(const offering of ['incense','lotus','petal','bell','bow'] as const){
     let now=1000;const room=new TempleRoom(()=>now),joined=room.join('Clock review',appearance);
     const guest=joined.room.people[0];
     room.action(joined.token,offering,`clock-${appearance}-${offering}`);
     const action=room.snapshot().people[0].action!;
-    assert.equal(action.startedAt,guest.joinedAt+entryDurationMs(guest.seat,4));
+    assert.equal(guest.entryVersion,5);
+    assert.equal(action.startedAt,guest.joinedAt+entryDurationMs(guest.seat,guest.entryVersion));
     assert.equal(action.timelineVersion,offering==='incense'?4:3);
     assert.equal(action.endsAt,action.startedAt+sharedRitualDurationMs(action.kind,action.movement,action.offering,action.timelineVersion));
     now=action.endsAt;room.sweep();assert.equal(room.snapshot().people[0].action,null);

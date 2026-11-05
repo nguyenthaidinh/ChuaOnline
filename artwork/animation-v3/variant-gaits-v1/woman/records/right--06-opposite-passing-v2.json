@@ -1,0 +1,13 @@
+{
+  "heading": "right",
+  "id": "06-opposite-passing",
+  "candidateId": "06-opposite-passing-v2",
+  "output": "right/06-opposite-passing-v2.png",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png"
+  ],
+  "prompt": "Use case: identity-preserve. Fix IMAGE1 into the LEFT SUPPORT / RIGHT PASSING walking phase for this exact adult Vietnamese woman. IMAGE2 shows the required COMPACT mid-stance silhouette/scale; IMAGE3 establishes the opposite left-leading step and same identity. Keep her exact same right-profile head/body view, black low bun, blue-grey ao lam, calm female face, empty hands, elevated camera and warm upper-left light. LEFT leg is the weight-bearing support leg almost straight under the pelvis; its foot stays flat on the same ground plane. RIGHT leg is the swinging leg: BEND the RIGHT knee, lift the right foot and bring it close beside the support shin, NOT extended a stride ahead. Sole of the raised right foot hovers near the other ankle/shin, not out at the far right edge. Arms pass near hips with restrained counter-swing. This must be opposite support to IMAGE2, without mirroring the woman or camera. Keep fixed rootnearx615y1210, hairtopy30 and exact SQUARE1254canvas with unused margins; complete feet/hands, no crop/recenter/zoom. Genuine RGBA outside clean body silhouette, no broad colored/white alpha halos, floor, baked shadow, props, cushion, text, extra limbs or second person.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-ea982253-f3b1-491e-8d93-bf94114b5742.png"
+}

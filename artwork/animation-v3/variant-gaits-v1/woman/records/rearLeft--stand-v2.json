@@ -1,0 +1,13 @@
+{
+  "heading": "rearLeft",
+  "id": "stand",
+  "candidateId": "stand-v2",
+  "output": "rearLeft/stand-v2.png",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rear/stand.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/directions-v2/rearLeft/stand.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/front/stand.png"
+  ],
+  "prompt": "Use case: identity-preserve. Edit approved female rear view IMAGE1 into ONE neutral full-body REAR-LEFT standing view. IMAGE2 is the exact body/camera/yaw/feet target only; IMAGE3 supports her exact same woman's face identity. Rotate her body45degrees toward screen-UP-LEFT: nose profile points LEFT, her back and right side visible, no right-facing nose. Head, pelvis, shoulders, knees and all toes point UP-LEFT, match IMAGE2. Keep image1's neat low BLACK bun, blue-grey ao lam and full trousers, soft feminine adult proportions, bare feet, warm upper-left light, exact scale and camera. Arms empty resting by hips, neutral feet near parallel. Keep SQUARE1254canvas and unused transparent margins, rootx615y1210 and hair topy30. No rightward body view, no man/greyhair, mirror, floor, baked shadow, props, text, crop/recenter, extra limbs or colored fringe. Genuine RGBA transparent.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-294fa8d0-a3b8-40af-a76a-b92e911a3082.png"
+}

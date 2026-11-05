@@ -1,0 +1,11 @@
+{
+  "heading": "rearRight",
+  "id": "00-contact",
+  "output": "rearRight/00-contact.png",
+  "references": [
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/variant-gaits-v1/woman/rearRight/stand.png",
+    "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/walk-v1/00-contact.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE transparent full-body ChuaOnline walking key pose. IMAGE1 is the approved woman IDENTITY, view and camera reference. IMAGE2 is ONLY the exact walking POSE, limb positions, anatomical leading leg, arm counter-swing, scale and floor-origin target. Create the EXACT SAME adult Vietnamese woman as image1 in image2's gait pose, never copy the man's face or masculine body. Keep her neat low BLACK bun, calm face, blue-grey ao lam tunic and full loose trousers, feminine adult proportions and bare feet. Match each anatomical left/right hand, knee and foot position from image2. Preserve the requested physical heading in head, chest, pelvis, knees and toes; do not just turn her head. Elevated camera, warm upper-left light/soft fill, matte woven cloth, semi-realistic game illustration. Source square1254x1254 true RGBA, hair top aroundy30, floor/root centered aroundx615,y1210, same body scale, generous unused transparent margins. Both hands EMPTY and swing naturally. No floor, baked shadow, cushion, props, text, duplicate person/limbs, mirror, warp, blur or colored fringe. Do NOT crop, zoom, recenter or enlarge a bent pose. Heading: REAR-RIGHT45deg facing screen-UP-RIGHT, back and left side visible, nose/right profile points RIGHT. Phase: RIGHT HEEL CONTACT: anatomical RIGHT leg leads in the travel direction, heel arriving and toes slightly raised. Anatomical LEFT leg trails on its toes with heel lifted. Anatomical LEFT arm counter-swings FORWARD; RIGHT arm swings BACK. Match image2's precise limb placement, modest stride and floor position.",
+  "toolOutput": "C:\\Users\\Admin\\.codex\\generated_images\\01a1a73a-4b6a-7f41-b285-c2cdfa24e46a\\exec-a1b7111d-6e17-466e-9289-d0aba56e8902.png"
+}

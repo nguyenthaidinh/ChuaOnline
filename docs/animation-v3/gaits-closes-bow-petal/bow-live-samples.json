@@ -1,0 +1,5700 @@
+{
+  "frames": [
+    {
+      "index": 0,
+      "stamp": 1793844122358,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-04-opposite-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\")",
+          "left": "32.9926%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "77.0463%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "standUp",
+            "facing": "rear",
+            "frame": "2",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "standing",
+            "pose": "",
+            "source": "02-stand-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "standUp",
+            "facing": "rear",
+            "frame": "21",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "standing",
+            "pose": "",
+            "source": "21-rise-lean",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "stamp": 1793844123060,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "0",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "close",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-right-gather",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-closes-ff6b1f48cf06.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "52",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "left-04-opposite-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "65.8639%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "standUp",
+            "facing": "front",
+            "frame": "69",
+            "heading": "frontLeft",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "standing",
+            "pose": "",
+            "source": "frontLeft-stand",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "stamp": 1793844123696,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "kneelDown",
+            "facing": "rear",
+            "frame": "1",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "settling",
+            "pose": "",
+            "source": "01-knee-bend",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "50",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "left-02-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "61.8963%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "26",
+            "heading": "frontRight",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "moving",
+            "pose": "",
+            "source": "frontRight-02-passing",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "38.9357%",
+          "name": "Kiểm Nữ",
+          "top": "77.1258%"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "stamp": 1793844124114,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "kneelDown",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "settling",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "49",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "left-01-loading",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "56.7853%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "17",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "moving",
+            "pose": "",
+            "source": "right-01-loading",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "43.8013%",
+          "name": "Kiểm Nữ",
+          "top": "77.572%"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "stamp": 1793844124596,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "6",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "06-lean",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "54",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "left-06-opposite-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "52.8959%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "23",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "moving",
+            "pose": "",
+            "source": "right-07-opposite-swing",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "47.8801%",
+          "name": "Kiểm Nữ",
+          "top": "77.572%"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "stamp": 1793844124971,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "07-hands-floor",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "50",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "left-02-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "49.5342%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "3",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-03-swing",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "51.2121%",
+          "name": "Kiểm Nữ",
+          "top": "77.2081%"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "stamp": 1793844125345,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "48",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "left-00-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "45.8109%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "1",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-01-loading",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "51.5007%",
+          "name": "Kiểm Nữ",
+          "top": "74.7807%"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "stamp": 1793844125703,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-04-opposite-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "42.4672%",
+          "name": "Kiểm Nâu",
+          "top": "77.2924%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "stop",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-04-opposite-contact",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "52.4308%",
+          "name": "Kiểm Nữ",
+          "top": "72.8957%"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "stamp": 1793844126138,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "10-push-up",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "2",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-02-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "42.8527%",
+          "name": "Kiểm Nâu",
+          "top": "74.6317%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "3",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "close",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-left-close",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-closes-d73f98b2cb55.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "stamp": 1793844126603,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "0",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "2",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "close",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "moving",
+            "pose": "",
+            "source": "rear-02-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "kneelDown",
+            "facing": "rear",
+            "frame": "2",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "settling",
+            "pose": "",
+            "source": "02-lower-knees",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "stamp": 1793844127070,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "9",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "09-lift-head",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "6",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "06-lean",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "stamp": 1793844128620,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "11",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "11-kneel-return",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "stamp": 1793844130144,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "07-hands-floor",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "stamp": 1793844130527,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "6",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "06-lean",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "stamp": 1793844130816,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "9",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "09-lift-head",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "07-hands-floor",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "stamp": 1793844131154,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "11",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "11-kneel-return",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "9",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "09-lift-head",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "stamp": 1793844131511,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "11",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "11-kneel-return",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "stamp": 1793844131775,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "rear",
+            "frame": "12",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "rising",
+            "pose": "",
+            "source": "12-rise-support",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "9",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "09-lift-head",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "stamp": 1793844132058,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "rear",
+            "frame": "14",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "rising",
+            "pose": "",
+            "source": "14-rise-extend",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-bow-petal-f9861f37b3e4.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "07-hands-floor",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "5",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "05-forehead-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "stamp": 1793844132355,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "front",
+            "frame": "43",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "rising",
+            "pose": "",
+            "source": "front-stand",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\")",
+          "left": "35.8794%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "11",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "11-kneel-return",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "6",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "06-lean",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "stamp": 1793844132680,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "40",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "returning",
+            "pose": "",
+            "source": "front-right-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/man-closes-ff6b1f48cf06.webp\")",
+          "left": "36.1466%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "73.96%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "stamp": 1793844132974,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "31",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "returning",
+            "pose": "",
+            "source": "front-07-opposite-swing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\")",
+          "left": "36.0685%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "75.907%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "5",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "05-forehead-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "stamp": 1793844133285,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "12",
+            "heading": "rearLeft",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "returning",
+            "pose": "",
+            "source": "rearLeft-04-opposite-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\")",
+          "left": "33.5501%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "07-hands-floor",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "stamp": 1793844133658,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "0",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "stop",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "returning",
+            "pose": "",
+            "source": "rear-00-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\")",
+          "left": "33.1547%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.1693%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "07-hands-floor",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "stamp": 1793844134077,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "40",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "close",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "returning",
+            "pose": "",
+            "source": "rear-stand",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/expanded-directions-3de46c2a6c6e.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowHold",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "08-prostrate",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "11",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "11-kneel-return",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "stamp": 1793844134468,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "seating",
+            "pose": "",
+            "source": "04-knee-bend",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "07-hands-floor",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "rear",
+            "frame": "12",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "rising",
+            "pose": "",
+            "source": "12-rise-support",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "stamp": 1793844134793,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "6",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "seating",
+            "pose": "",
+            "source": "06-kneeling",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "11",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "11-kneel-return",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "rear",
+            "frame": "14",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "rising",
+            "pose": "",
+            "source": "14-rise-extend",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-bow-petal-8e0e19871878.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "stamp": 1793844135104,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "seating",
+            "pose": "",
+            "source": "08-half-seated",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "front",
+            "frame": "68",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "rising",
+            "pose": "",
+            "source": "front-stand",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "52.4919%",
+          "name": "Kiểm Nữ",
+          "top": "72.775%"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "stamp": 1793844135429,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "seating",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "rear",
+            "frame": "13",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "rising",
+            "pose": "",
+            "source": "13-rise-half-kneel",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "34",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "front-02-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "53.2161%",
+          "name": "Kiểm Nữ",
+          "top": "73.8933%"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "stamp": 1793844135709,
+      "actors": [
+        {
+          "data": {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "complete",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "rise",
+            "facing": "rear",
+            "frame": "66",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "rising",
+            "pose": "",
+            "source": "right-stand",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "44.1856%",
+          "name": "Kiểm Nâu",
+          "top": "72.775%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "38",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "front-06-opposite-passing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "53.9974%",
+          "name": "Kiểm Nữ",
+          "top": "75.8153%"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "stamp": 1793844136079,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "33",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "start",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "front-01-loading",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "44.3875%",
+          "name": "Kiểm Nâu",
+          "top": "73.248%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "52",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "left-04-opposite-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "52.5966%",
+          "name": "Kiểm Nữ",
+          "top": "77.572%"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "stamp": 1793844136373,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "36",
+            "heading": "front",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "front-04-opposite-contact",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "45.018%",
+          "name": "Kiểm Nâu",
+          "top": "74.834%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "55",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "left-07-opposite-swing",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "49.8341%",
+          "name": "Kiểm Nữ",
+          "top": "77.572%"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "stamp": 1793844136684,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "front",
+            "frame": "25",
+            "heading": "frontRight",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "frontRight-01-loading",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "44.9483%",
+          "name": "Kiểm Nâu",
+          "top": "76.8594%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "52",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "left-04-opposite-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "46.4949%",
+          "name": "Kiểm Nữ",
+          "top": "77.572%"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "stamp": 1793844136995,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "21",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "right-05-opposite-loading",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "47.1437%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "48",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "left-00-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "43.5401%",
+          "name": "Kiểm Nữ",
+          "top": "77.572%"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "stamp": 1793844137290,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "17",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "right-01-loading",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "50.2647%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "52",
+            "heading": "left",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "left-04-opposite-contact",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "40.3425%",
+          "name": "Kiểm Nữ",
+          "top": "77.572%"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "stamp": 1793844137694,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "22",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "right-06-opposite-passing",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "54.2226%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "1",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "stop",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "rear-01-loading",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-gaits-c898b9768d8d.webp\")",
+          "left": "39.1693%",
+          "name": "Kiểm Nữ",
+          "top": "76.1755%"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "stamp": 1793844138005,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "18",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "right-02-passing",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "56.999%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "0",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "close",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "returning",
+            "pose": "",
+            "source": "rear-right-gather",
+            "supportFoot": "right",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-closes-d73f98b2cb55.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "stamp": 1793844138314,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "22",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "right-06-opposite-passing",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "60.2184%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "2",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "seating",
+            "pose": "",
+            "source": "02-stand-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "stamp": 1793844138674,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkFront",
+            "facing": "rear",
+            "frame": "19",
+            "heading": "right",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "right-03-swing",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "63.6643%",
+          "name": "Kiểm Nâu",
+          "top": "77.572%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "5",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "seating",
+            "pose": "",
+            "source": "05-lower-knees",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "stamp": 1793844139014,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "0",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "cruise",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "rear-00-contact",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "67.0954%",
+          "name": "Kiểm Nâu",
+          "top": "77.4705%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "7",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "seating",
+            "pose": "",
+            "source": "07-tuck-legs",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "stamp": 1793844139324,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "stop",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "rear-04-opposite-contact",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-gaits-13663c2b5cb0.webp\")",
+          "left": "66.8328%",
+          "name": "Kiểm Nâu",
+          "top": "76.1377%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "9",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "seating",
+            "pose": "",
+            "source": "09-seated-settle",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "stamp": 1793844139646,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "walkRear",
+            "facing": "rear",
+            "frame": "3",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "close",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "returning",
+            "pose": "",
+            "source": "rear-left-close",
+            "supportFoot": "left",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-closes-36dbcee69982.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "seating",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "stamp": 1793844139925,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "2",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "seating",
+            "pose": "",
+            "source": "02-stand-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "complete",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "stamp": 1793844140220,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "5",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "seating",
+            "pose": "",
+            "source": "05-lower-knees",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "stamp": 1793844140498,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "6",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "seating",
+            "pose": "",
+            "source": "06-kneeling",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "stamp": 1793844140777,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "8",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "seating",
+            "pose": "",
+            "source": "08-half-seated",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "stamp": 1793844141026,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "seating",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "stamp": 1793844141273,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "sitDown",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "seating",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "stamp": 1793844141506,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "complete",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "stamp": 1793844141755,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "stamp": 1793844142006,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "stamp": 1793844142224,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "stamp": 1793844142455,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "stamp": 1793844142819,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "stamp": 1793844143154,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "stamp": 1793844143415,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "stamp": 1793844143648,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "stamp": 1793844143865,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "stamp": 1793844144066,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "stamp": 1793844144268,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "stamp": 1793844144469,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "stamp": 1793844144655,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "stamp": 1793844144838,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "stamp": 1793844145041,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "stamp": 1793844145245,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "stamp": 1793844145461,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "stamp": 1793844145679,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "stamp": 1793844145914,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "stamp": 1793844146118,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "stamp": 1793844146352,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "stamp": 1793844146600,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "stamp": 1793844146851,
+      "actors": [
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/transitions-2776f8aac62d.webp\")",
+          "left": "33.186%",
+          "name": "Kiểm Nam · Bạn",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/granny-movement-f68fcbe7207f.webp\")",
+          "left": "66.814%",
+          "name": "Kiểm Nâu",
+          "top": "76.09%"
+        },
+        {
+          "data": {
+            "actionId": "",
+            "artwork": "movement",
+            "bows": "3",
+            "clip": "seated",
+            "facing": "rear",
+            "frame": "10",
+            "heading": "rear",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "5",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "idle",
+            "pose": "",
+            "source": "10-seated-rear",
+            "supportFoot": "",
+            "timelineVersion": "1"
+          },
+          "image": "url(\"./assets/animation-v3/woman-movement-a660a3688bbd.webp\")",
+          "left": "39.191%",
+          "name": "Kiểm Nữ",
+          "top": "76.09%"
+        }
+      ]
+    }
+  ],
+  "resize": [
+    {
+      "before": {
+        "actors": [
+          {
+            "actionId": "883d2b06-47b3-4649-994a-db487e49729e",
+            "artwork": "ritual",
+            "bows": "2",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "6",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a",
+            "phase": "performing",
+            "pose": "",
+            "source": "06-lean",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          {
+            "actionId": "5b880f88-783e-43e1-a5f0-923e388974d6",
+            "artwork": "ritual",
+            "bows": "0",
+            "clip": "bowUp",
+            "facing": "rear",
+            "frame": "9",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b",
+            "phase": "performing",
+            "pose": "",
+            "source": "09-lift-head",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          },
+          {
+            "actionId": "e706658a-ba4c-4776-bf2e-1cd30f14dadf",
+            "artwork": "ritual",
+            "bows": "1",
+            "clip": "bowDown",
+            "facing": "rear",
+            "frame": "4",
+            "heading": "rearRight",
+            "held": "false",
+            "movementStage": "",
+            "movementVersion": "4",
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7",
+            "phase": "performing",
+            "pose": "",
+            "source": "04-prayer",
+            "supportFoot": "",
+            "timelineVersion": "3"
+          }
+        ],
+        "width": 390
+      }
+    },
+    {
+      "after": {
+        "actors": [
+          {
+            "personId": "3adb8061-724c-4e81-a6dd-de54e7d44f2a"
+          },
+          {
+            "personId": "a08e5288-b83e-4a86-9e8b-bcbd1dbd590b"
+          },
+          {
+            "personId": "608f321b-4bbc-461d-9d27-a04692eaaea7"
+          }
+        ],
+        "scrollWidth": 768,
+        "width": 768
+      }
+    }
+  ]
+}

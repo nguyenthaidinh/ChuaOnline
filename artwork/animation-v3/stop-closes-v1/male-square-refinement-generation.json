@@ -1,0 +1,48 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Explicit square framing repairs for three otherwise valid support-role corrections; retain originals.",
+  "jobs": [
+    {
+      "output": "man/right/left-gather-v4.png",
+      "prompt": "SQUARE 1:1 CANVAS, EXACT 1254 BY 1254 PIXELS. Preserve the entire square transparent canvas, including wide transparent left and right margins, same framing as first reference. Do not crop to portrait or trim transparent edges. Create ONE single full-body transparent RGBA male ChuaOnline sprite key pose. First reference is the ONLY identity, blue-grey Vietnamese male Buddhist robe, face, short black hair, male proportions and warm fixed orthographic camera identity. Second reference supplies the EXACT validated planted leg, knee bend, feet occlusion, hand damping and right physical orientation for a left-gather stopping step. Retarget the second pose to the adult MAN in the first reference, do not keep the female face, bun, chest or clothing. Match first-reference figure scale, pixel-space hip and ground root/camera. Keep the same support leg as second reference, other leg gathering tightly below the pelvis. A gather has the free knee bent and free foot close behind its own ankle, never long stride or heel-strike; a close has the free foot nearly beside the planted ankle with only a tiny remaining heel lift. Preserve a clearly flat weight-bearing planted foot at the first reference's own corresponding foot position, no float, no both knees bent. Match exactly the second reference leg occlusion. Both arms quiet beside body, gentle fingers. Same lighting and robe detail as first reference, full head to toes with margins. True transparent background, no floor, no cast shadow, no text, no montage, no mirror. One image only. REQUIRED: square image 1:1 not portrait. First reference canvas boundaries and full figure scale must match exactly. GATHER POSE: bent free leg is close to the straight supporting ankle, free toe just a few centimeters off ground; compact final gathering, no long backward stride.",
+      "references": [
+        {
+          "source": "artwork/animation-v3/directions-v2/right/stand.png",
+          "sha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849"
+        },
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-gather.png",
+          "sha256": "eb5f157786b2d1f4e0e756ec74c7b4abc1e9747bf2074b651e18b0ba26d321a2"
+        }
+      ]
+    },
+    {
+      "output": "man/right/left-close-v4.png",
+      "prompt": "SQUARE 1:1 CANVAS, EXACT 1254 BY 1254 PIXELS. Preserve the entire square transparent canvas, including wide transparent left and right margins, same framing as first reference. Do not crop to portrait or trim transparent edges. Create ONE single full-body transparent RGBA male ChuaOnline sprite key pose. First reference is the ONLY identity, blue-grey Vietnamese male Buddhist robe, face, short black hair, male proportions and warm fixed orthographic camera identity. Second reference supplies the EXACT validated planted leg, knee bend, feet occlusion, hand damping and right physical orientation for a left-close stopping step. Retarget the second pose to the adult MAN in the first reference, do not keep the female face, bun, chest or clothing. Match first-reference figure scale, pixel-space hip and ground root/camera. Keep the same support leg as second reference, other leg gathering tightly below the pelvis. A gather has the free knee bent and free foot close behind its own ankle, never long stride or heel-strike; a close has the free foot nearly beside the planted ankle with only a tiny remaining heel lift. Preserve a clearly flat weight-bearing planted foot at the first reference's own corresponding foot position, no float, no both knees bent. Match exactly the second reference leg occlusion. Both arms quiet beside body, gentle fingers. Same lighting and robe detail as first reference, full head to toes with margins. True transparent background, no floor, no cast shadow, no text, no montage, no mirror. One image only. REQUIRED: square image 1:1 not portrait. First reference canvas boundaries and full figure scale must match exactly. FINAL CLOSE POSE: both knees nearly straight, both bare feet parallel side by side at their OWN neutral positions and BOTH soles fully flat on the same ground plane. Only slight residual weight on the named supporting foot. NO raised heel, NO knee lift, NO walking step, NO foot behind the other. This final close instruction overrides generic gathering instructions.",
+      "references": [
+        {
+          "source": "artwork/animation-v3/directions-v2/right/stand.png",
+          "sha256": "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849"
+        },
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/right/left-close.png",
+          "sha256": "567311d88d8410ac7523049d3dee415e50ee58224144acc19d82f0b342bca454"
+        }
+      ]
+    },
+    {
+      "output": "man/rearLeft/left-gather-v4.png",
+      "prompt": "SQUARE 1:1 CANVAS, EXACT 1254 BY 1254 PIXELS. Preserve the entire square transparent canvas, including wide transparent left and right margins, same framing as first reference. Do not crop to portrait or trim transparent edges. Create ONE single full-body transparent RGBA male ChuaOnline sprite key pose. First reference is the ONLY identity, blue-grey Vietnamese male Buddhist robe, face, short black hair, male proportions and warm fixed orthographic camera identity. Second reference supplies the EXACT validated planted leg, knee bend, feet occlusion, hand damping and rearLeft physical orientation for a left-gather stopping step. Retarget the second pose to the adult MAN in the first reference, do not keep the female face, bun, chest or clothing. Match first-reference figure scale, pixel-space hip and ground root/camera. Keep the same support leg as second reference, other leg gathering tightly below the pelvis. A gather has the free knee bent and free foot close behind its own ankle, never long stride or heel-strike; a close has the free foot nearly beside the planted ankle with only a tiny remaining heel lift. Preserve a clearly flat weight-bearing planted foot at the first reference's own corresponding foot position, no float, no both knees bent. Match exactly the second reference leg occlusion. Both arms quiet beside body, gentle fingers. Same lighting and robe detail as first reference, full head to toes with margins. True transparent background, no floor, no cast shadow, no text, no montage, no mirror. One image only. REQUIRED: square image 1:1 not portrait. First reference canvas boundaries and full figure scale must match exactly. GATHER POSE: bent free leg is close to the straight supporting ankle, free toe just a few centimeters off ground; compact final gathering, no long backward stride.",
+      "references": [
+        {
+          "source": "artwork/animation-v3/directions-v2/rearLeft/stand.png",
+          "sha256": "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344"
+        },
+        {
+          "source": "artwork/animation-v3/stop-closes-v1/woman/rearLeft/left-gather.png",
+          "sha256": "758d7bc97bade620308821482be4df9c1a2aa39425563a3a26f41714b184c555"
+        }
+      ]
+    }
+  ]
+}

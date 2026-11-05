@@ -1,5 +1,6 @@
 import {MAX_OFFERINGS,offeringLifetime,type RoomSnapshot} from './protocol.ts';
 import {interactionTime} from './ritual.ts';
+import {artworkVersionForMovement} from '../shared/movementSchedule.ts';
 /** Reconstruct the pending half-second before SSE arrives using the same server action/marker. */
 export function offeringCandidates(room:RoomSnapshot) {
  const items=new Map(room.offerings.map(item=>[item.id,item]));
@@ -7,7 +8,7 @@ export function offeringCandidates(room:RoomSnapshot) {
   const action=person.action;if(!action||action.kind==='bow'||action.offering==='bell')continue;
   const placedAt=interactionTime(action)!;const id=`${action.id}:placed`,kind=action.offering??'incense';
   if(!items.has(id))items.set(id,{id,actionId:action.id,kind,slot:action.slot,placedAt,expiresAt:placedAt+offeringLifetime(kind),
-   ...(action.movement?.version===3?{artworkVersion:3 as const,appearance:person.appearance}:{})});
+   ...(artworkVersionForMovement(action.movement?.version)?{artworkVersion:artworkVersionForMovement(action.movement?.version),appearance:person.appearance}:{})});
  }
  return [...items.values()].sort((a,b)=>a.placedAt-b.placedAt||a.id.localeCompare(b.id));
 }

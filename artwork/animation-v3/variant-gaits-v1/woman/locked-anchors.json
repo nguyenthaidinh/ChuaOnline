@@ -1,0 +1,554 @@
+{
+  "appearance": "woman",
+  "status": "locked",
+  "contactAnchors": 16,
+  "passingAnchors": 16,
+  "expectedContactAnchors": 16,
+  "expectedPassingAnchors": 16,
+  "frames": [
+    {
+      "heading": "rear",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/00-contact.png",
+      "sha256": "fbb5c65acc660480ef5793429ce2421d7005a479fb856908199a4d6d848d00e9",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        132,
+        71,
+        270,
+        473
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "rear",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/04-opposite-contact.png",
+      "sha256": "09ce3a72904ba650df5dd56f852034daf167a94cc9fe962e5e49fe18b4b909a3",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        118,
+        72,
+        258,
+        471
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "front",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/00-contact.png",
+      "sha256": "f64234232993c9630f67e9e6672149bc815b58a3e683576b4c28010679e4f2c8",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        125,
+        74,
+        256,
+        474
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "rearRight",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/00-contact.png",
+      "sha256": "0475067c476708fd20ec6d3bda907d31360cb1a48c586cd46740f8bce6f67d9d",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        119,
+        73,
+        279,
+        470
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "rearRight",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/04-opposite-contact.png",
+      "sha256": "61e6d8a6ba4caeb83cb5171a857e399dc3753f438cb64cc0e6973cc5ffad78ac",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        107,
+        74,
+        289,
+        467
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "right",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/00-contact.png",
+      "sha256": "0e41d83a56965d9fba7797298ba6d9e775c845dffce01761d90e9a966fe63162",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        83,
+        75,
+        305,
+        464
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "right",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/04-opposite-contact.png",
+      "sha256": "3462a8e0cf1b6bcfb94e48bd2d2f7ecbdc6ff9acb7d474fb82d12b7cf5363450",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        77,
+        73,
+        307,
+        461
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "frontRight",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/00-contact.png",
+      "sha256": "fd7506e6dbceb8e7fd32b3cff600dd48751ccabfe3a8f3436771210273c40351",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        100,
+        72,
+        285,
+        474
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "frontRight",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/04-opposite-contact.png",
+      "sha256": "94da03f055b81c6ba22d9090e0a016834b4db2a37a0b41f5b93033beb68f6f35",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        110,
+        71,
+        272,
+        469
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "front",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/04-opposite-contact.png",
+      "sha256": "c2982c2e32157d7309af420183082ab65a640011cad00e3d1979105f48cb56ad",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        128,
+        72,
+        267,
+        471
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/00-contact.png",
+      "sha256": "095aa60066d198e1e8455b81040fae1db3f527ac7087ebf83cbe554e097ed6ff",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        106,
+        73,
+        262,
+        474
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/04-opposite-contact.png",
+      "sha256": "16d654a48212cd2110ca594510c776a8afcddfa915ba5ee35cb8c67319718311",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        125,
+        71,
+        280,
+        467
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "left",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/00-contact.png",
+      "sha256": "98485e346911d1b6e846d7d8ddc2a66d9d3ad48fd2740586711d104cf95b042f",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        71,
+        75,
+        300,
+        463
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "left",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/04-opposite-contact.png",
+      "sha256": "f1f41180ccd86b8574126cdccfc54f8b571a153b6801f2e169242a22aed3ce41",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        65,
+        75,
+        320,
+        462
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "00-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/00-contact.png",
+      "sha256": "efe40ac1d20f796606095cfd40711d48e21c58e0da00962b9c94b874589fecac",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        84,
+        76,
+        277,
+        467
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "04-opposite-contact",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/04-opposite-contact.png",
+      "sha256": "197059a28b91055d6b76777893e0e665e827c30784538a3626c78c165c2e4545",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        100,
+        75,
+        271,
+        468
+      ],
+      "review": "Manually viewed: same female identity and physical heading; opposite leg/arm roles match the selected phase target."
+    },
+    {
+      "heading": "rear",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/02-passing.png",
+      "sha256": "6d1bce50b16a981aeebba635770db391da792f20ee35d90cbc5ec32442fe324d",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        125,
+        71,
+        267,
+        464
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "rear",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rear/06-opposite-passing.png",
+      "sha256": "8dda223fd211587dc4e4ecc3f4e61afa998d3f344f8844663aa6fba328035c6a",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        124,
+        71,
+        262,
+        466
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "rearRight",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/02-passing-v2.png",
+      "sha256": "e53ccd9c5060b27df7ed7af1ae185ed1d899333330b668704129be5e05fb14ea",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        122,
+        73,
+        271,
+        461
+      ],
+      "review": "Full source anatomy confirmed: near/image-right anatomical RIGHT thigh stays straight and foot planted; far/image-left LEFT knee/foot suspended. Reference own neutral only, avoid old mistaken pose. Parent notified and approved support-role revision before pack."
+    },
+    {
+      "heading": "right",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/02-passing.png",
+      "sha256": "ca0c305071bb1c3189166a47c4f7a6fa099431bdb472f2196f0140483b870f45",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        129,
+        73,
+        267,
+        464
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "frontRight",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/02-passing.png",
+      "sha256": "275c3bc82ffa2a5425b9369260aa585e278f79851c6012f270dddfc42de88f85",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        109,
+        71,
+        279,
+        471
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "frontRight",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontRight/06-opposite-passing.png",
+      "sha256": "b3835ffa50dd8786825e837ceba38e33189eefcd912ad39646dbea9c2a0753d5",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        118,
+        70,
+        274,
+        472
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "front",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/02-passing.png",
+      "sha256": "71d1e0314da9188e9372bcf84ba3bd7be14ebd09e5ea46e5f936dfe764a9b1f4",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        122,
+        73,
+        257,
+        475
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "front",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/front/06-opposite-passing.png",
+      "sha256": "b3e955f4aa7dec3eabb0a4fd9c4ca2b98a94a0a7982c05d574bed9527033df8b",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        120,
+        71,
+        268,
+        470
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "rearRight",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearRight/06-opposite-passing-v4.png",
+      "sha256": "0e8533d818c8f7051c91161e8225650ad33d002f3e4ab27d93ebd7d8cf34bebf",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        120,
+        72,
+        275,
+        462
+      ],
+      "review": "Full-source re-audit corrected repeated bent-far-thigh silhouette. Foreground thigh now bends in front of the straight far support leg; v4 lowers knee/foot from the marching-height v3. Parent notified and agreed before replacing lock."
+    },
+    {
+      "heading": "right",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/right/06-opposite-passing-v2.png",
+      "sha256": "1123e95954d102c2983e2b840147aae7079f9b11f0a21b649a5c463ef43b6029",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        119,
+        73,
+        256,
+        464
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/02-passing-s3.png",
+      "sha256": "e1abfc33e8c6e6ad3d0f95f4ff5e3f9683fbf96a31d5d9a617660f14cd1faba7",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        118,
+        73,
+        250,
+        470
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "frontLeft",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/frontLeft/06-opposite-passing-s3.png",
+      "sha256": "ee6dcb95846c17f89d4cc514ab10167fe51969f6a1a92552733d11852d8b1ba2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        119,
+        71,
+        273,
+        466
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/02-passing.png",
+      "sha256": "fec85ab2217f1677ca2c0614755f9e73419719e52177cd0c310cb882cd7b0a79",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        96,
+        75,
+        261,
+        466
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "left",
+      "id": "02-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/02-passing-v2.png",
+      "sha256": "c89dee30e3616dcca0c01995eaa61d0ac0473b945e11a9433d255ea2248fd800",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        109,
+        73,
+        254,
+        464
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "rearLeft",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/rearLeft/06-opposite-passing-v2.png",
+      "sha256": "4f0b3001d1d4dbd48c686fc4e1d70ac9d7a1ae5a7abb5d5ad16954fba9e3c7b2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        93,
+        74,
+        261,
+        455
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    },
+    {
+      "heading": "left",
+      "id": "06-opposite-passing",
+      "source": "artwork/animation-v3/variant-gaits-v1/woman/left/06-opposite-passing-v3.png",
+      "sha256": "617627cf4850f31f64093e74129ea25d7fec44a10fa0442ce1fa63b763e6d52c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "bounds": [
+        114,
+        73,
+        258,
+        466
+      ],
+      "review": "Manually viewed: same female identity and physical heading; leg/arm roles match the selected phase target. Passing uses the straight support leg beneath the pelvis."
+    }
+  ]
+}

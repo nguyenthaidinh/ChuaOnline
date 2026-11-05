@@ -1,11 +1,12 @@
 import { characterManifest, sampleScheduledClip, type ClipId } from './animationManifest.ts';
 import { logicalAltar, logicalSeat, ritualRoute, sampleRoute } from './motion.ts';
 import { headingForDirection, normalizeDirection } from './locomotion.ts';
-import { entryAnimationVersion, sampleEntry, sampleSharedRitual } from './ritual.ts';
+import { entryAnimationVersion, interactionTime, sampleEntry, sampleSharedRitual } from './ritual.ts';
 import { incenseOwnership, isIncenseClip, sampleIncenseClip, sampleStaticIncense } from './incenseAnimation.ts';
 import { sampleModernMovement, type MovementArtworkQuery } from './modernMovement.ts';
 import { ritualSchedule } from '../shared/ritualSchedule.ts';
 import { sampleModernOffering } from './offeringAnimation.ts';
+import { sampleRitualExtension } from './ritualExtensionAnimation.ts';
 import type { ArtworkFrame } from './modernArtworkTypes.ts';
 import type { Appearance, RoomMember } from './protocol.ts';
 
@@ -14,6 +15,9 @@ export interface ArtworkAvailability {
   directions:boolean;
   expandedDirections?:boolean;
   variantMovement?:Record<'woman'|'granny',boolean>;
+  variantGaits?:Record<'woman'|'granny',boolean>;
+  closingSteps?:Record<Appearance,boolean>;
+  ritualExtension?:Record<Appearance,boolean>;
   incense:Record<Appearance,boolean>;
   rituals?:Record<Appearance,boolean>;
 }
@@ -46,7 +50,8 @@ export function sampleCharacter(person:RoomMember, now:number, reduced=false, as
   const time=reduced?0:pose?.clipTime??entry.clipTime;
   const distance=pose?.distance??entry.distance;
   let turn:MovementArtworkQuery['turn'];
-  if(!reduced&&person.appearance==='man'&&assets.expandedDirections&&pose&&person.action&&version>=3){
+  const canTurn=person.appearance==='man'?assets.expandedDirections:assets.variantGaits?.[person.appearance];
+  if(!reduced&&canTurn&&pose&&person.action&&version>=3){
     const action=person.action,seat=action.movement?.seat??person.seat;
     const schedule=ritualSchedule(version);
     if(pose.phase==='standing'&&pose.clipTime>=schedule.clips.standUp-380){
@@ -64,7 +69,13 @@ export function sampleCharacter(person:RoomMember, now:number, reduced=false, as
     }
   }
   let authored:ArtworkFrame|null=null;
-  if(person.action?.movement?.version===3&&assets.rituals?.[person.appearance]&&assets.incense[person.appearance]&&person.action.offering&&person.action.offering!=='incense'){
+  const authoredMovement=person.action?.movement?.version===3||person.action?.movement?.version===4;
+  if(!turn&&person.action?.movement?.version===4&&assets.ritualExtension?.[person.appearance]){
+    const kind=person.action.kind==='bow'?'bow':person.action.offering==='petal'?'petal':null;
+    if(kind)authored=sampleRitualExtension(person.appearance,kind,clip,time,version,reduced,
+      now>=(interactionTime(person.action)??Infinity));
+  }
+  if(!authored&&authoredMovement&&assets.rituals?.[person.appearance]&&assets.incense[person.appearance]&&person.action?.offering&&person.action.offering!=='incense'){
     authored=sampleModernOffering(person.appearance,person.action.offering,clip,time,version,reduced);
   }
   if(!authored&&assets.incense[person.appearance]&&person.action&&
@@ -73,12 +84,15 @@ export function sampleCharacter(person:RoomMember, now:number, reduced=false, as
     authored=reduced?sampleStaticIncense(incenseOwnership(person.action,now),person.appearance)
       :sampleIncenseClip(clip,time,person.action.timelineVersion,person.appearance);
   }else if(!authored&&
-    (person.action?.timelineVersion===2||person.action?.timelineVersion===4||person.action?.movement?.version===3||!pose||pose.phase==='complete')){
+    (person.action?.timelineVersion===2||person.action?.timelineVersion===4||authoredMovement||!pose||pose.phase==='complete')){
     authored=sampleModernMovement({appearance:person.appearance,clip,timeMs:time,distance,tangent,version,stage:locomotion,turn,
-      ready:{base:assets.movement,lateral:assets.directions,expanded:assets.expandedDirections,variants:assets.variantMovement}});
+      closeFacing:pose?.phase==='moving'?'rearRight':undefined,
+      ready:{base:assets.movement,lateral:assets.directions,expanded:assets.expandedDirections,variants:assets.variantMovement,
+        gaits:assets.variantGaits,closes:assets.closingSteps}});
   }
+  if(!authored&&locomotion?.stage==='close')clip=facing==='front'?'standFront':'stand';
   const frame=authored??sampleScheduledClip(manifest,clip,time,!reduced&&walking?distance:undefined,version);
-  const flip=!authored&&walking&&(facing==='rear'?tangent.x<-.08:tangent.x>.08);
+  const flip=!authored&&(clip==='walkRear'||clip==='walkFront')&&(facing==='rear'?tangent.x<-.08:tangent.x>.08);
   const canvasWidth=authored?384:manifest.frameWidth,canvasHeight=authored?512:manifest.frameHeight;
   const held=Boolean(pose?.propInHand&&frame.hand&&frame.holdsOffering!==false&&(frame.modernKind!=='incense'||frame.holdsIncense));
   return {frame,point,clip,flip,heading:authored?.heading??heading,locomotion,entering,active,held,canvasWidth,canvasHeight,

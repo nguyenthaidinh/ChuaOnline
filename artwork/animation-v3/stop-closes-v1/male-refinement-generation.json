@@ -1,0 +1,262 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Use mid-stance support under the hip rather than a distant heel strike; original contact-derived gathers remain drafts.",
+  "jobs": [
+    {
+      "appearance": "man",
+      "heading": "rear",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (rear) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rear/02-passing.png",
+        "artwork/animation-v3/directions-v2/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "cfecb611655132fbfb3865139e3f8f2749f3d86d96c5445349ddd3b80507bb8d",
+        "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rear",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (rear) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rear/06-opposite-passing-v2.png",
+        "artwork/animation-v3/directions-v2/rear/stand.png"
+      ],
+      "referenceHashes": [
+        "220c925f24e6481e5dac7f8a88ec650fb6d0b6f02218e323bedbb2a9c09baa41",
+        "fbebdd287c17a35ee5871d93b14b1035a1f29504fa4d24a167b151f834b6d9fe"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rear/left-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearRight",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (rearRight) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/walk-v1/03-passing.png",
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "referenceHashes": [
+        "4dcc7b9a0cddf4c3c045d48509352ea6979b43644f2303a5fdc9ce43712d9eb1",
+        "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearRight",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (rearRight) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/walk-v1/09-opposite-passing.png",
+        "artwork/animation-v3/transitions-v1/00-stand-angled.png"
+      ],
+      "referenceHashes": [
+        "3aaa7eb7e90075e57630728df1a4afdb68a414c9e2ed84a1dc2fad4d796a3d21",
+        "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearRight/left-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "right",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (right) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v1/right/02-passing.png",
+        "artwork/animation-v3/directions-v2/right/stand.png"
+      ],
+      "referenceHashes": [
+        "e952d28273dc26e7413f2948f725ce8f3c6c5a600501f947e4afd1dd47413692",
+        "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "right",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (right) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v1/right/06-opposite-passing.png",
+        "artwork/animation-v3/directions-v2/right/stand.png"
+      ],
+      "referenceHashes": [
+        "c8d3508a36c1da7bcbbab20b1d1d5289fd46d5d70239c1c5c5049f3a9fe55189",
+        "e1e24f56b23e3bb8854d868c468d9187ca9678b796cfcd149b426670a329a849"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/right/left-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontRight",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (frontRight) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontRight/02-passing.png",
+        "artwork/animation-v3/directions-v2/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "bd530df5e5fa7038f5df9aae439250125bd1e96caca69fc6dce8ded3f5e83d1f",
+        "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontRight",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (frontRight) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontRight/06-opposite-passing.png",
+        "artwork/animation-v3/directions-v2/frontRight/stand.png"
+      ],
+      "referenceHashes": [
+        "693ab44de3c10a9230f1d59c961f43fb913d9057c5cfd79df86fd62a4d1dadef",
+        "51e6011eb45c68441fef34eb249ef399547103d315d902aafd239adae4155f2f"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontRight/left-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "front",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (front) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/front/02-passing.png",
+        "artwork/animation-v3/directions-v2/front/stand.png"
+      ],
+      "referenceHashes": [
+        "9e105c185791f87e08a26d60753725f97bcc2cd0a8d39849357f7605fc7bc88f",
+        "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "front",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (front) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/front/06-opposite-passing.png",
+        "artwork/animation-v3/directions-v2/front/stand.png"
+      ],
+      "referenceHashes": [
+        "a2967d9e06559d1c66aa1aa3024bccad6a605ff18c40b8254dc7e42f2bcfdb17",
+        "111251bb23dd43ec0347dd42a47583653bda1a285da3fa0df62a8630dab33531"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/front/left-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontLeft",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (frontLeft) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontLeft/02-passing.png",
+        "artwork/animation-v3/directions-v2/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "6d4fdf2efa5bbd725bd3bb1839155d5c460dc202ce52265991a67bc90a6c45af",
+        "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "frontLeft",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (frontLeft) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/frontLeft/06-opposite-passing.png",
+        "artwork/animation-v3/directions-v2/frontLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "ac037b978d305089d259c3f49fe74ddba3725ba079ddfc00d40cf1a7ed733a7e",
+        "009682fbb4d01bafb1cdb07f05f622b092e73df93a7193edc03a8537bb98bf9d"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/frontLeft/left-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "left",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (left) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v1/left/02-passing.png",
+        "artwork/animation-v3/directions-v2/left/stand.png"
+      ],
+      "referenceHashes": [
+        "b757e8701b6e83db680fcf67577e8dbff3d70b7ed914286490e16b99330b556e",
+        "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "left",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (left) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v1/left/06-opposite-passing.png",
+        "artwork/animation-v3/directions-v2/left/stand.png"
+      ],
+      "referenceHashes": [
+        "8ac7d05f27057dafd81854fb23d25cef6aa90448be5a8c90e2c6a28e3caad557",
+        "8b16f5cf640dedb57bd9f504e8153aea7c1c2c77bd8a222252de3d72e606d6d5"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/left/left-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearLeft",
+      "supportFoot": "right",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical RIGHT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical LEFT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE LEFT foot halfway toward its final neutral place, keep toes softly off the floor. The original RIGHT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (rearLeft) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rearLeft/02-passing-v2.png",
+        "artwork/animation-v3/directions-v2/rearLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "5f66a02462a336670e4af98b72515d51764dfb851679313bc541591faa55b265",
+        "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/right-gather-v2.png"
+    },
+    {
+      "appearance": "man",
+      "heading": "rearLeft",
+      "supportFoot": "left",
+      "phase": "gather",
+      "prompt": "Use case: identity-preserve. Asset: ONE transparent ChuaOnline GATHER stopping key pose. Image1 is the approved mid-stance/passing pose with anatomical LEFT leg STRAIGHT and weight-bearing UNDER THE HIP; anatomical RIGHT leg is airborne. Image2 is the exact same male visitor's neutral stance. Move only the AIRBORNE RIGHT foot halfway toward its final neutral place, keep toes softly off the floor. The original LEFT heel/sole stays flat at the EXACT original location of image1. DO NOT swap the supporting leg, do not make a new forward stride, and do not keep a wide contact/lunge stance. Arms relax gently toward sides, torso/head keep precisely image1's physical heading (rearLeft) and scale. Same adult Vietnamese man, short dark side-parted hair, modest blue-grey ao lam tunic/trousers, bare feet, fabric/light/elevated fixed camera. Preserve body/root alignment and full head/feet inside same square1254 genuine transparent RGBA, original unused margins. No crop/recenter/zoom/mirror, floor/baked shadow/cushion/props/text, extra limb/person or motion blur.",
+      "references": [
+        "artwork/animation-v3/directions-v2/rearLeft/06-opposite-passing-v2.png",
+        "artwork/animation-v3/directions-v2/rearLeft/stand.png"
+      ],
+      "referenceHashes": [
+        "46507e12a1c9ac3a638df1571e5c7dafb2dceadb19350679256ca38981c5cf9b",
+        "9557863e0df31959925dfdbded877b7faa3c0d504d27cc7abeffb9b02b784344"
+      ],
+      "output": "artwork/animation-v3/stop-closes-v1/man/rearLeft/left-gather-v2.png"
+    }
+  ]
+}

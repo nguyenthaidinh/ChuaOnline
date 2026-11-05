@@ -1,0 +1,2485 @@
+{
+  "status": "compiled",
+  "appearance": "granny",
+  "canvas": [
+    384,
+    512
+  ],
+  "groundPivot": [
+    192,
+    468
+  ],
+  "frames": [
+    {
+      "id": "00-neutral",
+      "cell": 0,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/00-neutral.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        74,
+        254,
+        461
+      ],
+      "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+    },
+    {
+      "id": "01-knee-bend",
+      "cell": 1,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/01-knee-bend.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        119,
+        265,
+        462
+      ],
+      "sha256": "b22cc905d1946d0e9c4f7285c1547a8ceae6cee44cc168c3372954225a45c27b"
+    },
+    {
+      "id": "02-lower-knees",
+      "cell": 2,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/02-lower-knees.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        137,
+        181,
+        279,
+        459
+      ],
+      "sha256": "435161ad5959531f306b73d512f1c4ae9e11d1695aad27edbe635988f0d94a76"
+    },
+    {
+      "id": "03-kneel-rest",
+      "cell": 3,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/03-kneel-rest.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        139,
+        200,
+        276,
+        461
+      ],
+      "sha256": "9fff6df06ab795d798fb638379c8a3e2c6cb5a6a19d7ad22f6efff9f7d749d90"
+    },
+    {
+      "id": "04-prayer",
+      "cell": 4,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/04-prayer.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        137,
+        199,
+        276,
+        461
+      ],
+      "sha256": "2312582567a4cd23f2db6f71b824145a9f15f8fa0d6ab650f64f9dc8cf12e6ce"
+    },
+    {
+      "id": "05-forehead-prayer",
+      "cell": 5,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/05-forehead-prayer.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        136,
+        199,
+        274,
+        461
+      ],
+      "sha256": "484353405d3d7cafca7ec11532c915f507459b875bc8a4716f5a38d6d88a9121"
+    },
+    {
+      "id": "06-lean",
+      "cell": 6,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/06-lean.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        125,
+        232,
+        290,
+        460
+      ],
+      "sha256": "4b76fd1e800924f242898a06297fe3400f28361b2ebb79db210c8602db99ee7f"
+    },
+    {
+      "id": "07-hands-floor",
+      "cell": 7,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/07-hands-floor-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        127,
+        305,
+        335,
+        462
+      ],
+      "sha256": "468eda48c65554300496dc90c2aef2f4e7b2f893668d78537b25d398fda77fc5"
+    },
+    {
+      "id": "08-prostrate",
+      "cell": 8,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/08-prostrate-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        349,
+        335,
+        462
+      ],
+      "sha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c"
+    },
+    {
+      "id": "09-lift-head",
+      "cell": 9,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/09-lift-head-v2.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        347,
+        335,
+        462
+      ],
+      "sha256": "b9ced02d1d26d371187083bdfca1a7a4b10692ab1330d9b3c050d34afd9b63fb"
+    },
+    {
+      "id": "10-push-up",
+      "cell": 10,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/10-push-up.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        133,
+        222,
+        335,
+        462
+      ],
+      "sha256": "3a5f543ca6dc92e49320f3db5e731a6b84d59b368b95d2a07ed553548c16d0b7"
+    },
+    {
+      "id": "11-kneel-return",
+      "cell": 11,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/11-kneel-return.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        137,
+        198,
+        276,
+        461
+      ],
+      "sha256": "d390e07509dec9627080a1f11abb6df4b87e70b1448915309306b3d67936d259"
+    },
+    {
+      "id": "12-rise-support",
+      "cell": 12,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/12-rise-support.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        116,
+        191,
+        276,
+        459
+      ],
+      "sha256": "2b21611ae670885f3a10385e02cd3ce0babf238983e5b193ce69c4077b0267f3"
+    },
+    {
+      "id": "13-rise-half-kneel",
+      "cell": 13,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/13-rise-half-kneel.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        106,
+        152,
+        277,
+        458
+      ],
+      "sha256": "2a8e19c189f67e9b6ef35dc25f506835e7b8d5a487bb1c48fad9b5e48ec83adc"
+    },
+    {
+      "id": "14-rise-extend",
+      "cell": 14,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/14-rise-extend.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        130,
+        75,
+        255,
+        456
+      ],
+      "sha256": "5402020bf80beb5f3e4fe614e6d80a79261164d22d389254a7bc0b88ed88c3b9"
+    },
+    {
+      "id": "15-petal-cradle",
+      "cell": 15,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/15-petal-cradle.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        148,
+        74,
+        271,
+        461
+      ],
+      "sha256": "114db08db527f2424e073773c7291e481dac930a756be05bf46ecdb95e368ee5"
+    },
+    {
+      "id": "16-petal-lift",
+      "cell": 16,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/16-petal-lift.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        148,
+        73,
+        271,
+        462
+      ],
+      "sha256": "4eaea67a081b1a6471c81bee1eaba34c4b97ad497ff5ab5aed425ff432101d86"
+    },
+    {
+      "id": "17-petal-extend",
+      "cell": 17,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/17-petal-extend.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        148,
+        74,
+        319,
+        461
+      ],
+      "sha256": "aa43a53841ba386175a65a34035341c62f76cb76bac4e559146e3a7be7af7986"
+    },
+    {
+      "id": "18-petal-pre-release",
+      "cell": 18,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/18-petal-pre-release.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        146,
+        73,
+        308,
+        462
+      ],
+      "sha256": "353aeafbb4c1f35cd30b5d3b0e47ee61ffa1bfd273e1c67e7986b56f608f9f1c"
+    },
+    {
+      "id": "19-petal-release",
+      "cell": 19,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/19-petal-release.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        148,
+        74,
+        312,
+        462
+      ],
+      "sha256": "a7cfcfae272c3faa4fec047b8642d424268b4b661215fae37bbca1ce023a8947"
+    },
+    {
+      "id": "20-petal-follow",
+      "cell": 20,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/20-petal-follow.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        149,
+        74,
+        320,
+        461
+      ],
+      "sha256": "51e918b3de2f269596f8cfe319166d8d29683c90a28c3a68e4dfbe4d6fe0a2af"
+    },
+    {
+      "id": "21-petal-return",
+      "cell": 21,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/21-petal-return.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        146,
+        73,
+        265,
+        461
+      ],
+      "sha256": "b1bceb7cf5fcbc02ae26bf06daff737587251c035a30933a5b6d0a83e658773b"
+    },
+    {
+      "id": "22-rise-weight-transfer",
+      "cell": 22,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/22-rise-weight-transfer.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        117,
+        135,
+        273,
+        452
+      ],
+      "sha256": "99cb342543cc7a726bb6f9226d677ddfee9cc1b7e0d36d1b76f6a8d8968b3da5"
+    },
+    {
+      "id": "23-petal-arms-low",
+      "cell": 23,
+      "source": "artwork/animation-v3/bow-petal-v1/granny/23-petal-arms-low.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourcePivot": [
+        615.24375,
+        1209.9140625
+      ],
+      "scale": 0.33684210526315794,
+      "bounds": [
+        131,
+        73,
+        254,
+        461
+      ],
+      "sha256": "62a56c0d77706bc73aa1d7867b2b3d06cfa96528fca2b9314f083c95bf7dface"
+    }
+  ],
+  "geometry": {
+    "00-neutral": {
+      "id": "00-neutral",
+      "cell": 0,
+      "top": 74,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "01-knee-bend": {
+      "id": "01-knee-bend",
+      "cell": 1,
+      "top": 119,
+      "holdsOffering": false
+    },
+    "02-lower-knees": {
+      "id": "02-lower-knees",
+      "cell": 2,
+      "top": 181,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 0.337,
+        "y": 2.021
+      }
+    },
+    "03-kneel-rest": {
+      "id": "03-kneel-rest",
+      "cell": 3,
+      "top": 200,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "04-prayer": {
+      "id": "04-prayer",
+      "cell": 4,
+      "top": 199,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 0.0,
+        "y": -0.336
+      }
+    },
+    "05-forehead-prayer": {
+      "id": "05-forehead-prayer",
+      "cell": 5,
+      "top": 199,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 2.021,
+        "y": -0.336
+      }
+    },
+    "06-lean": {
+      "id": "06-lean",
+      "cell": 6,
+      "top": 232,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 11.789,
+        "y": 0.674
+      }
+    },
+    "07-hands-floor": {
+      "id": "07-hands-floor",
+      "cell": 7,
+      "top": 305,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 3.368,
+        "y": -1.01
+      }
+    },
+    "08-prostrate": {
+      "id": "08-prostrate",
+      "cell": 8,
+      "top": 349,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 2.021,
+        "y": -0.673
+      }
+    },
+    "09-lift-head": {
+      "id": "09-lift-head",
+      "cell": 9,
+      "top": 347,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 1.684,
+        "y": -1.01
+      }
+    },
+    "10-push-up": {
+      "id": "10-push-up",
+      "cell": 10,
+      "top": 222,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 1.684,
+        "y": -1.01
+      }
+    },
+    "11-kneel-return": {
+      "id": "11-kneel-return",
+      "cell": 11,
+      "top": 198,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 0.673,
+        "y": 0.0
+      }
+    },
+    "12-rise-support": {
+      "id": "12-rise-support",
+      "cell": 12,
+      "top": 191,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "13-rise-half-kneel": {
+      "id": "13-rise-half-kneel",
+      "cell": 13,
+      "top": 152,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 3.369,
+        "y": 4.042
+      }
+    },
+    "14-rise-extend": {
+      "id": "14-rise-extend",
+      "cell": 14,
+      "top": 75,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 12.126,
+        "y": 2.694
+      }
+    },
+    "15-petal-cradle": {
+      "id": "15-petal-cradle",
+      "cell": 15,
+      "top": 74,
+      "holdsOffering": true,
+      "hand": {
+        "x": 259.189,
+        "y": 193.053
+      },
+      "handMask": [
+        {
+          "x": 229.884,
+          "y": 193.053
+        },
+        {
+          "x": 238.642,
+          "y": 187.663
+        },
+        {
+          "x": 240.663,
+          "y": 186.653
+        },
+        {
+          "x": 242.347,
+          "y": 185.979
+        },
+        {
+          "x": 249.084,
+          "y": 185.642
+        },
+        {
+          "x": 252.789,
+          "y": 185.642
+        },
+        {
+          "x": 267.274,
+          "y": 187.663
+        },
+        {
+          "x": 270.305,
+          "y": 188.674
+        },
+        {
+          "x": 270.642,
+          "y": 189.011
+        },
+        {
+          "x": 271.653,
+          "y": 190.695
+        },
+        {
+          "x": 271.653,
+          "y": 194.737
+        },
+        {
+          "x": 271.316,
+          "y": 196.084
+        },
+        {
+          "x": 269.968,
+          "y": 199.789
+        },
+        {
+          "x": 268.958,
+          "y": 202.147
+        },
+        {
+          "x": 268.284,
+          "y": 202.821
+        },
+        {
+          "x": 263.232,
+          "y": 207.2
+        },
+        {
+          "x": 243.358,
+          "y": 212.253
+        },
+        {
+          "x": 241.337,
+          "y": 212.253
+        },
+        {
+          "x": 229.884,
+          "y": 206.526
+        }
+      ]
+    },
+    "16-petal-lift": {
+      "id": "16-petal-lift",
+      "cell": 16,
+      "top": 73,
+      "holdsOffering": true,
+      "hand": {
+        "x": 255.147,
+        "y": 173.179
+      },
+      "handMask": [
+        {
+          "x": 229.884,
+          "y": 177.558
+        },
+        {
+          "x": 231.232,
+          "y": 176.211
+        },
+        {
+          "x": 236.621,
+          "y": 171.158
+        },
+        {
+          "x": 237.632,
+          "y": 170.484
+        },
+        {
+          "x": 240.326,
+          "y": 169.137
+        },
+        {
+          "x": 242.011,
+          "y": 168.463
+        },
+        {
+          "x": 243.021,
+          "y": 168.126
+        },
+        {
+          "x": 253.463,
+          "y": 168.126
+        },
+        {
+          "x": 267.274,
+          "y": 169.474
+        },
+        {
+          "x": 269.632,
+          "y": 170.484
+        },
+        {
+          "x": 270.305,
+          "y": 170.821
+        },
+        {
+          "x": 271.316,
+          "y": 172.842
+        },
+        {
+          "x": 271.316,
+          "y": 175.537
+        },
+        {
+          "x": 270.305,
+          "y": 178.905
+        },
+        {
+          "x": 268.958,
+          "y": 182.947
+        },
+        {
+          "x": 266.937,
+          "y": 185.305
+        },
+        {
+          "x": 263.905,
+          "y": 188.337
+        },
+        {
+          "x": 262.221,
+          "y": 189.347
+        },
+        {
+          "x": 246.389,
+          "y": 193.726
+        },
+        {
+          "x": 242.011,
+          "y": 193.726
+        },
+        {
+          "x": 234.937,
+          "y": 190.695
+        },
+        {
+          "x": 231.232,
+          "y": 186.316
+        },
+        {
+          "x": 230.558,
+          "y": 184.968
+        },
+        {
+          "x": 230.221,
+          "y": 183.621
+        },
+        {
+          "x": 229.884,
+          "y": 180.589
+        }
+      ]
+    },
+    "17-petal-extend": {
+      "id": "17-petal-extend",
+      "cell": 17,
+      "top": 74,
+      "holdsOffering": true,
+      "hand": {
+        "x": 297.926,
+        "y": 149.263
+      },
+      "handMask": [
+        {
+          "x": 246.726,
+          "y": 164.084
+        },
+        {
+          "x": 247.063,
+          "y": 159.032
+        },
+        {
+          "x": 247.737,
+          "y": 158.695
+        },
+        {
+          "x": 287.147,
+          "y": 140.505
+        },
+        {
+          "x": 289.168,
+          "y": 139.832
+        },
+        {
+          "x": 290.853,
+          "y": 139.495
+        },
+        {
+          "x": 293.547,
+          "y": 139.158
+        },
+        {
+          "x": 305.337,
+          "y": 139.158
+        },
+        {
+          "x": 308.705,
+          "y": 139.495
+        },
+        {
+          "x": 316.453,
+          "y": 140.842
+        },
+        {
+          "x": 317.463,
+          "y": 141.179
+        },
+        {
+          "x": 318.137,
+          "y": 141.853
+        },
+        {
+          "x": 318.811,
+          "y": 143.537
+        },
+        {
+          "x": 318.811,
+          "y": 146.232
+        },
+        {
+          "x": 316.453,
+          "y": 152.295
+        },
+        {
+          "x": 310.726,
+          "y": 158.695
+        },
+        {
+          "x": 310.389,
+          "y": 159.032
+        },
+        {
+          "x": 307.358,
+          "y": 161.053
+        },
+        {
+          "x": 301.632,
+          "y": 164.758
+        },
+        {
+          "x": 277.716,
+          "y": 172.842
+        },
+        {
+          "x": 261.211,
+          "y": 176.211
+        },
+        {
+          "x": 254.811,
+          "y": 176.884
+        },
+        {
+          "x": 251.442,
+          "y": 176.884
+        },
+        {
+          "x": 246.726,
+          "y": 166.442
+        }
+      ]
+    },
+    "18-petal-pre-release": {
+      "id": "18-petal-pre-release",
+      "cell": 18,
+      "top": 73,
+      "holdsOffering": true,
+      "hand": {
+        "x": 298.263,
+        "y": 169.811
+      },
+      "handMask": [
+        {
+          "x": 246.726,
+          "y": 169.474
+        },
+        {
+          "x": 287.147,
+          "y": 161.389
+        },
+        {
+          "x": 291.526,
+          "y": 161.389
+        },
+        {
+          "x": 297.589,
+          "y": 162.063
+        },
+        {
+          "x": 299.947,
+          "y": 162.4
+        },
+        {
+          "x": 301.968,
+          "y": 162.737
+        },
+        {
+          "x": 302.979,
+          "y": 163.074
+        },
+        {
+          "x": 306.011,
+          "y": 164.758
+        },
+        {
+          "x": 307.695,
+          "y": 166.442
+        },
+        {
+          "x": 307.695,
+          "y": 169.474
+        },
+        {
+          "x": 300.621,
+          "y": 195.747
+        },
+        {
+          "x": 299.947,
+          "y": 196.758
+        },
+        {
+          "x": 299.611,
+          "y": 197.095
+        },
+        {
+          "x": 294.221,
+          "y": 200.8
+        },
+        {
+          "x": 285.126,
+          "y": 204.168
+        },
+        {
+          "x": 284.116,
+          "y": 204.505
+        },
+        {
+          "x": 261.211,
+          "y": 208.211
+        },
+        {
+          "x": 258.516,
+          "y": 208.211
+        },
+        {
+          "x": 254.811,
+          "y": 201.811
+        },
+        {
+          "x": 246.726,
+          "y": 174.189
+        }
+      ]
+    },
+    "19-petal-release": {
+      "id": "19-petal-release",
+      "cell": 19,
+      "top": 74,
+      "holdsOffering": false,
+      "hand": {
+        "x": 298.263,
+        "y": 169.811
+      },
+      "handMask": [
+        {
+          "x": 246.726,
+          "y": 167.116
+        },
+        {
+          "x": 288.158,
+          "y": 161.053
+        },
+        {
+          "x": 291.526,
+          "y": 161.053
+        },
+        {
+          "x": 301.632,
+          "y": 162.4
+        },
+        {
+          "x": 302.642,
+          "y": 162.737
+        },
+        {
+          "x": 308.705,
+          "y": 165.768
+        },
+        {
+          "x": 312.747,
+          "y": 169.137
+        },
+        {
+          "x": 312.747,
+          "y": 172.168
+        },
+        {
+          "x": 310.389,
+          "y": 177.221
+        },
+        {
+          "x": 299.611,
+          "y": 196.758
+        },
+        {
+          "x": 299.274,
+          "y": 197.095
+        },
+        {
+          "x": 296.242,
+          "y": 199.789
+        },
+        {
+          "x": 294.221,
+          "y": 201.474
+        },
+        {
+          "x": 293.547,
+          "y": 201.811
+        },
+        {
+          "x": 284.789,
+          "y": 203.832
+        },
+        {
+          "x": 260.537,
+          "y": 207.2
+        },
+        {
+          "x": 258.179,
+          "y": 207.2
+        },
+        {
+          "x": 254.811,
+          "y": 200.8
+        },
+        {
+          "x": 246.726,
+          "y": 171.158
+        }
+      ]
+    },
+    "20-petal-follow": {
+      "id": "20-petal-follow",
+      "cell": 20,
+      "top": 74,
+      "holdsOffering": false,
+      "hand": {
+        "x": 291.526,
+        "y": 173.853
+      },
+      "handMask": [
+        {
+          "x": 246.726,
+          "y": 177.221
+        },
+        {
+          "x": 258.179,
+          "y": 168.463
+        },
+        {
+          "x": 260.874,
+          "y": 166.442
+        },
+        {
+          "x": 261.547,
+          "y": 166.105
+        },
+        {
+          "x": 262.558,
+          "y": 165.768
+        },
+        {
+          "x": 267.274,
+          "y": 164.421
+        },
+        {
+          "x": 268.621,
+          "y": 164.084
+        },
+        {
+          "x": 270.979,
+          "y": 163.747
+        },
+        {
+          "x": 275.358,
+          "y": 163.747
+        },
+        {
+          "x": 288.495,
+          "y": 167.789
+        },
+        {
+          "x": 317.8,
+          "y": 179.242
+        },
+        {
+          "x": 320.158,
+          "y": 180.253
+        },
+        {
+          "x": 320.832,
+          "y": 180.926
+        },
+        {
+          "x": 320.832,
+          "y": 182.947
+        },
+        {
+          "x": 320.495,
+          "y": 183.621
+        },
+        {
+          "x": 319.147,
+          "y": 185.305
+        },
+        {
+          "x": 314.095,
+          "y": 190.358
+        },
+        {
+          "x": 305.0,
+          "y": 194.737
+        },
+        {
+          "x": 301.295,
+          "y": 196.421
+        },
+        {
+          "x": 299.274,
+          "y": 197.095
+        },
+        {
+          "x": 279.737,
+          "y": 203.495
+        },
+        {
+          "x": 249.084,
+          "y": 204.168
+        },
+        {
+          "x": 246.726,
+          "y": 204.168
+        }
+      ]
+    },
+    "21-petal-return": {
+      "id": "21-petal-return",
+      "cell": 21,
+      "top": 73,
+      "holdsOffering": false,
+      "hand": {
+        "x": 249.084,
+        "y": 229.768
+      },
+      "handMask": [
+        {
+          "x": 231.568,
+          "y": 214.947
+        },
+        {
+          "x": 232.242,
+          "y": 211.579
+        },
+        {
+          "x": 232.916,
+          "y": 209.221
+        },
+        {
+          "x": 235.947,
+          "y": 209.221
+        },
+        {
+          "x": 252.453,
+          "y": 213.937
+        },
+        {
+          "x": 253.463,
+          "y": 214.274
+        },
+        {
+          "x": 254.137,
+          "y": 214.611
+        },
+        {
+          "x": 256.495,
+          "y": 216.632
+        },
+        {
+          "x": 259.526,
+          "y": 219.326
+        },
+        {
+          "x": 262.558,
+          "y": 222.358
+        },
+        {
+          "x": 262.895,
+          "y": 223.032
+        },
+        {
+          "x": 264.242,
+          "y": 226.063
+        },
+        {
+          "x": 264.916,
+          "y": 227.747
+        },
+        {
+          "x": 265.253,
+          "y": 229.095
+        },
+        {
+          "x": 265.589,
+          "y": 230.779
+        },
+        {
+          "x": 265.589,
+          "y": 233.137
+        },
+        {
+          "x": 257.505,
+          "y": 257.389
+        },
+        {
+          "x": 254.474,
+          "y": 261.432
+        },
+        {
+          "x": 253.8,
+          "y": 262.105
+        },
+        {
+          "x": 250.095,
+          "y": 263.453
+        },
+        {
+          "x": 247.737,
+          "y": 263.453
+        },
+        {
+          "x": 244.032,
+          "y": 262.779
+        },
+        {
+          "x": 233.253,
+          "y": 245.6
+        },
+        {
+          "x": 232.916,
+          "y": 244.926
+        },
+        {
+          "x": 231.568,
+          "y": 217.305
+        }
+      ]
+    },
+    "22-rise-weight-transfer": {
+      "id": "22-rise-weight-transfer",
+      "cell": 22,
+      "top": 135,
+      "holdsOffering": false,
+      "rootOffset": {
+        "x": 19.2,
+        "y": 4.716
+      }
+    },
+    "23-petal-arms-low": {
+      "id": "23-petal-arms-low",
+      "cell": 23,
+      "top": 73,
+      "holdsOffering": false
+    }
+  },
+  "production": {
+    "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+    "sha256": "659e0a79c9feccb6cb6a076420728e3216cf3df2f0876be01b60d37c9cba2c05",
+    "width": 576,
+    "height": 1152,
+    "columns": 4,
+    "rows": 6,
+    "cellWidth": 144,
+    "cellHeight": 192
+  },
+  "master": "bow-petal-atlas.webp",
+  "masterSha256": "0b4d75b65456fb42bdc8fdbe3f966b22c6ec23db29bb51bd07fa3d01eee81f88",
+  "timelineSha256": "c3b0ea2308844ea445c109e43bac2ad36613737ebbf9d99e57f41f6e332a1ee4",
+  "selectionSha256": "bb9db2ced5738480ccd41a2ed734e390ceb170f965780d24abfa71a1f333f8c0",
+  "annotationsSha256": "b1e280be04419a0e099cf39f0e0c94a8413d01826d6386d9f9963e04b63089fd",
+  "annotations": {
+    "15-petal-cradle": {
+      "sourceSha256": "114db08db527f2424e073773c7291e481dac930a756be05bf46ecdb95e368ee5",
+      "hand": [
+        814,
+        395
+      ],
+      "handMask": [
+        [
+          727,
+          395
+        ],
+        [
+          753,
+          379
+        ],
+        [
+          759,
+          376
+        ],
+        [
+          764,
+          374
+        ],
+        [
+          784,
+          373
+        ],
+        [
+          795,
+          373
+        ],
+        [
+          838,
+          379
+        ],
+        [
+          847,
+          382
+        ],
+        [
+          848,
+          383
+        ],
+        [
+          851,
+          388
+        ],
+        [
+          851,
+          400
+        ],
+        [
+          850,
+          404
+        ],
+        [
+          846,
+          415
+        ],
+        [
+          843,
+          422
+        ],
+        [
+          841,
+          424
+        ],
+        [
+          826,
+          437
+        ],
+        [
+          767,
+          452
+        ],
+        [
+          761,
+          452
+        ],
+        [
+          727,
+          435
+        ]
+      ],
+      "handReview": {
+        "roi": [
+          730,
+          350,
+          880,
+          460
+        ],
+        "skinPixels": 4655,
+        "method": "Own viewed RGBA hand contour, convex hull with 3 native px margin; grip manually selected on own grid."
+      },
+      "review": "Independently viewed this identity hand grid and accepted own mask/grip overlay; pre-release and release share its own grip point."
+    },
+    "16-petal-lift": {
+      "sourceSha256": "4eaea67a081b1a6471c81bee1eaba34c4b97ad497ff5ab5aed425ff432101d86",
+      "hand": [
+        802,
+        336
+      ],
+      "handMask": [
+        [
+          727,
+          349
+        ],
+        [
+          731,
+          345
+        ],
+        [
+          747,
+          330
+        ],
+        [
+          750,
+          328
+        ],
+        [
+          758,
+          324
+        ],
+        [
+          763,
+          322
+        ],
+        [
+          766,
+          321
+        ],
+        [
+          797,
+          321
+        ],
+        [
+          838,
+          325
+        ],
+        [
+          845,
+          328
+        ],
+        [
+          847,
+          329
+        ],
+        [
+          850,
+          335
+        ],
+        [
+          850,
+          343
+        ],
+        [
+          847,
+          353
+        ],
+        [
+          843,
+          365
+        ],
+        [
+          837,
+          372
+        ],
+        [
+          828,
+          381
+        ],
+        [
+          823,
+          384
+        ],
+        [
+          776,
+          397
+        ],
+        [
+          763,
+          397
+        ],
+        [
+          742,
+          388
+        ],
+        [
+          731,
+          375
+        ],
+        [
+          729,
+          371
+        ],
+        [
+          728,
+          367
+        ],
+        [
+          727,
+          358
+        ]
+      ],
+      "handReview": {
+        "roi": [
+          730,
+          290,
+          880,
+          395
+        ],
+        "skinPixels": 5004,
+        "method": "Own viewed RGBA hand contour, convex hull with 3 native px margin; grip manually selected on own grid."
+      },
+      "review": "Independently viewed this identity hand grid and accepted own mask/grip overlay; pre-release and release share its own grip point."
+    },
+    "17-petal-extend": {
+      "sourceSha256": "aa43a53841ba386175a65a34035341c62f76cb76bac4e559146e3a7be7af7986",
+      "hand": [
+        929,
+        265
+      ],
+      "handMask": [
+        [
+          777,
+          309
+        ],
+        [
+          778,
+          294
+        ],
+        [
+          780,
+          293
+        ],
+        [
+          897,
+          239
+        ],
+        [
+          903,
+          237
+        ],
+        [
+          908,
+          236
+        ],
+        [
+          916,
+          235
+        ],
+        [
+          951,
+          235
+        ],
+        [
+          961,
+          236
+        ],
+        [
+          984,
+          240
+        ],
+        [
+          987,
+          241
+        ],
+        [
+          989,
+          243
+        ],
+        [
+          991,
+          248
+        ],
+        [
+          991,
+          256
+        ],
+        [
+          984,
+          274
+        ],
+        [
+          967,
+          293
+        ],
+        [
+          966,
+          294
+        ],
+        [
+          957,
+          300
+        ],
+        [
+          940,
+          311
+        ],
+        [
+          869,
+          335
+        ],
+        [
+          820,
+          345
+        ],
+        [
+          801,
+          347
+        ],
+        [
+          791,
+          347
+        ],
+        [
+          777,
+          316
+        ]
+      ],
+      "handReview": {
+        "roi": [
+          780,
+          200,
+          1030,
+          345
+        ],
+        "skinPixels": 7605,
+        "method": "Own viewed RGBA hand contour, convex hull with 3 native px margin; grip manually selected on own grid."
+      },
+      "review": "Independently viewed this identity hand grid and accepted own mask/grip overlay; pre-release and release share its own grip point."
+    },
+    "18-petal-pre-release": {
+      "sourceSha256": "353aeafbb4c1f35cd30b5d3b0e47ee61ffa1bfd273e1c67e7986b56f608f9f1c",
+      "hand": [
+        930,
+        326
+      ],
+      "handMask": [
+        [
+          777,
+          325
+        ],
+        [
+          897,
+          301
+        ],
+        [
+          910,
+          301
+        ],
+        [
+          928,
+          303
+        ],
+        [
+          935,
+          304
+        ],
+        [
+          941,
+          305
+        ],
+        [
+          944,
+          306
+        ],
+        [
+          953,
+          311
+        ],
+        [
+          958,
+          316
+        ],
+        [
+          958,
+          325
+        ],
+        [
+          937,
+          403
+        ],
+        [
+          935,
+          406
+        ],
+        [
+          934,
+          407
+        ],
+        [
+          918,
+          418
+        ],
+        [
+          891,
+          428
+        ],
+        [
+          888,
+          429
+        ],
+        [
+          820,
+          440
+        ],
+        [
+          812,
+          440
+        ],
+        [
+          801,
+          421
+        ],
+        [
+          777,
+          339
+        ]
+      ],
+      "handReview": {
+        "roi": [
+          780,
+          270,
+          1050,
+          465
+        ],
+        "skinPixels": 7146,
+        "method": "Own viewed RGBA hand contour, convex hull with 3 native px margin; grip manually selected on own grid."
+      },
+      "review": "Independently viewed this identity hand grid and accepted own mask/grip overlay; pre-release and release share its own grip point."
+    },
+    "19-petal-release": {
+      "sourceSha256": "a7cfcfae272c3faa4fec047b8642d424268b4b661215fae37bbca1ce023a8947",
+      "hand": [
+        930,
+        326
+      ],
+      "handMask": [
+        [
+          777,
+          318
+        ],
+        [
+          900,
+          300
+        ],
+        [
+          910,
+          300
+        ],
+        [
+          940,
+          304
+        ],
+        [
+          943,
+          305
+        ],
+        [
+          961,
+          314
+        ],
+        [
+          973,
+          324
+        ],
+        [
+          973,
+          333
+        ],
+        [
+          966,
+          348
+        ],
+        [
+          934,
+          406
+        ],
+        [
+          933,
+          407
+        ],
+        [
+          924,
+          415
+        ],
+        [
+          918,
+          420
+        ],
+        [
+          916,
+          421
+        ],
+        [
+          890,
+          427
+        ],
+        [
+          818,
+          437
+        ],
+        [
+          811,
+          437
+        ],
+        [
+          801,
+          418
+        ],
+        [
+          777,
+          330
+        ]
+      ],
+      "handReview": {
+        "roi": [
+          780,
+          270,
+          1050,
+          465
+        ],
+        "skinPixels": 6469,
+        "method": "Own viewed RGBA hand contour, convex hull with 3 native px margin; grip manually selected on own grid."
+      },
+      "review": "Independently viewed this identity hand grid and accepted own mask/grip overlay; pre-release and release share its own grip point."
+    },
+    "20-petal-follow": {
+      "sourceSha256": "51e918b3de2f269596f8cfe319166d8d29683c90a28c3a68e4dfbe4d6fe0a2af",
+      "hand": [
+        910,
+        338
+      ],
+      "handMask": [
+        [
+          777,
+          348
+        ],
+        [
+          811,
+          322
+        ],
+        [
+          819,
+          316
+        ],
+        [
+          821,
+          315
+        ],
+        [
+          824,
+          314
+        ],
+        [
+          838,
+          310
+        ],
+        [
+          842,
+          309
+        ],
+        [
+          849,
+          308
+        ],
+        [
+          862,
+          308
+        ],
+        [
+          901,
+          320
+        ],
+        [
+          988,
+          354
+        ],
+        [
+          995,
+          357
+        ],
+        [
+          997,
+          359
+        ],
+        [
+          997,
+          365
+        ],
+        [
+          996,
+          367
+        ],
+        [
+          992,
+          372
+        ],
+        [
+          977,
+          387
+        ],
+        [
+          950,
+          400
+        ],
+        [
+          939,
+          405
+        ],
+        [
+          933,
+          407
+        ],
+        [
+          875,
+          426
+        ],
+        [
+          784,
+          428
+        ],
+        [
+          777,
+          428
+        ]
+      ],
+      "handReview": {
+        "roi": [
+          780,
+          270,
+          1050,
+          465
+        ],
+        "skinPixels": 7791,
+        "method": "Own viewed RGBA hand contour, convex hull with 3 native px margin; grip manually selected on own grid."
+      },
+      "review": "Independently viewed this identity hand grid and accepted own mask/grip overlay; pre-release and release share its own grip point."
+    },
+    "21-petal-return": {
+      "sourceSha256": "b1bceb7cf5fcbc02ae26bf06daff737587251c035a30933a5b6d0a83e658773b",
+      "hand": [
+        784,
+        504
+      ],
+      "handMask": [
+        [
+          732,
+          460
+        ],
+        [
+          734,
+          450
+        ],
+        [
+          736,
+          443
+        ],
+        [
+          745,
+          443
+        ],
+        [
+          794,
+          457
+        ],
+        [
+          797,
+          458
+        ],
+        [
+          799,
+          459
+        ],
+        [
+          806,
+          465
+        ],
+        [
+          815,
+          473
+        ],
+        [
+          824,
+          482
+        ],
+        [
+          825,
+          484
+        ],
+        [
+          829,
+          493
+        ],
+        [
+          831,
+          498
+        ],
+        [
+          832,
+          502
+        ],
+        [
+          833,
+          507
+        ],
+        [
+          833,
+          514
+        ],
+        [
+          809,
+          586
+        ],
+        [
+          800,
+          598
+        ],
+        [
+          798,
+          600
+        ],
+        [
+          787,
+          604
+        ],
+        [
+          780,
+          604
+        ],
+        [
+          769,
+          602
+        ],
+        [
+          737,
+          551
+        ],
+        [
+          736,
+          549
+        ],
+        [
+          732,
+          467
+        ]
+      ],
+      "handReview": {
+        "roi": [
+          720,
+          440,
+          870,
+          615
+        ],
+        "skinPixels": 5597,
+        "method": "Own viewed RGBA hand contour, convex hull with 3 native px margin; grip manually selected on own grid."
+      },
+      "review": "Independently viewed this identity hand grid and accepted own mask/grip overlay; pre-release and release share its own grip point."
+    },
+    "00-neutral": {
+      "sourceSha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42",
+      "support": {
+        "point": [
+          523,
+          1175
+        ],
+        "landmark": "leftSoleContact",
+        "reference": "00-neutral",
+        "reviewRoi": [
+          440,
+          1090,
+          600,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "02-lower-knees": {
+      "sourceSha256": "435161ad5959531f306b73d512f1c4ae9e11d1695aad27edbe635988f0d94a76",
+      "support": {
+        "point": [
+          529,
+          1181
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "03-kneel-rest": {
+      "sourceSha256": "9fff6df06ab795d798fb638379c8a3e2c6cb5a6a19d7ad22f6efff9f7d749d90",
+      "support": {
+        "point": [
+          530,
+          1187
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "04-prayer": {
+      "sourceSha256": "2312582567a4cd23f2db6f71b824145a9f15f8fa0d6ab650f64f9dc8cf12e6ce",
+      "support": {
+        "point": [
+          530,
+          1188
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "05-forehead-prayer": {
+      "sourceSha256": "484353405d3d7cafca7ec11532c915f507459b875bc8a4716f5a38d6d88a9121",
+      "support": {
+        "point": [
+          524,
+          1188
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "06-lean": {
+      "sourceSha256": "4b76fd1e800924f242898a06297fe3400f28361b2ebb79db210c8602db99ee7f",
+      "support": {
+        "point": [
+          495,
+          1185
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "07-hands-floor": {
+      "sourceSha256": "468eda48c65554300496dc90c2aef2f4e7b2f893668d78537b25d398fda77fc5",
+      "support": {
+        "point": [
+          520,
+          1190
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    },
+    "08-prostrate": {
+      "sourceSha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c",
+      "support": {
+        "point": [
+          524,
+          1189
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored.",
+      "floorPose": {
+        "headLowerEdge": [
+          930,
+          1040
+        ],
+        "nearPalm": [
+          1010,
+          1070
+        ],
+        "upperHip": [
+          520,
+          930
+        ],
+        "sampleRgba": {
+          "headLowerEdge": [
+            83,
+            63,
+            55,
+            253
+          ],
+          "nearPalm": [
+            221,
+            160,
+            122,
+            252
+          ],
+          "upperHip": [
+            179,
+            122,
+            94,
+            253
+          ]
+        },
+        "reviewed": true,
+        "evidence": "forehead-palm-native-grid.jpg",
+        "note": "Viewed head-down full prostration; lowest visible head silhouette is at the palm floor plane below the upper hip. HeadLowerEdge is a visible silhouette marker, not an inferred hidden forehead point."
+      }
+    },
+    "09-lift-head": {
+      "sourceSha256": "b9ced02d1d26d371187083bdfca1a7a4b10692ab1330d9b3c050d34afd9b63fb",
+      "support": {
+        "point": [
+          525,
+          1190
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Own visible lower toe contour; native grid and fixed knee/feet silhouette reviewed."
+      },
+      "review": "Corrected floor-contact pose viewed at native size and144LOD. Palms stay down on the floor; the head lowers to the floor for prostration and rises only slightly for the first recovery. Own folded feet remain anchored."
+    },
+    "10-push-up": {
+      "sourceSha256": "3a5f543ca6dc92e49320f3db5e731a6b84d59b368b95d2a07ed553548c16d0b7",
+      "support": {
+        "point": [
+          525,
+          1190
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "11-kneel-return": {
+      "sourceSha256": "d390e07509dec9627080a1f11abb6df4b87e70b1448915309306b3d67936d259",
+      "support": {
+        "point": [
+          528,
+          1187
+        ],
+        "landmark": "frontToeContact",
+        "reference": "03-kneel-rest",
+        "reviewRoi": [
+          440,
+          1120,
+          660,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "12-rise-support": {
+      "sourceSha256": "2b21611ae670885f3a10385e02cd3ce0babf238983e5b193ce69c4077b0267f3",
+      "support": {
+        "point": [
+          704,
+          1165
+        ],
+        "landmark": "rightPosteriorSoleContact",
+        "reference": "12-rise-support",
+        "reviewRoi": [
+          600,
+          1100,
+          920,
+          1220
+        ],
+        "method": "Own posterior sole curve manually selected from native heel detail; lowest-row quantile targets mid-sole and is not used."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "13-rise-half-kneel": {
+      "sourceSha256": "2a8e19c189f67e9b6ef35dc25f506835e7b8d5a487bb1c48fad9b5e48ec83adc",
+      "support": {
+        "point": [
+          694,
+          1153
+        ],
+        "landmark": "rightPosteriorSoleContact",
+        "reference": "12-rise-support",
+        "reviewRoi": [
+          600,
+          1100,
+          920,
+          1220
+        ],
+        "method": "Own posterior sole curve manually selected from native heel detail; lowest-row quantile targets mid-sole and is not used."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "14-rise-extend": {
+      "sourceSha256": "5402020bf80beb5f3e4fe614e6d80a79261164d22d389254a7bc0b88ed88c3b9",
+      "support": {
+        "point": [
+          487,
+          1167
+        ],
+        "landmark": "leftSoleContact",
+        "reference": "00-neutral",
+        "reviewRoi": [
+          440,
+          1090,
+          600,
+          1220
+        ],
+        "method": "Measured on own skin/alpha floor-contact contour; own board review required."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    },
+    "22-rise-weight-transfer": {
+      "sourceSha256": "99cb342543cc7a726bb6f9226d677ddfee9cc1b7e0d36d1b76f6a8d8968b3da5",
+      "support": {
+        "point": [
+          647,
+          1151
+        ],
+        "landmark": "rightPosteriorSoleContact",
+        "reference": "12-rise-support",
+        "reviewRoi": [
+          600,
+          1100,
+          920,
+          1220
+        ],
+        "method": "Own posterior sole curve manually selected from native heel detail; lowest-row quantile targets mid-sole and is not used."
+      },
+      "review": "Own visible toe/sole contour and fixed camera verified on this identity source foot board; no other identity contact coordinates reused."
+    }
+  }
+}

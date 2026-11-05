@@ -1,0 +1,254 @@
+{
+  "events": [
+    {
+      "event": "reprioritized-after-parent-stop-reference-change",
+      "completedOutputs": [
+        "rear/01-loading.png",
+        "rear/02-passing.png",
+        "rear/03-swing.png",
+        "rear/05-opposite-loading.png",
+        "rear/06-opposite-passing.png"
+      ],
+      "potentiallyInFlight": [
+        "rear/07-opposite-swing.png",
+        "rearRight/01-loading.png"
+      ],
+      "reason": "Stop source now requires mid-stance passing02/06; terminated previous runner retaining every saved output. Up to2 in-flight calls were canceled/never returned to this runner.",
+      "restartJobs": [
+        {
+          "heading": "rear",
+          "id": "07-opposite-swing",
+          "output": "rear/07-opposite-swing-s2.png"
+        },
+        {
+          "heading": "rearRight",
+          "id": "01-loading",
+          "output": "rearRight/01-loading-s2.png"
+        },
+        {
+          "heading": "rearRight",
+          "id": "02-passing",
+          "output": "rearRight/02-passing.png"
+        },
+        {
+          "heading": "rearRight",
+          "id": "03-swing",
+          "output": "rearRight/03-swing.png"
+        },
+        {
+          "heading": "rearRight",
+          "id": "05-opposite-loading",
+          "output": "rearRight/05-opposite-loading.png"
+        },
+        {
+          "heading": "rearRight",
+          "id": "06-opposite-passing",
+          "output": "rearRight/06-opposite-passing.png"
+        },
+        {
+          "heading": "rearRight",
+          "id": "07-opposite-swing",
+          "output": "rearRight/07-opposite-swing.png"
+        },
+        {
+          "heading": "right",
+          "id": "01-loading",
+          "output": "right/01-loading.png"
+        },
+        {
+          "heading": "right",
+          "id": "02-passing",
+          "output": "right/02-passing.png"
+        },
+        {
+          "heading": "right",
+          "id": "03-swing",
+          "output": "right/03-swing.png"
+        },
+        {
+          "heading": "right",
+          "id": "05-opposite-loading",
+          "output": "right/05-opposite-loading.png"
+        },
+        {
+          "heading": "right",
+          "id": "06-opposite-passing",
+          "output": "right/06-opposite-passing.png"
+        },
+        {
+          "heading": "right",
+          "id": "07-opposite-swing",
+          "output": "right/07-opposite-swing.png"
+        },
+        {
+          "heading": "frontRight",
+          "id": "01-loading",
+          "output": "frontRight/01-loading.png"
+        },
+        {
+          "heading": "frontRight",
+          "id": "02-passing",
+          "output": "frontRight/02-passing.png"
+        },
+        {
+          "heading": "frontRight",
+          "id": "03-swing",
+          "output": "frontRight/03-swing.png"
+        },
+        {
+          "heading": "frontRight",
+          "id": "05-opposite-loading",
+          "output": "frontRight/05-opposite-loading.png"
+        },
+        {
+          "heading": "frontRight",
+          "id": "06-opposite-passing",
+          "output": "frontRight/06-opposite-passing.png"
+        },
+        {
+          "heading": "frontRight",
+          "id": "07-opposite-swing",
+          "output": "frontRight/07-opposite-swing.png"
+        },
+        {
+          "heading": "front",
+          "id": "01-loading",
+          "output": "front/01-loading.png"
+        },
+        {
+          "heading": "front",
+          "id": "02-passing",
+          "output": "front/02-passing.png"
+        },
+        {
+          "heading": "front",
+          "id": "03-swing",
+          "output": "front/03-swing.png"
+        },
+        {
+          "heading": "front",
+          "id": "05-opposite-loading",
+          "output": "front/05-opposite-loading.png"
+        },
+        {
+          "heading": "front",
+          "id": "06-opposite-passing",
+          "output": "front/06-opposite-passing.png"
+        },
+        {
+          "heading": "front",
+          "id": "07-opposite-swing",
+          "output": "front/07-opposite-swing.png"
+        },
+        {
+          "heading": "frontLeft",
+          "id": "01-loading",
+          "output": "frontLeft/01-loading.png"
+        },
+        {
+          "heading": "frontLeft",
+          "id": "02-passing",
+          "output": "frontLeft/02-passing.png"
+        },
+        {
+          "heading": "frontLeft",
+          "id": "03-swing",
+          "output": "frontLeft/03-swing.png"
+        },
+        {
+          "heading": "frontLeft",
+          "id": "05-opposite-loading",
+          "output": "frontLeft/05-opposite-loading.png"
+        },
+        {
+          "heading": "frontLeft",
+          "id": "06-opposite-passing",
+          "output": "frontLeft/06-opposite-passing.png"
+        },
+        {
+          "heading": "frontLeft",
+          "id": "07-opposite-swing",
+          "output": "frontLeft/07-opposite-swing.png"
+        },
+        {
+          "heading": "left",
+          "id": "01-loading",
+          "output": "left/01-loading.png"
+        },
+        {
+          "heading": "left",
+          "id": "02-passing",
+          "output": "left/02-passing.png"
+        },
+        {
+          "heading": "left",
+          "id": "03-swing",
+          "output": "left/03-swing.png"
+        },
+        {
+          "heading": "left",
+          "id": "05-opposite-loading",
+          "output": "left/05-opposite-loading.png"
+        },
+        {
+          "heading": "left",
+          "id": "06-opposite-passing",
+          "output": "left/06-opposite-passing.png"
+        },
+        {
+          "heading": "left",
+          "id": "07-opposite-swing",
+          "output": "left/07-opposite-swing.png"
+        },
+        {
+          "heading": "rearLeft",
+          "id": "01-loading",
+          "output": "rearLeft/01-loading.png"
+        },
+        {
+          "heading": "rearLeft",
+          "id": "02-passing",
+          "output": "rearLeft/02-passing.png"
+        },
+        {
+          "heading": "rearLeft",
+          "id": "03-swing",
+          "output": "rearLeft/03-swing.png"
+        },
+        {
+          "heading": "rearLeft",
+          "id": "05-opposite-loading",
+          "output": "rearLeft/05-opposite-loading.png"
+        },
+        {
+          "heading": "rearLeft",
+          "id": "06-opposite-passing",
+          "output": "rearLeft/06-opposite-passing.png"
+        },
+        {
+          "heading": "rearLeft",
+          "id": "07-opposite-swing",
+          "output": "rearLeft/07-opposite-swing.png"
+        }
+      ],
+      "invariants": "Locked contact and neutral files were not modified."
+    },
+    {
+      "event": "passing-review-refinements",
+      "reason": "Do not lock rearRight06 with alpha halo or right06 with extended swing leg. Kept drafts and regenerated v2. Restart queue now reads file control after every saved request.",
+      "potentiallyInFlight": [
+        "frontLeft/02-passing.png",
+        "frontLeft/06-opposite-passing.png"
+      ],
+      "plannedRemaining": 35,
+      "passingPriority": [
+        "frontLeft/02-passing",
+        "frontLeft/06-opposite-passing",
+        "left/02-passing",
+        "left/06-opposite-passing",
+        "rearLeft/02-passing",
+        "rearLeft/06-opposite-passing"
+      ]
+    }
+  ]
+}

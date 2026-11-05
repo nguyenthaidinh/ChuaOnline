@@ -8,16 +8,21 @@ CANVAS = (384, 512)
 GROUND_PIVOT = (192, 468)
 
 
-def normalize_pose(path: Path, source_pivot=(628, 1235), scale_at_1280=0.33):
+def normalize_pose(path: Path, source_pivot=(628, 1235), scale_at_1280=0.33, *, allow_near_square=False):
     with Image.open(path) as source:
         image = source.convert('RGBA')
-    if image.width != image.height:
+    side=max(image.size)
+    near_square=allow_near_square and abs(image.width-image.height)/side<=.02
+    if image.width != image.height and not near_square:
         raise ValueError(f'Review non-square source before normalization: {path.name}')
     alpha = image.getchannel('A')
     if alpha.getextrema()[0] != 0:
         raise ValueError(f'Source lacks transparent pixels: {path.name}')
-    scale = scale_at_1280 * 1280 / image.width
-    pivot = tuple(value * image.width / 1280 for value in source_pivot)
+    # A reviewed small transparent crop is centered in a virtual square. Scale is
+    # uniform on both axes; the source pixels and native annotation coordinates stay intact.
+    padding=((side-image.width)/2,(side-image.height)/2)
+    scale = scale_at_1280 * 1280 / side
+    pivot = tuple(value * side / 1280-padding[i] for i,value in enumerate(source_pivot))
     resized = image.resize((round(image.width * scale), round(image.height * scale)), Image.Resampling.LANCZOS)
     offset = tuple(round(GROUND_PIVOT[i] - pivot[i] * scale) for i in range(2))
     bounds = resized.getchannel('A').point(lambda value: 255 if value > 24 else 0).getbbox()
@@ -28,7 +33,10 @@ def normalize_pose(path: Path, source_pivot=(628, 1235), scale_at_1280=0.33):
         raise ValueError(f'Clipped pose {path.name}: {target}')
     frame = Image.new('RGBA', CANVAS)
     frame.alpha_composite(resized, offset)
-    return frame, {
+    audit = {
         'sourceSize': list(image.size), 'sourcePivot': list(pivot), 'scale': scale,
         'bounds': list(target), 'sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
     }
+    if image.width!=image.height:
+        audit['sourceCanvas']={'size':[side,side],'padding':list(padding),'method':'uniform-scale-centered-near-square'}
+    return frame, audit

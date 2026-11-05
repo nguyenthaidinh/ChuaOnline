@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Keep release wrists stable, add physical arm-lowering and correct the height of the rising weight-transfer pose.",
+  "jobs": [
+    {
+      "id": "17-petal-extend-v2",
+      "output": "man/17-petal-extend-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/19-petal-release.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit this ONEtransparent1254square ChuaOnline pose into the IMMEDIATELY PRECEDING extended closed-cup pose. Preserve EXACT man/body/head/face/hair/feet/clothing/camera/root/light and canvas margins. Change ONLY arms/hands: both cupped palms lift together in front ofmidchest towardupper-right. Right palm cups invisiblepetals aroundx920,y345, leftpalm supportsjustbelow aroundx880,y375. Elbows softlybent, palmsclosewithin3cm, fingers gentlycurled. Do NOT raisehands to forehead, do NOT pullbacktocentreabdomen. Keep allfingersanatomicalandhands EMPTY, trueRGBA/no props/particles/floor/shadow/text."
+    },
+    {
+      "id": "18-petal-pre-release-v2",
+      "output": "man/18-petal-pre-release-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/19-petal-release.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit ONLY hand/finger articulation of thisONEtransparent1254square ChuaOnline pose to the LAST CLOSED-FINGER moment before release. Preserve EXACT bothwrists, elbows, armpositions, man/face/head/body/feet/ao lam/camera/light/sourcecoordinates and margins. RIGHThand stays at itsEXACTimageposition aroundx930,y325, gentlyCLOSE fingers into a looseupwardcup withthumbnearindexasif containing invisibleloosepetals beforeopening. LEFTpalm stays open below atitsEXACTposition aroundx900,y400; doNOTmoveitup to joinrightpalm. Do NOTpullhandstowardchest orliftabovehead. Same fingertipsreach/cupfootprint tofollowintoinputreleaseposewithoutwristjump. No actualpetals/objects,floor,shadow,text,secondfigure; genuineRGBA."
+    },
+    {
+      "id": "23-petal-arms-low",
+      "output": "man/23-petal-arms-low.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/21-petal-return.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/00-neutral.png"
+      ],
+      "prompt": "Use case: identity-preserve. ONEtransparentRGBA1254square ChuaOnline keypose. Image1 is previous armwithdrawal;image2 is finalneutral. PreserveEXACT standingbody,head/face/hair,feet/root,ao lam,camera,bodyheight/light/margins. Create the INTERMEDIATE arms-loweringpose: forearms rotate downfromimage1 towardimage2, elbowsnowonlyslightlybent, emptyhands besideupperthighs atsourcey620-650 (betweenimage1handsy500 andneutralhandsy700). Wristsrelaxed,fingerspointsoftlydown, palmsnottogether. DoNOTcreateanotherchestcup. Fullbody/hands/feetinside samecanvas, no floor/shadow/props/petals/text/extrafigure."
+    },
+    {
+      "id": "22-rise-weight-transfer-v2",
+      "output": "man/22-rise-weight-transfer-v2.png",
+      "references": [
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/22-rise-weight-transfer.png",
+        "F:/Dự Án Chung/ChuaOnline/artwork/animation-v3/bow-petal-v1/man/13-rise-half-kneel.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit image1 into a LOWER intermediate rising pose, notalreadystanding. Image2 shows the earlier halfkneel. Preserve image1 EXACT two plantedfeet/canvascoordinates, headSIZE, clothing/identity, rear-rightcamera/light, sourceorigin andsquare1254transparentmargins. Bend bothkneesmoreandlowerhipsabout100px so hairTOPisaroundy150-170, midwaybetweenimage2heady270andfinalstandingheady30. Torso mostlyuprightwithslightbalancelean, armsrelaxedlow atthighs. Anatomicallyreal knee/hipflexion; donotshrink/scale/compresswholebody. Bothsoleskeepexactimage1floorcontactpoints; no footslide, zoom,recenter orbodyrotation. TrueRGBA/no floor/shadow/cushion/props/text/extrafigure."
+    }
+  ]
+}

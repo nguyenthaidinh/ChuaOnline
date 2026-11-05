@@ -1,0 +1,1418 @@
+{
+  "generator": "built-in image_gen",
+  "selectedPoses": 72,
+  "generatedSelected": 69,
+  "retainedDrafts": 18,
+  "generatedOutputs": 87,
+  "reusedNeutral": {
+    "man": {
+      "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+      "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+    },
+    "woman": {
+      "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+      "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+    },
+    "granny": {
+      "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+      "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+    }
+  },
+  "jobs": [
+    {
+      "manifest": "generation.json",
+      "output": "man/03-kneel-rest.png",
+      "sha256": "aa72fc99ea604cd06f47f600075376e481ff797b738403aa239a50a672dfe30d",
+      "selected": false,
+      "promptSha256": "d9576fd51c190227d263ae7431d005805f6643a73253e358dfd83c6ee3e2e7ae",
+      "references": [
+        {
+          "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "generation.json",
+      "output": "man/08-prostrate.png",
+      "sha256": "f16bbb7194f465786ed31b0e4067ade563d4c77e4d4bc8a727f9d6bd2ac02350",
+      "selected": false,
+      "promptSha256": "a4f99d54a2d4917699907f07bf255cdf2b9b4f2904c2f1f3741669095e82a51d",
+      "references": [
+        {
+          "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        },
+        {
+          "source": "artwork/visual-v2/characters/lam/bow-floor.png",
+          "sha256": "84971c51422b3753f4096ee4414187a111917cc3600f0ed12463e641c581d020"
+        }
+      ]
+    },
+    {
+      "manifest": "pilot-generation.json",
+      "output": "man/03-kneel-rest-v2.png",
+      "sha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e",
+      "selected": true,
+      "promptSha256": "2a6a6d41f80e3025f2e68f82a1f638e4bbfce9f2cf0ae3de0db552324ca42985",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/03-kneel-rest.png",
+          "sha256": "aa72fc99ea604cd06f47f600075376e481ff797b738403aa239a50a672dfe30d"
+        },
+        {
+          "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "pilot-generation.json",
+      "output": "man/15-petal-cradle.png",
+      "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919",
+      "selected": true,
+      "promptSha256": "0cc5b21ae6e0daf21850aa367a6a5568ac289ece17ceed7e010e9069d774a58a",
+      "references": [
+        {
+          "source": "artwork/animation-v3/transitions-v1/00-stand-angled.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "pilot-bow-refinement.json",
+      "output": "man/08-prostrate-v2.png",
+      "sha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189",
+      "selected": false,
+      "promptSha256": "ec4b8ab0e76d24f98a9fb959e177909f3ed42f64c3d26c2762bd1cb502857af4",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png",
+          "sha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e"
+        }
+      ]
+    },
+    {
+      "manifest": "pilot-bow-refinement.json",
+      "output": "man/04-prayer.png",
+      "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19",
+      "selected": true,
+      "promptSha256": "afc324e682c05b33f0298facbec4f88148c1b851f45654fcf211040cae5440cf",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png",
+          "sha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/01-knee-bend.png",
+      "sha256": "d19f23a958ff3811c427e1a20cd58a469631e4eb61fc9082c0600f46a54a09fe",
+      "selected": true,
+      "promptSha256": "552f445525f48f9d45f7f498392e9b260c32c680f0111c7c3417fa9a54021ba8",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png",
+          "sha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/02-lower-knees.png",
+      "sha256": "6c03e41bac1bdf09fb052a53c6297a46de96440ee3a7625acf8fafddcb4b340f",
+      "selected": true,
+      "promptSha256": "2c15781b651e464d563c03be073f2ed79b6a41e9acdcd4931bcc9b5ef8540075",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png",
+          "sha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/05-forehead-prayer.png",
+      "sha256": "206ae60b1cb0676fcbc6709cfef1e74e536a7cc6a09032bb82981052d5370295",
+      "selected": true,
+      "promptSha256": "f3ebb37e485e31f1a1cb4673568d8f323509a724719183df0b51ec13f8adf3e7",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/06-lean.png",
+      "sha256": "3c94f5d2a2f013fcacdb56e3543ea518b4aaa7e9fb847840b96f54e96c45f263",
+      "selected": true,
+      "promptSha256": "76287d851b50166098daee2c1b4cd25146ee87171398552ee74e99c38c057cbe",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/07-hands-floor.png",
+      "sha256": "01d97bbf8d18015dee4e7448edd3b3856c20e1aa4ae154b450cf398b369f9b8e",
+      "selected": false,
+      "promptSha256": "306d0a5d75d776cfe2c1d4e9411edc3a51019607d5cd02c43981240c8ce801f4",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png",
+          "sha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/09-lift-head.png",
+      "sha256": "ee8bd9f68c0a053bb35da61090623212971d5e6fc52dce1f2e3b36050e490ce7",
+      "selected": false,
+      "promptSha256": "de53405996cfc6340e31b1c3f68a71f0d283a60d8229e0d2702f3a86255c0aa9",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png",
+          "sha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/10-push-up.png",
+      "sha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3",
+      "selected": true,
+      "promptSha256": "79603a14d2eeecef7046f6e208bed334e9f94994e75a42e866470299b27c41a8",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png",
+          "sha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/11-kneel-return.png",
+      "sha256": "279c8ed048dfb182f3a48390edab0fb1b1afeadaab62ced97b5084d11641b28d",
+      "selected": true,
+      "promptSha256": "570f7d051687a9bb7f1651e56236bd7c9628b9329df1a036c61a7b510143136b",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/12-rise-support.png",
+      "sha256": "53089e603cb5c18f757a6bec8a28aa1e0bdf7be9de02e49b8c6e2fbdbc15344a",
+      "selected": true,
+      "promptSha256": "dbfcd3002ef08f0ffbbe7b187864c4a5932a5d858e2841c309d444ff1de4afbb",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/13-rise-half-kneel.png",
+      "sha256": "95c8d200dbff063f47045dceda8d6bc9d1abcda4e274ad8fa91946b250044676",
+      "selected": true,
+      "promptSha256": "075c2b37b77222d8b67c7c4a0ae47e3b21877035187ba0d89d688c2342f39d46",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/14-rise-extend.png",
+      "sha256": "e8e84b51c9b2addc38a9e8464220f02867ed538f43ad60bb71468ccb773bd419",
+      "selected": false,
+      "promptSha256": "a7ff6cfbbc90df38d39861333bb3d004710ffbc52c3a9bb8fa2926d2a434069f",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/16-petal-lift.png",
+      "sha256": "3db1069f9f42ff476a839e85d59040420e63350bad1b8176964fdf3fae2bee01",
+      "selected": true,
+      "promptSha256": "ba0216c379a0da1622738181a868971e51ad1ecc45be46c5b4e1c579da6953c9",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/17-petal-extend.png",
+      "sha256": "dffa7e2301ad735401da8a4c3c1840e90807c9ffe861aba53e6554a1d7b5a4af",
+      "selected": false,
+      "promptSha256": "19d36f43de968bfa44b8631c99e4cd72ffc3b4378da7998b301ada145e178ade",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/18-petal-pre-release.png",
+      "sha256": "2c5371be6dcf8a1d82ab8c34a4bcb01225c17f3c174c9c5817e99b928f9d3769",
+      "selected": false,
+      "promptSha256": "53f6842fb38dbcf1513610ccb9d3c5f95209c79d1e6219a563b861e082047066",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/19-petal-release.png",
+      "sha256": "bbead0cc152851390cd56a60c6fccd026ae335ef9e28f17585bbe21f33b5178d",
+      "selected": true,
+      "promptSha256": "48b2f90370c58502f4c092891e13f3c4cac1d5942d07ce6d4baef029a4416a07",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/20-petal-follow.png",
+      "sha256": "1d763e6e55c391730a8daa1136434631112fff8e57da29779c141570c915e06e",
+      "selected": true,
+      "promptSha256": "e8c01a7a18a441155e696e3642fc04b561714c9d0c07b915bde441cf80a4d9de",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "man-generation.json",
+      "output": "man/21-petal-return.png",
+      "sha256": "4a3ae2bd3bf1f9d267567bf614edf17964ed4d4224f5f57f11c66198e78294a0",
+      "selected": true,
+      "promptSha256": "640c4ba311d174495baee74b101e1a1810f9d5d7f02c9cd2397b2db4fe9a50a2",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "rise-refinement-generation.json",
+      "output": "man/22-rise-weight-transfer.png",
+      "sha256": "c706b97a7db29e723ed83c566f829d1d210b921875ba2f438627861c68c9b3e1",
+      "selected": false,
+      "promptSha256": "733da558cfc98be1a2e60cf3a7a379e7ef88f06935eea5c358f40798aa2cd244",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/13-rise-half-kneel.png",
+          "sha256": "95c8d200dbff063f47045dceda8d6bc9d1abcda4e274ad8fa91946b250044676"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "rise-refinement-generation.json",
+      "output": "man/14-rise-extend-v2.png",
+      "sha256": "d79353b8412cb9581b283b70ce768f1f2d9fde175b254a0eb43fd55d29c17cd7",
+      "selected": false,
+      "promptSha256": "de11b74f8f990904c072ed82e847c9ef2ac32cc63b0a408290474e3144725932",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/14-rise-extend.png",
+          "sha256": "e8e84b51c9b2addc38a9e8464220f02867ed538f43ad60bb71468ccb773bd419"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "petal-refinement-generation.json",
+      "output": "man/17-petal-extend-v2.png",
+      "sha256": "16fa139bba5378ca1c82b93dba8a72c5692833acf9e15dae5609492af5b7bff3",
+      "selected": true,
+      "promptSha256": "e1790556ce4986437f2470547d3eb557acdfa3b270214504f25e3cb60e6f8e2b",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/19-petal-release.png",
+          "sha256": "bbead0cc152851390cd56a60c6fccd026ae335ef9e28f17585bbe21f33b5178d"
+        }
+      ]
+    },
+    {
+      "manifest": "petal-refinement-generation.json",
+      "output": "man/18-petal-pre-release-v2.png",
+      "sha256": "ced5590fbedd6f3852bfa7e489eaab50d9e122d9c8f4686ffc581450fd0926a3",
+      "selected": true,
+      "promptSha256": "1c045b0669073c0f1dc43569ada56b8eb03b14822249dd31fa06421d2ffa1c73",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/19-petal-release.png",
+          "sha256": "bbead0cc152851390cd56a60c6fccd026ae335ef9e28f17585bbe21f33b5178d"
+        }
+      ]
+    },
+    {
+      "manifest": "petal-refinement-generation.json",
+      "output": "man/23-petal-arms-low.png",
+      "sha256": "56e873db779dbbe8c2043201f53911eaf2608c09c2b1e5fe48c7df880be2b1d1",
+      "selected": true,
+      "promptSha256": "4a9062cafc15d29347305f5c9fc7221255b9bca2548d90508f9d3878632f6f1c",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/21-petal-return.png",
+          "sha256": "4a3ae2bd3bf1f9d267567bf614edf17964ed4d4224f5f57f11c66198e78294a0"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "petal-refinement-generation.json",
+      "output": "man/22-rise-weight-transfer-v2.png",
+      "sha256": "15cf9872546d321e415e4654fc9cee9de8d8212f3cfcbf665e2cc1b6e5a2c31c",
+      "selected": true,
+      "promptSha256": "6dfaa2d4262ccbbee71eef9fc44e503fcc8bfb5ab3efdc549620ccf4bc4426c2",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/22-rise-weight-transfer.png",
+          "sha256": "c706b97a7db29e723ed83c566f829d1d210b921875ba2f438627861c68c9b3e1"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/13-rise-half-kneel.png",
+          "sha256": "95c8d200dbff063f47045dceda8d6bc9d1abcda4e274ad8fa91946b250044676"
+        }
+      ]
+    },
+    {
+      "manifest": "rise-foot-refinement-generation.json",
+      "output": "man/14-rise-extend-v3.png",
+      "sha256": "731131dd9d25bc89e4b8f754db3893d0437ec8a6796dd21df3aaa3930e8eb61b",
+      "selected": true,
+      "promptSha256": "bfc5b8467e3062803a1c0ff2cc37770947e97c8df81d3fef6941fe5021c59597",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/14-rise-extend-v2.png",
+          "sha256": "d79353b8412cb9581b283b70ce768f1f2d9fde175b254a0eb43fd55d29c17cd7"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/00-neutral.png",
+          "sha256": "47b168b56bc1032ee34ed8404ef4695630e9f13247e8d4d6428838f0f89af7d2"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-pilot-generation.json",
+      "output": "woman/08-prostrate.png",
+      "sha256": "451a857cbfe904665360773a7777d0d9c8b952d54298911da28710a28e50eb2a",
+      "selected": false,
+      "promptSha256": "912c5ba121794c5399a1770fa0ec4999837285d70590bbccc75a4b62333bcb3f",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png",
+          "sha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-pilot-generation.json",
+      "output": "granny/18-petal-pre-release.png",
+      "sha256": "353aeafbb4c1f35cd30b5d3b0e47ee61ffa1bfd273e1c67e7986b56f608f9f1c",
+      "selected": true,
+      "promptSha256": "23a07a2468c90111fdaad4f07ea6512ced496151ae65728a25ef50168f5f0bff",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/18-petal-pre-release-v2.png",
+          "sha256": "ced5590fbedd6f3852bfa7e489eaab50d9e122d9c8f4686ffc581450fd0926a3"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/15-petal-cradle.png",
+      "sha256": "dabc616a32f8449b234d4036a92baaa22c2cfb6ac5a2871f999aa49fa568865d",
+      "selected": true,
+      "promptSha256": "911b9dc29792bd81762f072bbca368ec624959a9fc4d025529fdb89285147268",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/15-petal-cradle.png",
+      "sha256": "114db08db527f2424e073773c7291e481dac930a756be05bf46ecdb95e368ee5",
+      "selected": true,
+      "promptSha256": "95bd11b01c04cccb4d3550d8ae7cdda60250d1e3bcd7ce66ba4b8e24d2eef652",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/15-petal-cradle.png",
+          "sha256": "fae434cbb7eec5d09aaceac16953f0018dda22a3d53e8c92ac3bf1258533f919"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/16-petal-lift.png",
+      "sha256": "1ff755b8d83a5fb91153617c71d9ca688e44ed82a284ced30748d136bef45827",
+      "selected": true,
+      "promptSha256": "61104765804eb5386a64359ae533ff8fe70a453ca1bf905229869d10ae977581",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/16-petal-lift.png",
+          "sha256": "3db1069f9f42ff476a839e85d59040420e63350bad1b8176964fdf3fae2bee01"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/16-petal-lift.png",
+      "sha256": "4eaea67a081b1a6471c81bee1eaba34c4b97ad497ff5ab5aed425ff432101d86",
+      "selected": true,
+      "promptSha256": "08369e16368c4b5af2ccb6344da8cab6ac80a23c81531840c6c44a668c43434d",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/16-petal-lift.png",
+          "sha256": "3db1069f9f42ff476a839e85d59040420e63350bad1b8176964fdf3fae2bee01"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/17-petal-extend.png",
+      "sha256": "00ccd71622cdee5d01f449b052d1d8d58668f2673dab25eeab10e9b170ea9800",
+      "selected": true,
+      "promptSha256": "2606dc23c44a460a7ed5d16ab9b9474069c97537e626bd80a436632ed4045f0b",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/17-petal-extend-v2.png",
+          "sha256": "16fa139bba5378ca1c82b93dba8a72c5692833acf9e15dae5609492af5b7bff3"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/17-petal-extend.png",
+      "sha256": "aa43a53841ba386175a65a34035341c62f76cb76bac4e559146e3a7be7af7986",
+      "selected": true,
+      "promptSha256": "422944bad7f2a7a538b7dc5e858088807ce6f7a4431b1b3584f151a90c8a8fa6",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/17-petal-extend-v2.png",
+          "sha256": "16fa139bba5378ca1c82b93dba8a72c5692833acf9e15dae5609492af5b7bff3"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/18-petal-pre-release.png",
+      "sha256": "805ac5d68d26f38de15677811c153b6a4e57210f3ba70c0b5ac0983069e8308a",
+      "selected": true,
+      "promptSha256": "3fc647a4817094b3c55b75277cbfbf8260e8f3acba634d5ecb049e41c8e1028a",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/18-petal-pre-release-v2.png",
+          "sha256": "ced5590fbedd6f3852bfa7e489eaab50d9e122d9c8f4686ffc581450fd0926a3"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/19-petal-release.png",
+      "sha256": "42585bf81219183154f111510877dc6e1342ac42570b783e7de9d7002e17d11f",
+      "selected": true,
+      "promptSha256": "0d7ef7c090a58217dada69153e3bf628458ce98ea832b07997c77f8900e89599",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/19-petal-release.png",
+          "sha256": "bbead0cc152851390cd56a60c6fccd026ae335ef9e28f17585bbe21f33b5178d"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/19-petal-release.png",
+      "sha256": "a7cfcfae272c3faa4fec047b8642d424268b4b661215fae37bbca1ce023a8947",
+      "selected": true,
+      "promptSha256": "3f569a01434edf7fe025116c7ca7ae04dfcfb053923edff0ec8b2b16ba2e9233",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/19-petal-release.png",
+          "sha256": "bbead0cc152851390cd56a60c6fccd026ae335ef9e28f17585bbe21f33b5178d"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/20-petal-follow.png",
+      "sha256": "9861a1e42a45e7d175dbf283719475c8bac878dd094ce8bb6282369bc42d0130",
+      "selected": true,
+      "promptSha256": "a1278ae78bf8a224e1544000f5506688bd7c802684f9c7f9af5cb1feeeab41ce",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/20-petal-follow.png",
+          "sha256": "1d763e6e55c391730a8daa1136434631112fff8e57da29779c141570c915e06e"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/20-petal-follow.png",
+      "sha256": "51e918b3de2f269596f8cfe319166d8d29683c90a28c3a68e4dfbe4d6fe0a2af",
+      "selected": true,
+      "promptSha256": "9a63fbac945fb1fbdeb4177359c82b49d4d3c77a89686494e121d145e7fba140",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/20-petal-follow.png",
+          "sha256": "1d763e6e55c391730a8daa1136434631112fff8e57da29779c141570c915e06e"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/21-petal-return.png",
+      "sha256": "0563cdcbe2cf86c1dcf0126310764fc1e3029d9a2ca163899cf816621949cfc9",
+      "selected": true,
+      "promptSha256": "d2a9e7fe00805e08da1a24d31444f3d92cd381d4b7cc112b45891fd43fe0b55e",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/21-petal-return.png",
+          "sha256": "4a3ae2bd3bf1f9d267567bf614edf17964ed4d4224f5f57f11c66198e78294a0"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/21-petal-return.png",
+      "sha256": "b1bceb7cf5fcbc02ae26bf06daff737587251c035a30933a5b6d0a83e658773b",
+      "selected": true,
+      "promptSha256": "7cae5eebc7942dbb5ccb6406280da428df9a96691a9a4aabac3dc44c867bfe55",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/21-petal-return.png",
+          "sha256": "4a3ae2bd3bf1f9d267567bf614edf17964ed4d4224f5f57f11c66198e78294a0"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/23-petal-arms-low.png",
+      "sha256": "cb2cad006a127583d8e01000f50a7e75cf3e2214a3fdf28e7d0c14e7c9413d1e",
+      "selected": true,
+      "promptSha256": "8e78286d04e77c702a42753f5c8653c8a56323a35becb47e371d09a8bbbdf4e2",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/23-petal-arms-low.png",
+          "sha256": "56e873db779dbbe8c2043201f53911eaf2608c09c2b1e5fe48c7df880be2b1d1"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/23-petal-arms-low.png",
+      "sha256": "62a56c0d77706bc73aa1d7867b2b3d06cfa96528fca2b9314f083c95bf7dface",
+      "selected": true,
+      "promptSha256": "f155cc45531cae95eb05e25777bb0bfe14a0cd11bb68d2a5ac80c8d6fc8be41a",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/23-petal-arms-low.png",
+          "sha256": "56e873db779dbbe8c2043201f53911eaf2608c09c2b1e5fe48c7df880be2b1d1"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/02-lower-knees.png",
+      "sha256": "70b6d77b6fbf3579ab1ffac9a560a3ca4bccdaf932b769a2c9533eb7cf7f2561",
+      "selected": true,
+      "promptSha256": "ff883913ebffdee887120623e94f043f5b8e3dc130c5854b0918341c7f2bf2bb",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/02-lower-knees.png",
+          "sha256": "6c03e41bac1bdf09fb052a53c6297a46de96440ee3a7625acf8fafddcb4b340f"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/02-lower-knees.png",
+      "sha256": "435161ad5959531f306b73d512f1c4ae9e11d1695aad27edbe635988f0d94a76",
+      "selected": true,
+      "promptSha256": "4231d5fcff3a3d88ea885dd25d35ebf95df51d089b508fde29d82f7d6b35e02f",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/02-lower-knees.png",
+          "sha256": "6c03e41bac1bdf09fb052a53c6297a46de96440ee3a7625acf8fafddcb4b340f"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/03-kneel-rest.png",
+      "sha256": "b1491ec9483529f7d97101181ccf6734bb607a30eb36e0f825d68640e5f29358",
+      "selected": true,
+      "promptSha256": "31b9d7b992d039f0718cd55dadc47249ec7ef328e83712fa1bd64644210fbeac",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png",
+          "sha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/03-kneel-rest.png",
+      "sha256": "9fff6df06ab795d798fb638379c8a3e2c6cb5a6a19d7ad22f6efff9f7d749d90",
+      "selected": true,
+      "promptSha256": "f5adcb843e0abbfcc88bd5c4b9745e73a8c2d061fb4dca2d0acc0e73ca7d4791",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/03-kneel-rest-v2.png",
+          "sha256": "cedd4987e9933f8e573ae440731c3b1dc4a091d2374e4084a9250a4cd02b127e"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/04-prayer.png",
+      "sha256": "c1d2830e0757425a215d45acdf296702714283e50dbaeb05e7c2f7c12ab4c593",
+      "selected": true,
+      "promptSha256": "f600fcc72d8492d737ad2cbdcddcc762194ef8ad55deb137b847f2b43be5e742",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/04-prayer.png",
+      "sha256": "2312582567a4cd23f2db6f71b824145a9f15f8fa0d6ab650f64f9dc8cf12e6ce",
+      "selected": true,
+      "promptSha256": "9ba579da7b7996ec3d492cb8a0732aebc47e0db2243567cbdcc14a0946ea5bbc",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/04-prayer.png",
+          "sha256": "460a29d9c04afe1294c9f231d28ed1f2a9fd3f6d1bd50bc901ba555b17bdab19"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/05-forehead-prayer.png",
+      "sha256": "6e29772d2f3c7b4b49da5a7f6759100bd505d225a95af7ca503ef54f3ad6403c",
+      "selected": true,
+      "promptSha256": "6887312649fe6bedaf222019144979568e232beb1909a7258fa951667138d316",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/05-forehead-prayer.png",
+          "sha256": "206ae60b1cb0676fcbc6709cfef1e74e536a7cc6a09032bb82981052d5370295"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/05-forehead-prayer.png",
+      "sha256": "484353405d3d7cafca7ec11532c915f507459b875bc8a4716f5a38d6d88a9121",
+      "selected": true,
+      "promptSha256": "810a0155c77191256549fbf7bbe1c484146648d0f84909859cb0fd0dab725aed",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/05-forehead-prayer.png",
+          "sha256": "206ae60b1cb0676fcbc6709cfef1e74e536a7cc6a09032bb82981052d5370295"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/06-lean.png",
+      "sha256": "ecda752d1abfa87a83d68b15b5c707be661cbfeadacf71a581745743d7c0c65a",
+      "selected": true,
+      "promptSha256": "4dafe9dbd37b7e20250355dd5d18e3ba5519543cc9c40a26eb92d2340c7058b7",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/06-lean.png",
+          "sha256": "3c94f5d2a2f013fcacdb56e3543ea518b4aaa7e9fb847840b96f54e96c45f263"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/06-lean.png",
+      "sha256": "4b76fd1e800924f242898a06297fe3400f28361b2ebb79db210c8602db99ee7f",
+      "selected": true,
+      "promptSha256": "f447760c0f0e6875f8c8c505cc386c6440330bdff17ec2f84439d0fbd670db93",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/06-lean.png",
+          "sha256": "3c94f5d2a2f013fcacdb56e3543ea518b4aaa7e9fb847840b96f54e96c45f263"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/07-hands-floor.png",
+      "sha256": "f497b13af52a2e1b45300aa59ad0dcdccf0ff78f17687bfe615861e8db2c6a77",
+      "selected": false,
+      "promptSha256": "a416b509b7a4d9b8e6064538c111aa2e52191387e0fd229439042f297e612b83",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/07-hands-floor.png",
+          "sha256": "01d97bbf8d18015dee4e7448edd3b3856c20e1aa4ae154b450cf398b369f9b8e"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/07-hands-floor.png",
+      "sha256": "9976f4c3fe2291f974c23c6acfeecefc231b410b223b54ae43e035277a706139",
+      "selected": false,
+      "promptSha256": "f3b55a2eaf7ccbc18d856011c9297ede3341a7ca8c95db373b425633bec9ce6b",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/07-hands-floor.png",
+          "sha256": "01d97bbf8d18015dee4e7448edd3b3856c20e1aa4ae154b450cf398b369f9b8e"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/08-prostrate.png",
+      "sha256": "ff2ee260e0cd2aeddcc228df2b22bdcdbd78fc3cc5768d0278bce769cf917e25",
+      "selected": false,
+      "promptSha256": "90c4be286d9c33ce5067c39b03773388534eb91154ca00d2ac80abd6c6b73df0",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v2.png",
+          "sha256": "4b623ab625a0242517643fafe5980c3fb51046293ebdce300efc04d5d032c189"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/09-lift-head.png",
+      "sha256": "1baf83f5e17b0f083113a7ceb8950b79855e0d57cd18fa75a21de2a39a6d72a4",
+      "selected": false,
+      "promptSha256": "64322e1dbabe1c93dd553a6cf0ae87dc9a72d2e23eb86771b32d22d7e502d32c",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/09-lift-head.png",
+          "sha256": "ee8bd9f68c0a053bb35da61090623212971d5e6fc52dce1f2e3b36050e490ce7"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/09-lift-head.png",
+      "sha256": "3f01fbd8e118a8efa879483d6fcdea9007a6e676eb6a63b4fd6d3669df1cb272",
+      "selected": false,
+      "promptSha256": "fe55d6f9dac2eaef266ed3138941d87cc445fea0a20bfc338cf098bc40eb675a",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/09-lift-head.png",
+          "sha256": "ee8bd9f68c0a053bb35da61090623212971d5e6fc52dce1f2e3b36050e490ce7"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/10-push-up.png",
+      "sha256": "f7920d571210f8c003a693665cc3c18ab0b8e5724a20ce634b23a0ec7e16c1d4",
+      "selected": true,
+      "promptSha256": "84c1ce411019b0a35a19a714720366319eba88eefaa7409d72f0c3e5c388f526",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/10-push-up.png",
+          "sha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/10-push-up.png",
+      "sha256": "3a5f543ca6dc92e49320f3db5e731a6b84d59b368b95d2a07ed553548c16d0b7",
+      "selected": true,
+      "promptSha256": "c72ba62b5154d6e117b431388846910128a1c6f5d5274d2dae0837eeac5dfc78",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/10-push-up.png",
+          "sha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/11-kneel-return.png",
+      "sha256": "1acbfb83ed18360a8929dc7f713a76ac850c5bc9a20af439914824e476562f6c",
+      "selected": true,
+      "promptSha256": "452f960a8e6b1b64ae0d5ce8e5818f34404270eab198810998dcf35ce5fd4d9d",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/11-kneel-return.png",
+          "sha256": "279c8ed048dfb182f3a48390edab0fb1b1afeadaab62ced97b5084d11641b28d"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/11-kneel-return.png",
+      "sha256": "d390e07509dec9627080a1f11abb6df4b87e70b1448915309306b3d67936d259",
+      "selected": true,
+      "promptSha256": "c592b81b4cf274908f6620051211b0df082340ec3c232bf0600313bdd3738833",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/11-kneel-return.png",
+          "sha256": "279c8ed048dfb182f3a48390edab0fb1b1afeadaab62ced97b5084d11641b28d"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/12-rise-support.png",
+      "sha256": "bb85211a2e7f3e29ec7219d1d3f4b6971adf8780a05e21f18519a3d657bc6224",
+      "selected": true,
+      "promptSha256": "501ae32924a3931cf5dd671842f1159b390ef8c5bbd450cdbb9efe486bb50d66",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/12-rise-support.png",
+          "sha256": "53089e603cb5c18f757a6bec8a28aa1e0bdf7be9de02e49b8c6e2fbdbc15344a"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/12-rise-support.png",
+      "sha256": "2b21611ae670885f3a10385e02cd3ce0babf238983e5b193ce69c4077b0267f3",
+      "selected": true,
+      "promptSha256": "466fcf485945189a8fc88407e3554b69bfd57c109ad36b87fd536cadadf5843c",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/12-rise-support.png",
+          "sha256": "53089e603cb5c18f757a6bec8a28aa1e0bdf7be9de02e49b8c6e2fbdbc15344a"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/13-rise-half-kneel.png",
+      "sha256": "219128b120a76827d2cd9aa71f8c571479477ca6d31fe932fc42e567f2e81a77",
+      "selected": true,
+      "promptSha256": "a04f8bb782c17f4f4ed7ba087663b83b2483bfc918eb6c5c262ebe3b8c07b109",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/13-rise-half-kneel.png",
+          "sha256": "95c8d200dbff063f47045dceda8d6bc9d1abcda4e274ad8fa91946b250044676"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/13-rise-half-kneel.png",
+      "sha256": "2a8e19c189f67e9b6ef35dc25f506835e7b8d5a487bb1c48fad9b5e48ec83adc",
+      "selected": true,
+      "promptSha256": "4b4d29f6a4cf83d420441eb7df44a29e71f6a41d34e9ad3f08deb0da1fc24680",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/13-rise-half-kneel.png",
+          "sha256": "95c8d200dbff063f47045dceda8d6bc9d1abcda4e274ad8fa91946b250044676"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/22-rise-weight-transfer.png",
+      "sha256": "764e7c74f38579ee781a41f218ed9db39a27dfbac4540677671222ba59d1ebc0",
+      "selected": true,
+      "promptSha256": "feba469b8f3cbe3188649c020a50856659c9fefbd4b00e24baaddcc615c408a4",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/22-rise-weight-transfer-v2.png",
+          "sha256": "15cf9872546d321e415e4654fc9cee9de8d8212f3cfcbf665e2cc1b6e5a2c31c"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/22-rise-weight-transfer.png",
+      "sha256": "99cb342543cc7a726bb6f9226d677ddfee9cc1b7e0d36d1b76f6a8d8968b3da5",
+      "selected": true,
+      "promptSha256": "91d8041159c09c0b787511e6f7ad1648079f613eb9a716e4613d1078536892b6",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/22-rise-weight-transfer-v2.png",
+          "sha256": "15cf9872546d321e415e4654fc9cee9de8d8212f3cfcbf665e2cc1b6e5a2c31c"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/14-rise-extend.png",
+      "sha256": "4d3bc3d50c379c84f045b55d2e7b6d4798c8840264ad42f2f91bd479bee6da63",
+      "selected": true,
+      "promptSha256": "ccaf82b0b037d7f6ae36e5a36287abb1f5cf5e3deb85f2eb2074edade4442bdf",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/14-rise-extend-v3.png",
+          "sha256": "731131dd9d25bc89e4b8f754db3893d0437ec8a6796dd21df3aaa3930e8eb61b"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/14-rise-extend.png",
+      "sha256": "5402020bf80beb5f3e4fe614e6d80a79261164d22d389254a7bc0b88ed88c3b9",
+      "selected": true,
+      "promptSha256": "2bde9abc2cbb73a53443eef0b38d66fb2260d5a86d30830df94660e325622e2a",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/14-rise-extend-v3.png",
+          "sha256": "731131dd9d25bc89e4b8f754db3893d0437ec8a6796dd21df3aaa3930e8eb61b"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "woman/01-knee-bend.png",
+      "sha256": "5561bee714be97973cdf4d8ef507e6d2e4f86c76bb95ba9285d56405de1c9544",
+      "selected": true,
+      "promptSha256": "89344891695ae5a3ca92eda026c0f7dda12e04c20b73a0f6b3d05f27f33abf5b",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/01-knee-bend.png",
+          "sha256": "d19f23a958ff3811c427e1a20cd58a469631e4eb61fc9082c0600f46a54a09fe"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/woman/00-neutral.png",
+          "sha256": "7abdd0ad80c317529346a44b98bb798d49672450035a9f0fc7f7e45b5c2da99b"
+        }
+      ]
+    },
+    {
+      "manifest": "variant-generation.json",
+      "output": "granny/01-knee-bend.png",
+      "sha256": "b22cc905d1946d0e9c4f7285c1547a8ceae6cee44cc168c3372954225a45c27b",
+      "selected": true,
+      "promptSha256": "0a9cfa81b332e572264cb36e273ead743230721c3224a2e5fd47b2393fe3ca8e",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/01-knee-bend.png",
+          "sha256": "d19f23a958ff3811c427e1a20cd58a469631e4eb61fc9082c0600f46a54a09fe"
+        },
+        {
+          "source": "artwork/animation-v3/variants-v1/granny/00-neutral.png",
+          "sha256": "abbf83bed87a80a76493c973fdfb0e40261d329141ce4666226079f2691aec42"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "man/08-prostrate-v3.png",
+      "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89",
+      "selected": true,
+      "promptSha256": "a4141731f62e355a12cd7ecfc4812f697a14f9b9ca1bca9ada7d65e773d28920",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/10-push-up.png",
+          "sha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "man/07-hands-floor-v2.png",
+      "sha256": "b7ec57fd66fd940960ba64013e7e195827783efbcf96849a69ca07bb7264ebaa",
+      "selected": false,
+      "promptSha256": "a5f0c4d27050ecf63b93a4e21e079a69c23349914f5d5e038b7ac8f1897faa8d",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/10-push-up.png",
+          "sha256": "3443f5fdc945d47057b9805cd3bafbd51563e6d9ca8e63fe1cbd1e24096ebca3"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "man/09-lift-head-v2.png",
+      "sha256": "1bbac246152b4e43275076209399b4a1fe582219a3580dbc475921e24f104c23",
+      "selected": true,
+      "promptSha256": "ba7a5cac2255c283f1ab927cead31b5dfa67e6cbc3ece2bc8274a215e738a12c",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v3.png",
+          "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "woman/08-prostrate-v2.png",
+      "sha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872",
+      "selected": true,
+      "promptSha256": "7fc55cb7159c0dc94343511914fe92d30f0474e293a80138ad632858b3ac1d6e",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/woman/10-push-up.png",
+          "sha256": "f7920d571210f8c003a693665cc3c18ab0b8e5724a20ce634b23a0ec7e16c1d4"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v3.png",
+          "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "granny/08-prostrate-v2.png",
+      "sha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c",
+      "selected": true,
+      "promptSha256": "cd297cd2de7cee6570f5362afd2c2e45a0bf762c3fb39f22050d7625c97ec528",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/10-push-up.png",
+          "sha256": "3a5f543ca6dc92e49320f3db5e731a6b84d59b368b95d2a07ed553548c16d0b7"
+        },
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/08-prostrate-v3.png",
+          "sha256": "e7edfbbc4ba0f56cce4c1dd5beaa41c90ca2225d5f920ab21b9211a3cd3ebd89"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "man/07-hands-floor-v3.png",
+      "sha256": "176b65676cf1fcb582317b87d34c3150d39d144ab6a35ced422a5a8bef3390a4",
+      "selected": true,
+      "promptSha256": "45ca2e63f31c15884264c6b26d9c0f94821af779a36fe6bd4a9e69370b9de245",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/man/07-hands-floor-v2.png",
+          "sha256": "b7ec57fd66fd940960ba64013e7e195827783efbcf96849a69ca07bb7264ebaa"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "woman/07-hands-floor-v2.png",
+      "sha256": "593bf6a5e605ef64d474ef288642360624379503a475453221852b20bed6eeab",
+      "selected": true,
+      "promptSha256": "e2589288838b9d438f8da6a8f078ddd9227391aa85f85b89a1664d4d3d3cda6a",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/woman/08-prostrate-v2.png",
+          "sha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "woman/09-lift-head-v2.png",
+      "sha256": "6656ec986d8bfae131732361d683377cdf3e51c348ee242ac641410fd767029f",
+      "selected": true,
+      "promptSha256": "a4486284a368917cb33043a73673c2c5e097fce6e69db10db32329fc90b5bff4",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/woman/08-prostrate-v2.png",
+          "sha256": "4e2cec1dd064bf34e9706f10a7c13126c38d038314c1f0e9a2310d0a74321872"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "granny/07-hands-floor-v2.png",
+      "sha256": "468eda48c65554300496dc90c2aef2f4e7b2f893668d78537b25d398fda77fc5",
+      "selected": true,
+      "promptSha256": "8da5560f89cef2fdfe1e2fecd7e4755bfb5e0fd378b76b48cb1b8e9b8980c81c",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/08-prostrate-v2.png",
+          "sha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "granny/09-lift-head-v2.png",
+      "sha256": "b9ced02d1d26d371187083bdfca1a7a4b10692ab1330d9b3c050d34afd9b63fb",
+      "selected": true,
+      "promptSha256": "105d66676a9e3f557953725517e8127995f86d58ea43da47fc8011c3f5c73da4",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/08-prostrate-v2.png",
+          "sha256": "fc2719793926a24cfa1264b0879e2a7ff528254ac4fbca4f16f00e5cd1ae2a9c"
+        }
+      ]
+    },
+    {
+      "manifest": "floor-contact-refinement-generation.json",
+      "output": "granny/07-hands-floor-v3.png",
+      "sha256": "ea75c8471b06af47bd94820e9e30383a58c0d8886a48fc82f76107f7f6812a94",
+      "selected": false,
+      "promptSha256": "5c55accd94ec63aa8444b44b46850a9fcb7f85dcc2aced2fdc47a1f4d99a202c",
+      "references": [
+        {
+          "source": "artwork/animation-v3/bow-petal-v1/granny/10-push-up.png",
+          "sha256": "3a5f543ca6dc92e49320f3db5e731a6b84d59b368b95d2a07ed553548c16d0b7"
+        }
+      ]
+    }
+  ]
+}

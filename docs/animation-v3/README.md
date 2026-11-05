@@ -1,26 +1,27 @@
 # Kết quả triển khai nền tảng và kiểm mẫu hoạt ảnh
 
-Ngày 04/11/2026. Nhánh `codex/animation-v3`, bản chuẩn trước nâng cấp `628098d`.
+Tiến độ 05/11/2026. Nhánh `codex/animation-v3`, bản chuẩn trước nâng cấp `628098d`.
 
 ## Trạng thái theo kế hoạch
 
 | Chặng | Trạng thái thực tế |
 | --- | --- |
 | 0 | Đã khóa bản chuẩn, dựng công cụ xem chậm, ghi video nguồn hiện tại và lập danh sách lỗi |
-| 1 | Nam có đủ tám hướng đi riêng, bảy neutral mới để quay và nối ngồi nhìn lên bàn thờ. Nữ/nâu có 24 pose chuyển tiếp riêng mỗi người, đo gót độc lập. Còn thiếu gait nữ/nâu, clip bước đầu/khép chân ở mọi hướng và đo chân trụ mọi đường. [Đợt mới](complete-movement-v1/README.md) |
-| 2 | Cả ba y phục có 23 tư thế dâng hương riêng, lớp tay và mốc vào lư. Đã kiểm ba khách với timeline4, khách vào giữa lễ, lỗi riêng ảnh chuyển tiếp nữ và đổi viewport thật giữa lễ. Chưa nghiệm thu toàn chặng do gait nữ/nâu và các phần còn mở ở chặng 1. [Báo cáo mới](complete-movement-v1/README.md) |
-| 3 | Đã bắt đầu: mỗi y phục có 3 pose chuông và 2 pose hoa; đo lại tiếp xúc bộ cũ. Cánh sen/lạy còn dùng nguồn trước, chuyển tiếp tay mới và hướng đi còn thiếu. Chưa nghiệm thu toàn chặng |
+| 1 | Ba y phục có tám hướng đi riêng; nữ/nâu có64 bước+8neutral mỗi người. Mỗi y phục có32 gather/close cho hai chân ở tám hướng; nam thêm16 passing gọn. Đứng/ngồi và quay dùng nguồn riêng. Còn nghiệm thu chân trụ liên tục và chất lượng chuyển trọng lượng trên thiết bị thật. [Đợt mới](gaits-closes-bow-petal/README.md) |
+| 2 | Cả ba y phục có23 tư thế dâng hương riêng, lớp tay và mốc vào lư; movement4 thêm nhịp khép chân420ms mỗi chiều, timeline4 giữ diễn xuất tại lư. Kiểm nhiều khách, khách vào muộn và đổi viewport thật giữa lễ. Chưa nghiệm thu phát hành toàn chặng |
+| 3 | Đã nối24 ô lạy/cánh sen riêng mỗi y phục, ba lạy đúng chu kỳ, thả sen theo điểm tay riêng. Hoa/chuông tiếp tục dùng bộ đã có. Còn ma trận24 khách/va chạm và nghiệm thu đầy đủ các nhịp hoa/chuông; chưa đánh dấu toàn chặng hoàn tất |
 | 4–6 | Chưa triển khai phần nâng cấp mới; tiếp tục sau các phạm vi còn mở ở chặng 1–3 |
 
 Không coi bộ kiểm tra code đạt là đã hoàn tất nâng cấp hình ảnh. Chánh điện đã dùng nguồn mới
-cho dâng hương cả ba y phục, hoa/chuông, đứng/ngồi ba y phục và tám hướng đi nam.
-Chu kỳ đi nữ/nâu, clip bắt đầu/dừng ở mọi góc, cánh sen và lạy vẫn cần nguồn bổ sung.
+cho dâng hương, hoa/chuông, đứng/ngồi và tám hướng đi ba y phục, cùng khép chân, lạy/cánh sen.
+Những phạm vi đã nối không đồng nghĩa đã nghiệm thu mọi chuyển trọng lượng, va chạm và hiệu năng phòng đông.
 Rig thử không tham gia render sản phẩm.
 
-Đợt mới nhất bổ sung 93 tư thế mới được chọn, thêm 833.462 byte nén/18 MiB RGBA theo kích thước pixel.
-Cả 12 texture animation-v3 dùng 44,625 MiB theo pixel; đây không phải bộ nhớ trình duyệt thực.
-Typecheck, 101 test, build và audit v1 đạt. Xem [báo cáo hướng đi/chuyển tiếp](complete-movement-v1/README.md)
-để biết kiểm mobile bằng iframe thật và giới hạn còn lại. [Báo cáo mở rộng trước](movement-variants-v1/README.md)
+Đợt mới nhất thêm tám atlas/328 ô được chọn (323 ảnh mới,5neutral tái dùng).
+Cả20 texture animation-v3 dùng79,21875 MiB theo pixel; đây không phải bộ nhớ trình duyệt thực.
+Kiểm tra và bằng chứng xem tại [báo cáo gait/khép chân/lạy–sen](gaits-closes-bow-petal/README.md).
+[Báo cáo hướng đi/chuyển tiếp](complete-movement-v1/README.md) ghi mốc101 test trước đợt này.
+[Báo cáo mở rộng trước](movement-variants-v1/README.md)
 và [báo cáo dâng hương nam](incense-v1/README.md) là các mốc trước.
 [Báo cáo tinh chỉnh chuyển tiếp](transition-refinement/README.md), [bản 17 tư thế](transitions/README.md)
 và các bằng chứng phía dưới là lịch sử những đợt trước.
@@ -29,7 +30,7 @@ và các bằng chứng phía dưới là lịch sử những đợt trước.
 
 Phần này và bằng chứng đợt đầu bên dưới là lịch sử trước khi tích hợp v2.
 Quy tắc của đợt đó nằm trong [báo cáo dâng hương](incense-v1/README.md).
-Hợp đồng hiện hành entry4/timeline3/4 được ghi trong [báo cáo mới](complete-movement-v1/README.md).
+Hợp đồng mới entry5/movement4 và timeline3/4 được ghi trong [báo cáo mới](gaits-closes-bow-petal/README.md).
 
 - `src/shared/ritualSchedule.ts`: lịch nghi lễ v1, thời lượng clip và mốc tương tác;
   server không còn lấy thời gian từ manifest artwork.
@@ -129,8 +130,8 @@ Không đánh dấu key pose đơn là clip đạt.
 
 ## Công việc tiếp theo đã xác định
 
-Hoàn thiện góc trước/chéo, quay/dừng các hướng chưa có nguồn và chuyển tiếp đứng/ngồi nữ–áo nâu;
-bổ sung chuyển tiếp tay hoa/chuông, bộ cánh sen/lạy và video mobile.
+Tiếp tục nghiệm thu chuyển trọng lượng ở bước đầu/quay, nâng chuyển tiếp tay hoa/chuông và xử lý các đường giao nhau
+nếu quan sát thấy xuyên người; nguồn đi/khép chân/lạy–sen mới đã có trong web.
 Chạy lại phòng 24 khách/4 nghi lễ với texture mới và đo trên thiết bị thật trước khi phát hành.
 
 Đợt này lưu local. Không đẩy GitHub hoặc triển khai hosting.

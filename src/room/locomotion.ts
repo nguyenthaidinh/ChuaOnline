@@ -1,6 +1,7 @@
 import { sampleRoute, type FloorPoint, type Route } from './motion.ts';
+import { ARRIVAL_CLOSE_MS, WALK_STRIDE_METERS } from '../shared/movementSchedule.ts';
 
-export type LocomotionStage = 'start' | 'cruise' | 'stop';
+export type LocomotionStage = 'start' | 'cruise' | 'stop' | 'close';
 export type Heading8 = 'rear' | 'rearRight' | 'right' | 'frontRight' |
   'front' | 'frontLeft' | 'left' | 'rearLeft';
 
@@ -14,6 +15,9 @@ export interface LocomotionSample {
   progress: number;
   stage: LocomotionStage;
   stageProgress: number;
+  /** Present only in movement4: align the last stride with its authored supporting foot. */
+  gaitPhase?: number;
+  supportFoot?: 'right' | 'left';
 }
 
 const ACCELERATION_MS = 240;
@@ -105,4 +109,27 @@ export function sampleLocomotion(route: Route, elapsedMs: number, durationMs: nu
   const point = atDistance(route, distance);
   const tangent = directionAt(route, distance, point);
   return { point, tangent, heading: headingForDirection(tangent), distance, progress, stage, stageProgress };
+}
+
+/** Movement4 reaches the endpoint first, then closes its feet without sliding the world root. */
+export function sampleArrivalLocomotion(route: Route, elapsedMs: number, durationMs: number): LocomotionSample {
+  if (!Number.isFinite(durationMs) || durationMs < ARRIVAL_CLOSE_MS) {
+    throw new RangeError('Arrival movement requires the complete closing duration.');
+  }
+  const walkMs = durationMs - ARRIVAL_CLOSE_MS;
+  const time = Number.isNaN(elapsedMs) ? 0 : Math.max(0, Math.min(durationMs, elapsedMs));
+  // Passing poses (.25/.75) put the planted foot under the hip before the other foot closes.
+  const targetCycles = Math.max(.25, Math.ceil((route.length/WALK_STRIDE_METERS-.25)*2-1e-9)/2+.25);
+  const supportFoot = Math.round((targetCycles-.25)*2) % 2 === 0 ? 'right' : 'left';
+  const sample = sampleLocomotion(route, Math.min(time, walkMs), walkMs);
+  if (time >= walkMs) return {...sample, stage:'close', stageProgress:(time-walkMs)/ARRIVAL_CLOSE_MS,
+    gaitPhase:targetCycles % 1, supportFoot};
+  let cycles = sample.distance / WALK_STRIDE_METERS;
+  if (sample.stage === 'stop') {
+    const deceleration = DECELERATION_MS * Math.min(1, walkMs / (ACCELERATION_MS + DECELERATION_MS));
+    const startCycles = sampleLocomotion(route, walkMs-deceleration, walkMs).distance / WALK_STRIDE_METERS;
+    const progress = .5 - .5 * Math.cos(Math.PI * sample.stageProgress);
+    cycles = startCycles + (targetCycles-startCycles) * progress;
+  }
+  return {...sample, gaitPhase:cycles % 1, supportFoot};
 }

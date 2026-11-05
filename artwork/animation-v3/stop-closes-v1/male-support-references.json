@@ -1,0 +1,18 @@
+{
+  "rear/right": "artwork/animation-v3/directions-v2/rear/02-passing.png",
+  "rear/left": "artwork/animation-v3/directions-v2/rear/06-opposite-passing-v2.png",
+  "rearRight/right": "artwork/animation-v3/walk-v1/03-passing.png",
+  "rearRight/left": "artwork/animation-v3/walk-v1/09-opposite-passing.png",
+  "right/right": "artwork/animation-v3/directions-v1/right/02-passing.png",
+  "right/left": "artwork/animation-v3/directions-v1/right/06-opposite-passing.png",
+  "frontRight/right": "artwork/animation-v3/directions-v2/frontRight/02-passing.png",
+  "frontRight/left": "artwork/animation-v3/directions-v2/frontRight/06-opposite-passing.png",
+  "front/right": "artwork/animation-v3/directions-v2/front/02-passing.png",
+  "front/left": "artwork/animation-v3/directions-v2/front/06-opposite-passing.png",
+  "frontLeft/right": "artwork/animation-v3/directions-v2/frontLeft/02-passing.png",
+  "frontLeft/left": "artwork/animation-v3/directions-v2/frontLeft/06-opposite-passing.png",
+  "left/right": "artwork/animation-v3/directions-v1/left/02-passing.png",
+  "left/left": "artwork/animation-v3/directions-v1/left/06-opposite-passing.png",
+  "rearLeft/right": "artwork/animation-v3/directions-v2/rearLeft/02-passing-v2.png",
+  "rearLeft/left": "artwork/animation-v3/directions-v2/rearLeft/06-opposite-passing-v2.png"
+}
