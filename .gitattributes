@@ -6,3 +6,7 @@ artwork/animation-v3/bow-petal-v1/**/*.json -text whitespace=trailing-space,spac
 # Preserve exact upstream license bytes, including original trailing spaces.
 artwork/fonts-v1/OFL.txt -text -whitespace
 public/assets/fonts/OFL.txt -text -whitespace
+artwork/animation-v3/transitions-v2/review.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+artwork/animation-v3/transitions-v2/sequences.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+artwork/animation-v3/variant-transitions-v1/selection.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+artwork/animation-v3/variant-transitions-v1/contacts.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
