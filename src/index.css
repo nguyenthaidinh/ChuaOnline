@@ -58,3 +58,10 @@
 
 /* Canvas intrinsic dimensions must not determine the actor footprint. */
 canvas.actor-sprite{display:block;width:100%;height:100%}
+
+/* Keep animated mobile effects off costly per-element blur surfaces. */
+@media (max-width:767px), (pointer:coarse) {
+ .actor-shadow,.fixed-cushion,.incense-smoke i,.shrine-smoke i,.shrine-gift-image,.shrine-petals img{filter:none}
+ .temple-dialog::backdrop{backdrop-filter:none;background:#100b08b3}
+ .blessing-voice .ritual-button{backdrop-filter:none}
+}

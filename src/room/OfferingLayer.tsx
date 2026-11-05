@@ -59,13 +59,15 @@ function ResultVisual({item,candidates,layout,offset,reduced,extensionReady}:{it
   const{item,candidates,layout,offset,reduced,extensionReady}=current.current;
   if(!root.current||!wisps.current||!petals.current)return false;
   const now=localNow+offset,age=now-item.placedAt;
+  const next=nextOfferingDraw(item,candidates,now,reduced);
+  const visible=visibleOfferingIds(candidates,now).has(item.id);
+  root.current.style.display=visible?'block':'none';
+  root.current.dataset.placed=String(visible);
+  if(!visible) return typeof next==='number'?next-offset:next;
   const anchor=item.kind==='petal'&&item.artworkVersion===4
     ?petalEmissionAnchor(item.slot,layout,item.appearance??'man',extensionReady)
     :stationAnchor(item.slot,layout,item.kind,item.appearance,item.artworkVersion);
   const floor=altarPoint(item.slot,layout);
-  const visible=visibleOfferingIds(candidates,now).has(item.id);
-  root.current.style.display=visible?'block':'none';
-  root.current.dataset.placed=String(visible);
   const incense=incenseWorldSize(item.slot,layout);
   root.current.style.left=`${anchor.x}%`;root.current.style.top=`${anchor.y+(item.kind==='incense'?incense.insertion:0)}%`;root.current.style.zIndex=String(Math.round(floor.y*100)+3);
   const authoredLotus=item.kind==='lotus'&&item.artworkVersion!==undefined&&item.artworkVersion>=3;
@@ -75,7 +77,7 @@ function ResultVisual({item,candidates,layout,offset,reduced,extensionReady}:{it
   root.current.style.setProperty('--incense-turn',`${pileAngle*(reduced?1:Math.min(1,Math.max(0,age)/250))}deg`);
   root.current.style.opacity=String(Math.min(1,(item.expiresAt-now)/1200));
   wisps.current.style.display=reduced||item.kind!=='incense'?'none':'block';
-  for(const[w,child]of Array.from(wisps.current.children).entries()) {
+  if(!reduced && item.kind==='incense') for(const[w,child]of Array.from(wisps.current.children).entries()) {
    const element=child as HTMLElement;const p=((Math.max(0,age)/2800+w/3)%1);
    element.style.transform=`translate(${Math.sin(p*5+w)*4}px,${-p*25}px) scale(${0.5+p})`;element.style.opacity=String((1-p)*0.18);
   }
@@ -88,7 +90,6 @@ function ResultVisual({item,candidates,layout,offset,reduced,extensionReady}:{it
     element.style.transform=`translate(-50%,-50%) translate(${(i-3.5)*5*p+Math.sin(p*Math.PI)*Math.sin(i*2)*3}px,${p*p*fall-Math.sin(p*Math.PI)*4}px) rotate(${i*42+p*70}deg)`;
    }else element.style.transform=`translate(${(i-3.5)*3*p}px,${p*p*fall}px) rotate(${i*42+p*35}deg)`;
   }
-  const next=nextOfferingDraw(item,candidates,now,reduced);
   return typeof next==='number'?next-offset:next;
  }),[item.id,layout,reduced,candidates,offset,extensionReady]);
  return <div ref={root} className={`placed-offering placed-${item.kind}`} data-artwork-version={item.artworkVersion} data-offering-id={item.id} data-action-id={item.actionId} data-effect={item.kind}>

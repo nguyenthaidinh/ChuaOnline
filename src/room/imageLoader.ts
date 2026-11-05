@@ -1,3 +1,4 @@
+import { mobileArtworkUrl, useMobileArtwork } from './mobileArtwork.ts';
 /** A bounded, deduplicated download/decode queue shared by scene and character art. */
 export class ImageQueue {
   private pending = new Map<string, Promise<void>>();
@@ -35,7 +36,7 @@ export type DecodedSprite = HTMLImageElement | ImageBitmap;
 const decodedSources = new Map<string, DecodedSprite>();
 export const decodedImage = (url: string) => decodedSources.get(url);
 
-function loadImage(url: string): Promise<void> {
+function loadImage(url: string, sourceUrl: string = url): Promise<void> {
   return new Promise((resolve, reject) => {
     const image = new Image();
     let settled = false;
@@ -61,8 +62,15 @@ function loadImage(url: string): Promise<void> {
       finish(undefined, source);
     }, () => finish(new Error(`Image decode: ${url}`))); };
     image.onerror = () => finish(new Error(`Image unavailable: ${url}`));
-    image.src = url;
+    image.src = sourceUrl;
   });
 }
-const images = new ImageQueue(loadImage);
+const images = new ImageQueue(async url => {
+  const selected = mobileArtworkUrl(url, useMobileArtwork());
+  try { await loadImage(url, selected); }
+  catch (error) {
+    if (selected === url) throw error;
+    await loadImage(url); // Keep the existing renderer usable if a mobile asset fails.
+  }
+}, 2);
 export const decodeImage = (url: string) => images.request(url);
