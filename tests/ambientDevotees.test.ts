@@ -2,6 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { ambientDevotees, createAmbientCrowd, AMBIENT_DEVOTEE_MIN, AMBIENT_DEVOTEE_MAX } from '../src/room/ambientDevotees.ts';
 import { TempleRoom } from '../server/room.ts';
+import { logicalSeat } from '../src/room/motion.ts';
+import { seatPoint } from '../src/room/layout.ts';
 import { ROOM_CAPACITY } from '../src/room/protocol.ts';
 
 test('quiet rooms have a stable seated crowd with three robes and a clear centre aisle', () => {
@@ -11,7 +13,7 @@ test('quiet rooms have a stable seated crowd with three robes and a clear centre
   assert.equal(new Set(people.map(person => person.seat)).size, 12);
   for (const person of people) {
     assert.ok(person.seat >= 6 && person.seat < ROOM_CAPACITY);
-    assert.ok(person.seat % 6 < 4, 'Keep the two centre seats and the front row free.');
+    assert.ok(Math.abs(logicalSeat(person.seat).x) >= 1.2, 'Keep the centre aisle clear.');
   }
   for (const appearance of ['man', 'woman', 'granny']) {
     assert.equal(people.filter(person => person.appearance === appearance).length, 4);
@@ -73,4 +75,22 @@ test('decorative occupants never become server members or consume seats reserved
   }
   assert.equal(ambientDevotees(room.snapshot().people, crowd).length, 0);
   assert.equal(room.snapshot().people.length, ROOM_CAPACITY);
+});
+
+
+test('seating fills horizontal rows with spacing and stays inside both viewports at capacity', () => {
+  const people = ambientDevotees([], createAmbientCrowd(() => .999));
+  assert.deepEqual(people.map(person => Math.floor(person.seat / 6)), [1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2]);
+  for (const layout of ['desktop', 'mobile'] as const) {
+    for (let row = 0; row < ROOM_CAPACITY / 6; row++) {
+      const points = Array.from({ length: 6 }, (_, column) => seatPoint(row * 6 + column, layout)).sort((a, b) => a.x - b.x);
+      for (const point of points) {
+        assert.ok(point.x > 6 && point.x < 94, `${layout}: horizontal margin`);
+        assert.ok(point.y > 65 && point.y < 94, `${layout}: floor bounds`);
+        assert.equal(point.y, points[0].y);
+      }
+      for (let i = 1; i < points.length; i++) assert.ok(points[i].x - points[i - 1].x >= 7, `${layout}: seat spacing`);
+      if (row > 0) assert.ok(points[0].y - seatPoint((row - 1) * 6, layout).y > 5.4, `${layout}: row spacing`);
+    }
+  }
 });

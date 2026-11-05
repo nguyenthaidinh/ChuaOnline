@@ -13,6 +13,7 @@ interface NarrationRequest {
 export class SoundEngine {
   private context: AudioContext | null = null;
   private master: GainNode | null = null;
+  private narrationGain: GainNode | null = null;
   private music: HTMLAudioElement | null = null;
   private voices: OscillatorNode[] = [];
   private volume = 0.4;
@@ -35,6 +36,10 @@ export class SoundEngine {
       this.master = this.context.createGain();
       this.master.gain.value = this.volume;
       this.master.connect(this.context.destination);
+      // Give speech its own level without raising music or ritual effects.
+      this.narrationGain = this.context.createGain();
+      this.narrationGain.gain.value = Math.min(1, this.volume * 1.5);
+      this.narrationGain.connect(this.context.destination);
     }
     if (this.context.state === 'suspended') await this.context.resume();
     if (this.context.state !== 'running') throw new Error('audio-blocked');
@@ -63,6 +68,7 @@ export class SoundEngine {
     this.volume = Math.max(0, Math.min(1, value));
     this.applyMusicVolume();
     if (this.master) this.master.gain.value = this.volume;
+    if (this.narrationGain) this.narrationGain.gain.value = Math.min(1, this.volume * 1.5);
     if (this.volume === 0) this.stopNarration();
   }
   private applyMusicVolume() {
@@ -116,7 +122,7 @@ export class SoundEngine {
         if (generation !== this.narrationGeneration) return 'cancelled';
         const source = context.createBufferSource();
         source.buffer = buffer;
-        source.connect(this.master!);
+        source.connect(this.narrationGain!);
         request.source = source;
         source.onended = () => {
           source.disconnect();
@@ -176,6 +182,7 @@ export class SoundEngine {
     if (this.music) { this.music.removeAttribute('src'); this.music.load(); this.music = null; }
     const context = this.context; this.context = null;
     this.master?.disconnect(); this.master = null;
+    this.narrationGain?.disconnect(); this.narrationGain = null;
     if (context) void context.close().catch(() => {});
   }
 }

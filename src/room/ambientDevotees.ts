@@ -14,8 +14,8 @@ export interface AmbientCrowd {
 export const AMBIENT_DEVOTEE_MIN = 8;
 export const AMBIENT_DEVOTEE_MAX = 12;
 
-// Three rows on either side of the aisle. Keep the front row for visitors.
-const SEATS = [6, 7, 8, 9, 12, 13, 14, 15, 18, 19, 20, 21] as const;
+// Fill complete horizontal rows, keeping the front row available for visitors.
+const SEATS = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] as const;
 const APPEARANCES: readonly Appearance[] = ['man', 'woman', 'granny'];
 const NAMES: Record<Appearance, readonly string[]> = {
   man: ['Minh Tâm', 'Thiện An', 'Quang Minh', 'Phước Đức', 'Tuệ Minh', 'Minh Tuệ', 'Hải An', 'Đức Hòa', 'Thanh Sơn', 'Văn Thiện', 'Tâm Minh', 'Phước Hòa'],

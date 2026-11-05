@@ -2,6 +2,7 @@ import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 're
 import { BLESSINGS, BlessingDeck, blessingTitle, blessingAudio } from '../data/blessings';
 import type { SoundEngine } from '../services/soundEngine';
 import { Icon } from '../room/Icon';
+import './blessing-discovery.css';
 
 export interface BlessingDialogHandle {
   open: () => void;
@@ -98,5 +99,13 @@ export const BlessingDialog = forwardRef<BlessingDialogHandle, { sound: SoundEng
     <button className="another-blessing" onClick={next}>
       Nhận lời chúc khác <span aria-hidden="true">↻</span>
     </button>
+    <aside className="blessing-discovery" aria-labelledby="blessing-discovery-title">
+      <span className="blessing-discovery-brand">CÙNG SỐNG THUẬN</span>
+      <h3 id="blessing-discovery-title">Một thẻ xăm, một điều để ngẫm</h3>
+      <p>Khám phá Bách Xăm cùng những lời diễn giải để suy ngẫm. Còn có đọc và nghe mỗi ngày, lịch âm dương, phong thủy và góc An Nhiên của riêng bạn.</p>
+      <a href="https://dailywisdom.itcctv-soft.com/#bach-xam" target="_blank" rel="noopener noreferrer" onClick={stop}>
+        Khám phá Sống Thuận <Icon name="arrow" />
+      </a>
+    </aside>
   </dialog>;
 });

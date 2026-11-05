@@ -1,0 +1,39 @@
+.song-thuan-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+  min-height: 44px;
+  padding: 6px 14px;
+  border: 1px solid var(--shell-line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--shell-gold);
+  text-align: left;
+}
+.song-thuan-trigger:hover { background: #b58b4c15; border-color: #d8b77c55; }
+.song-thuan-trigger-copy { display: flex; flex-direction: column; gap: 3px; }
+.song-thuan-trigger strong { font-size: 12px; font-weight: 600; }
+.song-thuan-trigger small { color: var(--shell-muted); font-size: 10px; }
+.song-thuan-trigger svg, .song-thuan-cta svg { width: 16px; height: 16px; flex-shrink: 0; }
+.temple-dialog.song-thuan-dialog { width: min(520px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; }
+.song-thuan-content { position: relative; padding: 36px 30px 24px; }
+.song-thuan-dialog h2 { margin-bottom: 10px; }
+.song-thuan-tagline { color: #dfc084; font-size: 14px; line-height: 1.6; margin: 0 0 18px; }
+.song-thuan-features { display: grid; gap: 16px; list-style: none; padding: 20px 0; margin: 18px 0 22px; border-block: 1px solid #d8b77c26; }
+.song-thuan-features li { display: grid; gap: 5px; }
+.song-thuan-features strong { color: #e7d5b7; font-size: 13px; font-weight: 600; }
+.song-thuan-features span { color: #b7a58a; font-size: 13px; line-height: 1.65; }
+.song-thuan-cta { display: flex; align-items: center; justify-content: center; gap: 14px; min-height: 46px; padding: 10px 16px; border-radius: 8px; background: #d9c397; color: #382a1b; font-size: 14px; font-weight: 600; text-decoration: none; }
+.song-thuan-cta:hover { background: #e5d0a8; }
+.song-thuan-note { margin: 12px 0 0; text-align: center; color: #b7a58a; font-size: 11px; line-height: 1.6; }
+@media (min-width: 768px) and (max-width: 1000px) {
+  .song-thuan-trigger small { display: none; }
+  .song-thuan-trigger { gap: 8px; padding-inline: 10px; }
+}
+@media (max-width: 767px) {
+  .sanctuary-header:has(.song-thuan-trigger) { height: auto; min-height: 64px; flex-wrap: wrap; row-gap: 0; padding-top: 10px; }
+  .song-thuan-trigger { order: 3; width: 100%; margin: 10px 0; min-height: 40px; padding: 8px 12px; justify-content: space-between; }
+  .song-thuan-trigger-copy { flex-direction: row; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; }
+  .song-thuan-content { padding: 34px 22px 22px; }
+}

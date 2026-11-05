@@ -15,18 +15,23 @@ function setup(){
   const sources:VoiceSource[]=[];
   const music={src:'',loop:false,preload:'',volume:1,play:async()=>{},pause(){},load(){},removeAttribute(){}};
   const gain={gain:{value:1},connect(){},disconnect(){}};
-  const context={state:'running',destination:{},resume:async()=>{},close:async()=>{},createGain:()=>gain,
+  const voiceGain={gain:{value:1},connect(){},disconnect(){}};
+  let gainCount=0;
+  const context={state:'running',destination:{},resume:async()=>{},close:async()=>{},createGain:()=>gainCount++ === 0 ? gain : voiceGain,
     decodeAudioData:async()=>({duration:6}),createBufferSource:()=>{const source=new VoiceSource();sources.push(source);return source;}};
   const engine=new SoundEngine({createAudio:()=>music as unknown as HTMLAudioElement,createContext:()=>context as unknown as AudioContext});
-  return{engine,music,gain,sources};
+  return{engine,music,gain,voiceGain,sources};
 }
 test('one recording ducks existing music, follows volume and restores music after its actual end',{timeout:2000},async t=>{
   t.mock.method(globalThis,'fetch',async()=>new Response(new Uint8Array([1])));
-  const{engine,music,sources}=setup();t.after(()=>engine.dispose());await engine.startMusic();
+  const{engine,music,gain,voiceGain,sources}=setup();t.after(()=>engine.dispose());await engine.startMusic();
   let started!:()=>void;const ready=new Promise<void>(resolve=>{started=resolve;});
   const reading=engine.playNarration('/voice.mp3','blessing',started);await ready;
   assert.equal(sources.length,1);assert.equal(sources[0].started,true);assert.equal(music.volume,.4*.22);
+  assert.equal(gain.gain.value,.4);
+  assert.ok(Math.abs(voiceGain.gain.value-.6)<1e-10);
   engine.setVolume(.8);assert.equal(music.volume,.8*.22);
+  assert.equal(gain.gain.value,.8);assert.equal(voiceGain.gain.value,1);
   engine.stopNarration('ritual');assert.equal(sources[0].stopped,false);
   sources[0].finish();assert.equal(await reading,'ended');assert.equal(music.volume,.8);assert.equal(engine.narrationActive,false);
 });

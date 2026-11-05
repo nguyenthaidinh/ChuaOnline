@@ -21,6 +21,10 @@ export default function App() {
   const room = useRoom();
   const [ambientCrowd] = useState(createAmbientCrowd);
   const ambient = useMemo(() => ambientDevotees(room.room.people, ambientCrowd), [room.room.people, ambientCrowd]);
+  const participants = useMemo(() => [
+    ...room.room.people,
+    ...ambient.map(person => ({ ...person, id: `ambient-${person.seat}`, action: null })),
+  ].sort((a, b) => a.seat - b.seat), [room.room.people, ambient]);
   const layout = useSceneLayout();
   const assets = useSceneAssets(layout.id);
   const systemReducedMotion=useReducedMotion();
@@ -150,7 +154,7 @@ export default function App() {
   const openAudio = () => { audio.current?.showModal(); if(!music)void toggleMusic(); };
   return <div ref={shell} className="sanctuary-app" data-room-status={room.status} data-self-id={room.selfId ?? ''}>
     <audio ref={musicPlayer} hidden preload="none" onPlaying={()=>setMusic(true)} onPause={()=>setMusic(false)} onError={()=>{setMusic(false);setSoundMessage('Chưa tải được bài nhạc. Bạn hãy thử bài khác.');}} />
-    <SanctuaryHeader connected={connected} onlineCount={room.room.people.length} ambientCount={ambient.length}
+    <SanctuaryHeader connected={connected} participantCount={participants.length}
       fullscreen={fullscreen} joined={Boolean(self)} pending={room.pending}
       onOpenGuests={() => guests.current?.showModal()}
       onToggleFullscreen={() => void expand()} onLeave={() => void room.leave()} />
@@ -192,10 +196,10 @@ export default function App() {
       <button className="dialog-close" aria-label="Đóng danh sách" onClick={() => close(guests.current)}><Icon name="close" /></button>
       <span className="dialog-eyebrow">CÙNG HIỆN DIỆN</span>
       <h2 id="guests-title">Khách đang an tọa</h2>
-      {ambient.length > 0 && <p className="dialog-description">Có thêm {ambient.length} nhân vật mô phỏng an tọa trong chánh điện.</p>}
-      {room.room.people.length === 0
+      <p className="dialog-description">{participants.length} người tham gia</p>
+      {participants.length === 0
         ? <p className="dialog-description">Chưa có khách an tọa. Mời bạn vào chánh điện.</p>
-        : <ul className="guest-list">{room.room.people.map(person => <li key={person.id}>
+        : <ul className="guest-list">{participants.map(person => <li key={person.id}>
           <img src={roomAssets.sprite(person.appearance)} alt="" />
           <span>{person.name}{person.id === room.selfId && <small> · Bạn</small>}</span>
           <i>{person.action ? 'Đang làm lễ' : 'An tọa'}</i>

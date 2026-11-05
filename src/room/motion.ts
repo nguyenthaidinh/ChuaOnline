@@ -5,7 +5,9 @@ export interface Route { points: FloorPoint[]; cumulative: number[]; length: num
 export const WALK_SPEED = 1.45;
 export const DOOR: FloorPoint = { x: 0, z: 8.2 };
 export function logicalSeat(seat: number): FloorPoint {
-  return { x: [-2.8, 2.8, -1.8, 1.8, -0.9, 0.9][seat % 6], z: 3.1 + Math.floor(seat / 6) * 1.08 };
+  // Fill six seats across each row, with a clear central aisle. Stable seat
+  // coordinates keep entry and ritual routes consistent as visitors arrive.
+  return { x: [-3.6, 3.6, -2.4, 2.4, -1.2, 1.2][seat % 6], z: 3.1 + Math.floor(seat / 6) * 1.4 };
 }
 export function logicalAltar(slot: number,bow=false): FloorPoint { return { x: [-2.25,-0.75,0.75,2.25][slot]-(bow ? 0.3 : 0), z: bow?2.25:1.6 }; }
 const lerp = (a: FloorPoint, b: FloorPoint, t: number): FloorPoint => ({ x:a.x+(b.x-a.x)*t,z:a.z+(b.z-a.z)*t });
