@@ -30,6 +30,9 @@ export function AmbientSeatedCrowd({ people, layout }: {
           <div className="actor-shadow" style={{ left: `${pivotX}%`, top: `${pivotY}%` }} />
           <img className="ambient-devotee-sprite" alt="" draggable={false}
             src={roomAssets.frameImage(manifest.poseAssets.seatedRear.image)} />
+          <span className="ambient-devotee-name" style={{ top: `${manifest.poseAssets.seatedRear.top / manifest.frameHeight * 100}%` }}>
+            {person.name}
+          </span>
         </div>
       </Fragment>;
     })}

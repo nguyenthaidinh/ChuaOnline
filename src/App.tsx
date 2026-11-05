@@ -14,12 +14,13 @@ import { RITUAL_WISHES } from './data/blessingCatalog';
 import { BlessingDialog, type BlessingDialogHandle } from './components/BlessingDialog';
 import { SanctuaryHeader } from './components/SanctuaryHeader';
 import { SanctuaryDock } from './components/SanctuaryDock';
-import { ambientDevotees } from './room/ambientDevotees';
+import { ambientDevotees, createAmbientCrowd } from './room/ambientDevotees';
 import { Icon } from './room/Icon';
 
 export default function App() {
   const room = useRoom();
-  const ambient = useMemo(() => ambientDevotees(room.room.people), [room.room.people]);
+  const [ambientCrowd] = useState(createAmbientCrowd);
+  const ambient = useMemo(() => ambientDevotees(room.room.people, ambientCrowd), [room.room.people, ambientCrowd]);
   const layout = useSceneLayout();
   const assets = useSceneAssets(layout.id);
   const systemReducedMotion=useReducedMotion();

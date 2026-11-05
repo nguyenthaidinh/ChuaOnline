@@ -1,5 +1,7 @@
 # Nhân vật mô phỏng an tọa
 
+Phiên bản tiếp theo bổ sung [tên và số lượng ngẫu nhiên theo lượt mở trang](../ambient-devotees-v2/README.md).
+
 Bản cập nhật ngày 05/11/2026 bổ sung nhân vật ngồi để phòng ít khách vẫn có
 cảm giác có người cùng hiện diện. Các nhân vật chỉ ngồi nhìn lên Phật, không
 đi lại, làm lễ, phát âm thanh, nhận thao tác hay hiển thị tên giả.

@@ -1,0 +1,67 @@
+{
+  "before": [
+    {
+      "name": "Diệu Liên",
+      "seat": "6"
+    },
+    {
+      "name": "Thanh Tịnh",
+      "seat": "7"
+    },
+    {
+      "name": "Văn Thiện",
+      "seat": "8"
+    },
+    {
+      "name": "Diệu Hoa",
+      "seat": "9"
+    },
+    {
+      "name": "Tâm Thiện",
+      "seat": "12"
+    },
+    {
+      "name": "Thiện An",
+      "seat": "13"
+    },
+    {
+      "name": "Ngọc Lan",
+      "seat": "14"
+    },
+    {
+      "name": "Tuệ An",
+      "seat": "15"
+    }
+  ],
+  "after": [
+    {
+      "name": "Diệu Liên",
+      "seat": "6"
+    },
+    {
+      "name": "Thanh Tịnh",
+      "seat": "7"
+    },
+    {
+      "name": "Văn Thiện",
+      "seat": "8"
+    },
+    {
+      "name": "Diệu Hoa",
+      "seat": "9"
+    },
+    {
+      "name": "Tâm Thiện",
+      "seat": "12"
+    },
+    {
+      "name": "Thiện An",
+      "seat": "13"
+    },
+    {
+      "name": "Ngọc Lan",
+      "seat": "14"
+    }
+  ],
+  "namesStable": true
+}
