@@ -1,0 +1,2047 @@
+{
+  "note": "Local browser, screenshot sampling is not a recording of every painted frame. Scene counters measure JS callbacks only.",
+  "entry": [
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "1",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-01-loading",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "4",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-04-opposite-contact",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "5",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-05-opposite-loading",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "7",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-07-opposite-swing",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "0",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-00-contact",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "32",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-right-passing",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-03-swing",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "5",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-05-opposite-loading",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "33",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-left-passing",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "0",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-00-contact",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "1",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-01-loading",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-03-swing",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.411",
+        "sceneFps": "30.3"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "4",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-04-opposite-contact",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.411",
+        "sceneFps": "30.3"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "33",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-left-passing",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.411",
+        "sceneFps": "30.3"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "7",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-07-opposite-swing",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.411",
+        "sceneFps": "30.3"
+      },
+      "width": 192
+    },
+    {
+      "actor": {
+        "actionId": "",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "0",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "5",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "entering",
+        "pose": "",
+        "source": "rear-00-contact",
+        "supportFoot": "right",
+        "timelineVersion": "1"
+      },
+      "height": 256,
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "fallback",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.411",
+        "sceneFps": "30.3"
+      },
+      "width": 192
+    }
+  ],
+  "incense": [
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "standUp",
+        "facing": "rear",
+        "frame": "10",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "standing",
+        "pose": "",
+        "source": "10-seated-rear",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "standUp",
+        "facing": "rear",
+        "frame": "14",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "standing",
+        "pose": "",
+        "source": "14-rise-support",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "standUp",
+        "facing": "rear",
+        "frame": "15",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "standing",
+        "pose": "",
+        "source": "15-rise-half-kneel",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "standUp",
+        "facing": "rear",
+        "frame": "16",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "standing",
+        "pose": "",
+        "source": "16-rise-crouch",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "standUp",
+        "facing": "rear",
+        "frame": "40",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "standing",
+        "pose": "",
+        "source": "rear-stand",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "standUp",
+        "facing": "rear",
+        "frame": "45",
+        "heading": "left",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "standing",
+        "pose": "",
+        "source": "left-stand",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "standUp",
+        "facing": "front",
+        "frame": "43",
+        "heading": "front",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "standing",
+        "pose": "",
+        "source": "front-stand",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkFront",
+        "facing": "front",
+        "frame": "24",
+        "heading": "front",
+        "held": "false",
+        "movementStage": "start",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "front-00-contact",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkFront",
+        "facing": "front",
+        "frame": "25",
+        "heading": "front",
+        "held": "false",
+        "movementStage": "start",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "front-01-loading",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "1",
+        "sceneDrawMs": "0.342",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "11",
+        "heading": "right",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "right-03-swing",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "5",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-05-opposite-loading",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "7",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-07-opposite-swing",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "0",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-00-contact",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "32",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-right-passing",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-03-swing",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "5",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-05-opposite-loading",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "33",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-left-passing",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "0",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-00-contact",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "32",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "cruise",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-right-passing",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "stop",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-03-swing",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "4",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "stop",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-04-opposite-contact",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "5",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "stop",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-05-opposite-loading",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.524",
+        "sceneFps": "29.7"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "2",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "close",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-left-gather",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "close",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-left-close",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "close",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "rear-left-close",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "movement",
+        "bows": "0",
+        "clip": "walkRear",
+        "facing": "rear",
+        "frame": "0",
+        "heading": "rearRight",
+        "held": "false",
+        "movementStage": "close",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "moving",
+        "pose": "",
+        "source": "00-stand-angled",
+        "supportFoot": "left",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "0",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "00-neutral",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "1",
+        "heading": "rear",
+        "held": "false",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "01-reach",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "none",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "2",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "02-grasp",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "19",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "19-pickup-lift",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "19",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "19-pickup-lift",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "03-chest",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "3",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "03-chest",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "20",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "20-mid-lift",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "4",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "04-lift",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "4",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "04-lift",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "5",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "05-forehead",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "3",
+        "sceneDrawMs": "0.367",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerRaise",
+        "facing": "rear",
+        "frame": "5",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "05-forehead",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "2",
+        "sceneDrawMs": "0.422",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerHold",
+        "facing": "rear",
+        "frame": "6",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "06-bow-start",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "2",
+        "sceneDrawMs": "0.422",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    },
+    {
+      "actor": {
+        "actionId": "c1d35bbe-9453-400d-bbcf-e06a1404c61e",
+        "artwork": "incense",
+        "bows": "0",
+        "clip": "offerHold",
+        "facing": "rear",
+        "frame": "6",
+        "heading": "rear",
+        "held": "true",
+        "movementStage": "",
+        "movementVersion": "4",
+        "personId": "4ffadb8d-a62f-4079-a595-9a8061b06709",
+        "phase": "performing",
+        "pose": "",
+        "source": "06-bow-start",
+        "supportFoot": "",
+        "timelineVersion": "4"
+      },
+      "hand": "block",
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "scene": {
+        "ambientCount": "8",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "2",
+        "sceneDrawMs": "0.422",
+        "sceneFps": "30.0"
+      },
+      "size": [
+        192,
+        256
+      ]
+    }
+  ],
+  "crowd": {
+    "actors": 24,
+    "canvases": [
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+        "width": 192
+      },
+      {
+        "height": 256,
+        "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+        "width": 192
+      }
+    ],
+    "phases": [
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle",
+      "idle"
+    ],
+    "scene": {
+      "ambientCount": "0",
+      "layout": "desktop",
+      "modernIncense": "ready",
+      "reducedMotion": "false",
+      "sceneDrawCount": "1",
+      "sceneDrawMs": "0.184",
+      "sceneFps": "30.0"
+    }
+  },
+  "errors": []
+}

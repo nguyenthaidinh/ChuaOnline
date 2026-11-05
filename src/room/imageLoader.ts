@@ -29,19 +29,37 @@ export class ImageQueue {
   }
 }
 
+// Keep the actual decoded source, not only its fulfilled Promise. The renderer
+// can paint synchronously without replacing a CSS image during a walking step.
+export type DecodedSprite = HTMLImageElement | ImageBitmap;
+const decodedSources = new Map<string, DecodedSprite>();
+export const decodedImage = (url: string) => decodedSources.get(url);
+
 function loadImage(url: string): Promise<void> {
   return new Promise((resolve, reject) => {
     const image = new Image();
     let settled = false;
-    const finish = (error?: Error) => {
-      if (settled) return;
+    const finish = (error?: Error, source: DecodedSprite = image) => {
+      if (settled) { if ('close' in source) source.close(); return; }
       settled = true;
       clearTimeout(timer);
       image.onload = image.onerror = null;
-      if (error) { image.src = ''; reject(error); } else resolve();
+      if (error) { image.src = ''; reject(error); }
+      else {
+        decodedSources.set(url, source);
+        if (source !== image) image.src = '';
+        resolve();
+      }
     };
     const timer = setTimeout(() => finish(new Error(`Image timeout: ${url}`)), 20000);
-    image.onload = () => { void image.decode().then(() => finish(), () => finish(new Error(`Image decode: ${url}`))); };
+    image.onload = () => { void image.decode().then(async () => {
+      let source: DecodedSprite = image;
+      // A bitmap owns decoded pixels independently of the browser's CSS image cache.
+      if (typeof createImageBitmap === 'function' && /animation-v3|atlas|seating-direction/.test(url)) {
+        try { source = await createImageBitmap(image); } catch { /* Decoded image fallback. */ }
+      }
+      finish(undefined, source);
+    }, () => finish(new Error(`Image decode: ${url}`))); };
     image.onerror = () => finish(new Error(`Image unavailable: ${url}`));
     image.src = url;
   });

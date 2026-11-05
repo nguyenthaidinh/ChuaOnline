@@ -1,0 +1,97 @@
+{
+  "viewers": 200,
+  "peakPeople": 24,
+  "peakActions": 4,
+  "actions": [
+    {
+      "appearance": "woman",
+      "kind": "incense"
+    },
+    {
+      "appearance": "granny",
+      "kind": "incense"
+    },
+    {
+      "appearance": "man",
+      "kind": "incense"
+    },
+    {
+      "appearance": "woman",
+      "kind": "incense"
+    },
+    {
+      "appearance": "granny",
+      "kind": "lotus"
+    },
+    {
+      "appearance": "man",
+      "kind": "lotus"
+    },
+    {
+      "appearance": "woman",
+      "kind": "lotus"
+    },
+    {
+      "appearance": "woman",
+      "kind": "lotus"
+    },
+    {
+      "appearance": "granny",
+      "kind": "petal"
+    },
+    {
+      "appearance": "man",
+      "kind": "petal"
+    },
+    {
+      "appearance": "woman",
+      "kind": "petal"
+    },
+    {
+      "appearance": "woman",
+      "kind": "petal"
+    },
+    {
+      "appearance": "granny",
+      "kind": "bell"
+    },
+    {
+      "appearance": "man",
+      "kind": "bell"
+    },
+    {
+      "appearance": "woman",
+      "kind": "bell"
+    },
+    {
+      "appearance": "granny",
+      "kind": "bow"
+    },
+    {
+      "appearance": "man",
+      "kind": "bow"
+    },
+    {
+      "appearance": "woman",
+      "kind": "bell"
+    },
+    {
+      "appearance": "woman",
+      "kind": "bow"
+    },
+    {
+      "appearance": "woman",
+      "kind": "bow"
+    }
+  ],
+  "sseBytes": 64867600,
+  "completed": true,
+  "errors": [],
+  "p95Ms": 132.3963999999978,
+  "requestCount": 158,
+  "statusCounts": {
+    "200": 158
+  },
+  "remainingPeople": 1,
+  "note": "Local API/SSE load plus one optional rendered browser. Not 200 rendered browsers, WAN or physical mobile measurements."
+}

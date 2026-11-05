@@ -55,3 +55,6 @@
 .room-painting[data-layout=mobile] .shrine-gift{top:50%;height:10%}.room-painting[data-layout=mobile] .shrine-incense{height:12%}.room-painting[data-layout=mobile] .shrine-petal{top:44%}.room-painting[data-layout=mobile] .shrine-petals img{width:9px}
 .room-painting[data-reduced-motion=true] .shrine-petals{display:none}.room-painting[data-reduced-motion=true] .shrine-petal .shrine-petals{display:block}.room-painting[data-reduced-motion=true] .shrine-petal .shrine-petals img:nth-child(n+2){display:none}.room-painting[data-reduced-motion=true] .shrine-petal .shrine-petals img{width:35px}
 .shrine-petals img,.released-petals img{max-width:none}
+
+/* Canvas intrinsic dimensions must not determine the actor footprint. */
+canvas.actor-sprite{display:block;width:100%;height:100%}

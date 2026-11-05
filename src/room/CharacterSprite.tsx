@@ -1,4 +1,4 @@
-import { useEffect,useRef } from 'react';
+import { useEffect,useRef,useState } from 'react';
 import { characterManifest } from './animationManifest';
 import { actorMetrics,projectFloor,roomAssets } from './layout';
 import { subscribeSceneAnimation } from './sceneAnimation';
@@ -6,11 +6,15 @@ import type { RoomMember } from './protocol';
 import type { SceneLayoutId } from '../config/sceneLayout';
 import { sampleCharacter, FALLBACK_ARTWORK, type ArtworkAvailability } from './characterAnimation';
 import { INCENSE_PROP } from './incenseGeometry';
-import { frameBackground, handClipPath } from './frameStyles';
+import { frameTransform, handClipPath } from './frameStyles';
 import { ritualPropGeometry } from './ritualContacts';
+import { decodedImage } from './imageLoader';
+import { SpritePainter } from './spritePainter';
 export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLBACK_ARTWORK}:{person:RoomMember;self:boolean;layout:SceneLayoutId;offset:number;reduced:boolean;artwork?:ArtworkAvailability}) {
- const root=useRef<HTMLButtonElement>(null),art=useRef<HTMLDivElement>(null),prop=useRef<HTMLImageElement>(null),label=useRef<HTMLSpanElement>(null),shadow=useRef<HTMLDivElement>(null);
- const handLayer=useRef<HTMLDivElement>(null);
+ const root=useRef<HTMLButtonElement>(null),art=useRef<HTMLCanvasElement>(null),prop=useRef<HTMLImageElement>(null),label=useRef<HTMLSpanElement>(null),shadow=useRef<HTMLDivElement>(null);
+ const handLayer=useRef<HTMLCanvasElement>(null);
+ const [painter]=useState(()=>new SpritePainter());
+ const [handPainter]=useState(()=>new SpritePainter());
  const state=useRef({person,layout,offset,reduced,artwork});state.current={person,layout,offset,reduced,artwork};
  useEffect(()=>subscribeSceneAnimation(localNow=>{
   const {person,layout,offset,reduced,artwork}=state.current;
@@ -21,11 +25,11 @@ export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLB
   const projected=projectFloor(point,layout),size=actorMetrics(point,layout);
   Object.assign(root.current.style,{left:`${projected.x}%`,top:`${projected.y}%`,height:`${size.canvasHeight}%`,aspectRatio:`${manifest.frameWidth}/${manifest.frameHeight}`,transform:`translate(-${manifest.groundPivot.x/manifest.frameWidth*100}%,-${manifest.groundPivot.y/manifest.frameHeight*100}%)`,zIndex:String(Math.round(projected.y*100))});
   const rootOffset=frame.rootOffset??{x:0,y:0};
-  const imageStyle=frameBackground(frame,flip,undefined,canvasWidth,canvasHeight);
-  for(const [key,value] of Object.entries(imageStyle)) {
-   const style=art.current.style as unknown as Record<string,string>;
-   if(style[key]!==String(value))style[key]=String(value);
-  }
+  const source=decodedImage(roomAssets.frameImage(frame.image));
+  const transform=frameTransform(frame.rootOffset,flip,canvasWidth,canvasHeight);
+  if(!painter.paint(art.current,source,frame,canvasWidth,canvasHeight))return true;
+  art.current.style.transform=transform;
+  art.current.dataset.image=frame.image;
   root.current.dataset.phase=sample.phase;root.current.dataset.clip=clip;root.current.dataset.frame=String(frame.cell);root.current.dataset.facing=frame.facing;
   root.current.dataset.heading=sample.heading;root.current.dataset.movementStage=sample.locomotion?.stage??'';
   root.current.dataset.supportFoot=sample.locomotion?.supportFoot??'';
@@ -41,7 +45,11 @@ export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLB
   prop.current.style.display=held?'block':'none';
   root.current.dataset.held=String(held);
   handLayer.current.style.display=held&&frame.handMask?'block':'none';
-  if(held&&frame.handMask)Object.assign(handLayer.current.style,{...imageStyle,clipPath:handClipPath(frame.handMask,canvasWidth,canvasHeight)});
+  if(held&&frame.handMask){
+   handPainter.paint(handLayer.current,source,frame,canvasWidth,canvasHeight);
+   handLayer.current.style.transform=transform;
+   handLayer.current.style.clipPath=handClipPath(frame.handMask,canvasWidth,canvasHeight);
+  }
   if(held&&frame.hand) {
    const geometry=frame.propGeometry??(frame.modernKind==='incense'?{height:INCENSE_PROP.height,gripFraction:INCENSE_PROP.gripFraction,rotationDeg:0}:ritualPropGeometry(person.appearance,offering));
    const grip=geometry.gripFraction*100;
@@ -53,7 +61,7 @@ export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLB
   return sample.active;
  }),[person.action?.id,person.joinedAt,person.completed?.at,person.appearance,self,layout,reduced,artwork]);
  return <button ref={root} className={`room-actor ${self?'is-self':''}`} aria-label={`${person.name}${self?' · Bạn':''}`} title={person.name} data-person-id={person.id}>
-  <div ref={shadow} className="actor-shadow"/><div ref={art} className="actor-sprite"/><img ref={prop} className="held-prop" alt=""/><div ref={handLayer} className="actor-sprite actor-hand-occlusion"/>
+  <div ref={shadow} className="actor-shadow"/><canvas ref={art} className="actor-sprite" aria-hidden="true"/><img ref={prop} className="held-prop" alt=""/><canvas ref={handLayer} className="actor-sprite actor-hand-occlusion" aria-hidden="true"/>
   <span ref={label} className="actor-label">{person.name}{self&&<i> · Bạn</i>}</span>
  </button>;
 }
