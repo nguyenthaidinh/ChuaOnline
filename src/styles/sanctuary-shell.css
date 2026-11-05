@@ -1,0 +1,251 @@
+/* Keep the original PC scene size. Controls stay compact and understated. */
+.sanctuary-app {
+  --shell-width: 1600px;
+  --shell-gold: #e5cfaa;
+  --shell-muted: #b7a58a;
+  --shell-line: #d8b77c26;
+  min-height: 100dvh;
+  padding: 0 24px;
+  background: #130d09;
+}
+
+.sanctuary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 64px;
+  max-width: var(--shell-width);
+  margin: 0 auto;
+}
+
+.temple-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.brand-emblem {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 38px;
+  color: #dfc084;
+}
+
+.brand-emblem svg { width: 34px; height: 34px; }
+.brand-copy { display: flex; flex-direction: column; gap: 4px; }
+.brand-name {
+  font: 400 22px/1.25 'Chua Noto Serif', 'Times New Roman', serif;
+  letter-spacing: normal;
+  color: #f1e1c6;
+}
+.brand-tagline {
+  font: 400 8px/1.5 system-ui, sans-serif;
+  letter-spacing: 1.8px;
+  color: var(--shell-muted);
+}
+
+.header-right { display: flex; align-items: center; gap: 10px; }
+
+.presence-pill {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 9px 13px;
+  border: 1px solid var(--shell-line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--shell-gold);
+  transition: background .18s, border-color .18s;
+}
+.presence-pill:hover { background: #b58b4c15; border-color: #d8b77c55; }
+.presence-pill > svg { width: 18px; height: 18px; color: #c3a778; }
+.presence-copy { display: flex; align-items: baseline; gap: 6px; font-size: 11px; }
+.presence-copy b { font-size: 14px; font-weight: 600; }
+.presence-label { color: #c5b397; }
+.presence-pill .connection-dot { width: 4px; height: 4px; margin-left: 2px; }
+.presence-pill .connection-dot.connected { background: #b3c496; box-shadow: 0 0 8px #b3c49626; }
+
+.icon-button, .text-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: #c6b18e;
+  font-size: 12px;
+  transition: color .18s, background .18s, border-color .18s;
+}
+.icon-button { width: 44px; }
+.icon-button svg, .text-button svg { width: 17px; height: 17px; }
+.icon-button:hover, .text-button:hover { color: #f1dbb5; background: #b58b4c12; border-color: #d8b77c55; }
+.leave-control { border-color: transparent; padding: 10px 3px 10px 10px; }
+
+.sanctuary-main {
+  width: min(var(--shell-width), 100%, calc((100dvh - 180px) * 16 / 9));
+  margin: auto;
+}
+.sanctuary-frame {
+  position: relative;
+  isolation: isolate;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #9f744233;
+  border-radius: 12px;
+  background: #2d1b10;
+}
+
+.sanctuary-dock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0 6px;
+}
+.dock-status { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; }
+.room-hint {
+  max-width: 650px;
+  margin: 0;
+  color: #d0ba98;
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+  text-wrap: balance;
+}
+.ritual-wish { margin: 0; color: #e2cca4; font-size: 12px; line-height: 1.65; text-align: center; text-wrap: balance; }
+
+.ritual-toolbar { display: flex; justify-content: center; max-width: 100%; gap: 10px; }
+.ritual-toolbar .ritual-button {
+  position: relative;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 140px;
+  min-height: 48px;
+  padding: 10px 20px;
+  border: 1px solid #b3986640;
+  border-radius: 8px;
+  background: #2a2017;
+  color: #e7d5b7;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  box-shadow: none;
+  backdrop-filter: none;
+  transition: background .15s, border-color .15s;
+}
+.ritual-toolbar .ritual-button:hover:not(:disabled) {
+  background: #36291d;
+  border-color: #b3986675;
+}
+.ritual-toolbar .ritual-button:disabled { opacity: .48; }
+.ritual-toolbar .ritual-button.primary {
+  border-color: #d9c397;
+  background: #d9c397;
+  color: #382a1b;
+  font-weight: 600;
+}
+.ritual-toolbar .ritual-button.primary:hover:not(:disabled) {
+  border-color: #e5d0a8;
+  background: #e5d0a8;
+}
+.ritual-toolbar .enter-button { min-width: 220px; }
+.action-icon { display: grid; place-items: center; flex-shrink: 0; color: #d7bb88; }
+.ritual-toolbar .action-icon svg { width: 21px; height: 21px; }
+.primary .action-icon { color: #584326; }
+.action-copy { display: flex; align-items: baseline; gap: 6px; text-align: left; }
+.ritual-toolbar .action-copy small {
+  display: block;
+  margin: 0;
+  color: #b6a185;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.ritual-toolbar .primary .action-copy small { color: #6a5334; }
+.ritual-toolbar .enter-button > svg { width: 16px; height: 16px; margin-left: 16px; }
+.ritual-toolbar .music-control.playing { border-color: #c8b5806b; }
+.dock-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  color: #a89880;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.dock-note i { width: 2px; height: 2px; border-radius: 50%; background: #aa8d5e; }
+.sanctuary-app:fullscreen { overflow-y: auto; background-color: #130d09; }
+
+@media (max-width: 1100px) {
+  .sanctuary-dock[data-joined=true] .ritual-button { padding: 12px 14px; gap: 9px; font-size: 12px; }
+  .sanctuary-dock[data-joined=true] .action-icon svg { width: 22px; height: 22px; }
+}
+
+@media (max-width: 767px) {
+  .sanctuary-app { padding: 0 10px; }
+  .sanctuary-header { height: 64px; gap: 10px; }
+  .temple-brand { gap: 10px; }
+  .brand-emblem { width: 28px; height: 32px; }
+  .brand-emblem svg { width: 28px; height: 28px; }
+  .brand-copy { gap: 5px; }
+  .brand-name { font-size: 19px; letter-spacing: -.25px; }
+  .brand-tagline { font-size: 6.5px; letter-spacing: 1.4px; }
+  .header-right { gap: 5px; }
+  .presence-pill { padding: 8px 11px; gap: 7px; }
+  .presence-pill > svg { width: 17px; height: 17px; }
+  .presence-copy { font-size: 10px; }
+  .presence-copy b { font-size: 13px; }
+  .presence-label, .expand-control, .leave-control > span { display: none; }
+  .presence-pill .connection-dot { margin-left: 0; }
+  .leave-control { width: 36px; padding: 8px; }
+  .sanctuary-main { width: 100%; max-width: 500px; }
+  .sanctuary-frame { aspect-ratio: 9 / 16; border-radius: 12px; }
+  .sanctuary-dock { gap: 12px; padding: 14px 0 18px; }
+  .room-hint { padding: 0 9px; font-size: 12px; }
+  .ritual-wish { padding: 0 9px; font-size: 11px; }
+  .ritual-toolbar { display: grid; width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .ritual-toolbar .enter-button { grid-column: 1 / -1; }
+  .ritual-toolbar .ritual-button { min-width: 0; min-height: 48px; padding: 10px 14px; gap: 10px; font-size: 12px; }
+  .ritual-toolbar .action-icon svg { width: 22px; height: 22px; }
+  .sanctuary-dock[data-joined=true] .ritual-toolbar { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .sanctuary-dock[data-joined=true] .ritual-button { grid-column: span 2; min-height: 62px; padding: 10px 6px; gap: 7px; font-size: 11px; }
+  .sanctuary-dock[data-joined=true] .ritual-button:nth-child(-n+3) { flex-direction: column; min-height: 68px; gap: 5px; }
+  .sanctuary-dock[data-joined=true] .action-copy { flex-direction: column; align-items: center; gap: 1px; text-align: center; }
+  .sanctuary-dock[data-joined=true] .ritual-button:nth-child(n+4) { grid-column: span 3; }
+  .sanctuary-dock[data-joined=true] .action-icon svg { width: 19px; height: 19px; }
+  .dock-note { max-width: 340px; column-gap: 7px; row-gap: 0; font-size: 10px; }
+}
+
+@media (max-width: 359px) {
+  .sanctuary-app { padding: 0 10px; }
+  .temple-brand { gap: 8px; }
+  .brand-name { font-size: 17px; }
+  .brand-tagline { font-size: 6px; letter-spacing: 1.1px; }
+  .brand-emblem { width: 27px; height: 32px; }
+  .presence-pill { padding: 8px; }
+  .header-right { gap: 2px; }
+  .leave-control { width: 30px; padding: 5px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ritual-toolbar .ritual-button { transition: none; }
+}
+
+@media (min-width: 768px) and (max-height: 600px) {
+  .sanctuary-main { width: min(1100px, 100%); }
+  .sanctuary-header { height: 52px; }
+}

@@ -12,6 +12,8 @@ import { useSceneLayout } from './hooks/useSceneLayout';
 import { SoundEngine } from './services/soundEngine';
 import { RITUAL_WISHES } from './data/blessingCatalog';
 import { BlessingDialog, type BlessingDialogHandle } from './components/BlessingDialog';
+import { SanctuaryHeader } from './components/SanctuaryHeader';
+import { SanctuaryDock } from './components/SanctuaryDock';
 import { Icon } from './room/Icon';
 
 export default function App() {
@@ -134,12 +136,10 @@ export default function App() {
   const openAudio = () => { audio.current?.showModal(); if(!music)void toggleMusic(); };
   return <div ref={shell} className="sanctuary-app" data-room-status={room.status} data-self-id={room.selfId ?? ''}>
     <audio ref={musicPlayer} hidden preload="none" onPlaying={()=>setMusic(true)} onPause={()=>setMusic(false)} onError={()=>{setMusic(false);setSoundMessage('Chưa tải được bài nhạc. Bạn hãy thử bài khác.');}} />
-    <header className="sanctuary-header">
-      <a className="temple-brand" href={import.meta.env.BASE_URL}><Icon name="lotus" /><span>Đi Chùa Online<small>MỘT KHOẢNG LẶNG CHO TÂM</small></span></a>
-      <div className="header-right"><button className="presence-pill" onClick={() => guests.current?.showModal()}><span className={`connection-dot ${connected?'connected':''}`} />{connected ? <><b data-online-count>{room.room.people.length}</b> đang an tọa</> : 'Đang kết nối…'}</button>
-      <button className="icon-button expand-control" aria-label={fullscreen?'Thoát toàn màn hình':'Toàn màn hình'} onClick={() => void expand()}><Icon name="expand" /></button>
-      {self && <button className="text-button leave-control" onClick={() => void room.leave()} disabled={room.pending}>Rời điện <Icon name="exit" /></button>}</div>
-    </header>
+    <SanctuaryHeader connected={connected} onlineCount={room.room.people.length}
+      fullscreen={fullscreen} joined={Boolean(self)} pending={room.pending}
+      onOpenGuests={() => guests.current?.showModal()}
+      onToggleFullscreen={() => void expand()} onLeave={() => void room.leave()} />
     <main className="sanctuary-main">
       <section className="sanctuary-frame" aria-label="Chánh điện" data-layout={layout.id}>
         {assets.status==='ready'&&<RoomScene room={room.room} selfId={room.selfId} layout={layout.id} offset={room.offset} reduced={reducedMotion} warmAppearance={appearance} />}
@@ -148,20 +148,13 @@ export default function App() {
         {self && <div className="self-badge"><span className="connection-dot connected" />{self.name}<span> · {entering ? 'Bạn đang vào điện' : busy ? 'Bạn đang làm lễ' : 'Bạn đang an tọa'}</span></div>}
         {!connected && <div className="connection-notice" role="status">Chưa kết nối được phòng chung. Đang thử lại…</div>}
       </section>
-      <section className="sanctuary-dock" aria-label="Thao tác trong chánh điện">
-        <p className="room-hint" role="status" aria-live="polite">{room.message || status}</p>
-        {ritualWish&&<p className="ritual-wish" role="status">{ritualWish}</p>}
-        <div className="ritual-toolbar">
-          {!self ? <button className="ritual-button primary enter-button" disabled={!connected || room.pending || assets.status!=='ready'} onClick={() => gate.current?.showModal()}><Icon name="lotus" />Vào an tọa<span aria-hidden="true">→</span></button> : <>
-            <button className="ritual-button primary" disabled={!connected || busy || room.pending} onClick={() => void offer('incense')}><Icon name="incense" /><span>Thắp hương</span></button>
-            <button className="ritual-button" disabled={!connected || busy || room.pending} onClick={() => void offer('bow')}><Icon name="bow" /><span>Lễ Phật <small>3 lạy</small></span></button>
-            <button className="ritual-button offering-open" disabled={!connected || busy || room.pending} onClick={() => offerings.current?.showModal()}><Icon name="lotus" /><span>Dâng lễ</span></button>
-          </>}
-          <button className="ritual-button" onClick={() => blessing.current?.open()}><Icon name="lotus" /><span>Lời chúc</span></button>
-          <button className={`ritual-button music-control ${music?'playing':''}`} onClick={openAudio}><Icon name="music" /><span>{music?'Nhạc đang bật':musicPending?'Đang mở nhạc…':'Bật nhạc'}</span></button>
-        </div>
-        <span className="dock-note">Một chánh điện chung · Không cần tài khoản · Không thanh toán</span>
-      </section>
+      <SanctuaryDock status={room.message || status} ritualWish={ritualWish} joined={Boolean(self)}
+        canEnter={connected && !room.pending && assets.status === 'ready'}
+        canAct={connected && !busy && !room.pending}
+        musicState={music ? 'playing' : musicPending ? 'loading' : 'off'}
+        onEnter={() => gate.current?.showModal()} onIncense={() => void offer('incense')}
+        onBow={() => void offer('bow')} onOfferings={() => offerings.current?.showModal()}
+        onBlessing={() => blessing.current?.open()} onAudio={openAudio} />
     </main>
     <dialog ref={gate} className="temple-dialog gate-dialog" aria-labelledby="gate-title">
       <button className="dialog-close" aria-label="Đóng biểu mẫu" onClick={() => close(gate.current)}><Icon name="close" /></button>
