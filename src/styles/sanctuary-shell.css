@@ -67,6 +67,7 @@
 .presence-copy { display: flex; align-items: baseline; gap: 6px; font-size: 11px; }
 .presence-copy b { font-size: 14px; font-weight: 600; }
 .presence-label { color: #c5b397; }
+.ambient-count { padding-left: 9px; border-left: 1px solid var(--shell-line); color: #a99a83; font-size: 10px; white-space: nowrap; }
 .presence-pill .connection-dot { width: 4px; height: 4px; margin-left: 2px; }
 .presence-pill .connection-dot.connected { background: #b3c496; box-shadow: 0 0 8px #b3c49626; }
 
@@ -209,7 +210,7 @@
   .presence-pill > svg { width: 17px; height: 17px; }
   .presence-copy { font-size: 10px; }
   .presence-copy b { font-size: 13px; }
-  .presence-label, .expand-control, .leave-control > span { display: none; }
+  .presence-label, .ambient-count, .expand-control, .leave-control > span { display: none; }
   .presence-pill .connection-dot { margin-left: 0; }
   .leave-control { width: 36px; padding: 8px; }
   .sanctuary-main { width: 100%; max-width: 500px; }

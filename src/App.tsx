@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type FormEvent } from 'react';
+import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
 import { useRoom } from './room/useRoom';
 import { RoomScene } from './room/RoomScene';
 import { roomAssets } from './room/layout';
@@ -14,10 +14,12 @@ import { RITUAL_WISHES } from './data/blessingCatalog';
 import { BlessingDialog, type BlessingDialogHandle } from './components/BlessingDialog';
 import { SanctuaryHeader } from './components/SanctuaryHeader';
 import { SanctuaryDock } from './components/SanctuaryDock';
+import { ambientDevotees } from './room/ambientDevotees';
 import { Icon } from './room/Icon';
 
 export default function App() {
   const room = useRoom();
+  const ambient = useMemo(() => ambientDevotees(room.room.people), [room.room.people]);
   const layout = useSceneLayout();
   const assets = useSceneAssets(layout.id);
   const systemReducedMotion=useReducedMotion();
@@ -136,13 +138,13 @@ export default function App() {
   const openAudio = () => { audio.current?.showModal(); if(!music)void toggleMusic(); };
   return <div ref={shell} className="sanctuary-app" data-room-status={room.status} data-self-id={room.selfId ?? ''}>
     <audio ref={musicPlayer} hidden preload="none" onPlaying={()=>setMusic(true)} onPause={()=>setMusic(false)} onError={()=>{setMusic(false);setSoundMessage('Chưa tải được bài nhạc. Bạn hãy thử bài khác.');}} />
-    <SanctuaryHeader connected={connected} onlineCount={room.room.people.length}
+    <SanctuaryHeader connected={connected} onlineCount={room.room.people.length} ambientCount={ambient.length}
       fullscreen={fullscreen} joined={Boolean(self)} pending={room.pending}
       onOpenGuests={() => guests.current?.showModal()}
       onToggleFullscreen={() => void expand()} onLeave={() => void room.leave()} />
     <main className="sanctuary-main">
       <section className="sanctuary-frame" aria-label="Chánh điện" data-layout={layout.id}>
-        {assets.status==='ready'&&<RoomScene room={room.room} selfId={room.selfId} layout={layout.id} offset={room.offset} reduced={reducedMotion} warmAppearance={appearance} />}
+        {assets.status==='ready'&&<RoomScene room={room.room} selfId={room.selfId} layout={layout.id} offset={room.offset} reduced={reducedMotion} ambient={ambient} warmAppearance={appearance} />}
         {assets.status!=='ready'&&<div className="scene-loading" role="status"><Icon name="lotus"/><p>{assets.status==='error'?'Chưa tải được hình ảnh chánh điện.':'Đang chuẩn bị chánh điện…'}</p>{assets.status==='error'&&<button className="ritual-button" onClick={assets.retry}>Tải lại hình ảnh</button>}</div>}
         <div className="scene-heading"><span className="scene-eyebrow">NAM MÔ A DI ĐÀ PHẬT</span><h1>Chánh điện bình an</h1></div>
         {self && <div className="self-badge"><span className="connection-dot connected" />{self.name}<span> · {entering ? 'Bạn đang vào điện' : busy ? 'Bạn đang làm lễ' : 'Bạn đang an tọa'}</span></div>}
@@ -172,6 +174,18 @@ export default function App() {
     <dialog ref={offerings} className="temple-dialog offering-dialog" aria-labelledby="offering-title"><button className="dialog-close" aria-label="Đóng dâng lễ" onClick={() => close(offerings.current)}><Icon name="close" /></button><span className="dialog-eyebrow">MỘT TÂM LÀNH GỬI ĐẾN</span><h2 id="offering-title">Dâng một lễ lành</h2><p className="dialog-description">Bạn sẽ tiến lên làm lễ. Mọi người trong chánh điện cùng nhìn thấy.</p><div className="offering-options">{(['incense','lotus','petal','bell'] as const).map(kind => <button type="button" key={kind} disabled={!connected || busy || room.pending} onClick={() => void offer(kind)}><img src={roomAssets.effect(kind)} alt="" /><span>{OFFERING_LABELS[kind]}</span></button>)}</div>{room.message && <p className="form-message" role="alert">{room.message}</p>}<p className="privacy-note">Lễ vật mô phỏng, hoàn toàn miễn phí · Không thanh toán</p></dialog>
     <dialog ref={audio} className="temple-dialog audio-dialog" aria-labelledby="audio-title"><button className="dialog-close" aria-label="Đóng âm thanh" onClick={()=>close(audio.current)}><Icon name="close" /></button><span className="dialog-eyebrow">LẮNG LẠI MỘT CHÚT</span><h2 id="audio-title">Âm thanh chánh điện</h2><p className="dialog-description">Âm thanh chỉ phát trên thiết bị của bạn.</p><label htmlFor="music-track">Bài nhạc</label><select id="music-track" value={track} disabled={musicPending} onChange={event => void changeTrack(event.target.value as MusicTrackId)}>{MUSIC_TRACKS.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select><div className="audio-actions"><button className="ritual-button primary" disabled={musicPending} aria-pressed={music} onClick={()=>void toggleMusic()}><Icon name="music" />{musicPending?'Đang mở nhạc…':music?'Tắt nhạc':'Bật nhạc'}</button><button className="ritual-button" onClick={()=>{setSoundMessage('');void soundEngine.ringBell().catch(()=>setSoundMessage('Chưa phát được chuông. Bạn hãy thử lại.'));}}><Icon name="bell" />Thỉnh chuông</button><button className="ritual-button" onClick={() => void soundEngine.playMok().catch(() => setSoundMessage('Chưa phát được tiếng mõ.'))}>Gõ mõ</button></div><button className="next-track" disabled={musicPending} onClick={() => { const index = MUSIC_TRACKS.findIndex(item => item.id === track); void changeTrack(MUSIC_TRACKS[(index+1)%MUSIC_TRACKS.length].id); }}>Bài tiếp theo →</button><label className="volume-label" htmlFor="room-volume">Âm lượng <output>{volume}%</output></label><input id="room-volume" type="range" min="0" max="100" value={volume} onChange={event=>{const value=Number(event.target.value);setVolume(value);soundEngine.setVolume(value/100);}} /><label className="motion-preference"><input type="checkbox" checked={ritualSounds} onChange={event=>{setRitualSounds(event.target.checked);if(!event.target.checked){cueGate.current.discard(self?.action);soundEngine.stopNarration('ritual');}}}/>Âm thanh và lời nguyện khi làm lễ</label><label className="motion-preference"><input type="checkbox" checked={reducedMotion} onChange={event=>setMotionPreference(event.target.checked)}/>Giảm chuyển động</label><small className="motion-description">Hiển thị tư thế chính và giảm hiệu ứng trong cảnh.</small>{soundMessage&&<p className="form-message" role="alert">{soundMessage}</p>}</dialog>
     <BlessingDialog ref={blessing} sound={soundEngine}/>
-    <dialog ref={guests} className="temple-dialog guest-dialog" aria-labelledby="guests-title"><button className="dialog-close" aria-label="Đóng danh sách" onClick={()=>close(guests.current)}><Icon name="close" /></button><span className="dialog-eyebrow">CÙNG HIỆN DIỆN</span><h2 id="guests-title">Đang an tọa</h2>{room.room.people.length===0?<p className="dialog-description">Chánh điện đang yên tĩnh. Mời bạn là người đầu tiên an tọa.</p>:<ul className="guest-list">{room.room.people.map(person=><li key={person.id}><img src={roomAssets.sprite(person.appearance)} alt=""/><span>{person.name}{person.id===room.selfId&&<small> · Bạn</small>}</span><i>{person.action?'Đang làm lễ':'An tọa'}</i></li>)}</ul>}</dialog>
+    <dialog ref={guests} className="temple-dialog guest-dialog" aria-labelledby="guests-title">
+      <button className="dialog-close" aria-label="Đóng danh sách" onClick={() => close(guests.current)}><Icon name="close" /></button>
+      <span className="dialog-eyebrow">CÙNG HIỆN DIỆN</span>
+      <h2 id="guests-title">Khách đang an tọa</h2>
+      {ambient.length > 0 && <p className="dialog-description">Có thêm {ambient.length} nhân vật mô phỏng an tọa trong chánh điện.</p>}
+      {room.room.people.length === 0
+        ? <p className="dialog-description">Chưa có khách an tọa. Mời bạn vào chánh điện.</p>
+        : <ul className="guest-list">{room.room.people.map(person => <li key={person.id}>
+          <img src={roomAssets.sprite(person.appearance)} alt="" />
+          <span>{person.name}{person.id === room.selfId && <small> · Bạn</small>}</span>
+          <i>{person.action ? 'Đang làm lễ' : 'An tọa'}</i>
+        </li>)}</ul>}
+    </dialog>
   </div>;
 }
