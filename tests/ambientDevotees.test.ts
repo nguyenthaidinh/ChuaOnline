@@ -94,3 +94,23 @@ test('seating fills horizontal rows with spacing and stays inside both viewports
     }
   }
 });
+
+
+test('visits randomize seat selection and identities without reshuffling a live crowd', () => {
+  const layouts = new Set<string>();
+  const names = new Set<string>();
+  for (let seed = 1; seed <= 20; seed++) {
+    let state = seed;
+    const random = () => { state = (Math.imul(state, 1664525) + 1013904223) >>> 0; return state / 4294967296; };
+    const crowd = createAmbientCrowd(random);
+    layouts.add(crowd.people.map(person => person.seat).sort((a, b) => a - b).join(','));
+    names.add(crowd.people.map(person => person.name).join(','));
+    const before = ambientDevotees([], crowd);
+    assert.deepEqual(ambientDevotees([], crowd), before);
+    const after = ambientDevotees([{ seat: before[0].seat }], crowd);
+    for (const person of after) assert.ok(before.includes(person), 'Existing identities keep their seat and name.');
+    assert.ok(after.every(person => person.seat !== before[0].seat));
+  }
+  assert.ok(layouts.size > 15, 'Different visits should use different occupied seats.');
+  assert.ok(names.size > 15);
+});

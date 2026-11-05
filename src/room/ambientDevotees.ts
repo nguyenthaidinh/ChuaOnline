@@ -14,13 +14,13 @@ export interface AmbientCrowd {
 export const AMBIENT_DEVOTEE_MIN = 8;
 export const AMBIENT_DEVOTEE_MAX = 12;
 
-// Fill complete horizontal rows, keeping the front row available for visitors.
-const SEATS = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] as const;
+// Randomize occupied places within the spaced rows; reserve the front row for visitors.
+const SEATS = Array.from({ length: 18 }, (_, index) => index + 6);
 const APPEARANCES: readonly Appearance[] = ['man', 'woman', 'granny'];
 const NAMES: Record<Appearance, readonly string[]> = {
-  man: ['Minh Tâm', 'Thiện An', 'Quang Minh', 'Phước Đức', 'Tuệ Minh', 'Minh Tuệ', 'Hải An', 'Đức Hòa', 'Thanh Sơn', 'Văn Thiện', 'Tâm Minh', 'Phước Hòa'],
-  woman: ['An Nhiên', 'Diệu An', 'Ngọc Lan', 'Lan Anh', 'Diệu Liên', 'Thanh Hà', 'Hải Yến', 'Phương Thảo', 'Bảo Ngọc', 'Diệu Hoa', 'Hoài An', 'Mai Phương'],
-  granny: ['Từ Tâm', 'Diệu Tâm', 'Thiện Duyên', 'Phước An', 'Thanh Tịnh', 'Diệu Hạnh', 'Tuệ An', 'Tâm Thiện', 'Minh Hạnh', 'Diệu Hiền', 'Thiện Hòa', 'Ngọc Mai'],
+  man: ['Minh Tâm', 'Thiện An', 'Quang Minh', 'Phước Đức', 'Tuệ Minh', 'Minh Tuệ', 'Hải An', 'Đức Hòa', 'Thanh Sơn', 'Văn Thiện', 'Tâm Minh', 'Phước Hòa', 'Đức Minh', 'Thiện Đức', 'Quang Huy', 'Minh Hải', 'Hoàng Nam', 'Tuấn Anh', 'Thanh Bình', 'Đức An'],
+  woman: ['An Nhiên', 'Diệu An', 'Ngọc Lan', 'Lan Anh', 'Diệu Liên', 'Thanh Hà', 'Hải Yến', 'Phương Thảo', 'Bảo Ngọc', 'Diệu Hoa', 'Hoài An', 'Mai Phương', 'Thu Hà', 'Khánh Linh', 'Ngọc Hân', 'Thanh Mai', 'Minh Châu', 'Hương Giang', 'Bảo Trân', 'Diệu Hương'],
+  granny: ['Từ Tâm', 'Diệu Tâm', 'Thiện Duyên', 'Phước An', 'Thanh Tịnh', 'Diệu Hạnh', 'Tuệ An', 'Tâm Thiện', 'Minh Hạnh', 'Diệu Hiền', 'Thiện Hòa', 'Ngọc Mai', 'Diệu Đức', 'Tâm An', 'Thiện Mỹ', 'Từ Hạnh', 'Diệu Lành', 'Thanh Tâm', 'Tuệ Hạnh', 'An Hòa'],
 };
 
 function shuffle<T>(values: readonly T[], random: () => number): T[] {
@@ -37,10 +37,12 @@ export function createAmbientCrowd(random: () => number = Math.random): AmbientC
   const target = AMBIENT_DEVOTEE_MIN + Math.floor(random() * (AMBIENT_DEVOTEE_MAX - AMBIENT_DEVOTEE_MIN + 1));
   const names = { man: shuffle(NAMES.man, random), woman: shuffle(NAMES.woman, random), granny: shuffle(NAMES.granny, random) };
   const used: Record<Appearance, number> = { man: 0, woman: 0, granny: 0 };
+  const seats = shuffle(SEATS, random).slice(0, AMBIENT_DEVOTEE_MAX);
+  const robes = shuffle(Array.from({ length: AMBIENT_DEVOTEE_MAX }, (_, index) => APPEARANCES[index % APPEARANCES.length]), random);
   return {
     target,
-    people: SEATS.map(seat => {
-      const appearance = APPEARANCES[(seat + Math.floor(seat / 6)) % APPEARANCES.length];
+    people: seats.map((seat, index) => {
+      const appearance = robes[index];
       return { seat, appearance, name: names[appearance][used[appearance]++] };
     }),
   };
