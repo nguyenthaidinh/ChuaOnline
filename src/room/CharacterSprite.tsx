@@ -39,7 +39,7 @@ export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLB
   root.current.dataset.pose=frame.pose??'';
   root.current.dataset.source=frame.sourceId??'';root.current.dataset.artwork=frame.modernKind??'legacy';
   root.current.dataset.bows=String(sample.completedBows);
-  label.current.style.top=`${(frame.top+rootOffset.y)/canvasHeight*100}%`;label.current.dataset.active=String(self);
+  label.current.style.top=`${(frame.top+rootOffset.y)/canvasHeight*100}%`;
   shadow.current.style.left=`${manifest.groundPivot.x/manifest.frameWidth*100}%`;shadow.current.style.top=`${manifest.groundPivot.y/manifest.frameHeight*100}%`;
   const offering=person.action?.offering??'incense';
   prop.current.style.display=held?'block':'none';

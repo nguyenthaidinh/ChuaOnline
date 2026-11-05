@@ -9,8 +9,8 @@
 .room-actor{position:absolute;padding:0;border:0;background:none;overflow:visible;cursor:pointer;isolation:auto}
 .actor-sprite{position:absolute;inset:0;background-repeat:no-repeat;pointer-events:none;transform-origin:50% 91.40625%}
 .actor-shadow{position:absolute;width:29%;height:3.6%;background:#1e1009;opacity:.26;border-radius:50%;filter:blur(2px);transform:translate(-50%,-50%);pointer-events:none}
-.actor-label{position:absolute;left:50%;translate:-50% calc(-100% - 5px);padding:3px 7px;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#e5d4b5;background:#20160ddc;border:1px solid #bda16b55;border-radius:14px;font-size:9px;line-height:1.3;opacity:0;pointer-events:none}
-.actor-label[data-active=true],.room-actor:hover .actor-label,.room-actor:focus .actor-label{opacity:1}.actor-label i{font-style:normal;opacity:.8}.is-self .actor-label{border-color:#d6b66d99;color:#f4d999}
+.actor-label{position:absolute;left:50%;translate:-50% calc(-100% - 5px);padding:3px 7px;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#e5d4b5;background:#20160ddc;border:1px solid #bda16b55;border-radius:14px;font-size:9px;line-height:1.3;opacity:1;pointer-events:none}
+.actor-label i{font-style:normal;opacity:.8}.is-self .actor-label{border-color:#d6b66d99;color:#f4d999}
 .fixed-cushion{position:absolute;translate:-50% -50%;width:auto;pointer-events:none;filter:drop-shadow(0 2px 2px #120b0870)}
 .held-prop{position:absolute;height:12%;width:auto;pointer-events:none;display:none;transform:translate(-50%,-85%)}
 .held-prop[data-kind=incense]{height:17%;transform:translate(-50%,-80%)}.held-prop[data-kind=lotus]{height:11%;transform:translate(-50%,-70%)}.held-prop[data-kind=petal]{height:4%}.held-prop[data-kind=bell]{height:10%;rotate:-25deg}
