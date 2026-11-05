@@ -1,0 +1,161 @@
+{
+  "note": "Local desktop and mobile viewport checks. Scene counters measure JS callbacks, not full paint or physical device performance.",
+  "samples": [
+    {
+      "actors": [
+        {
+          "artwork": "ritual",
+          "phase": "performing",
+          "source": "08-prostrate"
+        },
+        {
+          "artwork": "movement",
+          "phase": "moving",
+          "source": "rearRight-stand"
+        },
+        {
+          "artwork": "movement",
+          "phase": "returning",
+          "source": "front-04-opposite-contact"
+        },
+        {
+          "artwork": "ritual",
+          "phase": "performing",
+          "source": "07-hands-floor"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        },
+        {
+          "artwork": "movement",
+          "phase": "idle",
+          "source": "10-seated-rear"
+        }
+      ],
+      "brokenImages": [],
+      "frame": {
+        "height": 900,
+        "width": 1600
+      },
+      "scene": {
+        "ambientCount": "0",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "7",
+        "sceneDrawMs": "0.858",
+        "sceneFps": "30.0"
+      }
+    },
+    {
+      "active": 2,
+      "count": 24,
+      "scene": {
+        "ambientCount": "0",
+        "layout": "mobile",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "2",
+        "sceneDrawMs": "0.349",
+        "sceneFps": "30.0"
+      },
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "consoleErrors": [],
+  "blessingVoiceStarted": true,
+  "musicPlayingObserved": true
+}

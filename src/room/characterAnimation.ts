@@ -11,6 +11,7 @@ import type { ArtworkFrame } from './modernArtworkTypes.ts';
 import type { Appearance, RoomMember } from './protocol.ts';
 
 export interface ArtworkAvailability {
+  baseActors?:Record<Appearance,boolean>;
   movement:boolean;
   directions:boolean;
   expandedDirections?:boolean;
@@ -28,6 +29,13 @@ export const FALLBACK_ARTWORK:ArtworkAvailability = {
 /** Pure reconstruction from a shared timestamp; the renderer never advances an action itself. */
 export function sampleCharacter(person:RoomMember, now:number, reduced=false, assets=FALLBACK_ARTWORK) {
   const manifest=characterManifest(person.appearance);
+  if (assets.baseActors?.[person.appearance] === false) {
+    // Render an already decoded seated pose while reconstructing remote artwork.
+    person = { ...person, joinedAt: 0, action: null };
+    now = Math.max(now, 100000);
+    reduced = true;
+    assets = FALLBACK_ARTWORK;
+  }
   const entry=sampleEntry(person.joinedAt,now,person.seat,person.entryVersion);
   const entering=entry.phase!=='idle';
   const pose=!entering&&person.action?sampleSharedRitual(person.action,now):null;

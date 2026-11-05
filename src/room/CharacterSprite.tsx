@@ -22,7 +22,10 @@ export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLB
   Object.assign(root.current.style,{left:`${projected.x}%`,top:`${projected.y}%`,height:`${size.canvasHeight}%`,aspectRatio:`${manifest.frameWidth}/${manifest.frameHeight}`,transform:`translate(-${manifest.groundPivot.x/manifest.frameWidth*100}%,-${manifest.groundPivot.y/manifest.frameHeight*100}%)`,zIndex:String(Math.round(projected.y*100))});
   const rootOffset=frame.rootOffset??{x:0,y:0};
   const imageStyle=frameBackground(frame,flip,undefined,canvasWidth,canvasHeight);
-  Object.assign(art.current.style,imageStyle);
+  for(const [key,value] of Object.entries(imageStyle)) {
+   const style=art.current.style as unknown as Record<string,string>;
+   if(style[key]!==String(value))style[key]=String(value);
+  }
   root.current.dataset.phase=sample.phase;root.current.dataset.clip=clip;root.current.dataset.frame=String(frame.cell);root.current.dataset.facing=frame.facing;
   root.current.dataset.heading=sample.heading;root.current.dataset.movementStage=sample.locomotion?.stage??'';
   root.current.dataset.supportFoot=sample.locomotion?.supportFoot??'';
@@ -43,7 +46,8 @@ export function CharacterSprite({person,self,layout,offset,reduced,artwork=FALLB
    const geometry=frame.propGeometry??(frame.modernKind==='incense'?{height:INCENSE_PROP.height,gripFraction:INCENSE_PROP.gripFraction,rotationDeg:0}:ritualPropGeometry(person.appearance,offering));
    const grip=geometry.gripFraction*100;
    Object.assign(prop.current.style,{height:`${geometry.height/canvasHeight*100}%`,rotate:'none',transformOrigin:`50% ${grip}%`,transform:`translate(-50%,-${grip}%) rotate(${geometry.rotationDeg}deg)`,zIndex:'2'});
-   prop.current.src=roomAssets.effect(offering==='bell'?'mallet':offering);
+   const propUrl=roomAssets.effect(offering==='bell'?'mallet':offering);
+   if(prop.current.getAttribute('src')!==propUrl)prop.current.src=propUrl;
    prop.current.style.left=`${(flip?canvasWidth-frame.hand.x:frame.hand.x)/canvasWidth*100}%`;prop.current.style.top=`${frame.hand.y/canvasHeight*100}%`;prop.current.dataset.kind=offering;
   }
   return sample.active;

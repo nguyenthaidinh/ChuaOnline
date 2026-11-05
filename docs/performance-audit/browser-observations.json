@@ -1,0 +1,168 @@
+{
+  "note": "DOM scene counters are JS drawing callback averages, not total frame presentation time or a memory measurement. Desktop local run and mobile viewport emulation; no network/CPU throttle. Mobile screenshot was captured after synthetic clients left (1 real client + ambient crowd), not a mobile 24-client load test. Image-element checks do not validate CSS sprite painting.",
+  "observations": [
+    {
+      "actorCount": 24,
+      "actors": [
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "petalRelease",
+          "phase": "performing",
+          "artwork": "ritual"
+        },
+        {
+          "clip": "offerRelease",
+          "phase": "performing",
+          "artwork": "incense"
+        },
+        {
+          "clip": "walkFront",
+          "phase": "returning",
+          "artwork": "movement"
+        },
+        {
+          "clip": "bowDown",
+          "phase": "performing",
+          "artwork": "ritual"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        },
+        {
+          "clip": "seated",
+          "phase": "idle",
+          "artwork": "movement"
+        }
+      ],
+      "brokenImages": [],
+      "scene": {
+        "ambientCount": "0",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "11",
+        "sceneDrawMs": "1.541",
+        "sceneFps": "30.0"
+      }
+    },
+    {
+      "activeActors": 2,
+      "actorCount": 24,
+      "scene": {
+        "ambientCount": "0",
+        "layout": "desktop",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "7",
+        "sceneDrawMs": "1.373",
+        "sceneFps": "30.0"
+      }
+    },
+    {
+      "actorCount": 1,
+      "brokenImages": [],
+      "scene": {
+        "ambientCount": "10",
+        "layout": "mobile",
+        "modernIncense": "ready",
+        "reducedMotion": "false",
+        "sceneDrawCount": "2",
+        "sceneDrawMs": "0.249",
+        "sceneFps": "30.0"
+      },
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ]
+}

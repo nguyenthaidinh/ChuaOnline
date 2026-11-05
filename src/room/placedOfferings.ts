@@ -24,3 +24,21 @@ export function visibleOfferings(items:ReturnType<typeof offeringCandidates>,now
  }
  return visible;
 }
+
+const visibilityCache = new WeakMap<ReturnType<typeof offeringCandidates>, { now: number; ids: Set<string> }>();
+export function visibleOfferingIds(items: ReturnType<typeof offeringCandidates>, now: number) {
+  const cached = visibilityCache.get(items);
+  if (cached?.now === now) return cached.ids;
+  const ids = new Set(visibleOfferings(items, now).map(item => item.id));
+  visibilityCache.set(items, { now, ids });
+  return ids;
+}
+/** Shared-clock deadline. Static objects sleep until visibility/fade can change. */
+export function nextOfferingDraw(item: ReturnType<typeof offeringCandidates>[number], items: ReturnType<typeof offeringCandidates>, now: number, reduced: boolean): boolean | number {
+  if (now >= item.expiresAt) return false;
+  if (now < item.placedAt) return item.placedAt;
+  if (now >= item.expiresAt - 1200) return true;
+  if (!reduced && (item.kind === 'incense' || (item.kind === 'petal' && now < item.placedAt + 2300))) return true;
+  const markers = items.flatMap(value => [value.placedAt, value.expiresAt]).filter(at => at > now);
+  return Math.min(item.expiresAt - 1200, ...markers);
+}

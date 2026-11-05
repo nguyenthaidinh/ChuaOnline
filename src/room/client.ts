@@ -21,7 +21,9 @@ export class RoomClient {
     const expired = this.state.selfId && !room.people.some(person => person.id === this.state.selfId);
     if (expired) this.token = null;
     this.clock.observe(room.now,Date.now());
-    this.update({ room, offset: this.clock.offset, status: 'online',
+    const stableRoom = room.revision === this.state.room.revision && this.state.status === 'online' ? this.state.room : room;
+    if (stableRoom === this.state.room && this.clock.offset === this.state.offset && !expired) return;
+    this.update({ room: stableRoom, offset: this.clock.offset, status: 'online',
       ...(expired ? { selfId: null, message: 'Phiên an tọa đã kết thúc. Mời bạn vào lại.' } : {}) });
   }
   connect() {

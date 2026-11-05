@@ -1,0 +1,17 @@
+{
+  "note": "Single localhost run, synthetic API/SSE clients plus one real browser; not 24 rendered browsers or a WAN benchmark.",
+  "initialPeople": 1,
+  "ownedClients": 23,
+  "peakPeople": 24,
+  "peakActions": 4,
+  "sseEvents": 644,
+  "sseBytes": 2844827,
+  "requests": 73,
+  "statusCounts": {
+    "200": 73
+  },
+  "p50Ms": 16.6024000000034,
+  "p95Ms": 22.048299999994924,
+  "errors": [],
+  "remainingPeople": 1
+}

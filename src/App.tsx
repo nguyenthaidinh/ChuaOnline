@@ -4,7 +4,7 @@ import { RoomScene } from './room/RoomScene';
 import { roomAssets } from './room/layout';
 import { OFFERING_LABELS, type Appearance, type OfferingKind } from './room/protocol';
 import { entryDurationMs, sampleEntry, sampleSharedRitual } from './room/ritual';
-import { useSceneAssets } from './room/useSceneAssets';
+import { useSceneAssets, prepareMovement, prepareRitual } from './room/useSceneAssets';
 import { useReducedMotion } from './room/useReducedMotion';
 import { InteractionCueGate } from './room/interactionCue';
 import { MUSIC_TRACKS, type MusicTrackId } from './config/templeAssets';
@@ -37,6 +37,9 @@ export default function App() {
   const [soundEngine] = useState(() => new SoundEngine({createAudio:()=>musicPlayer.current!}));
   const [name, setName] = useState('');
   const [appearance, setAppearance] = useState<Appearance>('man');
+  const [preparing,setPreparing]=useState(false);
+  const preparingRef=useRef(false);
+  const [assetMessage,setAssetMessage]=useState('');
   const [music, setMusic] = useState(false);
   const [joinMusic, setJoinMusic] = useState(true);
   const [musicPending, setMusicPending] = useState(false);
@@ -79,7 +82,11 @@ export default function App() {
   const join = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (joinMusic && !music && assets.status==='ready') void toggleMusic();
-    if (assets.status==='ready' && await room.join(name.trim().slice(0,32), appearance)) gate.current?.close();
+    if(preparingRef.current||assets.status!=='ready')return;
+    preparingRef.current=true;setPreparing(true);setAssetMessage('');
+    try { await prepareMovement(appearance); if(await room.join(name.trim().slice(0,32),appearance))gate.current?.close(); }
+    catch {setAssetMessage('Chưa tải được nhân vật. Mời bạn thử lại.');}
+    finally {preparingRef.current=false;setPreparing(false);}
   };
   const toggleMusic = async () => {
     if (musicBusy.current) return;
@@ -129,7 +136,11 @@ export default function App() {
   }, [self?.id, soundEngine]);
   const offer = async (kind: OfferingKind | 'bow') => {
     if (ritualSounds) void soundEngine.unlock().catch(() => {});
-    if (await room.action(kind)) offerings.current?.close();
+    if(!self||preparingRef.current)return;
+    preparingRef.current=true;setPreparing(true);setAssetMessage('');
+    try {await prepareRitual(self.appearance);if(await room.action(kind))offerings.current?.close();}
+    catch {setAssetMessage('Chưa chuẩn bị được hình ảnh. Mời bạn thử lại.');}
+    finally {preparingRef.current=false;setPreparing(false);}
   };
   const expand = async () => {
     try { if (document.fullscreenElement) await document.exitFullscreen(); else await shell.current?.requestFullscreen(); }
@@ -145,17 +156,17 @@ export default function App() {
       onToggleFullscreen={() => void expand()} onLeave={() => void room.leave()} />
     <main className="sanctuary-main">
       <section className="sanctuary-frame" aria-label="Chánh điện" data-layout={layout.id}>
-        {assets.status==='ready'&&<RoomScene room={room.room} selfId={room.selfId} layout={layout.id} offset={room.offset} reduced={reducedMotion} ambient={ambient} warmAppearance={appearance} />}
+        {assets.displayLayout&&<RoomScene room={room.room} selfId={room.selfId} layout={assets.displayLayout} offset={room.offset} reduced={reducedMotion} ambient={ambient} />}
         {assets.status!=='ready'&&<div className="scene-loading" role="status"><Icon name="lotus"/><p>{assets.status==='error'?'Chưa tải được hình ảnh chánh điện.':'Đang chuẩn bị chánh điện…'}</p>{assets.status==='error'&&<button className="ritual-button" onClick={assets.retry}>Tải lại hình ảnh</button>}</div>}
         <div className="scene-heading"><span className="scene-eyebrow">NAM MÔ A DI ĐÀ PHẬT</span><h1>Chánh điện bình an</h1></div>
         {self && <div className="self-badge"><span className="connection-dot connected" />{self.name}<span> · {entering ? 'Bạn đang vào điện' : busy ? 'Bạn đang làm lễ' : 'Bạn đang an tọa'}</span></div>}
         {!connected && <div className="connection-notice" role="status">Chưa kết nối được phòng chung. Đang thử lại…</div>}
       </section>
-      <SanctuaryDock status={room.message || status} ritualWish={ritualWish} joined={Boolean(self)}
+      <SanctuaryDock status={assetMessage || (preparing?'Đang chuẩn bị hình ảnh…':room.message || status)} ritualWish={ritualWish} joined={Boolean(self)}
         canEnter={connected && !room.pending && assets.status === 'ready'}
-        canAct={connected && !busy && !room.pending}
+        canAct={connected && !busy && !room.pending && !preparing}
         musicState={music ? 'playing' : musicPending ? 'loading' : 'off'}
-        onEnter={() => gate.current?.showModal()} onIncense={() => void offer('incense')}
+        onEnter={() => {gate.current?.showModal();void prepareMovement(appearance).catch(()=>{});}} onIncense={() => void offer('incense')}
         onBow={() => void offer('bow')} onOfferings={() => offerings.current?.showModal()}
         onBlessing={() => blessing.current?.open()} onAudio={openAudio} />
     </main>
@@ -165,14 +176,16 @@ export default function App() {
       <form onSubmit={event => void join(event)}>
         <label htmlFor="visitor-name">Tên hoặc pháp danh <span>· không bắt buộc</span></label>
         <input id="visitor-name" autoComplete="off" maxLength={32} placeholder="Ví dụ: An Nhiên" value={name} onChange={event=>setName(event.target.value)} />
-        <fieldset><legend>Chọn y phục</legend><div className="appearance-options">{([['man','Nam áo lam'],['woman','Nữ áo lam'],['granny','Áo nâu']] as const).map(([skin,label])=><button key={skin} type="button" aria-pressed={appearance===skin} onClick={()=>setAppearance(skin)}><img src={roomAssets.sprite(skin)} alt="" /><span>{label}</span></button>)}</div></fieldset>
+        <fieldset><legend>Chọn y phục</legend><div className="appearance-options">{([['man','Nam áo lam'],['woman','Nữ áo lam'],['granny','Áo nâu']] as const).map(([skin,label])=><button key={skin} type="button" disabled={preparing} aria-pressed={appearance===skin} onClick={()=>{setAppearance(skin);void prepareMovement(skin).catch(()=>{});}}><img src={roomAssets.sprite(skin)} alt="" /><span>{label}</span></button>)}</div></fieldset>
         <label className="motion-preference join-music"><input type="checkbox" checked={joinMusic} onChange={event=>setJoinMusic(event.target.checked)}/>Bật nhạc thiền khi vào chánh điện</label>
+        {assetMessage && <p className="form-message" role="alert">{assetMessage}</p>}
         {room.message && <p className="form-message" role="alert">{room.message}</p>}
-        <button className="ritual-button primary join-submit" disabled={room.pending || !connected || assets.status!=='ready'} type="submit">{room.pending?'Đang tìm chỗ an tọa…':'Vào chánh điện'} <span aria-hidden="true">→</span></button>
+        <button className="ritual-button primary join-submit" disabled={preparing || room.pending || !connected || assets.status!=='ready'} type="submit">{preparing?'Đang chuẩn bị nhân vật…':room.pending?'Đang tìm chỗ an tọa…':'Vào chánh điện'} <span aria-hidden="true">→</span></button>
         <small className="privacy-note">Tên và nhân vật của bạn sẽ xuất hiện trong phòng chung.</small>
       </form>
     </dialog>
-    <dialog ref={offerings} className="temple-dialog offering-dialog" aria-labelledby="offering-title"><button className="dialog-close" aria-label="Đóng dâng lễ" onClick={() => close(offerings.current)}><Icon name="close" /></button><span className="dialog-eyebrow">MỘT TÂM LÀNH GỬI ĐẾN</span><h2 id="offering-title">Dâng một lễ lành</h2><p className="dialog-description">Bạn sẽ tiến lên làm lễ. Mọi người trong chánh điện cùng nhìn thấy.</p><div className="offering-options">{(['incense','lotus','petal','bell'] as const).map(kind => <button type="button" key={kind} disabled={!connected || busy || room.pending} onClick={() => void offer(kind)}><img src={roomAssets.effect(kind)} alt="" /><span>{OFFERING_LABELS[kind]}</span></button>)}</div>{room.message && <p className="form-message" role="alert">{room.message}</p>}<p className="privacy-note">Lễ vật mô phỏng, hoàn toàn miễn phí · Không thanh toán</p></dialog>
+    <dialog ref={offerings} className="temple-dialog offering-dialog" aria-labelledby="offering-title"><button className="dialog-close" aria-label="Đóng dâng lễ" onClick={() => close(offerings.current)}><Icon name="close" /></button><span className="dialog-eyebrow">MỘT TÂM LÀNH GỬI ĐẾN</span><h2 id="offering-title">Dâng một lễ lành</h2><p className="dialog-description">Bạn sẽ tiến lên làm lễ. Mọi người trong chánh điện cùng nhìn thấy.</p><div className="offering-options">{(['incense','lotus','petal','bell'] as const).map(kind => <button type="button" key={kind} disabled={!connected || busy || room.pending} onClick={() => void offer(kind)}><img src={roomAssets.effect(kind)} alt="" /><span>{OFFERING_LABELS[kind]}</span></button>)}</div>{assetMessage && <p className="form-message" role="alert">{assetMessage}</p>}
+        {room.message && <p className="form-message" role="alert">{room.message}</p>}<p className="privacy-note">Lễ vật mô phỏng, hoàn toàn miễn phí · Không thanh toán</p></dialog>
     <dialog ref={audio} className="temple-dialog audio-dialog" aria-labelledby="audio-title"><button className="dialog-close" aria-label="Đóng âm thanh" onClick={()=>close(audio.current)}><Icon name="close" /></button><span className="dialog-eyebrow">LẮNG LẠI MỘT CHÚT</span><h2 id="audio-title">Âm thanh chánh điện</h2><p className="dialog-description">Âm thanh chỉ phát trên thiết bị của bạn.</p><label htmlFor="music-track">Bài nhạc</label><select id="music-track" value={track} disabled={musicPending} onChange={event => void changeTrack(event.target.value as MusicTrackId)}>{MUSIC_TRACKS.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select><div className="audio-actions"><button className="ritual-button primary" disabled={musicPending} aria-pressed={music} onClick={()=>void toggleMusic()}><Icon name="music" />{musicPending?'Đang mở nhạc…':music?'Tắt nhạc':'Bật nhạc'}</button><button className="ritual-button" onClick={()=>{setSoundMessage('');void soundEngine.ringBell().catch(()=>setSoundMessage('Chưa phát được chuông. Bạn hãy thử lại.'));}}><Icon name="bell" />Thỉnh chuông</button><button className="ritual-button" onClick={() => void soundEngine.playMok().catch(() => setSoundMessage('Chưa phát được tiếng mõ.'))}>Gõ mõ</button></div><button className="next-track" disabled={musicPending} onClick={() => { const index = MUSIC_TRACKS.findIndex(item => item.id === track); void changeTrack(MUSIC_TRACKS[(index+1)%MUSIC_TRACKS.length].id); }}>Bài tiếp theo →</button><label className="volume-label" htmlFor="room-volume">Âm lượng <output>{volume}%</output></label><input id="room-volume" type="range" min="0" max="100" value={volume} onChange={event=>{const value=Number(event.target.value);setVolume(value);soundEngine.setVolume(value/100);}} /><label className="motion-preference"><input type="checkbox" checked={ritualSounds} onChange={event=>{setRitualSounds(event.target.checked);if(!event.target.checked){cueGate.current.discard(self?.action);soundEngine.stopNarration('ritual');}}}/>Âm thanh và lời nguyện khi làm lễ</label><label className="motion-preference"><input type="checkbox" checked={reducedMotion} onChange={event=>setMotionPreference(event.target.checked)}/>Giảm chuyển động</label><small className="motion-description">Hiển thị tư thế chính và giảm hiệu ứng trong cảnh.</small>{soundMessage&&<p className="form-message" role="alert">{soundMessage}</p>}</dialog>
     <BlessingDialog ref={blessing} sound={soundEngine}/>
     <dialog ref={guests} className="temple-dialog guest-dialog" aria-labelledby="guests-title">

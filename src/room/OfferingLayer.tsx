@@ -1,10 +1,11 @@
+import type {ArtworkAvailability} from './characterAnimation';
 import {useEffect,useRef} from 'react';
 import type {Appearance,RoomSnapshot,PlacedOffering,OfferingKind,SharedAction} from './protocol';
 import type {SceneLayoutId} from '../config/sceneLayout';
 import {roomAssets,stationAnchor,petalEmissionAnchor,altarPoint,incenseSourceAnchor,incenseWorldSize,offeringWorldHeight} from './layout';
 import {interactionTime} from './ritual';
 import {subscribeSceneAnimation} from './sceneAnimation';
-import {offeringCandidates,visibleOfferings} from './placedOfferings';
+import {offeringCandidates,visibleOfferingIds,nextOfferingDraw} from './placedOfferings';
 import {incenseAcquisitionTime} from './incenseAnimation';
 import {IncenseSourceCup} from './IncenseSourceCup';
 import {INCENSE_PROP} from './incenseGeometry';
@@ -44,6 +45,15 @@ function Station({slot,kind,action,layout,offset,reduced,modernReady,appearance,
 }
 function ResultVisual({item,candidates,layout,offset,reduced,extensionReady}:{item:PlacedOffering;candidates:PlacedOffering[];layout:SceneLayoutId;offset:number;reduced:boolean;extensionReady:boolean}) {
  const root=useRef<HTMLDivElement>(null),wisps=useRef<HTMLDivElement>(null),petals=useRef<HTMLDivElement>(null);
+ const sceneHeight=useRef(500);
+ useEffect(()=>{
+  const scene=root.current?.parentElement;
+  if(!scene)return;
+  sceneHeight.current=scene.getBoundingClientRect().height;
+  const observer=new ResizeObserver(entries=>{sceneHeight.current=entries[0].contentRect.height;});
+  observer.observe(scene);
+  return()=>observer.disconnect();
+ },[]);
  const current=useRef({item,candidates,layout,offset,reduced,extensionReady});current.current={item,candidates,layout,offset,reduced,extensionReady};
  useEffect(()=>subscribeSceneAnimation(localNow=>{
   const{item,candidates,layout,offset,reduced,extensionReady}=current.current;
@@ -53,7 +63,7 @@ function ResultVisual({item,candidates,layout,offset,reduced,extensionReady}:{it
     ?petalEmissionAnchor(item.slot,layout,item.appearance??'man',extensionReady)
     :stationAnchor(item.slot,layout,item.kind,item.appearance,item.artworkVersion);
   const floor=altarPoint(item.slot,layout);
-  const visible=visibleOfferings(candidates,now).some(candidate=>candidate.id===item.id);
+  const visible=visibleOfferingIds(candidates,now).has(item.id);
   root.current.style.display=visible?'block':'none';
   root.current.dataset.placed=String(visible);
   const incense=incenseWorldSize(item.slot,layout);
@@ -71,23 +81,24 @@ function ResultVisual({item,candidates,layout,offset,reduced,extensionReady}:{it
   }
   for(const[i,child]of Array.from(petals.current.children).entries()) {
    const element=child as HTMLElement;const p=Math.min(1,Math.max(0,(age-i*70)/1700));
-   const fall=(floor.y-anchor.y)/100*(root.current.parentElement?.getBoundingClientRect().height??500);
+   const fall=(floor.y-anchor.y)/100*sceneHeight.current;
    element.style.display=reduced?'none':'block';
    if(item.artworkVersion===4){
     element.style.opacity=age<i*70?'0':'.8';
     element.style.transform=`translate(-50%,-50%) translate(${(i-3.5)*5*p+Math.sin(p*Math.PI)*Math.sin(i*2)*3}px,${p*p*fall-Math.sin(p*Math.PI)*4}px) rotate(${i*42+p*70}deg)`;
    }else element.style.transform=`translate(${(i-3.5)*3*p}px,${p*p*fall}px) rotate(${i*42+p*35}deg)`;
   }
-  return now<item.expiresAt;
- }),[item.id,layout,reduced]);
+  const next=nextOfferingDraw(item,candidates,now,reduced);
+  return typeof next==='number'?next-offset:next;
+ }),[item.id,layout,reduced,candidates,offset,extensionReady]);
  return <div ref={root} className={`placed-offering placed-${item.kind}`} data-artwork-version={item.artworkVersion} data-offering-id={item.id} data-action-id={item.actionId} data-effect={item.kind}>
   {item.kind!=='petal'&&<img className="placed-object" src={roomAssets.effect(item.kind)} alt=""/>}
   <div ref={wisps} className="incense-smoke">{[0,1,2].map(i=><i key={i}/>)}</div>
   <div ref={petals} className="released-petals">{item.kind==='petal'&&Array.from({length:8},(_,i)=><img key={i} src={roomAssets.effect('petal')} alt=""/>)}</div>
  </div>;
 }
-export function OfferingLayer({room,layout,offset,reduced,incenseReady,ritualExtensionReady}:{room:RoomSnapshot;layout:SceneLayoutId;offset:number;reduced:boolean;incenseReady:Record<Appearance,boolean>;ritualExtensionReady?:Record<Appearance,boolean>}) {
+export function OfferingLayer({room,layout,offset,reduced,incenseReady,ritualExtensionReady,actionArtwork}:{room:RoomSnapshot;layout:SceneLayoutId;offset:number;reduced:boolean;incenseReady:Record<Appearance,boolean>;ritualExtensionReady?:Record<Appearance,boolean>;actionArtwork?:(id:string)=>ArtworkAvailability}) {
  const results=offeringCandidates(room);
- return <div className="offering-layer" aria-hidden="true">{[0,1,2,3].map(slot=>{const person=room.people.find(p=>p.action?.slot===slot);const action=person?.action??undefined;const previous=room.offerings.filter(item=>item.slot===slot&&item.kind!=='petal').at(-1);const kind=action?.offering&&action.offering!=='petal'?action.offering:previous?.kind??'incense';const appearance=person?.appearance??previous?.appearance??'man';const artworkVersion=action?artworkVersionForMovement(action.movement?.version):previous?.artworkVersion;return <Station key={slot} slot={slot} kind={kind} action={action} layout={layout} offset={offset} reduced={reduced} appearance={appearance} artworkVersion={artworkVersion} modernReady={incenseReady[appearance]}/>;})}
- {results.map(item=><ResultVisual key={item.id} item={item} candidates={results} layout={layout} offset={offset} reduced={reduced} extensionReady={ritualExtensionReady?.[item.appearance??'man']??false}/>)}</div>;
+ return <div className="offering-layer" aria-hidden="true">{[0,1,2,3].map(slot=>{const person=room.people.find(p=>p.action?.slot===slot);const action=person?.action??undefined;const previous=room.offerings.filter(item=>item.slot===slot&&item.kind!=='petal').at(-1);const kind=action?.offering&&action.offering!=='petal'?action.offering:previous?.kind??'incense';const appearance=person?.appearance??previous?.appearance??'man';const artworkVersion=action?artworkVersionForMovement(action.movement?.version):previous?.artworkVersion;return <Station key={slot} slot={slot} kind={kind} action={action} layout={layout} offset={offset} reduced={reduced} appearance={appearance} artworkVersion={artworkVersion} modernReady={action?(actionArtwork?.(action.id).incense[appearance]??incenseReady[appearance]):incenseReady[appearance]}/>;})}
+ {results.map(item=><ResultVisual key={item.id} item={item} candidates={results} layout={layout} offset={offset} reduced={reduced} extensionReady={(actionArtwork?.(item.actionId).ritualExtension??ritualExtensionReady)?.[item.appearance??'man']??false}/>)}</div>;
 }

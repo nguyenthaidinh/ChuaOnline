@@ -1,0 +1,301 @@
+{
+  "note": "RGBA is width \u00d7 height \u00d7 4, not measured browser RAM/VRAM. Totals include both backgrounds and unused optional assets.",
+  "inventory": [
+    {
+      "path": "assets/visual-v2/lam-atlas.webp",
+      "bytes": 599862,
+      "width": 2304,
+      "height": 2560,
+      "rgbaBytes": 23592960
+    },
+    {
+      "path": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "bytes": 419774,
+      "width": 768,
+      "height": 3072,
+      "rgbaBytes": 9437184
+    },
+    {
+      "path": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "bytes": 482586,
+      "width": 1152,
+      "height": 1728,
+      "rgbaBytes": 7962624
+    },
+    {
+      "path": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "bytes": 475432,
+      "width": 1152,
+      "height": 1728,
+      "rgbaBytes": 7962624
+    },
+    {
+      "path": "assets/visual-v2/hall-desktop.webp",
+      "bytes": 271516,
+      "width": 1672,
+      "height": 941,
+      "rgbaBytes": 6293408
+    },
+    {
+      "path": "assets/visual-v2/hall-mobile.webp",
+      "bytes": 229906,
+      "width": 941,
+      "height": 1672,
+      "rgbaBytes": 6293408
+    },
+    {
+      "path": "assets/visual-v2/granny-atlas.webp",
+      "bytes": 313632,
+      "width": 1152,
+      "height": 1280,
+      "rgbaBytes": 5898240
+    },
+    {
+      "path": "assets/visual-v2/woman-atlas.webp",
+      "bytes": 479172,
+      "width": 1152,
+      "height": 1280,
+      "rgbaBytes": 5898240
+    },
+    {
+      "path": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "bytes": 307574,
+      "width": 1152,
+      "height": 1152,
+      "rgbaBytes": 5308416
+    },
+    {
+      "path": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "bytes": 185952,
+      "width": 768,
+      "height": 1536,
+      "rgbaBytes": 4718592
+    },
+    {
+      "path": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "bytes": 208742,
+      "width": 768,
+      "height": 1536,
+      "rgbaBytes": 4718592
+    },
+    {
+      "path": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "bytes": 184740,
+      "width": 768,
+      "height": 1536,
+      "rgbaBytes": 4718592
+    },
+    {
+      "path": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "bytes": 202918,
+      "width": 768,
+      "height": 1536,
+      "rgbaBytes": 4718592
+    },
+    {
+      "path": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "bytes": 182170,
+      "width": 768,
+      "height": 1536,
+      "rgbaBytes": 4718592
+    },
+    {
+      "path": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "bytes": 204946,
+      "width": 768,
+      "height": 1536,
+      "rgbaBytes": 4718592
+    },
+    {
+      "path": "assets/animation-v3/granny-closes-36dbcee69982.webp",
+      "bytes": 196628,
+      "width": 1152,
+      "height": 768,
+      "rgbaBytes": 3538944
+    },
+    {
+      "path": "assets/animation-v3/woman-closes-d73f98b2cb55.webp",
+      "bytes": 186846,
+      "width": 1152,
+      "height": 768,
+      "rgbaBytes": 3538944
+    },
+    {
+      "path": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "bytes": 157036,
+      "width": 768,
+      "height": 1024,
+      "rgbaBytes": 3145728
+    },
+    {
+      "path": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "bytes": 117054,
+      "width": 576,
+      "height": 1152,
+      "rgbaBytes": 2654208
+    },
+    {
+      "path": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "bytes": 118110,
+      "width": 576,
+      "height": 1152,
+      "rgbaBytes": 2654208
+    },
+    {
+      "path": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "bytes": 115658,
+      "width": 576,
+      "height": 1152,
+      "rgbaBytes": 2654208
+    },
+    {
+      "path": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "bytes": 111176,
+      "width": 768,
+      "height": 768,
+      "rgbaBytes": 2359296
+    },
+    {
+      "path": "assets/animation-v3/granny-ritual-bb6ffb1e27e3.webp",
+      "bytes": 41938,
+      "width": 576,
+      "height": 512,
+      "rgbaBytes": 1179648
+    },
+    {
+      "path": "assets/animation-v3/man-ritual-ca49b87c3b99.webp",
+      "bytes": 42754,
+      "width": 576,
+      "height": 512,
+      "rgbaBytes": 1179648
+    },
+    {
+      "path": "assets/animation-v3/woman-ritual-c3b3fcf28fda.webp",
+      "bytes": 44008,
+      "width": 576,
+      "height": 512,
+      "rgbaBytes": 1179648
+    },
+    {
+      "path": "assets/seating-direction/man.webp",
+      "bytes": 11982,
+      "width": 384,
+      "height": 512,
+      "rgbaBytes": 786432
+    },
+    {
+      "path": "assets/visual-v2/lotus.webp",
+      "bytes": 34876,
+      "width": 384,
+      "height": 293,
+      "rgbaBytes": 450048
+    },
+    {
+      "path": "assets/visual-v2/bell.webp",
+      "bytes": 31574,
+      "width": 275,
+      "height": 384,
+      "rgbaBytes": 422400
+    },
+    {
+      "path": "assets/visual-v2/petal.webp",
+      "bytes": 20028,
+      "width": 384,
+      "height": 250,
+      "rgbaBytes": 384000
+    },
+    {
+      "path": "assets/visual-v2/urn.webp",
+      "bytes": 31072,
+      "width": 238,
+      "height": 384,
+      "rgbaBytes": 365568
+    },
+    {
+      "path": "assets/visual-v2/bell-station.webp",
+      "bytes": 30242,
+      "width": 228,
+      "height": 384,
+      "rgbaBytes": 350208
+    },
+    {
+      "path": "assets/visual-v2/flower-station.webp",
+      "bytes": 26478,
+      "width": 200,
+      "height": 384,
+      "rgbaBytes": 307200
+    },
+    {
+      "path": "assets/visual-v2/cushion.webp",
+      "bytes": 38680,
+      "width": 384,
+      "height": 199,
+      "rgbaBytes": 305664
+    },
+    {
+      "path": "assets/seating-direction/granny.webp",
+      "bytes": 5422,
+      "width": 192,
+      "height": 256,
+      "rgbaBytes": 196608
+    },
+    {
+      "path": "assets/seating-direction/woman.webp",
+      "bytes": 5026,
+      "width": 192,
+      "height": 256,
+      "rgbaBytes": 196608
+    },
+    {
+      "path": "assets/visual-v2/woman-preview.webp",
+      "bytes": 10468,
+      "width": 192,
+      "height": 234,
+      "rgbaBytes": 179712
+    },
+    {
+      "path": "assets/visual-v2/granny-preview.webp",
+      "bytes": 7258,
+      "width": 191,
+      "height": 216,
+      "rgbaBytes": 165024
+    },
+    {
+      "path": "assets/visual-v2/lam-preview.webp",
+      "bytes": 8712,
+      "width": 180,
+      "height": 220,
+      "rgbaBytes": 158400
+    },
+    {
+      "path": "assets/visual-v2/incense.webp",
+      "bytes": 17072,
+      "width": 95,
+      "height": 384,
+      "rgbaBytes": 145920
+    },
+    {
+      "path": "assets/visual-v2/mallet.webp",
+      "bytes": 8590,
+      "width": 83,
+      "height": 384,
+      "rgbaBytes": 127488
+    }
+  ],
+  "essential": {
+    "desktop": {
+      "count": 13,
+      "bytes": 532558,
+      "rgbaBytes": 10331552
+    },
+    "mobile": {
+      "count": 13,
+      "bytes": 490948,
+      "rgbaBytes": 10331552
+    }
+  },
+  "totalBytes": 6167610,
+  "totalRGBABytes": 135584416,
+  "sampledCells": 517,
+  "cellErrors": []
+}

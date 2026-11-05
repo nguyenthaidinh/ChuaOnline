@@ -1,0 +1,3325 @@
+{
+  "recordedAt": "2026-11-05T04:12:00.707Z",
+  "samples": 101310,
+  "uniqueFrames": 517,
+  "sampling": "80 ms, seats 0/5/18/23, all 3 appearances, all 4 stations, all 5 rites; full and fallback artwork. Not an exhaustive partial-readiness or pixel-paint test.",
+  "essential": {
+    "desktop": [
+      {
+        "path": "assets/visual-v2/hall-desktop.webp",
+        "bytes": 271516
+      },
+      {
+        "path": "assets/visual-v2/lam-atlas.webp",
+        "bytes": 599862
+      },
+      {
+        "path": "assets/seating-direction/man.webp",
+        "bytes": 11982
+      },
+      {
+        "path": "assets/visual-v2/woman-atlas.webp",
+        "bytes": 479172
+      },
+      {
+        "path": "assets/seating-direction/woman.webp",
+        "bytes": 5026
+      },
+      {
+        "path": "assets/visual-v2/granny-atlas.webp",
+        "bytes": 313632
+      },
+      {
+        "path": "assets/seating-direction/granny.webp",
+        "bytes": 5422
+      },
+      {
+        "path": "assets/visual-v2/cushion.webp",
+        "bytes": 38680
+      },
+      {
+        "path": "assets/visual-v2/incense.webp",
+        "bytes": 17072
+      },
+      {
+        "path": "assets/visual-v2/lotus.webp",
+        "bytes": 34876
+      },
+      {
+        "path": "assets/visual-v2/bell.webp",
+        "bytes": 31574
+      },
+      {
+        "path": "assets/visual-v2/petal.webp",
+        "bytes": 20028
+      },
+      {
+        "path": "assets/visual-v2/mallet.webp",
+        "bytes": 8590
+      },
+      {
+        "path": "assets/visual-v2/urn.webp",
+        "bytes": 31072
+      },
+      {
+        "path": "assets/visual-v2/flower-station.webp",
+        "bytes": 26478
+      },
+      {
+        "path": "assets/visual-v2/bell-station.webp",
+        "bytes": 30242
+      }
+    ],
+    "mobile": [
+      {
+        "path": "assets/visual-v2/hall-mobile.webp",
+        "bytes": 229906
+      },
+      {
+        "path": "assets/visual-v2/lam-atlas.webp",
+        "bytes": 599862
+      },
+      {
+        "path": "assets/seating-direction/man.webp",
+        "bytes": 11982
+      },
+      {
+        "path": "assets/visual-v2/woman-atlas.webp",
+        "bytes": 479172
+      },
+      {
+        "path": "assets/seating-direction/woman.webp",
+        "bytes": 5026
+      },
+      {
+        "path": "assets/visual-v2/granny-atlas.webp",
+        "bytes": 313632
+      },
+      {
+        "path": "assets/seating-direction/granny.webp",
+        "bytes": 5422
+      },
+      {
+        "path": "assets/visual-v2/cushion.webp",
+        "bytes": 38680
+      },
+      {
+        "path": "assets/visual-v2/incense.webp",
+        "bytes": 17072
+      },
+      {
+        "path": "assets/visual-v2/lotus.webp",
+        "bytes": 34876
+      },
+      {
+        "path": "assets/visual-v2/bell.webp",
+        "bytes": 31574
+      },
+      {
+        "path": "assets/visual-v2/petal.webp",
+        "bytes": 20028
+      },
+      {
+        "path": "assets/visual-v2/mallet.webp",
+        "bytes": 8590
+      },
+      {
+        "path": "assets/visual-v2/urn.webp",
+        "bytes": 31072
+      },
+      {
+        "path": "assets/visual-v2/flower-station.webp",
+        "bytes": 26478
+      },
+      {
+        "path": "assets/visual-v2/bell-station.webp",
+        "bytes": 30242
+      }
+    ]
+  },
+  "http": [
+    {
+      "path": "/assets/fonts/noto-serif-vietnamese.woff2",
+      "requestHeaders": {},
+      "status": 404,
+      "headers": {
+        "connection": "keep-alive",
+        "date": "Thu, 05 Nov 2026 04:12:00 GMT",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked"
+      },
+      "bytes": 0
+    },
+    {
+      "path": "/assets/visual-v2/hall-desktop.webp",
+      "requestHeaders": {},
+      "status": 200,
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "271516",
+        "content-type": "image/webp",
+        "date": "Thu, 05 Nov 2026 04:12:00 GMT",
+        "keep-alive": "timeout=5",
+        "x-content-type-options": "nosniff"
+      },
+      "bytes": 271516
+    },
+    {
+      "path": "/assets/index-DBy0aEAD.js",
+      "requestHeaders": {
+        "Accept-Encoding": "gzip, br"
+      },
+      "status": 200,
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "221305",
+        "content-type": "application/javascript",
+        "date": "Thu, 05 Nov 2026 04:12:00 GMT",
+        "keep-alive": "timeout=5",
+        "x-content-type-options": "nosniff"
+      },
+      "bytes": 221305
+    },
+    {
+      "path": "/assets/visual-v2/hall-desktop.webp",
+      "requestHeaders": {
+        "If-Modified-Since": "Thu, 05 Nov 2026 04:13:00 GMT"
+      },
+      "status": 200,
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "271516",
+        "content-type": "image/webp",
+        "date": "Thu, 05 Nov 2026 04:12:00 GMT",
+        "keep-alive": "timeout=5",
+        "x-content-type-options": "nosniff"
+      },
+      "bytes": 271516
+    },
+    {
+      "path": "/assets/tanphat/music/music1.mp3",
+      "requestHeaders": {
+        "Range": "bytes=0-1023"
+      },
+      "status": 200,
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "1562815",
+        "content-type": "audio/mpeg",
+        "date": "Thu, 05 Nov 2026 04:12:00 GMT",
+        "keep-alive": "timeout=5",
+        "x-content-type-options": "nosniff"
+      },
+      "bytes": 1562815
+    }
+  ],
+  "rateLimit": {
+    "requestNumber": 181,
+    "status": 429,
+    "message": "Thao tác hơi nhanh. Mời bạn thử lại sau một chút."
+  },
+  "frames": [
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 14
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 15
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 16
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 17
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 18
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 19
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 20
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 21
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 0
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 2
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 3
+    },
+    {
+      "image": "assets/seating-direction/man.webp",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 40
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 32
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 33
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 45
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 44
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 22
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 23
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 5
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 6
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 7
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 8
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 24
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 26
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 27
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 28
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 29
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 25
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 41
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 45
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 42
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 43
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 24
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 25
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 34
+    },
+    {
+      "image": "assets/animation-v3/transitions-2776f8aac62d.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 46
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 44
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 40
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 28
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 29
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 41
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 31
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 17
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 9
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 10
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 11
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 38
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/incense-2e23dfe33319.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 27
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 43
+    },
+    {
+      "image": "assets/animation-v3/man-ritual-ca49b87c3b99.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/man-ritual-ca49b87c3b99.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 4
+    },
+    {
+      "image": "assets/visual-v2/lam-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/man-bow-petal-f9861f37b3e4.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/man-ritual-ca49b87c3b99.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/man-ritual-ca49b87c3b99.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/man-ritual-ca49b87c3b99.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 37
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 36
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/directional-walk-7e5dc65f63fd.webp",
+      "columns": 4,
+      "rows": 4,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 47
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 46
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 42
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 32
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 33
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 39
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 39
+    },
+    {
+      "image": "assets/animation-v3/man-closes-ff6b1f48cf06.webp",
+      "columns": 8,
+      "rows": 6,
+      "cell": 35
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 37
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/walk-rear-78213b858f96.webp",
+      "columns": 4,
+      "rows": 3,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/expanded-directions-3de46c2a6c6e.webp",
+      "columns": 4,
+      "rows": 12,
+      "cell": 36
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 14
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 15
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 16
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 17
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 18
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 19
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 20
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 21
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 0
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 2
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 3
+    },
+    {
+      "image": "assets/seating-direction/woman.webp",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 64
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 60
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 61
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 54
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 55
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 48
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 49
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 50
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 51
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 53
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 52
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 59
+    },
+    {
+      "image": "assets/animation-v3/woman-closes-d73f98b2cb55.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/woman-closes-d73f98b2cb55.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 22
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 23
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 5
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 6
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 7
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 8
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 24
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 26
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 27
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 28
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 29
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 25
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/woman-movement-a660a3688bbd.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 71
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 70
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 69
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 68
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 32
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 33
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 65
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 66
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 67
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 34
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 36
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 37
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 38
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 39
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 41
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 9
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 10
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 11
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 26
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/woman-closes-d73f98b2cb55.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/woman-closes-d73f98b2cb55.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/woman-incense-8fea45e46523.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 35
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 46
+    },
+    {
+      "image": "assets/animation-v3/woman-ritual-c3b3fcf28fda.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/woman-ritual-c3b3fcf28fda.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 4
+    },
+    {
+      "image": "assets/visual-v2/woman-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/woman-bow-petal-8e0e19871878.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 47
+    },
+    {
+      "image": "assets/animation-v3/woman-ritual-c3b3fcf28fda.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/woman-ritual-c3b3fcf28fda.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/woman-ritual-c3b3fcf28fda.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 57
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 56
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 45
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 62
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 58
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 42
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 63
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 24
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 25
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 30
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 31
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 29
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 40
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 44
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 43
+    },
+    {
+      "image": "assets/animation-v3/woman-gaits-c898b9768d8d.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 28
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 14
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 15
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 16
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 17
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 18
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 19
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 20
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 21
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 0
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 2
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 3
+    },
+    {
+      "image": "assets/seating-direction/granny.webp",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 64
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 60
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 61
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 54
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 55
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 48
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 49
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 50
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 51
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 53
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 52
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 59
+    },
+    {
+      "image": "assets/animation-v3/granny-closes-36dbcee69982.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/granny-closes-36dbcee69982.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 22
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 23
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 5
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 6
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 7
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 8
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 24
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 26
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 27
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 28
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 29
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 25
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/granny-movement-f68fcbe7207f.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 71
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 70
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 69
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 68
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 32
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 33
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 65
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 66
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 67
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 34
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 36
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 37
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 38
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 39
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 41
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 9
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 10
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 11
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 26
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/granny-closes-36dbcee69982.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/granny-closes-36dbcee69982.webp",
+      "columns": 8,
+      "rows": 4,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 4
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 5
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 6
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 7
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 10
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 12
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/granny-incense-7d8518c76879.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 35
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 46
+    },
+    {
+      "image": "assets/animation-v3/granny-ritual-bb6ffb1e27e3.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 3
+    },
+    {
+      "image": "assets/animation-v3/granny-ritual-bb6ffb1e27e3.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 4
+    },
+    {
+      "image": "assets/visual-v2/granny-atlas.webp",
+      "columns": 6,
+      "rows": 5,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 19
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/granny-bow-petal-659e0a79c9fe.webp",
+      "columns": 4,
+      "rows": 6,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 47
+    },
+    {
+      "image": "assets/animation-v3/granny-ritual-bb6ffb1e27e3.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 0
+    },
+    {
+      "image": "assets/animation-v3/granny-ritual-bb6ffb1e27e3.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 1
+    },
+    {
+      "image": "assets/animation-v3/granny-ritual-bb6ffb1e27e3.webp",
+      "columns": 3,
+      "rows": 2,
+      "cell": 2
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 20
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 21
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 22
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 23
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 17
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 18
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 13
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 14
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 57
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 16
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 8
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 9
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 56
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 45
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 11
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 62
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 58
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 42
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 63
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 24
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 25
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 30
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 31
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 15
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 29
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 40
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 44
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 43
+    },
+    {
+      "image": "assets/animation-v3/granny-gaits-13663c2b5cb0.webp",
+      "columns": 8,
+      "rows": 9,
+      "cell": 28
+    }
+  ]
+}

@@ -63,5 +63,5 @@ export const roomAssets={
   effect:(kind:string)=>`${base()}assets/visual-v2/${kind}.webp`,
 };
 export function essentialAssets(layout:SceneLayoutId) {
-  return [roomAssets.hall[layout],...(['man','woman','granny'] as const).flatMap(skin=>[roomAssets.atlas(skin),roomAssets.frameImage(characterManifest(skin).poseAssets.seatedRear.image)]),roomAssets.effect('cushion'),...['incense','lotus','bell','petal','mallet','urn','flower-station','bell-station'].map(roomAssets.effect)];
+  return [roomAssets.hall[layout],...(['man','woman','granny'] as const).map(skin=>roomAssets.frameImage(characterManifest(skin).poseAssets.seatedRear.image)),roomAssets.effect('cushion'),...['incense','lotus','bell','petal','mallet','urn','flower-station','bell-station'].map(roomAssets.effect)];
 }
